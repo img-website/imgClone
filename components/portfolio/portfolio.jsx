@@ -44,54 +44,54 @@ const PortfolioSection = () => {
             [&_.tagline]:mt-1 [&_.tagline]:text-sm [&_.tagline]:md:text-sm [&_.tagline]:opacity-80"
       >
         <SwiperSlide>
-          <div class="swiperInner">
+          <div className="swiperInner">
                 <div>
                     <Image width="256" height="320" src="https://images.unsplash.com/photo-1695654402912-b2945fe32cab?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Guidely" />
                 </div>
-                <div class="content before:from-fuchsia-900/70 before:to-fuchsia-900/70">
-                    <div class="contentInner">
-                        <div class="title">Getondoor</div>
-                        <div class="tagline">grocery delevery App</div>
+                <div className="content before:from-fuchsia-900/70 before:to-fuchsia-900/70">
+                    <div className="contentInner">
+                        <div className="title">Getondoor</div>
+                        <div className="tagline">grocery delevery App</div>
                     </div>
                 </div>
             </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div class="swiperInner">
+          <div className="swiperInner">
                 <div>
                     <Image width="256" height="320" src="https://images.unsplash.com/photo-1530720018-fe47e7c2c772?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Guidely" />
                 </div>
-                <div class="content before:from-fuchsia-900/70 before:to-fuchsia-900/70">
-                    <div class="contentInner">
-                        <div class="title">Guidely</div>
-                        <div class="tagline">Exam Preparation App</div>
+                <div className="content before:from-fuchsia-900/70 before:to-fuchsia-900/70">
+                    <div className="contentInner">
+                        <div className="title">Guidely</div>
+                        <div className="tagline">Exam Preparation App</div>
                     </div>
                 </div>
             </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div class="swiperInner">
+          <div className="swiperInner">
                 <div>
                     <Image width="256" height="320" src="https://images.unsplash.com/photo-1637666062717-1c6bcfa4a4df?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Guidely" />
                 </div>
-                <div class="content before:from-fuchsia-900/70 before:to-fuchsia-900/70">
-                    <div class="contentInner">
-                        <div class="title">Musculier</div>
-                        <div class="tagline">Gym mangment app App</div>
+                <div className="content before:from-fuchsia-900/70 before:to-fuchsia-900/70">
+                    <div className="contentInner">
+                        <div className="title">Musculier</div>
+                        <div className="tagline">Gym mangment app App</div>
                     </div>
                 </div>
             </div>
         </SwiperSlide>
         
         <SwiperSlide>
-          <div class="swiperInner">
+          <div className="swiperInner">
                 <div>
                     <Image width="256" height="320" src="https://images.unsplash.com/photo-1530720018-fe47e7c2c772?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Guidely" />
                 </div>
-                <div class="content before:from-fuchsia-900/70 before:to-fuchsia-900/70">
-                    <div class="contentInner">
-                        <div class="title">Guidely</div>
-                        <div class="tagline">Exam Preparation App</div>
+                <div className="content before:from-fuchsia-900/70 before:to-fuchsia-900/70">
+                    <div className="contentInner">
+                        <div className="title">Guidely</div>
+                        <div className="tagline">Exam Preparation App</div>
                     </div>
                 </div>
             </div>
