@@ -281,7 +281,7 @@ export default function Home() {
                 <div className="container py-5 bg-white text-center mt-[-126px] !pb-0 md:p-5 sm:p-8 p-5 mx-auto max-w-7xl px-6 lg:px-8 relative z-10">
                     <div className="text-black font-bold lg:text-2xl md:text-xl sm:text-lg text-base mt-3">Avail Exclusive Development Services In Just A Click!</div>
                     <div className="md:text-base text-sm text-black/70 mt-3">
-                        Discover your way to unparalleled growth and creativity while choosing IMG Global Inftech's growth-driven development services. Seamlessly transform your business ideas into reality with just a click, because innovation starts here.
+                        Discover your way to unparalleled growth and creativity while choosing IMG Global Inftechs growth-driven development services. Seamlessly transform your business ideas into reality with just a click, because innovation starts here.
                     </div>
                 </div>
             <div className="bg-[#0E508A] py-12 ">
@@ -882,7 +882,7 @@ export default function Home() {
                                 </svg>
                             </div>
                             <div className="mx-auto max-w-3xl lg:mx-0 lg:flex-auto py-6 md:py-8 lg:py-16 lg:text-left relative z-[1]">
-                                <div className="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight text-white font-normal text-center empty:hidden">            Let's turn your <span className="font-bold bg-gradient-to-r from-gray-100 via-[#C10913] to-gray-100 bg-clip-text text-white">business idea into reality</span>
+                                <div className="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight text-white font-normal text-center empty:hidden">            Lets turn your <span className="font-bold bg-gradient-to-r from-gray-100 via-[#C10913] to-gray-100 bg-clip-text text-white">business idea into reality</span>
                                 </div>
                                 <p className="mt-6 text-base md:text-lg md:leading-8 text-gray-300 text-center empty:hidden">            Do you want to experience the best-in-class quality mobile apps? Send us your inquiry and one of our executives will catch you up in no time by Call, Email or Skype.
                                 </p>
