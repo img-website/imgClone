@@ -3,7 +3,7 @@ import React from 'react'
 function mohit() {
   return (
 <>
-<div className="relative bg-gradient-to-b via-gray-800 from-gray-900 py-6 md:py-8 lg:py-16">
+{/* <div className="relative bg-gradient-to-b via-gray-800 from-gray-900 py-6 md:py-8 lg:py-16">
     <div className="text-black/20">
         <svg aria-hidden="true" className="absolute inset-0 h-full w-full">
             <defs>
@@ -111,9 +111,9 @@ function mohit() {
                         <div className="w-8 md:w-12">
                             <svg width="48" height="52" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M17.3102 11.8541V11.0518C17.309 11.0429 17.3072 11.0341 17.305 11.0254C17.6674 10.8161 17.9578 10.5017 18.1378 10.1239L18.1419 10.1161C18.2734 9.84318 18.3427 9.54445 18.3447 9.24148C18.3465 8.77179 18.188 8.31553 17.8955 7.94804C17.603 7.58055 17.1939 7.3238 16.7358 7.22018C16.2777 7.11656 15.7979 7.17227 15.3757 7.3781C14.9535 7.58394 14.6142 7.9276 14.4137 8.35234C14.4095 8.35855 14.4069 8.36527 14.4033 8.37148C14.181 8.83811 14.1442 9.37179 14.3004 9.86452C14.4566 10.3572 14.7942 10.7722 15.2449 11.0254C15.2432 11.0342 15.242 11.043 15.2412 11.0518V11.9875C15.1757 12.0232 15.1134 12.0646 15.055 12.1111L13.4687 13.3794H12.1378C11.8634 13.3794 11.6003 13.4884 11.4063 13.6824C11.2123 13.8764 11.1033 14.1395 11.1033 14.4139C11.1043 14.596 11.1539 14.7746 11.2471 14.9311H8.89055C8.98372 14.7746 9.03336 14.596 9.03435 14.4139C9.03435 14.1395 8.92536 13.8764 8.73135 13.6824C8.53735 13.4884 8.27423 13.3794 7.99987 13.3794H6.669L5.08262 12.1117C5.02432 12.0649 4.96201 12.0233 4.89642 11.9875V11.0518C4.89518 11.0429 4.89346 11.0341 4.89124 11.0254C5.342 10.7722 5.67968 10.3571 5.83593 9.8643C5.99218 9.37145 5.95531 8.83765 5.7328 8.37096C5.72918 8.36476 5.72659 8.35803 5.72297 8.35234C5.48914 7.85781 5.06844 7.47641 4.55341 7.29206C4.03838 7.10771 3.47121 7.1355 2.97668 7.36933C2.48214 7.60315 2.10074 8.02385 1.91639 8.53888C1.82511 8.7939 1.78495 9.0644 1.79821 9.33494C1.81147 9.60547 1.87788 9.87075 1.99366 10.1156L1.9978 10.1234C2.17827 10.5017 2.4694 10.8163 2.83262 11.0254C2.83041 11.0341 2.82869 11.0429 2.82745 11.0518V11.8541C2.53546 11.9137 2.27302 12.0723 2.08452 12.3031C1.89602 12.5339 1.79303 12.8228 1.79297 13.1208V16.7415C1.79297 16.8101 1.82022 16.8759 1.86872 16.9244C1.91722 16.9729 1.983 17.0001 2.05159 17.0001H18.0861C18.1547 17.0001 18.2204 16.9729 18.2689 16.9244C18.3174 16.8759 18.3447 16.8101 18.3447 16.7415V13.1208C18.3446 12.8228 18.2416 12.5339 18.0531 12.3031C17.8646 12.0723 17.6022 11.9137 17.3102 11.8541ZM16.2757 7.68976C16.6873 7.68976 17.082 7.85324 17.373 8.14425C17.664 8.43525 17.8275 8.82994 17.8275 9.24148C17.8257 9.41809 17.7935 9.59307 17.7323 9.75872H17.3102V8.98286C17.3102 8.92324 17.2896 8.86545 17.2519 8.81926C17.2142 8.77308 17.1617 8.74134 17.1033 8.72941L15.0343 8.31976C15.1776 8.125 15.3645 7.96654 15.5801 7.85713C15.7957 7.74772 16.034 7.69039 16.2757 7.68976ZM14.724 9.24148C14.7261 9.09134 14.7504 8.94233 14.7959 8.79924L16.793 9.19493V10.0173C16.793 10.0859 16.8202 10.1517 16.8687 10.2002C16.9172 10.2487 16.983 10.276 17.0516 10.276H17.424C17.2152 10.5102 16.94 10.6753 16.6351 10.7494C16.3302 10.8235 16.0099 10.8031 15.7169 10.6908C15.4239 10.5785 15.1719 10.3797 14.9946 10.1209C14.8172 9.86199 14.7229 9.55528 14.724 9.24148ZM16.793 11.237V11.8277H15.8619C15.8268 11.8277 15.7926 11.8339 15.7585 11.8365V11.237C16.0964 11.3349 16.4551 11.3349 16.793 11.237ZM12.1378 13.8967H12.655V14.9311H12.1378C12.0006 14.9311 11.8691 14.8766 11.7721 14.7796C11.675 14.6826 11.6206 14.5511 11.6206 14.4139C11.6206 14.2767 11.675 14.1452 11.7721 14.0481C11.8691 13.9511 12.0006 13.8967 12.1378 13.8967ZM7.48262 13.8967H7.99987C8.13705 13.8967 8.26861 13.9511 8.36561 14.0481C8.46261 14.1452 8.51711 14.2767 8.51711 14.4139C8.51711 14.5511 8.46261 14.6826 8.36561 14.7796C8.26861 14.8766 8.13705 14.9311 7.99987 14.9311H7.48262V13.8967ZM2.31021 9.24148C2.3092 8.91517 2.4114 8.5969 2.60219 8.33217C2.79297 8.06745 3.06258 7.86983 3.37246 7.76757C3.68233 7.66531 4.0166 7.66365 4.32748 7.76283C4.63835 7.862 4.90991 8.05694 5.10331 8.31976L3.03435 8.72941C2.97593 8.74134 2.92343 8.77308 2.88573 8.81926C2.84803 8.86545 2.82744 8.92324 2.82745 8.98286V9.75872H2.40538C2.34411 9.59307 2.31191 9.41809 2.31021 9.24148ZM2.71366 10.276H3.08607C3.15466 10.276 3.22044 10.2487 3.26894 10.2002C3.31745 10.1517 3.34469 10.0859 3.34469 10.0173V9.19493L5.34176 8.79924C5.38729 8.94233 5.41152 9.09134 5.41366 9.24148C5.4148 9.55528 5.32042 9.86199 5.14308 10.1209C4.96573 10.3797 4.7138 10.5785 4.42077 10.6908C4.12775 10.8031 3.80749 10.8235 3.50257 10.7494C3.19765 10.6753 2.92249 10.5102 2.71366 10.276ZM4.37918 11.237V11.8365C4.34452 11.8339 4.31038 11.8277 4.27573 11.8277H3.34469V11.237C3.51326 11.2835 3.68709 11.3082 3.86193 11.3104C4.03678 11.3082 4.21061 11.2835 4.37918 11.237ZM4.37918 15.1898V16.4829H2.31021V13.1208C2.31021 12.915 2.39195 12.7177 2.53745 12.5722C2.68296 12.4267 2.8803 12.3449 3.08607 12.3449H4.27573C4.45191 12.345 4.62284 12.405 4.76038 12.5151L6.41555 13.8408C6.46175 13.8774 6.51905 13.8971 6.57797 13.8967H6.96538V14.9311H6.2759L4.27573 13.4311C4.24856 13.4108 4.21764 13.3959 4.18474 13.3875C4.15184 13.3791 4.1176 13.3772 4.08398 13.382C4.05036 13.3868 4.01801 13.3982 3.98879 13.4155C3.95957 13.4328 3.93404 13.4557 3.91366 13.4829C3.89328 13.51 3.87845 13.5409 3.87003 13.5738C3.8616 13.6067 3.85973 13.641 3.86453 13.6746C3.86934 13.7082 3.88071 13.7406 3.89802 13.7698C3.91532 13.799 3.93821 13.8246 3.96538 13.8449L5.41366 14.9311H4.6378C4.56921 14.9311 4.50342 14.9584 4.45492 15.0069C4.40642 15.0554 4.37918 15.1212 4.37918 15.1898ZM15.2412 16.4829H4.89642V15.4484H15.2412V16.4829ZM17.8275 16.4829H15.7585V15.1898C15.7585 15.1212 15.7312 15.0554 15.6827 15.0069C15.6342 14.9584 15.5685 14.9311 15.4999 14.9311H14.724L16.1723 13.8449C16.1994 13.8246 16.2223 13.799 16.2396 13.7698C16.2569 13.7406 16.2683 13.7082 16.2731 13.6746C16.2779 13.641 16.2761 13.6067 16.2676 13.5738C16.2592 13.5409 16.2444 13.51 16.224 13.4829C16.2036 13.4557 16.1781 13.4328 16.1489 13.4155C16.1196 13.3982 16.0873 13.3868 16.0537 13.382C16.0201 13.3772 15.9858 13.3791 15.9529 13.3875C15.92 13.3959 15.8891 13.4108 15.8619 13.4311L13.8618 14.9311H13.1723V13.8967H13.5597C13.6185 13.8968 13.6756 13.8769 13.7216 13.8403L15.3768 12.5146C15.5147 12.4048 15.6857 12.345 15.8619 12.3449H17.0516C17.2574 12.3449 17.4547 12.4267 17.6002 12.5722C17.7457 12.7177 17.8275 12.915 17.8275 13.1208V16.4829Z" fill="white"></path>
-                                <path d="M6.39042 6.84321L6.65104 5.10573L5.41309 3.84607L7.15056 3.58544L7.95414 2L8.75772 3.58544L9.3224 3.67232" stroke="#36E079" stroke-width="0.434368" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M11.4287 3.71578L12.0585 3.60718L12.8621 2.04346L13.6657 3.60718L15.4032 3.88952L14.1652 5.12747L14.4259 6.88667" stroke="#36E079" stroke-width="0.434368" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M10.365 4.02002L11.3206 5.90952L13.4273 6.25702L11.9288 7.75559L12.2545 9.86227L10.365 8.88495L8.47553 9.86227L8.80131 7.75559L7.30273 6.25702L9.3877 5.90952L10.365 4.02002Z" stroke="#36E079" stroke-width="0.434368" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M6.39042 6.84321L6.65104 5.10573L5.41309 3.84607L7.15056 3.58544L7.95414 2L8.75772 3.58544L9.3224 3.67232" stroke="#36E079" strokeWidth="0.434368" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M11.4287 3.71578L12.0585 3.60718L12.8621 2.04346L13.6657 3.60718L15.4032 3.88952L14.1652 5.12747L14.4259 6.88667" stroke="#36E079" strokeWidth="0.434368" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M10.365 4.02002L11.3206 5.90952L13.4273 6.25702L11.9288 7.75559L12.2545 9.86227L10.365 8.88495L8.47553 9.86227L8.80131 7.75559L7.30273 6.25702L9.3877 5.90952L10.365 4.02002Z" stroke="#36E079" strokeWidth="0.434368" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
                             </svg>
                         </div>
                         <div className="grow sm:pl-3">
@@ -136,7 +136,7 @@ function mohit() {
                                     <input type="text" id="contactname" name="contactname" required="" className="block rounded-t-lg pr-2.5 ps-10 pb-2.5 pt-5 w-full text-sm bg-gray-700 border-0 border-b-2 appearance-none text-white border-gray-600 focus:border-gray-500 focus:outline-none focus:ring-0 peer [&amp;:user-invalid]:border-red-500" placeholder=" " />
                                     <label for="contactname" className="absolute text-sm text-gray-200 duration-300 transform -translate-y-4 scale-75 top-4 z-10 origin-[0] start-2.5 peer-focus:text-gray-400 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-4 peer-placeholder-shown:start-10 peer-focus:start-2.5">Full Name <span className="text-red-500 font-bold">*</span></label>
                                     <span className="absolute start-3 top-[1.45rem] text-gray-200 peer-placeholder-shown:top-[1.15rem] peer-focus:top-[1.45rem] duration-300 *:w-4 *:h-4">
-                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 496 512" xmlns="http://www.w3.org/2000/svg"><path d="M248 104c-53 0-96 43-96 96s43 96 96 96 96-43 96-96-43-96-96-96zm0 144c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48zm0-240C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 448c-49.7 0-95.1-18.3-130.1-48.4 14.9-23 40.4-38.6 69.6-39.5 20.8 6.4 40.6 9.6 60.5 9.6s39.7-3.1 60.5-9.6c29.2 1 54.7 16.5 69.6 39.5-35 30.1-80.4 48.4-130.1 48.4zm162.7-84.1c-24.4-31.4-62.1-51.9-105.1-51.9-10.2 0-26 9.6-57.6 9.6-31.5 0-47.4-9.6-57.6-9.6-42.9 0-80.6 20.5-105.1 51.9C61.9 339.2 48 299.2 48 256c0-110.3 89.7-200 200-200s200 89.7 200 200c0 43.2-13.9 83.2-37.3 115.9z"></path></svg>
+                                        <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 496 512" xmlns="http://www.w3.org/2000/svg"><path d="M248 104c-53 0-96 43-96 96s43 96 96 96 96-43 96-96-43-96-96-96zm0 144c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48zm0-240C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 448c-49.7 0-95.1-18.3-130.1-48.4 14.9-23 40.4-38.6 69.6-39.5 20.8 6.4 40.6 9.6 60.5 9.6s39.7-3.1 60.5-9.6c29.2 1 54.7 16.5 69.6 39.5-35 30.1-80.4 48.4-130.1 48.4zm162.7-84.1c-24.4-31.4-62.1-51.9-105.1-51.9-10.2 0-26 9.6-57.6 9.6-31.5 0-47.4-9.6-57.6-9.6-42.9 0-80.6 20.5-105.1 51.9C61.9 339.2 48 299.2 48 256c0-110.3 89.7-200 200-200s200 89.7 200 200c0 43.2-13.9 83.2-37.3 115.9z"></path></svg>
                                     </span>
                                     <span className="text-red-500 text-sm origin-left peer-[:user-invalid:focus]:scale-100 scale-0 peer-[:user-invalid:focus]:h-5 h-0 overflow-hidden block transition-all">Please Enter Full Name.</span>
                                 </div>
@@ -145,7 +145,7 @@ function mohit() {
                                     <input type="email" id="useremail" name="contactemail" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" className="block rounded-t-lg pr-2.5 ps-10 pb-2.5 pt-5 w-full text-sm bg-gray-700 border-0 border-b-2 appearance-none text-white border-gray-600 focus:border-gray-500 focus:outline-none focus:ring-0 peer [&amp;:user-invalid]:border-red-500" placeholder=" " />
                                     <label for="useremail" className="absolute text-sm text-gray-200 duration-300 transform -translate-y-4 scale-75 top-4 z-10 origin-[0] start-2.5 peer-focus:text-gray-400 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-4 peer-placeholder-shown:start-10 peer-focus:start-2.5">Email ID</label>
                                     <span className="absolute start-3 top-[1.45rem] text-gray-200 peer-placeholder-shown:top-[1.15rem] peer-focus:top-[1.45rem] duration-300 *:w-4 *:h-4">
-                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 14H4V8l8 5 8-5v10zm-8-7L4 6h16l-8 5z"></path></svg>
+                                        <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 14H4V8l8 5 8-5v10zm-8-7L4 6h16l-8 5z"></path></svg>
                                     </span>
                                     <span className="text-red-500 text-sm origin-left peer-[:user-invalid:focus]:scale-100 scale-0 peer-[:user-invalid:focus]:h-5 h-0 overflow-hidden block transition-all">Please enter a valid email id.</span>
                                 </div>
@@ -164,7 +164,7 @@ function mohit() {
                                     </select>
                                     <label for="app" className="absolute text-sm text-gray-200 duration-300 transform -translate-y-4 scale-75 top-4 z-10 origin-[0] start-2.5 peer-focus:text-gray-400 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-4 peer-placeholder-shown:start-10 peer-focus:start-2.5">Looking For <span className="text-red-500 font-bold">*</span></label>
                                     <span className="absolute start-3 top-[1.45rem] text-gray-200 peer-placeholder-shown:top-[1.15rem] peer-focus:top-[1.45rem] duration-300 *:w-4 *:h-4">
-                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="m7.854 10.854 3.792 3.792a.5.5 0 0 0 .708 0l3.793-3.792a.5.5 0 0 0-.354-.854H8.207a.5.5 0 0 0-.353.854Z"></path><path d="M2 3.75C2 2.784 2.784 2 3.75 2h16.5c.966 0 1.75.784 1.75 1.75v16.5A1.75 1.75 0 0 1 20.25 22H3.75A1.75 1.75 0 0 1 2 20.25Zm1.75-.25a.25.25 0 0 0-.25.25v16.5c0 .138.112.25.25.25h16.5a.25.25 0 0 0 .25-.25V3.75a.25.25 0 0 0-.25-.25Z"></path></svg>
+                                        <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="m7.854 10.854 3.792 3.792a.5.5 0 0 0 .708 0l3.793-3.792a.5.5 0 0 0-.354-.854H8.207a.5.5 0 0 0-.353.854Z"></path><path d="M2 3.75C2 2.784 2.784 2 3.75 2h16.5c.966 0 1.75.784 1.75 1.75v16.5A1.75 1.75 0 0 1 20.25 22H3.75A1.75 1.75 0 0 1 2 20.25Zm1.75-.25a.25.25 0 0 0-.25.25v16.5c0 .138.112.25.25.25h16.5a.25.25 0 0 0 .25-.25V3.75a.25.25 0 0 0-.25-.25Z"></path></svg>
                                     </span>
                                     <span className="text-red-500 text-sm origin-left peer-[:user-invalid:focus]:scale-100 scale-0 peer-[:user-invalid:focus]:h-5 h-0 overflow-hidden block transition-all">Please select a valid value.</span>
                                 </div>
@@ -172,7 +172,7 @@ function mohit() {
                                     <textarea id="requirements" name="mmessage" minlength="10" maxlength="2000" className="block rounded-t-lg pr-2.5 ps-10 pb-2.5 pt-5 w-full text-sm bg-gray-700 border-0 border-b-2 appearance-none text-white border-gray-600 focus:border-gray-500 focus:outline-none focus:ring-0 peer [&amp;:user-invalid]:border-red-500" placeholder=" "></textarea>
                                     <label for="requirements" className="absolute text-sm text-gray-200 duration-300 transform -translate-y-4 scale-75 top-4 z-10 origin-[0] start-2.5 peer-focus:text-gray-400 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-4 peer-placeholder-shown:start-10 peer-focus:start-2.5">Your Message / Requirements</label>
                                     <span className="absolute start-3 top-[1.45rem] text-gray-200 peer-placeholder-shown:top-[1.15rem] peer-focus:top-[1.45rem] duration-300 *:w-4 *:h-4">
-                                        <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg>
+                                        <svg stroke="currentColor" fill="none" strokeWidth="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg>
                                     </span>
                                     <span className="text-red-500 text-sm origin-left peer-[:user-invalid:focus]:scale-100 scale-0 peer-[:user-invalid:focus]:h-5 h-0 overflow-hidden block transition-all">Please enter your query.</span>
                                 </div>
@@ -208,7 +208,7 @@ function mohit() {
     <div className="w-auto">
          <div className="w-full inline-flex items-center gap-1 justify-center">
             <span className="size-5 inline-block text-sm">
-                <svg className="size-full" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g><path d="M16.6,20.463a1.5,1.5,0,0,1-.7-.174l-3.666-1.927a.5.5,0,0,0-.464,0L8.1,20.289a1.5,1.5,0,0,1-2.177-1.581l.7-4.082a.5.5,0,0,0-.143-.442L3.516,11.293a1.5,1.5,0,0,1,.832-2.559l4.1-.6a.5.5,0,0,0,.376-.273l1.833-3.714a1.5,1.5,0,0,1,2.69,0l1.833,3.714a.5.5,0,0,0,.376.274l4.1.6a1.5,1.5,0,0,1,.832,2.559l-2.965,2.891a.5.5,0,0,0-.144.442l.7,4.082A1.5,1.5,0,0,1,16.6,20.463Zm-3.9-2.986L16.364,19.4a.5.5,0,0,0,.725-.527l-.7-4.082a1.5,1.5,0,0,1,.432-1.328l2.965-2.89a.5.5,0,0,0-.277-.853l-4.1-.6a1.5,1.5,0,0,1-1.13-.821L12.449,4.594a.516.516,0,0,0-.9,0L9.719,8.308a1.5,1.5,0,0,1-1.13.82l-4.1.6a.5.5,0,0,0-.277.853L7.18,13.468A1.5,1.5,0,0,1,7.611,14.8l-.7,4.082a.5.5,0,0,0,.726.527L11.3,17.477a1.5,1.5,0,0,1,1.4,0Z"></path></g></svg>
+                <svg className="size-full" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g><path d="M16.6,20.463a1.5,1.5,0,0,1-.7-.174l-3.666-1.927a.5.5,0,0,0-.464,0L8.1,20.289a1.5,1.5,0,0,1-2.177-1.581l.7-4.082a.5.5,0,0,0-.143-.442L3.516,11.293a1.5,1.5,0,0,1,.832-2.559l4.1-.6a.5.5,0,0,0,.376-.273l1.833-3.714a1.5,1.5,0,0,1,2.69,0l1.833,3.714a.5.5,0,0,0,.376.274l4.1.6a1.5,1.5,0,0,1,.832,2.559l-2.965,2.891a.5.5,0,0,0-.144.442l.7,4.082A1.5,1.5,0,0,1,16.6,20.463Zm-3.9-2.986L16.364,19.4a.5.5,0,0,0,.725-.527l-.7-4.082a1.5,1.5,0,0,1,.432-1.328l2.965-2.89a.5.5,0,0,0-.277-.853l-4.1-.6a1.5,1.5,0,0,1-1.13-.821L12.449,4.594a.516.516,0,0,0-.9,0L9.719,8.308a1.5,1.5,0,0,1-1.13.82l-4.1.6a.5.5,0,0,0-.277.853L7.18,13.468A1.5,1.5,0,0,1,7.611,14.8l-.7,4.082a.5.5,0,0,0,.726.527L11.3,17.477a1.5,1.5,0,0,1,1.4,0Z"></path></g></svg>
             </span>
             
             <span>4.9/5</span>
@@ -232,7 +232,7 @@ function mohit() {
              <div className="w-auto">
                 <div className="w-full inline-flex items-center gap-1 justify-center">
                     <span className="size-5 inline-block text-sm">
-                        <svg className="size-full" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g><path d="M16.6,20.463a1.5,1.5,0,0,1-.7-.174l-3.666-1.927a.5.5,0,0,0-.464,0L8.1,20.289a1.5,1.5,0,0,1-2.177-1.581l.7-4.082a.5.5,0,0,0-.143-.442L3.516,11.293a1.5,1.5,0,0,1,.832-2.559l4.1-.6a.5.5,0,0,0,.376-.273l1.833-3.714a1.5,1.5,0,0,1,2.69,0l1.833,3.714a.5.5,0,0,0,.376.274l4.1.6a1.5,1.5,0,0,1,.832,2.559l-2.965,2.891a.5.5,0,0,0-.144.442l.7,4.082A1.5,1.5,0,0,1,16.6,20.463Zm-3.9-2.986L16.364,19.4a.5.5,0,0,0,.725-.527l-.7-4.082a1.5,1.5,0,0,1,.432-1.328l2.965-2.89a.5.5,0,0,0-.277-.853l-4.1-.6a1.5,1.5,0,0,1-1.13-.821L12.449,4.594a.516.516,0,0,0-.9,0L9.719,8.308a1.5,1.5,0,0,1-1.13.82l-4.1.6a.5.5,0,0,0-.277.853L7.18,13.468A1.5,1.5,0,0,1,7.611,14.8l-.7,4.082a.5.5,0,0,0,.726.527L11.3,17.477a1.5,1.5,0,0,1,1.4,0Z"></path></g></svg>
+                        <svg className="size-full" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g><path d="M16.6,20.463a1.5,1.5,0,0,1-.7-.174l-3.666-1.927a.5.5,0,0,0-.464,0L8.1,20.289a1.5,1.5,0,0,1-2.177-1.581l.7-4.082a.5.5,0,0,0-.143-.442L3.516,11.293a1.5,1.5,0,0,1,.832-2.559l4.1-.6a.5.5,0,0,0,.376-.273l1.833-3.714a1.5,1.5,0,0,1,2.69,0l1.833,3.714a.5.5,0,0,0,.376.274l4.1.6a1.5,1.5,0,0,1,.832,2.559l-2.965,2.891a.5.5,0,0,0-.144.442l.7,4.082A1.5,1.5,0,0,1,16.6,20.463Zm-3.9-2.986L16.364,19.4a.5.5,0,0,0,.725-.527l-.7-4.082a1.5,1.5,0,0,1,.432-1.328l2.965-2.89a.5.5,0,0,0-.277-.853l-4.1-.6a1.5,1.5,0,0,1-1.13-.821L12.449,4.594a.516.516,0,0,0-.9,0L9.719,8.308a1.5,1.5,0,0,1-1.13.82l-4.1.6a.5.5,0,0,0-.277.853L7.18,13.468A1.5,1.5,0,0,1,7.611,14.8l-.7,4.082a.5.5,0,0,0,.726.527L11.3,17.477a1.5,1.5,0,0,1,1.4,0Z"></path></g></svg>
                     </span>
                     <span>4.9/5</span>
                 </div>
@@ -243,7 +243,7 @@ function mohit() {
             <div className="w-auto">
                 <div className="w-full inline-flex items-center gap-1 justify-center">
                     <span className="size-5 inline-block text-sm">
-                        <svg className="size-full" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g><path d="M16.6,20.463a1.5,1.5,0,0,1-.7-.174l-3.666-1.927a.5.5,0,0,0-.464,0L8.1,20.289a1.5,1.5,0,0,1-2.177-1.581l.7-4.082a.5.5,0,0,0-.143-.442L3.516,11.293a1.5,1.5,0,0,1,.832-2.559l4.1-.6a.5.5,0,0,0,.376-.273l1.833-3.714a1.5,1.5,0,0,1,2.69,0l1.833,3.714a.5.5,0,0,0,.376.274l4.1.6a1.5,1.5,0,0,1,.832,2.559l-2.965,2.891a.5.5,0,0,0-.144.442l.7,4.082A1.5,1.5,0,0,1,16.6,20.463Zm-3.9-2.986L16.364,19.4a.5.5,0,0,0,.725-.527l-.7-4.082a1.5,1.5,0,0,1,.432-1.328l2.965-2.89a.5.5,0,0,0-.277-.853l-4.1-.6a1.5,1.5,0,0,1-1.13-.821L12.449,4.594a.516.516,0,0,0-.9,0L9.719,8.308a1.5,1.5,0,0,1-1.13.82l-4.1.6a.5.5,0,0,0-.277.853L7.18,13.468A1.5,1.5,0,0,1,7.611,14.8l-.7,4.082a.5.5,0,0,0,.726.527L11.3,17.477a1.5,1.5,0,0,1,1.4,0Z"></path></g></svg>
+                        <svg className="size-full" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g><path d="M16.6,20.463a1.5,1.5,0,0,1-.7-.174l-3.666-1.927a.5.5,0,0,0-.464,0L8.1,20.289a1.5,1.5,0,0,1-2.177-1.581l.7-4.082a.5.5,0,0,0-.143-.442L3.516,11.293a1.5,1.5,0,0,1,.832-2.559l4.1-.6a.5.5,0,0,0,.376-.273l1.833-3.714a1.5,1.5,0,0,1,2.69,0l1.833,3.714a.5.5,0,0,0,.376.274l4.1.6a1.5,1.5,0,0,1,.832,2.559l-2.965,2.891a.5.5,0,0,0-.144.442l.7,4.082A1.5,1.5,0,0,1,16.6,20.463Zm-3.9-2.986L16.364,19.4a.5.5,0,0,0,.725-.527l-.7-4.082a1.5,1.5,0,0,1,.432-1.328l2.965-2.89a.5.5,0,0,0-.277-.853l-4.1-.6a1.5,1.5,0,0,1-1.13-.821L12.449,4.594a.516.516,0,0,0-.9,0L9.719,8.308a1.5,1.5,0,0,1-1.13.82l-4.1.6a.5.5,0,0,0-.277.853L7.18,13.468A1.5,1.5,0,0,1,7.611,14.8l-.7,4.082a.5.5,0,0,0,.726.527L11.3,17.477a1.5,1.5,0,0,1,1.4,0Z"></path></g></svg>
                     </span>
                     <span>4.6/5</span>
                 </div>
@@ -254,7 +254,7 @@ function mohit() {
             <div className="w-auto">
                 <div className="w-full inline-flex items-center gap-1 justify-center">
                     <span className="size-5 inline-block text-sm">
-                        <svg className="size-full" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g><path d="M16.6,20.463a1.5,1.5,0,0,1-.7-.174l-3.666-1.927a.5.5,0,0,0-.464,0L8.1,20.289a1.5,1.5,0,0,1-2.177-1.581l.7-4.082a.5.5,0,0,0-.143-.442L3.516,11.293a1.5,1.5,0,0,1,.832-2.559l4.1-.6a.5.5,0,0,0,.376-.273l1.833-3.714a1.5,1.5,0,0,1,2.69,0l1.833,3.714a.5.5,0,0,0,.376.274l4.1.6a1.5,1.5,0,0,1,.832,2.559l-2.965,2.891a.5.5,0,0,0-.144.442l.7,4.082A1.5,1.5,0,0,1,16.6,20.463Zm-3.9-2.986L16.364,19.4a.5.5,0,0,0,.725-.527l-.7-4.082a1.5,1.5,0,0,1,.432-1.328l2.965-2.89a.5.5,0,0,0-.277-.853l-4.1-.6a1.5,1.5,0,0,1-1.13-.821L12.449,4.594a.516.516,0,0,0-.9,0L9.719,8.308a1.5,1.5,0,0,1-1.13.82l-4.1.6a.5.5,0,0,0-.277.853L7.18,13.468A1.5,1.5,0,0,1,7.611,14.8l-.7,4.082a.5.5,0,0,0,.726.527L11.3,17.477a1.5,1.5,0,0,1,1.4,0Z"></path></g></svg>
+                        <svg className="size-full" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g><path d="M16.6,20.463a1.5,1.5,0,0,1-.7-.174l-3.666-1.927a.5.5,0,0,0-.464,0L8.1,20.289a1.5,1.5,0,0,1-2.177-1.581l.7-4.082a.5.5,0,0,0-.143-.442L3.516,11.293a1.5,1.5,0,0,1,.832-2.559l4.1-.6a.5.5,0,0,0,.376-.273l1.833-3.714a1.5,1.5,0,0,1,2.69,0l1.833,3.714a.5.5,0,0,0,.376.274l4.1.6a1.5,1.5,0,0,1,.832,2.559l-2.965,2.891a.5.5,0,0,0-.144.442l.7,4.082A1.5,1.5,0,0,1,16.6,20.463Zm-3.9-2.986L16.364,19.4a.5.5,0,0,0,.725-.527l-.7-4.082a1.5,1.5,0,0,1,.432-1.328l2.965-2.89a.5.5,0,0,0-.277-.853l-4.1-.6a1.5,1.5,0,0,1-1.13-.821L12.449,4.594a.516.516,0,0,0-.9,0L9.719,8.308a1.5,1.5,0,0,1-1.13.82l-4.1.6a.5.5,0,0,0-.277.853L7.18,13.468A1.5,1.5,0,0,1,7.611,14.8l-.7,4.082a.5.5,0,0,0,.726.527L11.3,17.477a1.5,1.5,0,0,1,1.4,0Z"></path></g></svg>
                     </span>
                     <span>4.8/5</span>
                 </div>
@@ -265,7 +265,7 @@ function mohit() {
             <div className="w-auto">
                 <div className="w-full inline-flex items-center gap-1 justify-center">
                     <span className="size-5 inline-block text-sm">
-                        <svg className="size-full" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g><path d="M16.6,20.463a1.5,1.5,0,0,1-.7-.174l-3.666-1.927a.5.5,0,0,0-.464,0L8.1,20.289a1.5,1.5,0,0,1-2.177-1.581l.7-4.082a.5.5,0,0,0-.143-.442L3.516,11.293a1.5,1.5,0,0,1,.832-2.559l4.1-.6a.5.5,0,0,0,.376-.273l1.833-3.714a1.5,1.5,0,0,1,2.69,0l1.833,3.714a.5.5,0,0,0,.376.274l4.1.6a1.5,1.5,0,0,1,.832,2.559l-2.965,2.891a.5.5,0,0,0-.144.442l.7,4.082A1.5,1.5,0,0,1,16.6,20.463Zm-3.9-2.986L16.364,19.4a.5.5,0,0,0,.725-.527l-.7-4.082a1.5,1.5,0,0,1,.432-1.328l2.965-2.89a.5.5,0,0,0-.277-.853l-4.1-.6a1.5,1.5,0,0,1-1.13-.821L12.449,4.594a.516.516,0,0,0-.9,0L9.719,8.308a1.5,1.5,0,0,1-1.13.82l-4.1.6a.5.5,0,0,0-.277.853L7.18,13.468A1.5,1.5,0,0,1,7.611,14.8l-.7,4.082a.5.5,0,0,0,.726.527L11.3,17.477a1.5,1.5,0,0,1,1.4,0Z"></path></g></svg>
+                        <svg className="size-full" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g><path d="M16.6,20.463a1.5,1.5,0,0,1-.7-.174l-3.666-1.927a.5.5,0,0,0-.464,0L8.1,20.289a1.5,1.5,0,0,1-2.177-1.581l.7-4.082a.5.5,0,0,0-.143-.442L3.516,11.293a1.5,1.5,0,0,1,.832-2.559l4.1-.6a.5.5,0,0,0,.376-.273l1.833-3.714a1.5,1.5,0,0,1,2.69,0l1.833,3.714a.5.5,0,0,0,.376.274l4.1.6a1.5,1.5,0,0,1,.832,2.559l-2.965,2.891a.5.5,0,0,0-.144.442l.7,4.082A1.5,1.5,0,0,1,16.6,20.463Zm-3.9-2.986L16.364,19.4a.5.5,0,0,0,.725-.527l-.7-4.082a1.5,1.5,0,0,1,.432-1.328l2.965-2.89a.5.5,0,0,0-.277-.853l-4.1-.6a1.5,1.5,0,0,1-1.13-.821L12.449,4.594a.516.516,0,0,0-.9,0L9.719,8.308a1.5,1.5,0,0,1-1.13.82l-4.1.6a.5.5,0,0,0-.277.853L7.18,13.468A1.5,1.5,0,0,1,7.611,14.8l-.7,4.082a.5.5,0,0,0,.726.527L11.3,17.477a1.5,1.5,0,0,1,1.4,0Z"></path></g></svg>
                     </span>
                     <span>4.4/5</span>
                 </div>
@@ -276,7 +276,7 @@ function mohit() {
             <div className="w-auto">
                 <div className="w-full inline-flex items-center gap-1 justify-center">
                     <span className="size-5 inline-block text-sm">
-                        <svg className="size-full" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g><path d="M16.6,20.463a1.5,1.5,0,0,1-.7-.174l-3.666-1.927a.5.5,0,0,0-.464,0L8.1,20.289a1.5,1.5,0,0,1-2.177-1.581l.7-4.082a.5.5,0,0,0-.143-.442L3.516,11.293a1.5,1.5,0,0,1,.832-2.559l4.1-.6a.5.5,0,0,0,.376-.273l1.833-3.714a1.5,1.5,0,0,1,2.69,0l1.833,3.714a.5.5,0,0,0,.376.274l4.1.6a1.5,1.5,0,0,1,.832,2.559l-2.965,2.891a.5.5,0,0,0-.144.442l.7,4.082A1.5,1.5,0,0,1,16.6,20.463Zm-3.9-2.986L16.364,19.4a.5.5,0,0,0,.725-.527l-.7-4.082a1.5,1.5,0,0,1,.432-1.328l2.965-2.89a.5.5,0,0,0-.277-.853l-4.1-.6a1.5,1.5,0,0,1-1.13-.821L12.449,4.594a.516.516,0,0,0-.9,0L9.719,8.308a1.5,1.5,0,0,1-1.13.82l-4.1.6a.5.5,0,0,0-.277.853L7.18,13.468A1.5,1.5,0,0,1,7.611,14.8l-.7,4.082a.5.5,0,0,0,.726.527L11.3,17.477a1.5,1.5,0,0,1,1.4,0Z"></path></g></svg>
+                        <svg className="size-full" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g><path d="M16.6,20.463a1.5,1.5,0,0,1-.7-.174l-3.666-1.927a.5.5,0,0,0-.464,0L8.1,20.289a1.5,1.5,0,0,1-2.177-1.581l.7-4.082a.5.5,0,0,0-.143-.442L3.516,11.293a1.5,1.5,0,0,1,.832-2.559l4.1-.6a.5.5,0,0,0,.376-.273l1.833-3.714a1.5,1.5,0,0,1,2.69,0l1.833,3.714a.5.5,0,0,0,.376.274l4.1.6a1.5,1.5,0,0,1,.832,2.559l-2.965,2.891a.5.5,0,0,0-.144.442l.7,4.082A1.5,1.5,0,0,1,16.6,20.463Zm-3.9-2.986L16.364,19.4a.5.5,0,0,0,.725-.527l-.7-4.082a1.5,1.5,0,0,1,.432-1.328l2.965-2.89a.5.5,0,0,0-.277-.853l-4.1-.6a1.5,1.5,0,0,1-1.13-.821L12.449,4.594a.516.516,0,0,0-.9,0L9.719,8.308a1.5,1.5,0,0,1-1.13.82l-4.1.6a.5.5,0,0,0-.277.853L7.18,13.468A1.5,1.5,0,0,1,7.611,14.8l-.7,4.082a.5.5,0,0,0,.726.527L11.3,17.477a1.5,1.5,0,0,1,1.4,0Z"></path></g></svg>
                     </span>
                     <span>4.6/5</span>
                 </div>
@@ -288,19 +288,19 @@ function mohit() {
         </div>
         <div className="w-full flex flex-wrap items-center justify-center lg:gap-4 pt-8">
             <a target="_blank" title="Facebook" href="https://www.facebook.com/imgglobalinfotech" className="inline-flex group/social justify-center items-center bg-white mx-[10px] text-center relative overflow-hidden rounded-xl lg:rounded-2xl shadow-xl shadow-white/20 border-[3px] border-white duration-300 w-10 md:w-14 h-10 md:h-14 text-base before:bg-blue-900 before:w-[136%] before:h-[133%] before:absolute before:[transform:rotate(45deg)] before:top-[90%] before:-left-[110%] before:duration-300 text-blue-900 p-2 lg:p-3 hover:before:-top-[16%] hover:before:-left-[16%] before:ease-[cubic-bezier(0.31,-0.105,0.43,1.59)]">
-                <svg className="size-full group-hover/social:text-white group-hover/social:scale-100 scale-95 duration-300" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg>
+                <svg className="size-full group-hover/social:text-white group-hover/social:scale-100 scale-95 duration-300" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg>
             </a>
             <a target="_blank" title="Twitter" href="https://twitter.com/imgglobal" className="inline-flex group/social justify-center items-center bg-white mx-[10px] text-center relative overflow-hidden rounded-xl lg:rounded-2xl shadow-xl shadow-white/20 border-[3px] border-white duration-300 w-10 md:w-14 h-10 md:h-14 text-base before:bg-cyan-400 before:w-[136%] before:h-[133%] before:absolute before:[transform:rotate(45deg)] before:top-[90%] before:-left-[110%] before:duration-300 text-cyan-400 p-2 lg:p-3 hover:before:-top-[16%] hover:before:-left-[16%] before:ease-[cubic-bezier(0.31,-0.105,0.43,1.59)]">
-                <svg className="size-full group-hover/social:text-white group-hover/social:scale-100 scale-95 duration-300" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>
+                <svg className="size-full group-hover/social:text-white group-hover/social:scale-100 scale-95 duration-300" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>
             </a>
             <a target="_blank" title="Instagram" href="https://www.instagram.com/imgglobalinfotech" className="inline-flex group/social justify-center items-center bg-white mx-[10px] text-center relative overflow-hidden rounded-xl lg:rounded-2xl shadow-xl shadow-white/20 border-[3px] border-white duration-300 w-10 md:w-14 h-10 md:h-14 text-base before:bg-rose-500 before:w-[136%] before:h-[133%] before:absolute before:[transform:rotate(45deg)] before:top-[90%] before:-left-[110%] before:duration-300 text-rose-500 p-2 lg:p-3 hover:before:-top-[16%] hover:before:-left-[16%] before:ease-[cubic-bezier(0.31,-0.105,0.43,1.59)]">
-                <svg className="size-full group-hover/social:text-white group-hover/social:scale-100 scale-95 duration-300" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>
+                <svg className="size-full group-hover/social:text-white group-hover/social:scale-100 scale-95 duration-300" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>
             </a>
             <a target="_blank" title="Youtube" href="https://www.youtube.com/@imgglobalinfotech" className="inline-flex group/social justify-center items-center bg-white mx-[10px] text-center relative overflow-hidden rounded-xl lg:rounded-2xl shadow-xl shadow-white/20 border-[3px] border-white duration-300 w-10 md:w-14 h-10 md:h-14 text-base before:bg-red-700 before:w-[136%] before:h-[133%] before:absolute before:[transform:rotate(45deg)] before:top-[90%] before:-left-[110%] before:duration-300 text-red-700 p-2 lg:p-3 hover:before:-top-[16%] hover:before:-left-[16%] before:ease-[cubic-bezier(0.31,-0.105,0.43,1.59)]">
-                <svg className="size-full group-hover/social:text-white group-hover/social:scale-100 scale-95 duration-300" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg>
+                <svg className="size-full group-hover/social:text-white group-hover/social:scale-100 scale-95 duration-300" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg>
             </a>
             <a target="_blank" title="Linkedin" href="https://www.linkedin.com/company/imgglobalinfotechpltd" className="inline-flex group/social justify-center items-center bg-white mx-[10px] text-center relative overflow-hidden rounded-xl lg:rounded-2xl shadow-xl shadow-white/20 border-[3px] border-white duration-300 w-10 md:w-14 h-10 md:h-14 text-base before:bg-sky-700 before:w-[136%] before:h-[133%] before:absolute before:[transform:rotate(45deg)] before:top-[90%] before:-left-[110%] before:duration-300 text-sky-700 p-2 lg:p-3 hover:before:-top-[16%] hover:before:-left-[16%] before:ease-[cubic-bezier(0.31,-0.105,0.43,1.59)]">
-                <svg className="size-full group-hover/social:text-white group-hover/social:scale-100 scale-95 duration-300" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M444.17 32H70.28C49.85 32 32 46.7 32 66.89v374.72C32 461.91 49.85 480 70.28 480h373.78c20.54 0 35.94-18.21 35.94-38.39V66.89C480.12 46.7 464.6 32 444.17 32zm-273.3 373.43h-64.18V205.88h64.18zM141 175.54h-.46c-20.54 0-33.84-15.29-33.84-34.43 0-19.49 13.65-34.42 34.65-34.42s33.85 14.82 34.31 34.42c-.01 19.14-13.31 34.43-34.66 34.43zm264.43 229.89h-64.18V296.32c0-26.14-9.34-44-32.56-44-17.74 0-28.24 12-32.91 23.69-1.75 4.2-2.22 9.92-2.22 15.76v113.66h-64.18V205.88h64.18v27.77c9.34-13.3 23.93-32.44 57.88-32.44 42.13 0 74 27.77 74 87.64z"></path></svg>
+                <svg className="size-full group-hover/social:text-white group-hover/social:scale-100 scale-95 duration-300" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M444.17 32H70.28C49.85 32 32 46.7 32 66.89v374.72C32 461.91 49.85 480 70.28 480h373.78c20.54 0 35.94-18.21 35.94-38.39V66.89C480.12 46.7 464.6 32 444.17 32zm-273.3 373.43h-64.18V205.88h64.18zM141 175.54h-.46c-20.54 0-33.84-15.29-33.84-34.43 0-19.49 13.65-34.42 34.65-34.42s33.85 14.82 34.31 34.42c-.01 19.14-13.31 34.43-34.66 34.43zm264.43 229.89h-64.18V296.32c0-26.14-9.34-44-32.56-44-17.74 0-28.24 12-32.91 23.69-1.75 4.2-2.22 9.92-2.22 15.76v113.66h-64.18V205.88h64.18v27.77c9.34-13.3 23.93-32.44 57.88-32.44 42.13 0 74 27.77 74 87.64z"></path></svg>
             </a>
         </div>
     </div>
@@ -335,42 +335,42 @@ function mohit() {
         <div className="flex flex-col w-full px-3">
             <div className="w-full font-bold text-base lg:text-lg pb-4">Quick Links</div>
             <a href="https://www.imgglobalinfotech.com/about-us.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>About Us</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/testimonials.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Testimonials</span>
             </a>
             <a href="https://www.flickr.com/photos/imgglobalinfotech" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Life @IMG</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/career.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Career</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/blog" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Blog</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/contact-us.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
@@ -382,42 +382,42 @@ function mohit() {
         <div className="flex flex-col w-full px-3">
             <div className="w-full font-bold text-base lg:text-lg pb-4">Our Exclusive Services</div>
             <a href="https://www.imgglobalinfotech.com/web-development.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Web Development Company</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/ecommerce-development.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>eCommerce Development</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/software-development.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Software Development</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Blockchain App</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Trending Solution</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
@@ -429,56 +429,56 @@ function mohit() {
         <div className="flex flex-col w-full px-3">
             <div className="w-full font-bold text-base lg:text-lg pb-4">On Demand Solutions</div>
             <a href="https://www.imgglobalinfotech.com/food-delivery-app-development.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Food Delivery App</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/grocery-app-development.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Grocery Delivery App</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/medicine-delivery-app-development.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Medicine Delivery App</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/home-services-app-development.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Home Services</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/alcohol-delivery-app-development.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Alcohol Delivery App</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/fuel-delivery-app-development.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Fuel Delivery App</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/taxi-app-development-company.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Taxi App</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/doctor-on-demand-app-development.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
@@ -490,70 +490,70 @@ function mohit() {
         <div className="flex flex-col w-full px-3">
             <div className="w-full font-bold text-base lg:text-lg pb-4">Cost and Features</div>
             <a href="https://www.imgglobalinfotech.com/" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Software development cost</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Mobile app development cost</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Website development cost</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Blockchain app development cost</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>eCommerce app development cost</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Fintech software development cost</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>E-wallet app development cost</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Social media app development cost</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Fantasy sports app development cost</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
@@ -568,91 +568,91 @@ function mohit() {
         <div className="flex flex-col w-full px-3">
             <div className="w-full font-bold text-base lg:text-lg pb-4">All Others</div>
             <a href="https://www.imgglobalinfotech.com/media-and-entertainment-app-development.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Media and Entertainment App Development</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/logistics-software-development.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Logistics Software Development</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/fantasy-cricket-app-development-company-in-india.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Fantasy Cricket App Development Company in India</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/web-development-company-in-delhi.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Web Development Company in Delhi</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/mobile-app-development-company-in-uk.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Mobile App Company in UK</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/mobile-app-development-company-in-canada.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Mobile App Company in Canada</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/digital-marketing-services.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Digital Marketing Services</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/shopify-ecommerce-development.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Shopify Ecoomerce Development</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/casino-game-app-development-company-in-india.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Casino Game App Development Company in India</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/hire-dedicated-developers.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Hire Dedicated Developers</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/launch-your-online-ecommerce-store.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Launch Your Online Ecommerce Store</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/progressive-web-app-development.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Progressive Web App Development</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/iot-app-development.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
@@ -660,63 +660,63 @@ function mohit() {
             </a>
 
             <a href="https://www.imgglobalinfotech.com/mobile-app-development-in-jaipur.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Mobile App Development in Jaipur</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/services.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Services</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/website-designing-company-in-alwar.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Website Designing Company in Alwar</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/web-development-company-in-alwar.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Web Development Company in Alwar</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/web-development-company-in-jaipur.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Web Development Company in Jaipur </span>
             </a>
             <a href="https://www.imgglobalinfotech.com/web-app-development.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Web App Development </span>
             </a>
             <a href="https://www.imgglobalinfotech.com/web-development-company-in-delhi.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Web Development Company in Delhi </span>
             </a>
             <a href="https://www.imgglobalinfotech.com/ecommerce-website-development-company-in-alwar.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Ecommerce Website Development Company in Alwar </span>
             </a>
             <a href="https://www.imgglobalinfotech.com/cms-development.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
@@ -729,21 +729,21 @@ function mohit() {
             <div className="w-full font-bold text-base lg:text-lg pb-4 invisible max-md:hidden">Our Exclusive Services
             </div>
             <a href="https://www.imgglobalinfotech.com/mobile-app-development-company-in-dubai-uae.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Mobile App Company in Dubai UAE</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/seo-services.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>SEO Services</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/healthcare-software-development.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
@@ -751,140 +751,140 @@ function mohit() {
             </a>
 
             <a href="https://www.imgglobalinfotech.com/fantasy-football-app-development-company-in-india.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Fantasy Football App Development Company in India</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/biometric-attendance-software.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Biometric Attendence Software</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/gps-tracking-software.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>GPS Tracking Software</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/matrimonial-portal-development.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Matrimonial Portal Development</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/news-portal-development.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>News Portal Development</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/opencart-website-development.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Opencart Website Development</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/wordpress-website-development.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Wordpress Website Development</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/mobile-app-development-company-in-alwar.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Mobile App Development Company in Alwar</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/mobile-app-development-company-in-jaipur.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Mobile App Development Company in Jaipur</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/mobile-app-development-company-in-delhi.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Mobile App Development Company in Delhi</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/ecommerce-development-company-in-alwar.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Ecommerce Development Company in Alwar</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/ecommerce-development-company-in-jaipur.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Ecommerce Development Company in Jaipur</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/ecommerce-development-company-in-delhi.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Ecommerce Development Company in Delhi</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/real-estate-app-development.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Real Estate App Development </span>
             </a>
             <a href="https://www.imgglobalinfotech.com/edtech-software-development.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span> Edtech Sofware Development</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/fintech-software-development.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Fintech Software Development </span>
             </a>
             <a href="https://www.imgglobalinfotech.com/logistics-software-development.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span> Logistics Software Development</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/travel-app-development.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span> Travel App Development</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/event-app-development.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Event App Development </span>
             </a>
             <a href="https://www.imgglobalinfotech.com/social-media-app-development.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
@@ -897,63 +897,63 @@ function mohit() {
         <div className="flex flex-col w-full px-3">
             <div className="w-full font-bold text-base lg:text-lg pb-4 invisible max-md:hidden">On Demand Solutions</div>
             <a href="https://www.imgglobalinfotech.com/jewellery-ecommerce-development.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Jewellery Ecommerce Development</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/mission-and-vision.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Mission and Vision</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/fantasy-sports-app-development-company.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Fantasy Sports App Development</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/mobile-app-development-company-in-new-york-usa.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Mobile App Company in New York USA</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/woocommerce-website-development.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Woocommerce Website Development</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/industrial-erp-development.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Industrial ERP Development</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/credit-cooperative-society-software.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Credit Cooperative Society Software</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/payroll-management-software.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Payroll Management Software</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/fantasy-sports-app-development-company-in-india.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
@@ -961,63 +961,63 @@ function mohit() {
             </a>
 
             <a href="https://www.imgglobalinfotech.com/furniture-ecommerce-development.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Furniture Ecommerce Development</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/gift-ecommerce-development.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Gift Ecommerce Development</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/fashion-ecommerce-development.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Fashion Ecommerce Development</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/b2b-ecommerce-development.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>B2B Ecommerce Development</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/b2c-ecommerce-development.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>B2C Ecommerce Development</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/d2c-ecommerce-development.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>D2C Ecommerce Development</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/market-place-ecommerce-development.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Market Place Ecommerce Development</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/pharmacy-app-development.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span> Pharmacy App Development</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/mobile-app-development-company.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
@@ -1030,49 +1030,49 @@ function mohit() {
         <div className="flex flex-col w-full px-3">
             <div className="w-full font-bold text-base lg:text-lg pb-4 invisible max-md:hidden">Cost and Features</div>
             <a href="https://www.imgglobalinfotech.com/fantasy-kabaddi-app-development-company-in-india.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Fantasy Kabaddi App Development Company in India</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/fantasy-movie-app-development.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Fantasy Movie App Development</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/sports-betting-app-development-company-in-india.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Sports Betting App Development Company in India</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/rfid-attendance-system-india.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>RFID Attendence System India</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/salon-app-development.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>Salon App Development </span>
             </a>
             <a href="https://www.imgglobalinfotech.com/ui-ux-design-services.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
                 <span>UI UX Design Services</span>
             </a>
             <a href="https://www.imgglobalinfotech.com/hotel-management-software.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                     </path>
                 </svg>
@@ -1095,7 +1095,7 @@ function mohit() {
         <a href="https://www.imgglobalinfotech.com/sitemap.html" className="w-auto opacity-80 hover:text-cyan-500 duration-200 hoverLink flex items-center gap-2">Sitemap</a>
     </div>
 </div>    </div>
-</footer>
+</footer> */}
 </>
   )
 }
