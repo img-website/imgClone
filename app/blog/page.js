@@ -1,9 +1,16 @@
+import Form from "@/components/contactForm/Form";
+import Footer from "@/components/footer/Footer";
+import Header from "@/components/header/Header";
 import React from "react";
 
-function page() {
-    return <div className="text-theme2">
-        lorem
-    </div>;
+function blog() {
+    return (
+        <div className="text-theme2">
+            <Header/>
+            <Form/>
+            <Footer/>
+        </div>
+    )
 }
 
-export default page;
+export default blog;
