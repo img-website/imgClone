@@ -1,4 +1,7 @@
+import Cta from '@/components/cta/Cta'
+import Gallery from '@/components/gallery/Gallery'
 import React from 'react'
+
 
 function mohit() {
   return (
@@ -1096,6 +1099,9 @@ function mohit() {
     </div>
 </div>    </div>
 </footer> */}
+<Gallery />
+<Cta />
+
 </>
   )
 }

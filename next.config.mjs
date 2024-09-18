@@ -33,6 +33,12 @@ const nextConfig = {
             port: '',
             pathname: '/**',
         },
+        {
+            protocol: 'https',
+            hostname: 'https://www.getbootstrap.pk',
+            port: '',
+            pathname: '/**',
+        },
     
     ],
 
