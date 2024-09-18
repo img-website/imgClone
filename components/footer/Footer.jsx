@@ -1,5 +1,7 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
+
 
 function Footer() {
     return (
@@ -86,8 +88,13 @@ function Footer() {
 
                     <hr class="mt-16 mb-10 border-gray-800" />
 
-                    <div class="flex flex-wrap items-center justify-between">
-                        <img class="h-8 auto md:order-1" src="https://www.twinpowerus.com/public/frontend/img/logo.png" alt="" />
+                    <div class="flex flex-wrap items-center justify-between h-16">
+                        <Image 
+                        width="1000"
+                        height="1000"
+                        quality="90"
+                        loading="lazy"
+                        class="h-8 md:h-12 w-auto auto md:order-1" src="https://www.twinpowerus.com/public/frontend/img/logo.png" alt="" />
 
                         <ul class="flex items-center space-x-3 md:order-3">
                             <li>
