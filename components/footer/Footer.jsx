@@ -32,8 +32,8 @@ function Footer() {
                                     loading="lazy"
                                     width="110"
                                     height="48"
-                                    src="https://www.imgglobalinfotech.com/public/tailwind/img/hidden.webp?id=4df173c235873ed3ff8684e03934b9a3"
-                                    data-src="https://www.imgglobalinfotech.com/public/tailwind/img/footer-clutch.webp?id=ad8850c948c5fd1b904a4a5acae571f4"
+                                    src="/public/tailwind/img/hidden.webp?id=4df173c235873ed3ff8684e03934b9a3"
+                                    data-src="/public/tailwind/img/footer-clutch.webp?id=ad8850c948c5fd1b904a4a5acae571f4"
                                     alt="footer clutch"
                                 />
                             </div>
@@ -78,7 +78,7 @@ function Footer() {
                                     <iframe
                                         id="iframe-0.678276882042331"
                                         width="100%"
-                                        src="https://widget.clutch.co/widgets/get/7?ref_domain=www.imgglobalinfotech.com&uid=237597&rel_nofollow=true&ref_path=/"
+                                        src="https://widget.clutch.co/widgets/get/7?ref_domain=www..com&uid=237597&rel_nofollow=true&ref_path=/"
                                         height="65px"
                                         scrolling="no"
                                         style={{
@@ -117,8 +117,8 @@ function Footer() {
                                             loading="lazy"
                                             width="110"
                                             height="48"
-                                            src="https://www.imgglobalinfotech.com/public/tailwind/img/hidden.webp?id=4df173c235873ed3ff8684e03934b9a3"
-                                            data-src="https://www.imgglobalinfotech.com/public/tailwind/img/footer-clutch.webp?id=ad8850c948c5fd1b904a4a5acae571f4"
+                                            src="/public/tailwind/img/hidden.webp?id=4df173c235873ed3ff8684e03934b9a3"
+                                            data-src="/public/tailwind/img/footer-clutch.webp?id=ad8850c948c5fd1b904a4a5acae571f4"
                                             alt="footer clutch"
                                         />
                                     </div>
@@ -146,8 +146,8 @@ function Footer() {
                                             className="size-full object-contain"
                                             width="110"
                                             height="48"
-                                            src="https://www.imgglobalinfotech.com/public/tailwind/img/google.webp?id=305718ba3103d02f222f73fcac606da6"
-                                            data-src="https://www.imgglobalinfotech.com/public/tailwind/img/google.webp?id=305718ba3103d02f222f73fcac606da6"
+                                            src="/public/tailwind/img/google.webp?id=305718ba3103d02f222f73fcac606da6"
+                                            data-src="/public/tailwind/img/google.webp?id=305718ba3103d02f222f73fcac606da6"
                                             alt="google"
                                         />
                                     </div>
@@ -175,8 +175,8 @@ function Footer() {
                                             className="size-full object-contain"
                                             width="110"
                                             height="48"
-                                            src="https://www.imgglobalinfotech.com/public/tailwind/img/mobileapp.webp?id=e639b97f37086c1eaba7c56a63a65639"
-                                            data-src="https://www.imgglobalinfotech.com/public/tailwind/img/mobileapp.webp?id=e639b97f37086c1eaba7c56a63a65639"
+                                            src="/public/tailwind/img/mobileapp.webp?id=e639b97f37086c1eaba7c56a63a65639"
+                                            data-src="/public/tailwind/img/mobileapp.webp?id=e639b97f37086c1eaba7c56a63a65639"
                                             alt="mobileapp"
                                         />
                                     </div>
@@ -204,8 +204,8 @@ function Footer() {
                                             className="size-full object-contain"
                                             width="110"
                                             height="48"
-                                            src="https://www.imgglobalinfotech.com/public/tailwind/img/trustpilot.webp?id=a464c168c6ed424da5be652905d10589"
-                                            data-src="https://www.imgglobalinfotech.com/public/tailwind/img/trustpilot.webp?id=a464c168c6ed424da5be652905d10589"
+                                            src="/public/tailwind/img/trustpilot.webp?id=a464c168c6ed424da5be652905d10589"
+                                            data-src="/public/tailwind/img/trustpilot.webp?id=a464c168c6ed424da5be652905d10589"
                                             alt="trustpilot"
                                         />
                                     </div>
@@ -233,8 +233,8 @@ function Footer() {
                                             className="size-full object-contain"
                                             width="110"
                                             height="48"
-                                            src="https://www.imgglobalinfotech.com/public/tailwind/img/bussinesapp.webp?id=bd2c2e4a03aac75f542932a099947da3"
-                                            data-src="https://www.imgglobalinfotech.com/public/tailwind/img/bussinesapp.webp?id=bd2c2e4a03aac75f542932a099947da3"
+                                            src="/public/tailwind/img/bussinesapp.webp?id=bd2c2e4a03aac75f542932a099947da3"
+                                            data-src="/public/tailwind/img/bussinesapp.webp?id=bd2c2e4a03aac75f542932a099947da3"
                                             alt="bussinesapp"
                                         />
                                     </div>
@@ -244,7 +244,7 @@ function Footer() {
                                 <Link
                                     target="_blank"
                                     title="Facebook"
-                                    href="https://www.facebook.com/imgglobalinfotech"
+                                    href="https://www.facebook.com/"
                                     className="inline-flex group/social justify-center items-center bg-white mx-[10px] text-center relative overflow-hidden rounded-xl lg: shadow-xl shadow-white/20 border-[3px] border-white duration-300 w-10 md:w-14 h-10 md:h-14 text-base before:bg-blue-900 before:w-[136%] before:h-[133%] before:absolute before:[transform:rotate(45deg)] before:top-[90%] before:-left-[110%] before:duration-300 text-blue-900 p-2 lg:p-3 hover:before:-top-[16%] hover:before:-left-[16%] before:ease-[cubic-bezier(0.31,-0.105,0.43,1.59)]"
                                 >
                                     <svg
@@ -278,7 +278,7 @@ function Footer() {
                                 <Link
                                     target="_blank"
                                     title="Instagram"
-                                    href="https://www.instagram.com/imgglobalinfotech"
+                                    href="https://www.instagram.com/"
                                     className="inline-flex group/social justify-center items-center bg-white mx-[10px] text-center relative overflow-hidden rounded-xl lg: shadow-xl shadow-white/20 border-[3px] border-white duration-300 w-10 md:w-14 h-10 md:h-14 text-base before:bg-rose-500 before:w-[136%] before:h-[133%] before:absolute before:[transform:rotate(45deg)] before:top-[90%] before:-left-[110%] before:duration-300 text-rose-500 p-2 lg:p-3 hover:before:-top-[16%] hover:before:-left-[16%] before:ease-[cubic-bezier(0.31,-0.105,0.43,1.59)]"
                                 >
                                     <svg
@@ -295,7 +295,7 @@ function Footer() {
                                 <Link
                                     target="_blank"
                                     title="Youtube"
-                                    href="https://www.youtube.com/@imgglobalinfotech"
+                                    href="https://www.youtube.com/@"
                                     className="inline-flex group/social justify-center items-center bg-white mx-[10px] text-center relative overflow-hidden rounded-xl lg: shadow-xl shadow-white/20 border-[3px] border-white duration-300 w-10 md:w-14 h-10 md:h-14 text-base before:bg-red-700 before:w-[136%] before:h-[133%] before:absolute before:[transform:rotate(45deg)] before:top-[90%] before:-left-[110%] before:duration-300 text-red-700 p-2 lg:p-3 hover:before:-top-[16%] hover:before:-left-[16%] before:ease-[cubic-bezier(0.31,-0.105,0.43,1.59)]"
                                 >
                                     <svg
@@ -312,7 +312,7 @@ function Footer() {
                                 <Link
                                     target="_blank"
                                     title="Linkedin"
-                                    href="https://www.linkedin.com/company/imgglobalinfotechpltd"
+                                    href="https://www.linkedin.com/company/pltd"
                                     className="inline-flex group/social justify-center items-center bg-white mx-[10px] text-center relative overflow-hidden rounded-xl lg: shadow-xl shadow-white/20 border-[3px] border-white duration-300 w-10 md:w-14 h-10 md:h-14 text-base before:bg-sky-700 before:w-[136%] before:h-[133%] before:absolute before:[transform:rotate(45deg)] before:top-[90%] before:-left-[110%] before:duration-300 text-sky-700 p-2 lg:p-3 hover:before:-top-[16%] hover:before:-left-[16%] before:ease-[cubic-bezier(0.31,-0.105,0.43,1.59)]"
                                 >
                                     <svg
@@ -373,11 +373,11 @@ function Footer() {
                                     Quick Links
                                 </div>
                                 <Link
-                                    href="https://www.imgglobalinfotech.com/about-us.php"
+                                    href="/about-us.php"
                                     className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2"
                                 >
                                     <svg
-                                        className="w-2.5 h-2.5 opacity-60"
+                                        className="w-2.5 h-2.5 opacity-60 "
                                         stroke="currentColor"
                                         fill="currentColor"
                                         strokeWidth="0"
@@ -389,11 +389,11 @@ function Footer() {
                                     <span>About Us</span>
                                 </Link>
                                 <Link
-                                    href="https://www.imgglobalinfotech.com/testimonials.php"
+                                    href="/testimonials.php"
                                     className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2"
                                 >
                                     <svg
-                                        className="w-2.5 h-2.5 opacity-60"
+                                        className="w-2.5 h-2.5 opacity-60 "
                                         stroke="currentColor"
                                         fill="currentColor"
                                         strokeWidth="0"
@@ -405,11 +405,11 @@ function Footer() {
                                     <span>Testimonials</span>
                                 </Link>
                                 <Link
-                                    href="https://www.flickr.com/photos/imgglobalinfotech"
+                                    href="https://www.flickr.com/photos/"
                                     className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2"
                                 >
                                     <svg
-                                        className="w-2.5 h-2.5 opacity-60"
+                                        className="w-2.5 h-2.5 opacity-60 "
                                         stroke="currentColor"
                                         fill="currentColor"
                                         strokeWidth="0"
@@ -418,14 +418,14 @@ function Footer() {
                                     >
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z"></path>
                                     </svg>
-                                    <span>Life @IMG</span>
+                                    <span>Life @TwinPower</span>
                                 </Link>
                                 <Link
-                                    href="https://www.imgglobalinfotech.com/career.php"
+                                    href="/career.php"
                                     className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2"
                                 >
                                     <svg
-                                        className="w-2.5 h-2.5 opacity-60"
+                                        className="w-2.5 h-2.5 opacity-60 "
                                         stroke="currentColor"
                                         fill="currentColor"
                                         strokeWidth="0"
@@ -437,11 +437,11 @@ function Footer() {
                                     <span>Career</span>
                                 </Link>
                                 <Link
-                                    href="https://www.imgglobalinfotech.com/blog"
+                                    href="/blog"
                                     className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2"
                                 >
                                     <svg
-                                        className="w-2.5 h-2.5 opacity-60"
+                                        className="w-2.5 h-2.5 opacity-60 "
                                         stroke="currentColor"
                                         fill="currentColor"
                                         strokeWidth="0"
@@ -453,11 +453,11 @@ function Footer() {
                                     <span>Blog</span>
                                 </Link>
                                 <Link
-                                    href="https://www.imgglobalinfotech.com/contact-us.php"
+                                    href="/contact-us.php"
                                     className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2"
                                 >
                                     <svg
-                                        className="w-2.5 h-2.5 opacity-60"
+                                        className="w-2.5 h-2.5 opacity-60 "
                                         stroke="currentColor"
                                         fill="currentColor"
                                         strokeWidth="0"
@@ -476,11 +476,11 @@ function Footer() {
                                     Our Exclusive Services
                                 </div>
                                 <Link
-                                    href="https://www.imgglobalinfotech.com/web-development.php"
-                                    className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2"
+                                    href="javascript:;"
+                                    className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2"
                                 >
                                     <svg
-                                        className="w-2.5 h-2.5 opacity-60"
+                                        className="w-2.5 h-2.5 opacity-60 "
                                         stroke="currentColor"
                                         fill="currentColor"
                                         strokeWidth="0"
@@ -492,43 +492,43 @@ function Footer() {
                                     <span>Web Development Company</span>
                                 </Link>
                                 <Link
-                                    href="https://www.imgglobalinfotech.com/ecommerce-development.php"
-                                    className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2"
-                                >
-                                    <svg
-                                        className="w-2.5 h-2.5 opacity-60"
-                                        stroke="currentColor"
-                                        fill="currentColor"
-                                        strokeWidth="0"
-                                        viewBox="0 0 448 512"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z"></path>
-                                    </svg>
-                                    <span>eCommerce Development</span>
-                                </Link>
-                                <Link
-                                    href="https://www.imgglobalinfotech.com/software-development.php"
-                                    className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2"
-                                >
-                                    <svg
-                                        className="w-2.5 h-2.5 opacity-60"
-                                        stroke="currentColor"
-                                        fill="currentColor"
-                                        strokeWidth="0"
-                                        viewBox="0 0 448 512"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z"></path>
-                                    </svg>
-                                    <span>Software Development</span>
-                                </Link>
-                                <Link
-                                    href="https://www.imgglobalinfotech.com/"
+                                    href="javascript:;"
                                     className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2"
                                 >
                                     <svg
-                                        className="w-2.5 h-2.5 opacity-60"
+                                        className="w-2.5 h-2.5 opacity-60 "
+                                        stroke="currentColor"
+                                        fill="currentColor"
+                                        strokeWidth="0"
+                                        viewBox="0 0 448 512"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z"></path>
+                                    </svg>
+                                    <span>eCommerce Development  </span>
+                                </Link>
+                                <Link
+                                    href="javascript:;"
+                                    className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2"
+                                >
+                                    <svg
+                                        className="w-2.5 h-2.5 opacity-60 "
+                                        stroke="currentColor"
+                                        fill="currentColor"
+                                        strokeWidth="0"
+                                        viewBox="0 0 448 512"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z"></path>
+                                    </svg>
+                                    <span>Hire Dedicated Developers</span>
+                                </Link>
+                                <Link
+                                    href="javascript:;"
+                                    className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2"
+                                >
+                                    <svg
+                                        className="w-2.5 h-2.5 opacity-60 "
                                         stroke="currentColor"
                                         fill="currentColor"
                                         strokeWidth="0"
@@ -540,11 +540,11 @@ function Footer() {
                                     <span>Blockchain App</span>
                                 </Link>
                                 <Link
-                                    href="https://www.imgglobalinfotech.com/"
+                                    href="javascript:;"
                                     className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2"
                                 >
                                     <svg
-                                        className="w-2.5 h-2.5 opacity-60"
+                                        className="w-2.5 h-2.5 opacity-60 "
                                         stroke="currentColor"
                                         fill="currentColor"
                                         strokeWidth="0"
@@ -556,11 +556,11 @@ function Footer() {
                                     <span>Trending Solution</span>
                                 </Link>
                                 <Link
-                                    href="https://www.imgglobalinfotech.com/"
+                                    href="javascript:;"
                                     className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2"
                                 >
                                     <svg
-                                        className="w-2.5 h-2.5 opacity-60"
+                                        className="w-2.5 h-2.5 opacity-60 "
                                         stroke="currentColor"
                                         fill="currentColor"
                                         strokeWidth="0"
@@ -576,14 +576,14 @@ function Footer() {
                         <div className="w-full md:w-1/2 lg:w-1/4">
                             <div className="flex flex-col w-full px-3">
                                 <div className="w-full font-bold text-base lg:text-lg pb-4">
-                                    On Demand Solutions
+                                On Demand Solutions
                                 </div>
                                 <Link
-                                    href="https://www.imgglobalinfotech.com/food-delivery-app-development.php"
-                                    className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2"
+                                    href="javascript:;"
+                                    className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2"
                                 >
                                     <svg
-                                        className="w-2.5 h-2.5 opacity-60"
+                                        className="w-2.5 h-2.5 opacity-60 "
                                         stroke="currentColor"
                                         fill="currentColor"
                                         strokeWidth="0"
@@ -595,11 +595,11 @@ function Footer() {
                                     <span>Food Delivery App</span>
                                 </Link>
                                 <Link
-                                    href="https://www.imgglobalinfotech.com/grocery-app-development.php"
-                                    className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2"
+                                    href="javascript:;"
+                                    className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2"
                                 >
                                     <svg
-                                        className="w-2.5 h-2.5 opacity-60"
+                                        className="w-2.5 h-2.5 opacity-60 "
                                         stroke="currentColor"
                                         fill="currentColor"
                                         strokeWidth="0"
@@ -611,11 +611,11 @@ function Footer() {
                                     <span>Grocery Delivery App</span>
                                 </Link>
                                 <Link
-                                    href="https://www.imgglobalinfotech.com/medicine-delivery-app-development.php"
-                                    className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2"
+                                    href="javascript:;"
+                                    className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2"
                                 >
                                     <svg
-                                        className="w-2.5 h-2.5 opacity-60"
+                                        className="w-2.5 h-2.5 opacity-60 "
                                         stroke="currentColor"
                                         fill="currentColor"
                                         strokeWidth="0"
@@ -627,11 +627,11 @@ function Footer() {
                                     <span>Medicine Delivery App</span>
                                 </Link>
                                 <Link
-                                    href="https://www.imgglobalinfotech.com/home-services-app-development.php"
-                                    className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2"
+                                    href="javascript:;"
+                                    className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2"
                                 >
                                     <svg
-                                        className="w-2.5 h-2.5 opacity-60"
+                                        className="w-2.5 h-2.5 opacity-60 "
                                         stroke="currentColor"
                                         fill="currentColor"
                                         strokeWidth="0"
@@ -643,11 +643,11 @@ function Footer() {
                                     <span>Home Services</span>
                                 </Link>
                                 <Link
-                                    href="https://www.imgglobalinfotech.com/alcohol-delivery-app-development.php"
-                                    className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2"
+                                    href="javascript:;"
+                                    className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2"
                                 >
                                     <svg
-                                        className="w-2.5 h-2.5 opacity-60"
+                                        className="w-2.5 h-2.5 opacity-60 "
                                         stroke="currentColor"
                                         fill="currentColor"
                                         strokeWidth="0"
@@ -659,11 +659,11 @@ function Footer() {
                                     <span>Alcohol Delivery App</span>
                                 </Link>
                                 <Link
-                                    href="https://www.imgglobalinfotech.com/fuel-delivery-app-development.php"
-                                    className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2"
+                                    href="javascript:;"
+                                    className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2"
                                 >
                                     <svg
-                                        className="w-2.5 h-2.5 opacity-60"
+                                        className="w-2.5 h-2.5 opacity-60 "
                                         stroke="currentColor"
                                         fill="currentColor"
                                         strokeWidth="0"
@@ -675,11 +675,11 @@ function Footer() {
                                     <span>Fuel Delivery App</span>
                                 </Link>
                                 <Link
-                                    href="https://www.imgglobalinfotech.com/taxi-app-development-company.php"
+                                    href="javascript:;"
                                     className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2"
                                 >
                                     <svg
-                                        className="w-2.5 h-2.5 opacity-60"
+                                        className="w-2.5 h-2.5 opacity-60 "
                                         stroke="currentColor"
                                         fill="currentColor"
                                         strokeWidth="0"
@@ -691,11 +691,11 @@ function Footer() {
                                     <span>Taxi App</span>
                                 </Link>
                                 <Link
-                                    href="https://www.imgglobalinfotech.com/doctor-on-demand-app-development.php"
-                                    className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2"
+                                    href="javascript:;"
+                                    className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2"
                                 >
                                     <svg
-                                        className="w-2.5 h-2.5 opacity-60"
+                                        className="w-2.5 h-2.5 opacity-60 "
                                         stroke="currentColor"
                                         fill="currentColor"
                                         strokeWidth="0"
@@ -706,19 +706,21 @@ function Footer() {
                                     </svg>
                                     <span>Doctor On-Demand App</span>
                                 </Link>
+                                
                             </div>
                         </div>
+                        
                         <div className="w-full md:w-1/2 lg:w-1/4">
                             <div className="flex flex-col w-full px-3">
                                 <div className="w-full font-bold text-base lg:text-lg pb-4">
                                     Cost and Features
                                 </div>
                                 <Link
-                                    href="https://www.imgglobalinfotech.com/"
+                                    href="javascript:;"
                                     className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2"
                                 >
                                     <svg
-                                        className="w-2.5 h-2.5 opacity-60"
+                                        className="w-2.5 h-2.5 opacity-60 "
                                         stroke="currentColor"
                                         fill="currentColor"
                                         strokeWidth="0"
@@ -730,11 +732,11 @@ function Footer() {
                                     <span>Software development cost</span>
                                 </Link>
                                 <Link
-                                    href="https://www.imgglobalinfotech.com/"
+                                    href="javascript:;"
                                     className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2"
                                 >
                                     <svg
-                                        className="w-2.5 h-2.5 opacity-60"
+                                        className="w-2.5 h-2.5 opacity-60 "
                                         stroke="currentColor"
                                         fill="currentColor"
                                         strokeWidth="0"
@@ -746,11 +748,11 @@ function Footer() {
                                     <span>Mobile app development cost</span>
                                 </Link>
                                 <Link
-                                    href="https://www.imgglobalinfotech.com/"
+                                    href="javascript:;"
                                     className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2"
                                 >
                                     <svg
-                                        className="w-2.5 h-2.5 opacity-60"
+                                        className="w-2.5 h-2.5 opacity-60 "
                                         stroke="currentColor"
                                         fill="currentColor"
                                         strokeWidth="0"
@@ -762,11 +764,11 @@ function Footer() {
                                     <span>Website development cost</span>
                                 </Link>
                                 <Link
-                                    href="https://www.imgglobalinfotech.com/"
+                                    href="javascript:;"
                                     className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2"
                                 >
                                     <svg
-                                        className="w-2.5 h-2.5 opacity-60"
+                                        className="w-2.5 h-2.5 opacity-60 "
                                         stroke="currentColor"
                                         fill="currentColor"
                                         strokeWidth="0"
@@ -778,11 +780,11 @@ function Footer() {
                                     <span>Blockchain app development cost</span>
                                 </Link>
                                 <Link
-                                    href="https://www.imgglobalinfotech.com/"
+                                    href="javascript:;"
                                     className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2"
                                 >
                                     <svg
-                                        className="w-2.5 h-2.5 opacity-60"
+                                        className="w-2.5 h-2.5 opacity-60 "
                                         stroke="currentColor"
                                         fill="currentColor"
                                         strokeWidth="0"
@@ -794,11 +796,11 @@ function Footer() {
                                     <span>eCommerce app development cost</span>
                                 </Link>
                                 <Link
-                                    href="https://www.imgglobalinfotech.com/"
+                                    href="javascript:;"
                                     className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2"
                                 >
                                     <svg
-                                        className="w-2.5 h-2.5 opacity-60"
+                                        className="w-2.5 h-2.5 opacity-60 "
                                         stroke="currentColor"
                                         fill="currentColor"
                                         strokeWidth="0"
@@ -810,11 +812,11 @@ function Footer() {
                                     <span>Fintech software development cost</span>
                                 </Link>
                                 <Link
-                                    href="https://www.imgglobalinfotech.com/"
+                                    href="javascript:;"
                                     className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2"
                                 >
                                     <svg
-                                        className="w-2.5 h-2.5 opacity-60"
+                                        className="w-2.5 h-2.5 opacity-60 "
                                         stroke="currentColor"
                                         fill="currentColor"
                                         strokeWidth="0"
@@ -826,11 +828,11 @@ function Footer() {
                                     <span>E-wallet app development cost</span>
                                 </Link>
                                 <Link
-                                    href="https://www.imgglobalinfotech.com/"
+                                    href="javascript:;"
                                     className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2"
                                 >
                                     <svg
-                                        className="w-2.5 h-2.5 opacity-60"
+                                        className="w-2.5 h-2.5 opacity-60 "
                                         stroke="currentColor"
                                         fill="currentColor"
                                         strokeWidth="0"
@@ -842,11 +844,11 @@ function Footer() {
                                     <span>Social media app development cost</span>
                                 </Link>
                                 <Link
-                                    href="https://www.imgglobalinfotech.com/"
+                                    href="javascript:;"
                                     className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2"
                                 >
                                     <svg
-                                        className="w-2.5 h-2.5 opacity-60"
+                                        className="w-2.5 h-2.5 opacity-60 "
                                         stroke="currentColor"
                                         fill="currentColor"
                                         strokeWidth="0"
@@ -858,11 +860,11 @@ function Footer() {
                                     <span>Fantasy sports app development cost</span>
                                 </Link>
                                 <Link
-                                    href="https://www.imgglobalinfotech.com/"
+                                    href="javascript:;"
                                     className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2"
                                 >
                                     <svg
-                                        className="w-2.5 h-2.5 opacity-60"
+                                        className="w-2.5 h-2.5 opacity-60 "
                                         stroke="currentColor"
                                         fill="currentColor"
                                         strokeWidth="0"
@@ -881,156 +883,156 @@ function Footer() {
                         <div className="w-full md:w-1/2 lg:w-1/4">
                             <div className="flex flex-col w-full px-3">
                                 <div className="w-full font-bold text-base lg:text-lg pb-4">All Others</div>
-                                <Link href="https://www.imgglobalinfotech.com/media-and-entertainment-app-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/media-and-entertainment-app-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Media and Entertainment App Development</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/logistics-software-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/logistics-software-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Logistics Software Development</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/fantasy-cricket-app-development-company-in-india.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/fantasy-cricket-app-development-company-in-india.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Fantasy Cricket App Development Company in India</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/web-development-company-in-delhi.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/web-development-company-in-delhi.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Web Development Company in Delhi</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/mobile-app-development-company-in-uk.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/mobile-app-development-company-in-uk.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Mobile App Company in UK</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/mobile-app-development-company-in-canada.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/mobile-app-development-company-in-canada.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Mobile App Company in Canada</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/digital-marketing-services.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/digital-marketing-services.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Digital Marketing Services</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/shopify-ecommerce-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/shopify-ecommerce-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Shopify Ecoomerce Development</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/casino-game-app-development-company-in-india.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/casino-game-app-development-company-in-india.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Casino Game App Development Company in India</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/hire-dedicated-developers.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/hire-dedicated-developers.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Hire Dedicated Developers</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/launch-your-online-ecommerce-store.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/launch-your-online-ecommerce-store.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Launch Your Online Ecommerce Store</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/progressive-web-app-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/progressive-web-app-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Progressive Web App Development</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/iot-app-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/iot-app-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>IOT App Development</span>
                                 </Link>
 
-                                <Link href="https://www.imgglobalinfotech.com/mobile-app-development-in-jaipur.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/mobile-app-development-in-jaipur.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Mobile App Development in Jaipur</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/services.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/services.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Services</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/website-designing-company-in-alwar.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/website-designing-company-in-alwar.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Website Designing Company in Alwar</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/web-development-company-in-alwar.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/web-development-company-in-alwar.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Web Development Company in Alwar</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/web-development-company-in-jaipur.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/web-development-company-in-jaipur.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Web Development Company in Jaipur </span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/web-app-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/web-app-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Web App Development </span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/web-development-company-in-delhi.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/web-development-company-in-delhi.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Web Development Company in Delhi </span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/ecommerce-website-development-company-in-alwar.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/ecommerce-website-development-company-in-alwar.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Ecommerce Website Development Company in Alwar </span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/cms-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/cms-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
@@ -1042,163 +1044,163 @@ function Footer() {
                             <div className="flex flex-col w-full px-3">
                                 <div className="w-full font-bold text-base lg:text-lg pb-4 invisible max-md:hidden">Our Exclusive Services
                                 </div>
-                                <Link href="https://www.imgglobalinfotech.com/mobile-app-development-company-in-dubai-uae.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/mobile-app-development-company-in-dubai-uae.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Mobile App Company in Dubai UAE</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/seo-services.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/seo-services.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>SEO Services</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/healthcare-software-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/healthcare-software-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Healthcare Software Development</span>
                                 </Link>
 
-                                <Link href="https://www.imgglobalinfotech.com/fantasy-football-app-development-company-in-india.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/fantasy-football-app-development-company-in-india.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Fantasy Football App Development Company in India</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/biometric-attendance-software.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/biometric-attendance-software.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Biometric Attendence Software</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/gps-tracking-software.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/gps-tracking-software.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>GPS Tracking Software</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/matrimonial-portal-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/matrimonial-portal-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Matrimonial Portal Development</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/news-portal-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/news-portal-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>News Portal Development</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/opencart-website-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/opencart-website-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Opencart Website Development</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/wordpress-website-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/wordpress-website-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Wordpress Website Development</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/mobile-app-development-company-in-alwar.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/mobile-app-development-company-in-alwar.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Mobile App Development Company in Alwar</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/mobile-app-development-company-in-jaipur.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/mobile-app-development-company-in-jaipur.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Mobile App Development Company in Jaipur</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/mobile-app-development-company-in-delhi.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/mobile-app-development-company-in-delhi.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Mobile App Development Company in Delhi</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/ecommerce-development-company-in-alwar.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/ecommerce-development-company-in-alwar.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Ecommerce Development Company in Alwar</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/ecommerce-development-company-in-jaipur.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/ecommerce-development-company-in-jaipur.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Ecommerce Development Company in Jaipur</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/ecommerce-development-company-in-delhi.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/ecommerce-development-company-in-delhi.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Ecommerce Development Company in Delhi</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/real-estate-app-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/real-estate-app-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Real Estate App Development </span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/edtech-software-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/edtech-software-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span> Edtech Sofware Development</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/fintech-software-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/fintech-software-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Fintech Software Development </span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/logistics-software-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/logistics-software-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span> Logistics Software Development</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/travel-app-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/travel-app-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span> Travel App Development</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/event-app-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/event-app-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Event App Development </span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/social-media-app-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/social-media-app-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
@@ -1210,128 +1212,128 @@ function Footer() {
                         <div className="w-full md:w-1/2 lg:w-1/4">
                             <div className="flex flex-col w-full px-3">
                                 <div className="w-full font-bold text-base lg:text-lg pb-4 invisible max-md:hidden">On Demand Solutions</div>
-                                <Link href="https://www.imgglobalinfotech.com/jewellery-ecommerce-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/jewellery-ecommerce-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Jewellery Ecommerce Development</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/mission-and-vision.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/mission-and-vision.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Mission and Vision</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/fantasy-sports-app-development-company.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/fantasy-sports-app-development-company.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Fantasy Sports App Development</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/mobile-app-development-company-in-new-york-usa.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/mobile-app-development-company-in-new-york-usa.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Mobile App Company in New York USA</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/woocommerce-website-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/woocommerce-website-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Woocommerce Website Development</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/industrial-erp-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/industrial-erp-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Industrial ERP Development</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/credit-cooperative-society-software.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/credit-cooperative-society-software.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Credit Cooperative Society Software</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/payroll-management-software.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/payroll-management-software.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Payroll Management Software</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/fantasy-sports-app-development-company-in-india.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/fantasy-sports-app-development-company-in-india.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Fantasy Sports App Development Companhy in India</span>
                                 </Link>
 
-                                <Link href="https://www.imgglobalinfotech.com/furniture-ecommerce-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/furniture-ecommerce-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Furniture Ecommerce Development</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/gift-ecommerce-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/gift-ecommerce-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Gift Ecommerce Development</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/fashion-ecommerce-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/fashion-ecommerce-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Fashion Ecommerce Development</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/b2b-ecommerce-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/b2b-ecommerce-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>B2B Ecommerce Development</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/b2c-ecommerce-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/b2c-ecommerce-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>B2C Ecommerce Development</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/d2c-ecommerce-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/d2c-ecommerce-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>D2C Ecommerce Development</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/market-place-ecommerce-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/market-place-ecommerce-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Market Place Ecommerce Development</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/pharmacy-app-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/pharmacy-app-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span> Pharmacy App Development</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/mobile-app-development-company.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/mobile-app-development-company.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
@@ -1343,50 +1345,50 @@ function Footer() {
                         <div className="w-full md:w-1/2 lg:w-1/4">
                             <div className="flex flex-col w-full px-3">
                                 <div className="w-full font-bold text-base lg:text-lg pb-4 invisible max-md:hidden">Cost and Features</div>
-                                <Link href="https://www.imgglobalinfotech.com/fantasy-kabaddi-app-development-company-in-india.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/fantasy-kabaddi-app-development-company-in-india.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Fantasy Kabaddi App Development Company in India</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/fantasy-movie-app-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/fantasy-movie-app-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Fantasy Movie App Development</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/sports-betting-app-development-company-in-india.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/sports-betting-app-development-company-in-india.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Sports Betting App Development Company in India</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/rfid-attendance-system-india.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/rfid-attendance-system-india.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>RFID Attendence System India</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/salon-app-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/salon-app-development.php" className=" pointer-events-none w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>Salon App Development </span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/ui-ux-design-services.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/ui-ux-design-services.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
                                     <span>UI UX Design Services</span>
                                 </Link>
-                                <Link href="https://www.imgglobalinfotech.com/hotel-management-software.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
-                                    <svg className="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                <Link href="/hotel-management-software.php" className="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
+                                    <svg className="w-2.5 h-2.5 opacity-60 " stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z">
                                         </path>
                                     </svg>
@@ -1400,13 +1402,13 @@ function Footer() {
                     {/* <div className="w-full flex flex-wrap items-center gap-x-10 gap-y-5 justify-center pt-8 lg:pt-14 lg:mt-8 border-t border-white/20 text-xs lg:text-sm">
                         <div className="w-auto opacity-80">©2014 - 2024 Twin Power Software. All rights Reserved</div>
                         <div className="w-auto inline-flex flex-wrap gap-2 items-center">
-                            <Link href="https://www.imgglobalinfotech.com/privacy-policy.php" className="w-auto opacity-80 hover:text-cyan-500 duration-200 hoverLink flex items-center gap-2">Privacy Policy</Link>
+                            <Link href="/privacy-policy.php" className="w-auto opacity-80 hover:text-cyan-500 duration-200 hoverLink flex items-center gap-2">Privacy Policy</Link>
                             <div className="border-l border-white/20 h-4 w-[1px]"></div>
-                            <Link href="https://www.imgglobalinfotech.com/terms-and-conditions.php" className="w-auto opacity-80 hover:text-cyan-500 duration-200 hoverLink flex items-center gap-2">Terms & Conditions</Link>
+                            <Link href="/terms-and-conditions.php" className="w-auto opacity-80 hover:text-cyan-500 duration-200 hoverLink flex items-center gap-2">Terms & Conditions</Link>
                             <div className="border-l border-white/20 h-4 w-[1px]"></div>
-                            <Link href="https://www.imgglobalinfotech.com/disclaimer.php" className="w-auto opacity-80 hover:text-cyan-500 duration-200 hoverLink flex items-center gap-2">Disclaimer</Link>
+                            <Link href="/disclaimer.php" className="w-auto opacity-80 hover:text-cyan-500 duration-200 hoverLink flex items-center gap-2">Disclaimer</Link>
                             <div className="border-l border-white/20 h-4 w-[1px]"></div>
-                            <Link href="https://www.imgglobalinfotech.com/sitemap.html" className="w-auto opacity-80 hover:text-cyan-500 duration-200 hoverLink flex items-center gap-2">Sitemap</Link>
+                            <Link href="/sitemap.html" className="w-auto opacity-80 hover:text-cyan-500 duration-200 hoverLink flex items-center gap-2">Sitemap</Link>
                         </div>
                     </div> */}
                 </div>

@@ -3,7 +3,7 @@ import React from 'react'
 const Header = () => {
   return (
     <>
-      <header className="absolute top-0 left-0 right-0 z-[1010] bg-gradient-to-b from-[#C10913]/40 via-[#C10913]/20  text-white group-[]/ns:fixed group-[]/ns:animate-fixed-nav group-[]/ns:from-slate-950 group-[]/ns:to-[#0E508A] group-[]/ons:from-[#0E508A] group-[]/ons:to-[#0E508A] group-[]/ons:rounded-b-2xl">
+      <header className="absolute top-0 left-0 right-0 z-[1010] bg-gradient-to-b from-theme2/40 via-theme2/20  text-white group-[]/ns:fixed group-[]/ns:animate-fixed-nav group-[]/ns:from-slate-950 group-[]/ns:to-theme1 group-[]/ons:from-theme1 group-[]/ons:to-theme1 group-[]/ons:rounded-b-2xl">
   <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
     <div className="flex lg:flex-1">
       <a href="https://www.imgglobalinfotech.com/" className="pointer-events-none -m-1.5 p-1.5">
@@ -989,7 +989,7 @@ const Header = () => {
             <a href="https://www.imgglobalinfotech.com/contact-us.php" className="pointer-events-none text-xs font-semibold leading-6 text-gray-50 hover:text-gray-300 duration-200 uppercase">Contact Us</a>
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <button className="px-4 text-sm text-white flex items-center gap-2 font-semibold py-3 border-white border-2 w-max mx-auto before:-z-10 relative before:absolute before:w-full before:h-0 before:left-0 before:top-1/2 before:bg-[#0E508A] before:md:hover:h-full before:duration-300 md:hover:text-white duration-300 before:md:hover:top-0">
+          <button className="px-4 text-sm text-white flex items-center gap-2 font-semibold py-3 border-white border-2 w-max mx-auto before:-z-10 relative before:absolute before:w-full before:h-0 before:left-0 before:top-1/2 before:bg-theme1 before:md:hover:h-full before:duration-300 md:hover:text-white duration-300 before:md:hover:top-0">
                        <span>Ask for a Quote</span>
                        <span>
                        <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" height="200px" className='w-5 h-5' width="200px" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M20 15.5c-1.25 0-2.45-.2-3.57-.57a1.02 1.02 0 0 0-1.02.24l-2.2 2.2a15.045 15.045 0 0 1-6.59-6.59l2.2-2.21a.96.96 0 0 0 .25-1A11.36 11.36 0 0 1 8.5 4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.5c0-.55-.45-1-1-1zM21 6h-3V3h-2v3h-3v2h3v3h2V8h3z"></path></svg>
