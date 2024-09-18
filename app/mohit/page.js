@@ -217,7 +217,7 @@ function mohit() {
             <img className="size-full object-contain" loading="lazy" width="110" height="48" src="https://www.imgglobalinfotech.com/public/tailwind/img/hidden.webp?id=4df173c235873ed3ff8684e03934b9a3" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/footer-clutch.webp?id=ad8850c948c5fd1b904a4a5acae571f4" alt="footer clutch"/>
         </div>
         <div className="flex items-center gap-4">
-            <div className="flex flex-shrink-0 items-center justify-center"><a target="_blank" href="https://www.goodfirms.co/company/img-global-infotech-pvt-ltd"><img style={{width: '150px', height:'150px'}} src="https://assets.goodfirms.co/badges/color-badge/app-development.svg" title="Top Mobile App Development Company" alt="Top Mobile App Development Company on GoodFirms" /></a></div>
+            <div className="flex flex-shrink-0 items-center justify-center"><a target="_blank" href="https://www.goodfirms.co/company/img-global-infotech-pvt-ltd"><img style={{width: '150px', height:'150px'}} src="https://assets.goodfirms.co/badges/color-badge/app-development.svg" wid title="Top Mobile App Development Company" alt="Top Mobile App Development Company on GoodFirms" /></a></div>
             <div className="flex flex-shrink-0 items-center justify-center"><iframe width="130" height="130" src="https://shareables.clutch.co/share/badges/237597/5993?utm_source=clutch_top_company_badge&amp;utm_medium=image_embed" title="Top Clutch E-commerce Developers Jaipur 2024"></iframe></div>
 
         </div>
