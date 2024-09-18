@@ -24,9 +24,9 @@ export default function Home() {
             {/* <LogoSlider/> */}
 
             <div className="flex w-ful h-fulll pt-10 md:pt-28 lg:pt-24 bg-[] overflow-hidden relative">
-                <Swiper className="swiper heroSwiper md:min-h-[500px] h-[500px] md:h-[calc(100dvh-80px)] lg:h-[calc(100dvh-128px)] w-full relative !z-10 max-h-[750px] [&_.swiper-button-prev]:max-lg:!hidden [&_.swiper-button-prev]:!top-[calc(100%-50%)] [&_.swiper-button-prev]:!right-auto [&_.swiper-button-prev]:!left-8 [&_.swiper-button-prev]:!bottom-8 [&_.swiper-button-prev]:!w-10 [&_.swiper-button-prev]:!h-10 [&_.swiper-button-prev]:rounded-lg [&_.swiper-button-prev]:flex [&_.swiper-button-prev]:items-center [&_.swiper-button-prev]:justify-center [&_.swiper-button-prev]:p-0 after:[&_.swiper-button-prev]:content-['prev'] after:[&_.swiper-button-prev]:text-lg after:[&_.swiper-button-prev]:text-white [&_.swiper-button-prev]:duration-200 [&_.swiper-button-prev]:opacity-80 hover:[&_.swiper-button-prev]:opacity-100 [&_.swiper-button-prev]:bg-black
+                <Swiper className="swiper heroSwiper md:min-h-[500px] h-[500px] md:h-[calc(100dvh-80px)] lg:h-[calc(100dvh-128px)] w-full relative !z-10 max-h-[750px] [&_.swiper-button-prev]:max-lg:!hidden [&_.swiper-button-prev]:!top-[calc(100%-50%)] [&_.swiper-button-prev]:!right-auto [&_.swiper-button-prev]:!left-8 [&_.swiper-button-prev]:!bottom-8 [&_.swiper-button-prev]:!w-10 [&_.swiper-button-prev]:!h-10 [&_.swiper-button-prev]:rounded-full [&_.swiper-button-prev]:flex [&_.swiper-button-prev]:items-center [&_.swiper-button-prev]:justify-center [&_.swiper-button-prev]:p-0 after:[&_.swiper-button-prev]:content-['prev'] after:[&_.swiper-button-prev]:text-lg after:[&_.swiper-button-prev]:text-white [&_.swiper-button-prev]:duration-200 [&_.swiper-button-prev]:opacity-80 hover:[&_.swiper-button-prev]:opacity-100 [&_.swiper-button-prev]:bg-black
     
-    [&_.swiper-button-next]:max-lg:!hidden [&_.swiper-button-next]:!top-[calc(100%-50%)] [&_.swiper-button-next]:!left-auto [&_.swiper-button-next]:!right-8 [&_.swiper-button-next]:!w-10 [&_.swiper-button-next]:!h-10 [&_.swiper-button-next]:rounded-lg [&_.swiper-button-next]:flex [&_.swiper-button-next]:items-center [&_.swiper-button-next]:justify-center [&_.swiper-button-next]:p-0 after:[&_.swiper-button-next]:content-['next'] after:[&_.swiper-button-next]:text-lg after:[&_.swiper-button-next]:text-white [&_.swiper-button-next]:duration-200 [&_.swiper-button-next]:opacity-80 hover:[&_.swiper-button-next]:opacity-100 [&_.swiper-button-next]:bg-black
+    [&_.swiper-button-next]:max-lg:!hidden [&_.swiper-button-next]:!top-[calc(100%-50%)] [&_.swiper-button-next]:!left-auto [&_.swiper-button-next]:!right-8 [&_.swiper-button-next]:!w-10 [&_.swiper-button-next]:!h-10 [&_.swiper-button-next]:rounded-full [&_.swiper-button-next]:flex [&_.swiper-button-next]:items-center [&_.swiper-button-next]:justify-center [&_.swiper-button-next]:p-0 after:[&_.swiper-button-next]:content-['next'] after:[&_.swiper-button-next]:text-lg after:[&_.swiper-button-next]:text-white [&_.swiper-button-next]:duration-200 [&_.swiper-button-next]:opacity-80 hover:[&_.swiper-button-next]:opacity-100 [&_.swiper-button-next]:bg-black
     "
                     modules={[Navigation]}
                     navigation={true}
@@ -45,12 +45,12 @@ export default function Home() {
                                 />
                                 <div className="relative p-10 flex flex-col my-auto h-full justify-center items-center overflow-hidden duration-150 z-10">
                                     <div className="duration-300 text-center font-light text-white max-md:text-2xl/tight max-xl:text-4xl/tight text-5xl/tight">
-                                        <span className="block">Unlock Access to Bespoke</span>
-                                        <span className="font-bold text-white block">Apps And Product Innovation with Us!</span>
+                                        <span className="block">Experience Custom App </span>
+                                        <span className="font-bold text-white block">Development and Product Innovation with Us!</span>
                                     </div>
-                                    <div className="max-md:text-sm/tight text-base/tight text-white/80 pt-5 block text-center max-w-5xl">Step into a digital journey with Twin Power and unlock the gateway to bespoke applications and groundbreaking product innovations. Experience the future of technology at your fingertips!</div>
+                                    <div className="max-md:text-sm/tight text-base/tight text-white/80 pt-5 block text-center max-w-5xl text-balance">Embark on a digital adventure with Twin Power and open the door to custom applications and innovative product breakthroughs. Discover the next generation of technology right at your fingertips!</div>
                                     <div className="mt-10 flex gap-4">
-                                        <button className="px-4 text-sm text-white flex items-center gap-2 font-semibold py-3 border-white border-2 w-max mx-auto before:-z-10 relative before:absolute before:w-full before:h-0 before:left-0 before:top-1/2 before:bg-theme1 before:md:hover:h-full before:duration-300 md:hover:text-white duration-300 before:md:hover:top-0">
+                                        <button className="px-4 text-sm text-white flex items-center gap-2 rounded-full before:rounded-full font-semibold py-3 border-white border-2 w-max mx-auto before:-z-10 relative before:absolute before:w-full before:h-0 before:left-0 before:top-1/2 before:bg-theme1 before:md:hover:h-full before:duration-300 md:hover:text-white duration-300 before:md:hover:top-0">
                                             <span>Ask for a Quote</span>
                                             <span>
                                                 <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" height="200px" className='w-5 h-5' width="200px" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M20 15.5c-1.25 0-2.45-.2-3.57-.57a1.02 1.02 0 0 0-1.02.24l-2.2 2.2a15.045 15.045 0 0 1-6.59-6.59l2.2-2.21a.96.96 0 0 0 .25-1A11.36 11.36 0 0 1 8.5 4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.5c0-.55-.45-1-1-1zM21 6h-3V3h-2v3h-3v2h3v3h2V8h3z"></path></svg>
@@ -73,12 +73,12 @@ export default function Home() {
                                 />
                                 <div className="relative p-10 flex flex-col my-auto h-full justify-center items-center overflow-hidden duration-150 z-10">
                                     <div className="duration-300 text-center font-light text-white max-md:text-2xl/tight max-xl:text-4xl/tight text-5xl/tight">
-                                        <span className="block">Unlock Access to Bespoke</span>
-                                        <span className="font-bold text-white block">Apps And Product Innovation with Us!</span>
+                                        <span className="block">Gain Entry to Custom Apps </span>
+                                        <span className="font-bold text-white block">and Innovative Product Solutions with Us!</span>
                                     </div>
-                                    <div className="max-md:text-sm/tight text-base/tight text-white/80 pt-5 block text-center max-w-5xl">Step into a digital journey with Twin Power and unlock the gateway to bespoke applications and groundbreaking product innovations. Experience the future of technology at your fingertips!</div>
+                                    <div className="max-md:text-sm/tight text-base/tight text-white/80 pt-5 block text-center max-w-5xl text-balance">Step into a digital journey with Twin Power and unlock the gateway to bespoke applications and groundbreaking product innovations. Experience the future of technology at your fingertips!</div>
                                     <div className="mt-10 flex gap-4">
-                                        <button className="px-4 text-sm text-white flex items-center gap-2 font-semibold py-3 border-white border-2 w-max mx-auto before:-z-10 relative before:absolute before:w-full before:h-0 before:left-0 before:top-1/2 before:bg-theme1 before:md:hover:h-full before:duration-300 md:hover:text-white duration-300 before:md:hover:top-0">
+                                        <button className="px-4 text-sm text-white flex items-center gap-2 rounded-full before:rounded-full font-semibold py-3 border-white border-2 w-max mx-auto before:-z-10 relative before:absolute before:w-full before:h-0 before:left-0 before:top-1/2 before:bg-theme1 before:md:hover:h-full before:duration-300 md:hover:text-white duration-300 before:md:hover:top-0">
                                             <span>Ask for a Quote</span>
                                             <span>
                                                 <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" height="200px" className='w-5 h-5' width="200px" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M20 15.5c-1.25 0-2.45-.2-3.57-.57a1.02 1.02 0 0 0-1.02.24l-2.2 2.2a15.045 15.045 0 0 1-6.59-6.59l2.2-2.21a.96.96 0 0 0 .25-1A11.36 11.36 0 0 1 8.5 4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.5c0-.55-.45-1-1-1zM21 6h-3V3h-2v3h-3v2h3v3h2V8h3z"></path></svg>
@@ -101,68 +101,12 @@ export default function Home() {
                                 />
                                 <div className="relative p-10 flex flex-col my-auto h-full justify-center items-center overflow-hidden duration-150 z-10">
                                     <div className="duration-300 text-center font-light text-white max-md:text-2xl/tight max-xl:text-4xl/tight text-5xl/tight">
-                                        <span className="block">Unlock Access to Bespoke</span>
-                                        <span className="font-bold text-white block">Apps And Product Innovation with Us!</span>
+                                        <span className="block">Access Tailored Apps and Cutting-Edge </span>
+                                        <span className="font-bold text-white block">Product Innovation with Us!</span>
                                     </div>
-                                    <div className="max-md:text-sm/tight text-base/tight text-white/80 pt-5 block text-center max-w-5xl">Step into a digital journey with Twin Power and unlock the gateway to bespoke applications and groundbreaking product innovations. Experience the future of technology at your fingertips!</div>
+                                    <div className="max-md:text-sm/tight text-base/tight text-white/80 pt-5 block text-center max-w-5xl text-balance">Begin a digital adventure with Twin Power and open the doors to custom applications and revolutionary product innovations. Embrace the future of technology in your hands!</div>
                                     <div className="mt-10 flex gap-4">
-                                        <button className="px-4 text-sm text-white flex items-center gap-2 font-semibold py-3 border-white border-2 w-max mx-auto before:-z-10 relative before:absolute before:w-full before:h-0 before:left-0 before:top-1/2 before:bg-theme1 before:md:hover:h-full before:duration-300 md:hover:text-white duration-300 before:md:hover:top-0">
-                                            <span>Ask for a Quote</span>
-                                            <span>
-                                                <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" height="200px" className='w-5 h-5' width="200px" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M20 15.5c-1.25 0-2.45-.2-3.57-.57a1.02 1.02 0 0 0-1.02.24l-2.2 2.2a15.045 15.045 0 0 1-6.59-6.59l2.2-2.21a.96.96 0 0 0 .25-1A11.36 11.36 0 0 1 8.5 4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.5c0-.55-.45-1-1-1zM21 6h-3V3h-2v3h-3v2h3v3h2V8h3z"></path></svg>
-                                            </span>
-                                        </button>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide className=" group flex justify-center items-center !h-full">
-                            <div className="group-[.-active]:z-10 shadow-sky-950 before:from-sky-950 before:via-sky-900/80 before:to-sky-900/70 h-full relative after:absolute after:size-full after:inset-0 after:bg-black/60" >
-                                <Image
-                                    className="size-full object-cover object-right absolute inset-0 -z-[1]  aspect-[1377/460]  "
-                                    loading="lazy"
-                                    width="1377"
-                                    height="460"
-                                    src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=500&auto=format&fit=crop&q=60"
-                                    alt="Hire_dedicated_professionals_and_unleash_business_potential_beyond_borders"
-                                />
-                                <div className="relative p-10 flex flex-col my-auto h-full justify-center items-center overflow-hidden duration-150 z-10">
-                                    <div className="duration-300 text-center font-light text-white max-md:text-2xl/tight max-xl:text-4xl/tight text-5xl/tight">
-                                        <span className="block">Unlock Access to Bespoke</span>
-                                        <span className="font-bold text-white block">Apps And Product Innovation with Us!</span>
-                                    </div>
-                                    <div className="max-md:text-sm/tight text-base/tight text-white/80 pt-5 block text-center max-w-5xl">Step into a digital journey with Twin Power and unlock the gateway to bespoke applications and groundbreaking product innovations. Experience the future of technology at your fingertips!</div>
-                                    <div className="mt-10 flex gap-4">
-                                        <button className="px-4 text-sm text-white flex items-center gap-2 font-semibold py-3 border-white border-2 w-max mx-auto before:-z-10 relative before:absolute before:w-full before:h-0 before:left-0 before:top-1/2 before:bg-theme1 before:md:hover:h-full before:duration-300 md:hover:text-white duration-300 before:md:hover:top-0">
-                                            <span>Ask for a Quote</span>
-                                            <span>
-                                                <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" height="200px" className='w-5 h-5' width="200px" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M20 15.5c-1.25 0-2.45-.2-3.57-.57a1.02 1.02 0 0 0-1.02.24l-2.2 2.2a15.045 15.045 0 0 1-6.59-6.59l2.2-2.21a.96.96 0 0 0 .25-1A11.36 11.36 0 0 1 8.5 4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.5c0-.55-.45-1-1-1zM21 6h-3V3h-2v3h-3v2h3v3h2V8h3z"></path></svg>
-                                            </span>
-                                        </button>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide className=" group flex justify-center items-center !h-full">
-                            <div className="group-[.swiper-slide-active]:z-10 shadow-sky-950 before:from-sky-950 before:via-sky-900/80 before:to-sky-900/70 h-full relative after:absolute after:size-full after:inset-0 after:bg-black/60" >
-                                <Image
-                                    className="size-full object-cover object-right absolute inset-0 -z-[1]  aspect-[1377/460]  "
-                                    loading="lazy"
-                                    width="1377"
-                                    height="460"
-                                    src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=500&auto=format&fit=crop&q=60"
-                                    alt="Hire_dedicated_professionals_and_unleash_business_potential_beyond_borders"
-                                />
-                                <div className="relative p-10 flex flex-col my-auto h-full justify-center items-center overflow-hidden duration-150 z-10">
-                                    <div className="duration-300 text-center font-light text-white max-md:text-2xl/tight max-xl:text-4xl/tight text-5xl/tight">
-                                        <span className="block">Unlock Access to Bespoke</span>
-                                        <span className="font-bold text-white block">Apps And Product Innovation with Us!</span>
-                                    </div>
-                                    <div className="max-md:text-sm/tight text-base/tight text-white/80 pt-5 block text-center max-w-5xl">Step into a digital journey with Twin Power and unlock the gateway to bespoke applications and groundbreaking product innovations. Experience the future of technology at your fingertips!</div>
-                                    <div className="mt-10 flex gap-4">
-                                        <button className="px-4 text-sm text-white flex items-center gap-2 font-semibold py-3 border-white border-2 w-max mx-auto before:-z-10 relative before:absolute before:w-full before:h-0 before:left-0 before:top-1/2 before:bg-theme1 before:md:hover:h-full before:duration-300 md:hover:text-white duration-300 before:md:hover:top-0">
+                                        <button className="px-4 text-sm text-white flex items-center gap-2 rounded-full before:rounded-full font-semibold py-3 border-white border-2 w-max mx-auto before:-z-10 relative before:absolute before:w-full before:h-0 before:left-0 before:top-1/2 before:bg-theme1 before:md:hover:h-full before:duration-300 md:hover:text-white duration-300 before:md:hover:top-0">
                                             <span>Ask for a Quote</span>
                                             <span>
                                                 <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" height="200px" className='w-5 h-5' width="200px" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M20 15.5c-1.25 0-2.45-.2-3.57-.57a1.02 1.02 0 0 0-1.02.24l-2.2 2.2a15.045 15.045 0 0 1-6.59-6.59l2.2-2.21a.96.96 0 0 0 .25-1A11.36 11.36 0 0 1 8.5 4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.5c0-.55-.45-1-1-1zM21 6h-3V3h-2v3h-3v2h3v3h2V8h3z"></path></svg>
