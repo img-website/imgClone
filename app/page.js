@@ -48,7 +48,7 @@ export default function Home() {
                                     </div>
                                     <div className="max-md:text-sm/tight text-base/tight text-white/80 pt-5 block text-center max-w-5xl">Step into a digital journey with Twin Power and unlock the gateway to bespoke applications and groundbreaking product innovations. Experience the future of technology at your fingertips!</div>
                                     <div className="mt-10 flex gap-4">
-                                        <button className="px-4 text-sm text-white flex items-center gap-2 font-semibold py-3 border-white border-2 w-max mx-auto before:-z-10 relative before:absolute before:w-full before:h-0 before:left-0 before:top-1/2 before:bg-[#0E508A] before:md:hover:h-full before:duration-300 md:hover:text-white duration-300 before:md:hover:top-0">
+                                        <button className="px-4 text-sm text-white flex items-center gap-2 font-semibold py-3 border-white border-2 w-max mx-auto before:-z-10 relative before:absolute before:w-full before:h-0 before:left-0 before:top-1/2 before:bg-theme1 before:md:hover:h-full before:duration-300 md:hover:text-white duration-300 before:md:hover:top-0">
                                             <span>Ask for a Quote</span>
                                             <span>
                                                 <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" height="200px" className='w-5 h-5' width="200px" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M20 15.5c-1.25 0-2.45-.2-3.57-.57a1.02 1.02 0 0 0-1.02.24l-2.2 2.2a15.045 15.045 0 0 1-6.59-6.59l2.2-2.21a.96.96 0 0 0 .25-1A11.36 11.36 0 0 1 8.5 4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.5c0-.55-.45-1-1-1zM21 6h-3V3h-2v3h-3v2h3v3h2V8h3z"></path></svg>
@@ -76,7 +76,7 @@ export default function Home() {
                                     </div>
                                     <div className="max-md:text-sm/tight text-base/tight text-white/80 pt-5 block text-center max-w-5xl">Step into a digital journey with Twin Power and unlock the gateway to bespoke applications and groundbreaking product innovations. Experience the future of technology at your fingertips!</div>
                                     <div className="mt-10 flex gap-4">
-                                        <button className="px-4 text-sm text-white flex items-center gap-2 font-semibold py-3 border-white border-2 w-max mx-auto before:-z-10 relative before:absolute before:w-full before:h-0 before:left-0 before:top-1/2 before:bg-[#0E508A] before:md:hover:h-full before:duration-300 md:hover:text-white duration-300 before:md:hover:top-0">
+                                        <button className="px-4 text-sm text-white flex items-center gap-2 font-semibold py-3 border-white border-2 w-max mx-auto before:-z-10 relative before:absolute before:w-full before:h-0 before:left-0 before:top-1/2 before:bg-theme1 before:md:hover:h-full before:duration-300 md:hover:text-white duration-300 before:md:hover:top-0">
                                             <span>Ask for a Quote</span>
                                             <span>
                                                 <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" height="200px" className='w-5 h-5' width="200px" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M20 15.5c-1.25 0-2.45-.2-3.57-.57a1.02 1.02 0 0 0-1.02.24l-2.2 2.2a15.045 15.045 0 0 1-6.59-6.59l2.2-2.21a.96.96 0 0 0 .25-1A11.36 11.36 0 0 1 8.5 4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.5c0-.55-.45-1-1-1zM21 6h-3V3h-2v3h-3v2h3v3h2V8h3z"></path></svg>
@@ -104,7 +104,7 @@ export default function Home() {
                                     </div>
                                     <div className="max-md:text-sm/tight text-base/tight text-white/80 pt-5 block text-center max-w-5xl">Step into a digital journey with Twin Power and unlock the gateway to bespoke applications and groundbreaking product innovations. Experience the future of technology at your fingertips!</div>
                                     <div className="mt-10 flex gap-4">
-                                        <button className="px-4 text-sm text-white flex items-center gap-2 font-semibold py-3 border-white border-2 w-max mx-auto before:-z-10 relative before:absolute before:w-full before:h-0 before:left-0 before:top-1/2 before:bg-[#0E508A] before:md:hover:h-full before:duration-300 md:hover:text-white duration-300 before:md:hover:top-0">
+                                        <button className="px-4 text-sm text-white flex items-center gap-2 font-semibold py-3 border-white border-2 w-max mx-auto before:-z-10 relative before:absolute before:w-full before:h-0 before:left-0 before:top-1/2 before:bg-theme1 before:md:hover:h-full before:duration-300 md:hover:text-white duration-300 before:md:hover:top-0">
                                             <span>Ask for a Quote</span>
                                             <span>
                                                 <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" height="200px" className='w-5 h-5' width="200px" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M20 15.5c-1.25 0-2.45-.2-3.57-.57a1.02 1.02 0 0 0-1.02.24l-2.2 2.2a15.045 15.045 0 0 1-6.59-6.59l2.2-2.21a.96.96 0 0 0 .25-1A11.36 11.36 0 0 1 8.5 4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.5c0-.55-.45-1-1-1zM21 6h-3V3h-2v3h-3v2h3v3h2V8h3z"></path></svg>
@@ -132,7 +132,7 @@ export default function Home() {
                                     </div>
                                     <div className="max-md:text-sm/tight text-base/tight text-white/80 pt-5 block text-center max-w-5xl">Step into a digital journey with Twin Power and unlock the gateway to bespoke applications and groundbreaking product innovations. Experience the future of technology at your fingertips!</div>
                                     <div className="mt-10 flex gap-4">
-                                        <button className="px-4 text-sm text-white flex items-center gap-2 font-semibold py-3 border-white border-2 w-max mx-auto before:-z-10 relative before:absolute before:w-full before:h-0 before:left-0 before:top-1/2 before:bg-[#0E508A] before:md:hover:h-full before:duration-300 md:hover:text-white duration-300 before:md:hover:top-0">
+                                        <button className="px-4 text-sm text-white flex items-center gap-2 font-semibold py-3 border-white border-2 w-max mx-auto before:-z-10 relative before:absolute before:w-full before:h-0 before:left-0 before:top-1/2 before:bg-theme1 before:md:hover:h-full before:duration-300 md:hover:text-white duration-300 before:md:hover:top-0">
                                             <span>Ask for a Quote</span>
                                             <span>
                                                 <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" height="200px" className='w-5 h-5' width="200px" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M20 15.5c-1.25 0-2.45-.2-3.57-.57a1.02 1.02 0 0 0-1.02.24l-2.2 2.2a15.045 15.045 0 0 1-6.59-6.59l2.2-2.21a.96.96 0 0 0 .25-1A11.36 11.36 0 0 1 8.5 4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.5c0-.55-.45-1-1-1zM21 6h-3V3h-2v3h-3v2h3v3h2V8h3z"></path></svg>
@@ -160,7 +160,7 @@ export default function Home() {
                                     </div>
                                     <div className="max-md:text-sm/tight text-base/tight text-white/80 pt-5 block text-center max-w-5xl">Step into a digital journey with Twin Power and unlock the gateway to bespoke applications and groundbreaking product innovations. Experience the future of technology at your fingertips!</div>
                                     <div className="mt-10 flex gap-4">
-                                        <button className="px-4 text-sm text-white flex items-center gap-2 font-semibold py-3 border-white border-2 w-max mx-auto before:-z-10 relative before:absolute before:w-full before:h-0 before:left-0 before:top-1/2 before:bg-[#0E508A] before:md:hover:h-full before:duration-300 md:hover:text-white duration-300 before:md:hover:top-0">
+                                        <button className="px-4 text-sm text-white flex items-center gap-2 font-semibold py-3 border-white border-2 w-max mx-auto before:-z-10 relative before:absolute before:w-full before:h-0 before:left-0 before:top-1/2 before:bg-theme1 before:md:hover:h-full before:duration-300 md:hover:text-white duration-300 before:md:hover:top-0">
                                             <span>Ask for a Quote</span>
                                             <span>
                                                 <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" height="200px" className='w-5 h-5' width="200px" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M20 15.5c-1.25 0-2.45-.2-3.57-.57a1.02 1.02 0 0 0-1.02.24l-2.2 2.2a15.045 15.045 0 0 1-6.59-6.59l2.2-2.21a.96.96 0 0 0 .25-1A11.36 11.36 0 0 1 8.5 4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.5c0-.55-.45-1-1-1zM21 6h-3V3h-2v3h-3v2h3v3h2V8h3z"></path></svg>
@@ -226,22 +226,22 @@ export default function Home() {
 
                         first:*:font-normal
 
-                        last:*:font-bold last:*:text-[#C10913]
+                        last:*:font-bold last:*:text-theme2
                     ">
-                                    <span className="font-normal">A Quick Insight Into </span> <span className="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-[#C10913]">Twin Power Software</span>
+                                    <span className="font-normal">A Quick Insight Into </span> <span className="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-theme2">Twin Power Software</span>
 
                                 </p>
                                 <p className="mt-4 text-sm md:text-base leading-7 text-slate-600">Discover innovation and excellence at Twin Power Software! Immerse yourself in cutting-edge services and high-quality development solutions that redefine the digital landscape. Our dynamic work environment fosters creativity and collaboration to fuel groundbreaking ideas.</p>
                                 <p className="mt-4 text-sm md:text-base leading-7 text-slate-600">At IMG, we pride ourselves on timely delivery, transforming visions into reality. From mobile app development to custom software solutions and dedicated developer hiring, we cater to businesses of all scales. Experience top-notch development, reasonable prices, and a partnership that exceeds expectations - at Twin Power Software, we make digital dreams come true.</p>
 
                                 <div className="mt-8 flex gap-4">
-                                    <button className="px-4 text-sm text-[white] bg-[#0E508A] inline-flex items-center gap-2 font-semibold py-3 border-[#0E508A] border-2 w-max hover:bg-[#0E508A]/80 duration-300">
+                                    <button className="px-4 text-sm text-[white] bg-theme1 inline-flex items-center gap-2 font-semibold py-3 border-theme1 border-2 w-max hover:bg-theme1/80 duration-300">
                                         <span>Read More</span>
                                         <span>
                                             <svg className='w-5 h-5' stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M13 7h9v2h-9zM13 15h9v2h-9zM16 11h6v2h-6zM13 12 8 7v4H2v2h6v4z"></path></svg>
                                         </span>
                                     </button>
-                                    <button className="px-4 text-sm text-[#0E508A] inline-flex items-center gap-2 font-semibold py-3 border-[#0E508A] border-2 w-max  before:-z-10 relative before:absolute before:w-full before:h-0 before:left-0 before:top-1/2 before:bg-[#0E508A] before:md:hover:h-full before:duration-300 md:hover:text-white duration-300 before:md:hover:top-0">
+                                    <button className="px-4 text-sm text-theme1 inline-flex items-center gap-2 font-semibold py-3 border-theme1 border-2 w-max  before:-z-10 relative before:absolute before:w-full before:h-0 before:left-0 before:top-1/2 before:bg-theme1 before:md:hover:h-full before:duration-300 md:hover:text-white duration-300 before:md:hover:top-0">
                                         <span>Come for coffee</span>
                                         <span>
                                             <svg className='w-5 h-5' stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M7 22h10a1 1 0 0 0 .99-.858L19.867 8H21V6h-1.382l-1.724-3.447A.998.998 0 0 0 17 2H7c-.379 0-.725.214-.895.553L4.382 6H3v2h1.133L6.01 21.142A1 1 0 0 0 7 22zm10.418-11H6.582l-.429-3h11.693l-.428 3zm-9.551 9-.429-3h9.123l-.429 3H7.867zM7.618 4h8.764l1 2H6.618l1-2z"></path></svg>
@@ -271,7 +271,7 @@ export default function Home() {
                     <div className="relative container mx-auto max-w-7xl md:px-6 lg:px-8 z-10">
                         <p className="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black text-center">
                             <span className="font-normal">What We Can Do</span>
-                            <span className="font-bold text-[#C10913]"> For You?</span>
+                            <span className="font-bold text-theme2"> For You?</span>
                         </p>
                         <div className="md:text-base text-sm text-black/70 mt-3 text-center">
                             Experience a journey of innovation with us, where every pixel, code, and concept converges to transform your dreams into reality. Unveil a spectrum of top-notch development services that empower your business vision to thrive in the boundless realm of possibilities.
@@ -284,23 +284,23 @@ export default function Home() {
                         Discover your way to unparalleled growth and creativity while choosing IMG Global Inftechs growth-driven development services. Seamlessly transform your business ideas into reality with just a click, because innovation starts here.
                     </div>
                 </div>
-            <div className="bg-[#0E508A] py-12 ">
+            <div className="bg-theme1 py-12 ">
                 <div className="max-w-7xl px-6 lg:px-8 mx-auto ">
                     <div className="grid grid-cols-12 ">
                         <div className="md:col-span-3 max-md:flex max-md:overflow-hidden max-md:overflow-x-auto col-span-12  py-10">
-                            <Link onClick={() => { setServices('Treanding Solution') }} href='/' className={`text-nowrap text-sm font-semibold md:text-xl max-md:bg-white  md:bg-transprent max-md:text-[#0E508A] md:text-white mx-2 mb-6 p-4 rounded-xl inline-block ${services === "Treanding Solution" ? "bg-white !text-[#0E508A]":""}`}>Treanding Solution</Link>
-                            <Link onClick={() => { setServices('Mobile App Development') }} href='/' className={`text-nowrap text-sm font-semibold md:text-xl max-md:bg-white  md:bg-transprent max-md:text-[#0E508A] md:text-white mx-2 mb-6 p-4 rounded-xl inline-block ${services === "Mobile App Development" ? "bg-white !text-[#0E508A]":""}`}>Mobile App Development</Link>
-                            <Link onClick={() => { setServices('Web Development') }} href='/' className={`text-nowrap text-sm font-semibold md:text-xl max-md:bg-white  md:bg-transprent max-md:text-[#0E508A] md:text-white mx-2 mb-6 p-4 rounded-xl inline-block ${services === "Web Development" ? "bg-white !text-[#0E508A]":""}`}>Web Development</Link>
-                            <Link onClick={() => { setServices('eCommerce Solution') }} href='/' className={`text-nowrap text-sm font-semibold md:text-xl max-md:bg-white  md:bg-transprent max-md:text-[#0E508A] md:text-white mx-2 mb-6 p-4 rounded-xl inline-block ${services === "eCommerce Solution" ? "bg-white !text-[#0E508A]":""}`}>eCommerce Solution</Link>
-                            <Link onClick={() => { setServices('Software Development') }} href='/' className={`text-nowrap text-sm font-semibold md:text-xl max-md:bg-white  md:bg-transprent max-md:text-[#0E508A] md:text-white mx-2 mb-6 p-4 rounded-xl inline-block ${services === "Software Development" ? "bg-white !text-[#0E508A]":""}`}>Software Development</Link>
-                            <Link onClick={() => { setServices('Blockchain Development') }} href='/' className={`text-nowrap text-sm font-semibold md:text-xl max-md:bg-white  md:bg-transprent max-md:text-[#0E508A] md:text-white mx-2 mb-6 p-4 rounded-xl inline-block ${services === "Blockchain Development" ? "bg-white !text-[#0E508A]":""}`}>Blockchain Development</Link></div>
+                            <Link onClick={() => { setServices('Treanding Solution') }} href='/' className={`text-nowrap text-sm font-semibold md:text-xl max-md:bg-white  md:bg-transprent max-md:text-theme1 md:text-white mx-2 mb-6 p-4 rounded-xl inline-block ${services === "Treanding Solution" ? "bg-white !text-theme1":""}`}>Treanding Solution</Link>
+                            <Link onClick={() => { setServices('Mobile App Development') }} href='/' className={`text-nowrap text-sm font-semibold md:text-xl max-md:bg-white  md:bg-transprent max-md:text-theme1 md:text-white mx-2 mb-6 p-4 rounded-xl inline-block ${services === "Mobile App Development" ? "bg-white !text-theme1":""}`}>Mobile App Development</Link>
+                            <Link onClick={() => { setServices('Web Development') }} href='/' className={`text-nowrap text-sm font-semibold md:text-xl max-md:bg-white  md:bg-transprent max-md:text-theme1 md:text-white mx-2 mb-6 p-4 rounded-xl inline-block ${services === "Web Development" ? "bg-white !text-theme1":""}`}>Web Development</Link>
+                            <Link onClick={() => { setServices('eCommerce Solution') }} href='/' className={`text-nowrap text-sm font-semibold md:text-xl max-md:bg-white  md:bg-transprent max-md:text-theme1 md:text-white mx-2 mb-6 p-4 rounded-xl inline-block ${services === "eCommerce Solution" ? "bg-white !text-theme1":""}`}>eCommerce Solution</Link>
+                            <Link onClick={() => { setServices('Software Development') }} href='/' className={`text-nowrap text-sm font-semibold md:text-xl max-md:bg-white  md:bg-transprent max-md:text-theme1 md:text-white mx-2 mb-6 p-4 rounded-xl inline-block ${services === "Software Development" ? "bg-white !text-theme1":""}`}>Software Development</Link>
+                            <Link onClick={() => { setServices('Blockchain Development') }} href='/' className={`text-nowrap text-sm font-semibold md:text-xl max-md:bg-white  md:bg-transprent max-md:text-theme1 md:text-white mx-2 mb-6 p-4 rounded-xl inline-block ${services === "Blockchain Development" ? "bg-white !text-theme1":""}`}>Blockchain Development</Link></div>
                         <div className="md:col-span-9 col-span-12 bg-[white] p-2 rounded-xl">
                             {
                                 services === "Treanding Solution" &&
                                 <div className="p-4">
                                     <p className="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight">
                                         <span className="font-normal">Trending </span>
-                                        <span className="font-bold bg-gradient-to-r from-cyan-300 via-cyan-200 to-cyan-400 bg-clip-text text-[#C10913]"> Solutions</span>
+                                        <span className="font-bold bg-gradient-to-r from-cyan-300 via-cyan-200 to-cyan-400 bg-clip-text text-theme2"> Solutions</span>
                                     </p>
                                     <div className="md:text-base text-sm mt-3 mb-lg-1 md:font-semibold  ">  Explore our trending ready-to-use applications, meticulously crafted to elevate your business instantly. From cutting-edge food delivery apps to innovative elearning platforms, our trending solutions are designed to streamline operations.
                                     </div>
@@ -366,7 +366,7 @@ export default function Home() {
                                 <div className="p-4">
                                     <p className="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight">
                                         <span className="font-normal">Mobile App </span>
-                                        <span className="font-bold bg-gradient-to-r from-cyan-300 via-cyan-200 to-cyan-400 bg-clip-text text-[#C10913]"> Development</span>
+                                        <span className="font-bold bg-gradient-to-r from-cyan-300 via-cyan-200 to-cyan-400 bg-clip-text text-theme2"> Development</span>
                                     </p>
                                     <div className="md:text-base text-sm mt-3 mb-lg-1 md:font-semibold  ">  Step into the future of digital interaction with our top-notch mobile app development services. Your ideas are the fuel, and we are the creators, transforming concepts into powerful mobile solutions that captivate users and elevate your digital footprint.
                                     </div>
@@ -429,7 +429,7 @@ export default function Home() {
                                 <div className="p-4">
                                     <p className="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight">
                                         <span className="font-normal">Web  </span>
-                                        <span className="font-bold bg-gradient-to-r from-cyan-300 via-cyan-200 to-cyan-400 bg-clip-text text-[#C10913]"> Development</span>
+                                        <span className="font-bold bg-gradient-to-r from-cyan-300 via-cyan-200 to-cyan-400 bg-clip-text text-theme2"> Development</span>
                                     </p>
                                     <div className="md:text-base text-sm mt-3 mb-lg-1 md:font-semibold  "> Step into the future of digital interaction with our top-notch mobile app development services. Your ideas are the fuel, and we are the creators, transforming concepts into powerful mobile solutions that captivate users and elevate your digital footprint.
 
@@ -491,7 +491,7 @@ export default function Home() {
                                 <div className="p-4">
                                     <p className="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight">
                                         <span className="font-normal">eCommerce </span>
-                                        <span className="font-bold bg-gradient-to-r from-cyan-300 via-cyan-200 to-cyan-400 bg-clip-text text-[#C10913]"> Solutions</span>
+                                        <span className="font-bold bg-gradient-to-r from-cyan-300 via-cyan-200 to-cyan-400 bg-clip-text text-theme2"> Solutions</span>
                                     </p>
                                     <div className="md:text-base text-sm mt-3 mb-lg-1 md:font-semibold  ">  Explore our trending ready-to-use applications, meticulously crafted to elevate your business instantly. From cutting-edge food delivery apps to innovative elearning platforms, our trending solutions are designed to streamline operations.
                                     </div>
@@ -553,7 +553,7 @@ export default function Home() {
                                 <div className="p-4">
                                     <p className="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight">
                                         <span className="font-normal">Software </span>
-                                        <span className="font-bold bg-gradient-to-r from-cyan-300 via-cyan-200 to-cyan-400 bg-clip-text text-[#C10913]"> Development </span>
+                                        <span className="font-bold bg-gradient-to-r from-cyan-300 via-cyan-200 to-cyan-400 bg-clip-text text-theme2"> Development </span>
                                     </p>
                                     <div className="md:text-base text-sm mt-3 mb-lg-1 md:font-semibold  ">  Explore our trending ready-to-use applications, meticulously crafted to elevate your business instantly. From cutting-edge food delivery apps to innovative elearning platforms, our trending solutions are designed to streamline operations.
                                     </div>
@@ -617,7 +617,7 @@ export default function Home() {
                                 <div className="p-4">
                                     <p className="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight">
                                         <span className="font-normal">"Blockchain </span>
-                                        <span className="font-bold bg-gradient-to-r from-cyan-300 via-cyan-200 to-cyan-400 bg-clip-text text-[#C10913]">  Development</span>
+                                        <span className="font-bold bg-gradient-to-r from-cyan-300 via-cyan-200 to-cyan-400 bg-clip-text text-theme2">  Development</span>
                                     </p>
                                     <div className="md:text-base text-sm mt-3 mb-lg-1 md:font-semibold  ">  Explore our trending ready-to-use applications, meticulously crafted to elevate your business instantly. From cutting-edge food delivery apps to innovative elearning platforms, our trending solutions are designed to streamline operations.
                                     </div>
@@ -690,7 +690,7 @@ export default function Home() {
                 <div className="flex flex-col w-full max-w-7xl mx-auto pb-8 px-6 lg:px-8 text-center">
                     <p className="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black empty:hidden text-balance">
                         <span>Client Journeys to Success -</span>
-                        <span className="font-bold text-[#C10913]"> Glimpse of Our Case Studies</span>
+                        <span className="font-bold text-theme2"> Glimpse of Our Case Studies</span>
                     </p>
                     <div className="mt-4 text-base md:text-lg leading-7 text-slate-600 empty:hidden text-balance">Explore our client success stories, witnessing transformative journeys to success. Each case study below reflects our impactful solutions, showcasing innovation, dedication, and tangible results.</div>
                 </div>
@@ -710,7 +710,7 @@ export default function Home() {
                                         <span className="duration-300 text-base lg:text-lg font-semibold inline-block">Roccabox</span>
                                         <div className="font-bold text-lg/normal sm:text-xl/normal md:text-2xl/normal lg:text-3xl/normal mb-4 text-balance">Rocca Box is a real estate mobile appltion that makes the property searching process a lot smoother.</div>
                                         <div>
-                                        <button className="px-4 text-sm text-white inline-flex items-center gap-2 font-semibold py-3 border-white border-2 w-max  before:-z-10 relative before:absolute before:w-full before:h-0 before:left-0 before:top-1/2 before:bg-[#0E508A] before:md:hover:h-full before:duration-300 md:hover:text-white duration-300 before:md:hover:top-0">
+                                        <button className="px-4 text-sm text-white inline-flex items-center gap-2 font-semibold py-3 border-white border-2 w-max  before:-z-10 relative before:absolute before:w-full before:h-0 before:left-0 before:top-1/2 before:bg-theme1 before:md:hover:h-full before:duration-300 md:hover:text-white duration-300 before:md:hover:top-0">
                                         VIew Case Study
                                         
                                     </button>
@@ -733,7 +733,7 @@ export default function Home() {
                                         <span className="duration-300 text-base lg:text-lg font-semibold inline-block">The Lien Zone</span>
                                         <div className="font-bold text-lg/normal sm:text-xl/normal md:text-2xl/normal lg:text-3xl/normal mb-4 text-balance">Build for a client in Florida, USA, The Lien Zone contains all the information about the holidays in Florida</div>
                                         <div>
-                                        <button className="px-4 text-sm text-white inline-flex items-center gap-2 font-semibold py-3 border-white border-2 w-max  before:-z-10 relative before:absolute before:w-full before:h-0 before:left-0 before:top-1/2 before:bg-[#0E508A] before:md:hover:h-full before:duration-300 md:hover:text-white duration-300 before:md:hover:top-0">
+                                        <button className="px-4 text-sm text-white inline-flex items-center gap-2 font-semibold py-3 border-white border-2 w-max  before:-z-10 relative before:absolute before:w-full before:h-0 before:left-0 before:top-1/2 before:bg-theme1 before:md:hover:h-full before:duration-300 md:hover:text-white duration-300 before:md:hover:top-0">
                                         VIew Case Study
                                         
                                     </button>
@@ -762,7 +762,7 @@ export default function Home() {
                                         <span className="duration-300 text-lg font-semibold inline-block">About Aavas Financiers</span>
                                         <div className="font-bold text-lg/normal sm:text-xl/normal md:text-2xl/normal lg:text-3xl/normal mb-4 text-balance">The success of Aavas is counted from zero to millions of satisfied customers across the country.</div>
                                         <div>
-                                        <button className="px-4 text-sm text-white inline-flex items-center gap-2 font-semibold py-3 border-white border-2 w-max  before:-z-10 relative before:absolute before:w-full before:h-0 before:left-0 before:top-1/2 before:bg-[#0E508A] before:md:hover:h-full before:duration-300 md:hover:text-white duration-300 before:md:hover:top-0">
+                                        <button className="px-4 text-sm text-white inline-flex items-center gap-2 font-semibold py-3 border-white border-2 w-max  before:-z-10 relative before:absolute before:w-full before:h-0 before:left-0 before:top-1/2 before:bg-theme1 before:md:hover:h-full before:duration-300 md:hover:text-white duration-300 before:md:hover:top-0">
                                         VIew Case Study
                                         
                                     </button>
@@ -784,7 +784,7 @@ export default function Home() {
                                         <span className="duration-300 text-lg font-semibold inline-block">About Klassbook</span>
                                         <div className="font-bold text-lg/normal sm:text-xl/normal md:text-2xl/normal lg:text-3xl/normal mb-4 text-balance">The Klassbook consists of hand-picked and best features to lead the educational transformation to meet the needs of present and future generations.</div>
                                         <div>
-                                        <button className="px-4 text-sm text-white inline-flex items-center gap-2 font-semibold py-3 border-white border-2 w-max  before:-z-10 relative before:absolute before:w-full before:h-0 before:left-0 before:top-1/2 before:bg-[#0E508A] before:md:hover:h-full before:duration-300 md:hover:text-white duration-300 before:md:hover:top-0">
+                                        <button className="px-4 text-sm text-white inline-flex items-center gap-2 font-semibold py-3 border-white border-2 w-max  before:-z-10 relative before:absolute before:w-full before:h-0 before:left-0 before:top-1/2 before:bg-theme1 before:md:hover:h-full before:duration-300 md:hover:text-white duration-300 before:md:hover:top-0">
                                         VIew Case Study
                                         
                                     </button>
@@ -813,7 +813,7 @@ export default function Home() {
                                         <span className="duration-300 text-lg font-semibold inline-block">About Laiqa</span>
                                         <div className="font-bold text-lg/normal sm:text-xl/normal md:text-2xl/normal lg:text-3xl/normal mb-4 text-balance">Shop for Handwoven Garments & home fusnishings</div>
                                         <div>
-                                        <button className="px-4 text-sm text-white inline-flex items-center gap-2 font-semibold py-3 border-white border-2 w-max  before:-z-10 relative before:absolute before:w-full before:h-0 before:left-0 before:top-1/2 before:bg-[#0E508A] before:md:hover:h-full before:duration-300 md:hover:text-white duration-300 before:md:hover:top-0">
+                                        <button className="px-4 text-sm text-white inline-flex items-center gap-2 font-semibold py-3 border-white border-2 w-max  before:-z-10 relative before:absolute before:w-full before:h-0 before:left-0 before:top-1/2 before:bg-theme1 before:md:hover:h-full before:duration-300 md:hover:text-white duration-300 before:md:hover:top-0">
                                         VIew Case Study
                                         
                                     </button>
@@ -841,7 +841,7 @@ export default function Home() {
                                         <span className="duration-300 text-lg md:text-xl font-semibold inline-block">CaseStudy</span>
                                         <div className="font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl text-balance max-w-lg mx-auto">Transforming Businesses Worldwide - 100+ Success Stories and Counting</div>
                                         <div>
-                                        <button className="px-4 text-sm text-white inline-flex items-center gap-2 font-semibold py-3 border-white border-2 w-max  before:-z-10 relative before:absolute before:w-full before:h-0 before:left-0 before:top-1/2 before:bg-[#0E508A] before:md:hover:h-full before:duration-300 md:hover:text-white duration-300 before:md:hover:top-0">
+                                        <button className="px-4 text-sm text-white inline-flex items-center gap-2 font-semibold py-3 border-white border-2 w-max  before:-z-10 relative before:absolute before:w-full before:h-0 before:left-0 before:top-1/2 before:bg-theme1 before:md:hover:h-full before:duration-300 md:hover:text-white duration-300 before:md:hover:top-0">
                                         VIew all Casestudy
                                         
                                     </button>
@@ -882,12 +882,12 @@ export default function Home() {
                                 </svg>
                             </div>
                             <div className="mx-auto max-w-3xl lg:mx-0 lg:flex-auto py-6 md:py-8 lg:py-16 lg:text-left relative z-[1]">
-                                <div className="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight text-white font-normal text-center empty:hidden">            Lets turn your <span className="font-bold bg-gradient-to-r from-gray-100 via-[#C10913] to-gray-100 bg-clip-text text-white">business idea into reality</span>
+                                <div className="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight text-white font-normal text-center empty:hidden">            Lets turn your <span className="font-bold bg-gradient-to-r from-gray-100 via-theme2 to-gray-100 bg-clip-text text-white">business idea into reality</span>
                                 </div>
                                 <p className="mt-6 text-base md:text-lg md:leading-8 text-gray-300 text-center empty:hidden">            Do you want to experience the best-in-class quality mobile apps? Send us your inquiry and one of our executives will catch you up in no time by Call, Email or Skype.
                                 </p>
                                 <div className="md:mt-10 mt-5 flex items-center justify-center gap-x-6 empty:hidden">
-                                <button className="px-4 text-sm text-[white] bg-[#0E508A] inline-flex items-center gap-2 font-semibold py-3 border-[#0E508A] border-2 w-max hover:bg-[#0E508A]/80 duration-300">
+                                <button className="px-4 text-sm text-[white] bg-theme1 inline-flex items-center gap-2 font-semibold py-3 border-theme1 border-2 w-max hover:bg-theme1/80 duration-300">
                                         <span>Schedule a consultation</span>
                                         <span>
                                         <svg className="size-5" stroke="currentColor" fill="currentColor" strokeWidth="0" role="img" viewBox="0 0 24 24" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M21.3 13.72a3.158 3.158 0 0 0-3.462.124.632.632 0 0 1-.682.035l-3.137-1.81a.08.08 0 0 1 0-.137l3.12-1.8a.632.632 0 0 1 .685.036 3.158 3.158 0 0 0 3.47.139A3.194 3.194 0 0 0 22.442 6.1a3.158 3.158 0 0 0-5.924 1.773.633.633 0 0 1-.311.606l-3.136 1.811a.08.08 0 0 1-.118-.068V6.6a.632.632 0 0 1 .372-.573 3.158 3.158 0 1 0-2.64 0 .632.632 0 0 1 .373.573v3.622a.08.08 0 0 1-.119.068L7.804 8.48a.632.632 0 0 1-.311-.605 3.157 3.157 0 1 0-1.307 2.294.633.633 0 0 1 .687-.038l3.12 1.8a.08.08 0 0 1 0 .137L6.854 13.88a.632.632 0 0 1-.683-.035 3.158 3.158 0 0 0-3.461-.124 3.194 3.194 0 0 0-1.143 4.202 3.159 3.159 0 0 0 5.924-1.792.633.633 0 0 1 .31-.61l3.137-1.81a.08.08 0 0 1 .119.068V17.4a.632.632 0 0 1-.372.573 3.158 3.158 0 1 0 2.64 0 .633.633 0 0 1-.373-.573v-3.621a.08.08 0 0 1 .118-.069l3.137 1.812a.631.631 0 0 1 .31.609 3.159 3.159 0 0 0 5.924 1.792A3.194 3.194 0 0 0 21.3 13.72Z"></path></svg>
@@ -914,7 +914,7 @@ export default function Home() {
                     </div>
                     <p className="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black text-balance text-center">
                         <span className="font-normal">Serving Multiple  </span>
-                        <span className="font-bold text-[#C10913]"> Industries Across the Board!
+                        <span className="font-bold text-theme2"> Industries Across the Board!
                         </span>
                     </p>
                     <div className="md:text-base text-center text-sm text-black/70 mt-3 text-balance">
@@ -1036,7 +1036,7 @@ export default function Home() {
                                 <div className="swiper-slide p-8 pb-12 swiper-slide-active swiper-slide-next" role="group" aria-label="1 / 1" data-swiper-slide-index="0" style={{ width: '608px', marginRight: '10px' }}>
                                     <Link href="https://youtu.be/dTdXaPxCbZw?si=9M-Wpivc0aUJCvxA" className="p-1 bg-gray-700 relative w-full  aspect-video glightbox3 block" data-gallery="gallery1">
                                         <div className="overflow-hidden  ring-2 ring-offset-8 ring-white ring-offset-gray-900">
-                                            <span className="absolute inset-0 z-30 flex items-center justify-center *:size-16 *:rounded-full last:*:bg-white *:text-[#C10913] last:*:shadow-lg last:*:shadow-[#C10913] last:*:relative last:*:z-30 first:*:z-20 first:*:absolute first:*:inset-0 first:*:m-auto first:*:animate-ping">
+                                            <span className="absolute inset-0 z-30 flex items-center justify-center *:size-16 *:rounded-full last:*:bg-white *:text-theme2 last:*:shadow-lg last:*:shadow-theme2 last:*:relative last:*:z-30 first:*:z-20 first:*:absolute first:*:inset-0 first:*:m-auto first:*:animate-ping">
                                                 <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 512 512" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm115.7 272l-176 101c-15.8 8.8-35.7-2.5-35.7-21V152c0-18.4 19.8-29.8 35.7-21l176 107c16.4 9.2 16.4 32.9 0 42z"></path></svg>
                                                 <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 512 512" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm115.7 272l-176 101c-15.8 8.8-35.7-2.5-35.7-21V152c0-18.4 19.8-29.8 35.7-21l176 107c16.4 9.2 16.4 32.9 0 42z"></path></svg>
                                             </span>
@@ -1277,7 +1277,7 @@ export default function Home() {
                 </div>
             </div>
             <PortfolioSection/>
-            <footer className="relative !overflow-hidden bg-gradient-to-br from-[#0E508A] via-sky-950 to-gray-950 py-8 sm:py-16 text-white">
+            <footer className="relative !overflow-hidden bg-gradient-to-br from-theme1 via-sky-950 to-gray-950 py-8 sm:py-16 text-white">
                 <div className="mx-auto max-w-7xl px-6 lg:px-8 z-[1] relative">
                     <div className="w-full flex flex-wrap items-center md:justify-between justify-center md:gap-0 gap-5 ">
                         <div className="w-auto">
