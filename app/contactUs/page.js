@@ -1,6 +1,8 @@
 import Header from '@/components/header/Header'
 import React from 'react'
 import Image from "next/image";
+import Form from '@/components/contactForm/Form';
+import Footer from '@/components/footer/Footer';
 
 function page() {
   return (
@@ -20,7 +22,7 @@ function page() {
                 <div className="relative overflow-hidden z-10 text-center 2xl:max-w-7xl xl:max-w-6xl lg:max-w-5xl md:max-w-3xl sm:max-w-3xl max-w-2xl px-6 lg:px-8 w-full lg:pt-40 sm:pt-32 pt-28 pb-12">
                   <div className="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight font-light text-white">
 
-                    <span className="colorApply3 font-bold block text-balance pb-1 shadow-blue-950 via-blue-500"><div className="">Transform Your Business Idea Into Reality!</div>
+                    <span className="colorApply3 font-bold block text-balance pb-1 shadow-blue-950 via-blue-500"><div className="">Bring Your Business Vision to Life!</div>
                     </span>
                   </div>
                   <div className="max-md:text-sm text-base text-white pt-5 text-balance mx-auto w-10/12 empty:hidden"></div>
@@ -29,6 +31,33 @@ function page() {
             </div>
           </div>
         </div></div>
+        <Form/>
+        <div className="w-full flex flex-wrap py-12 my-8 gap-y-10 border-y border-white/20">
+    <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/3">
+        <div className="flex flex-col w-full px-3 text-sm lg:text-base">
+            <div className="w-full font-bold text-base lg:text-lg pb-4">Corporate Office</div>
+            <div className="w-full opacity-80 pb-1">Andhari, Mumbai</div>
+            <div className="w-full opacity-80">Phone : +91-1234567890</div>
+        </div>
+    </div>
+    <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/3">
+        <div className="flex flex-col w-full px-3 text-sm lg:text-base">
+            <div className="w-full font-bold text-base lg:text-lg pb-4">Regional Office</div>
+            <div className="w-full opacity-80 pb-1">1090, gandhi Nagar, nehru Marg, Near , Delhi - 302019</div>
+            <div className="w-full opacity-80">Phone : +91-1234567890, +91-1234567890</div>
+        </div>
+    </div>
+
+    <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/3">
+        <div className="flex flex-col w-full px-3 text-sm lg:text-base">
+            <div className="w-full font-bold text-base lg:text-lg pb-4">Regional Office</div>
+            <div className="w-full opacity-80 pb-1">203 Schm No.2 near city park, Kolkata</div>
+            <div className="w-full opacity-80">Phone : +91-1234567890</div>
+            
+        </div>
+    </div>
+</div>
+        <Footer/>
     </>
   )
 }
