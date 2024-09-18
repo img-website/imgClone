@@ -15,6 +15,8 @@ import Link from "next/link";
 import PortfolioSection from "@/components/portfolio/portfolio";
 import Form from "@/components/contactForm/Form";
 import Services from "@/components/services/Services";
+import Cta from "@/components/cta/Cta";
+import Gallery from "@/components/gallery/Gallery";
 
 
 export default function Home() {
@@ -135,7 +137,8 @@ export default function Home() {
             </div>
             {/* hero Ends */}
 
-
+            <Services/>
+            
 
             {/* About Start */}
             <div className="">
@@ -215,7 +218,6 @@ export default function Home() {
             </div>
             {/* About Ends */}
 
-            <Services/>
 
 
           {/* case study */}
@@ -395,165 +397,8 @@ export default function Home() {
             </section>
           {/* case study */}
 
-            <div className="bg-white">
-                <div className="py-6 md:py-8 lg:py-16">
-                    <div className="mx-auto max-w-7xl px-6 lg:px-8">
-                        <div className="relative isolate overflow-hidden text-center justify-center bg-gray-900 px-6 shadow-2xl  sm:rounded-3xl sm:px-16 lg:flex lg:gap-x-20 lg:px-24">
-                            <svg viewBox="0 0 1024 1024" className="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0 pointer-events-none" aria-hidden="true">
-                                <circle cx="512" cy="512" r="512" fill="url(#l2200)" fillOpacity="0.7"></circle>
-                                <defs>
-                                    <radialGradient id="l2200">
-                                        <stop offset="0.5" stopColor="#9333ea"></stop>
-                                        <stop offset="1" stopColor="#db2777"></stop>
-                                    </radialGradient>
-                                </defs>
-                            </svg>
-                            <div className="absolute inset-x-0 top-0 h-96 z-0 text-white/20 [mask-image:linear-gradient(to_top,transparent,white)] pointer-events-none bg-gray-500">
-                                <svg className="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
-                                    <defs>
-                                        <pattern id="ryhhgfbyi" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
-                                            <path d="M0 32V.5H32" fill="none" stroke="currentColor"></path>
-                                        </pattern>
-                                    </defs>
-                                    <rect width="100%" height="100%" fill="url(#ryhhgfbyi)"></rect>
-                                </svg>
-                            </div>
-                            <div className="mx-auto max-w-3xl lg:mx-0 lg:flex-auto py-6 md:py-8 lg:py-16 lg:text-left relative z-[1]">
-                                <div className="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight text-white font-normal text-center empty:hidden">            Lets turn your <span className="font-bold bg-gradient-to-r from-gray-100 via-theme2 to-gray-100 bg-clip-text text-white">business idea into reality</span>
-                                </div>
-                                <p className="mt-6 text-base md:text-lg md:leading-8 text-gray-300 text-center empty:hidden">            Do you want to experience the best-in-class quality mobile apps? Send us your inquiry and one of our executives will catch you up in no time by Call, Email or Skype.
-                                </p>
-                                <div className="md:mt-10 mt-5 flex items-center justify-center gap-x-6 empty:hidden">
-                                <button className="px-4 text-sm text-[white] bg-theme1 inline-flex items-center gap-2 font-semibold py-3 border-theme1 border-2 w-max hover:bg-theme1/80 duration-300">
-                                        <span>Schedule a consultation</span>
-                                        <span>
-                                        <svg className="size-5" stroke="currentColor" fill="currentColor" strokeWidth="0" role="img" viewBox="0 0 24 24" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M21.3 13.72a3.158 3.158 0 0 0-3.462.124.632.632 0 0 1-.682.035l-3.137-1.81a.08.08 0 0 1 0-.137l3.12-1.8a.632.632 0 0 1 .685.036 3.158 3.158 0 0 0 3.47.139A3.194 3.194 0 0 0 22.442 6.1a3.158 3.158 0 0 0-5.924 1.773.633.633 0 0 1-.311.606l-3.136 1.811a.08.08 0 0 1-.118-.068V6.6a.632.632 0 0 1 .372-.573 3.158 3.158 0 1 0-2.64 0 .632.632 0 0 1 .373.573v3.622a.08.08 0 0 1-.119.068L7.804 8.48a.632.632 0 0 1-.311-.605 3.157 3.157 0 1 0-1.307 2.294.633.633 0 0 1 .687-.038l3.12 1.8a.08.08 0 0 1 0 .137L6.854 13.88a.632.632 0 0 1-.683-.035 3.158 3.158 0 0 0-3.461-.124 3.194 3.194 0 0 0-1.143 4.202 3.159 3.159 0 0 0 5.924-1.792.633.633 0 0 1 .31-.61l3.137-1.81a.08.08 0 0 1 .119.068V17.4a.632.632 0 0 1-.372.573 3.158 3.158 0 1 0 2.64 0 .633.633 0 0 1-.373-.573v-3.621a.08.08 0 0 1 .118-.069l3.137 1.812a.631.631 0 0 1 .31.609 3.159 3.159 0 0 0 5.924 1.792A3.194 3.194 0 0 0 21.3 13.72Z"></path></svg>
-                                        </span>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <Gallery/>
 
-            <div className="bg-white relative py-8 sm:pb-16 lg:pb-24">
-                <div className="mx-auto max-w-7xl px-6 lg:px-8">
-                    <div className="absolute inset-x-0 top-0 h-96 z-0 text-slate-600/10 [mask-image:linear-gradient(to_top,transparent,white)] pointer-events-none">
-                        <svg className="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
-                            <defs>
-                                <pattern id="ryhhgfby" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
-                                    <path d="M0 32V.5H32" fill="none" stroke="currentColor"></path>
-                                </pattern>
-                            </defs>
-                            <rect width="100%" height="100%" fill="url(#ryhhgfby)"></rect>
-                        </svg>
-                    </div>
-                    <p className="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black text-balance text-center">
-                        <span className="font-normal">Serving Multiple  </span>
-                        <span className="font-bold text-theme2"> Industries Across the Board!
-                        </span>
-                    </p>
-                    <div className="md:text-base text-center text-sm text-black/70 mt-3 text-balance">
-                        Discover the endless possibilities with our versatile mobile app and web development solutions. From tech to healthcare, we cater to a diverse array of industries, ensuring innovation and excellence across every sector. Explore the major sector we deal in!
-                    </div>
-
-                    <div className="flex flex-row flex-wrap w-full gap3 pt-8 font-bold md:text-base text-sm uppercase text-white">
-                        <div className="xl:w-1/4 md:w-1/3 w-1/2 p-1">
-                            <Link href="https://www.imgglobalinfotech.com/fintech-software-development.php" className=" pointer-events-none relative text-decoration-none group flex items-center  overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-red-500/70 after:via-red-500/60 after:to-transparent after:duration-700 duration-300">
-                                <Image className="size-full object-cover duration-1000 group-hover:scale-150" width="296" height="222" src="https://images.unsplash.com/photo-1553801613-9b225d58f429?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YmFua2luZ3xlbnwwfDB8MHx8fDA%3D" alt="Banking and Finance Icon" />
-
-                                <div className="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Banking and Finance</div>
-                            </Link>
-                        </div>
-                        <div className="xl:w-1/3  md:w-1/3 w-1/2 p-1">
-                            <Link href="https://www.imgglobalinfotech.com/fantasy-sports-app-development.php" className=" pointer-events-none relative text-decoration-none group flex items-center  overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-red-500/70 after:via-red-500/60 after:to-transparent after:duration-700 duration-300">
-                                <Image className="size-full object-cover duration-1000 group-hover:scale-150" width="297" height="222" src="https://images.unsplash.com/photo-1601106711560-ffeb65211600?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Fantasy Sports Icon" />
-
-                                <div className="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Fantasy Sports</div>
-                            </Link>
-                        </div>
-                        <div className="xl:w-1/6  md:w-1/3 w-1/2 p-1">
-                            <Link href="https://www.imgglobalinfotech.com/healthcare-software-development.php" className=" pointer-events-none relative text-decoration-none group flex items-center  overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-red-500/70 after:via-red-500/60 after:to-transparent after:duration-700 duration-300">
-                                <Image className="size-full object-cover duration-1000 group-hover:scale-150" width="194" height="222" src="https://images.unsplash.com/photo-1666886573559-6ad307474d01?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Healthcare Icon" />
-
-                                <div className="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Healthcare</div>
-                            </Link>
-                        </div>
-                        <div className="xl:w-1/4 md:w-1/3 w-1/2 p-1">
-                            <Link href="https://www.imgglobalinfotech.com/edtech-software-development.php" className=" pointer-events-none relative text-decoration-none group flex items-center  overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-red-500/70 after:via-red-500/60 after:to-transparent after:duration-700 duration-300">
-                                <Image className="size-full object-cover duration-1000 group-hover:scale-150" width="296" height="222" src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="EdTech Solution Icon" />
-
-                                <div className="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">EdTech Solution</div>
-                        <div className="xl:w-1/4 md:w-1/3 sm:w-1/2 w-full p-1">
-                            <Link href="https://www.imgglobalinfotech.com/travel-app-development.php" className=" pointer-events-none relative text-decoration-none group flex items-center  overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-red-500/70 after:via-red-500/60 after:to-transparent after:duration-700 duration-300">
-                                <Image className="size-full object-cover duration-1000 group-hover:scale-150" width="296" height="222" src="https://www.imgglobalinfotech.com/public/tailwind/img/travel-and-tourism-800w.webp?id=d42d53341e4cc3a7fe874747ad39e667" alt="Travel and Tourism Icon" />
-
-                                <div className="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Travel and Tourism</div>
-                            </Link>
-
-
-                        </div>
-                            </Link>
-
-
-                        </div>
-                        <div className="xl:w-1/2 md:w-1/3 sm:w-1/2 w-full p-1">
-                            <Link href="https://www.imgglobalinfotech.com/media-and-entertainment-app-development.php" className=" pointer-events-none relative text-decoration-none group flex items-center  overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-red-500/70 after:via-red-500/70 after:to-transparent after:duration-700 duration-300">
-                                <Image className="size-full object-cover duration-1000 group-hover:scale-150" width="600" height="222" src="https://www.imgglobalinfotech.com/public/tailwind/img/media-and-entertainment-800w.webp?id=486432f05a2fbe2524bfad9eb7d157c4" alt="Media and Entertainment Icon" />
-
-                                <div className="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Media and Entertainment</div>
-                            </Link>
-                        </div>
-                        <div className="xl:w-1/4 md:w-1/3 w-1/2 p-1">
-                            <Link href="https://www.imgglobalinfotech.com/logistics-software-development.php" className=" pointer-events-none relative text-decoration-none group flex items-center  overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-red-500/70 after:via-red-500/60 after:to-transparent after:duration-700 duration-300">
-                                <Image className="size-full object-cover duration-1000 group-hover:scale-150" width="296" height="222" src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=1420&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Logistics Services App Icon" />
-
-                                <div className="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Services App</div>
-                            </Link>
-
-
-                        </div>
-                        <div className="xl:w-1/4 md:w-1/3 w-1/2 p-1">
-                            <Link href="https://www.imgglobalinfotech.com/logistics-software-development.php" className=" pointer-events-none relative text-decoration-none group flex items-center  overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-red-500/70 after:via-red-500/60 after:to-transparent after:duration-700 duration-300">
-                                <Image className="size-full object-cover duration-1000 group-hover:scale-150" width="296" height="222" src="https://images.unsplash.com/photo-1644352442473-57f4cd0873c3?q=80&w=1372&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Logistics Services App Icon" />
-
-                                <div className="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Logistics Services App</div>
-                            </Link>
-
-
-                        </div>
-                        <div className="xl:w-1/6 md:w-1/3 w-1/2 p-1">
-                            <Link href="https://www.imgglobalinfotech.com/social-media-app-development.php" className=" pointer-events-none relative text-decoration-none group flex items-center  overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-red-500/70 after:via-red-500/60 after:to-transparent after:duration-700 duration-300">
-                                <Image className="size-full object-cover duration-1000 group-hover:scale-150" width="194" height="222" src="https://images.unsplash.com/photo-1643503640904-75c1a2093570?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Social App Icon" />
-
-                                <div className="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Social App</div>
-                            </Link>
-                        </div>
-                        <div className="xl:w-1/3 md:w-1/2 w-1/2 p-1">
-                            <Link href="https://www.imgglobalinfotech.com/real-estate-app-development.php" className=" pointer-events-none relative text-decoration-none group flex items-center  overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-red-500/70 after:via-red-500/60 after:to-transparent after:duration-700 duration-300">
-                                <Image className="size-full object-cover duration-1000 group-hover:scale-150" width="397" height="222" src="https://images.unsplash.com/photo-1509081258900-a15e84ae6953?q=80&w=1411&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Real Estate Icon" />
-
-                                <div className="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Real Estate</div>
-                            </Link>
-                        </div>
-                        <div className="xl:w-1/4 md:w-1/2 sm:w-1/2 w-full p-1">
-                            <Link href="https://www.imgglobalinfotech.com/event-app-development.php" className=" pointer-events-none relative text-decoration-none group flex items-center  overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-red-500/70 after:via-red-500/60 after:to-transparent after:duration-700 duration-300">
-                                <Image className="size-full object-cover duration-1000 group-hover:scale-150" width="296" height="222" src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Event management Icon" />
-
-                                <div className="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Event management</div>
-                            </Link>
-                        </div>
-                        <div className="xl:w-1/4 md:w-1/2 sm:w-1/2 w-full p-1">
-                            <Link href="https://www.imgglobalinfotech.com/event-app-development.php" className=" pointer-events-none relative text-decoration-none group flex items-center  overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-red-500/70 after:via-red-500/60 after:to-transparent after:duration-700 duration-300">
-                                <Image className="size-full object-cover duration-1000 group-hover:scale-150" width="296" height="222" src="https://images.unsplash.com/photo-1637666067348-7303e7007363?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Event management Icon" />
-
-                                <div className="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Gym management software</div>
-                            </Link>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
             {/* <div className="relative bg-gray-900 py-6 md:py-8 lg:py-16 text-white">
                 <div className="w-full">
@@ -606,8 +451,9 @@ export default function Home() {
                     </div>
                 </div>
             </div> */}
-            <Form/>
             <PortfolioSection/>
+            <Cta/>
+            <Form/>
             <Footer/>
         </>
     );

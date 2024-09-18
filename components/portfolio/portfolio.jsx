@@ -5,12 +5,12 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 const PortfolioSection = () => {
 
   return (
-    <section className='relative bg-gray-900 py-6 md:py-8 lg:py-16 text-white'>
+    <section className='relative bg-gray-900 py-6 md:py-8 lg:py-16 text-white mt-12'>
       <div className="mx-auto max-w-7xl lg:px-8 px-6">
         <div className="mx-auto px-4 sm:px-6 md:max-w-3xl md:px-4 lg:px-2 relative pb-5">
           <p className="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-white text-balance text-center">
-            <span>Get a Glimpse of Our Portfolio </span>
-            <span> and Raise Your Expectations!</span>
+            <span>Preview Our Portfolio and  </span>
+            <span> Elevate Your Expectations!</span>
           </p>
           <div className="md:text-base text-sm text-white/70 mt-3 text-balance text-center">
             {/* {/ Add any text or content here if needed /} */}
@@ -33,7 +33,7 @@ const PortfolioSection = () => {
 
             [&_.swiperInner]:p-1 [&_.swiperInner]:bg-gray-700 [&_.swiperInner]:relative [&_.swiperInner]:w-full [&_.swiperInner]:rounded-2xl [&_.swiperInner]:overflow-hidden
             
-            [&_img]:w-full [&_img]:aspect-[4/5] [&_img]:overflow-hidden [&_img]:rounded-xl [&_img]:z-0 [&_img]:duration-[3000ms]
+            [&_img]:w-full [&_img]:aspect-[4/5] [&_img]:overflow-hidden [&_img]:rounded-[20px] [&_img]:z-0 [&_img]:duration-[3000ms]
 
             [&_.content]:mt-10 [&_.content]:flex [&_.content]:rounded-xl [&_.content]:rounded-t-none [&_.content]:items-center [&_.content]:sm:justify-center [&_.content]:absolute [&_.content]:inset-1 [&_.content]:top-auto [&_.content]:z-[1] before:[&_.content]:absolute before:[&_.content]:inset-3 before:[&_.content]:z-[1] before:[&_.content]:bg-gradient-to-t before:[&_.content]:backdrop-blur-xl before:[&_.content]:rounded-xl [&_.content]:py-8
 
