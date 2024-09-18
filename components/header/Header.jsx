@@ -3,7 +3,7 @@ import React from 'react'
 const Header = () => {
   return (
     <>
-      <header className="absolute top-0 left-0 right-0 z-[1010] bg-gradient-to-b from-[#C10913]/40 via-[#C10913]/20  text-white group-[]/ns:fixed group-[]/ns:animate-fixed-nav group-[]/ns:from-slate-950 group-[]/ns:to-[#0E508A] group-[]/ons:from-[#0E508A] group-[]/ons:to-[#0E508A] group-[]/ons:rounded-b-2xl">
+      <header className="absolute top-0 left-0 right-0 z-[1010] bg-theme1  text-white group-[]/ns:fixed group-[]/ns:animate-fixed-nav group-[]/ns:from-slate-950 group-[]/ns:to-theme1 group-[]/ons:from-theme1 group-[]/ons:to-theme1 group-[]/ons:rounded-b-2xl">
   <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
     <div className="flex lg:flex-1">
       <a href="https://www.imgglobalinfotech.com/" className="pointer-events-none -m-1.5 p-1.5">
@@ -37,6 +37,9 @@ const Header = () => {
       </div>
       <div className="flex gap-5 items-center">
           <div className="hidden lg:flex lg:gap-x-6 ml-auto mr-0">
+          <button type="button" className="flex items-center gap-x-[2px] text-xs font-semibold leading-6 text-gray-50 hover:text-gray-300 duration-200 uppercase group-hover/dd:before:absolute group-hover/dd:before:-bottom-[34px] group-hover/dd:before:left-0 group-hover/dd:before:h-10 group-hover/dd:before:w-full group-hover/dd:before:z-[1]" aria-expanded="false">
+                Home
+              </button>
             <div className="relative group/dd">
               <button type="button" className="flex items-center gap-x-[2px] text-xs font-semibold leading-6 text-gray-50 hover:text-gray-300 duration-200 uppercase group-hover/dd:before:absolute group-hover/dd:before:-bottom-[34px] group-hover/dd:before:left-0 group-hover/dd:before:h-10 group-hover/dd:before:w-full group-hover/dd:before:z-[1]" aria-expanded="false">
                 Company
@@ -44,15 +47,15 @@ const Header = () => {
                   <path fillRule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clipRule="evenodd"></path>
                 </svg>
               </button>
-              <div className="absolute left-1/2 right-0 max-w-md w-screen top-[58px] z-10 overflow-hidden bg-gray-900/40  backdrop-blur-lg transition ease-out duration-200 opacity-0 group-hover/dd:opacity-100 origin-top [transform:rotateX(90deg)_translateX(-50%)] group-hover/dd:[transform:rotateX(0deg)_translateX(-50%)]">
+              <div className="absolute left-1/2 right-0 max-w-md w-screen top-[58px] z-10 overflow-hidden bg-transparent rounded-[20px] transition ease-out duration-200 opacity-0 group-hover/dd:opacity-100 origin-top [transform:rotateX(90deg)_translateX(-50%)] group-hover/dd:[transform:rotateX(0deg)_translateX(-50%)]">
                 <div className="grid grid-cols-1 flex-wrap w-full gap-4 p-2 xl:p-4 items-stretch">
-                  <div className="w-full flex flex-col p-2 xl:p-4 overflow-hidden  text-xs xl:text-sm leading-6 bg-gray-900/70 group-[]/ns:bg-gradient-to-b group-[]/ns:from-[#0C4477] group-[]/ns:to-sky-950 backdrop-blur-lg shadow-lg ring-1 ring-gray-900/5 *:relative *:flex *:items-center *:gap-x-6 *:rounded-lg *:p-2 *:xl:p-4">
+                  <div className="w-full flex flex-col p-2 rounded-[20px] bg-white xl:p-4 overflow-hidden  text-xs xl:text-sm leading-6 group-[]/ns:to-sky-950 backdrop-blur-lg shadow-lg ring-1 ring-gray-900/5 *:relative *:flex *:items-center *:gap-x-6 *:rounded-lg *:p-2 *:xl:p-4">
                     <div className="group/db ">
                       <div className="flex h-11 w-11 flex-none items-center justify-center rounded-full bg-gray-900 group-hover/db:bg-gray-950/90">
                         <svg className="h-5 w-5 opacity-90 group-hover/db:opacity-80" stroke="currentColor" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path><path d="M12 9v4"></path><path d="M12 16v.01"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/about-us.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 uppercase hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/about-us.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 uppercase hoverLink text-slate-900">
                           About Us
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -64,7 +67,7 @@ const Header = () => {
                         <svg className="h-5 w-5 opacity-90 group-hover/db:opacity-80" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H5.17L4 17.17V4h16v12z"></path><path d="M12 15l1.57-3.43L17 10l-3.43-1.57L12 5l-1.57 3.43L7 10l3.43 1.57z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/testimonials.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 uppercase hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/testimonials.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 uppercase hoverLink text-slate-900">
                           Testimonials
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -76,7 +79,7 @@ const Header = () => {
                         <svg className="h-5 w-5 opacity-90 group-hover/db:opacity-80" stroke="currentColor" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path><path d="M12 5 9.04 7.96a2.17 2.17 0 0 0 0 3.08v0c.82.82 2.13.85 3 .07l2.07-1.9a2.82 2.82 0 0 1 3.79 0l2.96 2.66"></path><path d="m18 15-2-2"></path><path d="m15 18-2-2"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.flickr.com/photos/imgglobalinfotech" className="block font-semibold opacity-80 hover:opacity-90 duration-200 uppercase hoverLink">
+                        <a href="https://www.flickr.com/photos/imgglobalinfotech" className="block font-semibold opacity-80 hover:opacity-90 duration-200 uppercase hoverLink text-slate-900">
                           LIFE@Twinpower
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -88,7 +91,7 @@ const Header = () => {
                         <svg className="h-5 w-5 opacity-90 group-hover/db:opacity-80" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20ZM7 12H9C9 13.6569 10.3431 15 12 15C13.6569 15 15 13.6569 15 12H17C17 14.7614 14.7614 17 12 17C9.23858 17 7 14.7614 7 12Z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/career.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 uppercase hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/career.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 uppercase hoverLink text-slate-900">
                           Career
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -102,7 +105,7 @@ const Header = () => {
                         </svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/casestudy.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 uppercase hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/casestudy.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 uppercase hoverLink text-slate-900">
                           Case Study
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -130,16 +133,16 @@ const Header = () => {
                   <path fillRule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clipRule="evenodd"></path>
                 </svg>
               </button>
-              <div className="absolute left-0 right-0 w-full top-[132px] group-hover/ns:top-24 z-10 overflow-hidden bg-gray-900/40 group-hover/ns:rounded-t-none  backdrop-blur-lg transition ease-out duration-200 opacity-0 group-hover/dd:opacity-100 origin-top [transform:rotateX(90deg)] group-hover/dd:[transform:rotateX(0deg)]">
+              <div className="absolute left-0 right-0 w-full top-[132px] group-hover/ns:top-24 z-10 overflow-hidden bg-transparentgroup-hover/ns:rounded-t-none  rounded-[20px] transition ease-out duration-200 opacity-0 group-hover/dd:opacity-100 origin-top [transform:rotateX(90deg)] group-hover/dd:[transform:rotateX(0deg)]">
                 <div className="grid grid-cols-5 flex-wrap w-full gap-4 p-2 xl:p-4 items-stretch text-xs xl:text-sm xl:leading-6">
-                  <div className="w-full flex flex-col p-2 xl:p-4 overflow-hidden  bg-gray-900/70 group-[]/ns:bg-gradient-to-b group-[]/ns:from-[#0C4477] group-[]/ns:to-sky-950 backdrop-blur-lg shadow-lg ring-1 ring-gray-900/5 *:relative *:flex *:items-center *:gap-x-5 *:rounded-lg *:px-2 *:xl:px-4 *:py-1 *:xl:py-2">
-                    <div className="text-base md:text-lg font-bold px-2 xl:px-4 py-1 xl:py-2">Mobile App</div>
+                  <div className="w-full flex flex-col p-2 rounded-[20px] bg-white xl:p-4 overflow-hidden  group-[]/ns:to-sky-950 backdrop-blur-lg shadow-lg ring-1 ring-gray-900/5 *:relative *:flex *:items-center *:gap-x-5 *:rounded-lg *:px-2 *:xl:px-4 *:py-1 *:xl:py-2">
+                    <div className="text-base md:text-lg font-bold px-2 xl:px-4 py-1 xl:py-2 text-slate-900">Mobile App</div>
                     <div className="group/db hover:bg-gray-600/30 text-sky-300">
                       <div className="flex h-5 w-5 flex-none items-center justify-center rounded-full bg-gray-900 group-hover/db:bg-gray-950/90">
                         <svg className="h-2.5 xl:h-3 w-2.5 xl:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/mobile-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/mobile-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Mobile App
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -150,7 +153,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/android-application-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/android-application-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Android App
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -161,7 +164,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/ios-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/ios-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           iOS App
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -172,7 +175,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/cross-platform-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/cross-platform-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Cross-Platform App
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -183,7 +186,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/flutter-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/flutter-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Flutter App
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -194,21 +197,21 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/react-native-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/react-native-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           React Native App
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
                       </div>
                     </div>
                   </div>
-                  <div className="w-full flex flex-col p-2 xl:p-4 overflow-hidden  bg-gray-900/70 group-[]/ns:bg-gradient-to-b group-[]/ns:from-[#0C4477] group-[]/ns:to-sky-950 backdrop-blur-lg shadow-lg ring-1 ring-gray-900/5 *:relative *:flex *:items-center *:gap-x-5 *:rounded-lg *:px-2 *:xl:px-4 *:py-1 *:xl:py-2">
-                    <div className="text-base md:text-lg font-bold px-2 xl:px-4 py-1 xl:py-2">Web</div>
+                  <div className="w-full flex flex-col p-2 rounded-[20px] bg-white xl:p-4 overflow-hidden  group-[]/ns:to-sky-950 backdrop-blur-lg shadow-lg ring-1 ring-gray-900/5 *:relative *:flex *:items-center *:gap-x-5 *:rounded-lg *:px-2 *:xl:px-4 *:py-1 *:xl:py-2">
+                    <div className="text-base md:text-lg font-bold px-2 xl:px-4 py-1 xl:py-2 text-slate-900">Web</div>
                     <div className="group/db hover:bg-gray-600/30 text-sky-300">
                       <div className="flex h-5 w-5 flex-none items-center justify-center rounded-full bg-gray-900 group-hover/db:bg-gray-950/90">
                         <svg className="h-2.5 xl:h-3 w-2.5 xl:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/web-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/web-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Web Development
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -219,7 +222,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/website-design.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/website-design.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Website Design
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -230,7 +233,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/website-redesigning.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/website-redesigning.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Website Redesign
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -241,21 +244,21 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/responsive-web-designing.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/responsive-web-designing.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Responsive Design
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
                       </div>
                     </div>
                   </div>
-                  <div className="w-full flex flex-col p-2 xl:p-4 overflow-hidden  bg-gray-900/70 group-[]/ns:bg-gradient-to-b group-[]/ns:from-[#0C4477] group-[]/ns:to-sky-950 backdrop-blur-lg shadow-lg ring-1 ring-gray-900/5 *:relative *:flex *:items-center *:gap-x-5 *:rounded-lg *:px-2 *:xl:px-4 *:py-1 *:xl:py-2">
-                    <div className="text-base md:text-lg font-bold px-2 xl:px-4 py-1 xl:py-2">Software</div>
+                  <div className="w-full flex flex-col p-2 rounded-[20px] bg-white xl:p-4 overflow-hidden  group-[]/ns:to-sky-950 backdrop-blur-lg shadow-lg ring-1 ring-gray-900/5 *:relative *:flex *:items-center *:gap-x-5 *:rounded-lg *:px-2 *:xl:px-4 *:py-1 *:xl:py-2">
+                    <div className="text-base md:text-lg font-bold px-2 xl:px-4 py-1 xl:py-2 text-slate-900">Software</div>
                     <div className="group/db hover:bg-gray-600/30">
                       <div className="flex h-5 w-5 flex-none items-center justify-center rounded-full bg-gray-900 group-hover/db:bg-gray-950/90">
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/bespoke-software-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/bespoke-software-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Bespoke Software
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -266,7 +269,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/saas-software-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/saas-software-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           SaaS Software
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -277,7 +280,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/inventory-management-software.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/inventory-management-software.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Inventory Management
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -288,7 +291,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/gym-management-software.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/gym-management-software.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           GYM Software
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -299,21 +302,21 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/customer-relationship-management-software.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/customer-relationship-management-software.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           CRM Software
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
                       </div>
                     </div>
                   </div>
-                  <div className="w-full flex flex-col p-2 xl:p-4 overflow-hidden  bg-gray-900/70 group-[]/ns:bg-gradient-to-b group-[]/ns:from-[#0C4477] group-[]/ns:to-sky-950 backdrop-blur-lg shadow-lg ring-1 ring-gray-900/5 *:relative *:flex *:items-center *:gap-x-5 *:rounded-lg *:px-2 *:xl:px-4 *:py-1 *:xl:py-2">
-                    <div className="text-base md:text-lg font-bold px-2 xl:px-4 py-1 xl:py-2">Sports</div>
+                  <div className="w-full flex flex-col p-2 rounded-[20px] bg-white xl:p-4 overflow-hidden  group-[]/ns:to-sky-950 backdrop-blur-lg shadow-lg ring-1 ring-gray-900/5 *:relative *:flex *:items-center *:gap-x-5 *:rounded-lg *:px-2 *:xl:px-4 *:py-1 *:xl:py-2">
+                    <div className="text-base md:text-lg font-bold px-2 xl:px-4 py-1 xl:py-2 text-slate-900">Sports</div>
                     <div className="group/db hover:bg-gray-600/30 text-sky-300">
                       <div className="flex h-5 w-5 flex-none items-center justify-center rounded-full bg-gray-900 group-hover/db:bg-gray-950/90">
                         <svg className="h-2.5 xl:h-3 w-2.5 xl:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/fantasy-sports-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/fantasy-sports-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Fantasy Sports App
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -324,7 +327,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/fantasy-cricket-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/fantasy-cricket-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Fantasy Cricket App
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -335,7 +338,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/fantasy-football-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/fantasy-football-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Fantasy Football App
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -346,7 +349,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/fantasy-kabaddi-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/fantasy-kabaddi-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Fantasy Kabaddi App
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -357,7 +360,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/fantasy-stock-market-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/fantasy-stock-market-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Fantasy Stock Market App
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -368,7 +371,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/sports-betting-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/sports-betting-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Sports Betting App
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -379,7 +382,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/casino-game-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/casino-game-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Casino App
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -387,28 +390,28 @@ const Header = () => {
                     </div>
                   </div>
                   <div className="w-full flex flex-col gap-4">
-                    <div className="w-full flex flex-col p-2 xl:p-4 overflow-hidden  bg-gray-900/70 group-[]/ns:bg-gradient-to-b group-[]/ns:from-[#0C4477] group-[]/ns:to-sky-950 backdrop-blur-lg shadow-lg ring-1 ring-gray-900/5 *:relative *:flex *:items-center *:gap-x-5 *:rounded-lg *:px-2 *:xl:px-4 *:py-1 *:xl:py-2">
-                      <div className="text-base md:text-lg font-bold px-2 xl:px-4 py-1 xl:py-2">eCommerce</div>
+                    <div className="w-full flex flex-col p-2 rounded-[20px] bg-white xl:p-4 overflow-hidden  group-[]/ns:to-sky-950 backdrop-blur-lg shadow-lg ring-1 ring-gray-900/5 *:relative *:flex *:items-center *:gap-x-5 *:rounded-lg *:px-2 *:xl:px-4 *:py-1 *:xl:py-2">
+                      <div className="text-base md:text-lg font-bold px-2 xl:px-4 py-1 xl:py-2 text-slate-900">eCommerce</div>
                       <div className="group/db hover:bg-gray-600/30 text-sky-300">
                         <div className="flex h-5 w-5 flex-none items-center justify-center rounded-full bg-gray-900 group-hover/db:bg-gray-950/90">
                           <svg className="h-2.5 xl:h-3 w-2.5 xl:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                         </div>
                         <div className="flex-auto">
-                          <a href="https://www.imgglobalinfotech.com/ecommerce-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                          <a href="https://www.imgglobalinfotech.com/ecommerce-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                             eCommerce Development
                             <span className="absolute inset-0 z-[1]"></span>
                           </a>
                         </div>
                       </div>
                     </div>
-                    <div className="w-full flex flex-col p-2 xl:p-4 overflow-hidden  bg-gray-900/70 group-[]/ns:bg-gradient-to-b group-[]/ns:from-[#0C4477] group-[]/ns:to-sky-950 backdrop-blur-lg shadow-lg ring-1 ring-gray-900/5 *:relative *:flex *:items-center *:gap-x-5 *:rounded-lg *:px-2 *:xl:px-4 *:py-1 *:xl:py-2">
-                      <div className="text-base md:text-lg font-bold px-2 xl:px-4 py-1 xl:py-2">Blockchain</div>
+                    <div className="w-full flex flex-col p-2 rounded-[20px] bg-white xl:p-4 overflow-hidden  group-[]/ns:to-sky-950 backdrop-blur-lg shadow-lg ring-1 ring-gray-900/5 *:relative *:flex *:items-center *:gap-x-5 *:rounded-lg *:px-2 *:xl:px-4 *:py-1 *:xl:py-2">
+                      <div className="text-base md:text-lg font-bold px-2 xl:px-4 py-1 xl:py-2 text-slate-900">Blockchain</div>
                       <div className="group/db hover:bg-gray-600/30">
                         <div className="flex h-5 w-5 flex-none items-center justify-center rounded-full bg-gray-900 group-hover/db:bg-gray-950/90">
                           <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                         </div>
                         <div className="flex-auto">
-                          <a href="https://www.imgglobalinfotech.com/" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                          <a href="https://www.imgglobalinfotech.com/" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                             Blockchain
                             <span className="absolute inset-0 z-[1]"></span>
                           </a>
@@ -426,16 +429,16 @@ const Header = () => {
                   <path fillRule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clipRule="evenodd"></path>
                 </svg>
               </button>
-              <div className="absolute left-0 right-0 w-full top-[132px] group-hover/ns:top-24 z-10 overflow-hidden bg-gray-900/40 group-hover/ns:rounded-t-none  backdrop-blur-lg transition ease-out duration-200 opacity-0 group-hover/dd:opacity-100 origin-top [transform:rotateX(90deg)] group-hover/dd:[transform:rotateX(0deg)]">
+              <div className="absolute left-0 right-0 w-full top-[132px] group-hover/ns:top-24 z-10 overflow-hidden bg-transparentgroup-hover/ns:rounded-t-none  rounded-[20px] transition ease-out duration-200 opacity-0 group-hover/dd:opacity-100 origin-top [transform:rotateX(90deg)] group-hover/dd:[transform:rotateX(0deg)]">
                 <div className="grid grid-cols-3 flex-wrap w-full gap-4 p-2 xl:p-4 items-stretch text-xs xl:text-sm xl:leading-6">
-                  <div className="w-full flex flex-col p-2 xl:p-4 overflow-hidden  bg-gray-900/70 group-[]/ns:bg-gradient-to-b group-[]/ns:from-[#0C4477] group-[]/ns:to-sky-950 backdrop-blur-lg shadow-lg ring-1 ring-gray-900/5 *:relative *:flex *:items-center *:gap-x-5 *:rounded-lg *:px-2 *:xl:px-4 *:py-1 *:xl:py-2">
-                    <div className="text-base md:text-lg font-bold px-2 xl:px-4 py-1 xl:py-2">On Demand Apps</div>
+                  <div className="w-full flex flex-col p-2 rounded-[20px] bg-white xl:p-4 overflow-hidden  group-[]/ns:to-sky-950 backdrop-blur-lg shadow-lg ring-1 ring-gray-900/5 *:relative *:flex *:items-center *:gap-x-5 *:rounded-lg *:px-2 *:xl:px-4 *:py-1 *:xl:py-2">
+                    <div className="text-base md:text-lg font-bold px-2 xl:px-4 py-1 xl:py-2 text-slate-900">On Demand Apps</div>
                     <div className="group/db hover:bg-gray-600/30">
                       <div className="flex h-5 w-5 flex-none items-center justify-center rounded-full bg-gray-900 group-hover/db:bg-gray-950/90">
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/food-delivery-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/food-delivery-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Food Delivery App
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -446,7 +449,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/grocery-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/grocery-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Grocery Delivery App
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -457,7 +460,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/taxi-app-development-company.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/taxi-app-development-company.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Taxi Booking App
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -468,7 +471,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/home-service-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/home-service-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Home Services App
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -479,7 +482,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/laundry-services-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/laundry-services-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Laundry App
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -490,7 +493,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/medicine-delivery-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/medicine-delivery-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Medicine Delivery App
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -501,7 +504,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/fuel-delivery-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/fuel-delivery-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Fuel Delivery App
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -512,7 +515,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/doctor-on-demand-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/doctor-on-demand-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Doctor App
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -523,7 +526,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/alcohol-delivery-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/alcohol-delivery-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Alcohol Delivery App
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -534,21 +537,21 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/car-wash-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/car-wash-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Car Wash App
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
                       </div>
                     </div>
                   </div>
-                  <div className="w-full flex flex-col p-2 xl:p-4 overflow-hidden  bg-gray-900/70 group-[]/ns:bg-gradient-to-b group-[]/ns:from-[#0C4477] group-[]/ns:to-sky-950 backdrop-blur-lg shadow-lg ring-1 ring-gray-900/5 *:relative *:flex *:items-center *:gap-x-5 *:rounded-lg *:px-2 *:xl:px-4 *:py-1 *:xl:py-2">
-                    <div className="text-base md:text-lg font-bold px-2 xl:px-4 py-1 xl:py-2">Ready to Use Solutions</div>
+                  <div className="w-full flex flex-col p-2 rounded-[20px] bg-white xl:p-4 overflow-hidden  group-[]/ns:to-sky-950 backdrop-blur-lg shadow-lg ring-1 ring-gray-900/5 *:relative *:flex *:items-center *:gap-x-5 *:rounded-lg *:px-2 *:xl:px-4 *:py-1 *:xl:py-2">
+                    <div className="text-base md:text-lg font-bold px-2 xl:px-4 py-1 xl:py-2 text-slate-900">Ready to Use Solutions</div>
                     <div className="group/db hover:bg-gray-600/30">
                       <div className="flex h-5 w-5 flex-none items-center justify-center rounded-full bg-gray-900 group-hover/db:bg-gray-950/90">
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/school-management-software-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/school-management-software-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           School Management System
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -559,7 +562,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/college-management-software-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/college-management-software-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           College Management System
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -570,7 +573,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/university-management-software-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/university-management-software-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           University Management System
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -581,7 +584,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/institute-management-software-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/institute-management-software-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Institute Management System
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -592,7 +595,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/mlm-software-development-company.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/mlm-software-development-company.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           MLM Software 
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -603,7 +606,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/online-exam-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/online-exam-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Online Exam App 
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -614,7 +617,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/hospital-management-software.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/hospital-management-software.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Hospital Management System 
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -625,7 +628,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/inventory-management-software.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/inventory-management-software.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Inventory Management Softwrae
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -636,7 +639,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/nidhi-company-software.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/nidhi-company-software.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Nidhi Software
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -647,21 +650,21 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/customer-relationship-management-software.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/customer-relationship-management-software.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           CRM Software
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
                       </div>
                     </div>
                   </div>
-                  <div className="w-full flex flex-col p-2 xl:p-4 overflow-hidden  bg-gray-900/70 group-[]/ns:bg-gradient-to-b group-[]/ns:from-[#0C4477] group-[]/ns:to-sky-950 backdrop-blur-lg shadow-lg ring-1 ring-gray-900/5 *:relative *:flex *:items-center *:gap-x-5 *:rounded-lg *:px-2 *:xl:px-4 *:py-1 *:xl:py-2">
-                    <div className="text-base md:text-lg font-bold px-2 xl:px-4 py-1 xl:py-2">Trending Apps</div>
+                  <div className="w-full flex flex-col p-2 rounded-[20px] bg-white xl:p-4 overflow-hidden  group-[]/ns:to-sky-950 backdrop-blur-lg shadow-lg ring-1 ring-gray-900/5 *:relative *:flex *:items-center *:gap-x-5 *:rounded-lg *:px-2 *:xl:px-4 *:py-1 *:xl:py-2">
+                    <div className="text-base md:text-lg font-bold px-2 xl:px-4 py-1 xl:py-2 text-slate-900">Trending Apps</div>
                     <div className="group/db hover:bg-gray-600/30">
                       <div className="flex h-5 w-5 flex-none items-center justify-center rounded-full bg-gray-900 group-hover/db:bg-gray-950/90">
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/healthcare-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/healthcare-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Healthcare App
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -672,7 +675,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/diet-and-nutrition-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/diet-and-nutrition-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Diet and Nutrition App
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -683,7 +686,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/fitness-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/fitness-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Fitness App
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -694,7 +697,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/elearning-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/elearning-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Elearning App
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -705,7 +708,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/ott-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/ott-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           OTT Platform App
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -716,7 +719,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/live-streaming-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/live-streaming-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Live Streaming App
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -727,7 +730,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/ar-vr-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/ar-vr-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           AR/VR App
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -738,7 +741,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/dating-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/dating-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Dating App
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -749,7 +752,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/event-tickets-booking-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/event-tickets-booking-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Event &amp; Ticket Booking App
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -760,7 +763,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/cryptocurrency-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/cryptocurrency-app-development.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Cryptocurrency App
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -777,16 +780,16 @@ const Header = () => {
                   <path fillRule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clipRule="evenodd"></path>
                 </svg>
               </button>
-              <div className="absolute left-0 right-0 w-full top-[132px] group-hover/ns:top-24 z-10 overflow-hidden bg-gray-900/40 group-hover/ns:rounded-t-none  backdrop-blur-lg transition ease-out duration-200 opacity-0 group-hover/dd:opacity-100 origin-top [transform:rotateX(90deg)] group-hover/dd:[transform:rotateX(0deg)]">
+              <div className="absolute left-0 right-0 w-full top-[132px] group-hover/ns:top-24 z-10 overflow-hidden bg-transparentgroup-hover/ns:rounded-t-none  rounded-[20px] transition ease-out duration-200 opacity-0 group-hover/dd:opacity-100 origin-top [transform:rotateX(90deg)] group-hover/dd:[transform:rotateX(0deg)]">
                 <div className="flex flex-wrap w-full gap-4 p-2 xl:p-4 items-stretch text-xs xl:text-sm xl:leading-6">
-                  <div className="grid grid-cols-4 w-full flex-col p-2 xl:p-4 overflow-hidden  bg-gray-900/70 group-[]/ns:bg-gradient-to-b group-[]/ns:from-[#0C4477] group-[]/ns:to-sky-950 backdrop-blur-lg shadow-lg ring-1 ring-gray-900/5 *:relative *:flex *:items-center *:gap-x-5 *:rounded-lg *:px-2 *:xl:px-4 *:py-1 *:xl:py-2">
-                    <div className="text-base md:text-lg font-bold px-2 xl:px-4 py-1 xl:py-2">Hire Developers</div>
+                  <div className="grid grid-cols-4 w-full flex-col p-2 xl:p-4 overflow-hidden  group-[]/ns:to-sky-950 backdrop-blur-lg shadow-lg ring-1 ring-gray-900/5 *:relative *:flex *:items-center *:gap-x-5 *:rounded-lg *:px-2 *:xl:px-4 *:py-1 *:xl:py-2">
+                    <div className="text-base md:text-lg font-bold px-2 xl:px-4 py-1 xl:py-2 text-slate-900">Hire Developers</div>
                     <div className="group/db hover:bg-gray-600/30 text-sky-300">
                       <div className="flex h-5 w-5 flex-none items-center justify-center rounded-full bg-gray-900 group-hover/db:bg-gray-950/90">
                         <svg className="h-2.5 xl:h-3 w-2.5 xl:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/hire-mobile-app-developers.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/hire-mobile-app-developers.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Hire Mobile App Developers
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -797,7 +800,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/hire-android-app-developers.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/hire-android-app-developers.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Hire Android App Developers
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -808,7 +811,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/hire-ios-app-developers.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/hire-ios-app-developers.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Hire iOS App Developers
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -819,7 +822,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/hire-react-native-app-developers.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/hire-react-native-app-developers.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Hire React Native App Developers
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -830,7 +833,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/hire-flutter-app-developers.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/hire-flutter-app-developers.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Hire Flutter App Developers
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -841,7 +844,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/hire-php-developers.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/hire-php-developers.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Hire PHP Developers
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -852,7 +855,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/hire-python-developers.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/hire-python-developers.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Hire Python Developers
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -863,7 +866,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/hire-web-designers.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/hire-web-designers.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Hire Website Designers
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -874,7 +877,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/hire-mern-stack-developers.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/hire-mern-stack-developers.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Hire MERN Stack Developers
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -885,7 +888,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/hire-ui-ux-developers.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/hire-ui-ux-developers.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Hire UI / UX Developers
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -896,7 +899,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/hire-web-developers.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/hire-web-developers.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Hire Website Developers
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -907,7 +910,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Hire Software Developers
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -918,7 +921,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/hire-reactjs-developers.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/hire-reactjs-developers.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Hire React JS Developers
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -929,7 +932,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/hire-full-stack-developers.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/hire-full-stack-developers.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Hire Full Stack Developers
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -940,7 +943,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/hire-java-developers.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/hire-java-developers.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Hire Java Developers
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -951,7 +954,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/hire-angular-developers.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/hire-angular-developers.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Hire Angularjs Developers
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -962,7 +965,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/hire-mean-stack-developers.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/hire-mean-stack-developers.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Hire MEAN Stack Developers
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -973,7 +976,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="https://www.imgglobalinfotech.com/hire-nodejs-developers.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink">
+                        <a href="https://www.imgglobalinfotech.com/hire-nodejs-developers.php" className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Hire Node.js Developers
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -989,7 +992,7 @@ const Header = () => {
             <a href="https://www.imgglobalinfotech.com/contact-us.php" className="pointer-events-none text-xs font-semibold leading-6 text-gray-50 hover:text-gray-300 duration-200 uppercase">Contact Us</a>
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <button className="px-4 text-sm text-white flex items-center gap-2 font-semibold py-3 border-white border-2 w-max mx-auto before:-z-10 relative before:absolute before:w-full before:h-0 before:left-0 before:top-1/2 before:bg-[#0E508A] before:md:hover:h-full before:duration-300 md:hover:text-white duration-300 before:md:hover:top-0">
+          <button className="px-4 rounded-full text-sm text-white flex items-center gap-2 font-semibold py-3 border-white border-2 w-max mx-auto before:-z-10 relative before:absolute before:w-full before:h-0 before:left-0 before:top-1/2 before:bg-theme1 before:md:hover:h-full before:duration-300 md:hover:text-white duration-300 before:md:hover:top-0">
                        <span>Ask for a Quote</span>
                        <span>
                        <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" height="200px" className='w-5 h-5' width="200px" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M20 15.5c-1.25 0-2.45-.2-3.57-.57a1.02 1.02 0 0 0-1.02.24l-2.2 2.2a15.045 15.045 0 0 1-6.59-6.59l2.2-2.21a.96.96 0 0 0 .25-1A11.36 11.36 0 0 1 8.5 4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.5c0-.55-.45-1-1-1zM21 6h-3V3h-2v3h-3v2h3v3h2V8h3z"></path></svg>
