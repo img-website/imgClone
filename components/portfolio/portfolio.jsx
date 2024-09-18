@@ -5,12 +5,12 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 const PortfolioSection = () => {
 
   return (
-    <section className='relative bg-gray-900 py-6 md:py-8 lg:py-16 select-none text-white'>
+    <section className='relative bg-gray-900 py-6 md:py-8 lg:py-16 text-white'>
       <div className="mx-auto max-w-7xl lg:px-8 px-6">
         <div className="mx-auto px-4 sm:px-6 md:max-w-3xl md:px-4 lg:px-2 relative pb-5">
           <p className="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-white text-balance text-center">
-            <span>Take A Sneak Peak to Our Portfolio </span>
-            <span> And Elevate Your Expectations!</span>
+            <span>Get a Glimpse of Our Portfolio </span>
+            <span> and Raise Your Expectations!</span>
           </p>
           <div className="md:text-base text-sm text-white/70 mt-3 text-balance text-center">
             {/* {/ Add any text or content here if needed /} */}
@@ -46,7 +46,7 @@ const PortfolioSection = () => {
         <SwiperSlide>
           <div className="swiperInner">
                 <div>
-                    <Image width="256" height="320" src="https://images.unsplash.com/photo-1695654402912-b2945fe32cab?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Guidely" />
+                    <Image width="1000" height="1000" src="https://images.pexels.com/photos/5835018/pexels-photo-5835018.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Guidely" />
                 </div>
                 <div className="content before:from-fuchsia-900/70 before:to-fuchsia-900/70">
                     <div className="contentInner">
@@ -59,7 +59,7 @@ const PortfolioSection = () => {
         <SwiperSlide>
           <div className="swiperInner">
                 <div>
-                    <Image width="256" height="320" src="https://images.unsplash.com/photo-1530720018-fe47e7c2c772?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Guidely" />
+                    <Image width="1000" height="1000" src="https://images.pexels.com/photos/6238039/pexels-photo-6238039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Guidely" />
                 </div>
                 <div className="content before:from-fuchsia-900/70 before:to-fuchsia-900/70">
                     <div className="contentInner">
@@ -72,7 +72,7 @@ const PortfolioSection = () => {
         <SwiperSlide>
           <div className="swiperInner">
                 <div>
-                    <Image width="256" height="320" src="https://images.unsplash.com/photo-1637666062717-1c6bcfa4a4df?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Guidely" />
+                    <Image width="1000" height="1000" src="https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Guidely" />
                 </div>
                 <div className="content before:from-fuchsia-900/70 before:to-fuchsia-900/70">
                     <div className="contentInner">
@@ -86,12 +86,12 @@ const PortfolioSection = () => {
         <SwiperSlide>
           <div className="swiperInner">
                 <div>
-                    <Image width="256" height="320" src="https://images.unsplash.com/photo-1530720018-fe47e7c2c772?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Guidely" />
+                    <Image width="1000" height="1000" src="https://images.pexels.com/photos/1324990/pexels-photo-1324990.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Guidely" />
                 </div>
                 <div className="content before:from-fuchsia-900/70 before:to-fuchsia-900/70">
                     <div className="contentInner">
-                        <div className="title">Guidely</div>
-                        <div className="tagline">Exam Preparation App</div>
+                        <div className="title">Taximo</div>
+                        <div className="tagline">taxi management App</div>
                     </div>
                 </div>
             </div>
