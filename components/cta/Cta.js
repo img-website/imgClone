@@ -4,19 +4,19 @@ import React from 'react'
 function Cta() {
   return (
     <>
-    <section class="relative py-4 overflow-hidden bg-black sm:py-12 lg:py-10 xl:py-18 my-6">
-    <div class="absolute inset-0">
-        <Image width={'10000'} height={'1000'} loading="lazy" class="object-cover object-center w-full h-full md:object-left md:scale-150 md:origin-top-left" src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?q=80&w=1447&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+    <section className="relative py-4 overflow-hidden bg-black sm:py-12 lg:py-10 xl:py-18 my-6">
+    <div className="absolute inset-0">
+        <Image width={'10000'} height={'1000'} loading="lazy" className="object-cover object-center w-full h-full md:object-left md:scale-150 md:origin-top-left" src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?q=80&w=1447&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
     </div>
 
-    <div class="absolute inset-0 hidden bg-gradient-to-r md:block from-black to-transparent"></div>
+    <div className="absolute inset-0 hidden bg-gradient-to-r md:block from-black to-transparent"></div>
 
-    <div class="absolute inset-0 block bg-black/60 md:hidden"></div>
+    <div className="absolute inset-0 block bg-black/60 md:hidden"></div>
 
-    <div class="relative px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-        <div class="text-center md:w-2/3 lg:w-2/3 xl:w-2/3 md:text-left">
-            <h2 class="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">Transform your business vision into reality with our tailored services.</h2>
-            <p class="mt-4 text-base text-gray-200">Ready to experience top-tier mobile app quality? Send us your inquiry, and one of our representatives will promptly connect with you via Call, Email, or Skype.</p>
+    <div className="relative px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+        <div className="text-center md:w-2/3 lg:w-2/3 xl:w-2/3 md:text-left">
+            <h2 className="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">Transform your business vision into reality with our tailored services.</h2>
+            <p className="mt-4 text-base text-gray-200">Ready to experience top-tier mobile app quality? Send us your inquiry, and one of our representatives will promptly connect with you via Call, Email, or Skype.</p>
 
             <div className="md:mt-10 mt-5 gap-x-6 empty:hidden">
                                 <button className="px-4 text-sm text-[white] rounded-full bg-[#0E508A] inline-flex items-center gap-2 font-semibold py-3 border-[#0E508A] border-2 w-max hover:bg-[#0E508A]/80 duration-300">
