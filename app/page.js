@@ -201,7 +201,7 @@ export default function Home() {
                                 <div className="flex [transform:rotateY(180deg)] group-[]/flip:[transform:rotateY(0deg)]">
                                     <div className="relative flex-shrink-0 p-4 w-full">
                                         <div className="relative z-10 overflow-hidden *:rounded-xl [transform:rotateY(180deg)] group-[]/flip:[transform:rotateY(0deg)] [&~*]:[&:has(.mask)]:lg:hidden">
-                                            <img className="object-contain w-full h-auto " width="384" height="384" src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="image3" />
+                                            <Image className="object-cover !w-[1216px] !h-auto md:mt-16 lg:mt-0 " width={'384'} height={'384'} src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="image3" />
 
 
                                         </div>
@@ -232,7 +232,7 @@ export default function Home() {
 
                                 </p>
                                 <p className="mt-4 text-sm md:text-base leading-7 text-slate-600">Discover innovation and excellence at Twin Power Software! Immerse yourself in cutting-edge services and high-quality development solutions that redefine the digital landscape. Our dynamic work environment fosters creativity and collaboration to fuel groundbreaking ideas.</p>
-                                <p className="mt-4 text-sm md:text-base leading-7 text-slate-600">At IMG, we pride ourselves on timely delivery, transforming visions into reality. From mobile app development to custom software solutions and dedicated developer hiring, we cater to businesses of all scales. Experience top-notch development, reasonable prices, and a partnership that exceeds expectations - at Twin Power Software, we make digital dreams come true.</p>
+                                <p className="mt-4 text-sm md:text-base leading-7 text-slate-600">At Twin Power, we pride ourselves on timely delivery, transforming visions into reality. From mobile app development to custom software solutions and dedicated developer hiring, we cater to businesses of all scales. Experience top-notch development, reasonable prices, and a partnership that exceeds expectations - at Twin Power Software, we make digital dreams come true.</p>
 
                                 <div className="mt-8 flex gap-4">
                                     <button className="px-4 text-sm text-[white] bg-[#0E508A] inline-flex items-center gap-2 font-semibold py-3 border-[#0E508A] border-2 w-max hover:bg-[#0E508A]/80 duration-300">
@@ -281,19 +281,19 @@ export default function Home() {
                 <div className="container py-5 bg-white text-center mt-[-126px] !pb-0 md:p-5 sm:p-8 p-5 mx-auto max-w-7xl px-6 lg:px-8 relative z-10">
                     <div className="text-black font-bold lg:text-2xl md:text-xl sm:text-lg text-base mt-3">Avail Exclusive Development Services In Just A Click!</div>
                     <div className="md:text-base text-sm text-black/70 mt-3">
-                        Discover your way to unparalleled growth and creativity while choosing IMG Global Inftechs growth-driven development services. Seamlessly transform your business ideas into reality with just a click, because innovation starts here.
+                        Discover your way to unparalleled growth and creativity while choosing Twin Power Software  growth-driven development services. Seamlessly transform your business ideas into reality with just a click, because innovation starts here.
                     </div>
                 </div>
             <div className="bg-[#0E508A] py-12 ">
                 <div className="max-w-7xl px-6 lg:px-8 mx-auto ">
                     <div className="grid grid-cols-12 ">
                         <div className="md:col-span-3 max-md:flex max-md:overflow-hidden max-md:overflow-x-auto col-span-12  py-10">
-                            <Link onClick={() => { setServices('Treanding Solution') }} href='/' className={`text-nowrap text-sm font-semibold md:text-xl max-md:bg-white  md:bg-transprent max-md:text-[#0E508A] md:text-white mx-2 mb-6 p-4 rounded-xl inline-block ${services === "Treanding Solution" ? "bg-white !text-[#0E508A]":""}`}>Treanding Solution</Link>
-                            <Link onClick={() => { setServices('Mobile App Development') }} href='/' className={`text-nowrap text-sm font-semibold md:text-xl max-md:bg-white  md:bg-transprent max-md:text-[#0E508A] md:text-white mx-2 mb-6 p-4 rounded-xl inline-block ${services === "Mobile App Development" ? "bg-white !text-[#0E508A]":""}`}>Mobile App Development</Link>
-                            <Link onClick={() => { setServices('Web Development') }} href='/' className={`text-nowrap text-sm font-semibold md:text-xl max-md:bg-white  md:bg-transprent max-md:text-[#0E508A] md:text-white mx-2 mb-6 p-4 rounded-xl inline-block ${services === "Web Development" ? "bg-white !text-[#0E508A]":""}`}>Web Development</Link>
-                            <Link onClick={() => { setServices('eCommerce Solution') }} href='/' className={`text-nowrap text-sm font-semibold md:text-xl max-md:bg-white  md:bg-transprent max-md:text-[#0E508A] md:text-white mx-2 mb-6 p-4 rounded-xl inline-block ${services === "eCommerce Solution" ? "bg-white !text-[#0E508A]":""}`}>eCommerce Solution</Link>
-                            <Link onClick={() => { setServices('Software Development') }} href='/' className={`text-nowrap text-sm font-semibold md:text-xl max-md:bg-white  md:bg-transprent max-md:text-[#0E508A] md:text-white mx-2 mb-6 p-4 rounded-xl inline-block ${services === "Software Development" ? "bg-white !text-[#0E508A]":""}`}>Software Development</Link>
-                            <Link onClick={() => { setServices('Blockchain Development') }} href='/' className={`text-nowrap text-sm font-semibold md:text-xl max-md:bg-white  md:bg-transprent max-md:text-[#0E508A] md:text-white mx-2 mb-6 p-4 rounded-xl inline-block ${services === "Blockchain Development" ? "bg-white !text-[#0E508A]":""}`}>Blockchain Development</Link></div>
+                            <button onClick={() => { setServices('Treanding Solution') }} href='/' className={`text-nowrap text-sm font-semibold md:text-xl max-md:bg-white  md:bg-transprent max-md:text-[#0E508A] md:text-white mx-2 mb-6 p-4 rounded-xl inline-block ${services === "Treanding Solution" ? "bg-white !text-[#0E508A]":""}`}>Treanding Solution</button>
+                            <button onClick={() => { setServices('Mobile App Development') }} href='/' className={`text-nowrap text-sm font-semibold md:text-xl max-md:bg-white  md:bg-transprent max-md:text-[#0E508A] md:text-white mx-2 mb-6 p-4 rounded-xl inline-block ${services === "Mobile App Development" ? "bg-white !text-[#0E508A]":""}`}>Mobile App Development</button>
+                            <button onClick={() => { setServices('Web Development') }} href='/' className={`text-nowrap text-sm font-semibold md:text-xl max-md:bg-white  md:bg-transprent max-md:text-[#0E508A] md:text-white mx-2 mb-6 p-4 rounded-xl inline-block ${services === "Web Development" ? "bg-white !text-[#0E508A]":""}`}>Web Development</button>
+                            <button onClick={() => { setServices('eCommerce Solution') }} href='/' className={`text-nowrap text-sm font-semibold md:text-xl max-md:bg-white  md:bg-transprent max-md:text-[#0E508A] md:text-white mx-2 mb-6 p-4 rounded-xl inline-block ${services === "eCommerce Solution" ? "bg-white !text-[#0E508A]":""}`}>eCommerce Solution</button>
+                            <button onClick={() => { setServices('Software Development') }} href='/' className={`text-nowrap text-sm font-semibold md:text-xl max-md:bg-white  md:bg-transprent max-md:text-[#0E508A] md:text-white mx-2 mb-6 p-4 rounded-xl inline-block ${services === "Software Development" ? "bg-white !text-[#0E508A]":""}`}>Software Development</button>
+                            <button onClick={() => { setServices('Blockchain Development') }} href='/' className={`text-nowrap text-sm font-semibold md:text-xl max-md:bg-white  md:bg-transprent max-md:text-[#0E508A] md:text-white mx-2 mb-6 p-4 rounded-xl inline-block ${services === "Blockchain Development" ? "bg-white !text-[#0E508A]":""}`}>Blockchain Development</button></div>
                         <div className="md:col-span-9 col-span-12 bg-[white] p-2 rounded-xl">
                             {
                                 services === "Treanding Solution" &&
@@ -704,7 +704,7 @@ export default function Home() {
                             <div className="flex flex-col p-10 h-full relative z-50">
                                 <div className="w-full gap-14 flex max-sm:flex-col-reverse relative z-10 items-center max-sm:text-center">
                                     <div className="grow-0 shrink-0 max-sm:w-full">
-                                        <img className="size-[20rem] lg:size-[25rem] h-auto max-sm:mx-auto" width="640" height="640" src="https://appicsoftwares.com/images/rocca_box_mobile.png" alt="TractorJunction" />
+                                        <Image className="size-[20rem] lg:size-[25rem] h-auto max-sm:mx-auto" width="640" height="640" src="https://appicsoftwares.com/images/rocca_box_mobile.png" alt="TractorJunction" />
                                     </div>
                                     <div className="grow max-sm:w-full text-white flex ms-auto flex-col max-sm:gap-y-4 gap-y-7">
                                         <span className="duration-300 text-base lg:text-lg font-semibold inline-block">Roccabox</span>
@@ -740,7 +740,7 @@ export default function Home() {
                                         </div>
                                     </div>
                                     <div className="grow-0 shrink-0 max-sm:w-full">
-                                        <img className="size-[20rem] lg:size-[25rem] h-auto max-sm:mx-auto" width="640" height="640" src="https://appicsoftwares.com/images/lien-frame-1.png" alt="TractorJunction" />
+                                        <Image className="size-[20rem] lg:size-[25rem] h-auto max-sm:mx-auto" width="640" height="640" src="https://appicsoftwares.com/images/lien-frame-1.png" alt="TractorJunction" />
                                     </div>
                                 </div>
                             </div>
@@ -756,7 +756,7 @@ export default function Home() {
                                 <div className="w-full gap-14 flex max-sm:flex-col-reverse relative z-10 items-center max-sm:text-center">
 
                                     <div className="grow-0 shrink-0 max-sm:w-full">
-                                        <img className="size-[20rem] object-contain lg:size-[25rem] h-auto max-sm:mx-auto" width="640" height="640" src="https://appicsoftwares.com/images/aavas_fin_home.png" />
+                                        <Image className="size-[20rem] object-contain lg:size-[25rem] h-auto max-sm:mx-auto" width="640" height="640" src="https://appicsoftwares.com/images/aavas_fin_home.png" />
                                     </div>
                                     <div className="grow max-sm:w-full text-white flex flex-col max-sm:gap-y-4 gap-y-7">
                                         <span className="duration-300 text-lg font-semibold inline-block">About Aavas Financiers</span>
@@ -791,7 +791,7 @@ export default function Home() {
                                         </div>
                                     </div>
                                     <div className="grow-0 shrink-0 max-sm:w-full">
-                                        <img className="size-[20rem] lg:size-[25rem] h-auto max-sm:mx-auto" width="640" height="640" src="https://appicsoftwares.com/images/klass_group_category_images.png" alt="MyFab11" />
+                                        <Image className="size-[20rem] lg:size-[25rem] h-auto max-sm:mx-auto" width="640" height="640" src="https://appicsoftwares.com/images/klass_group_category_images.png" alt="MyFab11" />
                                     </div>
                                 </div>
                             </div>
@@ -807,7 +807,7 @@ export default function Home() {
                                 <div className="w-full gap-14 flex max-sm:flex-col-reverse relative z-10 items-center max-sm:text-center">
 
                                     <div className="grow-0 shrink-0 max-sm:w-full">
-                                        <img className="size-[20rem] lg:size-[25rem] object-contain h-auto max-sm:mx-auto" width="640" height="640" src="https://appicsoftwares.com/images/laiqa-laptop1.png" alt="Fabindia" />
+                                        <Image className="size-[20rem] lg:size-[25rem] object-contain h-auto max-sm:mx-auto" width="640" height="640" src="https://appicsoftwares.com/images/laiqa-laptop1.png" alt="Fabindia" />
                                     </div>
                                     <div className="grow max-sm:w-full text-white flex flex-col max-sm:gap-y-4 gap-y-7">
                                         <span className="duration-300 text-lg font-semibold inline-block">About Laiqa</span>
@@ -924,33 +924,33 @@ export default function Home() {
                     <div className="flex flex-row flex-wrap w-full gap3 pt-8 font-bold md:text-base text-sm uppercase text-white">
                         <div className="xl:w-1/4 md:w-1/3 w-1/2 p-1">
                             <Link href="https://www.imgglobalinfotech.com/fintech-software-development.php" className=" pointer-events-none relative text-decoration-none group flex items-center  overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-red-500/70 after:via-red-500/60 after:to-transparent after:duration-700 duration-300">
-                                <img className="size-full object-cover duration-1000 group-hover:scale-150" width="296" height="222" src="https://images.unsplash.com/photo-1553801613-9b225d58f429?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YmFua2luZ3xlbnwwfDB8MHx8fDA%3D" alt="Banking and Finance Icon" />
+                                <Image className="size-full object-cover duration-1000 group-hover:scale-150" width="296" height="222" src="https://images.unsplash.com/photo-1553801613-9b225d58f429?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YmFua2luZ3xlbnwwfDB8MHx8fDA%3D" alt="Banking and Finance Icon" />
 
                                 <div className="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Banking and Finance</div>
                             </Link>
                         </div>
                         <div className="xl:w-1/3  md:w-1/3 w-1/2 p-1">
                             <Link href="https://www.imgglobalinfotech.com/fantasy-sports-app-development.php" className=" pointer-events-none relative text-decoration-none group flex items-center  overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-red-500/70 after:via-red-500/60 after:to-transparent after:duration-700 duration-300">
-                                <img className="size-full object-cover duration-1000 group-hover:scale-150" width="297" height="222" src="https://images.unsplash.com/photo-1601106711560-ffeb65211600?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Fantasy Sports Icon" />
+                                <Image className="size-full object-cover duration-1000 group-hover:scale-150" width="297" height="222" src="https://images.unsplash.com/photo-1601106711560-ffeb65211600?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Fantasy Sports Icon" />
 
                                 <div className="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Fantasy Sports</div>
                             </Link>
                         </div>
                         <div className="xl:w-1/6  md:w-1/3 w-1/2 p-1">
                             <Link href="https://www.imgglobalinfotech.com/healthcare-software-development.php" className=" pointer-events-none relative text-decoration-none group flex items-center  overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-red-500/70 after:via-red-500/60 after:to-transparent after:duration-700 duration-300">
-                                <img className="size-full object-cover duration-1000 group-hover:scale-150" width="194" height="222" src="https://images.unsplash.com/photo-1666886573559-6ad307474d01?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Healthcare Icon" />
+                                <Image className="size-full object-cover duration-1000 group-hover:scale-150" width="194" height="222" src="https://images.unsplash.com/photo-1666886573559-6ad307474d01?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Healthcare Icon" />
 
                                 <div className="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Healthcare</div>
                             </Link>
                         </div>
                         <div className="xl:w-1/4 md:w-1/3 w-1/2 p-1">
                             <Link href="https://www.imgglobalinfotech.com/edtech-software-development.php" className=" pointer-events-none relative text-decoration-none group flex items-center  overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-red-500/70 after:via-red-500/60 after:to-transparent after:duration-700 duration-300">
-                                <img className="size-full object-cover duration-1000 group-hover:scale-150" width="296" height="222" src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="EdTech Solution Icon" />
+                                <Image className="size-full object-cover duration-1000 group-hover:scale-150" width="296" height="222" src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="EdTech Solution Icon" />
 
                                 <div className="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">EdTech Solution</div>
                         <div className="xl:w-1/4 md:w-1/3 sm:w-1/2 w-full p-1">
                             <Link href="https://www.imgglobalinfotech.com/travel-app-development.php" className=" pointer-events-none relative text-decoration-none group flex items-center  overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-red-500/70 after:via-red-500/60 after:to-transparent after:duration-700 duration-300">
-                                <img className="size-full object-cover duration-1000 group-hover:scale-150" width="296" height="222" src="https://www.imgglobalinfotech.com/public/tailwind/img/travel-and-tourism-800w.webp?id=d42d53341e4cc3a7fe874747ad39e667" alt="Travel and Tourism Icon" />
+                                <Image className="size-full object-cover duration-1000 group-hover:scale-150" width="296" height="222" src="https://www.imgglobalinfotech.com/public/tailwind/img/travel-and-tourism-800w.webp?id=d42d53341e4cc3a7fe874747ad39e667" alt="Travel and Tourism Icon" />
 
                                 <div className="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Travel and Tourism</div>
                             </Link>
@@ -963,14 +963,14 @@ export default function Home() {
                         </div>
                         <div className="xl:w-1/2 md:w-1/3 sm:w-1/2 w-full p-1">
                             <Link href="https://www.imgglobalinfotech.com/media-and-entertainment-app-development.php" className=" pointer-events-none relative text-decoration-none group flex items-center  overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-red-500/70 after:via-red-500/70 after:to-transparent after:duration-700 duration-300">
-                                <img className="size-full object-cover duration-1000 group-hover:scale-150" width="600" height="222" src="https://www.imgglobalinfotech.com/public/tailwind/img/media-and-entertainment-800w.webp?id=486432f05a2fbe2524bfad9eb7d157c4" alt="Media and Entertainment Icon" />
+                                <Image className="size-full object-cover duration-1000 group-hover:scale-150" width="600" height="222" src="https://www.imgglobalinfotech.com/public/tailwind/img/media-and-entertainment-800w.webp?id=486432f05a2fbe2524bfad9eb7d157c4" alt="Media and Entertainment Icon" />
 
                                 <div className="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Media and Entertainment</div>
                             </Link>
                         </div>
                         <div className="xl:w-1/4 md:w-1/3 w-1/2 p-1">
                             <Link href="https://www.imgglobalinfotech.com/logistics-software-development.php" className=" pointer-events-none relative text-decoration-none group flex items-center  overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-red-500/70 after:via-red-500/60 after:to-transparent after:duration-700 duration-300">
-                                <img className="size-full object-cover duration-1000 group-hover:scale-150" width="296" height="222" src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=1420&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Logistics Services App Icon" />
+                                <Image className="size-full object-cover duration-1000 group-hover:scale-150" width="296" height="222" src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=1420&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Logistics Services App Icon" />
 
                                 <div className="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Services App</div>
                             </Link>
@@ -979,7 +979,7 @@ export default function Home() {
                         </div>
                         <div className="xl:w-1/4 md:w-1/3 w-1/2 p-1">
                             <Link href="https://www.imgglobalinfotech.com/logistics-software-development.php" className=" pointer-events-none relative text-decoration-none group flex items-center  overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-red-500/70 after:via-red-500/60 after:to-transparent after:duration-700 duration-300">
-                                <img className="size-full object-cover duration-1000 group-hover:scale-150" width="296" height="222" src="https://images.unsplash.com/photo-1644352442473-57f4cd0873c3?q=80&w=1372&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Logistics Services App Icon" />
+                                <Image className="size-full object-cover duration-1000 group-hover:scale-150" width="296" height="222" src="https://images.unsplash.com/photo-1644352442473-57f4cd0873c3?q=80&w=1372&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Logistics Services App Icon" />
 
                                 <div className="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Logistics Services App</div>
                             </Link>
@@ -988,28 +988,28 @@ export default function Home() {
                         </div>
                         <div className="xl:w-1/6 md:w-1/3 w-1/2 p-1">
                             <Link href="https://www.imgglobalinfotech.com/social-media-app-development.php" className=" pointer-events-none relative text-decoration-none group flex items-center  overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-red-500/70 after:via-red-500/60 after:to-transparent after:duration-700 duration-300">
-                                <img className="size-full object-cover duration-1000 group-hover:scale-150" width="194" height="222" src="https://images.unsplash.com/photo-1643503640904-75c1a2093570?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Social App Icon" />
+                                <Image className="size-full object-cover duration-1000 group-hover:scale-150" width="194" height="222" src="https://images.unsplash.com/photo-1643503640904-75c1a2093570?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Social App Icon" />
 
                                 <div className="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Social App</div>
                             </Link>
                         </div>
                         <div className="xl:w-1/3 md:w-1/2 w-1/2 p-1">
                             <Link href="https://www.imgglobalinfotech.com/real-estate-app-development.php" className=" pointer-events-none relative text-decoration-none group flex items-center  overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-red-500/70 after:via-red-500/60 after:to-transparent after:duration-700 duration-300">
-                                <img className="size-full object-cover duration-1000 group-hover:scale-150" width="397" height="222" src="https://images.unsplash.com/photo-1509081258900-a15e84ae6953?q=80&w=1411&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Real Estate Icon" />
+                                <Image className="size-full object-cover duration-1000 group-hover:scale-150" width="397" height="222" src="https://images.unsplash.com/photo-1509081258900-a15e84ae6953?q=80&w=1411&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Real Estate Icon" />
 
                                 <div className="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Real Estate</div>
                             </Link>
                         </div>
                         <div className="xl:w-1/4 md:w-1/2 sm:w-1/2 w-full p-1">
                             <Link href="https://www.imgglobalinfotech.com/event-app-development.php" className=" pointer-events-none relative text-decoration-none group flex items-center  overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-red-500/70 after:via-red-500/60 after:to-transparent after:duration-700 duration-300">
-                                <img className="size-full object-cover duration-1000 group-hover:scale-150" width="296" height="222" src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Event management Icon" />
+                                <Image className="size-full object-cover duration-1000 group-hover:scale-150" width="296" height="222" src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Event management Icon" />
 
                                 <div className="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Event management</div>
                             </Link>
                         </div>
                         <div className="xl:w-1/4 md:w-1/2 sm:w-1/2 w-full p-1">
                             <Link href="https://www.imgglobalinfotech.com/event-app-development.php" className=" pointer-events-none relative text-decoration-none group flex items-center  overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-red-500/70 after:via-red-500/60 after:to-transparent after:duration-700 duration-300">
-                                <img className="size-full object-cover duration-1000 group-hover:scale-150" width="296" height="222" src="https://images.unsplash.com/photo-1637666067348-7303e7007363?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Event management Icon" />
+                                <Image className="size-full object-cover duration-1000 group-hover:scale-150" width="296" height="222" src="https://images.unsplash.com/photo-1637666067348-7303e7007363?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Event management Icon" />
 
                                 <div className="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Gym management software</div>
                             </Link>
@@ -1040,7 +1040,7 @@ export default function Home() {
                                                 <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 512 512" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm115.7 272l-176 101c-15.8 8.8-35.7-2.5-35.7-21V152c0-18.4 19.8-29.8 35.7-21l176 107c16.4 9.2 16.4 32.9 0 42z"></path></svg>
                                                 <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 512 512" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm115.7 272l-176 101c-15.8 8.8-35.7-2.5-35.7-21V152c0-18.4 19.8-29.8 35.7-21l176 107c16.4 9.2 16.4 32.9 0 42z"></path></svg>
                                             </span>
-                                            <img className="aspect-video object-cover h-auto w-full z-0 duration-[3000ms] " width="256" height="320" src="https://www.imgglobalinfotech.com/public/tailwind/img/reviewLachlanJames-640w.webp?id=5bbafb05dac28bdcb2837a17fefa6f63" alt="Youtube Review" />
+                                            <Image className="aspect-video object-cover h-auto w-full z-0 duration-[3000ms] " width="256" height="320" src="https://www.imgglobalinfotech.com/public/tailwind/img/reviewLachlanJames-640w.webp?id=5bbafb05dac28bdcb2837a17fefa6f63" alt="Youtube Review" />
                                         </div>
                                         <div className="flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-x-1 -bottom-16 top-auto z-[1] before:absolute before:inset-6 before:z-[1] before:bg-gradient-to-t before:backdrop-blur-xl before:rounded-xl py-10 before:from-red-500/70 before:to-red-600/70 before:ring-8 before:ring-gray-900">
                                             <div className="w-full relative z-[3] text-center">
@@ -1105,25 +1105,25 @@ export default function Home() {
                             <div className="flex flex-wrap items-center justify-between py-8">
                                 <div className="w-auto group/ba">
                                     <div className="w-full">
-                                        <img className="w-14 md:w-20 h-14 md:h-20 rounded-full mx-auto grayscale group-hover/ba:grayscale-0 duration-300 shadow-xl shadow-gray-900" width="80" height="80" src="https://images.unsplash.com/photo-1664195455972-53827f75bad4?q=80&w=1409&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Image of evelyn" />
+                                        <Image className="w-14 md:w-20 h-14 md:h-20 rounded-full mx-auto grayscale group-hover/ba:grayscale-0 duration-300 shadow-xl shadow-gray-900" width="80" height="80" src="https://images.unsplash.com/photo-1664195455972-53827f75bad4?q=80&w=1409&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Image of evelyn" />
                                     </div>
                                     <div className="w-full text-center text-sm md:text-base pt-2">Evelyn</div>
                                 </div>
                                 <div className="w-auto group/ba">
                                     <div className="w-full">
-                                        <img className="w-14 md:w-20 h-14 md:h-20 rounded-full mx-auto grayscale group-hover/ba:grayscale-0 duration-300 shadow-xl shadow-gray-900" width="80" height="80" src="https://images.unsplash.com/photo-1496345875659-11f7dd282d1d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Image of Yeshi S." />
+                                        <Image className="w-14 md:w-20 h-14 md:h-20 rounded-full mx-auto grayscale group-hover/ba:grayscale-0 duration-300 shadow-xl shadow-gray-900" width="80" height="80" src="https://images.unsplash.com/photo-1496345875659-11f7dd282d1d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Image of Yeshi S." />
                                     </div>
                                     <div className="w-full text-center text-sm md:text-base pt-2">Josph S.</div>
                                 </div>
                                 <div className="w-auto group/ba">
                                     <div className="w-full">
-                                        <img className="w-14 md:w-20 h-14 md:h-20 rounded-full mx-auto grayscale group-hover/ba:grayscale-0 duration-300 shadow-xl shadow-gray-900" width="80" height="80" src="https://images.unsplash.com/photo-1480455624313-e29b44bbfde1?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Image of Mohd. Nizam" />
+                                        <Image className="w-14 md:w-20 h-14 md:h-20 rounded-full mx-auto grayscale group-hover/ba:grayscale-0 duration-300 shadow-xl shadow-gray-900" width="80" height="80" src="https://images.unsplash.com/photo-1480455624313-e29b44bbfde1?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Image of Mohd. Nizam" />
                                     </div>
                                     <div className="w-full text-center text-sm md:text-base pt-2">Md. Adil</div>
                                 </div>
                                 <div className="w-auto group/ba">
                                     <div className="w-full">
-                                        <img className="w-14 md:w-20 h-14 md:h-20 rounded-full mx-auto grayscale group-hover/ba:grayscale-0 duration-300 shadow-xl shadow-gray-900" width="80" height="80" src="https://images.unsplash.com/photo-1508908324153-d1a219719814?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Image of Kapil Sharma" />
+                                        <Image className="w-14 md:w-20 h-14 md:h-20 rounded-full mx-auto grayscale group-hover/ba:grayscale-0 duration-300 shadow-xl shadow-gray-900" width="80" height="80" src="https://images.unsplash.com/photo-1508908324153-d1a219719814?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Image of Kapil Sharma" />
                                     </div>
                                     <div className="w-full text-center text-sm md:text-base pt-2">Robert</div>
                                 </div>
@@ -1289,10 +1289,10 @@ export default function Home() {
                                 <span>4.9/5</span>
                             </div>
                             <div className="w-full h-12 -mt-1">
-                                <img className="size-full object-contain" loading="lazy" width="110" height="48" src="https://www.imgglobalinfotech.com/public/tailwind/img/hidden.webp?id=4df173c235873ed3ff8684e03934b9a3" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/footer-clutch.webp?id=ad8850c948c5fd1b904a4a5acae571f4" alt="footer clutch" />
+                                <Image className="size-full object-contain" loading="lazy" width="110" height="48" src="https://www.imgglobalinfotech.com/public/tailwind/img/hidden.webp?id=4df173c235873ed3ff8684e03934b9a3" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/footer-clutch.webp?id=ad8850c948c5fd1b904a4a5acae571f4" alt="footer clutch" />
                             </div>
                             <div className="flex items-center gap-4">
-                                <div className="flex flex-shrink-0 items-center justify-center"><Link target="_blank" href="https://www.goodfirms.co/company/img-global-infotech-pvt-ltd"><img style={{ width: '150px', height: '150px' }} src="https://assets.goodfirms.co/badges/color-badge/app-development.svg" title="Top Mobile App Development Company" alt="Top Mobile App Development Company on GoodFirms" /></Link></div>
+                                <div className="flex flex-shrink-0 items-center justify-center"><Link target="_blank" href="https://www.goodfirms.co/company/img-global-infotech-pvt-ltd"><Image style={{ width: '150px', height: '150px' }} src="https://assets.goodfirms.co/badges/color-badge/app-development.svg" width={'200'} height={'200'} title="Top Mobile App Development Company" alt="Top Mobile App Development Company on GoodFirms" /></Link></div>
                                 <div className="flex flex-shrink-0 items-center justify-center"><iframe width="130" height="130" src="https://shareables.clutch.co/share/badges/237597/5993?utm_source=clutch_top_company_badge&utm_medium=image_embed" title="Top Clutch E-commerce Developers Jaipur 2024"></iframe></div>
 
                             </div>
@@ -1312,7 +1312,7 @@ export default function Home() {
                                         <span>4.9/5</span>
                                     </div>
                                     <div className="w-full h-12 -mt-1">
-                                        <img className="size-full object-contain" loading="lazy" width="110" height="48" src="https://www.imgglobalinfotech.com/public/tailwind/img/hidden.webp?id=4df173c235873ed3ff8684e03934b9a3" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/footer-clutch.webp?id=ad8850c948c5fd1b904a4a5acae571f4" alt="footer clutch" />
+                                        <Image className="size-full object-contain" loading="lazy" width="110" height="48" src="https://www.imgglobalinfotech.com/public/tailwind/img/hidden.webp?id=4df173c235873ed3ff8684e03934b9a3" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/footer-clutch.webp?id=ad8850c948c5fd1b904a4a5acae571f4" alt="footer clutch" />
                                     </div>
                                 </div>
                                 <div className="w-auto">
@@ -1323,7 +1323,7 @@ export default function Home() {
                                         <span>4.6/5</span>
                                     </div>
                                     <div className="w-full h-12 -mt-1">
-                                        <img className="size-full object-contain" width="110" height="48" src="https://www.imgglobalinfotech.com/public/tailwind/img/google.webp?id=305718ba3103d02f222f73fcac606da6" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/google.webp?id=305718ba3103d02f222f73fcac606da6" alt="google" />
+                                        <Image className="size-full object-contain" width="110" height="48" src="https://www.imgglobalinfotech.com/public/tailwind/img/google.webp?id=305718ba3103d02f222f73fcac606da6" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/google.webp?id=305718ba3103d02f222f73fcac606da6" alt="google" />
                                     </div>
                                 </div>
                                 <div className="w-auto">
@@ -1334,7 +1334,7 @@ export default function Home() {
                                         <span>4.8/5</span>
                                     </div>
                                     <div className="w-full h-12 -mt-1">
-                                        <img className="size-full object-contain" width="110" height="48" src="https://www.imgglobalinfotech.com/public/tailwind/img/mobileapp.webp?id=e639b97f37086c1eaba7c56a63a65639" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/mobileapp.webp?id=e639b97f37086c1eaba7c56a63a65639" alt="mobileapp" />
+                                        <Image className="size-full object-contain" width="110" height="48" src="https://www.imgglobalinfotech.com/public/tailwind/img/mobileapp.webp?id=e639b97f37086c1eaba7c56a63a65639" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/mobileapp.webp?id=e639b97f37086c1eaba7c56a63a65639" alt="mobileapp" />
                                     </div>
                                 </div>
                                 <div className="w-auto">
@@ -1345,7 +1345,7 @@ export default function Home() {
                                         <span>4.4/5</span>
                                     </div>
                                     <div className="w-full h-12 -mt-1">
-                                        <img className="size-full object-contain" width="110" height="48" src="https://www.imgglobalinfotech.com/public/tailwind/img/trustpilot.webp?id=a464c168c6ed424da5be652905d10589" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/trustpilot.webp?id=a464c168c6ed424da5be652905d10589" alt="trustpilot" />
+                                        <Image className="size-full object-contain" width="110" height="48" src="https://www.imgglobalinfotech.com/public/tailwind/img/trustpilot.webp?id=a464c168c6ed424da5be652905d10589" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/trustpilot.webp?id=a464c168c6ed424da5be652905d10589" alt="trustpilot" />
                                     </div>
                                 </div>
                                 <div className="w-auto">
@@ -1356,7 +1356,7 @@ export default function Home() {
                                         <span>4.6/5</span>
                                     </div>
                                     <div className="w-full h-12 -mt-1">
-                                        <img className="size-full object-contain" width="110" height="48" src="https://www.imgglobalinfotech.com/public/tailwind/img/bussinesapp.webp?id=bd2c2e4a03aac75f542932a099947da3" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/bussinesapp.webp?id=bd2c2e4a03aac75f542932a099947da3" alt="bussinesapp" />
+                                        <Image className="size-full object-contain" width="110" height="48" src="https://www.imgglobalinfotech.com/public/tailwind/img/bussinesapp.webp?id=bd2c2e4a03aac75f542932a099947da3" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/bussinesapp.webp?id=bd2c2e4a03aac75f542932a099947da3" alt="bussinesapp" />
                                     </div>
                                 </div>
 
