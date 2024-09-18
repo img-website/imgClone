@@ -48,6 +48,7 @@ const nextConfig = {
         {
             protocol: 'https',
             hostname: 'www.twinpowerus.com',
+            hostname: 'https://www.getbootstrap.pk',
             port: '',
             pathname: '/**',
         },
