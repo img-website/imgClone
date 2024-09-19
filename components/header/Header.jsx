@@ -1335,6 +1335,12 @@ const Header = () => {
             <div className="space-y-2 py-6">
               <div className="flex flex-col gap-5 items-center">
                 <div className="flex flex-col w-full gap-y-5">
+                <a
+                    href=".com/portfolio.php"
+                    className="pointer-events-none text-sm font-bold text-gray-50"
+                  >
+                    Home
+                  </a>
                   <div className="relative flex flex-col gap-y-3">
                     <input
                       className="peer/mm hidden"
@@ -1447,7 +1453,7 @@ const Header = () => {
                               </a>
                             </div>
                           </div>
-                          <div>
+                          {/* <div>
                             <div className="flex h-4 w-4 flex-none">
                               <svg
                                 className="h-3 w-3 opacity-90"
@@ -1469,8 +1475,8 @@ const Header = () => {
                                 <span className="absolute inset-0 z-[1]"></span>
                               </a>
                             </div>
-                          </div>
-                          <div>
+                          </div> */}
+                          {/* <div>
                             <div className="flex h-4 w-4 flex-none">
                               <svg
                                 className="h-3 w-3 opacity-90"
@@ -1503,7 +1509,7 @@ const Header = () => {
                                 <span className="absolute inset-0 z-[1]"></span>
                               </a>
                             </div>
-                          </div>
+                          </div> */}
                         </div>
                       </div>
                     </div>
@@ -2472,7 +2478,7 @@ const Header = () => {
                   </div>
                 </div>
               </div> */}
-                  <div className="relative flex flex-col gap-y-3">
+                  {/* <div className="relative flex flex-col gap-y-3">
                     <input
                       className="peer/mm hidden"
                       type="checkbox"
@@ -2917,7 +2923,7 @@ const Header = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
 
                   <a
                     href=".com/portfolio.php"
