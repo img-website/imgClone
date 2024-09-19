@@ -17,7 +17,7 @@ function about() {
                     <div className="flex size-full items-center rounded-b-2xl relative overflow-hidden shadow-lg before:absolute before:inset-0 before:bg-cover before:bg-right before:rounded-b-2xl before:bg-gradient-to-r before:mix-blend-multiply  shadow-theme1 before:from-theme1/30 before:via-theme1/30 before:to-theme1/40">
                         <span className="absolute inset-0 bg-cover bg-right opacity-80 rounded-b-2xl bg-theme1/30"></span>
 
-                        <Image className="size-full object-cover object-center absolute inset-0 -z-[1] rounded-b-2xl aspect-[1920/1200]" width="1920" height="1200" src="https://images.unsplash.com/photo-1530099486328-e021101a494a?q=80&w=1547&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" sizes="100vw" alt="about img" />
+                        <Image  width={1000} height={1000} quality={90} loading='lazy'className="size-full object-cover object-center absolute inset-0 -z-[1] rounded-b-2xl aspect-[1920/1200]" width="1920" height="1200" src="https://images.unsplash.com/photo-1530099486328-e021101a494a?q=80&w=1547&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" sizes="100vw" alt="about img" />
 
                         <div className="flex mx-auto max-lg:flex-col max-lg:gap-y-10 items-center 2xl:max-w-7xl xl:max-w-6xl lg:max-w-5xl md:max-w-3xl sm:max-w-3xl max-w-2xl px-6 lg:px-8 w-full relative lg:pt-40 sm:pt-32 pt-28 pb-12 overflow-hidden z-10 justify-center">
                             <div className="xl:w-7/12 lg:w-1/2 grow-0 text-center">
@@ -136,7 +136,7 @@ function about() {
                         after:absolute after:rounded-full md:after:right-0 md:after:inset-y-0 md:after:m-auto md:after:translate-x-[calc(50%-2px)] md:after:-translate-y-[calc(50%-2px)] max-md:after:bottom-[1.5px] max-md:after:right-1/2 max-md:after:translate-x-1/2 max-md:after:translate-y-1/2 after:z-20 after:size-4 after:ring-4 after:ring-theme1 after:bg-white
                         ">
                         <div className="w-full pb-3">
-                            <img className="size-20 mx-auto" width="80" height="80" src="/img/workflow-1.svg" alt="design process research"/>
+                            <Image  width={1000} height={1000} quality={90} loading='lazy'className="size-20 mx-auto" src="/img/workflow-1.svg" alt="design process research"/>
                         </div>
                         <div className="w-full lg:text-xl md:text-lg text-base font-bold pb-2">Research</div>
                         <div className="w-full md:text-base text-sm font-semibold pb-3">We begin by conducting thorough research to understand your target audience, market trends, and competition, ensuring the development of outstanding software.</div>
@@ -156,7 +156,7 @@ function about() {
                         after:absolute after:rounded-full md:after:right-0 md:after:inset-y-0 md:after:my-auto md:after:translate-x-[calc(50%-2px)] md:after:translate-y-[calc(-50%+2px)] max-md:after:bottom-[1.5px] max-md:after:left-1/2 max-md:after:translate-y-1/2 max-md:after:-translate-x-1/2 after:z-20 after:size-4 after:ring-4 after:ring-theme2 after:bg-white
                         ">
                         <div className="w-full pb-3">
-                            <img className="size-20 mx-auto" width="80" height="80" src="/img/workflow-2.svg" alt="design process plan"/>
+                            <Image  width={1000} height={1000} quality={90} loading='lazy'className="size-20 mx-auto" src="/img/workflow-2.svg" alt="design process plan"/>
                         </div>
                         <div className="w-full lg:text-xl md:text-lg text-base font-bold pb-2">Plan</div>
                         <div className="w-full md:text-base text-sm font-semibold pb-3">Based on the research findings, we collaborate with you to define the app’s goals, features, and functionalities, ensuring the creation of outstanding software.</div>
@@ -176,7 +176,7 @@ function about() {
                         after:absolute after:rounded-full md:after:right-0 md:after:inset-y-0 md:after:my-auto md:after:translate-x-[calc(50%-2px)] md:after:translate-y-[calc(-50%+2px)] max-md:after:bottom-[1.5px] max-md:after:left-1/2 max-md:after:translate-y-1/2 max-md:after:-translate-x-1/2 after:z-20 after:size-4 after:ring-4 after:ring-theme1 after:bg-white
                         ">
                         <div className="w-full pb-3">
-                            <img className="size-20 mx-auto" width="80" height="80" src="https://www.imgglobalinfotech.com/public/tailwind/img/design-process-create.svg?id=1749b0f5450492c34fc70b086cb57bda" data-src="/img/workflow-3.svg" alt="design process implement"/>
+                            <Image  width={1000} height={1000} quality={90} loading='lazy'className="size-20 mx-auto" src="/img/workflow-3.svg" data-src="" alt="design process implement"/>
                         </div>
                         <div className="w-full lg:text-xl md:text-lg text-base font-bold pb-2">Implement</div>
                         <div className="w-full md:text-base text-sm font-semibold pb-3">Our skilled development team starts the implementation phase, building the app’s architecture, database, and backend infrastructure.
@@ -198,7 +198,7 @@ function about() {
                         after:absolute after:rounded-full md:after:right-0 md:after:inset-y-0 md:after:my-auto md:after:translate-x-[calc(50%-2px)] md:after:translate-y-[calc(-50%+2px)] max-md:after:bottom-[1.5px] max-md:after:left-1/2 max-md:after:translate-y-1/2 max-md:after:-translate-x-1/2 after:z-20 after:size-4 after:ring-4 after:ring-theme2 after:bg-white
                         ">
                         <div className="w-full pb-3">
-                            <img className="size-20 mx-auto" width="80" height="80" src="img/workflow-4.svg" data-src="" alt="design process testing"/>
+                            <Image  width={1000} height={1000} quality={90} loading='lazy'className="size-20 mx-auto"  src="img/workflow-4.svg" data-src="" alt="design process testing"/>
                         </div>
                         <div className="w-full lg:text-xl md:text-lg text-base font-bold pb-2">Testing</div>
                         <div className="w-full md:text-base text-sm font-semibold pb-3">Quality assurance is a critical step in our process. We perform comprehensive tests, including functional, usability, and performance testing.
@@ -220,7 +220,7 @@ function about() {
                         after:absolute md:after:right-[1.5px] md:after:top-1/4 md:after:translate-x-1/2 md:after:-translate-y-full max-md:after:bottom-[1.5px] max-md:after:right-1/4 max-md:after:translate-y-1/2 max-md:after:translate-x-full after:z-20 after:text-theme1 after:bg-white after:content-['End'] md:after:font-extrabold max-md:after:font-semibold md:after:text-sm max-md:after:text-xs after:uppercase after:rounded-full md:after:ring-4 max-md:after:ring-2 after:ring-theme1 after:ring-offset-4 md:after:[writing-mode:tb]
                         ">
                         <div className="w-full pb-3">
-                            <img className="size-20 mx-auto" width="80" height="80" src="/img/workflow-5.svg" data-src="" alt="design process Optimize"/>
+                            <Image  width={1000} height={1000} quality={90} loading='lazy' className="size-20 mx-auto" src="/img/workflow-5.svg" data-src="" alt="design process Optimize"/>
                         </div>
                         <div className="w-full lg:text-xl md:text-lg text-base font-bold pb-2">Optimize</div>
                         <div className="w-full md:text-base text-sm font-semibold pb-3">We continually optimize the app to enhance its performance, speed, and user experience, ensuring outstanding software.</div>
