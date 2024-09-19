@@ -4,7 +4,6 @@ import Header from '@/components/header/Header';
 import Footer from '@/components/footer/Footer';
 import Reward from '@/components/reward/Reward';
 import ClientVideo from '@/components/clientVideo/ClientVideo';
-import Cta2 from '@/components/cta2/Cta2';
 
 
 function testimonial() {
@@ -48,7 +47,7 @@ function testimonial() {
                 </div>
             </div>
             {/* hero section Ends */}
-            
+
             {/* about section start */}
             <Reward />
             {/* about section Ends */}
