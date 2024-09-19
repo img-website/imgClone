@@ -2,6 +2,8 @@ import React from 'react'
 import Header from "@/components/header/Header";
 import Image from "next/image";
 import Reward from '@/components/reward/Reward';
+import Cta from '@/components/cta/Cta';
+import Footer from '@/components/footer/Footer';
 
 
 
@@ -102,16 +104,19 @@ function about() {
           {/* our value */}
 
           <Reward />
+
+          <Cta />
             
              {/* workflow */}
-             <section class="bg-gray-100 pb-8 py-6 md:py-8 lg:py-16 overflow-hidden">
+             <section class=" pb-8 py-6 md:py-8 lg:py-16 overflow-hidden">
     <div class="flex flex-wrap w-full max-w-7xl mx-auto px-6 lg:px-8 max-lg:gap-y-8">
         <div class="w-full lg:pl-8">
             <p class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black empty:hidden text-balance text-center">
                 <span>Our</span> 
-                <span class="font-bold text-theme4"> Process</span>
+                <span class="font-bold text-theme2"> Procedure</span>
             </p>
-            <p class="mt-4 text-sm md:text-base leading-7 text-slate-600 text-center"> Well organized team empowered with expansive experience and advanced infrastructure</p>
+            <p class="mt-4 text-sm md:text-base leading-7 text-slate-600 text-center"> A structured team, empowered by vast experience and state-of-the-art infrastructure.
+            </p>
         </div>
     </div>
     <div class="flex flex-wrap w-full px-6 lg:px-8 max-lg:gap-y-8">
@@ -131,10 +136,10 @@ function about() {
                         after:absolute after:rounded-full md:after:right-0 md:after:inset-y-0 md:after:m-auto md:after:translate-x-[calc(50%-2px)] md:after:-translate-y-[calc(50%-2px)] max-md:after:bottom-[1.5px] max-md:after:right-1/2 max-md:after:translate-x-1/2 max-md:after:translate-y-1/2 after:z-20 after:size-4 after:ring-4 after:ring-theme1 after:bg-white
                         ">
                         <div class="w-full pb-3">
-                            <img class="size-20 mx-auto" width="80" height="80" src="https://www.imgglobalinfotech.com/public/tailwind/img/design-process-research.svg?id=6818deb1084b6a58002179eacd5cf421" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/design-process-research.svg?id=6818deb1084b6a58002179eacd5cf421" alt="design process research"/>
+                            <img class="size-20 mx-auto" width="80" height="80" src="/img/workflow-1.svg" alt="design process research"/>
                         </div>
                         <div class="w-full lg:text-xl md:text-lg text-base font-bold pb-2">Research</div>
-                        <div class="w-full md:text-base text-sm font-semibold pb-3">We start by conducting thorough research to understand your target audience, market trends, and competition. outstanding software.</div>
+                        <div class="w-full md:text-base text-sm font-semibold pb-3">We begin by conducting thorough research to understand your target audience, market trends, and competition, ensuring the development of outstanding software.</div>
                     </div>
                 </div>
                 <div class="
@@ -151,10 +156,10 @@ function about() {
                         after:absolute after:rounded-full md:after:right-0 md:after:inset-y-0 md:after:my-auto md:after:translate-x-[calc(50%-2px)] md:after:translate-y-[calc(-50%+2px)] max-md:after:bottom-[1.5px] max-md:after:left-1/2 max-md:after:translate-y-1/2 max-md:after:-translate-x-1/2 after:z-20 after:size-4 after:ring-4 after:ring-theme2 after:bg-white
                         ">
                         <div class="w-full pb-3">
-                            <img class="size-20 mx-auto" width="80" height="80" src="https://www.imgglobalinfotech.com/public/tailwind/img/design-process-empathize.svg?id=0c4a5f8e9ddc2628e284de98fbd956cb" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/design-process-empathize.svg?id=0c4a5f8e9ddc2628e284de98fbd956cb" alt="design process plan"/>
+                            <img class="size-20 mx-auto" width="80" height="80" src="/img/workflow-2.svg" alt="design process plan"/>
                         </div>
                         <div class="w-full lg:text-xl md:text-lg text-base font-bold pb-2">Plan</div>
-                        <div class="w-full md:text-base text-sm font-semibold pb-3">Based on the research findings, we work closely with you to define the app's goals, features, and functionalities. outstanding software.</div>
+                        <div class="w-full md:text-base text-sm font-semibold pb-3">Based on the research findings, we collaborate with you to define the app’s goals, features, and functionalities, ensuring the creation of outstanding software.</div>
                     </div>
                 </div>
                 <div class="
@@ -171,10 +176,12 @@ function about() {
                         after:absolute after:rounded-full md:after:right-0 md:after:inset-y-0 md:after:my-auto md:after:translate-x-[calc(50%-2px)] md:after:translate-y-[calc(-50%+2px)] max-md:after:bottom-[1.5px] max-md:after:left-1/2 max-md:after:translate-y-1/2 max-md:after:-translate-x-1/2 after:z-20 after:size-4 after:ring-4 after:ring-theme1 after:bg-white
                         ">
                         <div class="w-full pb-3">
-                            <img class="size-20 mx-auto" width="80" height="80" src="https://www.imgglobalinfotech.com/public/tailwind/img/design-process-create.svg?id=1749b0f5450492c34fc70b086cb57bda" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/design-process-create.svg?id=1749b0f5450492c34fc70b086cb57bda" alt="design process implement"/>
+                            <img class="size-20 mx-auto" width="80" height="80" src="https://www.imgglobalinfotech.com/public/tailwind/img/design-process-create.svg?id=1749b0f5450492c34fc70b086cb57bda" data-src="/img/workflow-3.svg" alt="design process implement"/>
                         </div>
                         <div class="w-full lg:text-xl md:text-lg text-base font-bold pb-2">Implement</div>
-                        <div class="w-full md:text-base text-sm font-semibold pb-3">Our skilled development team begins the implementation phase, where we build the app's architecture, database, and backend infrastructure.</div>
+                        <div class="w-full md:text-base text-sm font-semibold pb-3">Our skilled development team starts the implementation phase, building the app’s architecture, database, and backend infrastructure.
+
+</div>
                     </div>
                 </div>
                 <div class="
@@ -191,10 +198,12 @@ function about() {
                         after:absolute after:rounded-full md:after:right-0 md:after:inset-y-0 md:after:my-auto md:after:translate-x-[calc(50%-2px)] md:after:translate-y-[calc(-50%+2px)] max-md:after:bottom-[1.5px] max-md:after:left-1/2 max-md:after:translate-y-1/2 max-md:after:-translate-x-1/2 after:z-20 after:size-4 after:ring-4 after:ring-theme2 after:bg-white
                         ">
                         <div class="w-full pb-3">
-                            <img class="size-20 mx-auto" width="80" height="80" src="https://www.imgglobalinfotech.com/public/tailwind/img/design-process-test.svg?id=89b86c8a65740ebbb9988924ad6f59ea" data-src="" alt="design process testing"/>
+                            <img class="size-20 mx-auto" width="80" height="80" src="img/workflow-4.svg" data-src="" alt="design process testing"/>
                         </div>
                         <div class="w-full lg:text-xl md:text-lg text-base font-bold pb-2">Testing</div>
-                        <div class="w-full md:text-base text-sm font-semibold pb-3">Quality assurance is a critical step in our process. We conduct various tests, including functional testing, usability testing, performance testing.</div>
+                        <div class="w-full md:text-base text-sm font-semibold pb-3">Quality assurance is a critical step in our process. We perform comprehensive tests, including functional, usability, and performance testing.
+
+</div>
                     </div>
                 </div>
                 <div class="
@@ -211,10 +220,10 @@ function about() {
                         after:absolute md:after:right-[1.5px] md:after:top-1/4 md:after:translate-x-1/2 md:after:-translate-y-full max-md:after:bottom-[1.5px] max-md:after:right-1/4 max-md:after:translate-y-1/2 max-md:after:translate-x-full after:z-20 after:text-theme1 after:bg-white after:content-['End'] md:after:font-extrabold max-md:after:font-semibold md:after:text-sm max-md:after:text-xs after:uppercase after:rounded-full md:after:ring-4 max-md:after:ring-2 after:ring-theme1 after:ring-offset-4 md:after:[writing-mode:tb]
                         ">
                         <div class="w-full pb-3">
-                            <img class="size-20 mx-auto" width="80" height="80" src="https://www.imgglobalinfotech.com/public/tailwind/img/design-process-develop.svg?id=1c4575b103fd4f25d0619466b146dceb" data-src="" alt="design process Optimize"/>
+                            <img class="size-20 mx-auto" width="80" height="80" src="/img/workflow-5.svg" data-src="" alt="design process Optimize"/>
                         </div>
                         <div class="w-full lg:text-xl md:text-lg text-base font-bold pb-2">Optimize</div>
-                        <div class="w-full md:text-base text-sm font-semibold pb-3">We continually optimize the app to enhance its performance, speed, and user experience. outstanding software.</div>
+                        <div class="w-full md:text-base text-sm font-semibold pb-3">We continually optimize the app to enhance its performance, speed, and user experience, ensuring outstanding software.</div>
                     </div>
                 </div>
             </div>
@@ -222,6 +231,7 @@ function about() {
     </div>
 </section>
              {/* workflow */}
+             <Footer />
         
         </>
     )
