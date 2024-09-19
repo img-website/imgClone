@@ -82,11 +82,13 @@ const Blog = () => {
                     </p>
                   </div>
                   <div className="relative mt-8 flex items-center gap-x-4">
-                    <Image
-                      srcset="https://img.freepik.com/free-photo/portrait-handsome-smiling-businessman-office_1163-5471.jpg?t=st=1726723720~exp=1726727320~hmac=7fdb287f8849da8fdc20ab87806f4753bde40ee7f4bdf453132123ab1f8021f4&w=740"
-                      alt="lorem ipsum"
-                      className="!size-10 rounded-full bg-gray-50"
+                      <div className="!size-10 rounded-full">
+                  <Image
+                      srcset="https://img.freepik.com/free-photo/businessman-posing-smiling_144627-34937.jpg?t=st=1726741604~exp=1726745204~hmac=f2752caaafa2c2c68f806ed1703a85cd1876f3774f5ae0a1c942dd40de5572fb&w=360"
+                      alt="lorem ipsum" quality={90} loading="lazy"
+                      className=" object-cover object-right size-full rounded-full bg-gray-50"
                     />
+                    </div> 
                     <div className="text-sm leading-6">
                       <p className="font-semibold text-gray-900">Written by</p>
                       <p className="text-gray-600">lorem ipsum</p>
@@ -130,11 +132,13 @@ const Blog = () => {
                     </p>
                   </div>
                   <div className="relative mt-8 flex items-center gap-x-4">
-                    <Image
-                      srcset="https://img.freepik.com/free-photo/portrait-handsome-smiling-businessman-office_1163-5471.jpg?t=st=1726723720~exp=1726727320~hmac=7fdb287f8849da8fdc20ab87806f4753bde40ee7f4bdf453132123ab1f8021f4&w=740"
-                      alt="lorem ipsum"
-                      className="!size-10 rounded-full bg-gray-50"
+                  <div className="!size-10 rounded-full">
+                  <Image
+                      srcset="https://img.freepik.com/free-photo/businessman-posing-smiling_144627-34937.jpg?t=st=1726741604~exp=1726745204~hmac=f2752caaafa2c2c68f806ed1703a85cd1876f3774f5ae0a1c942dd40de5572fb&w=360"
+                      alt="lorem ipsum" quality={90} loading="lazy"
+                      className=" object-cover object-right size-full rounded-full bg-gray-50"
                     />
+                    </div>  
                     <div className="text-sm leading-6">
                       <p className="font-semibold text-gray-900">Written by</p>
                       <p className="text-gray-600">lorem ipsum</p>
@@ -178,11 +182,13 @@ const Blog = () => {
                     </p>
                   </div>
                   <div className="relative mt-8 flex items-center gap-x-4">
-                    <Image
-                      srcset="https://img.freepik.com/free-photo/portrait-handsome-smiling-businessman-office_1163-5471.jpg?t=st=1726723720~exp=1726727320~hmac=7fdb287f8849da8fdc20ab87806f4753bde40ee7f4bdf453132123ab1f8021f4&w=740"
-                      alt="lorem ipsum"
-                      className="!size-10 rounded-full bg-gray-50"
+                      <div className="!size-10 rounded-full">
+                  <Image
+                      srcset="https://img.freepik.com/free-photo/businessman-posing-smiling_144627-34937.jpg?t=st=1726741604~exp=1726745204~hmac=f2752caaafa2c2c68f806ed1703a85cd1876f3774f5ae0a1c942dd40de5572fb&w=360"
+                      alt="lorem ipsum" quality={90} loading="lazy"
+                      className=" object-cover object-right size-full rounded-full bg-gray-50"
                     />
+                    </div> 
                     <div className="text-sm leading-6">
                       <p className="font-semibold text-gray-900">Written by</p>
                       <p className="text-gray-600">lorem ipsum</p>
@@ -228,15 +234,13 @@ const Blog = () => {
                     </p>
                   </div>
                   <div className="relative mt-8 flex items-center gap-x-4">
-                    <Image
-                    width="1000"
-                    height="1000"
-                    quality="90"
-                    loading="lazy"
-                      src="https://img.freepik.com/free-photo/portrait-handsome-smiling-businessman-office_1163-5471.jpg?t=st=1726723720~exp=1726727320~hmac=7fdb287f8849da8fdc20ab87806f4753bde40ee7f4bdf453132123ab1f8021f4&w=740"
-                      alt="lorem ipsum"
-                      className="!size-10 rounded-full bg-gray-50"
+                  <div className="!size-10 rounded-full">
+                  <Image
+                      srcset="https://img.freepik.com/free-photo/businessman-posing-smiling_144627-34937.jpg?t=st=1726741604~exp=1726745204~hmac=f2752caaafa2c2c68f806ed1703a85cd1876f3774f5ae0a1c942dd40de5572fb&w=360"
+                      alt="lorem ipsum" quality={90} loading="lazy"
+                      className=" object-cover object-right size-full rounded-full bg-gray-50"
                     />
+                    </div> 
                     <div className="text-sm leading-6">
                       <p className="font-semibold text-gray-900">Written by</p>
                       <p className="text-gray-600">lorem ipsum</p>
