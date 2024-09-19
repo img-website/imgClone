@@ -159,21 +159,21 @@ function iosAppDevelopment() {
 
             <Cta />
 
-
-
-
-            <div className='mx-auto max-w-7xl px-6 lg:px-8'>
-                <section className="lg:w-4/5 w-full mx-auto md:mt-16 mt-8">
-                    <div className="max-w-[85rem] px-4 sm:px-6 lg:px-8 mx-auto">
-                        <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
-                            <h2 className="text-2xl font-bold md:text-4xl md:leading-tight">Your questions, answered</h2>
-                            <p className="mt-1 text-gray-600">Answers to the most frequently asked questions.</p>
+        {/* accordian start */}
+            <div className=''>
+                <div className='mx-auto max-w-7xl px-6 lg:px-8'>
+                    <section className="lg:w-4/5 w-full mx-auto md:mt-16 mt-8">
+                        <div className="max-w-[85rem] px-4 sm:px-6 lg:px-8 mx-auto">
+                            <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
+                                <h2 className="text-2xl font-bold md:text-4xl md:leading-tight">Your questions, answered</h2>
+                                <p className="mt-1 text-gray-600">Answers to the most frequently asked questions.</p>
+                            </div>
+                            <Accordion items={accordionItems} />
                         </div>
-                        <Accordion items={accordionItems} />
-                    </div>
-                </section>
+                    </section>
+                </div>
             </div>
-
+        {/* accordian Ends */}
 
 
 
