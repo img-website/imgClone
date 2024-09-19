@@ -60,6 +60,7 @@ const nextConfig = {
         {
             protocol: 'https',
             hostname: 'images.unsplash.com',
+            hostname: 'img.freepik.com',
             port: '',
             pathname: '/**',
         },
