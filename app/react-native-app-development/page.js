@@ -125,7 +125,7 @@ function reactNativeDevelopment() {
 
                                 </p>
                                 <p className="mt-4 text-sm md:text-base leading-7 text-slate-600">
-                                    At IMG Global Infotech, we harness the latest features in React Native to bring unmatched efficiency and mobility to smartphone applications. React Native's extensive benefits have made it a preferred choice for businesses across various industries, offering a powerful tool to enhance their digital presence.
+                                    At Twin Power Software, we harness the latest features in React Native to bring unmatched efficiency and mobility to smartphone applications. React Native's extensive benefits have made it a preferred choice for businesses across various industries, offering a powerful tool to enhance their digital presence.
                                 </p>
                                 <p className="mt-4 text-sm md:text-base leading-7 text-slate-600">
                                     Our custom React Native development services represent a forward-thinking approach that propels businesses towards their future goals. Leveraging our expertise, we help design and transform your app into a growth-driving asset that optimizes your operations. Ready to partner with a trusted React Native app development company? Let’s discuss your product vision and accelerate your development journey together.

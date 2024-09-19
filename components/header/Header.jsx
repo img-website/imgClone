@@ -294,7 +294,7 @@ const Header = () => {
                           </div>
                           <div className="flex-auto">
                             <a
-                              href=".com/android-application-development.php"
+                              href="/android-application-development"
                               className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900"
                             >
                               Android App
@@ -310,7 +310,7 @@ const Header = () => {
                           </div>
                           <div className="flex-auto">
                             <a
-                              href=".com/ios-app-development.php"
+                              href="/ios-app-development"
                               className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900"
                             >
                               iOS App
@@ -326,7 +326,7 @@ const Header = () => {
                           </div>
                           <div className="flex-auto">
                             <a
-                              href=".com/cross-platform-app-development.php"
+                              href="/cross-platform"
                               className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900"
                             >
                               Cross-Platform App
@@ -342,7 +342,7 @@ const Header = () => {
                           </div>
                           <div className="flex-auto">
                             <a
-                              href=".com/flutter-app-development.php"
+                              href="/flutter-app-development"
                               className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900"
                             >
                               Flutter App
@@ -358,7 +358,7 @@ const Header = () => {
                           </div>
                           <div className="flex-auto">
                             <a
-                              href=".com/react-native-app-development.php"
+                              href="/react-native-app-development"
                               className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900"
                             >
                               React Native App
@@ -1583,7 +1583,7 @@ const Header = () => {
                             </div>
                             <div className="flex-auto">
                               <a
-                                href=".com/android-application-development.php"
+                                href="/android-application-development"
                                 className="block font-semibold opacity-80"
                               >
                                 Android App
@@ -1606,7 +1606,7 @@ const Header = () => {
                             </div>
                             <div className="flex-auto">
                               <a
-                                href=".com/ios-app-development.php"
+                                href="/ios-app-development"
                                 className="block font-semibold opacity-80"
                               >
                                 iOS App
@@ -1629,7 +1629,7 @@ const Header = () => {
                             </div>
                             <div className="flex-auto">
                               <a
-                                href=".com/cross-platform-app-development.php"
+                                href="/cross-platform"
                                 className="block font-semibold opacity-80"
                               >
                                 Cross-Platform App
@@ -1652,7 +1652,7 @@ const Header = () => {
                             </div>
                             <div className="flex-auto">
                               <a
-                                href=".com/flutter-app-development.php"
+                                href="/flutter-app-development"
                                 className="block font-semibold opacity-80"
                               >
                                 Flutter App
@@ -1675,7 +1675,7 @@ const Header = () => {
                             </div>
                             <div className="flex-auto">
                               <a
-                                href=".com/react-native-app-development.php"
+                                href="/react-native-app-development"
                                 className="block font-semibold opacity-80"
                               >
                                 React Native App
