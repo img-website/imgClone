@@ -1,6 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import Image from 'next/image';
+import Link from "next/link";
 
 
 
@@ -113,13 +114,12 @@ const Header = () => {
             </div>
             <div className="flex gap-5 items-center">
               <div className="hidden lg:flex lg:gap-x-6 ml-auto mr-0">
-                <button
-                  type="button"
+                <Link href="/"
                   className={`flex items-center gap-x-[2px] text-xs font-semibold leading-6 text-gray-50 hover:text-gray-300 duration-200 uppercase group-hover/dd:before:absolute group-hover/dd:before:-bottom-[34px] group-hover/dd:before:left-0 group-hover/dd:before:h-10 group-hover/dd:before:w-full group-hover/dd:before:z-[1] `}
                   aria-expanded="false"
                 >
                   Home
-                </button>
+                </Link>
                 <div className="relative group/dd">
                   <button
                     type="button"
@@ -166,13 +166,13 @@ const Header = () => {
                             </svg>
                           </div>
                           <div className="flex-auto">
-                            <a
-                              href=".com/about-us.php"
-                              className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 uppercase hoverLink text-slate-900"
+                            <Link
+                              href="/about-us"
+                              className="block font-semibold opacity-80 hover:opacity-90 duration-200 uppercase hoverLink text-slate-900"
                             >
                               About Us
                               <span className="absolute inset-0 z-[1]"></span>
-                            </a>
+                            </Link>
                             {/* <p className="xl:mt-1 opacity-60 relative z-0">Your IT Partner for Tomorrow's Solutions</p> */}
                           </div>
                         </div>
@@ -192,13 +192,13 @@ const Header = () => {
                             </svg>
                           </div>
                           <div className="flex-auto">
-                            <a
-                              href=".com/testimonials.php"
+                            <Link
+                              href="/testimonial"
                               className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 uppercase hoverLink text-slate-900"
                             >
                               Testimonials
                               <span className="absolute inset-0 z-[1]"></span>
-                            </a>
+                            </Link>
                             {/* <p className="xl:mt-1 opacity-60 relative z-0">Hear What Our Clients Have to Say</p> */}
                           </div>
                         </div>
@@ -1335,12 +1335,12 @@ const Header = () => {
             <div className="space-y-2 py-6">
               <div className="flex flex-col gap-5 items-center">
                 <div className="flex flex-col w-full gap-y-5">
-                <a
-                    href=".com/portfolio.php"
+                <Link
+                    href="/"
                     className="pointer-events-none text-sm font-bold text-gray-50"
                   >
                     Home
-                  </a>
+                  </Link>
                   <div className="relative flex flex-col gap-y-3">
                     <input
                       className="peer/mm hidden"
@@ -1392,13 +1392,13 @@ const Header = () => {
                               </svg>
                             </div>
                             <div className="flex-auto">
-                              <a
-                                href=".com/about-us.php"
+                              <Link
+                                href="/about-us"
                                 className="pointer-events-none block font-semibold opacity-80"
                               >
                                 About Us
                                 <span className="absolute inset-0 z-[1]"></span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                           <div>
@@ -1418,7 +1418,7 @@ const Header = () => {
                             </div>
                             <div className="flex-auto">
                               <a
-                                href=".com/testimonials.php"
+                                href="/testimonial"
                                 className="pointer-events-none block font-semibold opacity-80"
                               >
                                 Testimonials
