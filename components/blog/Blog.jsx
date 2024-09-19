@@ -36,7 +36,7 @@ const Blog = () => {
 
             [&_.swiperInner]:p-1 [&_.swiperInner]:bg-gray-700 [&_.swiperInner]:relative [&_.swiperInner]:size-full [&_.swiperInner]:rounded-[20px] [&_.swiperInner]:overflow-hidden
             
-            [&_img]:w-full [&_img]:aspect-[4/5] [&_img]:overflow-hidden [&_img]:rounded-[20px] [&_img]:z-0 [&_img]:duration-[3000ms]
+            [&_img]:w-full  [&_img]:overflow-hidden [&_img]:rounded-[20px] [&_img]:z-0 [&_img]:duration-[3000ms]
 
             [&_.content]:mt-10 [&_.content]:flex [&_.content]:rounded-[20px] [&_.content]:rounded-t-none [&_.content]:items-center [&_.content]:sm:justify-center [&_.content]:absolute [&_.content]:inset-1 [&_.content]:top-auto [&_.content]:z-[1] before:[&_.content]:absolute before:[&_.content]:inset-3 before:[&_.content]:z-[1] before:[&_.content]:bg-gradient-to-t before:[&_.content]:backdrop-blur-xl before:[&_.content]:rounded-xl [&_.content]:py-8
 
@@ -52,14 +52,16 @@ const Blog = () => {
                 href="javascript:;"
                 className="flex max-w-xl flex-col items-start justify-between h-full bg-white rounded-[20px] shadow-md shadow-gray-300"
               >
+                <div className="overflow-hidden">
                 <Image
-                  className="w-full !aspect-[385/221] rounded-[20px]"
+                  className="w-full  rounded-[20px] aspect-[1/0.5] object-contain"
                   width="1000"
                   height="1000"
                   src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/ares-port.png"
                   alt="Features of dating app"
                   title="Top 30 Features of Dating Apps   "
                 />
+                </div>
                 <div className="w-full p-6">
                   <div className="flex items-center gap-x-4 text-xs">
                     <time datetime="2024-5-24" className="text-gray-500">
@@ -101,7 +103,7 @@ const Blog = () => {
                 className="flex max-w-xl flex-col items-start justify-between h-full bg-white rounded-2xl shadow-md shadow-gray-300"
               >
                 <Image
-                  className="w-full !aspect-[385/221] rounded-2xl"
+                  className="w-full  rounded-[20px] aspect-[1/0.5] object-contain"
                   width="1000"
                   height="1000"
                   src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/ares-port.png"
@@ -149,7 +151,7 @@ const Blog = () => {
                 className="flex max-w-xl flex-col items-start justify-between h-full bg-white rounded-[20px] shadow-md shadow-gray-300"
               >
                 <Image
-                  className="w-full !aspect-[385/221] rounded-[20px]"
+                  className="w-full  rounded-[20px] aspect-[1/0.5] object-contain"
                   width="1000"
                   height="1000"
                   src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/uber.png"
@@ -198,7 +200,7 @@ const Blog = () => {
                 className="flex max-w-xl flex-col items-start justify-between h-full bg-white rounded-[20px] shadow-md shadow-gray-300"
               >
                 <Image
-                  className="w-full !aspect-[385/221] rounded-[20px]"
+                  className="w-full  rounded-[20px] aspect-[1/0.5] object-contain"
                   width="1000"
                   height="1000"
                   src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/axle-port.png"
