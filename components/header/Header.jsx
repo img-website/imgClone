@@ -1264,7 +1264,7 @@ const Header = () => {
                 </a>
               </div>
               <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-                <button className="px-4 rounded-full text-sm text-white flex items-center gap-2 font-semibold py-3 border-white border-2 w-max mx-auto before:-z-10 relative before:absolute before:w-full before:h-0 before:left-0 before:top-1/2 before:bg-theme1 before:md:hover:h-full before:duration-300 md:hover:text-white duration-300 before:md:hover:top-0">
+                <button className="px-4 rounded-full text-sm text-white flex items-center gap-2 font-semibold py-3 border-white border-2 w-max mx-auto before:-z-10 relative before:absolute before:w-full before:h-0 before:left-0 before:top-1/2 before:bg-theme1 before:rounded-full before:md:hover:h-full before:duration-300 md:hover:text-white duration-300 before:md:hover:top-0">
                   <span>Ask for a Quote</span>
                   <span>
                     <svg

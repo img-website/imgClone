@@ -9,7 +9,7 @@ function testimonial() {
         <>
         <Header/>
         {/* hero section start */}
-            <div className="flex w-full relative bg-slate-50 select-none lg:h-dvh lg:min-h-[650px]">
+            <div className="flex w-full relative bg-slate-50 lg:h-dvh lg:min-h-[650px]">
                 <div className="size-full relative !z-10">
                     <div className="flex size-full items-center rounded-b-2xl relative overflow-hidden shadow-lg before:absolute before:inset-0 before:bg-cover before:bg-right before:rounded-b-2xl before:bg-gradient-to-r before:mix-blend-multiply  shadow-theme1 before:from-theme1/30 before:via-theme1/30 before:to-theme1/40">
                         <span className="absolute inset-0 bg-cover bg-right opacity-80 rounded-b-2xl bg-theme1/30"></span>
@@ -19,10 +19,10 @@ function testimonial() {
                         <div className="flex mx-auto max-lg:flex-col max-lg:gap-y-10 items-center 2xl:max-w-7xl xl:max-w-6xl lg:max-w-5xl md:max-w-3xl sm:max-w-3xl max-w-2xl px-6 lg:px-8 w-full relative lg:pt-40 sm:pt-32 pt-28 pb-12 overflow-hidden z-10 justify-center">
                             <div className="xl:w-7/12 lg:w-1/2 grow-0 text-center">
                                 <div className="font-light text-white max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em]">
-                                    <span className="font-bold text-gray-100 block pb-1 shadow-theme1 via-indigo-500 from-indigo-100 to-indigo-100 text-balance">Transforming Businesses with Innovative Web and Mobile Applications</span>
+                                    <span className="font-bold text-gray-100 block pb-1 shadow-theme1 via-indigo-500 from-indigo-100 to-indigo-100 text-balance">Client Testimonials and Success Stories</span>
                                 </div>
-                                <p className='max-lg:text-sm text-base text-white/80 pt-5 text-pretty w-10/12 mx-auto'>
-                                    A top-tier mobile app development company, backed by a team of seasoned professionals, delivering exceptional business solutions worldwide.
+                                <p className='max-lg:text-sm text-base text-white text-pretty w-10/12 mx-auto'>
+                                Our international clients are a crucial part of our journey. We take great pride in providing outstanding service and ensuring client loyalty. Whether your project is large or small, we guarantee full commitment to meet and exceed your expectations. Here’s what our clients share about their experience with Twin Power Software.
                                 </p>
                                 <div className="max-lg:text-sm text-base text-white/80 pt-5 text-pretty w-10/12 mx-auto"></div>
 
