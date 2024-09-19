@@ -1,4 +1,5 @@
-import React from 'react'
+"use client"
+import React, { useState } from 'react'
 import Image from "next/image";
 import Footer from '@/components/footer/Footer'
 import Header from '@/components/header/Header'
@@ -6,8 +7,41 @@ import Cta from '@/components/cta/Cta';
 import Cta2 from '@/components/cta2/Cta2';
 import PortfolioSection from '@/components/portfolio/portfolio';
 import Blog from '@/components/blog/Blog';
+import Head from 'next/head';
+import Accordion from '@/components/accordion/Accordion';
 
-function androidApplicationDevelopment() {
+
+
+
+
+function iosAppDevelopment() {
+    const accordionItems = [
+        {
+            title: 'Can I cancel at anytime?',
+            content: 'Yes, you can cancel anytime no questions are asked while you cancel but we would highly appreciate if you will give us some feedback.'
+        },
+        {
+            title: 'My team has credits. How do we use them?',
+            content: 'Once your team signs up for a subscription plan. This is where we sit down, grab a cup of coffee and dial in the details.'
+        },
+        {
+            title: 'How does Preline\'s pricing work?',
+            content: 'Our subscriptions are tiered. Understanding the task at hand and ironing out the wrinkles is key.'
+        },
+        {
+            title: 'How secure is Preline?',
+            content: 'Protecting the data you trust to Preline is our first priority. This part is really crucial in keeping the project in line to completion.'
+        },
+        {
+            title: 'How do I get access to a theme I purchased?',
+            content: 'If you lose the link for a theme you purchased, don\'t panic! We\'ve got you covered. You can login to your account, tap your avatar in the upper right corner, and tap Purchases. If you didn\'t create a login or can\'t remember the information, you can use our handy Redownload page, just remember to use the same email you originally made your purchases with.'
+        },
+        {
+            title: 'Upgrade License Type',
+            content: 'There may be times when you need to upgrade your license from the original type you purchased and we have a solution that ensures you can apply your original purchase cost to the new license purchase.'
+        },
+    ];
+
     return (
         <>
             <Header />
@@ -27,11 +61,11 @@ function androidApplicationDevelopment() {
                             <div class="flex mx-auto max-lg:flex-col max-lg:gap-y-10 items-center 2xl:max-w-7xl xl:max-w-6xl lg:max-w-5xl md:max-w-3xl sm:max-w-3xl max-w-2xl px-6 lg:px-8 w-full relative lg:pt-40 sm:pt-32 pt-28 pb-12 overflow-hidden z-10 justify-between">
                                 <div class="xl:w-7/12 lg:w-1/2 grow-0 max-lg:text-center">
                                     <div class="font-light text-white max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em]">
-                                        <span class="colorApply3 font-bold text-gray-100 block pb-1  via-indigo-500 from-indigo-100 to-indigo-100">Expert Android App Development Services
+                                        <span class="colorApply3 font-bold text-gray-100 block pb-1  via-indigo-500 from-indigo-100 to-indigo-100">Specialized iOS App Development Company
                                         </span>
                                     </div>
                                     <div class="max-lg:text-sm text-base text-white/80 pt-5 text-pretty w-10/12 max-lg:mx-auto">
-                                        Boost your business with our all-encompassing mobile app development services. We excel in both native and cross-platform solutions, incorporating cutting-edge IoT, AR/VR, and AI technologies to deliver secure, feature-packed mobile applications.
+                                        Choose the best for creating secure and scalable digital solutions with our iOS mobile app development services. Our iPhone app development expertise ensures that your applications are crafted to advance your business into the future.
                                     </div>
 
                                 </div>
@@ -97,14 +131,15 @@ function androidApplicationDevelopment() {
 
                         last:*:font-bold last:*:text-theme2
                     ">
-                                    <span className="font-normal">Tailored Android App Development:</span> <span className="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-theme2">Meeting Varied Business Demands</span>
+                                    <span className="font-normal">Advancing Your Business Through </span> <span className="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-theme2">Personalized iOS App Development</span>
 
                                 </p>
                                 <p className="mt-4 text-sm md:text-base leading-7 text-slate-600">
-                                    We are a custom Android app development company with years of experience across various Android devices and platforms, as showcased in our extensive portfolio of Android mobile apps. Our full-cycle bespoke development methodology has allowed us to explore the Android ecosystem in depth, including Android TV, Android Wear, tablets, and smartphones. This comprehensive approach ensures that we cover all facets of Android app development, creating tailored solutions for diverse needs.
+                                    We are a full-stack custom iOS app development firm with a track record of creating hundreds of top-selling native iOS apps that have achieved remarkable growth. Our experienced team of iPhone app developers specializes in using Swift and Objective-C to deliver cutting-edge iOS solutions.
                                 </p>
                                 <p className="mt-4 text-sm md:text-base leading-7 text-slate-600">
-                                    Our skilled developers utilize a proven tech stack to deliver user-friendly, intuitive apps. They understand the formula for crafting apps that achieve over a million downloads on the Google Play Store. Our straightforward and time-tested development process has consistently delivered successful results. In addition to development, we can assist in creating prototypes, designing marketing strategies, and offering post-launch support to ensure the long-term success of your product.                                </p>
+                                    Our dedicated team provides global iPhone app development services, leveraging their expertise to offer tailored iOS application development. We ensure unique designs and consult on iOS app development for various platforms, including iPad, iPhone, Apple TV, and Apple Watch. Our native iOS app development firm has crafted applications for diverse use cases across multiple industries, such as real-time analytics, route matching, geo-tagging, and video streaming.
+                                </p>
 
                                 <div className="mt-8 flex gap-4">
                                     <button className="px-4 text-sm text-[white] bg-theme1 rounded-full inline-flex items-center gap-2 font-semibold py-3 border-theme1 border-2 w-max hover:bg-theme1/80 duration-300">
@@ -123,6 +158,28 @@ function androidApplicationDevelopment() {
             {/* About Ends */}
 
             <Cta />
+
+
+
+
+            <div className='mx-auto max-w-7xl px-6 lg:px-8'>
+                <section className="lg:w-4/5 w-full mx-auto md:mt-16 mt-8">
+                    <div className="max-w-[85rem] px-4 sm:px-6 lg:px-8 mx-auto">
+                        <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
+                            <h2 className="text-2xl font-bold md:text-4xl md:leading-tight">Your questions, answered</h2>
+                            <p className="mt-1 text-gray-600">Answers to the most frequently asked questions.</p>
+                        </div>
+                        <Accordion items={accordionItems} />
+                    </div>
+                </section>
+            </div>
+
+
+
+
+
+
+
 
             <div class="relative bg-gray-100 py-6 md:py-8 lg:py-16">
                 <div class="mx-auto max-w-7xl px-6 lg:px-8 w-full relative">
@@ -151,11 +208,11 @@ function androidApplicationDevelopment() {
                                             01
                                         </div>
                                         <div class="md:text-lg sm:text-base text-sm leading-6 font-bold">
-                                            Custom Enterprise Android App Solutions
+                                            Personalized iPhone Application Development
                                         </div>
                                         <div class="mt-2 sm:text-base text-sm leading-6">
-                                        Android offers organizations a secure and adaptable mobility platform, seamlessly integrating devices, applications, and management.
-                                            </div>
+                                            Involves end-to-end development of bespoke iOS applications designed to meet specific business needs or concepts.
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="absolute flex justify-center items-end -left-[5px] top-20 w-[10px] h-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:-translate-x-1/2 before:translate-y-1/2 before:bottom-0 before:left-[calc(50%-1px)]"></div>
@@ -168,9 +225,11 @@ function androidApplicationDevelopment() {
                                             02
                                         </div>
                                         <div class="md:text-lg sm:text-base text-sm leading-6 font-bold">
-                                            End-to-End Android App Development
+                                            Comprehensive iOS Solutions for Businesses
                                         </div>
-                                        <div class="mt-2 sm:text-base text-sm leading-6">An Android activity goes through six major lifecycle stages or callbacks. These are: onCreate(), onStart(), onResume(), onPause(), onStop(), and onDestroy().</div>
+                                        <div class="mt-2 sm:text-base text-sm leading-6">
+                                            Businesses frequently need iOS apps for internal operations or to improve their business processes.
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="absolute flex justify-center items-end -left-[5px] top-20 w-[10px] h-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:-translate-x-1/2 before:translate-y-1/2 before:bottom-0 before:left-[calc(50%-1px)]"></div>
@@ -183,9 +242,11 @@ function androidApplicationDevelopment() {
                                             03
                                         </div>
                                         <div class="md:text-lg sm:text-base text-sm leading-6 font-bold">
-                                            Efficient Android App Transfer Solutions
+                                            iPhone App User Experience and Interface Design
                                         </div>
-                                        <div class="mt-2 sm:text-base text-sm leading-6">Install your app on your device or emulator, and run tests. Focus on system behavior changes, and work through all app flows.</div>
+                                        <div class="mt-2 sm:text-base text-sm leading-6">
+                                            UI/UX design services aim to craft visually engaging and intuitive interfaces for iPhone apps.
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="absolute flex justify-center items-end -left-[5px] top-20 w-[10px] h-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:-translate-x-1/2 before:translate-y-1/2 before:bottom-0 before:left-[calc(50%-1px)]"></div>
@@ -213,9 +274,11 @@ function androidApplicationDevelopment() {
                                             05
                                         </div>
                                         <div class="md:text-lg sm:text-base text-sm leading-6 font-bold">
-                                            Comprehensive App Maintenance and Support
+                                            iPhone Application Consulting Services
                                         </div>
-                                        <div class="mt-2 sm:text-base text-sm leading-6">Providing ongoing support and updates for the app, including bug fixes, feature enhancements, and compatibility updates with new Android versions.</div>
+                                        <div class="mt-2 sm:text-base text-sm leading-6">
+                                            iPhone app consultation services offer expert guidance and advice throughout the entire app development process.
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="absolute flex justify-center items-end -left-[5px] top-20 w-[10px] h-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:-translate-x-1/2 before:translate-y-1/2 before:bottom-0 before:left-[calc(50%-1px)]"></div>
@@ -228,10 +291,12 @@ function androidApplicationDevelopment() {
                                             06
                                         </div>
                                         <div class="md:text-lg sm:text-base text-sm leading-6 font-bold">
-                                            App User Experience and Interface Design
+                                            iPhone Extension Development
 
                                         </div>
-                                        <div class="mt-2 sm:text-base text-sm leading-6">Creating visually appealing and user-friendly interfaces for the app, ensuring a smooth and intuitive user experience.</div>
+                                        <div class="mt-2 sm:text-base text-sm leading-6">
+                                            iOS widgets and extensions allow apps to provide additional functionality and quick access to specific features within the iOS ecosystem.
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="absolute flex justify-center items-end -left-[5px] top-20 w-[10px] h-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:-translate-x-1/2 before:translate-y-1/2 before:bottom-0 before:left-[calc(50%-1px)]"></div>
@@ -244,9 +309,11 @@ function androidApplicationDevelopment() {
                                             07
                                         </div>
                                         <div class="md:text-lg sm:text-base text-sm leading-6 font-bold">
-                                            API Integration Services for Android Apps
+                                            iPhone App Integration
                                         </div>
-                                        <div class="mt-2 sm:text-base text-sm leading-6">Creating server-side infrastructure, APIs, and databases to support the app's functionality, if required.</div>
+                                        <div class="mt-2 sm:text-base text-sm leading-6">
+                                            Integration services involve connecting an iPhone app with external systems, databases, APIs, or third-party services to extend its functionality.
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="absolute flex justify-center items-end -left-[5px] top-20 w-[10px] h-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:-translate-x-1/2 before:translate-y-1/2 before:bottom-0 before:left-[calc(50%-1px)]"></div>
@@ -259,9 +326,11 @@ function androidApplicationDevelopment() {
                                             08
                                         </div>
                                         <div class="md:text-lg sm:text-base text-sm leading-6 font-bold">
-                                            M-Commerce App Development for Android
+                                            iPhone App Prototyping
                                         </div>
-                                        <div class="mt-2 sm:text-base text-sm leading-6">Mobile commerce include mobile banking, in-app purchasing, digital marketplaces, and digital wallets</div>
+                                        <div class="mt-2 sm:text-base text-sm leading-6">
+                                            Prototyping services are dedicated to developing interactive mockups or prototypes for iPhone apps.
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="absolute flex justify-center items-end -left-[5px] top-20 w-[10px] h-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:-translate-x-1/2 before:translate-y-1/2 before:bottom-0 before:left-[calc(50%-1px)]"></div>
@@ -274,14 +343,15 @@ function androidApplicationDevelopment() {
 
             </div>
 
-            <Cta2/>
 
-            <PortfolioSection/>
-            <Blog/>
+            <Cta2 />
+
+            <PortfolioSection />
+            <Blog />
 
             <Footer />
         </>
     )
 }
 
-export default androidApplicationDevelopment
+export default iosAppDevelopment
