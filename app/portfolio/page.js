@@ -63,9 +63,9 @@ function portfolio() {
                 </div>
             </div>
 
-            <div class="relative bg-gray-100 py-6 md:py-8 lg:py-16 text-white">
-                <div class="portfolioSwiper mx-auto max-w-7xl mb-24 last:mb-10 px-6 lg:px-8 w-full">
-                    <div class="
+            <div className="relative bg-gray-100 py-6 md:py-8 lg:py-16 text-white">
+                <div className="portfolioSwiper mx-auto max-w-7xl mb-24 last:mb-10 px-6 lg:px-8 w-full">
+                    <div className="
             items-center py-5 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5
 
             [&amp;_.swiper-slide]:rounded-2xl [&amp;_.swiper-slide]:overflow-hidden
@@ -83,136 +83,136 @@ function portfolio() {
             [&amp;_.tagline]:mt-1 [&amp;_.tagline]:text-xs [&amp;_.tagline]:md:text-sm [&amp;_.tagline]:opacity-80
             ">
 
-                        <a href="javascript:;" target="_blank" class="swiper-slide block duration-300 md:hover:scale-95">
-                            <div class="swiperInner">
+                        <a href="javascript:;" target="_blank" className="swiper-slide block duration-300 md:hover:scale-95">
+                            <div className="swiperInner">
                                 <div>
                                     <Image width="1000" height="1000" src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/kari-port.png"
                                         alt="portfolio1" />
 
                                 </div>
-                                <div class="content before:from-green-900/70 before:to-green-900/70">
-                                    <div class="contentInner">
-                                        <div class="title">Lorem Ipsum</div>
-                                        <div class="tagline font-semibold uppercase">Android</div>
+                                <div className="content before:from-green-900/70 before:to-green-900/70">
+                                    <div className="contentInner">
+                                        <div className="title">Lorem Ipsum</div>
+                                        <div className="tagline font-semibold uppercase">Android</div>
                                     </div>
                                 </div>
                             </div>
                         </a>
 
 
-                        <a href="javascript:;" target="_blank" class="swiper-slide block duration-300 md:hover:scale-95">
-                            <div class="swiperInner">
+                        <a href="javascript:;" target="_blank" className="swiper-slide block duration-300 md:hover:scale-95">
+                            <div className="swiperInner">
                                 <div>
                                     <Image width="1000" height="1000" src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/axle-port.png" alt="portfolio2" />
 
                                 </div>
-                                <div class="content before:from-gray-900/70 before:to-gray-900/70">
-                                    <div class="contentInner">
-                                        <div class="title">Lorem Ipsum</div>
-                                        <div class="tagline font-semibold uppercase">WEBSITE | Laravel | php | html5 | css3</div>
+                                <div className="content before:from-gray-900/70 before:to-gray-900/70">
+                                    <div className="contentInner">
+                                        <div className="title">Lorem Ipsum</div>
+                                        <div className="tagline font-semibold uppercase">WEBSITE | Laravel | php | html5 | css3</div>
                                     </div>
                                 </div>
                             </div>
                         </a>
-                        <a href="javascript:;" target="_blank" class="swiper-slide block duration-300 md:hover:scale-95">
-                            <div class="swiperInner">
+                        <a href="javascript:;" target="_blank" className="swiper-slide block duration-300 md:hover:scale-95">
+                            <div className="swiperInner">
                                 <div>
                                     <Image width="1000" height="1000" src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/stock-daddy-port.png" alt="portfolio3" />
 
                                 </div>
-                                <div class="content before:from-red-900/70 before:to-red-900/70">
-                                    <div class="contentInner">
-                                        <div class="title">Lorem Ipsum</div>
-                                        <div class="tagline font-semibold uppercase">WEBSITE | Laravel | php | html5 | css3</div>
+                                <div className="content before:from-red-900/70 before:to-red-900/70">
+                                    <div className="contentInner">
+                                        <div className="title">Lorem Ipsum</div>
+                                        <div className="tagline font-semibold uppercase">WEBSITE | Laravel | php | html5 | css3</div>
                                     </div>
                                 </div>
                             </div>
                         </a>
-                        <a href="javascript:;" target="_blank" class="swiper-slide block duration-300 md:hover:scale-95">
-                            <div class="swiperInner">
+                        <a href="javascript:;" target="_blank" className="swiper-slide block duration-300 md:hover:scale-95">
+                            <div className="swiperInner">
                                 <div>
                                     <Image width="1000" height="1000" src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/aampe-port.png" alt="portfolio4" />
 
                                 </div>
-                                <div class="content before:from-blue-900/70 before:to-blue-900/70">
-                                    <div class="contentInner">
-                                        <div class="title">Lorem Ipsum</div>
-                                        <div class="tagline font-semibold uppercase">WEBSITE | Laravel | php | html5 | css3</div>
+                                <div className="content before:from-blue-900/70 before:to-blue-900/70">
+                                    <div className="contentInner">
+                                        <div className="title">Lorem Ipsum</div>
+                                        <div className="tagline font-semibold uppercase">WEBSITE | Laravel | php | html5 | css3</div>
                                     </div>
                                 </div>
                             </div>
                         </a>
 
-                        <a href="javascript:;" target="_blank" class=" swiper-slide block duration-300 md:hover:scale-95">
-                            <div class="swiperInner">
+                        <a href="javascript:;" target="_blank" className=" swiper-slide block duration-300 md:hover:scale-95">
+                            <div className="swiperInner">
                                 <div>
                                     <Image width="1000" height="1000" src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/mploi-port.png" alt="portfolio5" />
 
                                 </div>
-                                <div class="content before:from-amber-900/70 before:to-amber-900/70">
-                                    <div class="contentInner">
-                                        <div class="title">Lorem Ipsum</div>
-                                        <div class="tagline font-semibold uppercase">WEBSITE | Laravel | php | html5 | css3</div>
+                                <div className="content before:from-amber-900/70 before:to-amber-900/70">
+                                    <div className="contentInner">
+                                        <div className="title">Lorem Ipsum</div>
+                                        <div className="tagline font-semibold uppercase">WEBSITE | Laravel | php | html5 | css3</div>
                                     </div>
                                 </div>
                             </div>
                         </a>
 
 
-                        <a href="javascript:;" target="_blank" class="swiper-slide block duration-300 md:hover:scale-95">
-                            <div class="swiperInner">
+                        <a href="javascript:;" target="_blank" className="swiper-slide block duration-300 md:hover:scale-95">
+                            <div className="swiperInner">
                                 <div>
                                     <Image width="1000" height="1000" src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/axle-port.png" alt="portfolio6" />
 
                                 </div>
-                                <div class="content before:from-purple-900/70 before:to-purple-900/70">
-                                    <div class="contentInner">
-                                        <div class="title">Lorem Ipsum</div>
-                                        <div class="tagline font-semibold uppercase">WEBSITE | Laravel | php | html5 | css3</div>
+                                <div className="content before:from-purple-900/70 before:to-purple-900/70">
+                                    <div className="contentInner">
+                                        <div className="title">Lorem Ipsum</div>
+                                        <div className="tagline font-semibold uppercase">WEBSITE | Laravel | php | html5 | css3</div>
                                     </div>
                                 </div>
                             </div>
                         </a>
 
-                        <a href="javascript:;" target="_blank" class="swiper-slide block duration-300 md:hover:scale-95">
-                            <div class="swiperInner">
+                        <a href="javascript:;" target="_blank" className="swiper-slide block duration-300 md:hover:scale-95">
+                            <div className="swiperInner">
                                 <div>
                                     <Image width="1000" height="1000" src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/stock-daddy-port.png" alt="portfolio7" />
 
                                 </div>
-                                <div class="content before:from-amber-900/70 before:to-amber-900/70">
-                                    <div class="contentInner">
-                                        <div class="title">Lorem Ipsum</div>
-                                        <div class="tagline font-semibold uppercase">WEBSITE | Laravel | php | html5 | css3</div>
+                                <div className="content before:from-amber-900/70 before:to-amber-900/70">
+                                    <div className="contentInner">
+                                        <div className="title">Lorem Ipsum</div>
+                                        <div className="tagline font-semibold uppercase">WEBSITE | Laravel | php | html5 | css3</div>
                                     </div>
                                 </div>
                             </div>
                         </a>
 
-                        <a href="javascript:;" target="_blank" class="swiper-slide block duration-300 md:hover:scale-95">
-                            <div class="swiperInner">
+                        <a href="javascript:;" target="_blank" className="swiper-slide block duration-300 md:hover:scale-95">
+                            <div className="swiperInner">
                                 <div>
                                     <Image width="1000" height="1000" src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/aampe-port.png" alt="portfolio8" />
 
                                 </div>
-                                <div class="content before:from-amber-900/70 before:to-amber-900/70">
-                                    <div class="contentInner">
-                                        <div class="title">Lorem Ipsum</div>
-                                        <div class="tagline font-semibold uppercase">WEBSITE | React | html5 | css3</div>
+                                <div className="content before:from-amber-900/70 before:to-amber-900/70">
+                                    <div className="contentInner">
+                                        <div className="title">Lorem Ipsum</div>
+                                        <div className="tagline font-semibold uppercase">WEBSITE | React | html5 | css3</div>
                                     </div>
                                 </div>
                             </div>
                         </a>
-                        <a href="javascript:;" target="_blank" class="swiper-slide block duration-300 md:hover:scale-95">
-                            <div class="swiperInner">
+                        <a href="javascript:;" target="_blank" className="swiper-slide block duration-300 md:hover:scale-95">
+                            <div className="swiperInner">
                                 <div>
                                     <Image width="1000" height="1000" src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/mploi-port.png" alt="portfolio9" />
 
                                 </div>
-                                <div class="content before:from-teal-500/70 before:to-teal-500/70">
-                                    <div class="contentInner">
-                                        <div class="title">Lorem Ipsum</div>
-                                        <div class="tagline font-semibold uppercase">WEBSITE | Laravel | PHP | Bootstrap</div>
+                                <div className="content before:from-teal-500/70 before:to-teal-500/70">
+                                    <div className="contentInner">
+                                        <div className="title">Lorem Ipsum</div>
+                                        <div className="tagline font-semibold uppercase">WEBSITE | Laravel | PHP | Bootstrap</div>
                                     </div>
                                 </div>
                             </div>

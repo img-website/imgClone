@@ -10,11 +10,11 @@ const Blog = () => {
     <section className="relative py-6 md:py-8 lg:py-16 text-white mt-12">
       <div className="mx-auto max-w-7xl lg:px-8 px-6">
         <div className="mx-auto px-4 sm:px-6 md:max-w-4xl md:px-4 lg:px-2 relative pb-5">
-          <p class="max-md:text-xl/tight max-xl:text-2xl/tight text-3xl/tight tracking-[-0.04em] text-black text-center">
-            <span class="font-normal block pb-3">
+          <p className="max-md:text-xl/tight max-xl:text-2xl/tight text-3xl/tight tracking-[-0.04em] text-black text-center">
+            <span className="font-normal block pb-3">
               Follow Our Blogs for the Latest Innovations and Industry Trends!
             </span>
-            <span class="font-bold text-theme1">
+            <span className="font-bold text-theme1">
               {" "}
               Discover our informative blogs to keep up with the latest
               innovations and trends. Stay updated, stay ahead.

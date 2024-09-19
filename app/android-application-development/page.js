@@ -13,36 +13,36 @@ function androidApplicationDevelopment() {
             <Header />
             {/* hero */}
             <div id="heroColor4" data-color="indigo">
-                <span class="hidden before:from-theme1 before:via-theme1/50 before:to-theme1/80 from-theme1 via-theme1/50 to-theme1/80  text-indigo-700">
-                    <span class="via-indigo-500 from-indigo-100 to-indigo-100 *:*:text-indigo-400"></span>
-                    <span class="bg-theme1/50 hover:bg-indigo-700"></span>
+                <span className="hidden before:from-theme1 before:via-theme1/50 before:to-theme1/80 from-theme1 via-theme1/50 to-theme1/80  text-indigo-700">
+                    <span className="via-indigo-500 from-indigo-100 to-indigo-100 *:*:text-indigo-400"></span>
+                    <span className="bg-theme1/50 hover:bg-indigo-700"></span>
                 </span>
-                <div class="flex w-full relative bg-slate-50  lg:h-dvh min-h-[650px]">
-                    <div class="size-full relative !z-10">
-                        <div class="colorApply1 flex size-full items-center rounded-b-2xl relative overflow-hidden shadow-lg before:absolute before:inset-0 before:bg-cover before:bg-right before:rounded-b-2xl before:bg-gradient-to-r before:mix-blend-multiply after:absolute after:rounded-b-2xl after:inset-0 after:bg-repeat   before:from-theme1 before:via-theme1/50 before:to-theme1/80">
-                            <span class="colorApply2 absolute inset-0 bg-cover bg-right opacity-50 rounded-b-2xl bg-gradient-to-r mix-blend-multiply  from-theme1 via-theme1/50 to-theme1/80"></span>
-                            <img class="size-full object-cover object-center absolute inset-0 -z-[1] rounded-b-2xl aspect-[1519/812]" width="1519" height="812" src="/img/ecommerce-hero.webp" alt="Transform Your Ideas into Reality with Our Mobile App Development Expertise.
+                <div className="flex w-full relative bg-slate-50  lg:h-dvh min-h-[650px]">
+                    <div className="size-full relative !z-10">
+                        <div className="colorApply1 flex size-full items-center rounded-b-2xl relative overflow-hidden shadow-lg before:absolute before:inset-0 before:bg-cover before:bg-right before:rounded-b-2xl before:bg-gradient-to-r before:mix-blend-multiply after:absolute after:rounded-b-2xl after:inset-0 after:bg-repeat   before:from-theme1 before:via-theme1/50 before:to-theme1/80">
+                            <span className="colorApply2 absolute inset-0 bg-cover bg-right opacity-50 rounded-b-2xl bg-gradient-to-r mix-blend-multiply  from-theme1 via-theme1/50 to-theme1/80"></span>
+                            <img className="size-full object-cover object-center absolute inset-0 -z-[1] rounded-b-2xl aspect-[1519/812]" width="1519" height="812" src="/img/ecommerce-hero.webp" alt="Transform Your Ideas into Reality with Our Mobile App Development Expertise.
 " />
 
-                            <div class="flex mx-auto max-lg:flex-col max-lg:gap-y-10 items-center 2xl:max-w-7xl xl:max-w-6xl lg:max-w-5xl md:max-w-3xl sm:max-w-3xl max-w-2xl px-6 lg:px-8 w-full relative lg:pt-40 sm:pt-32 pt-28 pb-12 overflow-hidden z-10 justify-between">
-                                <div class="xl:w-7/12 lg:w-1/2 grow-0 max-lg:text-center">
-                                    <div class="font-light text-white max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em]">
-                                        <span class="colorApply3 font-bold text-gray-100 block pb-1  via-indigo-500 from-indigo-100 to-indigo-100">Expert Android App Development Services
+                            <div className="flex mx-auto max-lg:flex-col max-lg:gap-y-10 items-center 2xl:max-w-7xl xl:max-w-6xl lg:max-w-5xl md:max-w-3xl sm:max-w-3xl max-w-2xl px-6 lg:px-8 w-full relative lg:pt-40 sm:pt-32 pt-28 pb-12 overflow-hidden z-10 justify-between">
+                                <div className="xl:w-7/12 lg:w-1/2 grow-0 max-lg:text-center">
+                                    <div className="font-light text-white max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em]">
+                                        <span className="colorApply3 font-bold text-gray-100 block pb-1  via-indigo-500 from-indigo-100 to-indigo-100">Expert Android App Development Services
                                         </span>
                                     </div>
-                                    <div class="max-lg:text-sm text-base text-white/80 pt-5 text-pretty w-10/12 max-lg:mx-auto">
+                                    <div className="max-lg:text-sm text-base text-white/80 pt-5 text-pretty w-10/12 max-lg:mx-auto">
                                         Boost your business with our all-encompassing mobile app development services. We excel in both native and cross-platform solutions, incorporating cutting-edge IoT, AR/VR, and AI technologies to deliver secure, feature-packed mobile applications.
                                     </div>
 
                                 </div>
-                                <div class="xl:w-1/3 lg:w-1/2 max-lg:mx-auto">
-                                    <div class="colorApply4 w-full px-5 md:py-10 py-8 md:rounded-2xl rounded-xl  shadow-xl bg-white backdrop-blur-lg relative gap-6 flex flex-col before:absolute before:inset-4 md:hover:before:inset-1 before:duration-200 before:ease-in before:bg-white/5 before:backdrop-blur-2xl before:rounded-xl before: before:z-0 before:m-auto *:w-full *:z-10 ">
+                                <div className="xl:w-1/3 lg:w-1/2 max-lg:mx-auto">
+                                    <div className="colorApply4 w-full px-5 md:py-10 py-8 md:rounded-2xl rounded-xl  shadow-xl bg-white backdrop-blur-lg relative gap-6 flex flex-col before:absolute before:inset-4 md:hover:before:inset-1 before:duration-200 before:ease-in before:bg-white/5 before:backdrop-blur-2xl before:rounded-xl before: before:z-0 before:m-auto *:w-full *:z-10 ">
                                         <div>
-                                            <div class="colorApply5 size-16 rounded-full mx-auto shadow-md shadow-white/5 bg-theme1  text-white">
-                                                <svg stroke="currentColor" fill="none" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true" class="size-full" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                                            <div className="colorApply5 size-16 rounded-full mx-auto shadow-md shadow-white/5 bg-theme1  text-white">
+                                                <svg stroke="currentColor" fill="none" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true" className="size-full" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
                                             </div>
                                         </div>
-                                        <div class="lg:text-xl md:text-lg text-base text-theme1 text-center text-balance font-semibold">Get Top-Notch, Innovative Mobile App Solutions from Us.
+                                        <div className="lg:text-xl md:text-lg text-base text-theme1 text-center text-balance font-semibold">Get Top-Notch, Innovative Mobile App Solutions from Us.
                                         </div>
                                         <div className=" flex justify-center w-full">
                                             <button className="px-4 text-sm text-[white] rounded-full bg-[#0E508A] inline-flex items-center gap-2 font-semibold py-3 border-[#0E508A] border-2 w-max hover:bg-[#0E508A]/80 duration-300">
@@ -53,7 +53,7 @@ function androidApplicationDevelopment() {
                                             </button>
                                         </div>
 
-                                        <div class="md:text-sm text-xs text-theme1 text-center text-balance">Complete the form below with your project specifications.</div>
+                                        <div className="md:text-sm text-xs text-theme1 text-center text-balance">Complete the form below with your project specifications.</div>
 
                                     </div>
                                 </div>
@@ -124,13 +124,13 @@ function androidApplicationDevelopment() {
 
             <Cta />
 
-            <div class="relative bg-gray-100 py-6 md:py-8 lg:py-16">
-                <div class="mx-auto max-w-7xl px-6 lg:px-8 w-full relative">
+            <div className="relative bg-gray-100 py-6 md:py-8 lg:py-16">
+                <div className="mx-auto max-w-7xl px-6 lg:px-8 w-full relative">
 
-                    <div class="mx-auto max-w-container gap-7 flex flex-col max-lg:gap-4 items-center">
+                    <div className="mx-auto max-w-container gap-7 flex flex-col max-lg:gap-4 items-center">
 
-                        <div class="w-full relative z-20 h-auto shrink-1 grow-0">
-                            <p class="
+                        <div className="w-full relative z-20 h-auto shrink-1 grow-0">
+                            <p className="
                     max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black text-balance text-center
 
                     first:*:font-normal
@@ -140,132 +140,132 @@ function androidApplicationDevelopment() {
                                 <span>Android App</span> <span> Development Services</span>
 
                             </p>
-                            <p class="md:text-base text-sm text-black/70 mt-3 text-balance text-center">Next-Gen Android App Development Beside Professional Excellence</p>
+                            <p className="md:text-base text-sm text-black/70 mt-3 text-balance text-center">Next-Gen Android App Development Beside Professional Excellence</p>
                         </div>
 
-                        <div class="w-full grid md:grid-cols-3 gap-8">
-                            <div class="border-2 p-5 group rounded-3xl border-black relative before:absolute before:size-24 before:border-t-[10px] before:border-l-[10px] before:rounded-tl-3xl before:border-sky-500 before:-inset-[5px] md:hover:shadow-xl md:hover:shadow-sky-700/40 duration-300">
-                                <div class="bg-white duration-300 p-2 shadow-xl shadow-black/20 md:group-hover:shadow-black/0 rounded-3xl h-full">
-                                    <div class="flex p-3 flex-col gap-3">
-                                        <div class="lg:text-6xl md:text-4xl text-3xl font-bold text-sky-500 *:size-full">
+                        <div className="w-full grid md:grid-cols-3 gap-8">
+                            <div className="border-2 p-5 group rounded-3xl border-black relative before:absolute before:size-24 before:border-t-[10px] before:border-l-[10px] before:rounded-tl-3xl before:border-sky-500 before:-inset-[5px] md:hover:shadow-xl md:hover:shadow-sky-700/40 duration-300">
+                                <div className="bg-white duration-300 p-2 shadow-xl shadow-black/20 md:group-hover:shadow-black/0 rounded-3xl h-full">
+                                    <div className="flex p-3 flex-col gap-3">
+                                        <div className="lg:text-6xl md:text-4xl text-3xl font-bold text-sky-500 *:size-full">
                                             01
                                         </div>
-                                        <div class="md:text-lg sm:text-base text-sm leading-6 font-bold">
+                                        <div className="md:text-lg sm:text-base text-sm leading-6 font-bold">
                                             Custom Enterprise Android App Solutions
                                         </div>
-                                        <div class="mt-2 sm:text-base text-sm leading-6">
+                                        <div className="mt-2 sm:text-base text-sm leading-6">
                                         Android offers organizations a secure and adaptable mobility platform, seamlessly integrating devices, applications, and management.
                                             </div>
                                     </div>
                                 </div>
-                                <div class="absolute flex justify-center items-end -left-[5px] top-20 w-[10px] h-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:-translate-x-1/2 before:translate-y-1/2 before:bottom-0 before:left-[calc(50%-1px)]"></div>
-                                <div class="absolute flex item-center-center justify-end left-20 -top-[5px] h-[10px] w-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:translate-x-1/2 before:-translate-y-1/2 before:top-[calc(50%-1px)] before:right-0"></div>
+                                <div className="absolute flex justify-center items-end -left-[5px] top-20 w-[10px] h-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:-translate-x-1/2 before:translate-y-1/2 before:bottom-0 before:left-[calc(50%-1px)]"></div>
+                                <div className="absolute flex item-center-center justify-end left-20 -top-[5px] h-[10px] w-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:translate-x-1/2 before:-translate-y-1/2 before:top-[calc(50%-1px)] before:right-0"></div>
                             </div>
-                            <div class="border-2 p-5 group rounded-3xl border-black relative before:absolute before:size-24 before:border-t-[10px] before:border-l-[10px] before:rounded-tl-3xl before:border-blue-500 before:-inset-[5px] md:hover:shadow-xl md:hover:shadow-blue-700/40 duration-300">
-                                <div class="bg-white duration-300 p-2 shadow-xl shadow-black/20 md:group-hover:shadow-black/0 rounded-3xl h-full">
-                                    <div class="flex p-3 flex-col gap-3">
-                                        <div class="lg:text-6xl md:text-4xl text-3xl font-bold text-blue-500 *:size-full">
+                            <div className="border-2 p-5 group rounded-3xl border-black relative before:absolute before:size-24 before:border-t-[10px] before:border-l-[10px] before:rounded-tl-3xl before:border-blue-500 before:-inset-[5px] md:hover:shadow-xl md:hover:shadow-blue-700/40 duration-300">
+                                <div className="bg-white duration-300 p-2 shadow-xl shadow-black/20 md:group-hover:shadow-black/0 rounded-3xl h-full">
+                                    <div className="flex p-3 flex-col gap-3">
+                                        <div className="lg:text-6xl md:text-4xl text-3xl font-bold text-blue-500 *:size-full">
                                             02
                                         </div>
-                                        <div class="md:text-lg sm:text-base text-sm leading-6 font-bold">
+                                        <div className="md:text-lg sm:text-base text-sm leading-6 font-bold">
                                             End-to-End Android App Development
                                         </div>
-                                        <div class="mt-2 sm:text-base text-sm leading-6">An Android activity goes through six major lifecycle stages or callbacks. These are: onCreate(), onStart(), onResume(), onPause(), onStop(), and onDestroy().</div>
+                                        <div className="mt-2 sm:text-base text-sm leading-6">An Android activity goes through six major lifecycle stages or callbacks. These are: onCreate(), onStart(), onResume(), onPause(), onStop(), and onDestroy().</div>
                                     </div>
                                 </div>
-                                <div class="absolute flex justify-center items-end -left-[5px] top-20 w-[10px] h-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:-translate-x-1/2 before:translate-y-1/2 before:bottom-0 before:left-[calc(50%-1px)]"></div>
-                                <div class="absolute flex item-center-center justify-end left-20 -top-[5px] h-[10px] w-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:translate-x-1/2 before:-translate-y-1/2 before:top-[calc(50%-1px)] before:right-0"></div>
+                                <div className="absolute flex justify-center items-end -left-[5px] top-20 w-[10px] h-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:-translate-x-1/2 before:translate-y-1/2 before:bottom-0 before:left-[calc(50%-1px)]"></div>
+                                <div className="absolute flex item-center-center justify-end left-20 -top-[5px] h-[10px] w-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:translate-x-1/2 before:-translate-y-1/2 before:top-[calc(50%-1px)] before:right-0"></div>
                             </div>
-                            <div class="border-2 p-5 group rounded-3xl border-black relative before:absolute before:size-24 before:border-t-[10px] before:border-l-[10px] before:rounded-tl-3xl before:border-indigo-500 before:-inset-[5px] md:hover:shadow-xl md:hover:shadow-indigo-700/40 duration-300">
-                                <div class="bg-white duration-300 p-2 shadow-xl shadow-black/20 md:group-hover:shadow-black/0 rounded-3xl h-full">
-                                    <div class="flex p-3 flex-col gap-3">
-                                        <div class="lg:text-6xl md:text-4xl text-3xl font-bold text-indigo-500 *:size-full">
+                            <div className="border-2 p-5 group rounded-3xl border-black relative before:absolute before:size-24 before:border-t-[10px] before:border-l-[10px] before:rounded-tl-3xl before:border-indigo-500 before:-inset-[5px] md:hover:shadow-xl md:hover:shadow-indigo-700/40 duration-300">
+                                <div className="bg-white duration-300 p-2 shadow-xl shadow-black/20 md:group-hover:shadow-black/0 rounded-3xl h-full">
+                                    <div className="flex p-3 flex-col gap-3">
+                                        <div className="lg:text-6xl md:text-4xl text-3xl font-bold text-indigo-500 *:size-full">
                                             03
                                         </div>
-                                        <div class="md:text-lg sm:text-base text-sm leading-6 font-bold">
+                                        <div className="md:text-lg sm:text-base text-sm leading-6 font-bold">
                                             Efficient Android App Transfer Solutions
                                         </div>
-                                        <div class="mt-2 sm:text-base text-sm leading-6">Install your app on your device or emulator, and run tests. Focus on system behavior changes, and work through all app flows.</div>
+                                        <div className="mt-2 sm:text-base text-sm leading-6">Install your app on your device or emulator, and run tests. Focus on system behavior changes, and work through all app flows.</div>
                                     </div>
                                 </div>
-                                <div class="absolute flex justify-center items-end -left-[5px] top-20 w-[10px] h-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:-translate-x-1/2 before:translate-y-1/2 before:bottom-0 before:left-[calc(50%-1px)]"></div>
-                                <div class="absolute flex item-center-center justify-end left-20 -top-[5px] h-[10px] w-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:translate-x-1/2 before:-translate-y-1/2 before:top-[calc(50%-1px)] before:right-0"></div>
+                                <div className="absolute flex justify-center items-end -left-[5px] top-20 w-[10px] h-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:-translate-x-1/2 before:translate-y-1/2 before:bottom-0 before:left-[calc(50%-1px)]"></div>
+                                <div className="absolute flex item-center-center justify-end left-20 -top-[5px] h-[10px] w-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:translate-x-1/2 before:-translate-y-1/2 before:top-[calc(50%-1px)] before:right-0"></div>
                             </div>
-                            <div class="border-2 p-5 group rounded-3xl border-black relative before:absolute before:size-24 before:border-t-[10px] before:border-l-[10px] before:rounded-tl-3xl before:border-violet-500 before:-inset-[5px] md:hover:shadow-xl md:hover:shadow-violet-700/40 duration-300">
-                                <div class="bg-white duration-300 p-2 shadow-xl shadow-black/20 md:group-hover:shadow-black/0 rounded-3xl h-full">
-                                    <div class="flex p-3 flex-col gap-3">
-                                        <div class="lg:text-6xl md:text-4xl text-3xl font-bold text-violet-500 *:size-full">
+                            <div className="border-2 p-5 group rounded-3xl border-black relative before:absolute before:size-24 before:border-t-[10px] before:border-l-[10px] before:rounded-tl-3xl before:border-violet-500 before:-inset-[5px] md:hover:shadow-xl md:hover:shadow-violet-700/40 duration-300">
+                                <div className="bg-white duration-300 p-2 shadow-xl shadow-black/20 md:group-hover:shadow-black/0 rounded-3xl h-full">
+                                    <div className="flex p-3 flex-col gap-3">
+                                        <div className="lg:text-6xl md:text-4xl text-3xl font-bold text-violet-500 *:size-full">
                                             04
                                         </div>
-                                        <div class="md:text-lg sm:text-base text-sm leading-6 font-bold">
+                                        <div className="md:text-lg sm:text-base text-sm leading-6 font-bold">
                                             Mobile App Testing Services
                                         </div>
-                                        <div class="mt-2 sm:text-base text-sm leading-6">Testing and quality assurance: Conducting thorough testing to identify and fix any bugs, glitches, or compatibility issues in the app</div>
+                                        <div className="mt-2 sm:text-base text-sm leading-6">Testing and quality assurance: Conducting thorough testing to identify and fix any bugs, glitches, or compatibility issues in the app</div>
                                     </div>
                                 </div>
-                                <div class="absolute flex justify-center items-end -left-[5px] top-20 w-[10px] h-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:-translate-x-1/2 before:translate-y-1/2 before:bottom-0 before:left-[calc(50%-1px)]"></div>
-                                <div class="absolute flex item-center-center justify-end left-20 -top-[5px] h-[10px] w-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:translate-x-1/2 before:-translate-y-1/2 before:top-[calc(50%-1px)] before:right-0"></div>
+                                <div className="absolute flex justify-center items-end -left-[5px] top-20 w-[10px] h-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:-translate-x-1/2 before:translate-y-1/2 before:bottom-0 before:left-[calc(50%-1px)]"></div>
+                                <div className="absolute flex item-center-center justify-end left-20 -top-[5px] h-[10px] w-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:translate-x-1/2 before:-translate-y-1/2 before:top-[calc(50%-1px)] before:right-0"></div>
                             </div>
-                            <div class="border-2 p-5 group rounded-3xl border-black relative before:absolute before:size-24 before:border-t-[10px] before:border-l-[10px] before:rounded-tl-3xl before:border-purple-500 before:-inset-[5px] md:hover:shadow-xl md:hover:shadow-purple-700/40 duration-300">
-                                <div class="bg-white duration-300 p-2 shadow-xl shadow-black/20 md:group-hover:shadow-black/0 rounded-3xl h-full">
-                                    <div class="flex p-3 flex-col gap-3">
-                                        <div class="lg:text-6xl md:text-4xl text-3xl font-bold text-purple-500 *:size-full">
+                            <div className="border-2 p-5 group rounded-3xl border-black relative before:absolute before:size-24 before:border-t-[10px] before:border-l-[10px] before:rounded-tl-3xl before:border-purple-500 before:-inset-[5px] md:hover:shadow-xl md:hover:shadow-purple-700/40 duration-300">
+                                <div className="bg-white duration-300 p-2 shadow-xl shadow-black/20 md:group-hover:shadow-black/0 rounded-3xl h-full">
+                                    <div className="flex p-3 flex-col gap-3">
+                                        <div className="lg:text-6xl md:text-4xl text-3xl font-bold text-purple-500 *:size-full">
                                             05
                                         </div>
-                                        <div class="md:text-lg sm:text-base text-sm leading-6 font-bold">
+                                        <div className="md:text-lg sm:text-base text-sm leading-6 font-bold">
                                             Comprehensive App Maintenance and Support
                                         </div>
-                                        <div class="mt-2 sm:text-base text-sm leading-6">Providing ongoing support and updates for the app, including bug fixes, feature enhancements, and compatibility updates with new Android versions.</div>
+                                        <div className="mt-2 sm:text-base text-sm leading-6">Providing ongoing support and updates for the app, including bug fixes, feature enhancements, and compatibility updates with new Android versions.</div>
                                     </div>
                                 </div>
-                                <div class="absolute flex justify-center items-end -left-[5px] top-20 w-[10px] h-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:-translate-x-1/2 before:translate-y-1/2 before:bottom-0 before:left-[calc(50%-1px)]"></div>
-                                <div class="absolute flex item-center-center justify-end left-20 -top-[5px] h-[10px] w-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:translate-x-1/2 before:-translate-y-1/2 before:top-[calc(50%-1px)] before:right-0"></div>
+                                <div className="absolute flex justify-center items-end -left-[5px] top-20 w-[10px] h-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:-translate-x-1/2 before:translate-y-1/2 before:bottom-0 before:left-[calc(50%-1px)]"></div>
+                                <div className="absolute flex item-center-center justify-end left-20 -top-[5px] h-[10px] w-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:translate-x-1/2 before:-translate-y-1/2 before:top-[calc(50%-1px)] before:right-0"></div>
                             </div>
-                            <div class="border-2 p-5 group rounded-3xl border-black relative before:absolute before:size-24 before:border-t-[10px] before:border-l-[10px] before:rounded-tl-3xl before:border-fuchsia-500 before:-inset-[5px] md:hover:shadow-xl md:hover:shadow-fuchsia-700/40 duration-300">
-                                <div class="bg-white duration-300 p-2 shadow-xl shadow-black/20 md:group-hover:shadow-black/0 rounded-3xl h-full">
-                                    <div class="flex p-3 flex-col gap-3">
-                                        <div class="lg:text-6xl md:text-4xl text-3xl font-bold text-fuchsia-500 *:size-full">
+                            <div className="border-2 p-5 group rounded-3xl border-black relative before:absolute before:size-24 before:border-t-[10px] before:border-l-[10px] before:rounded-tl-3xl before:border-fuchsia-500 before:-inset-[5px] md:hover:shadow-xl md:hover:shadow-fuchsia-700/40 duration-300">
+                                <div className="bg-white duration-300 p-2 shadow-xl shadow-black/20 md:group-hover:shadow-black/0 rounded-3xl h-full">
+                                    <div className="flex p-3 flex-col gap-3">
+                                        <div className="lg:text-6xl md:text-4xl text-3xl font-bold text-fuchsia-500 *:size-full">
                                             06
                                         </div>
-                                        <div class="md:text-lg sm:text-base text-sm leading-6 font-bold">
+                                        <div className="md:text-lg sm:text-base text-sm leading-6 font-bold">
                                             App User Experience and Interface Design
 
                                         </div>
-                                        <div class="mt-2 sm:text-base text-sm leading-6">Creating visually appealing and user-friendly interfaces for the app, ensuring a smooth and intuitive user experience.</div>
+                                        <div className="mt-2 sm:text-base text-sm leading-6">Creating visually appealing and user-friendly interfaces for the app, ensuring a smooth and intuitive user experience.</div>
                                     </div>
                                 </div>
-                                <div class="absolute flex justify-center items-end -left-[5px] top-20 w-[10px] h-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:-translate-x-1/2 before:translate-y-1/2 before:bottom-0 before:left-[calc(50%-1px)]"></div>
-                                <div class="absolute flex item-center-center justify-end left-20 -top-[5px] h-[10px] w-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:translate-x-1/2 before:-translate-y-1/2 before:top-[calc(50%-1px)] before:right-0"></div>
+                                <div className="absolute flex justify-center items-end -left-[5px] top-20 w-[10px] h-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:-translate-x-1/2 before:translate-y-1/2 before:bottom-0 before:left-[calc(50%-1px)]"></div>
+                                <div className="absolute flex item-center-center justify-end left-20 -top-[5px] h-[10px] w-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:translate-x-1/2 before:-translate-y-1/2 before:top-[calc(50%-1px)] before:right-0"></div>
                             </div>
-                            <div class="border-2 p-5 group rounded-3xl border-black relative before:absolute before:size-24 before:border-t-[10px] before:border-l-[10px] before:rounded-tl-3xl before:border-pink-500 before:-inset-[5px] md:hover:shadow-xl md:hover:shadow-pink-700/40 duration-300">
-                                <div class="bg-white duration-300 p-2 shadow-xl shadow-black/20 md:group-hover:shadow-black/0 rounded-3xl h-full">
-                                    <div class="flex p-3 flex-col gap-3">
-                                        <div class="lg:text-6xl md:text-4xl text-3xl font-bold text-pink-500 *:size-full">
+                            <div className="border-2 p-5 group rounded-3xl border-black relative before:absolute before:size-24 before:border-t-[10px] before:border-l-[10px] before:rounded-tl-3xl before:border-pink-500 before:-inset-[5px] md:hover:shadow-xl md:hover:shadow-pink-700/40 duration-300">
+                                <div className="bg-white duration-300 p-2 shadow-xl shadow-black/20 md:group-hover:shadow-black/0 rounded-3xl h-full">
+                                    <div className="flex p-3 flex-col gap-3">
+                                        <div className="lg:text-6xl md:text-4xl text-3xl font-bold text-pink-500 *:size-full">
                                             07
                                         </div>
-                                        <div class="md:text-lg sm:text-base text-sm leading-6 font-bold">
+                                        <div className="md:text-lg sm:text-base text-sm leading-6 font-bold">
                                             API Integration Services for Android Apps
                                         </div>
-                                        <div class="mt-2 sm:text-base text-sm leading-6">Creating server-side infrastructure, APIs, and databases to support the app's functionality, if required.</div>
+                                        <div className="mt-2 sm:text-base text-sm leading-6">Creating server-side infrastructure, APIs, and databases to support the app's functionality, if required.</div>
                                     </div>
                                 </div>
-                                <div class="absolute flex justify-center items-end -left-[5px] top-20 w-[10px] h-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:-translate-x-1/2 before:translate-y-1/2 before:bottom-0 before:left-[calc(50%-1px)]"></div>
-                                <div class="absolute flex item-center-center justify-end left-20 -top-[5px] h-[10px] w-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:translate-x-1/2 before:-translate-y-1/2 before:top-[calc(50%-1px)] before:right-0"></div>
+                                <div className="absolute flex justify-center items-end -left-[5px] top-20 w-[10px] h-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:-translate-x-1/2 before:translate-y-1/2 before:bottom-0 before:left-[calc(50%-1px)]"></div>
+                                <div className="absolute flex item-center-center justify-end left-20 -top-[5px] h-[10px] w-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:translate-x-1/2 before:-translate-y-1/2 before:top-[calc(50%-1px)] before:right-0"></div>
                             </div>
-                            <div class="border-2 p-5 group rounded-3xl border-black relative before:absolute before:size-24 before:border-t-[10px] before:border-l-[10px] before:rounded-tl-3xl before:border-rose-500 before:-inset-[5px] md:hover:shadow-xl md:hover:shadow-rose-700/40 duration-300">
-                                <div class="bg-white duration-300 p-2 shadow-xl shadow-black/20 md:group-hover:shadow-black/0 rounded-3xl h-full">
-                                    <div class="flex p-3 flex-col gap-3">
-                                        <div class="lg:text-6xl md:text-4xl text-3xl font-bold text-rose-500 *:size-full">
+                            <div className="border-2 p-5 group rounded-3xl border-black relative before:absolute before:size-24 before:border-t-[10px] before:border-l-[10px] before:rounded-tl-3xl before:border-rose-500 before:-inset-[5px] md:hover:shadow-xl md:hover:shadow-rose-700/40 duration-300">
+                                <div className="bg-white duration-300 p-2 shadow-xl shadow-black/20 md:group-hover:shadow-black/0 rounded-3xl h-full">
+                                    <div className="flex p-3 flex-col gap-3">
+                                        <div className="lg:text-6xl md:text-4xl text-3xl font-bold text-rose-500 *:size-full">
                                             08
                                         </div>
-                                        <div class="md:text-lg sm:text-base text-sm leading-6 font-bold">
+                                        <div className="md:text-lg sm:text-base text-sm leading-6 font-bold">
                                             M-Commerce App Development for Android
                                         </div>
-                                        <div class="mt-2 sm:text-base text-sm leading-6">Mobile commerce include mobile banking, in-app purchasing, digital marketplaces, and digital wallets</div>
+                                        <div className="mt-2 sm:text-base text-sm leading-6">Mobile commerce include mobile banking, in-app purchasing, digital marketplaces, and digital wallets</div>
                                     </div>
                                 </div>
-                                <div class="absolute flex justify-center items-end -left-[5px] top-20 w-[10px] h-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:-translate-x-1/2 before:translate-y-1/2 before:bottom-0 before:left-[calc(50%-1px)]"></div>
-                                <div class="absolute flex item-center-center justify-end left-20 -top-[5px] h-[10px] w-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:translate-x-1/2 before:-translate-y-1/2 before:top-[calc(50%-1px)] before:right-0"></div>
+                                <div className="absolute flex justify-center items-end -left-[5px] top-20 w-[10px] h-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:-translate-x-1/2 before:translate-y-1/2 before:bottom-0 before:left-[calc(50%-1px)]"></div>
+                                <div className="absolute flex item-center-center justify-end left-20 -top-[5px] h-[10px] w-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:translate-x-1/2 before:-translate-y-1/2 before:top-[calc(50%-1px)] before:right-0"></div>
                             </div>
                         </div>
                     </div>

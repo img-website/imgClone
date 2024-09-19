@@ -1300,7 +1300,7 @@ const Header = () => {
       <div className="fixed flex flex-col h-screen inset-y-0 right-0 z-[1011] w-full overflow-y-auto bg-gradient-to-b from-gray-950 to-sky-950  text-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 peer-checked/sideToggle:translate-x-0 peer-checked/sideToggle:opacity-100 translate-x-full opacity-0 duration-300">
         <div className="flex items-center justify-between">
           <a href=".com/" className="-ml-1.5">
-            <img
+            <Image
               className="h-7 w-auto"
               width="1000"
               height="1000"
