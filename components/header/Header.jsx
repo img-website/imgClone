@@ -1,5 +1,11 @@
 "use client";
 import React, { useEffect, useState } from "react";
+import Image from 'next/image';
+import Link from "next/link";
+
+
+
+
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -22,19 +28,21 @@ const Header = () => {
   }, []);
   return (
     <>
-      <header className={`absolute ${isScrolled ? 'group/nav' : 'bg-theme1 fixed'} top-0 left-0 right-0 z-[1010] bg-theme1  text-white fixed group-[]/ns:animate-fixed-nav group-[]/ns:from-slate-950 group-[]/ns:to-theme1 group-[]/ons:from-theme1 group-[]/ons:to-theme1 group-[]/ons:rounded-b-2xl`}>
+      <header className={`absolute ${isScrolled ? 'group/nav' : 'bg-transparent'} top-0 left-0 right-0 z-[1010] group-[]/ns:fixed group-[]/ns:animate-fixed-nav bg-theme1 text-white  group-[]/ns:animate-fixed-nav group-[]/ns:from-slate-950 group-[]/ns:to-theme1 group-[]/ons:from-theme1 group-[]/ons:to-theme1 group-[]/ons:rounded-b-2xl`}>
         <nav
           className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
           aria-label="Global"
         >
           <div className="flex lg:flex-1">
-            <a href=".com/" className="pointer-events-none -m-1.5 p-1.5">
-              <img
+            <a href="/" className="pointer-events-none -m-1.5 p-1.5">
+              <Image
                 className="h-8 md:h-12 w-auto"
-                width="174"
-                height="48"
-                src="	https://www.twinpowerus.com/public/frontend/img/logo.png"
+                width="1000"
+                height="1000"
+                src="/img/logo.png"
                 alt="Twin Power Logo"
+                quality="90"
+                priority="true"
               />
             </a>
           </div>
@@ -106,22 +114,21 @@ const Header = () => {
             </div>
             <div className="flex gap-5 items-center">
               <div className="hidden lg:flex lg:gap-x-6 ml-auto mr-0">
-                <button
-                  type="button"
-                  className={`flex items-center gap-x-[2px] text-xs font-semibold leading-6 text-gray-50 hover:text-gray-300 duration-200 uppercase group-hover/dd:before:absolute group-hover/dd:before:-bottom-[34px] group-hover/dd:before:left-0 group-hover/dd:before:h-10 group-hover/dd:before:w-full group-hover/dd:before:z-[1] ${isScrolled ? 'group/nav' : 'text-white'}`}
+                <Link href="/"
+                  className={`flex items-center gap-x-[2px] text-xs font-semibold leading-6 text-gray-50 hover:text-gray-300 duration-200 uppercase group-hover/dd:before:absolute group-hover/dd:before:-bottom-[34px] group-hover/dd:before:left-0 group-hover/dd:before:h-10 group-hover/dd:before:w-full group-hover/dd:before:z-[1] `}
                   aria-expanded="false"
                 >
                   Home
-                </button>
+                </Link>
                 <div className="relative group/dd">
                   <button
                     type="button"
-                    className={`flex items-center gap-x-[2px] text-xs font-semibold leading-6 text-gray-50 hover:text-gray-300 duration-200 uppercase group-hover/dd:before:absolute group-hover/dd:before:-bottom-[34px] group-hover/dd:before:left-0 group-hover/dd:before:h-10 group-hover/dd:before:w-full group-hover/dd:before:z-[1] ${isScrolled ? 'group/nav' : 'text-white'}` }
+                    className={`flex items-center gap-x-[2px] text-xs font-semibold leading-6 text-gray-50 hover:text-gray-300 duration-200 uppercase group-hover/dd:before:absolute group-hover/dd:before:-bottom-[34px] group-hover/dd:before:left-0 group-hover/dd:before:h-10 group-hover/dd:before:w-full group-hover/dd:before:z-[1] ` }
                     aria-expanded="false"
                   >
                     Company
                     <svg
-                      className={`${isScrolled ? 'group/nav' : 'text-white'} h-5 w-5 flex-none transition-transform duration-500 group-hover/dd:[transform:rotateX(180deg)] text-gray-400`}
+                      className={` h-5 w-5 flex-none transition-transform duration-500 group-hover/dd:[transform:rotateX(180deg)] text-white`}
                       viewBox="0 0 20 20"
                       fill="currentColor"
                       aria-hidden="true"
@@ -159,13 +166,13 @@ const Header = () => {
                             </svg>
                           </div>
                           <div className="flex-auto">
-                            <a
-                              href=".com/about-us.php"
-                              className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 uppercase hoverLink text-slate-900"
+                            <Link
+                              href="/about-us"
+                              className="block font-semibold opacity-80 hover:opacity-90 duration-200 uppercase hoverLink text-slate-900"
                             >
                               About Us
                               <span className="absolute inset-0 z-[1]"></span>
-                            </a>
+                            </Link>
                             {/* <p className="xl:mt-1 opacity-60 relative z-0">Your IT Partner for Tomorrow's Solutions</p> */}
                           </div>
                         </div>
@@ -185,13 +192,13 @@ const Header = () => {
                             </svg>
                           </div>
                           <div className="flex-auto">
-                            <a
-                              href=".com/testimonials.php"
+                            <Link
+                              href="/testimonial"
                               className="pointer-events-none block font-semibold opacity-80 hover:opacity-90 duration-200 uppercase hoverLink text-slate-900"
                             >
                               Testimonials
                               <span className="absolute inset-0 z-[1]"></span>
-                            </a>
+                            </Link>
                             {/* <p className="xl:mt-1 opacity-60 relative z-0">Hear What Our Clients Have to Say</p> */}
                           </div>
                         </div>
@@ -240,12 +247,12 @@ const Header = () => {
                 <div className="group/dd">
                   <button
                     type="button"
-                    className={`flex items-center gap-x-[2px] text-xs font-semibold leading-6 text-gray-50 hover:text-gray-300 duration-200 uppercase group-hover/dd:before:absolute group-hover/dd:before:-bottom-0 group-hover/dd:before:left-0 group-hover/dd:before:h-10 group-hover/dd:before:w-full group-hover/dd:before:z-[1] ${isScrolled ? 'group/nav' : 'text-white'}`}
+                    className={`flex items-center gap-x-[2px] text-xs font-semibold leading-6 text-gray-50 hover:text-gray-300 duration-200 uppercase group-hover/dd:before:absolute group-hover/dd:before:-bottom-0 group-hover/dd:before:left-0 group-hover/dd:before:h-10 group-hover/dd:before:w-full group-hover/dd:before:z-[1] `}
                     aria-expanded="false"
                   >
                     Services
                     <svg
-                      className={`${isScrolled ? 'group/nav' : 'text-white'} h-5 w-5 flex-none transition-transform duration-500 group-hover/dd:[transform:rotateX(180deg)] text-gray-400`}
+                      className={` h-5 w-5 flex-none transition-transform duration-500 group-hover/dd:[transform:rotateX(180deg)] text-white`}
                       viewBox="0 0 20 20"
                       fill="currentColor"
                       aria-hidden="true"
@@ -681,7 +688,7 @@ const Header = () => {
                 {/* <div className="group/dd">
               <button type="button" className="flex items-center gap-x-[2px] text-xs font-semibold leading-6 text-gray-50 hover:text-gray-300 duration-200 uppercase group-hover/dd:before:absolute group-hover/dd:before:-bottom-0 group-hover/dd:before:left-0 group-hover/dd:before:h-10 group-hover/dd:before:w-full group-hover/dd:before:z-[1]" aria-expanded="false">
                 Trending Solutions
-                <svg className={`${isScrolled ? 'group/nav' : 'text-white'} h-5 w-5 flex-none transition-transform duration-500 group-hover/dd:[transform:rotateX(180deg)] text-gray-400`} viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <svg className={` h-5 w-5 flex-none transition-transform duration-500 group-hover/dd:[transform:rotateX(180deg)] text-gray-400`} viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                   <path fillRule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clipRule="evenodd"></path>
                 </svg>
               </button>
@@ -1032,7 +1039,7 @@ const Header = () => {
                 {/* <div className="group/dd">
               <button type="button" className="flex items-center gap-x-[2px] text-xs font-semibold leading-6 text-gray-50 hover:text-gray-300 duration-200 uppercase group-hover/dd:before:absolute group-hover/dd:before:-bottom-0 group-hover/dd:before:left-0 group-hover/dd:before:h-10 group-hover/dd:before:w-full group-hover/dd:before:z-[1]" aria-expanded="false">
                 Hire  <span className="max-xl:hidden">&nbsp;Developers</span>
-                <svg className={`${isScrolled ? 'group/nav' : 'text-white'} h-5 w-5 flex-none transition-transform duration-500 group-hover/dd:[transform:rotateX(180deg)] text-gray-400`} viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <svg className={` h-5 w-5 flex-none transition-transform duration-500 group-hover/dd:[transform:rotateX(180deg)] text-gray-400`} viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                   <path fillRule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clipRule="evenodd"></path>
                 </svg>
               </button>
@@ -1245,19 +1252,19 @@ const Header = () => {
 
                 <a
                   href=".com/portfolio.php"
-                  className={`pointer-events-none text-xs font-semibold leading-6 text-gray-50 hover:text-gray-300 duration-200 uppercase ${isScrolled ? 'group/nav' : 'text-white'}`}
+                  className={`pointer-events-none text-xs font-semibold leading-6 text-gray-50 hover:text-gray-300 duration-200 uppercase `}
                 >
                   Work
                 </a>
                 <a
                   href=".com/contact-us.php"
-                  className={`pointer-events-none text-xs font-semibold leading-6 text-gray-50 hover:text-gray-300 duration-200 uppercase ${isScrolled ? 'group/nav' : 'text-white'}`}
+                  className={`pointer-events-none text-xs font-semibold leading-6 text-gray-50 hover:text-gray-300 duration-200 uppercase `}
                 >
                   Contact Us
                 </a>
               </div>
               <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-                <button className="px-4 rounded-full text-sm text-white flex items-center gap-2 font-semibold py-3 border-white border-2 w-max mx-auto before:-z-10 relative before:absolute before:w-full before:h-0 before:left-0 before:top-1/2 before:bg-theme1 before:md:hover:h-full before:duration-300 md:hover:text-white duration-300 before:md:hover:top-0">
+                <button className="px-4 rounded-full text-sm text-white flex items-center gap-2 font-semibold py-3 border-white border-2 w-max mx-auto before:-z-10 relative before:absolute before:w-full before:h-0 before:left-0 before:top-1/2 before:bg-theme1 before:rounded-full before:md:hover:h-full before:duration-300 md:hover:text-white duration-300 before:md:hover:top-0">
                   <span>Ask for a Quote</span>
                   <span>
                     <svg
@@ -1295,9 +1302,9 @@ const Header = () => {
           <a href=".com/" className="pointer-events-none -ml-1.5">
             <img
               className="h-7 w-auto"
-              width="174"
-              height="48"
-              src="https://www.twinpowerus.com/public/frontend/img/logo.png"
+              width="1000"
+              height="1000"
+              src="/img/logo.png"
               alt="Twin Power Logo "
             />
           </a>
@@ -1328,6 +1335,12 @@ const Header = () => {
             <div className="space-y-2 py-6">
               <div className="flex flex-col gap-5 items-center">
                 <div className="flex flex-col w-full gap-y-5">
+                <Link
+                    href="/"
+                    className="pointer-events-none text-sm font-bold text-gray-50"
+                  >
+                    Home
+                  </Link>
                   <div className="relative flex flex-col gap-y-3">
                     <input
                       className="peer/mm hidden"
@@ -1379,13 +1392,13 @@ const Header = () => {
                               </svg>
                             </div>
                             <div className="flex-auto">
-                              <a
-                                href=".com/about-us.php"
+                              <Link
+                                href="/about-us"
                                 className="pointer-events-none block font-semibold opacity-80"
                               >
                                 About Us
                                 <span className="absolute inset-0 z-[1]"></span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                           <div>
@@ -1405,7 +1418,7 @@ const Header = () => {
                             </div>
                             <div className="flex-auto">
                               <a
-                                href=".com/testimonials.php"
+                                href="/testimonial"
                                 className="pointer-events-none block font-semibold opacity-80"
                               >
                                 Testimonials
@@ -1440,7 +1453,7 @@ const Header = () => {
                               </a>
                             </div>
                           </div>
-                          <div>
+                          {/* <div>
                             <div className="flex h-4 w-4 flex-none">
                               <svg
                                 className="h-3 w-3 opacity-90"
@@ -1462,8 +1475,8 @@ const Header = () => {
                                 <span className="absolute inset-0 z-[1]"></span>
                               </a>
                             </div>
-                          </div>
-                          <div>
+                          </div> */}
+                          {/* <div>
                             <div className="flex h-4 w-4 flex-none">
                               <svg
                                 className="h-3 w-3 opacity-90"
@@ -1496,7 +1509,7 @@ const Header = () => {
                                 <span className="absolute inset-0 z-[1]"></span>
                               </a>
                             </div>
-                          </div>
+                          </div> */}
                         </div>
                       </div>
                     </div>
@@ -2465,7 +2478,7 @@ const Header = () => {
                   </div>
                 </div>
               </div> */}
-                  <div className="relative flex flex-col gap-y-3">
+                  {/* <div className="relative flex flex-col gap-y-3">
                     <input
                       className="peer/mm hidden"
                       type="checkbox"
@@ -2910,7 +2923,7 @@ const Header = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
 
                   <a
                     href=".com/portfolio.php"

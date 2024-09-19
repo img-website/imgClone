@@ -18,7 +18,7 @@ function Cta() {
             <h2 className="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">Transform your business vision into reality with our tailored services.</h2>
             <p className="mt-4 text-base text-gray-200">Ready to experience top-tier mobile app quality? Send us your inquiry, and one of our representatives will promptly connect with you via Call, Email, or Skype.</p>
 
-            <div className="md:mt-10 mt-5 gap-x-6 empty:hidden">
+                              <div className="md:mt-10 mt-5 gap-x-6 empty:hidden">
                                 <button className="px-4 text-sm text-[white] rounded-full bg-[#0E508A] inline-flex items-center gap-2 font-semibold py-3 border-[#0E508A] border-2 w-max hover:bg-[#0E508A]/80 duration-300">
                                         <span>Schedule a consultation</span>
                                         <span>

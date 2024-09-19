@@ -1,8 +1,8 @@
 import React from "react";
-import Form from "@/components/contactForm/Form";
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
 import Image from "next/image";
+import Blog from "@/components/blog/Blog";
 
 
 
@@ -10,23 +10,24 @@ function portfolio() {
     return (
         <>
             <Header />
-         
-            <div className="flex w-full relative bg-slate-50 select-none lg:h-dvh lg:min-h-[650px]">
-    <div className="size-full relative !z-10">
-        <div className="flex size-full items-center rounded-b-2xl relative overflow-hidden shadow-lg before:absolute before:inset-0 before:bg-cover before:bg-right before:rounded-b-2xl before:bg-gradient-to-r before:mix-blend-multiply  shadow-theme1 before:from-theme1/30 before:via-theme1/30 before:to-theme1/40">
-            <span className="absolute inset-0 bg-cover bg-right opacity-80 rounded-b-2xl bg-theme1/30"></span>
-            
-            <Image className="size-full object-cover object-center absolute inset-0 -z-[1] rounded-b-2xl aspect-[1920/1200]" width="1920" height="1200" src="https://img.freepik.com/free-photo/people-with-laptops-office_23-2147656717.jpg?t=st=1726721353~exp=1726724953~hmac=555a08cf6c9fe54c779974c3b93390f700cb8a39ab03adcabf836d5d098c258b&w=740" loading="lazy" quality={90} sizes="100vw" alt="about img"/>
-            
-            <div className="flex mx-auto max-lg:flex-col max-lg:gap-y-10 items-center 2xl:max-w-7xl xl:max-w-6xl lg:max-w-5xl md:max-w-3xl sm:max-w-3xl max-w-2xl px-6 lg:px-8 w-full relative lg:pt-40 sm:pt-32 pt-28 pb-12 overflow-hidden z-10 justify-center">
-                <div className="xl:w-7/12 lg:w-1/2 grow-0 text-center">
-                    <div className="font-light text-white max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em]">
-                        <span className="font-bold text-gray-100 block pb-1 shadow-theme1 via-indigo-500 from-indigo-100 to-indigo-100 text-balance">"Discover Our Portfolio and Elevate Your Vision.
-                        Preview our finest work and expect excellence." </span>
-                    </div>
-                    <div className="max-lg:text-sm text-base text-white/80 pt-5 text-pretty w-10/12 mx-auto"></div>
-                    
-                   {/* <div className="w-full flex flex-wrap items-center justify-center lg:gap-4 py-8">
+
+
+            <div className="flex w-full relative bg-slate-50 lg:h-dvh lg:min-h-[650px]">
+                <div className="size-full relative !z-10">
+                    <div className="flex size-full items-center rounded-b-2xl relative overflow-hidden shadow-lg before:absolute before:inset-0 before:bg-cover before:bg-right before:rounded-b-2xl before:bg-gradient-to-r before:mix-blend-multiply  shadow-theme1 before:from-theme1/30 before:via-theme1/30 before:to-theme1/40">
+                        <span className="absolute inset-0 bg-cover bg-right opacity-80 rounded-b-2xl bg-theme1/30"></span>
+
+                        <Image className="size-full object-cover object-center absolute inset-0 -z-[1] rounded-b-2xl aspect-[1920/1200]" width="1920" height="1200" src="https://img.freepik.com/free-photo/people-with-laptops-office_23-2147656717.jpg?t=st=1726721353~exp=1726724953~hmac=555a08cf6c9fe54c779974c3b93390f700cb8a39ab03adcabf836d5d098c258b&w=740" loading="lazy" quality={90} sizes="100vw" alt="about img" />
+
+                        <div className="flex mx-auto max-lg:flex-col max-lg:gap-y-10 items-center 2xl:max-w-7xl xl:max-w-6xl lg:max-w-5xl md:max-w-3xl sm:max-w-3xl max-w-2xl px-6 lg:px-8 w-full relative lg:pt-40 sm:pt-32 pt-28 pb-12 overflow-hidden z-10 justify-center">
+                            <div className="xl:w-7/12 lg:w-1/2 grow-0 text-center">
+                                <div className="font-light text-white max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em]">
+                                    <span className="font-bold text-gray-100 block pb-1 shadow-theme1 via-indigo-500 from-indigo-100 to-indigo-100 text-balance">Discover Our Portfolio and Elevate Your Vision
+                                        Preview our finest work and expect excellence </span>
+                                </div>
+                                <div className="max-lg:text-sm text-base text-white/80 pt-5 text-pretty w-10/12 mx-auto"></div>
+
+                                {/* <div className="w-full flex flex-wrap items-center justify-center lg:gap-4 py-8">
     <a target="_blank" title="Facebook" href="https://www.facebook.com/imgglobalinfotech" className="inline-flex group/social justify-center items-center bg-white mx-[10px] text-center relative overflow-hidden rounded-xl lg:rounded-2xl shadow-xl shadow-white/20 border-[3px] border-white duration-300 w-10 md:w-14 h-10 md:h-14 text-base before:bg-blue-900 before:w-[136%] before:h-[133%] before:absolute before:[transform:rotate(45deg)] before:top-[90%] before:-left-[110%] before:duration-300 text-blue-900 p-2 lg:p-3 hover:before:-top-[16%] hover:before:-left-[16%] before:ease-[cubic-bezier(0.31,-0.105,0.43,1.59)]">
         <svg className="size-full group-hover/social:text-white group-hover/social:scale-100 scale-95 duration-300" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg>
     </a>
@@ -43,28 +44,28 @@ function portfolio() {
         <svg className="size-full group-hover/social:text-white group-hover/social:scale-100 scale-95 duration-300" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M444.17 32H70.28C49.85 32 32 46.7 32 66.89v374.72C32 461.91 49.85 480 70.28 480h373.78c20.54 0 35.94-18.21 35.94-38.39V66.89C480.12 46.7 464.6 32 444.17 32zm-273.3 373.43h-64.18V205.88h64.18zM141 175.54h-.46c-20.54 0-33.84-15.29-33.84-34.43 0-19.49 13.65-34.42 34.65-34.42s33.85 14.82 34.31 34.42c-.01 19.14-13.31 34.43-34.66 34.43zm264.43 229.89h-64.18V296.32c0-26.14-9.34-44-32.56-44-17.74 0-28.24 12-32.91 23.69-1.75 4.2-2.22 9.92-2.22 15.76v113.66h-64.18V205.88h64.18v27.77c9.34-13.3 23.93-32.44 57.88-32.44 42.13 0 74 27.77 74 87.64z"></path></svg>
     </a>
 </div> */}
-                    <div className="mt-10 flex gap-4 justify-center">
-                        <a href="javascript:;" className="inline-flex justify-center rounded-full max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-gray-200 bg-theme1 text-white hover:bg-theme1/90">
-                            <span>
-                                <span className="inline-flex items-center gap-1">
-                                    <span>
-                                        See All Portfolio
-                                    </span>
-                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" className="size-5" xmlns="http://www.w3.org/2000/svg"><path d="M294.1 256L167 129c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.3 34 0L345 239c9.1 9.1 9.3 23.7.7 33.1L201.1 417c-4.7 4.7-10.9 7-17 7s-12.3-2.3-17-7c-9.4-9.4-9.4-24.6 0-33.9l127-127.1z"></path></svg>
-                                </span>
-                            </span>
-                        </a>
+                                <div className="mt-10 flex gap-4 justify-center">
+                                    <a href="javascript:;" className="inline-flex justify-center rounded-full max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-gray-200 bg-theme1 text-white hover:bg-theme1/90">
+                                        <span>
+                                            <span className="inline-flex items-center gap-1">
+                                                <span>
+                                                    See All Portfolio
+                                                </span>
+                                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" className="size-5" xmlns="http://www.w3.org/2000/svg"><path d="M294.1 256L167 129c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.3 34 0L345 239c9.1 9.1 9.3 23.7.7 33.1L201.1 417c-4.7 4.7-10.9 7-17 7s-12.3-2.3-17-7c-9.4-9.4-9.4-24.6 0-33.9l127-127.1z"></path></svg>
+                                            </span>
+                                        </span>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
-                    
                 </div>
             </div>
-        </div>
-    </div>
-</div>
 
-<div class="relative bg-gray-100 py-6 md:py-8 lg:py-16 select-none text-white">
-    <div class="portfolioSwiper mx-auto max-w-7xl mb-24 last:mb-10 px-6 lg:px-8 w-full">
-        <div class="
+            <div class="relative bg-gray-100 py-6 md:py-8 lg:py-16 text-white">
+                <div class="portfolioSwiper mx-auto max-w-7xl mb-24 last:mb-10 px-6 lg:px-8 w-full">
+                    <div class="
             items-center py-5 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5
 
             [&amp;_.swiper-slide]:rounded-2xl [&amp;_.swiper-slide]:overflow-hidden
@@ -81,152 +82,154 @@ function portfolio() {
 
             [&amp;_.tagline]:mt-1 [&amp;_.tagline]:text-xs [&amp;_.tagline]:md:text-sm [&amp;_.tagline]:opacity-80
             ">
-           
-            <a href="javascript:;" target="_blank" class="swiper-slide block duration-300 md:hover:scale-95">
-                <div class="swiperInner">
-                    <div>
-                        <Image width="1000" height="1000" src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/kari-port.png"
-                         alt="portfolio1"/>
 
-                    </div>
-                    <div class="content before:from-green-900/70 before:to-green-900/70">
-                        <div class="contentInner">
-                            <div class="title">Lorem Ipsum</div>
-                            <div class="tagline font-semibold uppercase">Android</div>
-                        </div>
+                        <a href="javascript:;" target="_blank" class="swiper-slide block duration-300 md:hover:scale-95">
+                            <div class="swiperInner">
+                                <div>
+                                    <Image width="1000" height="1000" src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/kari-port.png"
+                                        alt="portfolio1" />
+
+                                </div>
+                                <div class="content before:from-green-900/70 before:to-green-900/70">
+                                    <div class="contentInner">
+                                        <div class="title">Lorem Ipsum</div>
+                                        <div class="tagline font-semibold uppercase">Android</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+
+                        <a href="javascript:;" target="_blank" class="swiper-slide block duration-300 md:hover:scale-95">
+                            <div class="swiperInner">
+                                <div>
+                                    <Image width="1000" height="1000" src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/axle-port.png" alt="portfolio2" />
+
+                                </div>
+                                <div class="content before:from-gray-900/70 before:to-gray-900/70">
+                                    <div class="contentInner">
+                                        <div class="title">Lorem Ipsum</div>
+                                        <div class="tagline font-semibold uppercase">WEBSITE | Laravel | php | html5 | css3</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="javascript:;" target="_blank" class="swiper-slide block duration-300 md:hover:scale-95">
+                            <div class="swiperInner">
+                                <div>
+                                    <Image width="1000" height="1000" src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/stock-daddy-port.png" alt="portfolio3" />
+
+                                </div>
+                                <div class="content before:from-red-900/70 before:to-red-900/70">
+                                    <div class="contentInner">
+                                        <div class="title">Lorem Ipsum</div>
+                                        <div class="tagline font-semibold uppercase">WEBSITE | Laravel | php | html5 | css3</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="javascript:;" target="_blank" class="swiper-slide block duration-300 md:hover:scale-95">
+                            <div class="swiperInner">
+                                <div>
+                                    <Image width="1000" height="1000" src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/aampe-port.png" alt="portfolio4" />
+
+                                </div>
+                                <div class="content before:from-blue-900/70 before:to-blue-900/70">
+                                    <div class="contentInner">
+                                        <div class="title">Lorem Ipsum</div>
+                                        <div class="tagline font-semibold uppercase">WEBSITE | Laravel | php | html5 | css3</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="javascript:;" target="_blank" class=" swiper-slide block duration-300 md:hover:scale-95">
+                            <div class="swiperInner">
+                                <div>
+                                    <Image width="1000" height="1000" src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/mploi-port.png" alt="portfolio5" />
+
+                                </div>
+                                <div class="content before:from-amber-900/70 before:to-amber-900/70">
+                                    <div class="contentInner">
+                                        <div class="title">Lorem Ipsum</div>
+                                        <div class="tagline font-semibold uppercase">WEBSITE | Laravel | php | html5 | css3</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+
+                        <a href="javascript:;" target="_blank" class="swiper-slide block duration-300 md:hover:scale-95">
+                            <div class="swiperInner">
+                                <div>
+                                    <Image width="1000" height="1000" src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/axle-port.png" alt="portfolio6" />
+
+                                </div>
+                                <div class="content before:from-purple-900/70 before:to-purple-900/70">
+                                    <div class="contentInner">
+                                        <div class="title">Lorem Ipsum</div>
+                                        <div class="tagline font-semibold uppercase">WEBSITE | Laravel | php | html5 | css3</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="javascript:;" target="_blank" class="swiper-slide block duration-300 md:hover:scale-95">
+                            <div class="swiperInner">
+                                <div>
+                                    <Image width="1000" height="1000" src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/stock-daddy-port.png" alt="portfolio7" />
+
+                                </div>
+                                <div class="content before:from-amber-900/70 before:to-amber-900/70">
+                                    <div class="contentInner">
+                                        <div class="title">Lorem Ipsum</div>
+                                        <div class="tagline font-semibold uppercase">WEBSITE | Laravel | php | html5 | css3</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="javascript:;" target="_blank" class="swiper-slide block duration-300 md:hover:scale-95">
+                            <div class="swiperInner">
+                                <div>
+                                    <Image width="1000" height="1000" src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/aampe-port.png" alt="portfolio8" />
+
+                                </div>
+                                <div class="content before:from-amber-900/70 before:to-amber-900/70">
+                                    <div class="contentInner">
+                                        <div class="title">Lorem Ipsum</div>
+                                        <div class="tagline font-semibold uppercase">WEBSITE | React | html5 | css3</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="javascript:;" target="_blank" class="swiper-slide block duration-300 md:hover:scale-95">
+                            <div class="swiperInner">
+                                <div>
+                                    <Image width="1000" height="1000" src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/mploi-port.png" alt="portfolio9" />
+
+                                </div>
+                                <div class="content before:from-teal-500/70 before:to-teal-500/70">
+                                    <div class="contentInner">
+                                        <div class="title">Lorem Ipsum</div>
+                                        <div class="tagline font-semibold uppercase">WEBSITE | Laravel | PHP | Bootstrap</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+
                     </div>
                 </div>
-            </a>
-         
-          
-            <a href="javascript:;" target="_blank" class="swiper-slide block duration-300 md:hover:scale-95">
-                <div class="swiperInner">
-                    <div>
-                        <Image width="1000" height="1000" src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/axle-port.png" alt="portfolio2"/>
+            </div>
 
-                    </div>
-                    <div class="content before:from-gray-900/70 before:to-gray-900/70">
-                        <div class="contentInner">
-                            <div class="title">Lorem Ipsum</div>
-                            <div class="tagline font-semibold uppercase">WEBSITE | Laravel | php | html5 | css3</div>
-                        </div>
-                    </div>
-                </div>
-            </a>
-            <a href="javascript:;" target="_blank" class="swiper-slide block duration-300 md:hover:scale-95">
-                <div class="swiperInner">
-                    <div>
-                        <Image width="1000" height="1000" src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/stock-daddy-port.png" alt="portfolio3"/>
 
-                    </div>
-                    <div class="content before:from-red-900/70 before:to-red-900/70">
-                        <div class="contentInner">
-                            <div class="title">Lorem Ipsum</div>
-                            <div class="tagline font-semibold uppercase">WEBSITE | Laravel | php | html5 | css3</div>
-                        </div>
-                    </div>
-                </div>
-            </a>
-            <a href="javascript:;" target="_blank" class="swiper-slide block duration-300 md:hover:scale-95">
-                <div class="swiperInner">
-                    <div>
-                        <Image width="1000" height="1000" src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/aampe-port.png" alt="portfolio4"/>
-
-                    </div>
-                    <div class="content before:from-blue-900/70 before:to-blue-900/70">
-                        <div class="contentInner">
-                            <div class="title">Lorem Ipsum</div>
-                            <div class="tagline font-semibold uppercase">WEBSITE | Laravel | php | html5 | css3</div>
-                        </div>
-                    </div>
-                </div>
-            </a>
-           
-            <a href="javascript:;" target="_blank" class=" swiper-slide block duration-300 md:hover:scale-95">
-                <div class="swiperInner">
-                    <div>
-                        <Image width="1000" height="1000" src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/mploi-port.png" alt="portfolio5"/>
-
-                    </div>
-                    <div class="content before:from-amber-900/70 before:to-amber-900/70">
-                        <div class="contentInner">
-                            <div class="title">Lorem Ipsum</div>
-                            <div class="tagline font-semibold uppercase">WEBSITE | Laravel | php | html5 | css3</div>
-                        </div>
-                    </div>
-                </div>
-            </a>
-           
-          
-            <a href="javascript:;" target="_blank" class="swiper-slide block duration-300 md:hover:scale-95">
-                <div class="swiperInner">
-                    <div>
-                        <Image width="1000" height="1000" src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/axle-port.png"  alt="portfolio6"/>
-
-                    </div>
-                    <div class="content before:from-purple-900/70 before:to-purple-900/70">
-                        <div class="contentInner">
-                            <div class="title">Lorem Ipsum</div>
-                            <div class="tagline font-semibold uppercase">WEBSITE | Laravel | php | html5 | css3</div>
-                        </div>
-                    </div>
-                </div>
-            </a>
-           
-            <a href="javascript:;" target="_blank" class="swiper-slide block duration-300 md:hover:scale-95">
-                <div class="swiperInner">
-                    <div>
-                        <Image width="1000" height="1000" src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/stock-daddy-port.png" alt="portfolio7"/>
-
-                    </div>
-                    <div class="content before:from-amber-900/70 before:to-amber-900/70">
-                        <div class="contentInner">
-                            <div class="title">Lorem Ipsum</div>
-                            <div class="tagline font-semibold uppercase">WEBSITE | Laravel | php | html5 | css3</div>
-                        </div>
-                    </div>
-                </div>
-            </a>
-            
-            <a href="javascript:;" target="_blank" class="swiper-slide block duration-300 md:hover:scale-95">
-                <div class="swiperInner">
-                    <div>
-                        <Image width="1000" height="1000" src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/aampe-port.png" alt="portfolio8"/>
-
-                    </div>
-                    <div class="content before:from-amber-900/70 before:to-amber-900/70">
-                        <div class="contentInner">
-                            <div class="title">Lorem Ipsum</div>
-                            <div class="tagline font-semibold uppercase">WEBSITE | React | html5 | css3</div>
-                        </div>
-                    </div>
-                </div>
-            </a>
-            <a href="javascript:;" target="_blank" class="swiper-slide block duration-300 md:hover:scale-95">
-                <div class="swiperInner">
-                    <div>
-                        <Image width="1000" height="1000" src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/mploi-port.png"  alt="portfolio9"/>
-
-                    </div>
-                    <div class="content before:from-teal-500/70 before:to-teal-500/70">
-                        <div class="contentInner">
-                            <div class="title">Lorem Ipsum</div>
-                            <div class="tagline font-semibold uppercase">WEBSITE | Laravel | PHP | Bootstrap</div>
-                        </div>
-                    </div>
-                </div>
-            </a>
-           
-           
-        </div>
-    </div>
-</div>
+            <Blog/>
 
 
 
 
-
-{/* <div className="bg-white relative overflow-hidden py-6 md:py-8 lg:py-16 select-none">
+            {/* <div className="bg-white relative overflow-hidden py-6 md:py-8 lg:py-16">
     
 
     <div className="mx-auto max-w-7xl px-6 lg:px-8 z-[1] relative">
@@ -414,9 +417,8 @@ function portfolio() {
     </div>
 </div> */}
 
-            <Form />
             <Footer />
-            </>
+        </>
     )
 }
 

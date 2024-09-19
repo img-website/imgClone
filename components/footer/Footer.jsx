@@ -94,7 +94,7 @@ function Footer() {
                         height="1000"
                         quality="90"
                         loading="lazy"
-                        className="h-8 md:h-12 w-auto auto md:order-1" src="https://www.twinpowerus.com/public/frontend/img/logo.png" alt="" />
+                        className="h-8 md:h-12 w-auto auto md:order-1" src="/img/logo.png" alt="" />
 
                         <ul className="flex items-center space-x-3 md:order-3">
                             <li>
