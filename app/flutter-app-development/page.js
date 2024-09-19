@@ -9,6 +9,7 @@ import PortfolioSection from '@/components/portfolio/portfolio';
 import Blog from '@/components/blog/Blog';
 import Head from 'next/head';
 import Accordion from '@/components/accordion/Accordion';
+import Form from '@/components/contactForm/Form';
 
 
 
@@ -17,29 +18,22 @@ import Accordion from '@/components/accordion/Accordion';
 function flutterappdevelopment() {
     const accordionItems = [
         {
-            title: 'Can I cancel at anytime?',
-            content: 'Yes, you can cancel anytime no questions are asked while you cancel but we would highly appreciate if you will give us some feedback.'
+            title: 'Why should I create native apps instead of using Flutter?',
+            content: 'Native apps offer optimized performance and deeper integration with platform-specific features, which can lead to better user experiences and access to advanced capabilities. While Flutter provides a cross-platform solution, native development ensures the highest level of customization and efficiency for each individual platform.'
         },
         {
-            title: 'My team has credits. How do we use them?',
-            content: 'Once your team signs up for a subscription plan. This is where we sit down, grab a cup of coffee and dial in the details.'
+            title: 'What kinds of applications may be made with Flutter?',
+            content: 'Flutter can be used to create mobile apps for iOS and Android, web apps, desktop apps for Windows, macOS, and Linux, and embedded applications for IoT devices.'
         },
         {
-            title: 'How does Preline\'s pricing work?',
-            content: 'Our subscriptions are tiered. Understanding the task at hand and ironing out the wrinkles is key.'
+            title: 'Is creating an application in Flutter too expensive?',
+            content: 'Creating an application in Flutter can be cost-effective due to its single codebase for multiple platforms, which reduces development time and effort. However, costs can vary depending on the apps complexity and features.'
         },
         {
-            title: 'How secure is Preline?',
-            content: 'Protecting the data you trust to Preline is our first priority. This part is really crucial in keeping the project in line to completion.'
+            title: 'How long does it take to create an application using the Flutter framework?',
+            content: 'The time to create an application using Flutter varies based on complexity and features. Simple apps can take a few weeks, while more complex applications with advanced functionality may take several months. Generally, Flutters efficiency can accelerate the development process compared to building separate native apps'
         },
-        {
-            title: 'How do I get access to a theme I purchased?',
-            content: 'If you lose the link for a theme you purchased, don\'t panic! We\'ve got you covered. You can login to your account, tap your avatar in the upper right corner, and tap Purchases. If you didn\'t create a login or can\'t remember the information, you can use our handy Redownload page, just remember to use the same email you originally made your purchases with.'
-        },
-        {
-            title: 'Upgrade License Type',
-            content: 'There may be times when you need to upgrade your license from the original type you purchased and we have a solution that ensures you can apply your original purchase cost to the new license purchase.'
-        },
+       
     ];
 
     return (
@@ -160,29 +154,6 @@ function flutterappdevelopment() {
             {/* About Ends */}
 
             <Cta />
-
-
-
-
-            <div className='mx-auto max-w-7xl px-6 lg:px-8'>
-                <section className="lg:w-4/5 w-full mx-auto md:mt-16 mt-8">
-                    <div className="max-w-[85rem] px-4 sm:px-6 lg:px-8 mx-auto">
-                        <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
-                            <h2 className="text-2xl font-bold md:text-4xl md:leading-tight">Your questions, answered</h2>
-                            <p className="mt-1 text-gray-600">Answers to the most frequently asked questions.</p>
-                        </div>
-                        <Accordion items={accordionItems} />
-                    </div>
-                </section>
-            </div>
-
-
-
-
-
-
-
-
             <div className="relative bg-gray-100 py-6 md:py-8 lg:py-16">
                 <div className="mx-auto max-w-7xl px-6 lg:px-8 w-full relative">
 
@@ -190,13 +161,13 @@ function flutterappdevelopment() {
 
                         <div className="w-full relative z-20 h-auto shrink-1 grow-0">
                             <p className="
-                    max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black text-balance text-center
+                                max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black text-balance text-center
 
-                    first:*:font-normal
+                                first:*:font-normal
 
-                    last:*:font-bold last:*:text-theme2
-                ">
-                                <span>Flutter  App </span> <span> Development Services</span>
+                                last:*:font-bold last:*:text-theme2
+                            ">
+                             <span>Flutter  App </span> <span> Development Services</span>
 
                             </p>
                             <p className="md:text-base text-sm text-black/70 mt-3 text-balance text-center">Next-Gen Flutter App Development with Professional Excellence</p>
@@ -356,7 +327,28 @@ function flutterappdevelopment() {
 
             <PortfolioSection />
             <Blog />
+            <Form />
 
+            <div className='mx-auto max-w-7xl px-6 lg:px-8'>
+                    <section className="lg:w-4/5 w-full mx-auto md:mt-16 mt-8">
+                        <div className="max-w-[85rem] px-4 sm:px-6 lg:px-8 mx-auto">
+                            <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
+                            <p className="
+                                max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black text-balance text-center
+
+                                first:*:font-normal
+
+                                last:*:font-bold last:*:text-theme2
+                            ">
+                             <span>Your Questions, </span> <span> Answered</span>
+
+                            </p>
+                                <p className="mt-1 text-gray-600">Answers to the most frequently asked questions.</p>
+                            </div>
+                            <Accordion items={accordionItems} />
+                        </div>
+                    </section>
+                </div>
             <Footer />
         </>
     )
