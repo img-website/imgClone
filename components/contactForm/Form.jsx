@@ -10,7 +10,7 @@ function Form() {
         <div className="max-w-2xl mx-auto text-center">
         <p className="max-md:text-2xl/tight  max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] ">
                         <span className="font-normal">How can we assist  </span>
-                        <span className="font-bold ">you today?</span>
+                        <span className="font-bold text-theme2 ">you today?</span>
                     </p>
                     <div className="md:text-base text-sm opacity-70 mt-3 mb-lg-1 ">
                     Our consultants will get back to you in 8 hours or less.
