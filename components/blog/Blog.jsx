@@ -36,7 +36,7 @@ const Blog = () => {
 
             [&_.swiperInner]:p-1 [&_.swiperInner]:bg-gray-700 [&_.swiperInner]:relative [&_.swiperInner]:size-full [&_.swiperInner]:rounded-[20px] [&_.swiperInner]:overflow-hidden
             
-            [&_img]:w-full [&_img]:aspect-[4/5] [&_img]:overflow-hidden [&_img]:rounded-[20px] [&_img]:z-0 [&_img]:duration-[3000ms]
+            [&_img]:w-full  [&_img]:overflow-hidden [&_img]:rounded-[20px] [&_img]:z-0 [&_img]:duration-[3000ms]
 
             [&_.content]:mt-10 [&_.content]:flex [&_.content]:rounded-[20px] [&_.content]:rounded-t-none [&_.content]:items-center [&_.content]:sm:justify-center [&_.content]:absolute [&_.content]:inset-1 [&_.content]:top-auto [&_.content]:z-[1] before:[&_.content]:absolute before:[&_.content]:inset-3 before:[&_.content]:z-[1] before:[&_.content]:bg-gradient-to-t before:[&_.content]:backdrop-blur-xl before:[&_.content]:rounded-xl [&_.content]:py-8
 
@@ -52,14 +52,16 @@ const Blog = () => {
                 href="javascript:;"
                 className="flex max-w-xl flex-col items-start justify-between h-full bg-white rounded-[20px] shadow-md shadow-gray-300"
               >
+                <div className="overflow-hidden">
                 <Image
-                  className="w-full !aspect-[385/221] rounded-[20px]"
+                  className="w-full  rounded-[20px] aspect-[1/0.5] object-contain"
                   width="1000"
                   height="1000"
                   src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/ares-port.png"
                   alt="Features of dating app"
                   title="Top 30 Features of Dating Apps   "
                 />
+                </div>
                 <div className="w-full p-6">
                   <div className="flex items-center gap-x-4 text-xs">
                     <time datetime="2024-5-24" className="text-gray-500">
@@ -80,11 +82,13 @@ const Blog = () => {
                     </p>
                   </div>
                   <div className="relative mt-8 flex items-center gap-x-4">
-                    <Image
-                      srcset="https://img.freepik.com/free-photo/portrait-handsome-smiling-businessman-office_1163-5471.jpg?t=st=1726723720~exp=1726727320~hmac=7fdb287f8849da8fdc20ab87806f4753bde40ee7f4bdf453132123ab1f8021f4&w=740"
-                      alt="lorem ipsum"
-                      className="!size-10 rounded-full bg-gray-50"
+                      <div className="!size-10 rounded-full">
+                  <Image
+                      srcset="https://img.freepik.com/free-photo/businessman-posing-smiling_144627-34937.jpg?t=st=1726741604~exp=1726745204~hmac=f2752caaafa2c2c68f806ed1703a85cd1876f3774f5ae0a1c942dd40de5572fb&w=360"
+                      alt="lorem ipsum" quality={90} loading="lazy"
+                      className=" object-cover object-right size-full rounded-full bg-gray-50"
                     />
+                    </div> 
                     <div className="text-sm leading-6">
                       <p className="font-semibold text-gray-900">Written by</p>
                       <p className="text-gray-600">lorem ipsum</p>
@@ -101,7 +105,7 @@ const Blog = () => {
                 className="flex max-w-xl flex-col items-start justify-between h-full bg-white rounded-2xl shadow-md shadow-gray-300"
               >
                 <Image
-                  className="w-full !aspect-[385/221] rounded-2xl"
+                  className="w-full  rounded-[20px] aspect-[1/0.5] object-contain"
                   width="1000"
                   height="1000"
                   src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/ares-port.png"
@@ -128,11 +132,13 @@ const Blog = () => {
                     </p>
                   </div>
                   <div className="relative mt-8 flex items-center gap-x-4">
-                    <Image
-                      srcset="https://img.freepik.com/free-photo/portrait-handsome-smiling-businessman-office_1163-5471.jpg?t=st=1726723720~exp=1726727320~hmac=7fdb287f8849da8fdc20ab87806f4753bde40ee7f4bdf453132123ab1f8021f4&w=740"
-                      alt="lorem ipsum"
-                      className="!size-10 rounded-full bg-gray-50"
+                  <div className="!size-10 rounded-full">
+                  <Image
+                      srcset="https://img.freepik.com/free-photo/businessman-posing-smiling_144627-34937.jpg?t=st=1726741604~exp=1726745204~hmac=f2752caaafa2c2c68f806ed1703a85cd1876f3774f5ae0a1c942dd40de5572fb&w=360"
+                      alt="lorem ipsum" quality={90} loading="lazy"
+                      className=" object-cover object-right size-full rounded-full bg-gray-50"
                     />
+                    </div>  
                     <div className="text-sm leading-6">
                       <p className="font-semibold text-gray-900">Written by</p>
                       <p className="text-gray-600">lorem ipsum</p>
@@ -149,7 +155,7 @@ const Blog = () => {
                 className="flex max-w-xl flex-col items-start justify-between h-full bg-white rounded-[20px] shadow-md shadow-gray-300"
               >
                 <Image
-                  className="w-full !aspect-[385/221] rounded-[20px]"
+                  className="w-full  rounded-[20px] aspect-[1/0.5] object-contain"
                   width="1000"
                   height="1000"
                   src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/uber.png"
@@ -176,11 +182,13 @@ const Blog = () => {
                     </p>
                   </div>
                   <div className="relative mt-8 flex items-center gap-x-4">
-                    <Image
-                      srcset="https://img.freepik.com/free-photo/portrait-handsome-smiling-businessman-office_1163-5471.jpg?t=st=1726723720~exp=1726727320~hmac=7fdb287f8849da8fdc20ab87806f4753bde40ee7f4bdf453132123ab1f8021f4&w=740"
-                      alt="lorem ipsum"
-                      className="!size-10 rounded-full bg-gray-50"
+                      <div className="!size-10 rounded-full">
+                  <Image
+                      srcset="https://img.freepik.com/free-photo/businessman-posing-smiling_144627-34937.jpg?t=st=1726741604~exp=1726745204~hmac=f2752caaafa2c2c68f806ed1703a85cd1876f3774f5ae0a1c942dd40de5572fb&w=360"
+                      alt="lorem ipsum" quality={90} loading="lazy"
+                      className=" object-cover object-right size-full rounded-full bg-gray-50"
                     />
+                    </div> 
                     <div className="text-sm leading-6">
                       <p className="font-semibold text-gray-900">Written by</p>
                       <p className="text-gray-600">lorem ipsum</p>
@@ -198,7 +206,7 @@ const Blog = () => {
                 className="flex max-w-xl flex-col items-start justify-between h-full bg-white rounded-[20px] shadow-md shadow-gray-300"
               >
                 <Image
-                  className="w-full !aspect-[385/221] rounded-[20px]"
+                  className="w-full  rounded-[20px] aspect-[1/0.5] object-contain"
                   width="1000"
                   height="1000"
                   src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/axle-port.png"
@@ -226,15 +234,13 @@ const Blog = () => {
                     </p>
                   </div>
                   <div className="relative mt-8 flex items-center gap-x-4">
-                    <Image
-                    width="1000"
-                    height="1000"
-                    quality="90"
-                    loading="lazy"
-                      src="https://img.freepik.com/free-photo/portrait-handsome-smiling-businessman-office_1163-5471.jpg?t=st=1726723720~exp=1726727320~hmac=7fdb287f8849da8fdc20ab87806f4753bde40ee7f4bdf453132123ab1f8021f4&w=740"
-                      alt="lorem ipsum"
-                      className="!size-10 rounded-full bg-gray-50"
+                  <div className="!size-10 rounded-full">
+                  <Image
+                      srcset="https://img.freepik.com/free-photo/businessman-posing-smiling_144627-34937.jpg?t=st=1726741604~exp=1726745204~hmac=f2752caaafa2c2c68f806ed1703a85cd1876f3774f5ae0a1c942dd40de5572fb&w=360"
+                      alt="lorem ipsum" quality={90} loading="lazy"
+                      className=" object-cover object-right size-full rounded-full bg-gray-50"
                     />
+                    </div> 
                     <div className="text-sm leading-6">
                       <p className="font-semibold text-gray-900">Written by</p>
                       <p className="text-gray-600">lorem ipsum</p>
