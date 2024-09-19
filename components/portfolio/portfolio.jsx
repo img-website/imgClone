@@ -1,6 +1,9 @@
 "use client"
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
 
 const PortfolioSection = () => {
 
