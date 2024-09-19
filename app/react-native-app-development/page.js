@@ -15,23 +15,23 @@ import Form from '@/components/contactForm/Form';
 
 
 
-function iosAppDevelopment() {
+function reactNativeDevelopment() {
     const accordionItems = [
         {
-            title: 'The concept behind building an iOS app for business should be kept confidential. Will you sign an NDA?',
-            content: 'Every project at IMG Global Infotech begins with an NDA. Once the project is on board our team maintains it proper care and make sure the important details are not revealed until it is launched. Also, we ensure our clients that their intellectual property rights are not violated and are always protected. In fact, we consider signing an NDA to be a crucial stage in the development of a mobile app.'
+            title: 'How can you make sure the transfer of my project from my current vendor to your team will be managed smoothly?',
+            content: 'We recognise the agony of a burned bruise; thus, we use Agile approaches to establish your trust in us through open communication, daily stand-ups, and scrum retrospective sessions. Our capable experts promise to take over your half-finished project and relieve the management and development issues. It would be good to hire react native app developers that communicates using sophisticated project management tools, we make sure you complete your project successfully, on time, and within budget'
         },
         {
-            title: "Do I own the rights to my application's code and ownership?",
-            content: 'As a top iOS app development company, we give you ownership of the application and the source code after it is successfully launched on the App Store. Our Custom iPhone App Development Company always prefer to have upfront communication with our clients about the ownership of the source code once the app is built. Once both the parties mutually agree we prefer to sign a contract.'
+            title: "Will you allow if I want to be a part of the development process and understand it?",
+            content: 'Yes of course. Our company is established based on Agile principles. We believe in following client and product owner approach in our software development process. It makes the workflow ease and yields better outcome. There is no one development process that works for everyone. With that in mind, you will receive updates from the team regarding project progress throughout the Sprint from ideation to deployment on each stage and regularly. You can speak one-on-one with the React Native App Developers thanks to our facilitation. Adaptive planning, continuous improvement, implementation, and quick-change response are all part of our daily scrum.'
         },
         {
-            title: 'How allocation of resources is done for the development of my iOS app?',
-            content: 'There are several SMEs on our development and business analysis team. As a result, we began by looking at the technological stack needed for your app idea as well as the industry vertical it belongs to. We assign the best resources—a cross-functional team with knowledge of your chosen industry—based on the particular requirements of your iOS application development project.'
+            title: 'Will there be a specific "Project Manager - Scrum Master" assigned to serve as the point of contact?',
+            content: 'Yes. Throughout our engagement, a committed project manager and Scrum master will be assigned. The person will be the first point of contact if you require any support, resolve queries and need some project understanding to execute it smoothly.'
         },
         {
-            title: 'Can you assist to get my iOS application launched on the Apple Store once it is developed?',
-            content: 'Yes. Actually, we handle every aspect of publishing an app on the App Store by ourselves. It is a part of our comprehensive bundle of iOS app development services. For a thorough understanding of iOS application development, visit our iOS app development guide.'
+            title: 'Do you perform application vulnerability assessments and security audits?',
+            content: 'Our managed IT services can assist you with adjusting to industry compliance standards like PCI-DSS, W3C compliances, and others so that end users may feel secure using your application. For peace of mind while you need to focus on your main company, it is advised to keep an eye on what is happening on the IT infrastructure constantly. Our security audits and system maintenance support make sure the application server is protected against all security flaws that could jeopardise sensitive consumer and business information.'
         },
     ];
 
@@ -48,17 +48,16 @@ function iosAppDevelopment() {
                     <div class="size-full relative !z-10">
                         <div class="colorApply1 flex size-full items-center rounded-b-2xl relative overflow-hidden shadow-lg before:absolute before:inset-0 before:bg-cover before:bg-right before:rounded-b-2xl before:bg-gradient-to-r before:mix-blend-multiply after:absolute after:rounded-b-2xl after:inset-0 after:bg-repeat   before:from-theme1 before:via-theme1/50 before:to-theme1/80">
                             <span class="colorApply2 absolute inset-0 bg-cover bg-right opacity-50 rounded-b-2xl bg-gradient-to-r mix-blend-multiply  from-theme1 via-theme1/50 to-theme1/80"></span>
-                            <img class="size-full object-cover object-center absolute inset-0 -z-[1] rounded-b-2xl aspect-[1519/812]" width="1519" height="812" src="/img/ecommerce-hero.webp" alt="Transform Your Ideas into Reality with Our Mobile App Development Expertise.
-" />
+                            <Image  class="size-full object-cover object-center absolute inset-0 -z-[1] rounded-b-2xl aspect-[1519/812]" width="1519" height="812" src="/img/ecommerce-hero.webp" alt="Transform Your Ideas into Reality with Our Mobile App Development Expertise." />
 
                             <div class="flex mx-auto max-lg:flex-col max-lg:gap-y-10 items-center 2xl:max-w-7xl xl:max-w-6xl lg:max-w-5xl md:max-w-3xl sm:max-w-3xl max-w-2xl px-6 lg:px-8 w-full relative lg:pt-40 sm:pt-32 pt-28 pb-12 overflow-hidden z-10 justify-between">
                                 <div class="xl:w-7/12 lg:w-1/2 grow-0 max-lg:text-center">
                                     <div class="font-light text-white max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em]">
-                                        <span class="colorApply3 font-bold text-gray-100 block pb-1  via-indigo-500 from-indigo-100 to-indigo-100">Specialized iOS App Development Company
+                                        <span class="colorApply3 font-bold text-gray-100 block pb-1  via-indigo-500 from-indigo-100 to-indigo-100">Premier React Native App Development Solutions
                                         </span>
                                     </div>
                                     <div class="max-lg:text-sm text-base text-white/80 pt-5 text-pretty w-10/12 max-lg:mx-auto">
-                                        Choose the best for creating secure and scalable digital solutions with our iOS mobile app development services. Our iPhone app development expertise ensures that your applications are crafted to advance your business into the future.
+                                        Top React Native App Development Experts Delivering High-Quality Mobile Solutions with Seamless Cross-Platform Experiences for iOS & Android. Connect with Us for Innovative App Development!
                                     </div>
 
                                 </div>
@@ -109,8 +108,6 @@ function iosAppDevelopment() {
                                     <div className="relative flex-shrink-0 p-4 w-full">
                                         <div className="relative z-10 overflow-hidden *:rounded-[20px] [transform:rotateY(180deg)] group-[]/flip:[transform:rotateY(0deg)] [&~*]:[&:has(.mask)]:lg:hidden">
                                             <Image className="object-cover !w-[1216px] !h-auto md:mt-16 lg:mt-0 " width={'384'} height={'384'} src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="image3" />
-
-
                                         </div>
 
                                     </div>
@@ -124,14 +121,14 @@ function iosAppDevelopment() {
 
                         last:*:font-bold last:*:text-theme2
                     ">
-                                    <span className="font-normal">Advancing Your Business Through </span> <span className="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-theme2">Personalized iOS App Development</span>
+                                    <span className="font-normal">Propel Your Business Forward with Tailored React Native Solutions </span> <span className="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-theme2">Tailored React Native Solutions</span>
 
                                 </p>
                                 <p className="mt-4 text-sm md:text-base leading-7 text-slate-600">
-                                    We are a full-stack custom iOS app development firm with a track record of creating hundreds of top-selling native iOS apps that have achieved remarkable growth. Our experienced team of iPhone app developers specializes in using Swift and Objective-C to deliver cutting-edge iOS solutions.
+                                    At IMG Global Infotech, we harness the latest features in React Native to bring unmatched efficiency and mobility to smartphone applications. React Native's extensive benefits have made it a preferred choice for businesses across various industries, offering a powerful tool to enhance their digital presence.
                                 </p>
                                 <p className="mt-4 text-sm md:text-base leading-7 text-slate-600">
-                                    Our dedicated team provides global iPhone app development services, leveraging their expertise to offer tailored iOS application development. We ensure unique designs and consult on iOS app development for various platforms, including iPad, iPhone, Apple TV, and Apple Watch. Our native iOS app development firm has crafted applications for diverse use cases across multiple industries, such as real-time analytics, route matching, geo-tagging, and video streaming.
+                                    Our custom React Native development services represent a forward-thinking approach that propels businesses towards their future goals. Leveraging our expertise, we help design and transform your app into a growth-driving asset that optimizes your operations. Ready to partner with a trusted React Native app development company? Let’s discuss your product vision and accelerate your development journey together.
                                 </p>
 
                                 <div className="mt-8 flex gap-4">
@@ -173,10 +170,10 @@ function iosAppDevelopment() {
 
                     last:*:font-bold last:*:text-theme4
                 ">
-                                <span>Android App</span> <span> Development Services</span>
+                                <span>Our React Native App </span> <span> Development Services</span>
 
                             </p>
-                            <p class="md:text-base text-sm text-black/70 mt-3 text-balance text-center">Next-Gen Android App Development Beside Professional Excellence</p>
+                            <p class="md:text-base text-sm text-black/70 mt-3 text-balance text-center">Leveraging Our React Native Expertise for Robust, Scalable Apps with Exceptional User Experiences Across All Platforms</p>
                         </div>
 
                         <div class="w-full grid md:grid-cols-3 gap-8">
@@ -187,10 +184,10 @@ function iosAppDevelopment() {
                                             01
                                         </div>
                                         <div class="md:text-lg sm:text-base text-sm leading-6 font-bold">
-                                            Personalized iPhone Application Development
+                                            React Native App Consultation Services
                                         </div>
                                         <div class="mt-2 sm:text-base text-sm leading-6">
-                                            Involves end-to-end development of bespoke iOS applications designed to meet specific business needs or concepts.
+                                            Expert Guidance and Consultation for Leveraging React Native in Mobile App Development
                                         </div>
                                     </div>
                                 </div>
@@ -204,10 +201,10 @@ function iosAppDevelopment() {
                                             02
                                         </div>
                                         <div class="md:text-lg sm:text-base text-sm leading-6 font-bold">
-                                            Comprehensive iOS Solutions for Businesses
+                                            Tailored UI/UX Design for React Native Apps
                                         </div>
                                         <div class="mt-2 sm:text-base text-sm leading-6">
-                                            Businesses frequently need iOS apps for internal operations or to improve their business processes.
+                                            UI/UX Design Services Customized for React Native Development
                                         </div>
                                     </div>
                                 </div>
@@ -221,10 +218,10 @@ function iosAppDevelopment() {
                                             03
                                         </div>
                                         <div class="md:text-lg sm:text-base text-sm leading-6 font-bold">
-                                            iPhone App User Experience and Interface Design
+                                            Seamless Integration Services for React Native Apps
                                         </div>
                                         <div class="mt-2 sm:text-base text-sm leading-6">
-                                            UI/UX design services aim to craft visually engaging and intuitive interfaces for iPhone apps.
+                                            Integration Services for Connecting React Native Apps with External Systems, APIs, Databases, or Third-Party Services
                                         </div>
                                     </div>
                                 </div>
@@ -238,9 +235,11 @@ function iosAppDevelopment() {
                                             04
                                         </div>
                                         <div class="md:text-lg sm:text-base text-sm leading-6 font-bold">
-                                            Mobile App Testing Services
+                                            React Native App Solutions
                                         </div>
-                                        <div class="mt-2 sm:text-base text-sm leading-6">Testing and quality assurance: Conducting thorough testing to identify and fix any bugs, glitches, or compatibility issues in the app</div>
+                                        <div class="mt-2 sm:text-base text-sm leading-6">
+                                            React Native app development services encompass end-to-end development of custom mobile applications using the React Native framework.
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="absolute flex justify-center items-end -left-[5px] top-20 w-[10px] h-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:-translate-x-1/2 before:translate-y-1/2 before:bottom-0 before:left-[calc(50%-1px)]"></div>
@@ -253,10 +252,10 @@ function iosAppDevelopment() {
                                             05
                                         </div>
                                         <div class="md:text-lg sm:text-base text-sm leading-6 font-bold">
-                                            iPhone Application Consulting Services
+                                            React Native Widget Development
                                         </div>
                                         <div class="mt-2 sm:text-base text-sm leading-6">
-                                            iPhone app consultation services offer expert guidance and advice throughout the entire app development process.
+                                            React Native enables the development of widgets or extensions that provide additional functionality within mobile applications.
                                         </div>
                                     </div>
                                 </div>
@@ -270,11 +269,11 @@ function iosAppDevelopment() {
                                             06
                                         </div>
                                         <div class="md:text-lg sm:text-base text-sm leading-6 font-bold">
-                                            iPhone Extension Development
+                                            React Native App Re-engineering
 
                                         </div>
                                         <div class="mt-2 sm:text-base text-sm leading-6">
-                                            iOS widgets and extensions allow apps to provide additional functionality and quick access to specific features within the iOS ecosystem.
+                                            React Native development services can help re-engineer and migrate your app to React Native.
                                         </div>
                                     </div>
                                 </div>
@@ -288,10 +287,10 @@ function iosAppDevelopment() {
                                             07
                                         </div>
                                         <div class="md:text-lg sm:text-base text-sm leading-6 font-bold">
-                                            iPhone App Integration
+                                            React Native Maintenance & Support
                                         </div>
                                         <div class="mt-2 sm:text-base text-sm leading-6">
-                                            Integration services involve connecting an iPhone app with external systems, databases, APIs, or third-party services to extend its functionality.
+                                            After launching a React Native app, ongoing maintenance and support are crucial.
                                         </div>
                                     </div>
                                 </div>
@@ -324,6 +323,100 @@ function iosAppDevelopment() {
 
 
             <Cta2 />
+            <div class="relative bg-gray-100 py-6 md:py-8 lg:py-16 select-none">
+                <div class="mx-auto max-w-7xl px-6 lg:px-8 w-full relative">
+                    <div class="mx-auto max-w-container gap-7 flex flex-col max-lg:gap-4 items-center">
+
+                        <div class="w-full relative z-20 h-auto shrink-1 grow-0">
+                            <p class="
+                    max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black text-balance text-center
+
+                    first:*:font-normal
+
+                    last:*:font-bold last:*:text-theme4
+                ">
+                                <span>React Native Apps –  </span> <span> The Impressive Choice</span>
+
+                            </p>
+                        </div>
+
+                        <div class="w-full flex flex-wrap justify-center">
+                            <div class="lg:w-1/4 md:w-1/3 w-1/2 p-5 group relative duration-300">
+                                <div class="flex p-3 flex-col gap-3 text-center">
+                                    <div class="*:size-16 mx-auto">
+                                        <Image width="1000" height="1000" quality='90' loading='lazy' src="/img/two-path.webp" alt="One app for both platforms"/>
+                                    </div>
+                                    <div class="md:text-lg sm:text-base text-sm leading-6">
+                                        One app for both platforms
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lg:w-1/4 md:w-1/3 w-1/2 p-5 group relative duration-300">
+                                <div class="flex p-3 flex-col gap-3 text-center">
+                                    <div class="*:size-16 mx-auto">
+                                        <Image width="1000" height="1000" quality='90' loading='lazy' src="/img/native-components.webp" alt="Native iOS and Android components"/>
+                                    </div>
+                                    <div class="md:text-lg sm:text-base text-sm leading-6">
+                                        Native iOS and Android components
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lg:w-1/4 md:w-1/3 w-1/2 p-5 group relative duration-300">
+                                <div class="flex p-3 flex-col gap-3 text-center">
+                                    <div class="*:size-16 mx-auto">
+                                        <Image width="1000" height="1000" quality='90' loading='lazy' src="/img/comunity.webp" alt="Large community"/>
+                                    </div>
+                                    <div class="md:text-lg sm:text-base text-sm leading-6">
+                                        Large community
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lg:w-1/4 md:w-1/3 w-1/2 p-5 group relative duration-300">
+                                <div class="flex p-3 flex-col gap-3 text-center">
+                                    <div class="*:size-16 mx-auto">
+                                        <Image width="1000" height="1000" quality='90' loading='lazy' src="/img/cusomizble.webp"  alt="Highly customizable"/>
+                                    </div>
+                                    <div class="md:text-lg sm:text-base text-sm leading-6">
+                                        Highly customizable
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lg:w-1/4 md:w-1/3 w-1/2 p-5 group relative duration-300">
+                                <div class="flex p-3 flex-col gap-3 text-center">
+                                    <div class="*:size-16 mx-auto">
+                                        <Image width="1000" height="1000" quality='90' loading='lazy' src="/img/fast-development.webp" alt="Fast development and testingnder"/>
+                                    </div>
+                                    <div class="md:text-lg sm:text-base text-sm leading-6">
+                                        Fast development and testing
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lg:w-1/4 md:w-1/3 w-1/2 p-5 group relative duration-300">
+                                <div class="flex p-3 flex-col gap-3 text-center">
+                                    <div class="*:size-16 mx-auto">
+                                        <Image width="1000" height="1000" quality='90' loading='lazy' src="/img/reload.webp" alt="Live reload"/>
+                                    </div>
+                                    <div class="md:text-lg sm:text-base text-sm leading-6">
+                                        Live reload
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lg:w-1/4 md:w-1/3 w-1/2 p-5 group relative duration-300">
+                                <div class="flex p-3 flex-col gap-3 text-center">
+                                    <div class="*:size-16 mx-auto">
+                                        <Image width="1000" height="1000" quality='90' loading='lazy' src="/img/easy-start.webp" alt="Easy to get started with"/>
+                                    </div>
+                                    <div class="md:text-lg sm:text-base text-sm leading-6">
+                                        Easy to get started with
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
 
             <PortfolioSection />
             <Blog />
@@ -343,11 +436,11 @@ function iosAppDevelopment() {
                 </div>
             </div>
             {/* accordian Ends */}
-           
+
 
             <Footer />
         </>
     )
 }
 
-export default iosAppDevelopment
+export default reactNativeDevelopment
