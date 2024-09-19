@@ -2,6 +2,7 @@ import React from 'react'
 import Image from "next/image";
 import Header from '@/components/header/Header';
 import Footer from '@/components/footer/Footer';
+import Reward from '@/components/reward/Reward';
 
 
 function testimonial() {
@@ -47,7 +48,7 @@ function testimonial() {
             {/* hero section Ends */}
 
             {/* about section start */}
-
+            <Reward />
             {/* about section Ends */}
 
             {/* clien video start */}
@@ -83,7 +84,7 @@ function testimonial() {
             
                         first:*:font-normal
             
-                        last:*:font-bold last:*:text-white
+                        last:*:font-bold last:*:text-theme2
                     "><span>Client Industries and Our Commitment to Excellence </span>
                                     <span> Commitment to Excellence!</span></p>
                                 <div class="md:text-base text-sm text-white/70 mt-3 text-balance text-center">
@@ -102,9 +103,19 @@ function testimonial() {
             <div class="overflow-hidden bg-gray-800">
                 <div class="mx-auto max-w-7xl px-6 lg:px-8 w-full relative py-10 sm:px-6 lg:py-14">
                     <div class="max-w-2xl w-3/4 lg:w-1/2 mb-6 sm:mb-10 md:mb-16">
-                        <h2 class="text-2xl sm:text-3xl lg:text-4xl text-white font-semibold">
-                            Loved by business and individuals across the globe
-                        </h2>
+                        <div class="flex flex-col">
+                            <p class="
+                        max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-white
+            
+                        first:*:font-normal
+            
+                        last:*:font-bold last:*:text-theme2
+                    "><span>Loved by business and  </span>
+                                <span> individuals across the globe!</span></p>
+                            <div class="md:text-base text-sm text-white/70 mt-3">
+                                Delve into the testimonials that vividly showcase our partnership with esteemed clients. Experience the exceptional service we offer, and let your success story begin with us today.
+                            </div>
+                        </div>
                     </div>
 
                     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -119,7 +130,7 @@ function testimonial() {
                                 <div class="p-4 bg-gray-100 rounded-b-xl md:px-7">
                                     <div class="flex items-center gap-x-3">
                                         <div class="shrink-0">
-                                            <Image width="1000" height="1000" quality="90" loading='lazy' class="size-8 sm:h-[2.875rem] sm:w-[2.875rem] rounded-full" src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80" alt="Avatar"/>
+                                            <Image width="1000" height="1000" quality="90" loading='lazy' class="size-8 sm:h-[2.875rem] sm:w-[2.875rem] rounded-full" src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80" alt="Avatar" />
                                         </div>
 
                                         <div class="grow">
@@ -146,7 +157,7 @@ function testimonial() {
                                 <div class="p-4 bg-gray-100 rounded-b-xl md:px-7">
                                     <div class="flex items-center gap-x-3">
                                         <div class="shrink-0">
-                                            <Image width="1000" height="1000" quality="90" loading='lazy' class="size-8 sm:h-[2.875rem] sm:w-[2.875rem] rounded-full" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80" alt="Avatar"/>
+                                            <Image width="1000" height="1000" quality="90" loading='lazy' class="size-8 sm:h-[2.875rem] sm:w-[2.875rem] rounded-full" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80" alt="Avatar" />
                                         </div>
 
                                         <div class="grow">
@@ -173,7 +184,7 @@ function testimonial() {
                                 <div class="p-4 bg-gray-100 rounded-b-xl md:px-7">
                                     <div class="flex items-center gap-x-3">
                                         <div class="shrink-0">
-                                            <Image width="1000" height="1000" quality="90" loading='lazy' class="size-8 sm:h-[2.875rem] sm:w-[2.875rem] rounded-full" src="https://images.unsplash.com/photo-1579017331263-ef82f0bbc748?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=900&h=900&q=80" alt="Avatar"/>
+                                            <Image width="1000" height="1000" quality="90" loading='lazy' class="size-8 sm:h-[2.875rem] sm:w-[2.875rem] rounded-full" src="https://images.unsplash.com/photo-1579017331263-ef82f0bbc748?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=900&h=900&q=80" alt="Avatar" />
                                         </div>
 
                                         <div class="grow">
