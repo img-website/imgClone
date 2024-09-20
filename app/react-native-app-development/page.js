@@ -168,7 +168,7 @@ function reactNativeDevelopment() {
 
                     first:*:font-normal
 
-                    last:*:font-bold last:*:text-theme4
+                    last:*:font-bold last:*:text-theme2
                 ">
                                 <span>Our React Native App </span> <span> Development Services</span>
 
@@ -333,7 +333,7 @@ function reactNativeDevelopment() {
 
                     first:*:font-normal
 
-                    last:*:font-bold last:*:text-theme4
+                    last:*:font-bold last:*:text-theme2
                 ">
                                 <span>React Native Apps –  </span> <span> The Impressive Choice</span>
 

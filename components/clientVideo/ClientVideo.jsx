@@ -17,7 +17,7 @@ function ClientVideo() {
                                         data-gallery="gallery1"
                                     >
                                         <div className="overflow-hidden rounded-2xl ring-2 ring-offset-8 ring-white ring-offset-gray-900">
-                                            <span className="absolute inset-0 z-30 flex items-center justify-center *:size-16 *:rounded-full last:*:bg-white *:text-theme1 last:*:shadow-lg last:*:shadow-theme4 last:*:relative last:*:z-30 first:*:z-20 first:*:absolute first:*:inset-0 first:*:m-auto first:*:animate-ping">
+                                            <span className="absolute inset-0 z-30 flex items-center justify-center *:size-16 *:rounded-full last:*:bg-white *:text-theme1 last:*:shadow-lg last:*:shadow-theme2 last:*:relative last:*:z-30 first:*:z-20 first:*:absolute first:*:inset-0 first:*:m-auto first:*:animate-ping">
                                                 <svg
                                                     stroke="currentColor"
                                                     fill="currentColor"

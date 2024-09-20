@@ -135,7 +135,7 @@ function androidApplicationDevelopment() {
 
                     first:*:font-normal
 
-                    last:*:font-bold last:*:text-theme4
+                    last:*:font-bold last:*:text-theme2
                 ">
                                 <span>Android App</span> <span> Development Services</span>
 

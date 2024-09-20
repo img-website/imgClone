@@ -170,7 +170,7 @@ function crossplatform() {
 
                     first:*:font-normal
 
-                    last:*:font-bold last:*:text-theme4
+                    last:*:font-bold last:*:text-theme2
                 "><span>Lorem ipsum dolor sit amet consectetur   </span>
                             <span>adipisicing elit. Sit temporibus ipsum  </span></p>
                     </div>

@@ -196,7 +196,7 @@ function webdevelopment() {
                         <span className="font-bold text-white"> for Custom Software Development? </span>
                     </p>
                     <div className="md:text-base text-sm text-center text-white opacity-70 mt-3 mb-lg-1">
-                    We deliver comprehensive and customized solutions tailored to our clients' needs. Our developers are dedicated to providing exceptional services around the clock, addressing diverse business requirements. Here are a few reasons to choose IMG Global Infotech for your software development consulting services.
+                    We deliver comprehensive and customized solutions tailored to our clients' needs. Our developers are dedicated to providing exceptional services around the clock, addressing diverse business requirements. Here are a few reasons to choose TwinPower Software for your software development consulting services.
                     </div>
 
                     <div className="flex flex-col  pt-4">

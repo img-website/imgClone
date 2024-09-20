@@ -102,76 +102,76 @@ function websiteRedesigning() {
             {/* About Ends */}
 
             {/* benifits section start */}
-            <div class="relative isolate py-6 md:py-8 lg:py-16">
-                <div class="overflow-hidden">
-                    <div class="relative container mx-auto max-w-7xl px-6 lg:px-8 z-10 text-center">
-                        <p class=" max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black text-balance
+            <div ClassName="relative isolate py-6 md:py-8 lg:py-16">
+                <div ClassName="overflow-hidden">
+                    <div ClassName="relative container mx-auto max-w-7xl px-6 lg:px-8 z-10 text-center">
+                        <p ClassName=" max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black text-balance
 
                     first:*:font-normal
 
-                    last:*:font-bold last:*:text-theme4
+                    last:*:font-bold last:*:text-theme2
                 "><span>Benefits Of A  </span>
                             <span> Website Redesigning Include</span></p>
-                        <div class="md:text-base text-sm text-center text-white opacity-70 mt-3 mb-lg-1">
+                        <div ClassName="md:text-base text-sm text-center text-white opacity-70 mt-3 mb-lg-1">
                             When we redesign your website, our primary goal is to improve your bottom line. Your new site will get you more traffic, drive more leads, and ultimately increase your revenue.
                         </div>
                     </div>
                 </div>
-                <div class="container pt-5 md:p-5 sm:p-8 p-5 mx-auto max-w-7xl px-6 lg:px-8 relative z-10 flex">
-                    <div class="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 gap-8 relative">
-                        <div class="bg-white m-3 shadow-2xl rounded-xl flex flex-col items-center py-10 px-4 relative before:absolute before:h-full before:w-full before:bg-sky-400 before:top-5 before:rounded-xl before:-left-4 before:-z-10 before:hover:shadow-2xl before:hover:shadow-sky-400 before:duration-300">
-                            <div class="*:size-16 *:p-1 *:mt-2 text-sky-400">
+                <div ClassName="container pt-5 md:p-5 sm:p-8 p-5 mx-auto max-w-7xl px-6 lg:px-8 relative z-10 flex">
+                    <div ClassName="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 gap-8 relative">
+                        <div ClassName="bg-white m-3 shadow-2xl rounded-xl flex flex-col items-center py-10 px-4 relative before:absolute before:h-full before:w-full before:bg-sky-400 before:top-5 before:rounded-xl before:-left-4 before:-z-10 before:hover:shadow-2xl before:hover:shadow-sky-400 before:duration-300">
+                            <div ClassName="*:size-16 *:p-1 *:mt-2 text-sky-400">
                                 <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M3 3v18h18"></path><path d="m19 9-5 5-4-4-3 3"></path></svg>
                             </div>
-                            <div class="md:text-xl mt-2 mb-4 text-center sm:text-lg text-base font-medium leading-6 text-sky-400  px-2 py-1 rounded-lg">
+                            <div ClassName="md:text-xl mt-2 mb-4 text-center sm:text-lg text-base font-medium leading-6 text-sky-400  px-2 py-1 rounded-lg">
                                 Increase Effective Communication
                             </div>
-                            <div class="absolute w-6 h-28 bg-sky-400 -left-3 bottom-10 after:absolute after:size-5 after:-z-0 after:-bottom-2 after:rotate-45 after:bg-sky-400 before:absolute before:size-5 before:-top-2 before:left-0 before:rotate-45 before:bg-sky-400"></div>
+                            <div ClassName="absolute w-6 h-28 bg-sky-400 -left-3 bottom-10 after:absolute after:size-5 after:-z-0 after:-bottom-2 after:rotate-45 after:bg-sky-400 before:absolute before:size-5 before:-top-2 before:left-0 before:rotate-45 before:bg-sky-400"></div>
                         </div>
-                        <div class="bg-white m-3 shadow-2xl rounded-xl flex flex-col items-center py-10 px-4 relative before:absolute before:h-full before:w-full before:bg-cyan-400 before:top-5 before:rounded-xl before:-left-4 before:-z-10 before:hover:shadow-2xl before:hover:shadow-cyan-400 before:duration-300">
-                            <div class="*:size-16 *:p-1 *:mt-2 text-cyan-400">
+                        <div ClassName="bg-white m-3 shadow-2xl rounded-xl flex flex-col items-center py-10 px-4 relative before:absolute before:h-full before:w-full before:bg-cyan-400 before:top-5 before:rounded-xl before:-left-4 before:-z-10 before:hover:shadow-2xl before:hover:shadow-cyan-400 before:duration-300">
+                            <div ClassName="*:size-16 *:p-1 *:mt-2 text-cyan-400">
                                 <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><g id="Location_On"><g><path d="M12,21.933a1.715,1.715,0,0,1-1.384-.691L5.555,14.5a7.894,7.894,0,1,1,12.885-.009L13.385,21.24A1.717,1.717,0,0,1,12,21.933ZM11.992,3.066A6.81,6.81,0,0,0,7.414,4.815a6.891,6.891,0,0,0-1.05,9.1l5.051,6.727a.725.725,0,0,0,.584.292h0a.732.732,0,0,0,.586-.292l5.044-6.734A6.874,6.874,0,0,0,12.81,3.113,7.277,7.277,0,0,0,11.992,3.066Z"></path><path d="M12,12.5A2.5,2.5,0,1,1,14.5,10,2.5,2.5,0,0,1,12,12.5Zm0-4A1.5,1.5,0,1,0,13.5,10,1.5,1.5,0,0,0,12,8.5Z"></path></g></g></svg>
                             </div>
-                            <div class="md:text-xl mt-2 mb-4 text-center sm:text-lg text-base font-medium leading-6 text-cyan-400  px-2 py-1 rounded-lg">
+                            <div ClassName="md:text-xl mt-2 mb-4 text-center sm:text-lg text-base font-medium leading-6 text-cyan-400  px-2 py-1 rounded-lg">
                                 Stay Relevant
                             </div>
-                            <div class="absolute w-6 h-28 bg-cyan-400 -left-3 bottom-10 after:absolute after:size-5 after:-z-0 after:-bottom-2 after:rotate-45 after:bg-cyan-400 before:absolute before:size-5 before:-top-2 before:left-0 before:rotate-45 before:bg-cyan-400"></div>
+                            <div ClassName="absolute w-6 h-28 bg-cyan-400 -left-3 bottom-10 after:absolute after:size-5 after:-z-0 after:-bottom-2 after:rotate-45 after:bg-cyan-400 before:absolute before:size-5 before:-top-2 before:left-0 before:rotate-45 before:bg-cyan-400"></div>
                         </div>
-                        <div class="bg-white m-3 shadow-2xl rounded-xl flex flex-col items-center py-10 px-4 relative before:absolute before:h-full before:w-full before:bg-blue-400 before:top-5 before:rounded-xl before:-left-4 before:-z-10 before:hover:shadow-2xl before:hover:shadow-blue-400 before:duration-300">
-                            <div class="*:size-16 *:p-1 *:mt-2 text-blue-400">
+                        <div ClassName="bg-white m-3 shadow-2xl rounded-xl flex flex-col items-center py-10 px-4 relative before:absolute before:h-full before:w-full before:bg-blue-400 before:top-5 before:rounded-xl before:-left-4 before:-z-10 before:hover:shadow-2xl before:hover:shadow-blue-400 before:duration-300">
+                            <div ClassName="*:size-16 *:p-1 *:mt-2 text-blue-400">
                                 <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M16 288c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h112v-64zm489-183L407.1 7c-4.5-4.5-10.6-7-17-7H384v128h128v-6.1c0-6.3-2.5-12.4-7-16.9zm-153 31V0H152c-13.3 0-24 10.7-24 24v264h128v-65.2c0-14.3 17.3-21.4 27.4-11.3L379 308c6.6 6.7 6.6 17.4 0 24l-95.7 96.4c-10.1 10.1-27.4 3-27.4-11.3V352H128v136c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H376c-13.2 0-24-10.8-24-24z"></path></svg>
                             </div>
-                            <div class="md:text-xl mt-2 mb-4 text-center sm:text-lg text-base font-medium leading-6 text-blue-400  px-2 py-1 rounded-lg">
+                            <div ClassName="md:text-xl mt-2 mb-4 text-center sm:text-lg text-base font-medium leading-6 text-blue-400  px-2 py-1 rounded-lg">
                                 Improve Usability
                             </div>
-                            <div class="absolute w-6 h-28 bg-blue-400 -left-3 bottom-10 after:absolute after:size-5 after:-z-0 after:-bottom-2 after:rotate-45 after:bg-blue-400 before:absolute before:size-5 before:-top-2 before:left-0 before:rotate-45 before:bg-blue-400"></div>
+                            <div ClassName="absolute w-6 h-28 bg-blue-400 -left-3 bottom-10 after:absolute after:size-5 after:-z-0 after:-bottom-2 after:rotate-45 after:bg-blue-400 before:absolute before:size-5 before:-top-2 before:left-0 before:rotate-45 before:bg-blue-400"></div>
                         </div>
-                        <div class="bg-white m-3 shadow-2xl rounded-xl flex flex-col items-center py-10 px-4 relative before:absolute before:h-full before:w-full before:bg-indigo-400 before:top-5 before:rounded-xl before:-left-4 before:-z-10 before:hover:shadow-2xl before:hover:shadow-indigo-400 before:duration-300">
-                            <div class="*:size-16 *:p-1 *:mt-2 text-indigo-400">
+                        <div ClassName="bg-white m-3 shadow-2xl rounded-xl flex flex-col items-center py-10 px-4 relative before:absolute before:h-full before:w-full before:bg-indigo-400 before:top-5 before:rounded-xl before:-left-4 before:-z-10 before:hover:shadow-2xl before:hover:shadow-indigo-400 before:duration-300">
+                            <div ClassName="*:size-16 *:p-1 *:mt-2 text-indigo-400">
                                 <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M17 5h-2V3h2v2zm-2 10v6l2.29-2.29 2.3 2.29L21 19.59l-2.29-2.29L21 15h-6zm4-6h2V7h-2v2zm0 4h2v-2h-2v2zm-8 8h2v-2h-2v2zM7 5h2V3H7v2zM3 17h2v-2H3v2zm2 4v-2H3c0 1.1.9 2 2 2zM19 3v2h2c0-1.1-.9-2-2-2zm-8 2h2V3h-2v2zM3 9h2V7H3v2zm4 12h2v-2H7v2zm-4-8h2v-2H3v2zm0-8h2V3c-1.1 0-2 .9-2 2z"></path></svg>
                             </div>
-                            <div class="md:text-xl mt-2 mb-4 text-center sm:text-lg text-base font-medium leading-6 text-indigo-400  px-2 py-1 rounded-lg">
+                            <div ClassName="md:text-xl mt-2 mb-4 text-center sm:text-lg text-base font-medium leading-6 text-indigo-400  px-2 py-1 rounded-lg">
                                 Highlight New Products and Service
                             </div>
-                            <div class="absolute w-6 h-28 bg-indigo-400 -left-3 bottom-10 after:absolute after:size-5 after:-z-0 after:-bottom-2 after:rotate-45 after:bg-indigo-400 before:absolute before:size-5 before:-top-2 before:left-0 before:rotate-45 before:bg-indigo-400"></div>
+                            <div ClassName="absolute w-6 h-28 bg-indigo-400 -left-3 bottom-10 after:absolute after:size-5 after:-z-0 after:-bottom-2 after:rotate-45 after:bg-indigo-400 before:absolute before:size-5 before:-top-2 before:left-0 before:rotate-45 before:bg-indigo-400"></div>
                         </div>
-                        <div class="bg-white m-3 shadow-2xl rounded-xl flex flex-col items-center py-10 px-4 relative before:absolute before:h-full before:w-full before:bg-violet-400 before:top-5 before:rounded-xl before:-left-4 before:-z-10 before:hover:shadow-2xl before:hover:shadow-violet-400 before:duration-300">
-                            <div class="*:size-16 *:p-1 *:mt-2 text-violet-400">
+                        <div ClassName="bg-white m-3 shadow-2xl rounded-xl flex flex-col items-center py-10 px-4 relative before:absolute before:h-full before:w-full before:bg-violet-400 before:top-5 before:rounded-xl before:-left-4 before:-z-10 before:hover:shadow-2xl before:hover:shadow-violet-400 before:duration-300">
+                            <div ClassName="*:size-16 *:p-1 *:mt-2 text-violet-400">
                                 <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16.5,19 C17.8807119,19 19,17.8807119 19,16.5 C19,15.1192881 17.8807119,14 16.5,14 C15.1192881,14 14,15.1192881 14,16.5 C14,17.8807119 15.1192881,19 16.5,19 Z M10,5 L12,3 M7.5,10 C8.88071187,10 10,8.88071187 10,7.5 C10,6.11928813 8.88071187,5 7.5,5 C6.11928813,5 5,6.11928813 5,7.5 C5,8.88071187 6.11928813,10 7.5,10 Z M8,16 L16,8 M5.5,21 C6.88071187,21 8,19.8807119 8,18.5 C8,17.1192881 6.88071187,16 5.5,16 C4.11928813,16 3,17.1192881 3,18.5 C3,19.8807119 4.11928813,21 5.5,21 Z M18.5,8 C19.8807119,8 21,6.88071187 21,5.5 C21,4.11928813 19.8807119,3 18.5,3 C17.1192881,3 16,4.11928813 16,5.5 C16,6.88071187 17.1192881,8 18.5,8 Z M12,21 L14,19"></path></svg>
                             </div>
-                            <div class="md:text-xl mt-2 mb-4 text-center sm:text-lg text-base font-medium leading-6 text-violet-400  px-2 py-1 rounded-lg">
+                            <div ClassName="md:text-xl mt-2 mb-4 text-center sm:text-lg text-base font-medium leading-6 text-violet-400  px-2 py-1 rounded-lg">
                                 Use Technology That Your Audience
                             </div>
-                            <div class="absolute w-6 h-28 bg-violet-400 -left-3 bottom-10 after:absolute after:size-5 after:-z-0 after:-bottom-2 after:rotate-45 after:bg-violet-400 before:absolute before:size-5 before:-top-2 before:left-0 before:rotate-45 before:bg-violet-400"></div>
+                            <div ClassName="absolute w-6 h-28 bg-violet-400 -left-3 bottom-10 after:absolute after:size-5 after:-z-0 after:-bottom-2 after:rotate-45 after:bg-violet-400 before:absolute before:size-5 before:-top-2 before:left-0 before:rotate-45 before:bg-violet-400"></div>
                         </div>
-                        <div class="bg-white m-3 shadow-2xl rounded-xl flex flex-col items-center py-10 px-4 relative before:absolute before:h-full before:w-full before:bg-purple-400 before:top-5 before:rounded-xl before:-left-4 before:-z-10 before:hover:shadow-2xl before:hover:shadow-purple-400 before:duration-300">
-                            <div class="*:size-16 *:p-1 *:mt-2 text-purple-400">
+                        <div ClassName="bg-white m-3 shadow-2xl rounded-xl flex flex-col items-center py-10 px-4 relative before:absolute before:h-full before:w-full before:bg-purple-400 before:top-5 before:rounded-xl before:-left-4 before:-z-10 before:hover:shadow-2xl before:hover:shadow-purple-400 before:duration-300">
+                            <div ClassName="*:size-16 *:p-1 *:mt-2 text-purple-400">
                                 <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M3 3v18h18"></path><path d="M13 17V9"></path><path d="M18 17V5"></path><path d="M8 17v-3"></path></svg>
                             </div>
-                            <div class="md:text-xl mt-2 mb-4 text-center sm:text-lg text-base font-medium leading-6 text-purple-400  px-2 py-1 rounded-lg">
+                            <div ClassName="md:text-xl mt-2 mb-4 text-center sm:text-lg text-base font-medium leading-6 text-purple-400  px-2 py-1 rounded-lg">
                                 Increase Your Impact
                             </div>
-                            <div class="absolute w-6 h-28 bg-purple-400 -left-3 bottom-10 after:absolute after:size-5 after:-z-0 after:-bottom-2 after:rotate-45 after:bg-purple-400 before:absolute before:size-5 before:-top-2 before:left-0 before:rotate-45 before:bg-purple-400"></div>
+                            <div ClassName="absolute w-6 h-28 bg-purple-400 -left-3 bottom-10 after:absolute after:size-5 after:-z-0 after:-bottom-2 after:rotate-45 after:bg-purple-400 before:absolute before:size-5 before:-top-2 before:left-0 before:rotate-45 before:bg-purple-400"></div>
                         </div>
                     </div>
                 </div>

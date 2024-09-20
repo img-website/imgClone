@@ -103,11 +103,11 @@ function gymmanagementoftware() {
 
        <Cta/>
 
-       <div class="relative isolate select-none py-6 md:py-8 lg:py-16 ">
-    <div class="overflow-hidden">
+       <div ClassName="relative isolate select-none py-6 md:py-8 lg:py-16 ">
+    <div ClassName="overflow-hidden">
         
-        <div class="relative container mx-auto max-w-7xl px-6 lg:px-8 z-10 text-center">
-            <p class="
+        <div ClassName="relative container mx-auto max-w-7xl px-6 lg:px-8 z-10 text-center">
+            <p ClassName="
                 max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black text-balance
 
                 first:*:font-normal
@@ -118,38 +118,38 @@ function gymmanagementoftware() {
            
         </div>
     </div>
-    <div class="container pt-5 md:p-5 sm:p-8 p-5 mx-auto max-w-7xl px-6 lg:px-8 relative z-10 flex">
-        <ul class="
+    <div ClassName="container pt-5 md:p-5 sm:p-8 p-5 mx-auto max-w-7xl px-6 lg:px-8 relative z-10 flex">
+        <ul ClassName="
             flex flex-wrap md:pt-8 text-center md:text-left gap-y-6 justify-center items-stretch
         ">
-            <div class="lg:w-1/3 md:w-1/2 p-3 size-auto">
-                <div class="size-full border border-theme2 rounded-3xl bg-white group p-4 relative before:absolute before:top-1/2 before:-translate-y-1/2  before:-z-10 before:-left-3 before:duration-500 md:before:hover:rotate-180 md:hover:border-theme4 duration-500 md:before:hover:bg-theme4 before:rounded-3xl before:size-3/4 before:bg-theme2 ">
-                    <div class="text-lg text-theme2 md:group-hover:text-theme4 duration-500 font-semibold">
+            <div ClassName="lg:w-1/3 md:w-1/2 p-3 size-auto">
+                <div ClassName="size-full border border-theme2 rounded-3xl bg-white group p-4 relative before:absolute before:top-1/2 before:-translate-y-1/2  before:-z-10 before:-left-3 before:duration-500 md:before:hover:rotate-180 md:hover:border-theme2 duration-500 md:before:hover:bg-theme2 before:rounded-3xl before:size-3/4 before:bg-theme2 ">
+                    <div ClassName="text-lg text-theme2 md:group-hover:text-theme2 duration-500 font-semibold">
                     Membership Management
                     </div>
-                    <div class="text-sm text-slate-500 pt-2">
+                    <div ClassName="text-sm text-slate-500 pt-2">
                     Searching for member details manually using paperwork can be complex and time-consuming. However, with a fitness software solution, you can easily access all member information with just one click, retrieving their details in seconds
                     </div>
                 </div>
             </div>
-            <div class="lg:w-1/3 md:w-1/2 p-3 size-auto">
-                <div class="size-full border border-theme2 rounded-3xl bg-white group p-4 relative before:absolute before:top-1/2 before:-translate-y-1/2  before:-z-10 before:-left-3 before:duration-500 md:before:hover:rotate-180 md:hover:border-theme4 duration-500 md:before:hover:bg-theme4 before:rounded-3xl before:size-3/4 before:bg-theme2 ">
-                    <div class="text-lg text-theme2 md:group-hover:text-theme4 duration-500 font-semibold">
+            <div ClassName="lg:w-1/3 md:w-1/2 p-3 size-auto">
+                <div ClassName="size-full border border-theme2 rounded-3xl bg-white group p-4 relative before:absolute before:top-1/2 before:-translate-y-1/2  before:-z-10 before:-left-3 before:duration-500 md:before:hover:rotate-180 md:hover:border-theme2 duration-500 md:before:hover:bg-theme2 before:rounded-3xl before:size-3/4 before:bg-theme2 ">
+                    <div ClassName="text-lg text-theme2 md:group-hover:text-theme2 duration-500 font-semibold">
                     Virtual Scheduling and Presence Tracking
 
                     </div>
-                    <div class="text-sm text-slate-500 pt-2">
+                    <div ClassName="text-sm text-slate-500 pt-2">
                     With our software, online scheduling and attendance tracking becomes effortless. Simply type in a member's name to instantly access their details, including attendance history, scheduled arrivals, and recorded absences.
                     </div>
                 </div>
             </div>
-            <div class="lg:w-1/3 md:w-1/2 p-3 size-auto">
-                <div class="size-full border border-theme2 rounded-3xl bg-white group p-4 relative before:absolute before:top-1/2 before:-translate-y-1/2  before:-z-10 before:-left-3 before:duration-500 md:before:hover:rotate-180 md:hover:border-theme4 duration-500 md:before:hover:bg-theme4 before:rounded-3xl before:size-3/4 before:bg-theme2 ">
-                    <div class="text-lg text-theme2 md:group-hover:text-theme4 duration-500 font-semibold">
+            <div ClassName="lg:w-1/3 md:w-1/2 p-3 size-auto">
+                <div ClassName="size-full border border-theme2 rounded-3xl bg-white group p-4 relative before:absolute before:top-1/2 before:-translate-y-1/2  before:-z-10 before:-left-3 before:duration-500 md:before:hover:rotate-180 md:hover:border-theme2 duration-500 md:before:hover:bg-theme2 before:rounded-3xl before:size-3/4 before:bg-theme2 ">
+                    <div ClassName="text-lg text-theme2 md:group-hover:text-theme2 duration-500 font-semibold">
                     Time Optimization
 
                     </div>
-                    <div class="text-sm text-slate-500 pt-2">
+                    <div ClassName="text-sm text-slate-500 pt-2">
                     The primary advantage of using software in a fitness center is its ability to save time. With software, administrative paperwork is significantly reduced, allowing staff to focus more on member engagement and service
                     </div>
                 </div>

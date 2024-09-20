@@ -376,9 +376,9 @@ function fantasysportsappdevelopment() {
     <div className="flex flex-col w-full max-w-7xl mx-auto pb-8 px-6 lg:px-8 text-center">
         <p className="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black empty:hidden text-balance">
             <span>Our Fantasy Sports</span> 
-            <span className="font-bold text-theme4"> Platform Development Solution</span>
+            <span className="font-bold text-theme2"> Platform Development Solution</span>
         </p>
-        <div className="mt-4 text-base md:text-lg leading-7 text-slate-600 empty:hidden text-balance">IMG Global Infotech offers comprehensive development solutions for fantasy sports that can help you create a powerful platform to engage your users.</div>
+        <div className="mt-4 text-base md:text-lg leading-7 text-slate-600 empty:hidden text-balance">TwinPower Software offers comprehensive development solutions for fantasy sports that can help you create a powerful platform to engage your users.</div>
     </div>
     <ul className="flex relative flex-col gap-y-8 lg:gap-y-64 flex-wrap mx-auto max-w-7xl px-6 lg:px-8">
         <li className="size-full lg:sticky lg:top-36">
@@ -405,7 +405,7 @@ function fantasysportsappdevelopment() {
                     <div className="w-full flex max-sm:flex-col-reverse relative z-10 items-center max-sm:text-center">
                         <div className="w-1/2 max-sm:w-full text-black flex flex-col max-sm:gap-y-4 gap-y-7">
                             <div className="text-lg md:text-xl lg:text-2xl text-balance">Fantasy Football <span className="font-bold">App Development</span></div>
-                            <span className="text-sm md:text-base text-balance">IMG Global Infotech specializes in fantasy sports app development. With our expertise, we can create a custom fantasy football app that includes features like user registration, team creation, player selection, live scoring, and more. Transform your fantasy football app idea into a reality with our professional services. Contact us now for exceptional fantasy football app development solutions.</span>
+                            <span className="text-sm md:text-base text-balance">TwinPower Software specializes in fantasy sports app development. With our expertise, we can create a custom fantasy football app that includes features like user registration, team creation, player selection, live scoring, and more. Transform your fantasy football app idea into a reality with our professional services. Contact us now for exceptional fantasy football app development solutions.</span>
                             <div className="px-1">
                                 <Link href="javascript:;"  className="inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-cyan-900 bg-cyan-900/20 xl:hover:ring-cyan-700 duration-300 backdrop-blur-md shadow-sm shadow-cyan-900/50">View More</Link>
                             </div>
@@ -423,7 +423,7 @@ function fantasysportsappdevelopment() {
                     <div className="w-full gap-4 flex max-sm:flex-col-reverse relative z-10 items-center max-sm:text-center">
                         <div className="order-2 w-1/2 max-sm:w-full text-white flex flex-col max-sm:gap-y-4 gap-y-7">
                             <div className="text-lg md:text-xl lg:text-2xl text-balance">Fantasy Kabaddi <span className="font-bold">App Development</span></div>
-                            <span className="text-sm md:text-base text-balance">With IMG Global Infotech, you can bring your fantasy kabaddi app idea to life. Our experienced team will guide you through the entire app development process, from conceptualization to launch. Create engaging features like user registration, team formation, player selection, live scoring, and more. Don't miss the opportunity to captivate kabaddi enthusiasts with your customized fantasy kabaddi app.</span>
+                            <span className="text-sm md:text-base text-balance">With TwinPower Software, you can bring your fantasy kabaddi app idea to life. Our experienced team will guide you through the entire app development process, from conceptualization to launch. Create engaging features like user registration, team formation, player selection, live scoring, and more. Don't miss the opportunity to captivate kabaddi enthusiasts with your customized fantasy kabaddi app.</span>
                             <div className="px-1">
                                 <Link href="javascript:;"  className="inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-cyan-900 bg-cyan-900/20 xl:hover:ring-cyan-700 duration-300 backdrop-blur-md shadow-sm shadow-cyan-900/50">View More</Link>
                             </div>
@@ -441,7 +441,7 @@ function fantasysportsappdevelopment() {
                     <div className="w-full flex max-sm:flex-col-reverse relative z-10 items-center max-sm:text-center">
                         <div className="w-1/2 max-sm:w-full text-black flex flex-col max-sm:gap-y-4 gap-y-7">
                             <div className="text-lg md:text-xl lg:text-2xl text-balance">Fantasy Stock Market <span className="font-bold">App Development</span></div>
-                            <span className="text-sm md:text-base text-balance">Ready to launch your fantasy stock app? IMG Global Infotech is your go-to partner for fantasy stock app development. Our skilled team will help you create a cutting-edge app with features like user registration, portfolio creation, virtual trading, real-time market data, and more. Step into the world of virtual stock trading with our reliable and innovative solutions.</span>
+                            <span className="text-sm md:text-base text-balance">Ready to launch your fantasy stock app? TwinPower Software is your go-to partner for fantasy stock app development. Our skilled team will help you create a cutting-edge app with features like user registration, portfolio creation, virtual trading, real-time market data, and more. Step into the world of virtual stock trading with our reliable and innovative solutions.</span>
                             <div className="px-1">
                                 <Link href="javascript:;"  className="inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-cyan-900 bg-cyan-900/20 xl:hover:ring-cyan-700 duration-300 backdrop-blur-md shadow-sm shadow-cyan-900/50">View More</Link>
                             </div>

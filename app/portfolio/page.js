@@ -235,7 +235,7 @@ function portfolio() {
     <div className="mx-auto max-w-7xl px-6 lg:px-8 z-[1] relative">
         <p className="max-md:text-xl/tight max-xl:text-2xl/tight text-3xl/tight tracking-[-0.04em] text-black text-center">
             <span className="font-normal block pb-3">Stay Informed Of Latest Innovations and Trends With Our Blogs!</span>
-            <span className="font-bold text-theme4"> Explore our insightful blogs to stay abreast of the latest innovations
+            <span className="font-bold text-theme2"> Explore our insightful blogs to stay abreast of the latest innovations
                 and trends. Stay informed, stay ahead.</span>
         </p>
         <div className="mx-auto md:mt-10 flex gap-x-8 gap-y-16 pt-10 sm:pt-8 lg:mx-0">

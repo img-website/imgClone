@@ -581,7 +581,7 @@ const Header = () => {
                           </div>
                           <div className="flex-auto">
                             <a
-                              href=".com/fantasy-kabaddi-app-development.php"
+                              href="/fantasy-kabaddi-app-development"
                               className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900"
                             >
                               Fantasy Kabaddi App
@@ -597,23 +597,7 @@ const Header = () => {
                           </div>
                           <div className="flex-auto">
                             <a
-                              href=".com/fantasy-stock-market-app-development.php"
-                              className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900"
-                            >
-                              Fantasy Stock Market App
-                              <span className="absolute inset-0 z-[1]"></span>
-                            </a>
-                          </div>
-                        </div>
-                        <div className="group/db hover:bg-gray-600/30">
-                          <div className="flex h-5 w-5 flex-none items-center justify-center rounded-full bg-gray-900 group-hover/db:bg-gray-950/90">
-                         <svg className="group-hover/db:opacity-80  !rounded-full overflow-hidden !size-3" stroke="currentColor" fill="none" stroke-width="3" viewBox="0 0 24 24" aria-hidden="true" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 0 0-3.7-3.7 48.678 48.678 0 0 0-7.324 0 4.006 4.006 0 0 0-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 0 0 3.7 3.7 48.656 48.656 0 0 0 7.324 0 4.006 4.006 0 0 0 3.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3-3 3">
-                            </path>
-                            </svg>
-                          </div>
-                          <div className="flex-auto">
-                            <a
-                              href=".com/sports-betting-app-development.php"
+                              href="/sports-betting-app-development"
                               className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900"
                             >
                               Sports Betting App
@@ -629,7 +613,7 @@ const Header = () => {
                           </div>
                           <div className="flex-auto">
                             <a
-                              href=".com/casino-game-app-development.php"
+                              href="/casino-game-app-development"
                               className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900"
                             >
                               Casino App
@@ -1989,7 +1973,7 @@ const Header = () => {
                             </div>
                             <div className="flex-auto">
                               <a
-                                href=".com/fantasy-kabaddi-app-development.php"
+                                href="/fantasy-kabaddi-app-development"
                                 className="block font-semibold opacity-80"
                               >
                                 Fantasy Kabaddi App
@@ -2012,30 +1996,7 @@ const Header = () => {
                             </div>
                             <div className="flex-auto">
                               <a
-                                href=".com/fantasy-stock-market-app-development.php"
-                                className="block font-semibold opacity-80"
-                              >
-                                Fantasy Stock Market App
-                                <span className="absolute inset-0 z-[1]"></span>
-                              </a>
-                            </div>
-                          </div>
-                          <div>
-                            <div className="flex h-1.5 w-1.5 flex-none">
-                              <svg
-                                className="h-1.5 w-1.5 opacity-90"
-                                stroke="currentColor"
-                                fill="currentColor"
-                                strokeWidth="0"
-                                viewBox="0 0 448 512"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path>
-                              </svg>
-                            </div>
-                            <div className="flex-auto">
-                              <a
-                                href=".com/sports-betting-app-development.php"
+                                href="/sports-betting-app-development"
                                 className="block font-semibold opacity-80"
                               >
                                 Sports Betting App
@@ -2058,7 +2019,7 @@ const Header = () => {
                             </div>
                             <div className="flex-auto">
                               <a
-                                href=".com/casino-game-app-development.php"
+                                href="/casino-game-app-development"
                                 className="block font-semibold opacity-80"
                               >
                                 Casino App

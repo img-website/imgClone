@@ -255,7 +255,7 @@ function fantasyFootball() {
 
          <Cta2/>
 
-         {/* ---features start */}
+         {/* {/ ---features start /} */}
 
             <div className='container pt-5 md:p-5 sm:p-8 p-5 mx-auto max-w-7xl px-6 lg:px-8 relative z-10'>
                 <div className="relative container mx-auto max-w-7xl md:px-6 lg:px-8 z-10 text-center">
@@ -421,7 +421,7 @@ function fantasyFootball() {
                     </div>
                 </div>
             </div>
-            {/* ---features Ends  */}
+            {/* {/ ---features Ends  /} */}
             <CaseStudy/>
           
             {/* Genre We Develop---- */}
