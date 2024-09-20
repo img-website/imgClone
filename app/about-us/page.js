@@ -198,12 +198,12 @@ function about() {
                         after:absolute after:rounded-full md:after:right-0 md:after:inset-y-0 md:after:my-auto md:after:translate-x-[calc(50%-2px)] md:after:translate-y-[calc(-50%+2px)] max-md:after:bottom-[1.5px] max-md:after:left-1/2 max-md:after:translate-y-1/2 max-md:after:-translate-x-1/2 after:z-20 after:size-4 after:ring-4 after:ring-theme2 after:bg-white
                         ">
                         <div className="w-full pb-3">
-                            <Image  width={1000} height={1000} quality={90} loading='lazy'className="size-20 mx-auto"  src="img/workflow-4.svg" data-src="" alt="design process testing"/>
+                            <Image  width={1000} height={1000} quality={90} loading='lazy'className="size-20 mx-auto"  src="img/workflow-4.svg" data-src="" alt="design testing"/>
                         </div>
                         <div className="w-full lg:text-xl md:text-lg text-base font-bold pb-2">Testing</div>
                         <div className="w-full md:text-base text-sm font-semibold pb-3">Quality assurance is a critical step in our process. We perform comprehensive tests, including functional, usability, and performance testing.
 
-</div>
+                      </div>
                     </div>
                 </div>
                 <div className="
