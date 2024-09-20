@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import Image from "next/image";
 import Footer from '@/components/footer/Footer'
@@ -5,8 +6,30 @@ import Header from '@/components/header/Header'
 import Cta from '@/components/cta/Cta';
 import CaseStudy from '@/components/caseStudy/CaseStudy';
 import Testimonial from '@/components/testimonial/testimonial';
+import Accordion from '@/components/accordion/Accordion';
+import Blog from '@/components/blog/Blog';
+import Form from '@/components/contactForm/Form';
+
 
 function fantasycricketAppDevelopment() {
+    const accordionItems = [
+        {
+            title: 'What is the process of creating a Fantasy Cricket Application?',
+            content: 'Using both app and web platform, building a successful fantasy cricket app is the result of enhanced and extensive look with essential features enrolled in it. Develop a detailed monetization plan while opting the right framework.'
+        },
+        {
+            title: "How Can I Make an App Like Dream11?",
+            content: 'Let IMG Global take care of this, because we have built numerous fantasy apps keeping Dream 11 as the inspiration. So, you can trust us to develop such a successful App for you too.'
+        },
+        {
+            title: 'How Much Does It Cost to Make a Fantasy Cricket App?',
+            content: 'The rough idea of the cost of developing a fantasy cricket app is $800 for both the operating systems. For the most competitive estimate, reach out to IMG Global and put forth your specific requirements.'
+        },
+        {
+            title: 'How Much Time Does It Take to Develop a Fantasy Cricket App?',
+            content: 'There is no straightforward answer to this. But, one thing is for sure, we will adhere to the deadline discucused, no matter what.'
+        },
+    ];  
     return (
         <>
             <Header />
@@ -460,9 +483,30 @@ function fantasycricketAppDevelopment() {
 
             <Testimonial/>
 
+
+        {/* accordian start */}
+        <div className='py-10'>
+                <div className='mx-auto max-w-7xl px-6 lg:px-8'>
+                    <section className="lg:w-4/5 w-full mx-auto md:mt-16 mt-8">
+                        <div className="max-w-[85rem] px-4 sm:px-6 lg:px-8 mx-auto">
+                            <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
+                                <h2 className="text-2xl font-bold md:text-4xl md:leading-tight">Your questions, answered</h2>
+                                <p className="mt-1 text-gray-600">Answers to the most frequently asked questions.</p>
+                            </div>
+                            <Accordion items={accordionItems} />
+                        </div>
+                    </section>
+                </div>
+            </div>
+            {/* accordian Ends */}
+
+
+
             <Cta />
+            <Blog/>
+            <Form/>
 
-
+            
 
             <Footer />
         </>
