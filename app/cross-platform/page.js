@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
@@ -8,12 +9,36 @@ import Cta from "@/components/cta/Cta";
 import Cta2 from "@/components/cta2/Cta2";
 import PortfolioSection from "@/components/portfolio/portfolio";
 import Reward from "@/components/reward/Reward";
+import Accordion from '@/components/accordion/Accordion';
+
 
 
 
 
 
 function crossplatform() {
+    const accordionItems = [
+        {
+          title: 'What Is the Cost of Developing Cross-Platform Apps?',
+          content: "The actual cost of developing a cross-platform app varies based on several factors, including technical integrations, platform support, project complexity, and specific requirements. Prices may differ depending on the development company you choose. In some cases, cross-platform app development can be more cost-effective than other development methods, as it is generally less expensive to build one app that works across multiple platforms rather than separate apps for each. Additionally, cross-platform development is typically faster and requires less effort for quality testing, thanks to the reuse of a single codebase."
+        },
+        {
+          title: "Can Cross-Platform App Development Help My Existing Native Business App?",
+          content: 'Cross-platform development can be utilized to enhance your current application by adding a single view, but it requires integration across all platforms. We recommend that business owners carefully consider the time and costs associated with integrating cross-platform capabilities into their existing solution before making an investment. We can help assess the viability based on your business priorities and guide you toward the best solution, including selecting the framework that aligns well with your ecosystem. Connect with our representative for a detailed discussion.'
+        },
+        {
+          title: 'What Is the Timeline for Developing a Cross-Platform Application?',
+          content: 'Cross-platform app development is typically faster than native app development and significantly quicker than creating separate apps for each platform. The speed of your project’s completion will depend on the complexity of your application and the number of platforms you plan to support.'
+        },
+        {
+          title: 'How Is Data Protected in My Cross-Platform App?',
+          content: "Security is an integral aspect of most app ecosystems, including iOS and Android. For example, Android apps run on separate virtual machines, preventing interaction between different apps, which enhances overall security. At Twin Power, we prioritize your app's security by ensuring that data remains protected from the start of your project through implementation and beyond. This includes considering robust security frameworks and employing comprehensive DevSecOps practices throughout the development process."
+        },
+        {
+          title: "Will I Retain Ownership of the Cross-Platform App's Source Code?",
+          content: 'The idea of "owning" source code can be somewhat misleading and complex. Much of app development relies on open-source code, which is freely available for developers to use. This code can be leveraged to enhance productivity and accelerate time to market for mobile applications. We ensure that your code is never hidden from you, and we make it easy to access or transfer to other providers if needed. By reaching out to us about your potential project, you can learn more about our collaborative approach and how we support our partners, including providing open access to your code.'
+        },
+      ];
     return (
         <>
             <Header />
@@ -230,11 +255,26 @@ function crossplatform() {
             {/* reasons to choose-- */}
              
              <Cta2/>
-              
+  
         
               <PortfolioSection/>
               <Cta/>
               <Reward/>
+{/* accordian start */}
+<div className='py-10'>
+                <div className='mx-auto max-w-7xl px-6 lg:px-8'>
+                    <section className="lg:w-4/5 w-full mx-auto md:mt-16 mt-8">
+                        <div className="max-w-[85rem] px-4 sm:px-6 lg:px-8 mx-auto">
+                            <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
+                                <h2 className="text-2xl font-bold md:text-4xl md:leading-tight">Your questions, answered</h2>
+                                <p className="mt-1 text-gray-600">Answers to the most frequently asked questions.</p>
+                            </div>
+                            <Accordion items={accordionItems} />
+                        </div>
+                    </section>
+                </div>
+            </div>
+            {/* accordian Ends */}
              <Blog/>
              <Form/>
             <Footer />
