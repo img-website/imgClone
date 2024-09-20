@@ -11,6 +11,8 @@ import PortfolioSection from "@/components/portfolio/portfolio";
 import Reward from "@/components/reward/Reward";
 import Gallery from "@/components/gallery/Gallery";
 import Accordion from '@/components/accordion/Accordion';
+import CaseStudy from "@/components/caseStudy/CaseStudy";
+import Testimonial from "@/components/testimonial/Testimonial";
 
 
 
@@ -420,7 +422,9 @@ function fantasyFootball() {
                 </div>
             </div>
             {/* ---features Ends  */}
-
+            <CaseStudy/>
+          
+            {/* Genre We Develop---- */}
             <div className=" border bg-theme1 py-10 relative overflow-hidden  ">
     <div className="mx-auto max-w-7xl px-6 lg:px-8 w-full">
         <div className="relative container mx-auto max-w-7xl md:px-6 lg:px-8 z-10">
@@ -464,7 +468,10 @@ function fantasyFootball() {
         </ul>
     </div>
 </div>
+            {/* Genre We Develop-end--- */}
 
+            <Testimonial/>
+             
 {/* accordian start */}
 <div className='py-10'>
                 <div className='mx-auto max-w-7xl px-6 lg:px-8'>

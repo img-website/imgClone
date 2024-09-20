@@ -277,15 +277,6 @@ function crossplatform() {
             {/* accordian Ends */}
              <Blog/>
              <Form/>
-
-            <Cta2 />
-
-
-            <PortfolioSection />
-            <Cta />
-            <Reward />
-            <Blog />
-            <Form />
             <Footer />
         </>
     )
