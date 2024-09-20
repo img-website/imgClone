@@ -103,11 +103,11 @@ function inventorymanagementsoftware() {
 
        <Cta/>
 
-       <div ClassName="relative isolate select-none py-6 md:py-8 lg:py-16 ">
-    <div ClassName="overflow-hidden">
+       <div className="relative isolate select-none py-6 md:py-8 lg:py-16 ">
+    <div className="overflow-hidden">
         
-        <div ClassName="relative container mx-auto max-w-7xl px-6 lg:px-8 z-10 text-center">
-            <p ClassName="
+        <div className="relative container mx-auto max-w-7xl px-6 lg:px-8 z-10 text-center">
+            <p className="
                 max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black text-balance
 
                 first:*:font-normal
@@ -118,36 +118,36 @@ function inventorymanagementsoftware() {
            
         </div>
     </div>
-    <div ClassName="container pt-5 md:p-5 sm:p-8 p-5 mx-auto max-w-7xl px-6 lg:px-8 relative z-10 flex">
-        <ul ClassName="
+    <div className="container pt-5 md:p-5 sm:p-8 p-5 mx-auto max-w-7xl px-6 lg:px-8 relative z-10 flex">
+        <ul className="
             flex flex-wrap md:pt-8 text-center md:text-left gap-y-6 justify-center items-stretch
         ">
-            <div ClassName="lg:w-1/3 md:w-1/2 p-3 size-auto">
-                <div ClassName="size-full border border-theme2 rounded-3xl bg-white group p-4 relative before:absolute before:top-1/2 before:-translate-y-1/2  before:-z-10 before:-left-3 before:duration-500 md:before:hover:rotate-180 md:hover:border-theme2 duration-500 md:before:hover:bg-theme2 before:rounded-3xl before:size-3/4 before:bg-theme2 ">
-                    <div ClassName="text-lg text-theme2 md:group-hover:text-theme2 duration-500 font-semibold">
+            <div className="lg:w-1/3 md:w-1/2 p-3 size-auto">
+                <div className="size-full border border-theme2 rounded-3xl bg-white group p-4 relative before:absolute before:top-1/2 before:-translate-y-1/2  before:-z-10 before:-left-3 before:duration-500 md:before:hover:rotate-180 md:hover:border-theme2 duration-500 md:before:hover:bg-theme2 before:rounded-3xl before:size-3/4 before:bg-theme2 ">
+                    <div className="text-lg text-theme2 md:group-hover:text-theme2 duration-500 font-semibold">
                     Benefits of Inventory Tracking
                     </div>
-                    <div ClassName="text-sm text-slate-500 pt-2">
+                    <div className="text-sm text-slate-500 pt-2">
                     Compared to outdated techniques like stock cards, inventory software offers a more efficient and manageable way to track inventories.
                     </div>
                 </div>
             </div>
-            <div ClassName="lg:w-1/3 md:w-1/2 p-3 size-auto">
-                <div ClassName="size-full border border-theme2 rounded-3xl bg-white group p-4 relative before:absolute before:top-1/2 before:-translate-y-1/2  before:-z-10 before:-left-3 before:duration-500 md:before:hover:rotate-180 md:hover:border-theme2 duration-500 md:before:hover:bg-theme2 before:rounded-3xl before:size-3/4 before:bg-theme2 ">
-                    <div ClassName="text-lg text-theme2 md:group-hover:text-theme2 duration-500 font-semibold">
+            <div className="lg:w-1/3 md:w-1/2 p-3 size-auto">
+                <div className="size-full border border-theme2 rounded-3xl bg-white group p-4 relative before:absolute before:top-1/2 before:-translate-y-1/2  before:-z-10 before:-left-3 before:duration-500 md:before:hover:rotate-180 md:hover:border-theme2 duration-500 md:before:hover:bg-theme2 before:rounded-3xl before:size-3/4 before:bg-theme2 ">
+                    <div className="text-lg text-theme2 md:group-hover:text-theme2 duration-500 font-semibold">
                     Optimizing Order Processing
                     </div>
-                    <div ClassName="text-sm text-slate-500 pt-2">
+                    <div className="text-sm text-slate-500 pt-2">
                         Keeping right track of inventory quantities of numerous products can be a difficult task. But with the help of a right software solution you will get notification automatically when a certain product is getting out of stock or low in quantity and needs to be reordered.
                     </div>
                 </div>
             </div>
-            <div ClassName="lg:w-1/3 md:w-1/2 p-3 size-auto">
-                <div ClassName="size-full border border-theme2 rounded-3xl bg-white group p-4 relative before:absolute before:top-1/2 before:-translate-y-1/2  before:-z-10 before:-left-3 before:duration-500 md:before:hover:rotate-180 md:hover:border-theme2 duration-500 md:before:hover:bg-theme2 before:rounded-3xl before:size-3/4 before:bg-theme2 ">
-                    <div ClassName="text-lg text-theme2 md:group-hover:text-theme2 duration-500 font-semibold">
+            <div className="lg:w-1/3 md:w-1/2 p-3 size-auto">
+                <div className="size-full border border-theme2 rounded-3xl bg-white group p-4 relative before:absolute before:top-1/2 before:-translate-y-1/2  before:-z-10 before:-left-3 before:duration-500 md:before:hover:rotate-180 md:hover:border-theme2 duration-500 md:before:hover:bg-theme2 before:rounded-3xl before:size-3/4 before:bg-theme2 ">
+                    <div className="text-lg text-theme2 md:group-hover:text-theme2 duration-500 font-semibold">
                     Enhancing Customer Satisfactio
                     </div>
-                    <div ClassName="text-sm text-slate-500 pt-2">
+                    <div className="text-sm text-slate-500 pt-2">
                     Keeping track of inventory quantities for numerous products can be challenging. However, with the right software solution, you’ll receive automatic notifications when a product is running low or out of stock, ensuring timely reordering
                     </div>
                 </div>
