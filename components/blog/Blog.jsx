@@ -14,7 +14,7 @@ const Blog = () => {
             <span className="font-normal block pb-3">
               Follow Our Blogs for the Latest Innovations and Industry Trends!
             </span>
-            <span className="font-bold text-theme1">
+            <span className="font-bold text-theme2">
               {" "}
               Discover our informative blogs to keep up with the latest
               innovations and trends. Stay updated, stay ahead.

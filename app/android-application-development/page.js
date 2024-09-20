@@ -123,7 +123,7 @@ function androidApplicationDevelopment() {
             {/* About Ends */}
 
             <Cta />
-
+            {/* card */}
             <div className="relative bg-gray-100 py-6 md:py-8 lg:py-16">
                 <div className="mx-auto max-w-7xl px-6 lg:px-8 w-full relative">
 
@@ -273,6 +273,7 @@ function androidApplicationDevelopment() {
 
 
             </div>
+            {/* card */}
 
             <Cta2/>
 
