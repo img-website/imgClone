@@ -379,7 +379,7 @@ const Header = () => {
                           </div>
                           <div className="flex-auto">
                             <a
-                              href=".com/web-development.php"
+                              href="/web-development"
                               className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900"
                             >
                               Web Development
@@ -395,7 +395,7 @@ const Header = () => {
                           </div>
                           <div className="flex-auto">
                             <a
-                              href=".com/website-design.php"
+                              href="/website-design"
                               className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900"
                             >
                               Website Design
@@ -411,7 +411,7 @@ const Header = () => {
                           </div>
                           <div className="flex-auto">
                             <a
-                              href=".com/website-redesigning.php"
+                              href="/website-redesigning"
                               className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900"
                             >
                               Website Redesign
@@ -427,7 +427,7 @@ const Header = () => {
                           </div>
                           <div className="flex-auto">
                             <a
-                              href=".com/responsive-web-designing.php"
+                              href="/responsive-web-designing"
                               className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900"
                             >
                               Responsive Design
@@ -448,7 +448,7 @@ const Header = () => {
                           </div>
                           <div className="flex-auto">
                             <a
-                              href=".com/bespoke-software-development.php"
+                              href="/bespoke-software-development"
                               className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900"
                             >
                               Bespoke Software
@@ -464,7 +464,7 @@ const Header = () => {
                           </div>
                           <div className="flex-auto">
                             <a
-                              href=".com/saas-software-development.php"
+                              href="/saas-software-development"
                               className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900"
                             >
                               SaaS Software
@@ -480,7 +480,7 @@ const Header = () => {
                           </div>
                           <div className="flex-auto">
                             <a
-                              href=".com/inventory-management-software.php"
+                              href="/inventory-management-software"
                               className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900"
                             >
                               Inventory Management
@@ -496,7 +496,7 @@ const Header = () => {
                           </div>
                           <div className="flex-auto">
                             <a
-                              href=".com/gym-management-software.php"
+                              href="/gym-management-software"
                               className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900"
                             >
                               GYM Software
@@ -512,7 +512,7 @@ const Header = () => {
                           </div>
                           <div className="flex-auto">
                             <a
-                              href=".com/customer-relationship-management-software.php"
+                              href="/customer-relationship-management"
                               className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900"
                             >
                               CRM Software
@@ -533,7 +533,7 @@ const Header = () => {
                           </div>
                           <div className="flex-auto">
                             <a
-                              href=".com/fantasy-sports-app-development.php"
+                              href="/fantasy-sports-app-development"
                               className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900"
                             >
                               Fantasy Sports App
@@ -549,7 +549,7 @@ const Header = () => {
                           </div>
                           <div className="flex-auto">
                             <a
-                              href=".com/fantasy-cricket-app-development.php"
+                              href="/fantasy-cricket-app-development"
                               className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900"
                             >
                               Fantasy Cricket App
@@ -565,7 +565,7 @@ const Header = () => {
                           </div>
                           <div className="flex-auto">
                             <a
-                              href=".com/fantasy-football-app-development.php"
+                              href="/fantasy-football-app-development"
                               className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900"
                             >
                               Fantasy Football App
@@ -891,7 +891,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href=".com/inventory-management-software.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <a href="/inventory-management-software" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Inventory Management Softwrae
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -913,7 +913,7 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href=".com/customer-relationship-management-software.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <a href="/customer-relationship-management" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           CRM Software
                           <span className="absolute inset-0 z-[1]"></span>
                         </a>
@@ -1703,7 +1703,7 @@ const Header = () => {
                             </div>
                             <div className="flex-auto">
                               <a
-                                href=".com/web-development.php"
+                                href="/web-development"
                                 className="block font-semibold opacity-80"
                               >
                                 Web Development
@@ -1726,7 +1726,7 @@ const Header = () => {
                             </div>
                             <div className="flex-auto">
                               <a
-                                href=".com/website-design.php"
+                                href="/website-design"
                                 className="block font-semibold opacity-80"
                               >
                                 Website Design
@@ -1749,7 +1749,7 @@ const Header = () => {
                             </div>
                             <div className="flex-auto">
                               <a
-                                href=".com/website-redesigning.php"
+                                href="/website-redesigning"
                                 className="block font-semibold opacity-80"
                               >
                                 Website Redesign
@@ -1772,7 +1772,7 @@ const Header = () => {
                             </div>
                             <div className="flex-auto">
                               <a
-                                href=".com/responsive-web-designing.php"
+                                href="/responsive-web-designing"
                                 className="block font-semibold opacity-80"
                               >
                                 Responsive Design
@@ -1800,7 +1800,7 @@ const Header = () => {
                             </div>
                             <div className="flex-auto">
                               <a
-                                href=".com/bespoke-software-development.php"
+                                href="/bespoke-software-development"
                                 className="block font-semibold opacity-80"
                               >
                                 Bespoke Software
@@ -1823,7 +1823,7 @@ const Header = () => {
                             </div>
                             <div className="flex-auto">
                               <a
-                                href=".com/saas-software-development.php"
+                                href="/saas-software-development"
                                 className="block font-semibold opacity-80"
                               >
                                 SaaS Software
@@ -1846,7 +1846,7 @@ const Header = () => {
                             </div>
                             <div className="flex-auto">
                               <a
-                                href=".com/inventory-management-software.php"
+                                href="/inventory-management-software"
                                 className="block font-semibold opacity-80"
                               >
                                 Inventory Management
@@ -1869,7 +1869,7 @@ const Header = () => {
                             </div>
                             <div className="flex-auto">
                               <a
-                                href=".com/gym-management-software.php"
+                                href="/gym-management-software"
                                 className="block font-semibold opacity-80"
                               >
                                 GYM Software
@@ -1892,7 +1892,7 @@ const Header = () => {
                             </div>
                             <div className="flex-auto">
                               <a
-                                href=".com/customer-relationship-management-software.php"
+                                href="/customer-relationship-management"
                                 className="block font-semibold opacity-80"
                               >
                                 CRM Software
@@ -1920,7 +1920,7 @@ const Header = () => {
                             </div>
                             <div className="flex-auto">
                               <a
-                                href=".com/fantasy-sports-app-development.php"
+                                href="/fantasy-sports-app-development"
                                 className="block font-semibold opacity-80"
                               >
                                 Fantasy Sports App
@@ -1943,7 +1943,7 @@ const Header = () => {
                             </div>
                             <div className="flex-auto">
                               <a
-                                href=".com/fantasy-cricket-app-development.php"
+                                href="/fantasy-cricket-app-development"
                                 className="block font-semibold opacity-80"
                               >
                                 Fantasy Cricket App
@@ -1966,7 +1966,7 @@ const Header = () => {
                             </div>
                             <div className="flex-auto">
                               <a
-                                href=".com/fantasy-football-app-development.php"
+                                href="/fantasy-football-app-development"
                                 className="block font-semibold opacity-80"
                               >
                                 Fantasy Football App
@@ -2333,7 +2333,7 @@ const Header = () => {
                           <svg className="h-1.5 w-1.5 opacity-90" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                         </div>
                         <div className="flex-auto">
-                          <a href=".com/inventory-management-software.php" className="block font-semibold opacity-80">
+                          <a href="/inventory-management-software" className="block font-semibold opacity-80">
                             Inventory Management Softwrae
                             <span className="absolute inset-0 z-[1]"></span>
                           </a>
@@ -2355,7 +2355,7 @@ const Header = () => {
                           <svg className="h-1.5 w-1.5 opacity-90" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                         </div>
                         <div className="flex-auto">
-                          <a href=".com/customer-relationship-management-software.php" className="block font-semibold opacity-80">
+                          <a href="/customer-relationship-management" className="block font-semibold opacity-80">
                             CRM Software
                             <span className="absolute inset-0 z-[1]"></span>
                           </a>
