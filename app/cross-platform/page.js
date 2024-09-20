@@ -42,8 +42,8 @@ function crossplatform() {
     return (
         <>
             <Header />
-   {/* hero */}
-   <div id="heroColor4" data-color="indigo">
+            {/* hero */}
+            <div id="heroColor4" data-color="indigo">
                 <span className="hidden before:from-theme1 before:via-theme1/50 before:to-theme1/80 from-theme1 via-theme1/50 to-theme1/80  text-indigo-700">
                     <span className="via-indigo-500 from-indigo-100 to-indigo-100 *:*:text-indigo-400"></span>
                     <span className="bg-theme1/50 hover:bg-indigo-700"></span>
@@ -61,7 +61,7 @@ function crossplatform() {
                                         </span>
                                     </div>
                                     <div className="max-lg:text-sm text-base text-white/80 pt-5 text-pretty w-10/12 max-lg:mx-auto">
-                                    Cross-platform development offers a unified approach by using universal code and a common UI framework, streamlining the development process. We deliver mobile app solutions that meet client needs and function seamlessly on both Android and iOS devices.
+                                        Cross-platform development offers a unified approach by using universal code and a common UI framework, streamlining the development process. We deliver mobile app solutions that meet client needs and function seamlessly on both Android and iOS devices.
                                     </div>
 
                                 </div>
@@ -93,9 +93,9 @@ function crossplatform() {
                 </div>
             </div>
             {/* hero */}
-            
-             {/* About Start */}
-             <div className="">
+
+            {/* About Start */}
+            <div className="">
                 <div className="relative bg-slate-50 py-6 md:py-8 lg:py-16 overflow-hidden ">
                     <div className="mx-auto max-w-7xl flex px-6 lg:px-8 w-full">
                         <div className="absolute order-2 inset-0 size-full pointer-events-none overflow-hidden">
@@ -131,10 +131,10 @@ function crossplatform() {
 
                                 </p>
                                 <p className="mt-4 text-sm md:text-base leading-7 text-slate-600">
-                                Cross-platform application development is the future for creating robust apps. It reduces both cost and development time. As industry pioneers, we pride ourselves on our expertise in cross-platform development, crafting apps with a focus on exceptional user experience.
+                                    Cross-platform application development is the future for creating robust apps. It reduces both cost and development time. As industry pioneers, we pride ourselves on our expertise in cross-platform development, crafting apps with a focus on exceptional user experience.
                                 </p>
                                 <p className="mt-4 text-sm md:text-base leading-7 text-slate-600">
-                                Our products are highly regarded for their top-quality in the cross-platform sector. By leveraging advanced cross-platform technologies, we tailor solutions to meet specific business needs. Our experienced developers excel in using cutting-edge tools such as Ionic, Sencha, Cocos2d-X, PhoneGap, and Cordova. Our commitment, expertise, and experience set us apart from competitors, ensuring we deliver the best cross-platform applications available.                                </p>
+                                    Our products are highly regarded for their top-quality in the cross-platform sector. By leveraging advanced cross-platform technologies, we tailor solutions to meet specific business needs. Our experienced developers excel in using cutting-edge tools such as Ionic, Sencha, Cocos2d-X, PhoneGap, and Cordova. Our commitment, expertise, and experience set us apart from competitors, ensuring we deliver the best cross-platform applications available.                                </p>
 
                                 <div className="mt-8 flex gap-4">
                                     <button className="px-4 text-sm text-[white] bg-theme1 rounded-full inline-flex items-center gap-2 font-semibold py-3 border-theme1 border-2 w-max hover:bg-theme1/80 duration-300">
@@ -154,104 +154,104 @@ function crossplatform() {
 
             {/* reasons to choose-- */}
             <div className="relative isolate select-none py-6 md:py-8 lg:py-16">
-        <div className="overflow-hidden">
-            <div className="absolute inset-x-0 top-0 h-96 z-0 text-slate-600/5 [mask-image:linear-gradient(to_top,transparent,white)] pointer-events-none">
-                <svg className="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
-                    <defs>
-                        <pattern id="ED433" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
-                            <path d="M0 32V.5H32" fill="none" stroke="currentColor"></path>
-                        </pattern>
-                    </defs>
-                    <rect width="100%" height="100%" fill="url(#ED433)"></rect>
-                </svg>
-            </div>
-            <div className="relative container mx-auto max-w-7xl px-6 lg:px-8 z-10 text-center">
-                <p className=" max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black text-balance
+                <div className="overflow-hidden">
+                    <div className="absolute inset-x-0 top-0 h-96 z-0 text-slate-600/5 [mask-image:linear-gradient(to_top,transparent,white)] pointer-events-none">
+                        <svg className="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <pattern id="ED433" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
+                                    <path d="M0 32V.5H32" fill="none" stroke="currentColor"></path>
+                                </pattern>
+                            </defs>
+                            <rect width="100%" height="100%" fill="url(#ED433)"></rect>
+                        </svg>
+                    </div>
+                    <div className="relative container mx-auto max-w-7xl px-6 lg:px-8 z-10 text-center">
+                        <p className=" max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black text-balance
 
                     first:*:font-normal
 
                     last:*:font-bold last:*:text-theme4
-                "><span>Lorem ipsum dolor sit amet consectetur   </span> 
-                    <span>adipisicing elit. Sit temporibus ipsum  </span></p>                 
+                "><span>Lorem ipsum dolor sit amet consectetur   </span>
+                            <span>adipisicing elit. Sit temporibus ipsum  </span></p>
+                    </div>
+                </div>
+                <div className="container pt-5 md:p-5 sm:p-8 p-5 mx-auto max-w-7xl px-6 lg:px-8 relative z-10 flex">
+                    <div className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 gap-8 relative">
+                        <div className="bg-white m-3 shadow-2xl rounded-xl flex flex-col items-center py-10 px-4 relative before:absolute before:h-full before:w-full before:bg-sky-400 before:top-5 before:rounded-xl before:-left-4 before:-z-10 before:hover:shadow-2xl before:hover:shadow-sky-400 before:duration-300">
+                            <div className="*:size-16 *:p-1 *:mt-2 text-sky-400">
+                                <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path><polyline points="14 2 14 8 20 8"></polyline><path d="M8 13h2"></path><path d="M8 17h2"></path><path d="M14 13h2"></path><path d="M14 17h2"></path></svg>
+                            </div>
+                            <div className="md:text-xl mt-2 mb-4 text-center sm:text-lg text-base font-medium leading-6 text-sky-400  px-2 py-1 rounded-lg">
+                                Results-Driven Approach
+                            </div>
+                            <p className="mt-2 sm:text-base text-sm leading-6 font-normal text-gray-500 text-center w-full">
+                                Native mobile applications generally offer superior performance compared to hybrid apps, delivering faster and more efficient results.
+                            </p>
+                            <div className="absolute w-6 h-28 bg-sky-400 -left-3 bottom-10 after:absolute after:size-5 after:-z-0 after:-bottom-2 after:rotate-45 after:bg-sky-400 before:absolute before:size-5 before:-top-2 before:left-0 before:rotate-45 before:bg-sky-400"></div>
+                        </div>
+                        <div className="bg-white m-3 shadow-2xl rounded-xl flex flex-col items-center py-10 px-4 relative before:absolute before:h-full before:w-full before:bg-cyan-400 before:top-5 before:rounded-xl before:-left-4 before:-z-10 before:hover:shadow-2xl before:hover:shadow-cyan-400 before:duration-300">
+                            <div className="*:size-16 *:p-1 *:mt-2 text-cyan-400">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><g id="Delivery_Truck"><g><path d="M21.47,11.185l-1.03-1.43a2.5,2.5,0,0,0-2.03-1.05H14.03V6.565a2.5,2.5,0,0,0-2.5-2.5H4.56a2.507,2.507,0,0,0-2.5,2.5v9.94a1.5,1.5,0,0,0,1.5,1.5H4.78a2.242,2.242,0,0,0,4.44,0h5.56a2.242,2.242,0,0,0,4.44,0h1.22a1.5,1.5,0,0,0,1.5-1.5v-3.87A2.508,2.508,0,0,0,21.47,11.185ZM7,18.935a1.25,1.25,0,1,1,1.25-1.25A1.25,1.25,0,0,1,7,18.935Zm6.03-1.93H9.15a2.257,2.257,0,0,0-4.3,0H3.56a.5.5,0,0,1-.5-.5V6.565a1.5,1.5,0,0,1,1.5-1.5h6.97a1.5,1.5,0,0,1,1.5,1.5ZM17,18.935a1.25,1.25,0,1,1,1.25-1.25A1.25,1.25,0,0,1,17,18.935Zm3.94-2.43a.5.5,0,0,1-.5.5H19.15a2.257,2.257,0,0,0-4.3,0h-.82v-7.3h4.38a1.516,1.516,0,0,1,1.22.63l1.03,1.43a1.527,1.527,0,0,1,.28.87Z"></path><path d="M18.029,12.205h-2a.5.5,0,0,1,0-1h2a.5.5,0,0,1,0,1Z"></path></g></g></svg>
+                            </div>
+                            <div className="md:text-xl mt-2 mb-4 text-center sm:text-lg text-base font-medium leading-6 text-cyan-400  px-2 py-1 rounded-lg">
+                                Rapid Delivery
+                            </div>
+                            <p className="mt-2 sm:text-base text-sm leading-6 font-normal text-gray-500 text-center w-full">
+                                With an agile process, we involve our clients at every step. Count on timely delivery and cost-effective solutions designed to meet goals on schedule and within budget.
+                            </p>
+                            <div className="absolute w-6 h-28 bg-cyan-400 -left-3 bottom-10 after:absolute after:size-5 after:-z-0 after:-bottom-2 after:rotate-45 after:bg-cyan-400 before:absolute before:size-5 before:-top-2 before:left-0 before:rotate-45 before:bg-cyan-400"></div>
+                        </div>
+                        <div className="bg-white m-3 shadow-2xl rounded-xl flex flex-col items-center py-10 px-4 relative before:absolute before:h-full before:w-full before:bg-blue-400 before:top-5 before:rounded-xl before:-left-4 before:-z-10 before:hover:shadow-2xl before:hover:shadow-blue-400 before:duration-300">
+                            <div className="*:size-16 *:p-1 *:mt-2 text-blue-400">
+                                <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M10 13a2 2 0 1 0 4 0a2 2 0 0 0 -4 0"></path><path d="M8 21v-1a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v1"></path><path d="M15 5a2 2 0 1 0 4 0a2 2 0 0 0 -4 0"></path><path d="M17 10h2a2 2 0 0 1 2 2v1"></path><path d="M5 5a2 2 0 1 0 4 0a2 2 0 0 0 -4 0"></path><path d="M3 13v-1a2 2 0 0 1 2 -2h2"></path></svg>
+                            </div>
+                            <div className="md:text-xl mt-2 mb-4 text-center sm:text-lg text-base font-medium leading-6 text-blue-400  px-2 py-1 rounded-lg">
+                                Skilled and Experienced Team
+                            </div>
+                            <p className="mt-2 sm:text-base text-sm leading-6 font-normal text-gray-500 text-center w-full">
+                                Our talented developers stay up-to-date with the latest technologies to deliver exceptional custom cross-platform solutions. They also focus on creating apps with unmatched UI/UX designs.
+                            </p>
+                            <div className="absolute w-6 h-28 bg-blue-400 -left-3 bottom-10 after:absolute after:size-5 after:-z-0 after:-bottom-2 after:rotate-45 after:bg-blue-400 before:absolute before:size-5 before:-top-2 before:left-0 before:rotate-45 before:bg-blue-400"></div>
+                        </div>
+                        <div className="bg-white m-3 shadow-2xl rounded-xl flex flex-col items-center py-10 px-4 relative before:absolute before:h-full before:w-full before:bg-indigo-400 before:top-5 before:rounded-xl before:-left-4 before:-z-10 before:hover:shadow-2xl before:hover:shadow-indigo-400 before:duration-300">
+                            <div className="*:size-16 *:p-1 *:mt-2 text-indigo-400">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16.5,19 C17.8807119,19 19,17.8807119 19,16.5 C19,15.1192881 17.8807119,14 16.5,14 C15.1192881,14 14,15.1192881 14,16.5 C14,17.8807119 15.1192881,19 16.5,19 Z M10,5 L12,3 M7.5,10 C8.88071187,10 10,8.88071187 10,7.5 C10,6.11928813 8.88071187,5 7.5,5 C6.11928813,5 5,6.11928813 5,7.5 C5,8.88071187 6.11928813,10 7.5,10 Z M8,16 L16,8 M5.5,21 C6.88071187,21 8,19.8807119 8,18.5 C8,17.1192881 6.88071187,16 5.5,16 C4.11928813,16 3,17.1192881 3,18.5 C3,19.8807119 4.11928813,21 5.5,21 Z M18.5,8 C19.8807119,8 21,6.88071187 21,5.5 C21,4.11928813 19.8807119,3 18.5,3 C17.1192881,3 16,4.11928813 16,5.5 C16,6.88071187 17.1192881,8 18.5,8 Z M12,21 L14,19"></path></svg>
+                            </div>
+                            <div className="md:text-xl mt-2 mb-4 text-center sm:text-lg text-base font-medium leading-6 text-indigo-400  px-2 py-1 rounded-lg">
+                                Diverse Technologies
+                            </div>
+                            <p className="mt-2 sm:text-base text-sm leading-6 font-normal text-gray-500 text-center w-full">
+                                Whether it’s developing cross-platform HTML5 apps or creating applications with PhoneGap or Titanium, we’ve got you covered.
+                            </p>
+                            <div className="absolute w-6 h-28 bg-indigo-400 -left-3 bottom-10 after:absolute after:size-5 after:-z-0 after:-bottom-2 after:rotate-45 after:bg-indigo-400 before:absolute before:size-5 before:-top-2 before:left-0 before:rotate-45 before:bg-indigo-400"></div>
+                        </div>
+                        <div className="bg-white m-3 shadow-2xl rounded-xl flex flex-col items-center py-10 px-4 relative before:absolute before:h-full before:w-full before:bg-violet-400 before:top-5 before:rounded-xl before:-left-4 before:-z-10 before:hover:shadow-2xl before:hover:shadow-violet-400 before:duration-300">
+                            <div className="*:size-16 *:p-1 *:mt-2 text-violet-400">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M259.664 27.143l-120.826 69.76V236.42l120.826 69.758 120.824-69.758V96.902l-120.824-69.76zm0 21.58l97.207 56.125-94.868 54.77-97.21-56.12 94.872-54.775zm.79 47.554c-16.622 0-31.888 5.78-43.923 15.426l46.052 26.58 43.564-25.11c-12.29-10.524-28.24-16.896-45.69-16.896zM157.528 120.88l93.96 54.25v104.747l-93.96-54.246V120.88zm204.274 2.7v102.05l-91.624 52.9V176.48l91.625-52.9zm-171.216 35.252c-.28 2.547-.436 5.13-.436 7.752 0 29.456 18.122 54.667 43.82 65.13v-47.876l-43.384-25.006zm139.94 2.24l-42.83 24.516v45.826c25.3-10.644 43.068-35.66 43.068-64.83 0-1.857-.095-3.69-.237-5.512zM116.57 227.39l-91.615 52.895V419.8l120.826 69.76 111.548-64.404 111.547 64.403L489.7 419.8V280.287l-86.944-50.2v19.48l-1.818 1.05 65.146 37.613L371.214 343l-65.148-37.613-18.69 10.79 73.323 42.332V463.26l-93.962-54.248v-80.916l-7.074 4.084-11.746-6.782v83.614l-91.625 52.9v-102.05l75.66-43.68-18.69-10.79L148.12 343 50.91 286.88l65.66-37.91v-21.58zm30.002 52.268c-16.623 0-31.888 5.783-43.924 15.428l46.05 26.578 43.566-25.11c-12.29-10.524-28.242-16.896-45.692-16.896zm223.094 0c-16.623 0-31.887 5.783-43.922 15.428l46.05 26.578 43.565-25.11c-12.29-10.524-28.244-16.896-45.694-16.896zm-326.02 24.606l93.958 54.248V463.26l-93.96-54.248V304.264zm427.366 2.7V409.01L379.39 461.91V359.86l91.622-52.897zm-394.31 35.25c-.28 2.546-.436 5.13-.436 7.75 0 29.457 18.12 54.668 43.818 65.13V367.22L76.7 342.212zm223.093 0c-.28 2.546-.436 5.13-.436 7.75 0 29.456 18.122 54.665 43.818 65.128V367.22l-43.383-25.007zm-83.152 2.24l-42.83 24.517v45.825c25.3-10.644 43.066-35.66 43.066-64.83 0-1.857-.096-3.69-.237-5.512zm223.095 0l-42.83 24.517v45.825c25.3-10.644 43.065-35.66 43.065-64.83 0-1.857-.093-3.69-.235-5.512z"></path></svg>
+                            </div>
+                            <div className="md:text-xl mt-2 mb-4 text-center sm:text-lg text-base font-medium leading-6 text-violet-400  px-2 py-1 rounded-lg">
+                                Thorough Methodology
+                            </div>
+                            <p className="mt-2 sm:text-base text-sm leading-6 font-normal text-gray-500 text-center w-full">
+                                Our approach is both flexible and comprehensive, employing proven techniques to achieve outstanding results in mobile app development.
+                            </p>
+                            <div className="absolute w-6 h-28 bg-violet-400 -left-3 bottom-10 after:absolute after:size-5 after:-z-0 after:-bottom-2 after:rotate-45 after:bg-violet-400 before:absolute before:size-5 before:-top-2 before:left-0 before:rotate-45 before:bg-violet-400"></div>
+                        </div>
+                        <div className="bg-white m-3 shadow-2xl rounded-xl flex flex-col items-center py-10 px-4 relative before:absolute before:h-full before:w-full before:bg-purple-400 before:top-5 before:rounded-xl before:-left-4 before:-z-10 before:hover:shadow-2xl before:hover:shadow-purple-400 before:duration-300">
+                            <div className="*:size-16 *:p-1 *:mt-2 text-purple-400">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M18 10.48V6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2v-4.48l4 3.98v-11l-4 3.98zM12 12l3 1.73-1 1.73-3-1.73V17H9v-3.27l-3 1.73-1-1.73L8 12l-3-1.73 1-1.73 3 1.73V7h2v3.27l3-1.73 1 1.73L12 12z"></path></svg>
+                            </div>
+                            <div className="md:text-xl mt-2 mb-4 text-center sm:text-lg text-base font-medium leading-6 text-purple-400  px-2 py-1 rounded-lg">
+                                Demonstrated Success
+                            </div>
+                            <p className="mt-2 sm:text-base text-sm leading-6 font-normal text-gray-500 text-center w-full">
+                                We are recognized as a trusted industry partner on Clutch and Good Firms, showcasing our expertise in successful project execution. Our commitment to exceptional service and exceeding expectations ensures customer satisfaction and a proven track record.
+                            </p>
+                            <div className="absolute w-6 h-28 bg-purple-400 -left-3 bottom-10 after:absolute after:size-5 after:-z-0 after:-bottom-2 after:rotate-45 after:bg-purple-400 before:absolute before:size-5 before:-top-2 before:left-0 before:rotate-45 before:bg-purple-400"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div className="container pt-5 md:p-5 sm:p-8 p-5 mx-auto max-w-7xl px-6 lg:px-8 relative z-10 flex">
-            <div className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 gap-8 relative">
-                <div className="bg-white m-3 shadow-2xl rounded-xl flex flex-col items-center py-10 px-4 relative before:absolute before:h-full before:w-full before:bg-sky-400 before:top-5 before:rounded-xl before:-left-4 before:-z-10 before:hover:shadow-2xl before:hover:shadow-sky-400 before:duration-300">
-                    <div className="*:size-16 *:p-1 *:mt-2 text-sky-400">
-                    <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path><polyline points="14 2 14 8 20 8"></polyline><path d="M8 13h2"></path><path d="M8 17h2"></path><path d="M14 13h2"></path><path d="M14 17h2"></path></svg>
-                    </div>
-                    <div className="md:text-xl mt-2 mb-4 text-center sm:text-lg text-base font-medium leading-6 text-sky-400  px-2 py-1 rounded-lg">
-                    Results-Driven Approach
-                    </div> 
-                    <p className="mt-2 sm:text-base text-sm leading-6 font-normal text-gray-500 text-center w-full">
-                    Native mobile applications generally offer superior performance compared to hybrid apps, delivering faster and more efficient results.
-                    </p>                         
-                    <div className="absolute w-6 h-28 bg-sky-400 -left-3 bottom-10 after:absolute after:size-5 after:-z-0 after:-bottom-2 after:rotate-45 after:bg-sky-400 before:absolute before:size-5 before:-top-2 before:left-0 before:rotate-45 before:bg-sky-400"></div>
-                </div>
-                <div className="bg-white m-3 shadow-2xl rounded-xl flex flex-col items-center py-10 px-4 relative before:absolute before:h-full before:w-full before:bg-cyan-400 before:top-5 before:rounded-xl before:-left-4 before:-z-10 before:hover:shadow-2xl before:hover:shadow-cyan-400 before:duration-300">
-                    <div className="*:size-16 *:p-1 *:mt-2 text-cyan-400">
-                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><g id="Delivery_Truck"><g><path d="M21.47,11.185l-1.03-1.43a2.5,2.5,0,0,0-2.03-1.05H14.03V6.565a2.5,2.5,0,0,0-2.5-2.5H4.56a2.507,2.507,0,0,0-2.5,2.5v9.94a1.5,1.5,0,0,0,1.5,1.5H4.78a2.242,2.242,0,0,0,4.44,0h5.56a2.242,2.242,0,0,0,4.44,0h1.22a1.5,1.5,0,0,0,1.5-1.5v-3.87A2.508,2.508,0,0,0,21.47,11.185ZM7,18.935a1.25,1.25,0,1,1,1.25-1.25A1.25,1.25,0,0,1,7,18.935Zm6.03-1.93H9.15a2.257,2.257,0,0,0-4.3,0H3.56a.5.5,0,0,1-.5-.5V6.565a1.5,1.5,0,0,1,1.5-1.5h6.97a1.5,1.5,0,0,1,1.5,1.5ZM17,18.935a1.25,1.25,0,1,1,1.25-1.25A1.25,1.25,0,0,1,17,18.935Zm3.94-2.43a.5.5,0,0,1-.5.5H19.15a2.257,2.257,0,0,0-4.3,0h-.82v-7.3h4.38a1.516,1.516,0,0,1,1.22.63l1.03,1.43a1.527,1.527,0,0,1,.28.87Z"></path><path d="M18.029,12.205h-2a.5.5,0,0,1,0-1h2a.5.5,0,0,1,0,1Z"></path></g></g></svg>
-                    </div>
-                    <div className="md:text-xl mt-2 mb-4 text-center sm:text-lg text-base font-medium leading-6 text-cyan-400  px-2 py-1 rounded-lg">
-                    Rapid Delivery
-                    </div>      
-                    <p className="mt-2 sm:text-base text-sm leading-6 font-normal text-gray-500 text-center w-full">
-                    With an agile process, we involve our clients at every step. Count on timely delivery and cost-effective solutions designed to meet goals on schedule and within budget.
-                    </p>                    
-                    <div className="absolute w-6 h-28 bg-cyan-400 -left-3 bottom-10 after:absolute after:size-5 after:-z-0 after:-bottom-2 after:rotate-45 after:bg-cyan-400 before:absolute before:size-5 before:-top-2 before:left-0 before:rotate-45 before:bg-cyan-400"></div>
-                </div>
-                 <div className="bg-white m-3 shadow-2xl rounded-xl flex flex-col items-center py-10 px-4 relative before:absolute before:h-full before:w-full before:bg-blue-400 before:top-5 before:rounded-xl before:-left-4 before:-z-10 before:hover:shadow-2xl before:hover:shadow-blue-400 before:duration-300">
-                    <div className="*:size-16 *:p-1 *:mt-2 text-blue-400">
-                    <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M10 13a2 2 0 1 0 4 0a2 2 0 0 0 -4 0"></path><path d="M8 21v-1a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v1"></path><path d="M15 5a2 2 0 1 0 4 0a2 2 0 0 0 -4 0"></path><path d="M17 10h2a2 2 0 0 1 2 2v1"></path><path d="M5 5a2 2 0 1 0 4 0a2 2 0 0 0 -4 0"></path><path d="M3 13v-1a2 2 0 0 1 2 -2h2"></path></svg>
-                    </div>
-                    <div className="md:text-xl mt-2 mb-4 text-center sm:text-lg text-base font-medium leading-6 text-blue-400  px-2 py-1 rounded-lg">
-                    Skilled and Experienced Team
-                    </div>    
-                    <p className="mt-2 sm:text-base text-sm leading-6 font-normal text-gray-500 text-center w-full">
-                    Our talented developers stay up-to-date with the latest technologies to deliver exceptional custom cross-platform solutions. They also focus on creating apps with unmatched UI/UX designs.
-                    </p>                       
-                    <div className="absolute w-6 h-28 bg-blue-400 -left-3 bottom-10 after:absolute after:size-5 after:-z-0 after:-bottom-2 after:rotate-45 after:bg-blue-400 before:absolute before:size-5 before:-top-2 before:left-0 before:rotate-45 before:bg-blue-400"></div>
-                </div>
-                <div className="bg-white m-3 shadow-2xl rounded-xl flex flex-col items-center py-10 px-4 relative before:absolute before:h-full before:w-full before:bg-indigo-400 before:top-5 before:rounded-xl before:-left-4 before:-z-10 before:hover:shadow-2xl before:hover:shadow-indigo-400 before:duration-300">
-                    <div className="*:size-16 *:p-1 *:mt-2 text-indigo-400">
-                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16.5,19 C17.8807119,19 19,17.8807119 19,16.5 C19,15.1192881 17.8807119,14 16.5,14 C15.1192881,14 14,15.1192881 14,16.5 C14,17.8807119 15.1192881,19 16.5,19 Z M10,5 L12,3 M7.5,10 C8.88071187,10 10,8.88071187 10,7.5 C10,6.11928813 8.88071187,5 7.5,5 C6.11928813,5 5,6.11928813 5,7.5 C5,8.88071187 6.11928813,10 7.5,10 Z M8,16 L16,8 M5.5,21 C6.88071187,21 8,19.8807119 8,18.5 C8,17.1192881 6.88071187,16 5.5,16 C4.11928813,16 3,17.1192881 3,18.5 C3,19.8807119 4.11928813,21 5.5,21 Z M18.5,8 C19.8807119,8 21,6.88071187 21,5.5 C21,4.11928813 19.8807119,3 18.5,3 C17.1192881,3 16,4.11928813 16,5.5 C16,6.88071187 17.1192881,8 18.5,8 Z M12,21 L14,19"></path></svg>
-                     </div>
-                    <div className="md:text-xl mt-2 mb-4 text-center sm:text-lg text-base font-medium leading-6 text-indigo-400  px-2 py-1 rounded-lg">
-                    Diverse Technologies
-                    </div>             
-                    <p className="mt-2 sm:text-base text-sm leading-6 font-normal text-gray-500 text-center w-full">
-                    Whether it’s developing cross-platform HTML5 apps or creating applications with PhoneGap or Titanium, we’ve got you covered.
-                    </p>          
-                    <div className="absolute w-6 h-28 bg-indigo-400 -left-3 bottom-10 after:absolute after:size-5 after:-z-0 after:-bottom-2 after:rotate-45 after:bg-indigo-400 before:absolute before:size-5 before:-top-2 before:left-0 before:rotate-45 before:bg-indigo-400"></div>
-                </div>
-                <div className="bg-white m-3 shadow-2xl rounded-xl flex flex-col items-center py-10 px-4 relative before:absolute before:h-full before:w-full before:bg-violet-400 before:top-5 before:rounded-xl before:-left-4 before:-z-10 before:hover:shadow-2xl before:hover:shadow-violet-400 before:duration-300">
-                    <div className="*:size-16 *:p-1 *:mt-2 text-violet-400">
-                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M259.664 27.143l-120.826 69.76V236.42l120.826 69.758 120.824-69.758V96.902l-120.824-69.76zm0 21.58l97.207 56.125-94.868 54.77-97.21-56.12 94.872-54.775zm.79 47.554c-16.622 0-31.888 5.78-43.923 15.426l46.052 26.58 43.564-25.11c-12.29-10.524-28.24-16.896-45.69-16.896zM157.528 120.88l93.96 54.25v104.747l-93.96-54.246V120.88zm204.274 2.7v102.05l-91.624 52.9V176.48l91.625-52.9zm-171.216 35.252c-.28 2.547-.436 5.13-.436 7.752 0 29.456 18.122 54.667 43.82 65.13v-47.876l-43.384-25.006zm139.94 2.24l-42.83 24.516v45.826c25.3-10.644 43.068-35.66 43.068-64.83 0-1.857-.095-3.69-.237-5.512zM116.57 227.39l-91.615 52.895V419.8l120.826 69.76 111.548-64.404 111.547 64.403L489.7 419.8V280.287l-86.944-50.2v19.48l-1.818 1.05 65.146 37.613L371.214 343l-65.148-37.613-18.69 10.79 73.323 42.332V463.26l-93.962-54.248v-80.916l-7.074 4.084-11.746-6.782v83.614l-91.625 52.9v-102.05l75.66-43.68-18.69-10.79L148.12 343 50.91 286.88l65.66-37.91v-21.58zm30.002 52.268c-16.623 0-31.888 5.783-43.924 15.428l46.05 26.578 43.566-25.11c-12.29-10.524-28.242-16.896-45.692-16.896zm223.094 0c-16.623 0-31.887 5.783-43.922 15.428l46.05 26.578 43.565-25.11c-12.29-10.524-28.244-16.896-45.694-16.896zm-326.02 24.606l93.958 54.248V463.26l-93.96-54.248V304.264zm427.366 2.7V409.01L379.39 461.91V359.86l91.622-52.897zm-394.31 35.25c-.28 2.546-.436 5.13-.436 7.75 0 29.457 18.12 54.668 43.818 65.13V367.22L76.7 342.212zm223.093 0c-.28 2.546-.436 5.13-.436 7.75 0 29.456 18.122 54.665 43.818 65.128V367.22l-43.383-25.007zm-83.152 2.24l-42.83 24.517v45.825c25.3-10.644 43.066-35.66 43.066-64.83 0-1.857-.096-3.69-.237-5.512zm223.095 0l-42.83 24.517v45.825c25.3-10.644 43.065-35.66 43.065-64.83 0-1.857-.093-3.69-.235-5.512z"></path></svg>
-                    </div>
-                    <div className="md:text-xl mt-2 mb-4 text-center sm:text-lg text-base font-medium leading-6 text-violet-400  px-2 py-1 rounded-lg">
-                    Thorough Methodology
-                    </div>   
-                    <p className="mt-2 sm:text-base text-sm leading-6 font-normal text-gray-500 text-center w-full">
-                    Our approach is both flexible and comprehensive, employing proven techniques to achieve outstanding results in mobile app development.
-                    </p>                    
-                    <div className="absolute w-6 h-28 bg-violet-400 -left-3 bottom-10 after:absolute after:size-5 after:-z-0 after:-bottom-2 after:rotate-45 after:bg-violet-400 before:absolute before:size-5 before:-top-2 before:left-0 before:rotate-45 before:bg-violet-400"></div>
-                </div>
-                <div className="bg-white m-3 shadow-2xl rounded-xl flex flex-col items-center py-10 px-4 relative before:absolute before:h-full before:w-full before:bg-purple-400 before:top-5 before:rounded-xl before:-left-4 before:-z-10 before:hover:shadow-2xl before:hover:shadow-purple-400 before:duration-300">
-                    <div className="*:size-16 *:p-1 *:mt-2 text-purple-400">
-                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M18 10.48V6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2v-4.48l4 3.98v-11l-4 3.98zM12 12l3 1.73-1 1.73-3-1.73V17H9v-3.27l-3 1.73-1-1.73L8 12l-3-1.73 1-1.73 3 1.73V7h2v3.27l3-1.73 1 1.73L12 12z"></path></svg>
-                    </div>
-                    <div className="md:text-xl mt-2 mb-4 text-center sm:text-lg text-base font-medium leading-6 text-purple-400  px-2 py-1 rounded-lg">
-                    Demonstrated Success
-                    </div>   
-                    <p className="mt-2 sm:text-base text-sm leading-6 font-normal text-gray-500 text-center w-full">
-                    We are recognized as a trusted industry partner on Clutch and Good Firms, showcasing our expertise in successful project execution. Our commitment to exceptional service and exceeding expectations ensures customer satisfaction and a proven track record.
-                    </p>                    
-                    <div className="absolute w-6 h-28 bg-purple-400 -left-3 bottom-10 after:absolute after:size-5 after:-z-0 after:-bottom-2 after:rotate-45 after:bg-purple-400 before:absolute before:size-5 before:-top-2 before:left-0 before:rotate-45 before:bg-purple-400"></div>
-                </div>
-            </div>
-        </div>
-    </div>
             {/* reasons to choose-- */}
              
              <Cta2/>
@@ -277,6 +277,15 @@ function crossplatform() {
             {/* accordian Ends */}
              <Blog/>
              <Form/>
+
+            <Cta2 />
+
+
+            <PortfolioSection />
+            <Cta />
+            <Reward />
+            <Blog />
+            <Form />
             <Footer />
         </>
     )
