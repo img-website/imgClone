@@ -4,6 +4,8 @@ import Image from "next/image";
 import Reward from '@/components/reward/Reward';
 import Cta from '@/components/cta/Cta';
 import Footer from '@/components/footer/Footer';
+import Blog from '@/components/blog/Blog';
+import Form from '@/components/contactForm/Form';
 
 
 
@@ -107,130 +109,10 @@ function about() {
 
             <Cta />
 
-            {/* workflow */}
-            <section className=" pb-8 py-6 md:py-8 lg:py-16 overflow-hidden">
-                <div className="flex flex-wrap w-full max-w-7xl mx-auto px-6 lg:px-8 max-lg:gap-y-8">
-                    <div className="w-full lg:pl-8">
-                        <p className="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black empty:hidden text-balance text-center">
-                            <span>Our</span>
-                            <span className="font-bold text-theme2"> Procedure</span>
-                        </p>
-                        <p className="mt-4 text-sm md:text-base leading-7 text-slate-600 text-center"> A structured team, empowered by vast experience and state-of-the-art infrastructure.
-                        </p>
-                    </div>
-                </div>
-                <div className="flex flex-wrap w-full px-6 lg:px-8 max-lg:gap-y-8">
-                    <div className="w-full pt-8">
-                        <div className="flex max-md:flex-col overflow-x-auto py-16 px-8 -my-10">
-                            <div className="
-                    relative rounded-[50px] text-center -m-[2px] max-xl:min-w-[300px] xl:w-1/5 md:hover:bg-white md:hover:shadow-2xl md:hover:shadow-theme1 duration-300
-                    
-                    md:before:rounded-b-[50px] max-md:before:rounded-l-[50px] before:absolute before:inset-0 md:before:top-1/4 before:z-10 md:before:border-l-4 md:before:border-b-4 max-md:before:right-1/4 max-md:before:border-l-4 max-md:before:border-t-4 before:border-theme1
-                    
-                    md:after:rounded-b-[50px] max-md:after:rounded-l-[50px] after:absolute after:inset-0 md:after:top-1/2 after:z-10 md:after:border-r-4 md:after:border-b-4 max-md:after:right-1/2 max-md:after:border-l-4 max-md:after:border-b-4 after:border-theme1
-                    ">
-                                <div className="flex rounded-[50px] flex-col p-8 relative h-full 
-                        
-                        before:absolute md:before:left-[1.5px] md:before:top-1/4 md:before:-translate-x-1/2 md:before:-translate-y-full max-md:before:top-[1.5px] max-md:before:right-1/4 max-md:before:-translate-y-1/2 max-md:before:translate-x-full before:z-20 before:text-theme1 before:bg-white before:content-['Start'] md:before:font-extrabold max-md:before:font-semibold md:before:text-sm max-md:before:text-xs before:uppercase before:rounded-full md:before:ring-4 max-md:before:ring-2 before:ring-theme1 before:ring-offset-4 md:before:[writing-mode:tb]
-                        
-                        after:absolute after:rounded-full md:after:right-0 md:after:inset-y-0 md:after:m-auto md:after:translate-x-[calc(50%-2px)] md:after:-translate-y-[calc(50%-2px)] max-md:after:bottom-[1.5px] max-md:after:right-1/2 max-md:after:translate-x-1/2 max-md:after:translate-y-1/2 after:z-20 after:size-4 after:ring-4 after:ring-theme1 after:bg-white
-                        ">
-                                    <div className="w-full pb-3">
-                                        <Image width={1000} height={1000} quality={90} loading='lazy' className="size-20 mx-auto" src="/img/workflow-1.svg" alt="design process research" />
-                                    </div>
-                                    <div className="w-full lg:text-xl md:text-lg text-base font-bold pb-2">Research</div>
-                                    <div className="w-full md:text-base text-sm font-semibold pb-3">We begin by conducting thorough research to understand your target audience, market trends, and competition, ensuring the development of outstanding software.</div>
-                                </div>
-                            </div>
-                            <div className="
-                    relative rounded-[50px] text-center -m-[2px] max-xl:min-w-[300px] xl:w-1/5 md:hover:bg-white md:hover:shadow-2xl md:hover:shadow-theme2 duration-300
-                    
-                    md:before:rounded-t-[50px] max-md:before:rounded-r-[50px] before:absolute before:inset-0 md:before:bottom-1/2 max-md:before:left-1/2 before:z-10 md:before:border-l-4 md:before:border-t-4 max-md:before:border-b-4 max-md:before:border-r-4 before:border-theme2
-                    
-                    md:after:rounded-t-[50px] max-md:after:rounded-r-[50px] after:absolute after:inset-0 md:after:bottom-1/2 max-md:after:left-1/2 after:z-10 md:after:border-r-4 md:after:border-t-4 max-md:after:border-r-4 max-md:after:border-t-4 after:border-theme2
-                    ">
-                                <div className="flex rounded-[50px] flex-col p-8 relative h-full 
-                        
-                        before:absolute before:rounded-full md:before:left-0 md:before:inset-y-0 md:before:my-auto md:before:translate-x-[calc(50%-2px)] md:before:translate-y-[calc(-50%-4px)] max-md:before:top-[2px] max-md:before:right-1/2 max-md:before:-translate-y-1/2 max-md:before:translate-x-1/2 before:z-20 before:size-1 before:ring-4 before:ring-theme2 before:bg-white
-                        
-                        after:absolute after:rounded-full md:after:right-0 md:after:inset-y-0 md:after:my-auto md:after:translate-x-[calc(50%-2px)] md:after:translate-y-[calc(-50%+2px)] max-md:after:bottom-[1.5px] max-md:after:left-1/2 max-md:after:translate-y-1/2 max-md:after:-translate-x-1/2 after:z-20 after:size-4 after:ring-4 after:ring-theme2 after:bg-white
-                        ">
-                                    <div className="w-full pb-3">
-                                        <Image width={1000} height={1000} quality={90} loading='lazy' className="size-20 mx-auto" src="/img/workflow-2.svg" alt="design process plan" />
-                                    </div>
-                                    <div className="w-full lg:text-xl md:text-lg text-base font-bold pb-2">Plan</div>
-                                    <div className="w-full md:text-base text-sm font-semibold pb-3">Based on the research findings, we collaborate with you to define the app’s goals, features, and functionalities, ensuring the creation of outstanding software.</div>
-                                </div>
-                            </div>
-                            <div className="
-                    relative rounded-[50px] text-center -m-[2px] max-xl:min-w-[300px] xl:w-1/5 md:hover:bg-white md:hover:shadow-2xl md:hover:shadow-theme1 duration-300
-                    
-                    md:before:rounded-b-[50px] max-md:before:rounded-l-[50px] before:absolute before:inset-0 md:before:top-1/2 max-md:before:right-1/2 before:z-10 md:before:border-l-4 md:before:border-b-4 max-md:before:border-l-4 max-md:before:border-b-4 before:border-theme1
-                    
-                    md:after:rounded-b-[50px] max-md:after:rounded-l-[50px] after:absolute after:inset-0 md:after:top-1/2 max-md:after:right-1/2 after:z-10 md:after:border-r-4 md:after:border-b-4 max-md:after:border-l-4 max-md:after:border-t-4 after:border-theme1
-                    ">
-                                <div className="flex rounded-[50px] flex-col p-8 relative h-full 
-                        
-                        before:absolute before:rounded-full md:before:left-0 md:before:inset-y-0 md:before:my-auto md:before:translate-x-[calc(50%-2px)] md:before:translate-y-[calc(-50%-4px)] max-md:before:top-[2px] max-md:before:left-1/2 max-md:before:-translate-y-1/2 max-md:before:-translate-x-1/2 before:z-20 before:size-1 before:ring-4 before:ring-theme1 before:bg-white
-                        
-                        after:absolute after:rounded-full md:after:right-0 md:after:inset-y-0 md:after:my-auto md:after:translate-x-[calc(50%-2px)] md:after:translate-y-[calc(-50%+2px)] max-md:after:bottom-[1.5px] max-md:after:left-1/2 max-md:after:translate-y-1/2 max-md:after:-translate-x-1/2 after:z-20 after:size-4 after:ring-4 after:ring-theme1 after:bg-white
-                        ">
-                                    <div className="w-full pb-3">
-                                        <Image width={1000} height={1000} quality={90} loading='lazy' className="size-20 mx-auto" src="/img/workflow-3.svg" data-src="" alt="design process implement" />
-                                    </div>
-                                    <div className="w-full lg:text-xl md:text-lg text-base font-bold pb-2">Implement</div>
-                                    <div className="w-full md:text-base text-sm font-semibold pb-3">Our skilled development team starts the implementation phase, building the app’s architecture, database, and backend infrastructure.
+            <Blog/>
 
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="
-                    relative rounded-[50px] text-center -m-[2px] max-xl:min-w-[300px] xl:w-1/5 md:hover:bg-white md:hover:shadow-2xl md:hover:shadow-theme2 duration-300
-                    
-                    md:before:rounded-t-[50px] max-md:before:rounded-r-[50px] before:absolute before:inset-0 md:before:bottom-1/2 max-md:before:left-1/2 before:z-10 md:before:border-l-4 md:before:border-t-4 max-md:before:border-r-4 max-md:before:border-t-4 before:border-theme2
-                    
-                    md:after:rounded-t-[50px] max-md:after:rounded-r-[50px] after:absolute after:inset-0 md:after:bottom-1/2 max-md:after:left-1/2 after:z-10 md:after:border-r-4 md:after:border-t-4 max-md:after:border-r-4 max-md:after:border-b-4 after:border-theme2
-                    ">
-                                <div className="flex rounded-[50px] flex-col p-8 relative h-full 
-                        
-                        before:absolute before:rounded-full md:before:left-0 md:before:inset-y-0 md:before:my-auto md:before:translate-x-[calc(50%-2px)] md:before:translate-y-[calc(-50%-4px)] max-md:before:top-[2px] max-md:before:left-1/2 max-md:before:-translate-y-1/2 max-md:before:-translate-x-1/2 before:z-20 before:size-1 before:ring-4 before:ring-theme2 before:bg-white
-                        
-                        after:absolute after:rounded-full md:after:right-0 md:after:inset-y-0 md:after:my-auto md:after:translate-x-[calc(50%-2px)] md:after:translate-y-[calc(-50%+2px)] max-md:after:bottom-[1.5px] max-md:after:left-1/2 max-md:after:translate-y-1/2 max-md:after:-translate-x-1/2 after:z-20 after:size-4 after:ring-4 after:ring-theme2 after:bg-white
-                        ">
-                                    <div className="w-full pb-3">
-                                        <Image width={1000} height={1000} quality={90} loading='lazy' className="size-20 mx-auto" src="img/workflow-4.svg" data-src="" alt="design process testing" />
-                                    </div>
-                                    <div className="w-full lg:text-xl md:text-lg text-base font-bold pb-2">Testing</div>
-                                    <div className="w-full md:text-base text-sm font-semibold pb-3">Quality assurance is a critical step in our process. We perform comprehensive tests, including functional, usability, and performance testing.
+            <Form/>
 
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="
-                    relative rounded-[50px] text-center -m-[2px] max-xl:min-w-[300px] xl:w-1/5 md:hover:bg-white md:hover:shadow-2xl md:hover:shadow-theme1 duration-300
-                    
-                    md:before:rounded-b-[50px] max-md:before:rounded-l-[50px] before:absolute before:inset-0 md:before:top-1/2 max-md:before:right-1/2 before:z-10 md:before:border-l-4 md:before:border-b-4 max-md:before:border-l-4 max-md:before:border-t-4 before:border-theme1
-                    
-                    md:after:rounded-b-[50px] max-md:after:rounded-l-[50px] after:absolute after:inset-0 md:after:top-1/4 max-md:after:right-1/4 after:z-10 md:after:border-r-4 md:after:border-b-4 max-md:after:border-l-4 max-md:after:border-b-4 after:border-theme1
-                    ">
-                                <div className="flex rounded-[50px] flex-col p-8 relative h-full 
-                        
-                        before:absolute before:rounded-full md:before:left-0 md:before:inset-y-0 md:before:my-auto md:before:translate-x-[calc(50%-2px)] md:before:translate-y-[calc(-50%-4px)] max-md:before:top-[2px] max-md:before:right-1/2 max-md:before:-translate-y-1/2 max-md:before:translate-x-1/2 before:z-20 before:size-1 before:ring-4 before:ring-theme1 before:bg-white
-                        
-                        after:absolute md:after:right-[1.5px] md:after:top-1/4 md:after:translate-x-1/2 md:after:-translate-y-full max-md:after:bottom-[1.5px] max-md:after:right-1/4 max-md:after:translate-y-1/2 max-md:after:translate-x-full after:z-20 after:text-theme1 after:bg-white after:content-['End'] md:after:font-extrabold max-md:after:font-semibold md:after:text-sm max-md:after:text-xs after:uppercase after:rounded-full md:after:ring-4 max-md:after:ring-2 after:ring-theme1 after:ring-offset-4 md:after:[writing-mode:tb]
-                        ">
-                                    <div className="w-full pb-3">
-                                        <Image width={1000} height={1000} quality={90} loading='lazy' className="size-20 mx-auto" src="/img/workflow-5.svg" data-src="" alt="design process Optimize" />
-                                    </div>
-                                    <div className="w-full lg:text-xl md:text-lg text-base font-bold pb-2">Optimize</div>
-                                    <div className="w-full md:text-base text-sm font-semibold pb-3">We continually optimize the app to enhance its performance, speed, and user experience, ensuring outstanding software.</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            {/* workflow */}
             <Footer />
 
         </>

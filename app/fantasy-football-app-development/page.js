@@ -301,41 +301,41 @@ function fantasyFootball() {
                             </div>
                             <div className="md:w-1/2 w-full md:p-4 p-3">
                                 <div className="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
-                                    <div class="">
-                                        <div class="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Contests</div>
-                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Enjoy playing free practice contests, paid contests and private contests.</p>
+                                    <div className="">
+                                        <div className="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Contests</div>
+                                        <p className="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Enjoy playing free practice contests, paid contests and private contests.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="md:w-1/2 w-full md:p-4 p-3">
-                                <div class="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
-                                    <div class="">
-                                        <div class="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Create Multiple Team</div>
-                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Users can create multiple teams in the contest to enhance their winning chances.</p>
+                            <div className="md:w-1/2 w-full md:p-4 p-3">
+                                <div className="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                                    <div className="">
+                                        <div className="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Create Multiple Team</div>
+                                        <p className="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Users can create multiple teams in the contest to enhance their winning chances.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="md:w-1/2 w-full md:p-4 p-3">
-                                <div class="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
-                                    <div class="">
-                                        <div class="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Invite and Earn</div>
-                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Users can refer to the app and earn the referral amount that can be used to play.</p>
+                            <div className="md:w-1/2 w-full md:p-4 p-3">
+                                <div className="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                                    <div className="">
+                                        <div className="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Invite and Earn</div>
+                                        <p className="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Users can refer to the app and earn the referral amount that can be used to play.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="md:w-1/2 w-full md:p-4 p-3">
-                                <div class="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
-                                    <div class="">
-                                        <div class="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Easy Withdraw Earnings</div>
-                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Get your winning amount transferred to your bank account instantly with fewer formalities.</p>
+                            <div className="md:w-1/2 w-full md:p-4 p-3">
+                                <div className="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                                    <div className="">
+                                        <div className="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Easy Withdraw Earnings</div>
+                                        <p className="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Get your winning amount transferred to your bank account instantly with fewer formalities.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="md:w-1/2 w-full md:p-4 p-3">
-                                <div class="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
-                                    <div class="">
-                                        <div class="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Live Score &amp; Updates</div>
-                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Aware your users of the live streaming of matches and the latest updates about the sports.</p>
+                            <div className="md:w-1/2 w-full md:p-4 p-3">
+                                <div className="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                                    <div className="">
+                                        <div className="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Live Score &amp; Updates</div>
+                                        <p className="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Aware your users of the live streaming of matches and the latest updates about the sports.</p>
                                     </div>
                                 </div>
                             </div>
@@ -344,76 +344,76 @@ function fantasyFootball() {
                         </div>
                     </div>
                 </div>
-                <div class="flex flex-wrap mt-10 items-center bg-theme2 rounded-[20px]">
-                    <div class="lg:w-2/6 w-full">
-                        <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
-                            <Image width={1000} height={1000} loading='lazy' quality={90} src="/img/fantasy-sports-admin-penal.webp" alt="fantasy-sports-admin-penal" class=" h-full w-full " />
+                <div className="flex flex-wrap mt-10 items-center bg-theme2 rounded-[20px]">
+                    <div className="lg:w-2/6 w-full">
+                        <div className="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
+                            <Image width={1000} height={1000} loading='lazy' quality={90} src="/img/fantasy-sports-admin-penal.webp" alt="fantasy-sports-admin-penal" className=" h-full w-full " />
                         </div>
                     </div>
-                    <div class="lg:w-4/6 w-full">
-                        <div class="flex flex-wrap items-stretch">
-                            <div class="md:w-1/2 w-full md:p-4 p-3">
-                                <div class="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
-                                    <div class="">
-                                        <div class="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Admin Login</div>
-                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">With an admin login, the security and privacy of the fantasy sports app will be maintained.</p>
+                    <div className="lg:w-4/6 w-full">
+                        <div className="flex flex-wrap items-stretch">
+                            <div className="md:w-1/2 w-full md:p-4 p-3">
+                                <div className="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                                    <div className="">
+                                        <div className="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Admin Login</div>
+                                        <p className="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">With an admin login, the security and privacy of the fantasy sports app will be maintained.</p>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="md:w-1/2 w-full md:p-4 p-3">
-                                <div class="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
-                                    <div class="">
-                                        <div class="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Admin Dashboard</div>
-                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Admin dashboard to overlook the number of matches, participants and their earnings etc.</p>
+                            <div className="md:w-1/2 w-full md:p-4 p-3">
+                                <div className="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                                    <div className="">
+                                        <div className="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Admin Dashboard</div>
+                                        <p className="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Admin dashboard to overlook the number of matches, participants and their earnings etc.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="md:w-1/2 w-full md:p-4 p-3">
-                                <div class="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
-                                    <div class="">
-                                        <div class="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Users Management</div>
-                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Admin will manage the users by verifying the details filled in by them.</p>
+                            <div className="md:w-1/2 w-full md:p-4 p-3">
+                                <div className="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                                    <div className="">
+                                        <div className="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Users Management</div>
+                                        <p className="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Admin will manage the users by verifying the details filled in by them.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="md:w-1/2 w-full md:p-4 p-3">
-                                <div class="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
-                                    <div class="">
-                                        <div class="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">League Management</div>
-                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Admin can activate or deactivate any contest or league as per requirements.</p>
+                            <div className="md:w-1/2 w-full md:p-4 p-3">
+                                <div className="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                                    <div className="">
+                                        <div className="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">League Management</div>
+                                        <p className="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Admin can activate or deactivate any contest or league as per requirements.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="md:w-1/2 w-full md:p-4 p-3">
-                                <div class="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
-                                    <div class="">
-                                        <div class="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Match Management</div>
-                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">The matches or the national, international or local tournaments of different sports will be listed.</p>
+                            <div className="md:w-1/2 w-full md:p-4 p-3">
+                                <div className="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                                    <div className="">
+                                        <div className="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Match Management</div>
+                                        <p className="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">The matches or the national, international or local tournaments of different sports will be listed.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="md:w-1/2 w-full md:p-4 p-3">
-                                <div class="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
-                                    <div class="">
-                                        <div class="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Revenue Management</div>
-                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Admin can generate reports regarding the total revenue generation and prize money distribution.</p>
+                            <div className="md:w-1/2 w-full md:p-4 p-3">
+                                <div className="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                                    <div className="">
+                                        <div className="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Revenue Management</div>
+                                        <p className="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Admin can generate reports regarding the total revenue generation and prize money distribution.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="md:w-1/2 w-full md:p-4 p-3">
-                                <div class="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
-                                    <div class="">
-                                        <div class="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Reward Points</div>
-                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Admin will manage the reward points that have been awarded to the users.</p>
+                            <div className="md:w-1/2 w-full md:p-4 p-3">
+                                <div className="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                                    <div className="">
+                                        <div className="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Reward Points</div>
+                                        <p className="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Admin will manage the reward points that have been awarded to the users.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="md:w-1/2 w-full md:p-4 p-3">
-                                <div class="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
-                                    <div class="">
-                                        <div class="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Push Notification</div>
-                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Via push notification, send alerts and updates to users regarding apps and contests.</p>
+                            <div className="md:w-1/2 w-full md:p-4 p-3">
+                                <div className="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                                    <div className="">
+                                        <div className="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Push Notification</div>
+                                        <p className="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Via push notification, send alerts and updates to users regarding apps and contests.</p>
                                     </div>
                                 </div>
                             </div>

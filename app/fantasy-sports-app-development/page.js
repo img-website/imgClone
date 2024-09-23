@@ -1,3 +1,5 @@
+"use client"
+import Accordion from '@/components/accordion/Accordion';
 import React from 'react'
 import Image from 'next/image'
 import Header from '@/components/header/Header'
@@ -6,8 +8,31 @@ import Form from '@/components/contactForm/Form'
 import Blog from '@/components/blog/Blog'
 import Cta from '@/components/cta/Cta'
 import Link from 'next/link'
+import Cta2 from '@/components/cta2/Cta2'
+import CaseStudy from '@/components/caseStudy/CaseStudy'
+import PortfolioSection from '@/components/portfolio/portfolio'
+import Testimonial from '@/components/testimonial/Testimonial'
 
 function fantasysportsappdevelopment() {
+  const accordionItems = [
+    {
+      title: 'How much cost does it take to build a fantasy sports app?',
+      content: 'The factors which affect the development of fantasy sports apps are platform, app size and what type of features you wish to add. There are separate costs of building fantasy sports apps as you can choose either an android or iOS platform to launch your application. However, you can launch your app on both platforms but that will increase the cost of development.'
+    },
+    {
+      title: "Why Choose Twin Power Software for building your fantasy sports app?",
+      content: 'Our experts who are responsible for building your app have specialized in this field and have all the skills and knowledge of app structure and its relative platform. However, they are available for you to assist all the time. We not only build your app based on your customized needs but also deliver support after you have launched your app. Our experts never fail to deliver projects on time and we never compromise on project quality.'
+    },
+    {
+      title: 'Why is the type of Fantasy sports App offered by Twin Power Software?',
+      content: 'We have acquired excellence and success in delivering a varied quantity of projects to our multiple clients. We deliver apps of fantasy cricket, fantasy football, fantasy kabaddi and mainly customized based on the games you wish to add. You can consult with our experts and state your business needs and we will deliver the same with seamless Ui Experience.'
+    },
+    {
+      title: 'Do Twin Power Software deliver support and maintenance service?',
+      content: 'Yes, we deliver 24/7 support to our clients as per their requirements. Our team is always ready to give their best in analyzing your concerns and giving you solutions in time. You can put your app issues after launching to our team and we are available to assist you and to deliver maintenance service.'
+    },
+  ];
+
   return (
     <>
       <Header />
@@ -34,28 +59,28 @@ function fantasysportsappdevelopment() {
               <fieldset className="px-8 w-full overflow-hidden">
                 <div className="mt-3 grid grid-cols-4 -mx-3 gap-4">
                   <div className="grow">
-                    <Link href="javascript:;"  className="text-gray-200 has-[:checked]:ring-indigo-200 has-[:checked]:text-indigo-900 has-[:checked]:bg-indigo-50 flex flex-col gap-2 items-center rounded-lg p-4 ring-1 ring-transparent border border-white/20 md:hover:border-white justify-center font-bold">
+                    <Link href="javascript:;" className="text-gray-200 has-[:checked]:ring-indigo-200 has-[:checked]:text-indigo-900 has-[:checked]:bg-indigo-50 flex flex-col gap-2 items-center rounded-lg p-4 ring-1 ring-transparent border border-white/20 md:hover:border-white justify-center font-bold">
                       <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" className="size-12 mx-auto" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M15.05 12.81 6.56 4.32a.996.996 0 0 0-1.41 0L2.32 7.15a.996.996 0 0 0 0 1.41l8.49 8.49c.39.39 1.02.39 1.41 0l2.83-2.83a.996.996 0 0 0 0-1.41zM14.341 17.756l1.414-1.414 4.243 4.243-1.414 1.414z"></path><circle cx="18.5" cy="5.5" r="3.5"></circle></svg>
                       Cricket
                       <input name="payment_method" id="cricket" value="google" type="checkbox" className="hidden" />
                     </Link>
                   </div>
                   <div className="grow">
-                    <Link href="javascript:;"  className="text-gray-200 has-[:checked]:ring-indigo-200 has-[:checked]:text-indigo-900 has-[:checked]:bg-indigo-50 flex flex-col gap-2 items-center rounded-lg p-4 ring-1 ring-transparent border border-white/20 md:hover:border-white justify-center font-bold">
+                    <Link href="javascript:;" className="text-gray-200 has-[:checked]:ring-indigo-200 has-[:checked]:text-indigo-900 has-[:checked]:bg-indigo-50 flex flex-col gap-2 items-center rounded-lg p-4 ring-1 ring-transparent border border-white/20 md:hover:border-white justify-center font-bold">
                       <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" className="size-12 mx-auto" xmlns="http://www.w3.org/2000/svg"><path d="M256 48C141.1 48 48 141.1 48 256c0 114.7 93.3 208 208 208 114.9 0 208-93.1 208-208 0-114.7-93.3-208-208-208zm127.3 80.7c8.5 8.5 16.1 17.7 22.6 27.5.7 1 .9 2.4.4 3.5L391.9 201c-.4 1-1.1 1.9-2.1 2.3l-57.5 26.2c-1.4.6-3 .4-4.2-.6l-56.6-47.6a4.1 4.1 0 0 1-1.4-3.1v-63.1c0-1.3.7-2.6 1.8-3.3l38.4-26.1c1-.7 2.3-.9 3.5-.5 25.8 8.9 49.6 23.6 69.5 43.5zm-73.9 297.6c-.4 1.2-1.4 2.1-2.6 2.4-16.3 4.8-33.4 7.2-50.8 7.2-17.5 0-34.5-2.5-50.8-7.2-1.2-.4-2.2-1.3-2.6-2.4l-16.4-43c-.4-1.1-.3-2.3.2-3.3l22.3-42.3c.7-1.3 2.1-2.1 3.5-2.1h87.5c1.5 0 2.8.8 3.5 2.1l22.3 42.3c.5 1 .6 2.2.2 3.3l-16.3 43zm-67.4-311v63.1c0 1.2-.5 2.3-1.4 3.1L183.9 229c-1.2 1-2.8 1.2-4.2.6l-57.5-26.2c-1-.5-1.8-1.3-2.1-2.3l-14.4-41.2c-.4-1.2-.3-2.5.4-3.5 6.5-9.8 14.1-19 22.6-27.5 19.9-19.9 43.7-34.6 69.6-43.3 1.2-.4 2.5-.2 3.5.5l38.4 26.1c1.1.5 1.8 1.7 1.8 3.1zM77.7 264.1l36.1-31.2c1.2-1 2.9-1.3 4.3-.6l52.4 23.8c1.1.5 1.9 1.5 2.2 2.7l14.6 57.3c.2 1 .1 2-.3 2.9l-23.2 43.9c-.7 1.3-2.1 2.2-3.6 2.1l-46-.6c-1.2 0-2.4-.6-3.2-1.6-20.5-27.7-32.5-60.6-34.7-95.4 0-1.3.5-2.5 1.4-3.3zm270.4 98.7L325 319c-.5-.9-.6-1.9-.3-2.9l14.6-57.3c.3-1.2 1.1-2.2 2.2-2.7l52.4-23.8c1.4-.6 3.1-.4 4.3.6l36.1 31.2c.9.8 1.5 2 1.4 3.3-2.1 34.8-14.2 67.6-34.7 95.4-.7 1-1.9 1.6-3.2 1.6l-46.1.6c-1.5-.1-2.9-.9-3.6-2.2z"></path></svg>
                       Football
                       <input name="payment_method" id="football" value="google" type="checkbox" className="hidden" />
                     </Link>
                   </div>
                   <div className="grow">
-                    <Link href="javascript:;"  className="text-gray-200 has-[:checked]:ring-indigo-200 has-[:checked]:text-indigo-900 has-[:checked]:bg-indigo-50 flex flex-col gap-2 items-center rounded-lg p-4 ring-1 ring-transparent border border-white/20 md:hover:border-white justify-center font-bold">
+                    <Link href="javascript:;" className="text-gray-200 has-[:checked]:ring-indigo-200 has-[:checked]:text-indigo-900 has-[:checked]:bg-indigo-50 flex flex-col gap-2 items-center rounded-lg p-4 ring-1 ring-transparent border border-white/20 md:hover:border-white justify-center font-bold">
                       <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" className="size-12 mx-auto" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><circle cx="16.5" cy="2.38" r="2"></circle><path d="M24 11.88v-4.7l-5.05-2.14c-.97-.41-2.09-.06-2.65.84l-1 1.6c-.67 1.18-1.91 2.06-3.41 2.32l.06.06c.69.69 1.52 1.07 2.46 1.17.8-.42 1.52-.98 2.09-1.64l.6 3-1.16 1.1-.94.89v7.5h2v-6l2.1-2 1.8 8H23l-2.18-11-.62-3.1 1.8.7v3.4h2zM10.29 8.09c.22.15.47.24.72.29.13.02.25.04.38.04s.26-.01.38-.04c.13-.02.25-.06.37-.11.24-.1.47-.24.66-.44.49-.49.67-1.17.55-1.8-.07-.37-.25-.74-.55-1.03-.19-.19-.42-.34-.66-.44-.12-.05-.24-.09-.37-.11s-.25-.04-.38-.04c-.12 0-.23.01-.35.03-.14.02-.28.06-.41.11-.23.11-.46.26-.65.45-.3.29-.48.66-.55 1.03-.12.63.06 1.31.55 1.8.09.1.2.18.31.26z"></path><path d="m11.24 10.56-2-2c-.1-.1-.2-.18-.31-.26a1.93 1.93 0 0 0-.72-.28c-.13-.03-.25-.04-.38-.04-.51 0-1.02.2-1.41.59l-3.34 3.34c-.41.41-.62.98-.58 1.54 0 .18.04.37.11.55l1.07 2.95-3.63 3.63L1.46 22l4.24-4.24v-2.22L7 16.75v5.13h2v-6l-2.12-2.12 2.36-2.36.71.71c1.29 1.26 2.97 2.04 5.03 2.04l-.14-2.07c-1.5-.02-2.7-.62-3.6-1.52z"></path></svg>
                       Kabaddi
                       <input name="payment_method" id="kabaddi" value="google" type="checkbox" className="hidden" />
                     </Link>
                   </div>
                   <div className="grow">
-                    <Link href="javascript:;"  className="text-gray-200 has-[:checked]:ring-indigo-200 has-[:checked]:text-indigo-900 has-[:checked]:bg-indigo-50 flex flex-col gap-2 items-center rounded-lg p-4 ring-1 ring-transparent border border-white/20 md:hover:border-white justify-center font-bold">
+                    <Link href="javascript:;" className="text-gray-200 has-[:checked]:ring-indigo-200 has-[:checked]:text-indigo-900 has-[:checked]:bg-indigo-50 flex flex-col gap-2 items-center rounded-lg p-4 ring-1 ring-transparent border border-white/20 md:hover:border-white justify-center font-bold">
                       <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" className="size-12 mx-auto" xmlns="http://www.w3.org/2000/svg"><path d="M8.00488 5.00293H11.0049V14.0029H8.00488V17.0029H6.00488V14.0029H3.00488V5.00293H6.00488V2.00293H8.00488V5.00293ZM5.00488 7.00293V12.0029H9.00488V7.00293H5.00488ZM18.0049 10.0029H21.0049V19.0029H18.0049V22.0029H16.0049V19.0029H13.0049V10.0029H16.0049V7.00293H18.0049V10.0029ZM15.0049 12.0029V17.0029H19.0049V12.0029H15.0049Z"></path></svg>
                       Casino
                       <input name="payment_method" id="stock" value="google" type="checkbox" className="hidden" />
@@ -313,7 +338,7 @@ function fantasysportsappdevelopment() {
 
       <div className="relative isolate overflow-hidden   py-6 md:py-8 lg:py-16 bg-theme2">
         <div className="overflow-hidden">
-          
+
           <div className="relative container mx-auto max-w-7xl px-6 lg:px-8 z-10">
             <p className="
                 max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-white text-center
@@ -367,96 +392,289 @@ function fantasysportsappdevelopment() {
           </div>
         </div>
       </div>
-      <Cta/>
+      <Cta />
 
       <section className="container mx-auto py-8 sm:py-16 relative   bg-gray-100">
-    
-    <div className="flex flex-col w-full max-w-7xl mx-auto pb-8 px-6 lg:px-8 text-center">
-        <p className="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black empty:hidden text-balance">
-            <span>Our Fantasy Sports</span> 
+
+        <div className="flex flex-col w-full max-w-7xl mx-auto pb-8 px-6 lg:px-8 text-center">
+          <p className="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black empty:hidden text-balance">
+            <span>Our Fantasy Sports</span>
             <span className="font-bold text-theme2"> Platform Development Solution</span>
-        </p>
-        <div className="mt-4 text-base md:text-lg leading-7 text-slate-600 empty:hidden text-balance">TwinPower Software offers comprehensive development solutions for fantasy sports that can help you create a powerful platform to engage your users.</div>
-    </div>
-    <ul className="flex relative flex-col gap-y-8 lg:gap-y-64 flex-wrap mx-auto max-w-7xl px-6 lg:px-8">
-        <li className="size-full lg:sticky lg:top-36">
+          </p>
+          <div className="mt-4 text-base md:text-lg leading-7 text-slate-600 empty:hidden text-balance">TwinPower Software offers comprehensive development solutions for fantasy sports that can help you create a powerful platform to engage your users.</div>
+        </div>
+        <ul className="flex relative flex-col gap-y-8 lg:gap-y-64 flex-wrap mx-auto max-w-7xl px-6 lg:px-8">
+          <li className="size-full lg:sticky lg:top-36">
             <div className="bg-theme1 p-4 opacity-100 rounded-[20px] overflow-hidden relative">
-                <div className="flex flex-col h-full relative z-50">
-                    <div className="w-full flex max-sm:flex-col-reverse relative z-10 items-center max-sm:text-center">
-                        <div className="w-1/2 max-sm:w-full text-white flex flex-col max-sm:gap-y-4 gap-y-7">
-                            <span className="text-lg md:text-xl lg:text-2xl text-balance">Fantasy Cricket <span className="font-bold">App Development</span></span>
-                            <div className="text-sm md:text-base text-balance">Our expert team will assist you in creating a customized fantasy cricket app with features like user registration, team creation, player selection, and more. Turn your vision into a reality with our reliable and innovative solutions. Contact us today for top-notch fantasy cricket app development services.</div>
-                            <div className="px-1">
-                                <Link href="javascript:;"  className="inline-flex justify-center rounded-lg max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-cyan-900 bg-cyan-900/20 xl:hover:ring-cyan-700 duration-300 backdrop-blur-md shadow-sm shadow-cyan-900/50">View More</Link>
-                            </div>
-                        </div>
-                        <div className="w-1/2 shrink-0 max-sm:w-full relative after:h-16 after:z-10 after:absolute after:bg-gradient-to-t after:from-theme1 after:via-theme1 after:to-transparent after:bottom-0 after:inset-x-0">
-                           <Image width={'1000'} height={'1000'} quality={'90'} loading='lazy' src="/img/cricket-app.webp" alt="" />
-                        </div>
+              <div className="flex flex-col h-full relative z-50">
+                <div className="w-full flex max-sm:flex-col-reverse relative z-10 items-center max-sm:text-center">
+                  <div className="w-1/2 max-sm:w-full text-white flex flex-col max-sm:gap-y-4 gap-y-7">
+                    <span className="text-lg md:text-xl lg:text-2xl text-balance">Fantasy Cricket <span className="font-bold">App Development</span></span>
+                    <div className="text-sm md:text-base text-balance">Our expert team will assist you in creating a customized fantasy cricket app with features like user registration, team creation, player selection, and more. Turn your vision into a reality with our reliable and innovative solutions. Contact us today for top-notch fantasy cricket app development services.</div>
+                    <div className="px-1">
+                      <Link href="javascript:;" className="inline-flex justify-center rounded-lg max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-cyan-900 bg-cyan-900/20 xl:hover:ring-cyan-700 duration-300 backdrop-blur-md shadow-sm shadow-cyan-900/50">View More</Link>
                     </div>
+                  </div>
+                  <div className="w-1/2 shrink-0 max-sm:w-full relative after:h-16 after:z-10 after:absolute after:bg-gradient-to-t after:from-theme1 after:via-theme1 after:to-transparent after:bottom-0 after:inset-x-0">
+                    <Image width={'1000'} height={'1000'} quality={'90'} loading='lazy' src="/img/cricket-app.webp" alt="" />
+                  </div>
                 </div>
+              </div>
             </div>
-        </li>
-        <li className="size-full lg:sticky lg:top-36">
+          </li>
+          <li className="size-full lg:sticky lg:top-36">
             <div className="bg-theme2  opacity-100 rounded-[20px] overflow-hidden relative">
-                <div className="flex flex-col h-full relative z-50">
-                    <div className="w-full flex max-sm:flex-col-reverse relative z-10 items-center max-sm:text-center">
-                        <div className="w-1/2 max-sm:w-full text-black flex flex-col max-sm:gap-y-4 gap-y-7 px-4">
-                            <div className="text-lg md:text-xl lg:text-2xl text-balance">Fantasy Football <span className="font-bold">App Development</span></div>
-                            <span className="text-sm md:text-base text-balance">TwinPower Software specializes in fantasy sports app development. With our expertise, we can create a custom fantasy football app that includes features like user registration, team creation, player selection, live scoring, and more. Transform your fantasy football app idea into a reality with our professional services. Contact us now for exceptional fantasy football app development solutions.</span>
-                            <div className="px-1">
-                                <Link href="javascript:;"  className="inline-flex justify-center rounded-lg max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-cyan-900 bg-cyan-900/20 xl:hover:ring-cyan-700 duration-300 backdrop-blur-md shadow-sm shadow-cyan-900/50">View More</Link>
-                            </div>
-                        </div>
-                        <div className="w-1/2 shrink-0 max-sm:w-full relative after:h-16 after:z-10 after:absolute after:bg-gradient-to-t after:from-theme2  after:via-theme2  after:to-transparent after:bottom-0 after:inset-x-0">
-                          <Image width={'1000'} height={'1000'} quality={'90'} loading='lazy' src="/img/football-app.webp" alt="" />
-                        </div>
+              <div className="flex flex-col h-full relative z-50">
+                <div className="w-full flex max-sm:flex-col-reverse relative z-10 items-center max-sm:text-center">
+                  <div className="w-1/2 max-sm:w-full text-black flex flex-col max-sm:gap-y-4 gap-y-7 px-4">
+                    <div className="text-lg md:text-xl lg:text-2xl text-balance">Fantasy Football <span className="font-bold">App Development</span></div>
+                    <span className="text-sm md:text-base text-balance">TwinPower Software specializes in fantasy sports app development. With our expertise, we can create a custom fantasy football app that includes features like user registration, team creation, player selection, live scoring, and more. Transform your fantasy football app idea into a reality with our professional services. Contact us now for exceptional fantasy football app development solutions.</span>
+                    <div className="px-1">
+                      <Link href="javascript:;" className="inline-flex justify-center rounded-lg max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-cyan-900 bg-cyan-900/20 xl:hover:ring-cyan-700 duration-300 backdrop-blur-md shadow-sm shadow-cyan-900/50">View More</Link>
                     </div>
+                  </div>
+                  <div className="w-1/2 shrink-0 max-sm:w-full relative after:h-16 after:z-10 after:absolute after:bg-gradient-to-t after:from-theme2  after:via-theme2  after:to-transparent after:bottom-0 after:inset-x-0">
+                    <Image width={'1000'} height={'1000'} quality={'90'} loading='lazy' src="/img/football-app.webp" alt="" />
+                  </div>
                 </div>
+              </div>
             </div>
-        </li>
-        <li className="size-full lg:sticky lg:top-36">
+          </li>
+          <li className="size-full lg:sticky lg:top-36">
             <div className="bg-theme1 opacity-100 rounded-[20px] overflow-hidden relative p-6">
-                <div className="flex flex-col h-full relative z-50">
-                    <div className="w-full gap-4 flex max-sm:flex-col-reverse relative z-10 items-center max-sm:text-center">
-                        <div className="order-2 w-1/2 max-sm:w-full text-white flex flex-col max-sm:gap-y-4 gap-y-7">
-                            <div className="text-lg md:text-xl lg:text-2xl text-balance">Fantasy Kabaddi <span className="font-bold">App Development</span></div>
-                            <span className="text-sm md:text-base text-balance">With TwinPower Software, you can bring your fantasy kabaddi app idea to life. Our experienced team will guide you through the entire app development process, from conceptualization to launch. Create engaging features like user registration, team formation, player selection, live scoring, and more. Don't miss the opportunity to captivate kabaddi enthusiasts with your customized fantasy kabaddi app.</span>
-                            <div className="px-1">
-                                <Link href="javascript:;"  className="inline-flex justify-center rounded-lg max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-cyan-900 bg-cyan-900/20 xl:hover:ring-cyan-700 duration-300 backdrop-blur-md shadow-sm shadow-cyan-900/50">View More</Link>
-                            </div>
-                        </div>
-                        <div className="w-1/2 order-1 shrink-0 max-sm:w-full relative after:h-16 after:z-10 after:absolute after:bg-gradient-to-t after:from-theme1 after:via-theme1 after:to-transparent after:bottom-0 after:inset-x-0">
-                            <Image width={'1000'} height={'1000'} quality={'90'} loading='lazy' src="/img/Kabaddi-app.webp" alt="" />
-                        </div>
+              <div className="flex flex-col h-full relative z-50">
+                <div className="w-full gap-4 flex max-sm:flex-col-reverse relative z-10 items-center max-sm:text-center">
+                  <div className="order-2 w-1/2 max-sm:w-full text-white flex flex-col max-sm:gap-y-4 gap-y-7">
+                    <div className="text-lg md:text-xl lg:text-2xl text-balance">Fantasy Kabaddi <span className="font-bold">App Development</span></div>
+                    <span className="text-sm md:text-base text-balance">With TwinPower Software, you can bring your fantasy kabaddi app idea to life. Our experienced team will guide you through the entire app development process, from conceptualization to launch. Create engaging features like user registration, team formation, player selection, live scoring, and more. Don't miss the opportunity to captivate kabaddi enthusiasts with your customized fantasy kabaddi app.</span>
+                    <div className="px-1">
+                      <Link href="javascript:;" className="inline-flex justify-center rounded-lg max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-cyan-900 bg-cyan-900/20 xl:hover:ring-cyan-700 duration-300 backdrop-blur-md shadow-sm shadow-cyan-900/50">View More</Link>
                     </div>
+                  </div>
+                  <div className="w-1/2 order-1 shrink-0 max-sm:w-full relative after:h-16 after:z-10 after:absolute after:bg-gradient-to-t after:from-theme1 after:via-theme1 after:to-transparent after:bottom-0 after:inset-x-0">
+                    <Image width={'1000'} height={'1000'} quality={'90'} loading='lazy' src="/img/Kabaddi-app.webp" alt="" />
+                  </div>
                 </div>
+              </div>
             </div>
-        </li>
-        <li className="size-full lg:sticky lg:top-36">
+          </li>
+          <li className="size-full lg:sticky lg:top-36">
             <div className="bg-theme2 opacity-100 rounded-[20px] overflow-hidden relative p-6">
-                <div className="flex flex-col h-full relative z-50">
-                    <div className="w-full flex max-sm:flex-col-reverse relative z-10 items-center max-sm:text-center">
-                        <div className="w-1/2 max-sm:w-full text-black flex flex-col max-sm:gap-y-4 gap-y-7">
-                            <div className="text-lg md:text-xl lg:text-2xl text-balance">Fantasy Stock Market <span className="font-bold">App Development</span></div>
-                            <span className="text-sm md:text-base text-balance">Ready to launch your fantasy stock app? TwinPower Software is your go-to partner for fantasy stock app development. Our skilled team will help you create a cutting-edge app with features like user registration, portfolio creation, virtual trading, real-time market data, and more. Step into the world of virtual stock trading with our reliable and innovative solutions.</span>
-                            <div className="px-1">
-                                <Link href="javascript:;"  className="inline-flex justify-center rounded-lg max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-cyan-900 bg-cyan-900/20 xl:hover:ring-cyan-700 duration-300 backdrop-blur-md shadow-sm shadow-cyan-900/50">View More</Link>
-                            </div>
-                        </div>
-                        <div className="w-1/2 shrink-0 max-sm:w-full relative after:h-16 after:z-10 after:absolute after:bg-gradient-to-t after:from-theme2 after:via-theme2 after:to-transparent after:bottom-0 after:inset-x-0">
-                           <Image width={'1000'} height={'1000'} quality={'90'} loading='lazy' src="/img/fantasy-stock-app.webp" alt="" />
-                        </div>
+              <div className="flex flex-col h-full relative z-50">
+                <div className="w-full flex max-sm:flex-col-reverse relative z-10 items-center max-sm:text-center">
+                  <div className="w-1/2 max-sm:w-full text-black flex flex-col max-sm:gap-y-4 gap-y-7">
+                    <div className="text-lg md:text-xl lg:text-2xl text-balance">Fantasy Stock Market <span className="font-bold">App Development</span></div>
+                    <span className="text-sm md:text-base text-balance">Ready to launch your fantasy stock app? TwinPower Software is your go-to partner for fantasy stock app development. Our skilled team will help you create a cutting-edge app with features like user registration, portfolio creation, virtual trading, real-time market data, and more. Step into the world of virtual stock trading with our reliable and innovative solutions.</span>
+                    <div className="px-1">
+                      <Link href="javascript:;" className="inline-flex justify-center rounded-lg max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-cyan-900 bg-cyan-900/20 xl:hover:ring-cyan-700 duration-300 backdrop-blur-md shadow-sm shadow-cyan-900/50">View More</Link>
                     </div>
+                  </div>
+                  <div className="w-1/2 shrink-0 max-sm:w-full relative after:h-16 after:z-10 after:absolute after:bg-gradient-to-t after:from-theme2 after:via-theme2 after:to-transparent after:bottom-0 after:inset-x-0">
+                    <Image width={'1000'} height={'1000'} quality={'90'} loading='lazy' src="/img/fantasy-stock-app.webp" alt="" />
+                  </div>
                 </div>
+              </div>
             </div>
-        </li>
-    </ul>
-</section>
+          </li>
+        </ul>
+      </section>
+
+      {/* features start */}
+      <div className='container pt-5 md:p-5 sm:p-8 p-5 mx-auto max-w-7xl px-6 lg:px-8 relative z-10'>
+        <div className="relative container mx-auto max-w-7xl md:px-6 lg:px-8 z-10 text-center">
+          <p className="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black text-balance">
+            <span className="font-normal">Core </span>
+            <span className="font-bold text-theme2">Features List</span>
+          </p>
+          <div className="md:text-base text-sm text-black/70 mt-3 text-balance">
+            We provide a wide array of features for Fantasy Cricket apps, ranging from basic to advanced options, along with innovative new features. You can select the perfect combination to build the ultimate Fantasy Sports app.
+          </div>
+        </div>
+        <div className="flex flex-wrap mt-10 py-10 px-5 items-center bg-theme1 rounded-[20px]">
+          <div className="lg:w-2/6 w-full">
+            <div className="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
+              <Image width={1000} height={1000} src="/img/image-fantasy-sports-user-panel.webp" alt="fantasy-sports-user-penal" className="img-fluid h-full w-full " />
+            </div>
+          </div>
+          <div className="lg:w-4/6 w-full">
+            <div className="flex flex-wrap items-stretch">
+              <div className="md:w-1/2 w-full md:p-4 p-3">
+                <div className="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                  <div className="">
+                    <div className="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">User Authentication</div>
+                    <p className="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis"> With the user authentication feature, the users will be required to fill their certain basic details.</p>
+                  </div>
+                </div>
+              </div>
+              <div className="md:w-1/2 w-full md:p-4 p-3">
+                <div className="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                  <div className="">
+                    <div className="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Search, List and Filter Matches</div>
+                    <p className="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis"> Users can search for their favourite matches and apply filters to the matches of their favourite team.</p>
+                  </div>
+                </div>
+              </div>
+              <div className="md:w-1/2 w-full md:p-4 p-3">
+                <div className="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                  <div className="">
+                    <div className="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Join Tournaments</div>
+                    <p className="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Users can join the tournaments of their favourite sports of their own choice.</p>
+                  </div>
+                </div>
+              </div>
+              <div className="md:w-1/2 w-full md:p-4 p-3">
+                <div className="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                  <div className="">
+                    <div className="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Contests</div>
+                    <p className="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Enjoy playing free practice contests, paid contests and private contests.</p>
+                  </div>
+                </div>
+              </div>
+              <div className="md:w-1/2 w-full md:p-4 p-3">
+                <div className="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                  <div className="">
+                    <div className="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Create Multiple Team</div>
+                    <p className="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Users can create multiple teams in the contest to enhance their winning chances.</p>
+                  </div>
+                </div>
+              </div>
+              <div className="md:w-1/2 w-full md:p-4 p-3">
+                <div className="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                  <div className="">
+                    <div className="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Invite and Earn</div>
+                    <p className="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Users can refer to the app and earn the referral amount that can be used to play.</p>
+                  </div>
+                </div>
+              </div>
+              <div className="md:w-1/2 w-full md:p-4 p-3">
+                <div className="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                  <div className="">
+                    <div className="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Easy Withdraw Earnings</div>
+                    <p className="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Get your winning amount transferred to your bank account instantly with fewer formalities.</p>
+                  </div>
+                </div>
+              </div>
+              <div className="md:w-1/2 w-full md:p-4 p-3">
+                <div className="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                  <div className="">
+                    <div className="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Live Score &amp; Updates</div>
+                    <p className="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Aware your users of the live streaming of matches and the latest updates about the sports.</p>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-wrap mt-10 items-center bg-theme2 rounded-[20px]">
+          <div className="lg:w-2/6 w-full">
+            <div className="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
+              <Image width={1000} height={1000} loading='lazy' quality={90} src="/img/fantasy-sports-admin-penal.webp" alt="fantasy-sports-admin-penal" className="img-fluid h-full w-full " />
+            </div>
+          </div>
+          <div className="lg:w-4/6 w-full">
+            <div className="flex flex-wrap items-stretch">
+              <div className="md:w-1/2 w-full md:p-4 p-3">
+                <div className="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                  <div className="">
+                    <div className="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Admin Login</div>
+                    <p className="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">With an admin login, the security and privacy of the fantasy sports app will be maintained.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="md:w-1/2 w-full md:p-4 p-3">
+                <div className="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                  <div className="">
+                    <div className="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Admin Dashboard</div>
+                    <p className="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Admin dashboard to overlook the number of matches, participants and their earnings etc.</p>
+                  </div>
+                </div>
+              </div>
+              <div className="md:w-1/2 w-full md:p-4 p-3">
+                <div className="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                  <div className="">
+                    <div className="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Users Management</div>
+                    <p className="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Admin will manage the users by verifying the details filled in by them.</p>
+                  </div>
+                </div>
+              </div>
+              <div className="md:w-1/2 w-full md:p-4 p-3">
+                <div className="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                  <div className="">
+                    <div className="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">League Management</div>
+                    <p className="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Admin can activate or deactivate any contest or league as per requirements.</p>
+                  </div>
+                </div>
+              </div>
+              <div className="md:w-1/2 w-full md:p-4 p-3">
+                <div className="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                  <div className="">
+                    <div className="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Match Management</div>
+                    <p className="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">The matches or the national, international or local tournaments of different sports will be listed.</p>
+                  </div>
+                </div>
+              </div>
+              <div className="md:w-1/2 w-full md:p-4 p-3">
+                <div className="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                  <div className="">
+                    <div className="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Revenue Management</div>
+                    <p className="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Admin can generate reports regarding the total revenue generation and prize money distribution.</p>
+                  </div>
+                </div>
+              </div>
+              <div className="md:w-1/2 w-full md:p-4 p-3">
+                <div className="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                  <div className="">
+                    <div className="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Reward Points</div>
+                    <p className="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Admin will manage the reward points that have been awarded to the users.</p>
+                  </div>
+                </div>
+              </div>
+              <div className="md:w-1/2 w-full md:p-4 p-3">
+                <div className="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                  <div className="">
+                    <div className="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Push Notification</div>
+                    <p className="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Via push notification, send alerts and updates to users regarding apps and contests.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* features Ends */}
+
+      <Cta2 />
+
+      <CaseStudy />
+
+      <PortfolioSection />
+
+      <Testimonial />
+
+      {/* accordian start */}
+      <div className='py-10'>
+        <div className='mx-auto max-w-7xl px-6 lg:px-8'>
+          <section className="lg:w-4/5 w-full mx-auto md:mt-16 mt-8">
+            <div className="max-w-[85rem] px-4 sm:px-6 lg:px-8 mx-auto">
+              <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
+                <h2 className="text-2xl font-bold md:text-4xl md:leading-tight">Your questions, answered</h2>
+                <p className="mt-1 text-gray-600">Answers to the most frequently asked questions.</p>
+              </div>
+              <Accordion items={accordionItems} />
+            </div>
+          </section>
+        </div>
+      </div>
+      {/* accordian Ends */}
 
 
       <Blog />
+
       <Form />
+      
       <Footer />
     </>
   )

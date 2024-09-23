@@ -34,7 +34,7 @@ export default function Home() {
                     navigation={true}
 
                 >
-                    <div className="swiper-wrapper *:py-5 *:*:flex *:*:h-full *:*:items-center *:*:justify-center *:*:w-full *:*:relative *:*:aspect-[860/460] *:*:overflow-hidden *:*:duration-500 *:*:shadow-lg *:*:before:absolute *:*:before:inset-0 *:*:before:bg-cover *:*:before:bg-right  *:*:before:bg-gradient-to-r *:*:before:mix-blend-multiply *:*:after:absolute *:*:after:inset-0 *:*:after:bg-repeat *:*:after:[background-image:url(https://www.imgglobalinfotech.com/public/tailwind/css/build/assets/grid-97c1b4f1.svg]">
+                    <div className="swiper-wrapper *:py-5 *:*:flex *:*:h-full *:*:items-center *:*:justify-center *:*:w-full *:*:relative *:*:aspect-[860/460] *:*:overflow-hidden *:*:duration-500 *:*:shadow-lg *:*:before:absolute *:*:before:inset-0 *:*:before:bg-cover *:*:before:bg-right  *:*:before:bg-gradient-to-r *:*:before:mix-blend-multiply *:*:after:absolute *:*:after:inset-0 *:*:after:bg-repeat  ">
                         <SwiperSlide className=" group flex justify-center items-center !h-full">
                             <div className="group-[.-active]:z-10 shadow-sky-950 before:from-sky-950 before:via-sky-900/80 before:to-sky-900/70 h-full relative after:absolute after:size-full after:inset-0 after:bg-black/60" >
                                 <Image

@@ -34,7 +34,7 @@ const Header = () => {
           aria-label="Global"
         >
           <div className="flex lg:flex-1">
-            <Link href="/" className="-m-1.5 p-1.5">
+            <Link href="/" className="-m-1.5 p-1.5 drop-shadow-2xl">
               <Image
                 className="h-8 md:h-12 w-auto"
                 width="1000"
@@ -635,31 +635,10 @@ const Header = () => {
                             </div>
                             <div className="flex-auto">
                               <Link
-                                href=".com/ecommerce-development.php"
+                                href="/ecommerce-development"
                                 className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900"
                               >
                                 eCommerce Development
-                                <span className="absolute inset-0 z-[1]"></span>
-                              </Link>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="w-full flex flex-col p-2 rounded-[20px] bg-white xl:p-4 overflow-hidden  group-[]/ns:to-sky-950 backdrop-blur-lg shadow-lg ring-1 ring-gray-900/5 *:relative *:flex *:items-center *:gap-x-5 *:rounded-lg *:px-2 *:xl:px-4 *:py-1 *:xl:py-2">
-                          <div className="text-base md:text-lg font-bold px-2 xl:px-4 py-1 xl:py-2 text-slate-900">
-                            Blockchain
-                          </div>
-                          <div className="group/db hover:bg-gray-600/30 text-sky-300">
-                            <div className="flex h-5 w-5 flex-none items-center justify-center rounded-full bg-gray-900 group-hover/db:bg-gray-950/90">
-                            <svg className="group-hover/db:opacity-80  !rounded-full overflow-hidden !size-3" stroke="currentColor" fill="none" stroke-width="3" viewBox="0 0 24 24" aria-hidden="true" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 0 0-3.7-3.7 48.678 48.678 0 0 0-7.324 0 4.006 4.006 0 0 0-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 0 0 3.7 3.7 48.656 48.656 0 0 0 7.324 0 4.006 4.006 0 0 0 3.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3-3 3">
-                            </path>
-                            </svg>
-                            </div>
-                            <div className="flex-auto">
-                              <Link
-                                href=".com/"
-                                className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900"
-                              >
-                                Blockchain
                                 <span className="absolute inset-0 z-[1]"></span>
                               </Link>
                             </div>
@@ -2047,38 +2026,10 @@ const Header = () => {
                             </div>
                             <div className="flex-auto">
                               <Link
-                                href=".com/ecommerce-development.php"
+                                href="/ecommerce-development"
                                 className="block font-semibold opacity-80"
                               >
                                 eCommerce Development
-                                <span className="absolute inset-0 z-[1]"></span>
-                              </Link>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="w-full text-xs xl:text-sm *:flex *:items-center *:gap-x-3 *:py-1 *:relative">
-                          <div className="text-sm font-bold py-1 block">
-                            Blockchain
-                          </div>
-                          <div>
-                            <div className="flex h-1.5 w-1.5 flex-none">
-                              <svg
-                                className="h-1.5 w-1.5 opacity-90"
-                                stroke="currentColor"
-                                fill="currentColor"
-                                strokeWidth="0"
-                                viewBox="0 0 448 512"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path>
-                              </svg>
-                            </div>
-                            <div className="flex-auto">
-                              <Link
-                                href=".com/"
-                                className="block font-semibold opacity-80"
-                              >
-                                Blockchain
                                 <span className="absolute inset-0 z-[1]"></span>
                               </Link>
                             </div>

@@ -152,14 +152,6 @@ function iosAppDevelopment() {
 
             <Cta />
 
-
-
-
-
-
-
-
-
             <div className="relative bg-gray-100 py-6 md:py-8 lg:py-16">
                 <div className="mx-auto max-w-7xl px-6 lg:px-8 w-full relative">
 
@@ -322,12 +314,14 @@ function iosAppDevelopment() {
 
             </div>
 
-
             <Cta2 />
 
             <PortfolioSection />
+            
             <Blog />
+
             <Form />
+            
             {/* accordian start */}
             <div className='py-10'>
                 <div className='mx-auto max-w-7xl px-6 lg:px-8'>
