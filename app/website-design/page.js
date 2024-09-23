@@ -134,7 +134,7 @@ function crossplatform() {
             {/* About Ends */}
            
             {/* strategy */}
-            <div className="bg-theme1 relative overflow-hidden select-none py-6 md:py-8 lg:py-16">
+            <div className="bg-theme1 relative overflow-hidden   py-6 md:py-8 lg:py-16">
     <div className="mx-auto max-w-7xl px-6 lg:px-8  z-40 relative">
     <div className="absolute inset-x-0 top-0 h-96 z-0 text-slate-600/5 [mask-image:linear-gradient(to_top,transparent,white)] pointer-events-none">
               <svg className="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
@@ -150,7 +150,7 @@ function crossplatform() {
             <span className="font-normal">Our Engaging and Interactive </span>
             <span className="font-bold text-white"> Website Design Strategy </span>
         </p>
-        <div className="md:text-base text-sm text-center text-white opacity-70 mt-3 mb-lg-1 select-none">
+        <div className="md:text-base text-sm text-center text-white opacity-70 mt-3 mb-lg-1  ">
         We build top-tier web applications for a wide range of industries and clients worldwide. Our commitment is to fully understand your industry and target markets before beginning the development process, ensuring tailored solutions that meet your specific needs.       
         </div>
  
@@ -231,55 +231,55 @@ function crossplatform() {
             flex flex-wrap md:pt-8 text-center md:text-left gap-y-6 justify-center items-stretch
         ">
         <div className="lg:w-4/12 sm:w-1/2 w-full sm:p-6 sm:px-6 py-6">
-            <div className="relative block h-full bg-white shadow-md rounded-lg rounded-br-none p-6 pt-10 group">
+            <div className="relative block h-full bg-white shadow-md rounded-lg   p-6 pt-10 group">
                 <div className="font-bold text-slate-900 md:text-xl text-lg relative before:absolute before:left-0 before:top-[-16px] before:h-[4px] before:w-[40px] before:bg-gradient-to-r before:from-theme1 before:to-theme1/70 ">Fueled by Experienced Professionals</div>
                 <div className="text-black text-sm mt-2 text-ellipsis line-clamp-4 ">Our team consists of expert designers who understand the value of your ideas and transform them into feature-rich realities. We have successfully delivered our services to thousands of clients, fostering long-term relationships along the way.</div>
-                <div className="sm:h-16 sm:w-16 h-14 w-14 bg-white rounded-lg rounded-br-none absolute right-[30px] top-[-30px] p-3 shadow-md duration-300 group-hover:bg-slate-900/90 ">
+                <div className="sm:h-16 sm:w-16 h-14 w-14 bg-white rounded-lg   absolute right-[30px] top-[-30px] p-3 shadow-md duration-300 group-hover:bg-slate-900/90 ">
                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" className="text-theme1 duration-700 group-hover:scale-90" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-width="2" d="M6,9 C7.65685425,9 9,7.65685425 9,6 C9,4.34314575 7.65685425,3 6,3 C4.34314575,3 3,4.34314575 3,6 C3,7.65685425 4.34314575,9 6,9 Z M6,3 L6,0 M6,12 L6,9 M0,6 L3,6 M9,6 L12,6 M2,2 L4,4 M8,8 L10,10 M10,2 L8,4 M4,8 L2,10 M18,12 C19.6568542,12 21,10.6568542 21,9 C21,7.34314575 19.6568542,6 18,6 C16.3431458,6 15,7.34314575 15,9 C15,10.6568542 16.3431458,12 18,12 Z M18,6 L18,3 M18,15 L18,12 M12,9 L15,9 M21,9 L24,9 M14,5 L16,7 M20,11 L22,13 M22,5 L20,7 M16,11 L14,13 M9,21 C10.6568542,21 12,19.6568542 12,18 C12,16.3431458 10.6568542,15 9,15 C7.34314575,15 6,16.3431458 6,18 C6,19.6568542 7.34314575,21 9,21 Z M9,15 L9,12 M9,24 L9,21 M3,18 L6,18 M12,18 L15,18 M5,14 L7,16 M11,20 L13,22 M13,14 L11,16 M7,20 L5,22"></path></svg>
                 </div>
             </div>
         </div>
         <div className="lg:w-4/12 sm:w-1/2 w-full sm:p-6 sm:px-6 py-6">
-            <div className="relative block h-full bg-white shadow-md rounded-lg rounded-br-none p-6 pt-10 group">
+            <div className="relative block h-full bg-white shadow-md rounded-lg   p-6 pt-10 group">
                 <div className="font-bold text-slate-900 md:text-xl text-lg relative before:absolute before:left-0 before:top-[-16px] before:h-[4px] before:w-[40px] before:bg-gradient-to-r before:from-theme1 before:to-theme1/70 ">Principles of Ethical Work</div>
                 <div className="text-black text-sm mt-2 text-ellipsis line-clamp-4 ">We are dedicated to delivering work with honesty and integrity. We strive to make the design process enjoyable for our clients, ensuring they receive everything they need for their projects.</div>
-                <div className="sm:h-16 sm:w-16 h-14 w-14 bg-white rounded-lg rounded-br-none absolute right-[30px] top-[-30px] p-3 shadow-md duration-300 group-hover:bg-slate-900/90 ">
+                <div className="sm:h-16 sm:w-16 h-14 w-14 bg-white rounded-lg   absolute right-[30px] top-[-30px] p-3 shadow-md duration-300 group-hover:bg-slate-900/90 ">
                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" className="text-theme1 duration-700 group-hover:scale-90" xmlns="http://www.w3.org/2000/svg"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 21.6a9.6 9.6 0 0 1-5.016-1.416L11.28 17.7v-5.4L6.612 9.6v5.424l3.3 1.908-4.152 2.4A9.6 9.6 0 0 1 7.296 3.6v4.8L12 11.136 16.68 8.4 12 5.724 8.688 7.632V2.964a9.6 9.6 0 0 1 12.372 5.64A9.72 9.72 0 0 1 21.672 12v.084L17.352 9.6l-4.68 2.712v5.412l4.68-2.7v-3.816l4.14 2.4A9.6 9.6 0 0 1 12 21.6z"></path></svg>
                 </div>
             </div>
         </div>
         <div className="lg:w-4/12 sm:w-1/2 w-full sm:p-6 sm:px-6 py-6">
-            <div className="relative block h-full bg-white shadow-md rounded-lg rounded-br-none p-6 pt-10 group">
+            <div className="relative block h-full bg-white shadow-md rounded-lg   p-6 pt-10 group">
                 <div className="font-bold text-slate-900 md:text-xl text-lg relative before:absolute before:left-0 before:top-[-16px] before:h-[4px] before:w-[40px] before:bg-gradient-to-r before:from-theme1 before:to-theme1/70 ">Value for Money</div>
                 <div className="text-black text-sm mt-2 text-ellipsis line-clamp-4 ">Being a professional organization doesn’t mean we are expensive. We offer our services at affordable prices, helping you maintain your business's cash flow while providing competitive rates.</div>
-                <div className="sm:h-16 sm:w-16 h-14 w-14 bg-white rounded-lg rounded-br-none absolute right-[30px] top-[-30px] p-3 shadow-md duration-300 group-hover:bg-slate-900/90 ">
+                <div className="sm:h-16 sm:w-16 h-14 w-14 bg-white rounded-lg   absolute right-[30px] top-[-30px] p-3 shadow-md duration-300 group-hover:bg-slate-900/90 ">
                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 640 512" className="text-theme1 duration-700 group-hover:scale-90" xmlns="http://www.w3.org/2000/svg"><path d="M610.5 341.3c2.6-14.1 2.6-28.5 0-42.6l25.8-14.9c3-1.7 4.3-5.2 3.3-8.5-6.7-21.6-18.2-41.2-33.2-57.4-2.3-2.5-6-3.1-9-1.4l-25.8 14.9c-10.9-9.3-23.4-16.5-36.9-21.3v-29.8c0-3.4-2.4-6.4-5.7-7.1-22.3-5-45-4.8-66.2 0-3.3.7-5.7 3.7-5.7 7.1v29.8c-13.5 4.8-26 12-36.9 21.3l-25.8-14.9c-2.9-1.7-6.7-1.1-9 1.4-15 16.2-26.5 35.8-33.2 57.4-1 3.3.4 6.8 3.3 8.5l25.8 14.9c-2.6 14.1-2.6 28.5 0 42.6l-25.8 14.9c-3 1.7-4.3 5.2-3.3 8.5 6.7 21.6 18.2 41.1 33.2 57.4 2.3 2.5 6 3.1 9 1.4l25.8-14.9c10.9 9.3 23.4 16.5 36.9 21.3v29.8c0 3.4 2.4 6.4 5.7 7.1 22.3 5 45 4.8 66.2 0 3.3-.7 5.7-3.7 5.7-7.1v-29.8c13.5-4.8 26-12 36.9-21.3l25.8 14.9c2.9 1.7 6.7 1.1 9-1.4 15-16.2 26.5-35.8 33.2-57.4 1-3.3-.4-6.8-3.3-8.5l-25.8-14.9zM496 368.5c-26.8 0-48.5-21.8-48.5-48.5s21.8-48.5 48.5-48.5 48.5 21.8 48.5 48.5-21.7 48.5-48.5 48.5zM96 224c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm224 32c1.9 0 3.7-.5 5.6-.6 8.3-21.7 20.5-42.1 36.3-59.2 7.4-8 17.9-12.6 28.9-12.6 6.9 0 13.7 1.8 19.6 5.3l7.9 4.6c.8-.5 1.6-.9 2.4-1.4 7-14.6 11.2-30.8 11.2-48 0-61.9-50.1-112-112-112S208 82.1 208 144c0 61.9 50.1 112 112 112zm105.2 194.5c-2.3-1.2-4.6-2.6-6.8-3.9-8.2 4.8-15.3 9.8-27.5 9.8-10.9 0-21.4-4.6-28.9-12.6-18.3-19.8-32.3-43.9-40.2-69.6-10.7-34.5 24.9-49.7 25.8-50.3-.1-2.6-.1-5.2 0-7.8l-7.9-4.6c-3.8-2.2-7-5-9.8-8.1-3.3.2-6.5.6-9.8.6-24.6 0-47.6-6-68.5-16h-8.3C179.6 288 128 339.6 128 403.2V432c0 26.5 21.5 48 48 48h255.4c-3.7-6-6.2-12.8-6.2-20.3v-9.2zM173.1 274.6C161.5 263.1 145.6 256 128 256H64c-35.3 0-64 28.7-64 64v32c0 17.7 14.3 32 32 32h65.9c6.3-47.4 34.9-87.3 75.2-109.4z"></path></svg>
                 </div>
             </div>
         </div>
         <div className="lg:w-4/12 sm:w-1/2 w-full sm:p-6 sm:px-6 py-6">
-            <div className="relative block h-full bg-white shadow-md rounded-lg rounded-br-none p-6 pt-10 group">
+            <div className="relative block h-full bg-white shadow-md rounded-lg   p-6 pt-10 group">
                 <div className="font-bold text-slate-900 md:text-xl text-lg relative before:absolute before:left-0 before:top-[-16px] before:h-[4px] before:w-[40px] before:bg-gradient-to-r before:from-theme1 before:to-theme1/70 ">Punctual Work Completion </div>
                 <div className="text-black text-sm mt-2 text-ellipsis line-clamp-4 ">Our business has grown significantly, and we aim to maintain this momentum by delivering work on time. Every client who trusts us is our responsibility, and we strive to work effectively and efficiently to meet their needs.</div>
-                <div className="sm:h-16 sm:w-16 h-14 w-14 bg-white rounded-lg rounded-br-none absolute right-[30px] top-[-30px] p-3 shadow-md duration-300 group-hover:bg-slate-900/90 ">
+                <div className="sm:h-16 sm:w-16 h-14 w-14 bg-white rounded-lg   absolute right-[30px] top-[-30px] p-3 shadow-md duration-300 group-hover:bg-slate-900/90 ">
                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" className="text-theme1 duration-700 group-hover:scale-90" xmlns="http://www.w3.org/2000/svg"><path d="M318 123.645l-61.5 35.7-61.76-35.7 61.76-35.7zm93.68 54.19l-61.76 35.7 61.76 35.7 61.5-35.7zm-294.39 80.64l61.76 35.7 61.5-35.7-61.5-35.7zm139.52-80.57l-61.76 35.7 61.76 35.7 61.5-35.7zM31 298.365l62 35.69v-71l-62-35.65v71zm373-26l-62 35.69v70.94l62-35.66v-70.97zm-225.11-139.4l-61.76 35.7 61.76 35.7 61.5-35.7zM109 343.305l62 35.69v-70.94l-62-35.69v71zm225.41-120.45l-61.76 35.7 61.76 35.7 61.5-35.7zM249 353.055l-62-35.7v71l62 35.7v-71zm77-35.67l-61 35.67v70.94l61-35.66v-70.95zm8.07-184.5l-61.76 35.7 61.76 35.7 61.5-35.7zm-232.6 44.95l-61.77 35.7 61.76 35.7 61.5-35.7zM481 227.565l-61 35.66v70.94l61-35.66v-70.94zm-286.11 75.93l61.76 35.7 61.5-35.7-61.5-35.7z"></path></svg>
                 </div>
             </div>
         </div>
         <div className="lg:w-4/12 sm:w-1/2 w-full sm:p-6 sm:px-6 py-6">
-            <div className="relative block h-full bg-white shadow-md rounded-lg rounded-br-none p-6 pt-10 group">
+            <div className="relative block h-full bg-white shadow-md rounded-lg   p-6 pt-10 group">
                 <div className="font-bold text-slate-900 md:text-xl text-lg relative before:absolute before:left-0 before:top-[-16px] before:h-[4px] before:w-[40px] before:bg-gradient-to-r before:from-theme1 before:to-theme1/70 ">Provide Genuine Value</div>
                 <div className="text-black text-sm mt-2 text-ellipsis line-clamp-4 ">As a trusted and reputable website design company, we are committed to working honestly and delivering genuine value to our clients.</div>
-                <div className="sm:h-16 sm:w-16 h-14 w-14 bg-white rounded-lg rounded-br-none absolute right-[30px] top-[-30px] p-3 shadow-md duration-300 group-hover:bg-slate-900/90 ">
+                <div className="sm:h-16 sm:w-16 h-14 w-14 bg-white rounded-lg   absolute right-[30px] top-[-30px] p-3 shadow-md duration-300 group-hover:bg-slate-900/90 ">
                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" className="text-theme1 duration-700 group-hover:scale-90" xmlns="http://www.w3.org/2000/svg"><path d="M289.67 274.89a65.57 65.57 0 1 1-65.56-65.56 65.64 65.64 0 0 1 65.56 65.56zm139.55-5.05h-.13a204.69 204.69 0 0 0-74.32-153l-45.38 26.2a157.07 157.07 0 0 1 71.81 131.84C381.2 361.5 310.73 432 224.11 432S67 361.5 67 274.88c0-81.88 63-149.27 143-156.43v39.12l108.77-62.79L210 32v38.32c-106.7 7.25-191 96-191 204.57 0 111.59 89.12 202.29 200.06 205v.11h210.16V269.84z"></path></svg>
                 </div>
             </div>
         </div>
         <div className="lg:w-4/12 sm:w-1/2 w-full sm:p-6 sm:px-6 py-6">
-            <div className="relative block h-full bg-white shadow-md rounded-lg rounded-br-none p-6 pt-10 group">
+            <div className="relative block h-full bg-white shadow-md rounded-lg   p-6 pt-10 group">
                 <div className="font-bold text-slate-900 md:text-xl text-lg relative before:absolute before:left-0 before:top-[-16px] before:h-[4px] before:w-[40px] before:bg-gradient-to-r before:from-theme1 before:to-theme1/70 ">Conduct Research and Honor Your Ideas</div>
                 <div className="text-black text-sm mt-2 text-ellipsis line-clamp-4 ">We conduct thorough research based on your requirements and ideas, making the process of building your dream website smoother and more efficient.</div>
-                <div className="sm:h-16 sm:w-16 h-14 w-14 bg-white rounded-lg rounded-br-none absolute right-[30px] top-[-30px] p-3 shadow-md duration-300 group-hover:bg-slate-900/90 ">
+                <div className="sm:h-16 sm:w-16 h-14 w-14 bg-white rounded-lg   absolute right-[30px] top-[-30px] p-3 shadow-md duration-300 group-hover:bg-slate-900/90 ">
                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" className="text-theme1 duration-700 group-hover:scale-90" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M384 224v184a40 40 0 0 1-40 40H104a40 40 0 0 1-40-40V168a40 40 0 0 1 40-40h167.48"></path><path d="M459.94 53.25a16.06 16.06 0 0 0-23.22-.56L424.35 65a8 8 0 0 0 0 11.31l11.34 11.32a8 8 0 0 0 11.34 0l12.06-12c6.1-6.09 6.67-16.01.85-22.38zM399.34 90 218.82 270.2a9 9 0 0 0-2.31 3.93L208.16 299a3.91 3.91 0 0 0 4.86 4.86l24.85-8.35a9 9 0 0 0 3.93-2.31L422 112.66a9 9 0 0 0 0-12.66l-9.95-10a9 9 0 0 0-12.71 0z"></path></svg>
                 </div>
             </div>

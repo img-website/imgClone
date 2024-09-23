@@ -103,7 +103,7 @@ function inventorymanagementsoftware() {
 
        <Cta/>
 
-       <div className="relative isolate select-none py-6 md:py-8 lg:py-16 ">
+       <div className="relative isolate   py-6 md:py-8 lg:py-16 ">
     <div className="overflow-hidden">
         
         <div className="relative container mx-auto max-w-7xl px-6 lg:px-8 z-10 text-center">

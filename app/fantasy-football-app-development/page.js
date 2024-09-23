@@ -92,7 +92,7 @@ function fantasyFootball() {
                         </div>
                     </div>
 
-                    <div className="xl:m-10 lg:m-8 md:m-6 overflow-hidden rounded-xl md:rounded-2xl !rounded-br-none shadow-xl shadow-indigo-900/10 md:hover:-translate-y-2 duration-300">
+                    <div className="xl:m-10 lg:m-8 md:m-6 overflow-hidden rounded-xl md:rounded-2xl !  shadow-xl shadow-indigo-900/10 md:hover:-translate-y-2 duration-300">
                         <figure className="relative">
                             <Image src="/img/11challengers-app.webp" alt="11 Challengers" className="block w-full object-contain aspect-[400/350]" width={400} height={350} />
                             <figcaption className="w-full block p-10 bg-gradient-to-t from-white via-white to-transparent from-75% relative z-[1] -mt-20">
@@ -102,7 +102,7 @@ function fantasyFootball() {
                         </figure>
                     </div>
 
-                    <div className="xl:m-10 lg:m-8 md:m-6 overflow-hidden rounded-xl md:rounded-2xl !rounded-br-none shadow-xl shadow-indigo-900/10 md:hover:-translate-y-2 duration-300">
+                    <div className="xl:m-10 lg:m-8 md:m-6 overflow-hidden rounded-xl md:rounded-2xl !  shadow-xl shadow-indigo-900/10 md:hover:-translate-y-2 duration-300">
                         <figure className="relative">
                             <Image src="/img/mpl-app.webp" alt="MPL" className="block w-full object-contain aspect-[400/300]" width={400} height={300} />
                             <figcaption className="w-full block p-10 bg-gradient-to-t from-white via-white to-transparent from-75% relative z-[1] -mt-20">
@@ -113,7 +113,7 @@ function fantasyFootball() {
                     </div>
                 </div>
                 <div className="flex flex-col md:w-1/2 w-full max-md:gap-y-8">
-                    <div className="xl:m-10 lg:m-8 md:m-6 overflow-hidden rounded-xl md:rounded-2xl !rounded-br-none shadow-xl shadow-indigo-900/10 md:hover:-translate-y-2 duration-300">
+                    <div className="xl:m-10 lg:m-8 md:m-6 overflow-hidden rounded-xl md:rounded-2xl !  shadow-xl shadow-indigo-900/10 md:hover:-translate-y-2 duration-300">
                         <figure className="relative">
                             <Image src="/img/mycircle11-app.webp" alt="My11Circle" className="block w-full object-contain aspect-[400/300]" width={400} height={300} />
                             <figcaption className="w-full block p-10 bg-gradient-to-t from-white via-white to-transparent from-75% relative z-[1] -mt-20">
@@ -123,7 +123,7 @@ function fantasyFootball() {
                         </figure>
                     </div>
 
-                    <div className="xl:m-10 lg:m-8 md:m-6 overflow-hidden rounded-xl md:rounded-2xl !rounded-br-none shadow-xl shadow-indigo-900/10 md:hover:-translate-y-2 duration-300">
+                    <div className="xl:m-10 lg:m-8 md:m-6 overflow-hidden rounded-xl md:rounded-2xl !  shadow-xl shadow-indigo-900/10 md:hover:-translate-y-2 duration-300">
                         <figure className="relative">
                             <Image src="/img/myteam11-app.webp" alt="MyTeam11" className="block w-full object-contain aspect-[400/400]" width={400} height={400} />
                             <figcaption className="w-full block p-10 bg-gradient-to-t from-white via-white to-transparent from-75% relative z-[1] -mt-20">
@@ -276,7 +276,7 @@ function fantasyFootball() {
                     <div className="lg:w-4/6 w-full">
                         <div className="flex flex-wrap items-stretch">
                             <div className="md:w-1/2 w-full md:p-4 p-3">
-                                <div className="sm:p-4 group/db p-3 backdrop-blur-xl rounded-br-none relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                                <div className="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
                                     <div className="">
                                         <div className="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">User Authentication</div>
                                         <p className="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis"> With the user authentication feature, the users will be required to fill their certain basic details.</p>
@@ -284,7 +284,7 @@ function fantasyFootball() {
                                 </div>
                             </div>
                             <div className="md:w-1/2 w-full md:p-4 p-3">
-                                <div className="sm:p-4 group/db p-3 backdrop-blur-xl rounded-br-none relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                                <div className="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
                                     <div className="">
                                         <div className="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Search, List and Filter Matches</div>
                                         <p className="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis"> Users can search for their favourite matches and apply filters to the matches of their favourite team.</p>
@@ -292,7 +292,7 @@ function fantasyFootball() {
                                 </div>
                             </div>
                             <div className="md:w-1/2 w-full md:p-4 p-3">
-                                <div className="sm:p-4 group/db p-3 backdrop-blur-xl rounded-br-none relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                                <div className="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
                                     <div className="">
                                         <div className="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Join Tournaments</div>
                                         <p className="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Users can join the tournaments of their favourite sports of their own choice.</p>
@@ -300,7 +300,7 @@ function fantasyFootball() {
                                 </div>
                             </div>
                             <div className="md:w-1/2 w-full md:p-4 p-3">
-                                <div className="sm:p-4 group/db p-3 backdrop-blur-xl rounded-br-none relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                                <div className="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
                                     <div class="">
                                         <div class="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Contests</div>
                                         <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Enjoy playing free practice contests, paid contests and private contests.</p>
@@ -308,7 +308,7 @@ function fantasyFootball() {
                                 </div>
                             </div>
                             <div class="md:w-1/2 w-full md:p-4 p-3">
-                                <div class="sm:p-4 group/db p-3 backdrop-blur-xl rounded-br-none relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                                <div class="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
                                     <div class="">
                                         <div class="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Create Multiple Team</div>
                                         <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Users can create multiple teams in the contest to enhance their winning chances.</p>
@@ -316,7 +316,7 @@ function fantasyFootball() {
                                 </div>
                             </div>
                             <div class="md:w-1/2 w-full md:p-4 p-3">
-                                <div class="sm:p-4 group/db p-3 backdrop-blur-xl rounded-br-none relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                                <div class="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
                                     <div class="">
                                         <div class="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Invite and Earn</div>
                                         <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Users can refer to the app and earn the referral amount that can be used to play.</p>
@@ -324,7 +324,7 @@ function fantasyFootball() {
                                 </div>
                             </div>
                             <div class="md:w-1/2 w-full md:p-4 p-3">
-                                <div class="sm:p-4 group/db p-3 backdrop-blur-xl rounded-br-none relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                                <div class="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
                                     <div class="">
                                         <div class="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Easy Withdraw Earnings</div>
                                         <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Get your winning amount transferred to your bank account instantly with fewer formalities.</p>
@@ -332,7 +332,7 @@ function fantasyFootball() {
                                 </div>
                             </div>
                             <div class="md:w-1/2 w-full md:p-4 p-3">
-                                <div class="sm:p-4 group/db p-3 backdrop-blur-xl rounded-br-none relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                                <div class="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
                                     <div class="">
                                         <div class="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Live Score &amp; Updates</div>
                                         <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Aware your users of the live streaming of matches and the latest updates about the sports.</p>
@@ -353,7 +353,7 @@ function fantasyFootball() {
                     <div class="lg:w-4/6 w-full">
                         <div class="flex flex-wrap items-stretch">
                             <div class="md:w-1/2 w-full md:p-4 p-3">
-                                <div class="sm:p-4 group/db p-3 backdrop-blur-xl rounded-br-none relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                                <div class="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
                                     <div class="">
                                         <div class="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Admin Login</div>
                                         <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">With an admin login, the security and privacy of the fantasy sports app will be maintained.</p>
@@ -362,7 +362,7 @@ function fantasyFootball() {
                             </div>
 
                             <div class="md:w-1/2 w-full md:p-4 p-3">
-                                <div class="sm:p-4 group/db p-3 backdrop-blur-xl rounded-br-none relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                                <div class="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
                                     <div class="">
                                         <div class="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Admin Dashboard</div>
                                         <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Admin dashboard to overlook the number of matches, participants and their earnings etc.</p>
@@ -370,7 +370,7 @@ function fantasyFootball() {
                                 </div>
                             </div>
                             <div class="md:w-1/2 w-full md:p-4 p-3">
-                                <div class="sm:p-4 group/db p-3 backdrop-blur-xl rounded-br-none relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                                <div class="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
                                     <div class="">
                                         <div class="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Users Management</div>
                                         <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Admin will manage the users by verifying the details filled in by them.</p>
@@ -378,7 +378,7 @@ function fantasyFootball() {
                                 </div>
                             </div>
                             <div class="md:w-1/2 w-full md:p-4 p-3">
-                                <div class="sm:p-4 group/db p-3 backdrop-blur-xl rounded-br-none relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                                <div class="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
                                     <div class="">
                                         <div class="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">League Management</div>
                                         <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Admin can activate or deactivate any contest or league as per requirements.</p>
@@ -386,7 +386,7 @@ function fantasyFootball() {
                                 </div>
                             </div>
                             <div class="md:w-1/2 w-full md:p-4 p-3">
-                                <div class="sm:p-4 group/db p-3 backdrop-blur-xl rounded-br-none relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                                <div class="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
                                     <div class="">
                                         <div class="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Match Management</div>
                                         <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">The matches or the national, international or local tournaments of different sports will be listed.</p>
@@ -394,7 +394,7 @@ function fantasyFootball() {
                                 </div>
                             </div>
                             <div class="md:w-1/2 w-full md:p-4 p-3">
-                                <div class="sm:p-4 group/db p-3 backdrop-blur-xl rounded-br-none relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                                <div class="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
                                     <div class="">
                                         <div class="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Revenue Management</div>
                                         <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Admin can generate reports regarding the total revenue generation and prize money distribution.</p>
@@ -402,7 +402,7 @@ function fantasyFootball() {
                                 </div>
                             </div>
                             <div class="md:w-1/2 w-full md:p-4 p-3">
-                                <div class="sm:p-4 group/db p-3 backdrop-blur-xl rounded-br-none relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                                <div class="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
                                     <div class="">
                                         <div class="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Reward Points</div>
                                         <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Admin will manage the reward points that have been awarded to the users.</p>
@@ -410,7 +410,7 @@ function fantasyFootball() {
                                 </div>
                             </div>
                             <div class="md:w-1/2 w-full md:p-4 p-3">
-                                <div class="sm:p-4 group/db p-3 backdrop-blur-xl rounded-br-none relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                                <div class="sm:p-4 group/db p-3 backdrop-blur-xl   relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
                                     <div class="">
                                         <div class="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Push Notification</div>
                                         <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Via push notification, send alerts and updates to users regarding apps and contests.</p>

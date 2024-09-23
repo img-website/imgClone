@@ -63,8 +63,6 @@ function fantasysportsappdevelopment() {
                   </div>
                 </div>
               </fieldset>
-
-
             </div>
 
             <div className="max-lg:text-sm text-base text-center text-white pt-5 text-balance max-lg:mx-auto">
@@ -313,7 +311,7 @@ function fantasysportsappdevelopment() {
       </div>
       {/* card */}
 
-      <div className="relative isolate overflow-hidden select-none py-6 md:py-8 lg:py-16 bg-theme2">
+      <div className="relative isolate overflow-hidden   py-6 md:py-8 lg:py-16 bg-theme2">
         <div className="overflow-hidden">
           
           <div className="relative container mx-auto max-w-7xl px-6 lg:px-8 z-10">
@@ -371,7 +369,7 @@ function fantasysportsappdevelopment() {
       </div>
       <Cta/>
 
-      <section className="container mx-auto py-8 sm:py-16 relative select-none bg-gray-100">
+      <section className="container mx-auto py-8 sm:py-16 relative   bg-gray-100">
     
     <div className="flex flex-col w-full max-w-7xl mx-auto pb-8 px-6 lg:px-8 text-center">
         <p className="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black empty:hidden text-balance">
@@ -389,7 +387,7 @@ function fantasysportsappdevelopment() {
                             <span className="text-lg md:text-xl lg:text-2xl text-balance">Fantasy Cricket <span className="font-bold">App Development</span></span>
                             <div className="text-sm md:text-base text-balance">Our expert team will assist you in creating a customized fantasy cricket app with features like user registration, team creation, player selection, and more. Turn your vision into a reality with our reliable and innovative solutions. Contact us today for top-notch fantasy cricket app development services.</div>
                             <div className="px-1">
-                                <Link href="javascript:;"  className="inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-cyan-900 bg-cyan-900/20 xl:hover:ring-cyan-700 duration-300 backdrop-blur-md shadow-sm shadow-cyan-900/50">View More</Link>
+                                <Link href="javascript:;"  className="inline-flex justify-center rounded-lg max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-cyan-900 bg-cyan-900/20 xl:hover:ring-cyan-700 duration-300 backdrop-blur-md shadow-sm shadow-cyan-900/50">View More</Link>
                             </div>
                         </div>
                         <div className="w-1/2 shrink-0 max-sm:w-full relative after:h-16 after:z-10 after:absolute after:bg-gradient-to-t after:from-theme1 after:via-theme1 after:to-transparent after:bottom-0 after:inset-x-0">
@@ -403,11 +401,11 @@ function fantasysportsappdevelopment() {
             <div className="bg-theme2  opacity-100 rounded-[20px] overflow-hidden relative">
                 <div className="flex flex-col h-full relative z-50">
                     <div className="w-full flex max-sm:flex-col-reverse relative z-10 items-center max-sm:text-center">
-                        <div className="w-1/2 max-sm:w-full text-black flex flex-col max-sm:gap-y-4 gap-y-7">
+                        <div className="w-1/2 max-sm:w-full text-black flex flex-col max-sm:gap-y-4 gap-y-7 px-4">
                             <div className="text-lg md:text-xl lg:text-2xl text-balance">Fantasy Football <span className="font-bold">App Development</span></div>
                             <span className="text-sm md:text-base text-balance">TwinPower Software specializes in fantasy sports app development. With our expertise, we can create a custom fantasy football app that includes features like user registration, team creation, player selection, live scoring, and more. Transform your fantasy football app idea into a reality with our professional services. Contact us now for exceptional fantasy football app development solutions.</span>
                             <div className="px-1">
-                                <Link href="javascript:;"  className="inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-cyan-900 bg-cyan-900/20 xl:hover:ring-cyan-700 duration-300 backdrop-blur-md shadow-sm shadow-cyan-900/50">View More</Link>
+                                <Link href="javascript:;"  className="inline-flex justify-center rounded-lg max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-cyan-900 bg-cyan-900/20 xl:hover:ring-cyan-700 duration-300 backdrop-blur-md shadow-sm shadow-cyan-900/50">View More</Link>
                             </div>
                         </div>
                         <div className="w-1/2 shrink-0 max-sm:w-full relative after:h-16 after:z-10 after:absolute after:bg-gradient-to-t after:from-theme2  after:via-theme2  after:to-transparent after:bottom-0 after:inset-x-0">
@@ -425,7 +423,7 @@ function fantasysportsappdevelopment() {
                             <div className="text-lg md:text-xl lg:text-2xl text-balance">Fantasy Kabaddi <span className="font-bold">App Development</span></div>
                             <span className="text-sm md:text-base text-balance">With TwinPower Software, you can bring your fantasy kabaddi app idea to life. Our experienced team will guide you through the entire app development process, from conceptualization to launch. Create engaging features like user registration, team formation, player selection, live scoring, and more. Don't miss the opportunity to captivate kabaddi enthusiasts with your customized fantasy kabaddi app.</span>
                             <div className="px-1">
-                                <Link href="javascript:;"  className="inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-cyan-900 bg-cyan-900/20 xl:hover:ring-cyan-700 duration-300 backdrop-blur-md shadow-sm shadow-cyan-900/50">View More</Link>
+                                <Link href="javascript:;"  className="inline-flex justify-center rounded-lg max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-cyan-900 bg-cyan-900/20 xl:hover:ring-cyan-700 duration-300 backdrop-blur-md shadow-sm shadow-cyan-900/50">View More</Link>
                             </div>
                         </div>
                         <div className="w-1/2 order-1 shrink-0 max-sm:w-full relative after:h-16 after:z-10 after:absolute after:bg-gradient-to-t after:from-theme1 after:via-theme1 after:to-transparent after:bottom-0 after:inset-x-0">
@@ -443,7 +441,7 @@ function fantasysportsappdevelopment() {
                             <div className="text-lg md:text-xl lg:text-2xl text-balance">Fantasy Stock Market <span className="font-bold">App Development</span></div>
                             <span className="text-sm md:text-base text-balance">Ready to launch your fantasy stock app? TwinPower Software is your go-to partner for fantasy stock app development. Our skilled team will help you create a cutting-edge app with features like user registration, portfolio creation, virtual trading, real-time market data, and more. Step into the world of virtual stock trading with our reliable and innovative solutions.</span>
                             <div className="px-1">
-                                <Link href="javascript:;"  className="inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-cyan-900 bg-cyan-900/20 xl:hover:ring-cyan-700 duration-300 backdrop-blur-md shadow-sm shadow-cyan-900/50">View More</Link>
+                                <Link href="javascript:;"  className="inline-flex justify-center rounded-lg max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-cyan-900 bg-cyan-900/20 xl:hover:ring-cyan-700 duration-300 backdrop-blur-md shadow-sm shadow-cyan-900/50">View More</Link>
                             </div>
                         </div>
                         <div className="w-1/2 shrink-0 max-sm:w-full relative after:h-16 after:z-10 after:absolute after:bg-gradient-to-t after:from-theme2 after:via-theme2 after:to-transparent after:bottom-0 after:inset-x-0">

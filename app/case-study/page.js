@@ -14,7 +14,7 @@ function casestudy() {
            
 {/* ----hero */}
 
-      <div className="flex w-full relative bg-slate-50 select-none lg:h-dvh lg:min-h-[650px]">
+      <div className="flex w-full relative bg-slate-50   lg:h-dvh lg:min-h-[650px]">
         <div className="size-full relative !z-10">
           <div className="flex size-full items-center rounded-b-2xl relative overflow-hidden shadow-lg before:absolute before:inset-0 before:bg-cover before:bg-right before:rounded-b-2xl before:bg-gradient-to-r before:mix-blend-multiply  shadow-theme1 before:from-theme1/30 before:via-theme1/30 before:to-theme1/40">
             <span className="absolute inset-0 bg-cover bg-right opacity-80 rounded-b-2xl bg-theme1/30"></span>

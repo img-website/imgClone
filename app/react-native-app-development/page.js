@@ -323,7 +323,7 @@ function reactNativeDevelopment() {
 
 
             <Cta2 />
-            <div className="relative bg-gray-100 py-6 md:py-8 lg:py-16 select-none">
+            <div className="relative bg-gray-100 py-6 md:py-8 lg:py-16  ">
                 <div className="mx-auto max-w-7xl px-6 lg:px-8 w-full relative">
                     <div className="mx-auto max-w-container gap-7 flex flex-col max-lg:gap-4 items-center">
 

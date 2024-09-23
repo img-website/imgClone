@@ -256,8 +256,8 @@ function portfolio() {
                 <div className="swiper-wrapper flex items-center pb-8 -mb-8 " id="swiper-wrapper-d2640ed7db106104e4" aria-live="polite" style="transition-duration: 0ms; transform: translate3d(-1285.38px, 0px, 0px); transition-delay: 0ms;"> 
 
                                 <div className="swiper-slide rounded-2xl group/blog p-3" style="width: 398.462px; margin-right: 30px;" role="group" aria-label="1 / 6">
-                        <a href="javascript:;" className="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-md shadow-gray-300">
-                            <Image className="w-full aspect-[385/221] rounded-2xl rounded-br-none" width="385" height="217" src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/ares-port.png" alt="Dating App Development Cost" title="How Much Does It Cost To Develop A Dating App? "/>
+                        <a href="javascript:;" className="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl   shadow-md shadow-gray-300">
+                            <Image className="w-full aspect-[385/221] rounded-2xl  " width="385" height="217" src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/ares-port.png" alt="Dating App Development Cost" title="How Much Does It Cost To Develop A Dating App? "/>
                             <div className="w-full p-6">
                                 <div className="flex items-center gap-x-4 text-xs">
                                     <time datetime="2024-5-24" className="text-gray-500">Sep 17, 2024</time>
@@ -281,8 +281,8 @@ function portfolio() {
                         </a>
                     </div>  
                                     <div className="swiper-slide rounded-2xl group/blog p-3" style="width: 398.462px; margin-right: 30px;" role="group" aria-label="2 / 6">
-                        <a href="javascript:;" className="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-md shadow-gray-300">
-                            <Image className="w-full aspect-[385/221] rounded-2xl rounded-br-none" width="385" height="217" src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/uber.png"
+                        <a href="javascript:;" className="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl   shadow-md shadow-gray-300">
+                            <Image className="w-full aspect-[385/221] rounded-2xl  " width="385" height="217" src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/uber.png"
                              alt="cost-to-develop-an-app-like-Uber" title="How Much Does It Cost to Develop A Bike Taxi App Like Rapido?"/>
                             <div className="w-full p-6">
                                 <div className="flex items-center gap-x-4 text-xs">
@@ -307,8 +307,8 @@ function portfolio() {
                         </a>
                     </div>  
                                     <div className="swiper-slide rounded-2xl group/blog p-3 swiper-slide-prev" style="width: 398.462px; margin-right: 30px;" role="group" aria-label="3 / 6">
-                        <a href="javascript:;" className="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-md shadow-gray-300">
-                            <Image className="w-full aspect-[385/221] rounded-2xl rounded-br-none" width="385" height="217" src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/ares-port.png" alt="Features of dating app" title="Top 30 Features of Dating Apps   "/>
+                        <a href="javascript:;" className="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl   shadow-md shadow-gray-300">
+                            <Image className="w-full aspect-[385/221] rounded-2xl  " width="385" height="217" src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/ares-port.png" alt="Features of dating app" title="Top 30 Features of Dating Apps   "/>
                             <div className="w-full p-6">
                                 <div className="flex items-center gap-x-4 text-xs">
                                     <time datetime="2024-5-24" className="text-gray-500">Sep 09, 2024</time>
@@ -332,8 +332,8 @@ function portfolio() {
                         </a>
                     </div>  
                                     <div className="swiper-slide rounded-2xl group/blog p-3 swiper-slide-active" style="width: 398.462px; margin-right: 30px;" role="group" aria-label="4 / 6">
-                        <a href="javascript:;" className="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-md shadow-gray-300">
-                            <Image className="w-full aspect-[385/221] rounded-2xl rounded-br-none" width="385" height="217" src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/axle-port.png"
+                        <a href="javascript:;" className="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl   shadow-md shadow-gray-300">
+                            <Image className="w-full aspect-[385/221] rounded-2xl  " width="385" height="217" src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/axle-port.png"
                              alt="taxi-booking-mobile-app-development" title="Taxi Booking Mobile App Development Cost &amp; Features 2024"/>
                             <div className="w-full p-6">
                                 <div className="flex items-center gap-x-4 text-xs">
@@ -358,8 +358,8 @@ function portfolio() {
                         </a>
                     </div>  
                                     <div className="swiper-slide rounded-2xl group/blog p-3 swiper-slide-next" style="width: 398.462px; margin-right: 30px;" role="group" aria-label="5 / 6">
-                        <a href="javascript:;" className="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-md shadow-gray-300">
-                            <Image className="w-full aspect-[385/221] rounded-2xl rounded-br-none" width="385" height="217" src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/axle-port.png"
+                        <a href="javascript:;" className="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl   shadow-md shadow-gray-300">
+                            <Image className="w-full aspect-[385/221] rounded-2xl  " width="385" height="217" src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/axle-port.png"
                              alt="Dating App Development Trends" title="Top 18 Trends in Dating App Development"/>
                             <div className="w-full p-6">
                                 <div className="flex items-center gap-x-4 text-xs">
@@ -384,8 +384,8 @@ function portfolio() {
                         </a>
                     </div>  
                                     <div className="swiper-slide rounded-2xl group/blog p-3" role="group" aria-label="6 / 6" style="width: 398.462px; margin-right: 30px;">
-                        <a href="javascript:;" className="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-md shadow-gray-300">
-                            <Image className="w-full aspect-[385/221] rounded-2xl rounded-br-none" width="385" height="217" 
+                        <a href="javascript:;" className="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl   shadow-md shadow-gray-300">
+                            <Image className="w-full aspect-[385/221] rounded-2xl  " width="385" height="217" 
                             src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/axle-port.png"
                              alt="Top Dating Apps" title="Best 14 Dating Apps to Know in 2024"/>
                             <div className="w-full p-6">

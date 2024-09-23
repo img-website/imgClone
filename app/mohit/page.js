@@ -179,7 +179,7 @@ function mohit() {
                                     </span>
                                     <span className="text-red-500 text-sm origin-left peer-[:user-invalid:focus]:scale-100 scale-0 peer-[:user-invalid:focus]:h-5 h-0 overflow-hidden block transition-all">Please enter your query.</span>
                                 </div>
-                                <button type="submit" className="inline-flex justify-center rounded-lg rounded-br-none text-sm font-semibold py-2 px-3 bg-slate-600 text-white [&amp;:not(:disabled)]:hover:bg-slate-500 mt-6 w-full group/submit">
+                                <button type="submit" className="inline-flex justify-center rounded-lg   text-sm font-semibold py-2 px-3 bg-slate-600 text-white [&amp;:not(:disabled)]:hover:bg-slate-500 mt-6 w-full group/submit">
                                     <span className="group-[:disabled]/submit:hidden">Submit</span>
                                     <span className="group-[:disabled]/submit:flex items-center hidden">
                                         <svg aria-hidden="true" role="status" className="inline w-4 h-4 me-3 text-white animate-spin" viewBox="0 0 100 101" fill="none" xmlns="http://www.w3.org/2000/svg">

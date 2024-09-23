@@ -4,7 +4,7 @@ import Header from '@/components/header/Header';
 import Footer from '@/components/footer/Footer';
 import Reward from '@/components/reward/Reward';
 import ClientVideo from '@/components/clientVideo/ClientVideo';
-import Testimonial from '@/components/testimonial/testimonial';
+import Testimonial from '@/components/testimonial/Testimonial';
 
 
 function testimonial() {

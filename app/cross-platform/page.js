@@ -153,7 +153,7 @@ function crossplatform() {
             {/* About Ends */}
 
             {/* reasons to choose-- */}
-            <div className="relative isolate select-none py-6 md:py-8 lg:py-16">
+            <div className="relative isolate   py-6 md:py-8 lg:py-16">
                 <div className="overflow-hidden">
                     <div className="absolute inset-x-0 top-0 h-96 z-0 text-slate-600/5 [mask-image:linear-gradient(to_top,transparent,white)] pointer-events-none">
                         <svg className="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">

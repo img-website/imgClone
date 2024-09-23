@@ -195,7 +195,7 @@ function bespokeSoftwareDevelopment() {
                 <span className="absolute border-t-2 border-theme1 top-0 right-0 h-0 w-[30px]  group-hover:w-full duration-300 "></span>
                 <span className="absolute border-r-2 border-theme1 right-0  bottom-0 h-0 w-0 group-hover:h-full duration-300 delay-300"></span>
                 <span className="absolute border-b-2 border-theme1 bottom-0 left-0  h-full w-[30px] group-hover:w-full duration-300 "></span>
-                <div className="bg-gray-200 relative z-50 w-[60px] h-[60px] rounded-4xl overflow-hidden group-hover:rounded-br-none  group-hover:rotate-0 group-hover:rounded-xl duration-700 flex justify-center items-center shadow-xl">
+                <div className="bg-gray-200 relative z-50 w-[60px] h-[60px] rounded-4xl overflow-hidden group-hover:   group-hover:rotate-0 group-hover:rounded-xl duration-700 flex justify-center items-center shadow-xl">
                   <div className="text-3xl duration-700 relative z-50  font-bold text-slate-500">
                     01
                   </div>
@@ -214,7 +214,7 @@ function bespokeSoftwareDevelopment() {
                 <span className="absolute border-t-2 border-theme1 top-0 right-0 h-0 w-[30px]  group-hover:w-full duration-300 "></span>
                 <span className="absolute border-r-2 border-theme1 right-0  bottom-0 h-0 w-0 group-hover:h-full duration-300 delay-300"></span>
                 <span className="absolute border-b-2 border-theme1 bottom-0 left-0  h-full w-[30px] group-hover:w-full duration-300 "></span>
-                <div className="bg-gray-200 relative z-50 w-[60px] h-[60px] rounded-4xl overflow-hidden group-hover:rounded-br-none  group-hover:rotate-0 group-hover:rounded-xl duration-700 flex justify-center items-center shadow-xl">
+                <div className="bg-gray-200 relative z-50 w-[60px] h-[60px] rounded-4xl overflow-hidden group-hover:   group-hover:rotate-0 group-hover:rounded-xl duration-700 flex justify-center items-center shadow-xl">
                   <div className="text-3xl duration-700 relative z-50  font-bold text-slate-500">
                     02
                   </div>
@@ -233,7 +233,7 @@ function bespokeSoftwareDevelopment() {
                 <span className="absolute border-t-2 border-theme1 top-0 right-0 h-0 w-[30px]  group-hover:w-full duration-300 "></span>
                 <span className="absolute border-r-2 border-theme1 right-0  bottom-0 h-0 w-0 group-hover:h-full duration-300 delay-300"></span>
                 <span className="absolute border-b-2 border-theme1 bottom-0 left-0  h-full w-[30px] group-hover:w-full duration-300 "></span>
-                <div className="bg-gray-200 relative z-50 w-[60px] h-[60px] rounded-4xl overflow-hidden group-hover:rounded-br-none  group-hover:rotate-0 group-hover:rounded-xl duration-700 flex justify-center items-center shadow-xl">
+                <div className="bg-gray-200 relative z-50 w-[60px] h-[60px] rounded-4xl overflow-hidden group-hover:   group-hover:rotate-0 group-hover:rounded-xl duration-700 flex justify-center items-center shadow-xl">
                   <div className="text-3xl duration-700 relative z-50  font-bold text-slate-500">
                     03
                   </div>
@@ -252,7 +252,7 @@ function bespokeSoftwareDevelopment() {
                 <span className="absolute border-t-2 border-theme1 top-0 right-0 h-0 w-[30px]  group-hover:w-full duration-300 "></span>
                 <span className="absolute border-r-2 border-theme1 right-0  bottom-0 h-0 w-0 group-hover:h-full duration-300 delay-300"></span>
                 <span className="absolute border-b-2 border-theme1 bottom-0 left-0  h-full w-[30px] group-hover:w-full duration-300 "></span>
-                <div className="bg-gray-200 relative z-50 w-[60px] h-[60px] rounded-4xl overflow-hidden group-hover:rounded-br-none  group-hover:rotate-0 group-hover:rounded-xl duration-700 flex justify-center items-center shadow-xl">
+                <div className="bg-gray-200 relative z-50 w-[60px] h-[60px] rounded-4xl overflow-hidden group-hover:   group-hover:rotate-0 group-hover:rounded-xl duration-700 flex justify-center items-center shadow-xl">
                   <div className="text-3xl duration-700 relative z-50  font-bold text-slate-500">
                     04
                   </div>
@@ -271,7 +271,7 @@ function bespokeSoftwareDevelopment() {
                 <span className="absolute border-t-2 border-theme1 top-0 right-0 h-0 w-[30px]  group-hover:w-full duration-300 "></span>
                 <span className="absolute border-r-2 border-theme1 right-0  bottom-0 h-0 w-0 group-hover:h-full duration-300 delay-300"></span>
                 <span className="absolute border-b-2 border-theme1 bottom-0 left-0  h-full w-[30px] group-hover:w-full duration-300 "></span>
-                <div className="bg-gray-200 relative z-50 w-[60px] h-[60px] rounded-4xl overflow-hidden group-hover:rounded-br-none  group-hover:rotate-0 group-hover:rounded-xl duration-700 flex justify-center items-center shadow-xl">
+                <div className="bg-gray-200 relative z-50 w-[60px] h-[60px] rounded-4xl overflow-hidden group-hover:   group-hover:rotate-0 group-hover:rounded-xl duration-700 flex justify-center items-center shadow-xl">
                   <div className="text-3xl duration-700 relative z-50  font-bold text-slate-500">
                     05
                   </div>
@@ -290,7 +290,7 @@ function bespokeSoftwareDevelopment() {
                 <span className="absolute border-t-2 border-theme1 top-0 right-0 h-0 w-[30px]  group-hover:w-full duration-300 "></span>
                 <span className="absolute border-r-2 border-theme1 right-0  bottom-0 h-0 w-0 group-hover:h-full duration-300 delay-300"></span>
                 <span className="absolute border-b-2 border-theme1 bottom-0 left-0  h-full w-[30px] group-hover:w-full duration-300 "></span>
-                <div className="bg-gray-200 relative z-50 w-[60px] h-[60px] rounded-4xl overflow-hidden group-hover:rounded-br-none  group-hover:rotate-0 group-hover:rounded-xl duration-700 flex justify-center items-center shadow-xl">
+                <div className="bg-gray-200 relative z-50 w-[60px] h-[60px] rounded-4xl overflow-hidden group-hover:   group-hover:rotate-0 group-hover:rounded-xl duration-700 flex justify-center items-center shadow-xl">
                   <div className="text-3xl duration-700 relative z-50  font-bold text-slate-500">
                     06
                   </div>

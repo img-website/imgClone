@@ -102,7 +102,7 @@ function responsiveWebDesigning() {
             {/* About Ends */}
 
             {/* benifits section start */}
-            <div className="relative isolate select-none py-6 md:py-8 lg:py-16">
+            <div className="relative isolate   py-6 md:py-8 lg:py-16">
                 <div className="overflow-hidden">
 
                     <div className="relative container mx-auto max-w-7xl px-6 lg:px-8 z-10 text-center">
@@ -113,7 +113,7 @@ function responsiveWebDesigning() {
                     last:*:font-bold last:*:text-theme2
                 "><span>Benefits Of A </span>
                             <span> Responsive Website Include</span></p>
-                        <div className="md:text-base text-sm text-center text-white opacity-70 mt-3 mb-lg-1 select-none">
+                        <div className="md:text-base text-sm text-center text-white opacity-70 mt-3 mb-lg-1  ">
                             Responsive Web design has become an essential tool for anyone with a digital presence. With the growth of smartphones, tablets and other mobile computing devices, more people are using smaller-screens to view web pages.
                         </div>
                     </div>

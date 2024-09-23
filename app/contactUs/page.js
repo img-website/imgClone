@@ -13,7 +13,7 @@ function page() {
           <span className="via-blue-500 from-blue-100 to-blue-100 *:*:text-blue-400"></span>
           <span className="bg-blue-900 hover:bg-blue-700"></span>
         </span>
-        <div className="flex w-full relative bg-slate-50 select-none">
+        <div className="flex w-full relative bg-slate-50  ">
           <div className="size-full relative !z-10">
             <div className="colorApply1 flex size-full items-center justify-center rounded-b-2xl relative overflow-hidden shadow-lg before:absolute before:inset-0 before:bg-cover before:bg-right before:rounded-b-2xl before:bg-gradient-to-r before:mix-blend-multiply  shadow-blue-950 before:from-blue-950 before:via-blue-900 before:to-blue-800">
               <span className="colorApply2 absolute inset-0 bg-cover bg-right opacity-50 rounded-b-2xl bg-gradient-to-r mix-blend-multiply shadow-blue-950 from-blue-950 via-blue-900 to-blue-800"></span>

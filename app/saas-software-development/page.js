@@ -188,7 +188,7 @@ function saasSoftwareDevelopment() {
 
             *:lg:w-1/2 *:h-auto *:p-3 md:*:p-5 *:md:hover:*:scale-105
 
-            *:*:flex *:*:bg-white *:*:h-full *:*:relative *:*:p-6 md:*:*:p-10 *:*:flex-nowrap *:*:border-b-4 md:hover:*:*:border-gray-800 *:*:duration-300 *:*:rounded-xl *:*:rounded-br-none *:*:shadow-xl
+            *:*:flex *:*:bg-white *:*:h-full *:*:relative *:*:p-6 md:*:*:p-10 *:*:flex-nowrap *:*:border-b-4 md:hover:*:*:border-gray-800 *:*:duration-300 *:*:rounded-xl *:*:  *:*:shadow-xl
 
             first:*:*:*:flex first:*:*:*:grow-0
 
