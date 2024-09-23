@@ -41,9 +41,6 @@ function Footer() {
                                 <li>
                                     <a href="/software-development" title="" className="text-base opacity-80 text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Software-development </a>
                                 </li>
-                                <li>
-                                    <a href="javascript:;" title="" className="text-base opacity-80 text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Privacy Policy </a>
-                                </li>
                             </ul>
                         </div>
 
