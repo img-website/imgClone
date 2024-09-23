@@ -34,7 +34,7 @@ const Header = () => {
           aria-label="Global"
         >
           <div className="flex lg:flex-1">
-            <a href="/" className="-m-1.5 p-1.5">
+            <Link href="/" className="-m-1.5 p-1.5">
               <Image
                 className="h-8 md:h-12 w-auto"
                 width="1000"
@@ -44,7 +44,7 @@ const Header = () => {
                 quality="90"
                 priority="true"
               />
-            </a>
+            </Link>
           </div>
           <div className="flex lg:hidden">
             <label
@@ -70,7 +70,7 @@ const Header = () => {
           </div>
           <div className="hidden lg:flex lg:flex-col lg:gap-x-8 gap-y-5 ml-auto mr-0 items-end">
             <div className="flex gap-5 group-[]/ns:-mb-9 group-[]/ns:-z-10 group-[]/ns:opacity-0 relative duration-300">
-              <a
+              <Link
                 href="mailto:"
                 target="_blank"
                 className="flex items-center opacity-70 font-semibold text-sm gap-1"
@@ -90,8 +90,8 @@ const Header = () => {
                   </svg>
                 </span>
                 <span></span>
-              </a>
-              <a
+              </Link>
+              <Link
                 href=""
                 className="flex items-center opacity-70 font-semibold text-sm gap-1"
               >
@@ -110,7 +110,7 @@ const Header = () => {
                     ></path>
                   </svg>
                 </span>
-              </a>
+              </Link>
             </div>
             <div className="flex gap-5 items-center">
               <div className="hidden lg:flex lg:gap-x-6 ml-auto mr-0">
@@ -231,14 +231,14 @@ const Header = () => {
                           </div>
                         </div>
                         {/* <div className="grid grid-cols-2 mt-2 divide-x rounded-b-xl divide-gray-900/5 bg-gray-950">
-                      <a href=".com/disclaimer.php" className="flex grow items-center justify-center gap-x-2.5 p-3 text-xs font-semibold leading-6 opacity-80 hover:opacity-90 duration-200 uppercase hover:bg-gray-600/30">
+                      <Link href=".com/disclaimer.php" className="flex grow items-center justify-center gap-x-2.5 p-3 text-xs font-semibold leading-6 opacity-80 hover:opacity-90 duration-200 uppercase hover:bg-gray-600/30">
                         <svg className="h-5 w-5 flex-none text-gray-400" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path d="M834.1 469.2A347.49 347.49 0 0 0 751.2 354l-29.1-26.7a8.09 8.09 0 0 0-13 3.3l-13 37.3c-8.1 23.4-23 47.3-44.1 70.8-1.4 1.5-3 1.9-4.1 2-1.1.1-2.8-.1-4.3-1.5-1.4-1.2-2.1-3-2-4.8 3.7-60.2-14.3-128.1-53.7-202C555.3 171 510 123.1 453.4 89.7l-41.3-24.3c-5.4-3.2-12.3 1-12 7.3l2.2 48c1.5 32.8-2.3 61.8-11.3 85.9-11 29.5-26.8 56.9-47 81.5a295.64 295.64 0 0 1-47.5 46.1 352.6 352.6 0 0 0-100.3 121.5A347.75 347.75 0 0 0 160 610c0 47.2 9.3 92.9 27.7 136a349.4 349.4 0 0 0 75.5 110.9c32.4 32 70 57.2 111.9 74.7C418.5 949.8 464.5 959 512 959s93.5-9.2 136.9-27.3A348.6 348.6 0 0 0 760.8 857c32.4-32 57.8-69.4 75.5-110.9a344.2 344.2 0 0 0 27.7-136c0-48.8-10-96.2-29.9-140.9z"></path></svg>
                         Disclaimer
-                      </a>
-                      <a href=".com/sitemap.html" className="flex grow items-center justify-center gap-x-2.5 p-3 text-xs font-semibold leading-6 opacity-80 hover:opacity-90 duration-200 uppercase hover:bg-gray-600/30">
+                      </Link>
+                      <Link href=".com/sitemap.html" className="flex grow items-center justify-center gap-x-2.5 p-3 text-xs font-semibold leading-6 opacity-80 hover:opacity-90 duration-200 uppercase hover:bg-gray-600/30">
                         <svg className="h-5 w-5 flex-none text-gray-400" stroke="currentColor" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M3 15m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z"></path><path d="M15 15m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z"></path><path d="M9 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z"></path><path d="M6 15v-1a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v1"></path><path d="M12 9l0 3"></path></svg>
                         Sitemap
-                      </a>
+                      </Link>
                     </div> */}
                       </div>
                     </div>
@@ -293,13 +293,13 @@ const Header = () => {
                             </svg>
                           </div>
                           <div className="flex-auto">
-                            <a
+                            <Link
                               href="/android-application-development"
                               className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900"
                             >
                               Android App
                               <span className="absolute inset-0 z-[1]"></span>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         <div className="group/db hover:bg-gray-600/30">
@@ -309,13 +309,13 @@ const Header = () => {
                             </svg>
                           </div>
                           <div className="flex-auto">
-                            <a
+                            <Link
                               href="/ios-app-development"
                               className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900"
                             >
                               iOS App
                               <span className="absolute inset-0 z-[1]"></span>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         <div className="group/db hover:bg-gray-600/30">
@@ -325,13 +325,13 @@ const Header = () => {
                             </svg>
                           </div>
                           <div className="flex-auto">
-                            <a
+                            <Link
                               href="/cross-platform"
                               className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900"
                             >
                               Cross-Platform App
                               <span className="absolute inset-0 z-[1]"></span>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         <div className="group/db hover:bg-gray-600/30">
@@ -341,13 +341,13 @@ const Header = () => {
                             </svg>
                           </div>
                           <div className="flex-auto">
-                            <a
+                            <Link
                               href="/flutter-app-development"
                               className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900"
                             >
                               Flutter App
                               <span className="absolute inset-0 z-[1]"></span>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         <div className="group/db hover:bg-gray-600/30">
@@ -357,13 +357,13 @@ const Header = () => {
                             </svg>
                           </div>
                           <div className="flex-auto">
-                            <a
+                            <Link
                               href="/react-native-app-development"
                               className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900"
                             >
                               React Native App
                               <span className="absolute inset-0 z-[1]"></span>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -378,13 +378,13 @@ const Header = () => {
                             </svg>
                           </div>
                           <div className="flex-auto">
-                            <a
+                            <Link
                               href="/web-development"
                               className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900"
                             >
                               Web Development
                               <span className="absolute inset-0 z-[1]"></span>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         <div className="group/db hover:bg-gray-600/30">
@@ -394,13 +394,13 @@ const Header = () => {
                             </svg>
                           </div>
                           <div className="flex-auto">
-                            <a
+                            <Link
                               href="/website-design"
                               className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900"
                             >
                               Website Design
                               <span className="absolute inset-0 z-[1]"></span>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         <div className="group/db hover:bg-gray-600/30">
@@ -410,13 +410,13 @@ const Header = () => {
                             </svg>
                           </div>
                           <div className="flex-auto">
-                            <a
+                            <Link
                               href="/website-redesigning"
                               className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900"
                             >
                               Website Redesign
                               <span className="absolute inset-0 z-[1]"></span>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         <div className="group/db hover:bg-gray-600/30">
@@ -426,13 +426,13 @@ const Header = () => {
                             </svg>
                           </div>
                           <div className="flex-auto">
-                            <a
+                            <Link
                               href="/responsive-web-designing"
                               className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900"
                             >
                               Responsive Design
                               <span className="absolute inset-0 z-[1]"></span>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -447,13 +447,13 @@ const Header = () => {
                             </svg>
                           </div>
                           <div className="flex-auto">
-                            <a
+                            <Link
                               href="/bespoke-software-development"
                               className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900"
                             >
                               Bespoke Software
                               <span className="absolute inset-0 z-[1]"></span>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         <div className="group/db hover:bg-gray-600/30">
@@ -463,13 +463,13 @@ const Header = () => {
                             </svg>
                           </div>
                           <div className="flex-auto">
-                            <a
+                            <Link
                               href="/saas-software-development"
                               className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900"
                             >
                               SaaS Software
                               <span className="absolute inset-0 z-[1]"></span>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         <div className="group/db hover:bg-gray-600/30">
@@ -479,13 +479,13 @@ const Header = () => {
                             </svg>
                           </div>
                           <div className="flex-auto">
-                            <a
+                            <Link
                               href="/inventory-management-software"
                               className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900"
                             >
                               Inventory Management
                               <span className="absolute inset-0 z-[1]"></span>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         <div className="group/db hover:bg-gray-600/30">
@@ -495,13 +495,13 @@ const Header = () => {
                             </svg>
                           </div>
                           <div className="flex-auto">
-                            <a
+                            <Link
                               href="/gym-management-software"
                               className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900"
                             >
                               GYM Software
                               <span className="absolute inset-0 z-[1]"></span>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         <div className="group/db hover:bg-gray-600/30">
@@ -511,13 +511,13 @@ const Header = () => {
                             </svg>
                           </div>
                           <div className="flex-auto">
-                            <a
+                            <Link
                               href="/customer-relationship-management"
                               className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900"
                             >
                               CRM Software
                               <span className="absolute inset-0 z-[1]"></span>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -532,13 +532,13 @@ const Header = () => {
                             </svg>
                           </div>
                           <div className="flex-auto">
-                            <a
+                            <Link
                               href="/fantasy-sports-app-development"
                               className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900"
                             >
                               Fantasy Sports App
                               <span className="absolute inset-0 z-[1]"></span>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         <div className="group/db hover:bg-gray-600/30">
@@ -548,13 +548,13 @@ const Header = () => {
                             </svg>
                           </div>
                           <div className="flex-auto">
-                            <a
+                            <Link
                               href="/fantasy-cricket-app-development"
                               className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900"
                             >
                               Fantasy Cricket App
                               <span className="absolute inset-0 z-[1]"></span>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         <div className="group/db hover:bg-gray-600/30">
@@ -564,13 +564,13 @@ const Header = () => {
                             </svg>
                           </div>
                           <div className="flex-auto">
-                            <a
+                            <Link
                               href="/fantasy-football-app-development"
                               className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900"
                             >
                               Fantasy Football App
                               <span className="absolute inset-0 z-[1]"></span>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         <div className="group/db hover:bg-gray-600/30">
@@ -580,13 +580,13 @@ const Header = () => {
                             </svg>
                           </div>
                           <div className="flex-auto">
-                            <a
+                            <Link
                               href="/fantasy-kabaddi-app-development"
                               className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900"
                             >
                               Fantasy Kabaddi App
                               <span className="absolute inset-0 z-[1]"></span>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         <div className="group/db hover:bg-gray-600/30">
@@ -596,13 +596,13 @@ const Header = () => {
                             </svg>
                           </div>
                           <div className="flex-auto">
-                            <a
+                            <Link
                               href="/sports-betting-app-development"
                               className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900"
                             >
                               Sports Betting App
                               <span className="absolute inset-0 z-[1]"></span>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         <div className="group/db hover:bg-gray-600/30">
@@ -612,13 +612,13 @@ const Header = () => {
                             </svg>
                           </div>
                           <div className="flex-auto">
-                            <a
+                            <Link
                               href="/casino-game-app-development"
                               className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900"
                             >
                               Casino App
                               <span className="absolute inset-0 z-[1]"></span>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -634,13 +634,13 @@ const Header = () => {
                             </svg>
                             </div>
                             <div className="flex-auto">
-                              <a
+                              <Link
                                 href=".com/ecommerce-development.php"
                                 className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900"
                               >
                                 eCommerce Development
                                 <span className="absolute inset-0 z-[1]"></span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </div>
@@ -655,13 +655,13 @@ const Header = () => {
                             </svg>
                             </div>
                             <div className="flex-auto">
-                              <a
+                              <Link
                                 href=".com/"
                                 className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900"
                               >
                                 Blockchain
                                 <span className="absolute inset-0 z-[1]"></span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </div>
@@ -685,10 +685,10 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href=".com/food-delivery-app-development.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <Link href=".com/food-delivery-app-development.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Food Delivery App
                           <span className="absolute inset-0 z-[1]"></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="group/db hover:bg-gray-600/30">
@@ -696,10 +696,10 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href=".com/grocery-app-development.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <Link href=".com/grocery-app-development.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Grocery Delivery App
                           <span className="absolute inset-0 z-[1]"></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="group/db hover:bg-gray-600/30">
@@ -707,10 +707,10 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href=".com/taxi-app-development-company.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <Link href=".com/taxi-app-development-company.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Taxi Booking App
                           <span className="absolute inset-0 z-[1]"></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="group/db hover:bg-gray-600/30">
@@ -718,10 +718,10 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href=".com/home-service-app-development.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <Link href=".com/home-service-app-development.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Home Services App
                           <span className="absolute inset-0 z-[1]"></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="group/db hover:bg-gray-600/30">
@@ -729,10 +729,10 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href=".com/laundry-services-app-development.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <Link href=".com/laundry-services-app-development.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Laundry App
                           <span className="absolute inset-0 z-[1]"></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="group/db hover:bg-gray-600/30">
@@ -740,10 +740,10 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href=".com/medicine-delivery-app-development.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <Link href=".com/medicine-delivery-app-development.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Medicine Delivery App
                           <span className="absolute inset-0 z-[1]"></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="group/db hover:bg-gray-600/30">
@@ -751,10 +751,10 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href=".com/fuel-delivery-app-development.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <Link href=".com/fuel-delivery-app-development.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Fuel Delivery App
                           <span className="absolute inset-0 z-[1]"></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="group/db hover:bg-gray-600/30">
@@ -762,10 +762,10 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href=".com/doctor-on-demand-app-development.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <Link href=".com/doctor-on-demand-app-development.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Doctor App
                           <span className="absolute inset-0 z-[1]"></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="group/db hover:bg-gray-600/30">
@@ -773,10 +773,10 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href=".com/alcohol-delivery-app-development.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <Link href=".com/alcohol-delivery-app-development.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Alcohol Delivery App
                           <span className="absolute inset-0 z-[1]"></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="group/db hover:bg-gray-600/30">
@@ -784,10 +784,10 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href=".com/car-wash-app-development.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <Link href=".com/car-wash-app-development.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Car Wash App
                           <span className="absolute inset-0 z-[1]"></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -798,10 +798,10 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href=".com/school-management-software-development.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <Link href=".com/school-management-software-development.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           School Management System
                           <span className="absolute inset-0 z-[1]"></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="group/db hover:bg-gray-600/30">
@@ -809,10 +809,10 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href=".com/college-management-software-development.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <Link href=".com/college-management-software-development.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           College Management System
                           <span className="absolute inset-0 z-[1]"></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="group/db hover:bg-gray-600/30">
@@ -820,10 +820,10 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href=".com/university-management-software-development.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <Link href=".com/university-management-software-development.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           University Management System
                           <span className="absolute inset-0 z-[1]"></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="group/db hover:bg-gray-600/30">
@@ -831,10 +831,10 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href=".com/institute-management-software-development.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <Link href=".com/institute-management-software-development.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Institute Management System
                           <span className="absolute inset-0 z-[1]"></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="group/db hover:bg-gray-600/30">
@@ -842,10 +842,10 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href=".com/mlm-software-development-company.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <Link href=".com/mlm-software-development-company.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           MLM Software 
                           <span className="absolute inset-0 z-[1]"></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="group/db hover:bg-gray-600/30">
@@ -853,10 +853,10 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href=".com/online-exam-app-development.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <Link href=".com/online-exam-app-development.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Online Exam App 
                           <span className="absolute inset-0 z-[1]"></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="group/db hover:bg-gray-600/30">
@@ -864,10 +864,10 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href=".com/hospital-management-software.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <Link href=".com/hospital-management-software.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Hospital Management System 
                           <span className="absolute inset-0 z-[1]"></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="group/db hover:bg-gray-600/30">
@@ -875,10 +875,10 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="/inventory-management-software" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <Link href="/inventory-management-software" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Inventory Management Softwrae
                           <span className="absolute inset-0 z-[1]"></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="group/db hover:bg-gray-600/30">
@@ -886,10 +886,10 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href=".com/nidhi-company-software.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <Link href=".com/nidhi-company-software.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Nidhi Software
                           <span className="absolute inset-0 z-[1]"></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="group/db hover:bg-gray-600/30">
@@ -897,10 +897,10 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href="/customer-relationship-management" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <Link href="/customer-relationship-management" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           CRM Software
                           <span className="absolute inset-0 z-[1]"></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -911,10 +911,10 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href=".com/healthcare-app-development.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <Link href=".com/healthcare-app-development.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Healthcare App
                           <span className="absolute inset-0 z-[1]"></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="group/db hover:bg-gray-600/30">
@@ -922,10 +922,10 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href=".com/diet-and-nutrition-app-development.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <Link href=".com/diet-and-nutrition-app-development.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Diet and Nutrition App
                           <span className="absolute inset-0 z-[1]"></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="group/db hover:bg-gray-600/30">
@@ -933,10 +933,10 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href=".com/fitness-app-development.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <Link href=".com/fitness-app-development.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Fitness App
                           <span className="absolute inset-0 z-[1]"></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="group/db hover:bg-gray-600/30">
@@ -944,10 +944,10 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href=".com/elearning-app-development.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <Link href=".com/elearning-app-development.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Elearning App
                           <span className="absolute inset-0 z-[1]"></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="group/db hover:bg-gray-600/30">
@@ -955,10 +955,10 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href=".com/ott-app-development.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <Link href=".com/ott-app-development.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           OTT Platform App
                           <span className="absolute inset-0 z-[1]"></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="group/db hover:bg-gray-600/30">
@@ -966,10 +966,10 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href=".com/live-streaming-app-development.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <Link href=".com/live-streaming-app-development.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Live Streaming App
                           <span className="absolute inset-0 z-[1]"></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="group/db hover:bg-gray-600/30">
@@ -977,10 +977,10 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href=".com/ar-vr-app-development.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <Link href=".com/ar-vr-app-development.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           AR/VR App
                           <span className="absolute inset-0 z-[1]"></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="group/db hover:bg-gray-600/30">
@@ -988,10 +988,10 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href=".com/dating-app-development.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <Link href=".com/dating-app-development.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Dating App
                           <span className="absolute inset-0 z-[1]"></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="group/db hover:bg-gray-600/30">
@@ -999,10 +999,10 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href=".com/event-tickets-booking-app-development.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <Link href=".com/event-tickets-booking-app-development.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Event &amp; Ticket Booking App
                           <span className="absolute inset-0 z-[1]"></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="group/db hover:bg-gray-600/30">
@@ -1010,10 +1010,10 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href=".com/cryptocurrency-app-development.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <Link href=".com/cryptocurrency-app-development.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Cryptocurrency App
                           <span className="absolute inset-0 z-[1]"></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -1036,10 +1036,10 @@ const Header = () => {
                         <svg className="h-2.5 xl:h-3 w-2.5 xl:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href=".com/hire-mobile-app-developers.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <Link href=".com/hire-mobile-app-developers.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Hire Mobile App Developers
                           <span className="absolute inset-0 z-[1]"></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="group/db hover:bg-gray-600/30">
@@ -1047,10 +1047,10 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href=".com/hire-android-app-developers.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <Link href=".com/hire-android-app-developers.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Hire Android App Developers
                           <span className="absolute inset-0 z-[1]"></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="group/db hover:bg-gray-600/30">
@@ -1058,10 +1058,10 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href=".com/hire-ios-app-developers.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <Link href=".com/hire-ios-app-developers.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Hire iOS App Developers
                           <span className="absolute inset-0 z-[1]"></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="group/db hover:bg-gray-600/30">
@@ -1069,10 +1069,10 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href=".com/hire-react-native-app-developers.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <Link href=".com/hire-react-native-app-developers.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Hire React Native App Developers
                           <span className="absolute inset-0 z-[1]"></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="group/db hover:bg-gray-600/30">
@@ -1080,10 +1080,10 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href=".com/hire-flutter-app-developers.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <Link href=".com/hire-flutter-app-developers.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Hire Flutter App Developers
                           <span className="absolute inset-0 z-[1]"></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="group/db hover:bg-gray-600/30">
@@ -1091,10 +1091,10 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href=".com/hire-php-developers.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <Link href=".com/hire-php-developers.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Hire PHP Developers
                           <span className="absolute inset-0 z-[1]"></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="group/db hover:bg-gray-600/30">
@@ -1102,10 +1102,10 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href=".com/hire-python-developers.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <Link href=".com/hire-python-developers.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Hire Python Developers
                           <span className="absolute inset-0 z-[1]"></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="group/db hover:bg-gray-600/30">
@@ -1113,10 +1113,10 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href=".com/hire-web-designers.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <Link href=".com/hire-web-designers.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Hire Website Designers
                           <span className="absolute inset-0 z-[1]"></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="group/db hover:bg-gray-600/30">
@@ -1124,10 +1124,10 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href=".com/hire-mern-stack-developers.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <Link href=".com/hire-mern-stack-developers.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Hire MERN Stack Developers
                           <span className="absolute inset-0 z-[1]"></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="group/db hover:bg-gray-600/30">
@@ -1135,10 +1135,10 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href=".com/hire-ui-ux-developers.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <Link href=".com/hire-ui-ux-developers.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Hire UI / UX Developers
                           <span className="absolute inset-0 z-[1]"></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="group/db hover:bg-gray-600/30">
@@ -1146,10 +1146,10 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href=".com/hire-web-developers.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <Link href=".com/hire-web-developers.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Hire Website Developers
                           <span className="absolute inset-0 z-[1]"></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="group/db hover:bg-gray-600/30">
@@ -1157,10 +1157,10 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href=".com/" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <Link href=".com/" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Hire Software Developers
                           <span className="absolute inset-0 z-[1]"></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="group/db hover:bg-gray-600/30">
@@ -1168,10 +1168,10 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href=".com/hire-reactjs-developers.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <Link href=".com/hire-reactjs-developers.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Hire React JS Developers
                           <span className="absolute inset-0 z-[1]"></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="group/db hover:bg-gray-600/30">
@@ -1179,10 +1179,10 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href=".com/hire-full-stack-developers.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <Link href=".com/hire-full-stack-developers.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Hire Full Stack Developers
                           <span className="absolute inset-0 z-[1]"></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="group/db hover:bg-gray-600/30">
@@ -1190,10 +1190,10 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href=".com/hire-java-developers.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <Link href=".com/hire-java-developers.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Hire Java Developers
                           <span className="absolute inset-0 z-[1]"></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="group/db hover:bg-gray-600/30">
@@ -1201,10 +1201,10 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href=".com/hire-angular-developers.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <Link href=".com/hire-angular-developers.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Hire Angularjs Developers
                           <span className="absolute inset-0 z-[1]"></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="group/db hover:bg-gray-600/30">
@@ -1212,10 +1212,10 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href=".com/hire-mean-stack-developers.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <Link href=".com/hire-mean-stack-developers.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Hire MEAN Stack Developers
                           <span className="absolute inset-0 z-[1]"></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="group/db hover:bg-gray-600/30">
@@ -1223,10 +1223,10 @@ const Header = () => {
                         <svg className="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                       </div>
                       <div className="flex-auto">
-                        <a href=".com/hire-nodejs-developers.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
+                        <Link href=".com/hire-nodejs-developers.php" className="block font-semibold opacity-80 hover:opacity-90 duration-200 hoverLink text-slate-900">
                           Hire Node.js Developers
                           <span className="absolute inset-0 z-[1]"></span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -1234,18 +1234,18 @@ const Header = () => {
               </div>
             </div> */}
 
-                <a
+                <Link
                   href=".com/portfolio.php"
                   className={`text-xs font-semibold leading-6 text-gray-50 hover:text-gray-300 duration-200 uppercase `}
                 >
                   Work
-                </a>
-                <a
+                </Link>
+                <Link
                   href=".com/contact-us.php"
                   className={`text-xs font-semibold leading-6 text-gray-50 hover:text-gray-300 duration-200 uppercase `}
                 >
                   Contact Us
-                </a>
+                </Link>
               </div>
               <div className="hidden lg:flex lg:flex-1 lg:justify-end">
                 <button className="px-4 rounded-full text-sm text-white flex items-center gap-2 font-semibold py-3 border-white border-2 w-max mx-auto before:-z-10 relative before:absolute before:w-full before:h-0 before:left-0 before:top-1/2 before:bg-theme1 before:rounded-full before:md:hover:h-full before:duration-300 md:hover:text-white duration-300 before:md:hover:top-0">
@@ -1283,7 +1283,7 @@ const Header = () => {
       ></label>
       <div className="fixed flex flex-col h-screen inset-y-0 right-0 z-[1011] w-full overflow-y-auto bg-gradient-to-b from-gray-950 to-sky-950  text-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 peer-checked/sideToggle:translate-x-0 peer-checked/sideToggle:opacity-100 translate-x-full opacity-0 duration-300">
         <div className="flex items-center justify-between">
-          <a href=".com/" className="-ml-1.5">
+          <Link href=".com/" className="-ml-1.5">
             <Image
               className="h-7 w-auto"
               width="1000"
@@ -1291,7 +1291,7 @@ const Header = () => {
               src="/img/logo.png"
               alt="Twin Power Logo "
             />
-          </a>
+          </Link>
           <label
             htmlFor="sideToggle"
             type="button"
@@ -1401,13 +1401,13 @@ const Header = () => {
                               </svg>
                             </div>
                             <div className="flex-auto">
-                              <a
+                              <Link
                                 href="/testimonial"
                                 className="block font-semibold opacity-80"
                               >
                                 Testimonials
                                 <span className="absolute inset-0 z-[1]"></span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                           <div>
@@ -1451,13 +1451,13 @@ const Header = () => {
                               </svg>
                             </div>
                             <div className="flex-auto">
-                              <a
+                              <Link
                                 href=".com/disclaimer.php"
                                 className="block font-semibold opacity-80"
                               >
                                 Disclaimer
                                 <span className="absolute inset-0 z-[1]"></span>
-                              </a>
+                              </Link>
                             </div>
                           </div> */}
                           {/* <div>
@@ -1485,13 +1485,13 @@ const Header = () => {
                               </svg>
                             </div>
                             <div className="flex-auto">
-                              <a
+                              <Link
                                 href=".com/sitemap.html"
                                 className="block font-semibold opacity-80"
                               >
                                 Sitemap
                                 <span className="absolute inset-0 z-[1]"></span>
-                              </a>
+                              </Link>
                             </div>
                           </div> */}
                         </div>
@@ -1566,13 +1566,13 @@ const Header = () => {
                               </svg>
                             </div>
                             <div className="flex-auto">
-                              <a
+                              <Link
                                 href="/android-application-development"
                                 className="block font-semibold opacity-80"
                               >
                                 Android App
                                 <span className="absolute inset-0 z-[1]"></span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                           <div>
@@ -1589,13 +1589,13 @@ const Header = () => {
                               </svg>
                             </div>
                             <div className="flex-auto">
-                              <a
+                              <Link
                                 href="/ios-app-development"
                                 className="block font-semibold opacity-80"
                               >
                                 iOS App
                                 <span className="absolute inset-0 z-[1]"></span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                           <div>
@@ -1612,13 +1612,13 @@ const Header = () => {
                               </svg>
                             </div>
                             <div className="flex-auto">
-                              <a
+                              <Link
                                 href="/cross-platform"
                                 className="block font-semibold opacity-80"
                               >
                                 Cross-Platform App
                                 <span className="absolute inset-0 z-[1]"></span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                           <div>
@@ -1635,13 +1635,13 @@ const Header = () => {
                               </svg>
                             </div>
                             <div className="flex-auto">
-                              <a
+                              <Link
                                 href="/flutter-app-development"
                                 className="block font-semibold opacity-80"
                               >
                                 Flutter App
                                 <span className="absolute inset-0 z-[1]"></span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                           <div>
@@ -1658,13 +1658,13 @@ const Header = () => {
                               </svg>
                             </div>
                             <div className="flex-auto">
-                              <a
+                              <Link
                                 href="/react-native-app-development"
                                 className="block font-semibold opacity-80"
                               >
                                 React Native App
                                 <span className="absolute inset-0 z-[1]"></span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </div>
@@ -1686,13 +1686,13 @@ const Header = () => {
                               </svg>
                             </div>
                             <div className="flex-auto">
-                              <a
+                              <Link
                                 href="/web-development"
                                 className="block font-semibold opacity-80"
                               >
                                 Web Development
                                 <span className="absolute inset-0 z-[1]"></span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                           <div>
@@ -1709,13 +1709,13 @@ const Header = () => {
                               </svg>
                             </div>
                             <div className="flex-auto">
-                              <a
+                              <Link
                                 href="/website-design"
                                 className="block font-semibold opacity-80"
                               >
                                 Website Design
                                 <span className="absolute inset-0 z-[1]"></span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                           <div>
@@ -1732,13 +1732,13 @@ const Header = () => {
                               </svg>
                             </div>
                             <div className="flex-auto">
-                              <a
+                              <Link
                                 href="/website-redesigning"
                                 className="block font-semibold opacity-80"
                               >
                                 Website Redesign
                                 <span className="absolute inset-0 z-[1]"></span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                           <div>
@@ -1755,13 +1755,13 @@ const Header = () => {
                               </svg>
                             </div>
                             <div className="flex-auto">
-                              <a
+                              <Link
                                 href="/responsive-web-designing"
                                 className="block font-semibold opacity-80"
                               >
                                 Responsive Design
                                 <span className="absolute inset-0 z-[1]"></span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </div>
@@ -1783,13 +1783,13 @@ const Header = () => {
                               </svg>
                             </div>
                             <div className="flex-auto">
-                              <a
+                              <Link
                                 href="/bespoke-software-development"
                                 className="block font-semibold opacity-80"
                               >
                                 Bespoke Software
                                 <span className="absolute inset-0 z-[1]"></span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                           <div>
@@ -1806,13 +1806,13 @@ const Header = () => {
                               </svg>
                             </div>
                             <div className="flex-auto">
-                              <a
+                              <Link
                                 href="/saas-software-development"
                                 className="block font-semibold opacity-80"
                               >
                                 SaaS Software
                                 <span className="absolute inset-0 z-[1]"></span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                           <div>
@@ -1829,13 +1829,13 @@ const Header = () => {
                               </svg>
                             </div>
                             <div className="flex-auto">
-                              <a
+                              <Link
                                 href="/inventory-management-software"
                                 className="block font-semibold opacity-80"
                               >
                                 Inventory Management
                                 <span className="absolute inset-0 z-[1]"></span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                           <div>
@@ -1852,13 +1852,13 @@ const Header = () => {
                               </svg>
                             </div>
                             <div className="flex-auto">
-                              <a
+                              <Link
                                 href="/gym-management-software"
                                 className="block font-semibold opacity-80"
                               >
                                 GYM Software
                                 <span className="absolute inset-0 z-[1]"></span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                           <div>
@@ -1875,13 +1875,13 @@ const Header = () => {
                               </svg>
                             </div>
                             <div className="flex-auto">
-                              <a
+                              <Link
                                 href="/customer-relationship-management"
                                 className="block font-semibold opacity-80"
                               >
                                 CRM Software
                                 <span className="absolute inset-0 z-[1]"></span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </div>
@@ -1903,13 +1903,13 @@ const Header = () => {
                               </svg>
                             </div>
                             <div className="flex-auto">
-                              <a
+                              <Link
                                 href="/fantasy-sports-app-development"
                                 className="block font-semibold opacity-80"
                               >
                                 Fantasy Sports App
                                 <span className="absolute inset-0 z-[1]"></span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                           <div>
@@ -1926,13 +1926,13 @@ const Header = () => {
                               </svg>
                             </div>
                             <div className="flex-auto">
-                              <a
+                              <Link
                                 href="/fantasy-cricket-app-development"
                                 className="block font-semibold opacity-80"
                               >
                                 Fantasy Cricket App
                                 <span className="absolute inset-0 z-[1]"></span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                           <div>
@@ -1949,13 +1949,13 @@ const Header = () => {
                               </svg>
                             </div>
                             <div className="flex-auto">
-                              <a
+                              <Link
                                 href="/fantasy-football-app-development"
                                 className="block font-semibold opacity-80"
                               >
                                 Fantasy Football App
                                 <span className="absolute inset-0 z-[1]"></span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                           <div>
@@ -1972,13 +1972,13 @@ const Header = () => {
                               </svg>
                             </div>
                             <div className="flex-auto">
-                              <a
+                              <Link
                                 href="/fantasy-kabaddi-app-development"
                                 className="block font-semibold opacity-80"
                               >
                                 Fantasy Kabaddi App
                                 <span className="absolute inset-0 z-[1]"></span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                           <div>
@@ -1995,13 +1995,13 @@ const Header = () => {
                               </svg>
                             </div>
                             <div className="flex-auto">
-                              <a
+                              <Link
                                 href="/sports-betting-app-development"
                                 className="block font-semibold opacity-80"
                               >
                                 Sports Betting App
                                 <span className="absolute inset-0 z-[1]"></span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                           <div>
@@ -2018,13 +2018,13 @@ const Header = () => {
                               </svg>
                             </div>
                             <div className="flex-auto">
-                              <a
+                              <Link
                                 href="/casino-game-app-development"
                                 className="block font-semibold opacity-80"
                               >
                                 Casino App
                                 <span className="absolute inset-0 z-[1]"></span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </div>
@@ -2046,13 +2046,13 @@ const Header = () => {
                               </svg>
                             </div>
                             <div className="flex-auto">
-                              <a
+                              <Link
                                 href=".com/ecommerce-development.php"
                                 className="block font-semibold opacity-80"
                               >
                                 eCommerce Development
                                 <span className="absolute inset-0 z-[1]"></span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </div>
@@ -2074,13 +2074,13 @@ const Header = () => {
                               </svg>
                             </div>
                             <div className="flex-auto">
-                              <a
+                              <Link
                                 href=".com/"
                                 className="block font-semibold opacity-80"
                               >
                                 Blockchain
                                 <span className="absolute inset-0 z-[1]"></span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </div>
@@ -2104,10 +2104,10 @@ const Header = () => {
                           <svg className="h-1.5 w-1.5 opacity-90" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                         </div>
                         <div className="flex-auto">
-                          <a href=".com/food-delivery-app-development.php" className="block font-semibold opacity-80">
+                          <Link href=".com/food-delivery-app-development.php" className="block font-semibold opacity-80">
                             Food Delivery App
                             <span className="absolute inset-0 z-[1]"></span>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div>
@@ -2115,10 +2115,10 @@ const Header = () => {
                           <svg className="h-1.5 w-1.5 opacity-90" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                         </div>
                         <div className="flex-auto">
-                          <a href=".com/grocery-app-development.php" className="block font-semibold opacity-80">
+                          <Link href=".com/grocery-app-development.php" className="block font-semibold opacity-80">
                             Grocery Delivery App
                             <span className="absolute inset-0 z-[1]"></span>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div>
@@ -2126,10 +2126,10 @@ const Header = () => {
                           <svg className="h-1.5 w-1.5 opacity-90" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                         </div>
                         <div className="flex-auto">
-                          <a href=".com/taxi-app-development-company.php" className="block font-semibold opacity-80">
+                          <Link href=".com/taxi-app-development-company.php" className="block font-semibold opacity-80">
                             Taxi Booking App
                             <span className="absolute inset-0 z-[1]"></span>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div>
@@ -2137,10 +2137,10 @@ const Header = () => {
                           <svg className="h-1.5 w-1.5 opacity-90" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                         </div>
                         <div className="flex-auto">
-                          <a href=".com/home-service-app-development.php" className="block font-semibold opacity-80">
+                          <Link href=".com/home-service-app-development.php" className="block font-semibold opacity-80">
                             Home Services App
                             <span className="absolute inset-0 z-[1]"></span>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div>
@@ -2148,10 +2148,10 @@ const Header = () => {
                           <svg className="h-1.5 w-1.5 opacity-90" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                         </div>
                         <div className="flex-auto">
-                          <a href=".com/laundry-services-app-development.php" className="block font-semibold opacity-80">
+                          <Link href=".com/laundry-services-app-development.php" className="block font-semibold opacity-80">
                             Laundry App
                             <span className="absolute inset-0 z-[1]"></span>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div>
@@ -2159,10 +2159,10 @@ const Header = () => {
                           <svg className="h-1.5 w-1.5 opacity-90" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                         </div>
                         <div className="flex-auto">
-                          <a href=".com/medicine-delivery-app-development.php" className="block font-semibold opacity-80">
+                          <Link href=".com/medicine-delivery-app-development.php" className="block font-semibold opacity-80">
                             Medicine Delivery App
                             <span className="absolute inset-0 z-[1]"></span>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div>
@@ -2170,10 +2170,10 @@ const Header = () => {
                           <svg className="h-1.5 w-1.5 opacity-90" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                         </div>
                         <div className="flex-auto">
-                          <a href=".com/fuel-delivery-app-development.php" className="block font-semibold opacity-80">
+                          <Link href=".com/fuel-delivery-app-development.php" className="block font-semibold opacity-80">
                             Fuel Delivery App
                             <span className="absolute inset-0 z-[1]"></span>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div>
@@ -2181,10 +2181,10 @@ const Header = () => {
                           <svg className="h-1.5 w-1.5 opacity-90" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                         </div>
                         <div className="flex-auto">
-                          <a href=".com/doctor-on-demand-app-development.php" className="block font-semibold opacity-80">
+                          <Link href=".com/doctor-on-demand-app-development.php" className="block font-semibold opacity-80">
                             Doctor App
                             <span className="absolute inset-0 z-[1]"></span>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div>
@@ -2192,10 +2192,10 @@ const Header = () => {
                           <svg className="h-1.5 w-1.5 opacity-90" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                         </div>
                         <div className="flex-auto">
-                          <a href=".com/alcohol-delivery-app-development.php" className="block font-semibold opacity-80">
+                          <Link href=".com/alcohol-delivery-app-development.php" className="block font-semibold opacity-80">
                             Alcohol Delivery App
                             <span className="absolute inset-0 z-[1]"></span>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div>
@@ -2203,10 +2203,10 @@ const Header = () => {
                           <svg className="h-1.5 w-1.5 opacity-90" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                         </div>
                         <div className="flex-auto">
-                          <a href=".com/car-wash-app-development.php" className="block font-semibold opacity-80">
+                          <Link href=".com/car-wash-app-development.php" className="block font-semibold opacity-80">
                             Car Wash App
                             <span className="absolute inset-0 z-[1]"></span>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -2217,10 +2217,10 @@ const Header = () => {
                           <svg className="h-1.5 w-1.5 opacity-90" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                         </div>
                         <div className="flex-auto">
-                          <a href=".com/school-management-software-development.php" className="block font-semibold opacity-80">
+                          <Link href=".com/school-management-software-development.php" className="block font-semibold opacity-80">
                             School Management System
                             <span className="absolute inset-0 z-[1]"></span>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div>
@@ -2228,10 +2228,10 @@ const Header = () => {
                           <svg className="h-1.5 w-1.5 opacity-90" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                         </div>
                         <div className="flex-auto">
-                          <a href=".com/college-management-software-development.php" className="block font-semibold opacity-80">
+                          <Link href=".com/college-management-software-development.php" className="block font-semibold opacity-80">
                             College Management System
                             <span className="absolute inset-0 z-[1]"></span>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div>
@@ -2239,10 +2239,10 @@ const Header = () => {
                           <svg className="h-1.5 w-1.5 opacity-90" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                         </div>
                         <div className="flex-auto">
-                          <a href=".com/university-management-software-development.php" className="block font-semibold opacity-80">
+                          <Link href=".com/university-management-software-development.php" className="block font-semibold opacity-80">
                             University Management System
                             <span className="absolute inset-0 z-[1]"></span>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div>
@@ -2250,10 +2250,10 @@ const Header = () => {
                           <svg className="h-1.5 w-1.5 opacity-90" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                         </div>
                         <div className="flex-auto">
-                          <a href=".com/institute-management-software-development.php" className="block font-semibold opacity-80">
+                          <Link href=".com/institute-management-software-development.php" className="block font-semibold opacity-80">
                             Institute Management System
                             <span className="absolute inset-0 z-[1]"></span>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div>
@@ -2261,10 +2261,10 @@ const Header = () => {
                           <svg className="h-1.5 w-1.5 opacity-90" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                         </div>
                         <div className="flex-auto">
-                          <a href=".com/mlm-software-development-company.php" className="block font-semibold opacity-80">
+                          <Link href=".com/mlm-software-development-company.php" className="block font-semibold opacity-80">
                             MLM Software
                             <span className="absolute inset-0 z-[1]"></span>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div>
@@ -2272,10 +2272,10 @@ const Header = () => {
                           <svg className="h-1.5 w-1.5 opacity-90" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                         </div>
                         <div className="flex-auto">
-                          <a href=".com/online-exam-app-development.php" className="block font-semibold opacity-80">
+                          <Link href=".com/online-exam-app-development.php" className="block font-semibold opacity-80">
                             Online Exam App
                             <span className="absolute inset-0 z-[1]"></span>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div>
@@ -2283,10 +2283,10 @@ const Header = () => {
                           <svg className="h-1.5 w-1.5 opacity-90" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                         </div>
                         <div className="flex-auto">
-                          <a href=".com/hospital-management-software.php" className="block font-semibold opacity-80">
+                          <Link href=".com/hospital-management-software.php" className="block font-semibold opacity-80">
                             Hospital Management System
                             <span className="absolute inset-0 z-[1]"></span>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div>
@@ -2294,10 +2294,10 @@ const Header = () => {
                           <svg className="h-1.5 w-1.5 opacity-90" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                         </div>
                         <div className="flex-auto">
-                          <a href="/inventory-management-software" className="block font-semibold opacity-80">
+                          <Link href="/inventory-management-software" className="block font-semibold opacity-80">
                             Inventory Management Softwrae
                             <span className="absolute inset-0 z-[1]"></span>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div>
@@ -2305,10 +2305,10 @@ const Header = () => {
                           <svg className="h-1.5 w-1.5 opacity-90" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                         </div>
                         <div className="flex-auto">
-                          <a href=".com/nidhi-company-software.php" className="block font-semibold opacity-80">
+                          <Link href=".com/nidhi-company-software.php" className="block font-semibold opacity-80">
                             Nidhi Software
                             <span className="absolute inset-0 z-[1]"></span>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div>
@@ -2316,10 +2316,10 @@ const Header = () => {
                           <svg className="h-1.5 w-1.5 opacity-90" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                         </div>
                         <div className="flex-auto">
-                          <a href="/customer-relationship-management" className="block font-semibold opacity-80">
+                          <Link href="/customer-relationship-management" className="block font-semibold opacity-80">
                             CRM Software
                             <span className="absolute inset-0 z-[1]"></span>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -2330,10 +2330,10 @@ const Header = () => {
                           <svg className="h-1.5 w-1.5 opacity-90" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                         </div>
                         <div className="flex-auto">
-                          <a href=".com/healthcare-app-development.php" className="block font-semibold opacity-80">
+                          <Link href=".com/healthcare-app-development.php" className="block font-semibold opacity-80">
                             Healthcare App
                             <span className="absolute inset-0 z-[1]"></span>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div>
@@ -2341,10 +2341,10 @@ const Header = () => {
                           <svg className="h-1.5 w-1.5 opacity-90" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                         </div>
                         <div className="flex-auto">
-                          <a href=".com/diet-and-nutrition-app-development.php" className="block font-semibold opacity-80">
+                          <Link href=".com/diet-and-nutrition-app-development.php" className="block font-semibold opacity-80">
                             Diet and Nutrition App
                             <span className="absolute inset-0 z-[1]"></span>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div>
@@ -2352,10 +2352,10 @@ const Header = () => {
                           <svg className="h-1.5 w-1.5 opacity-90" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                         </div>
                         <div className="flex-auto">
-                          <a href=".com/fitness-app-development.php" className="block font-semibold opacity-80">
+                          <Link href=".com/fitness-app-development.php" className="block font-semibold opacity-80">
                             Fitness App
                             <span className="absolute inset-0 z-[1]"></span>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div>
@@ -2363,10 +2363,10 @@ const Header = () => {
                           <svg className="h-1.5 w-1.5 opacity-90" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                         </div>
                         <div className="flex-auto">
-                          <a href=".com/elearning-app-development.php" className="block font-semibold opacity-80">
+                          <Link href=".com/elearning-app-development.php" className="block font-semibold opacity-80">
                             Elearning App
                             <span className="absolute inset-0 z-[1]"></span>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div>
@@ -2374,10 +2374,10 @@ const Header = () => {
                           <svg className="h-1.5 w-1.5 opacity-90" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                         </div>
                         <div className="flex-auto">
-                          <a href=".com/ott-app-development.php" className="block font-semibold opacity-80">
+                          <Link href=".com/ott-app-development.php" className="block font-semibold opacity-80">
                             OTT Platform App
                             <span className="absolute inset-0 z-[1]"></span>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div>
@@ -2385,10 +2385,10 @@ const Header = () => {
                           <svg className="h-1.5 w-1.5 opacity-90" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                         </div>
                         <div className="flex-auto">
-                          <a href=".com/live-streaming-app-development.php" className="block font-semibold opacity-80">
+                          <Link href=".com/live-streaming-app-development.php" className="block font-semibold opacity-80">
                             Live Streaming App
                             <span className="absolute inset-0 z-[1]"></span>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div>
@@ -2396,10 +2396,10 @@ const Header = () => {
                           <svg className="h-1.5 w-1.5 opacity-90" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                         </div>
                         <div className="flex-auto">
-                          <a href=".com/ar-vr-app-development.php" className="block font-semibold opacity-80">
+                          <Link href=".com/ar-vr-app-development.php" className="block font-semibold opacity-80">
                             AR/VR App
                             <span className="absolute inset-0 z-[1]"></span>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div>
@@ -2407,10 +2407,10 @@ const Header = () => {
                           <svg className="h-1.5 w-1.5 opacity-90" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                         </div>
                         <div className="flex-auto">
-                          <a href=".com/dating-app-development.php" className="block font-semibold opacity-80">
+                          <Link href=".com/dating-app-development.php" className="block font-semibold opacity-80">
                             Dating App
                             <span className="absolute inset-0 z-[1]"></span>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div>
@@ -2418,10 +2418,10 @@ const Header = () => {
                           <svg className="h-1.5 w-1.5 opacity-90" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                         </div>
                         <div className="flex-auto">
-                          <a href=".com/event-tickets-booking-app-development.php" className="block font-semibold opacity-80">
+                          <Link href=".com/event-tickets-booking-app-development.php" className="block font-semibold opacity-80">
                             Event &amp; Ticket Booking App
                             <span className="absolute inset-0 z-[1]"></span>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div>
@@ -2429,10 +2429,10 @@ const Header = () => {
                           <svg className="h-1.5 w-1.5 opacity-90" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
                         </div>
                         <div className="flex-auto">
-                          <a href=".com/cryptocurrency-app-development.php" className="block font-semibold opacity-80">
+                          <Link href=".com/cryptocurrency-app-development.php" className="block font-semibold opacity-80">
                             Cryptocurrency App
                             <span className="absolute inset-0 z-[1]"></span>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -2481,13 +2481,13 @@ const Header = () => {
                               </svg>
                             </div>
                             <div className="flex-auto">
-                              <a
+                              <Link
                                 href=".com/hire-mobile-app-developers.php"
                                 className="block font-semibold opacity-80"
                               >
                                 Hire Mobile App Developers
                                 <span className="absolute inset-0 z-[1]"></span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                           <div>
@@ -2504,13 +2504,13 @@ const Header = () => {
                               </svg>
                             </div>
                             <div className="flex-auto">
-                              <a
+                              <Link
                                 href=".com/hire-android-app-developers.php"
                                 className="block font-semibold opacity-80"
                               >
                                 Hire Android App Developers
                                 <span className="absolute inset-0 z-[1]"></span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                           <div>
@@ -2527,13 +2527,13 @@ const Header = () => {
                               </svg>
                             </div>
                             <div className="flex-auto">
-                              <a
+                              <Link
                                 href=".com/hire-ios-app-developers.php"
                                 className="block font-semibold opacity-80"
                               >
                                 Hire iOS App Developers
                                 <span className="absolute inset-0 z-[1]"></span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                           <div>
@@ -2550,13 +2550,13 @@ const Header = () => {
                               </svg>
                             </div>
                             <div className="flex-auto">
-                              <a
+                              <Link
                                 href=".com/hire-react-native-app-developers.php"
                                 className="block font-semibold opacity-80"
                               >
                                 Hire React Native App Developers
                                 <span className="absolute inset-0 z-[1]"></span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                           <div>
@@ -2573,13 +2573,13 @@ const Header = () => {
                               </svg>
                             </div>
                             <div className="flex-auto">
-                              <a
+                              <Link
                                 href=".com/hire-flutter-app-developers.php"
                                 className="block font-semibold opacity-80"
                               >
                                 Hire Flutter App Developers
                                 <span className="absolute inset-0 z-[1]"></span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                           <div>
@@ -2596,13 +2596,13 @@ const Header = () => {
                               </svg>
                             </div>
                             <div className="flex-auto">
-                              <a
+                              <Link
                                 href=".com/hire-php-developers.php"
                                 className="block font-semibold opacity-80"
                               >
                                 Hire PHP Developers
                                 <span className="absolute inset-0 z-[1]"></span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                           <div>
@@ -2619,13 +2619,13 @@ const Header = () => {
                               </svg>
                             </div>
                             <div className="flex-auto">
-                              <a
+                              <Link
                                 href=".com/hire-python-developers.php"
                                 className="block font-semibold opacity-80"
                               >
                                 Hire Python Developers
                                 <span className="absolute inset-0 z-[1]"></span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                           <div>
@@ -2642,13 +2642,13 @@ const Header = () => {
                               </svg>
                             </div>
                             <div className="flex-auto">
-                              <a
+                              <Link
                                 href=".com/hire-web-designers.php"
                                 className="block font-semibold opacity-80"
                               >
                                 Hire Website Designers
                                 <span className="absolute inset-0 z-[1]"></span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                           <div>
@@ -2665,13 +2665,13 @@ const Header = () => {
                               </svg>
                             </div>
                             <div className="flex-auto">
-                              <a
+                              <Link
                                 href=".com/hire-mern-stack-developers.php"
                                 className="block font-semibold opacity-80"
                               >
                                 Hire MERN Stack Developers
                                 <span className="absolute inset-0 z-[1]"></span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                           <div>
@@ -2688,13 +2688,13 @@ const Header = () => {
                               </svg>
                             </div>
                             <div className="flex-auto">
-                              <a
+                              <Link
                                 href=".com/hire-ui-ux-developers.php"
                                 className="block font-semibold opacity-80"
                               >
                                 Hire UI / UX Developers
                                 <span className="absolute inset-0 z-[1]"></span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                           <div>
@@ -2711,13 +2711,13 @@ const Header = () => {
                               </svg>
                             </div>
                             <div className="flex-auto">
-                              <a
+                              <Link
                                 href=".com/hire-web-developers.php"
                                 className="block font-semibold opacity-80"
                               >
                                 Hire Website Developers
                                 <span className="absolute inset-0 z-[1]"></span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                           <div>
@@ -2734,13 +2734,13 @@ const Header = () => {
                               </svg>
                             </div>
                             <div className="flex-auto">
-                              <a
+                              <Link
                                 href=".com/"
                                 className="block font-semibold opacity-80"
                               >
                                 Hire Software Developers
                                 <span className="absolute inset-0 z-[1]"></span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                           <div>
@@ -2757,13 +2757,13 @@ const Header = () => {
                               </svg>
                             </div>
                             <div className="flex-auto">
-                              <a
+                              <Link
                                 href=".com/hire-reactjs-developers.php"
                                 className="block font-semibold opacity-80"
                               >
                                 Hire React JS Developers
                                 <span className="absolute inset-0 z-[1]"></span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                           <div>
@@ -2780,13 +2780,13 @@ const Header = () => {
                               </svg>
                             </div>
                             <div className="flex-auto">
-                              <a
+                              <Link
                                 href=".com/hire-full-stack-developers.php"
                                 className="block font-semibold opacity-80"
                               >
                                 Hire Full Stack Developers
                                 <span className="absolute inset-0 z-[1]"></span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                           <div>
@@ -2803,13 +2803,13 @@ const Header = () => {
                               </svg>
                             </div>
                             <div className="flex-auto">
-                              <a
+                              <Link
                                 href=".com/hire-java-developers.php"
                                 className="block font-semibold opacity-80"
                               >
                                 Hire Java Developers
                                 <span className="absolute inset-0 z-[1]"></span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                           <div>
@@ -2826,13 +2826,13 @@ const Header = () => {
                               </svg>
                             </div>
                             <div className="flex-auto">
-                              <a
+                              <Link
                                 href=".com/hire-angular-developers.php"
                                 className="block font-semibold opacity-80"
                               >
                                 Hire Angularjs Developers
                                 <span className="absolute inset-0 z-[1]"></span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                           <div>
@@ -2849,13 +2849,13 @@ const Header = () => {
                               </svg>
                             </div>
                             <div className="flex-auto">
-                              <a
+                              <Link
                                 href=".com/hire-mean-stack-developers.php"
                                 className="block font-semibold opacity-80"
                               >
                                 Hire MEAN Stack Developers
                                 <span className="absolute inset-0 z-[1]"></span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                           <div>
@@ -2872,13 +2872,13 @@ const Header = () => {
                               </svg>
                             </div>
                             <div className="flex-auto">
-                              <a
+                              <Link
                                 href=".com/hire-nodejs-developers.php"
                                 className="block font-semibold opacity-80"
                               >
                                 Hire Node.js Developers
                                 <span className="absolute inset-0 z-[1]"></span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </div>
@@ -2886,24 +2886,24 @@ const Header = () => {
                     </div>
                   </div> */}
 
-                  <a
+                  <Link
                     href=".com/portfolio.php"
                     className="text-sm font-bold text-gray-50"
                   >
                     Work
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href=".com/contact-us.php"
                     className="text-sm font-bold text-gray-50"
                   >
                     Contact Us
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href=".com/contact-us.php"
                     className="text-sm font-bold text-gray-50"
                   >
                     Request a Quote
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
