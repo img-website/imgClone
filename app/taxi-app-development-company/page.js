@@ -207,7 +207,7 @@ function taxiAppDevelopmentCompany() {
                     <div className="relative container mx-auto max-w-7xl md:px-6 lg:px-8 z-10">
                         <p className="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black text-center">
                             <span className="font-normal text-center">How Does Taxi Booking </span>
-                            <span className="font-bold text-theme4">App Work?</span>
+                            <span className="font-bold text-theme2">App Work?</span>
                         </p>
                     </div>
 

@@ -166,7 +166,7 @@ function logisticssoftwaredevelopment() {
 
                     first:*:font-normal
 
-                    last:*:font-bold last:*:text-theme4
+                    last:*:font-bold last:*:text-theme2
                 ">
                     <span className="font-normal">Logistics Mobile  </span> <span className="font-bold text-theme2">App Development Solutions</span>
                     

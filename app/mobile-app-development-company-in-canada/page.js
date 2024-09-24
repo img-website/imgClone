@@ -446,116 +446,116 @@ function MobileAppDevelopmentcanada() {
 
             <Cta2 />
 
-            <section class="container mx-auto py-8 sm:py-16 relative bg-white">
-                <div class="flex flex-col w-full max-w-7xl mx-auto pb-8 px-6 lg:px-8 text-center">
-                    <p class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black empty:hidden text-balance">
+            <section className="container mx-auto py-8 sm:py-16 relative bg-white">
+                <div className="flex flex-col w-full max-w-7xl mx-auto pb-8 px-6 lg:px-8 text-center">
+                    <p className="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black empty:hidden text-balance">
                         <span>Our Mobile </span>
-                        <span class="font-bold text-theme2"> Technology</span>
+                        <span className="font-bold text-theme2"> Technology</span>
                     </p>
-                    {/* <div class="mt-4 text-base md:text-lg leading-7 text-slate-600 empty:hidden text-balance">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi eaque est animi tenetur alias natus rem, quia vel deleniti consectetur sequi nostrum exercitationem eveniet placeat sint quidem. Qui, nostrum voluptatibus?</div> */}
+                    {/* <div className="mt-4 text-base md:text-lg leading-7 text-slate-600 empty:hidden text-balance">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi eaque est animi tenetur alias natus rem, quia vel deleniti consectetur sequi nostrum exercitationem eveniet placeat sint quidem. Qui, nostrum voluptatibus?</div> */}
                 </div>
-                <ul class="flex relative flex-col gap-y-8 lg:gap-y-64 flex-wrap mx-auto max-w-7xl px-6 lg:px-8">
-                    <li class="size-full lg:sticky max-lg:relative lg:top-40 z-0 before:bg-gradient-to-br before:from-gray-700 before:via-slate-700 before:to-black before:absolute before:inset-0 before:rounded-xl before:m-auto before:z-0 before:rotate-2">
-                        <div class="bg-gray-50 opacity-100 rounded-3xl rounded-br-none overflow-hidden relative">
-                            <div class="absolute inset-0 [mix-blend-mode:multiply] opacity-100 bg-gray-50"></div>
-                            <div class="blur-[60px] absolute top-[50%] left-[50%] [transform:translate(-50%,_-50%);] -ml-[4rem]">
-                                <div class="[clip-path:polygon(74.1%_44.1%,_100%_61.6%,_97.5%_26.9%,_85.5%_0.1%,_80.7%_2%,_72.5%_32.5%,_60.2%_62.4%,_52.4%_68.1%,_47.5%_58.3%,_45.2%_34.5%,_27.5%_76.7%,_0.1%_64.9%,_17.9%_100%,_27.6%_76.8%,_76.1%_97.7%,_74.1%_44.1%)] opacity-[0.4] bg-gradient-to-tr from-gray-500/30 to-gray-500/30 w-[68.5625rem] [aspect-ratio:1097/845]"></div>
+                <ul className="flex relative flex-col gap-y-8 lg:gap-y-64 flex-wrap mx-auto max-w-7xl px-6 lg:px-8">
+                    <li className="size-full lg:sticky max-lg:relative lg:top-40 z-0 before:bg-gradient-to-br before:from-gray-700 before:via-slate-700 before:to-black before:absolute before:inset-0 before:rounded-xl before:m-auto before:z-0 before:rotate-2">
+                        <div className="bg-gray-50 opacity-100 rounded-3xl rounded-br-none overflow-hidden relative">
+                            <div className="absolute inset-0 [mix-blend-mode:multiply] opacity-100 bg-gray-50"></div>
+                            <div className="blur-[60px] absolute top-[50%] left-[50%] [transform:translate(-50%,_-50%);] -ml-[4rem]">
+                                <div className="[clip-path:polygon(74.1%_44.1%,_100%_61.6%,_97.5%_26.9%,_85.5%_0.1%,_80.7%_2%,_72.5%_32.5%,_60.2%_62.4%,_52.4%_68.1%,_47.5%_58.3%,_45.2%_34.5%,_27.5%_76.7%,_0.1%_64.9%,_17.9%_100%,_27.6%_76.8%,_76.1%_97.7%,_74.1%_44.1%)] opacity-[0.4] bg-gradient-to-tr from-gray-500/30 to-gray-500/30 w-[68.5625rem] [aspect-ratio:1097/845]"></div>
                             </div>
-                            <div class="flex flex-col p-10 h-full relative z-50">
-                                <div class="w-full flex flex-row-reverse max-sm:flex-col-reverse relative z-10 items-center max-sm:text-center gap-6 lg:min-h-[385px]">
-                                    <div class="grow max-sm:w-full text-black flex flex-col max-sm:gap-y-4 gap-y-7">
-                                        <p class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black empty:hidden text-balance">
+                            <div className="flex flex-col p-10 h-full relative z-50">
+                                <div className="w-full flex flex-row-reverse max-sm:flex-col-reverse relative z-10 items-center max-sm:text-center gap-6 lg:min-h-[385px]">
+                                    <div className="grow max-sm:w-full text-black flex flex-col max-sm:gap-y-4 gap-y-7">
+                                        <p className="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black empty:hidden text-balance">
                                             <span>iOS App </span>
-                                            <span class="font-bold text-gray-800">Developer</span>
+                                            <span className="font-bold text-gray-800">Developer</span>
                                         </p>
-                                        <div class="mt-4 text-base md:text-lg leading-7 text-slate-600 empty:hidden text-balance">Hiring our experienced iOS app developers allows you to rapidly fill a skill gap in your development team. If you hire the right iOS developers, you can quickly get ongoing support, a bigger team for a specific project, or help in an emergency. We can promise that our highly skilled remote iOS developers will fit right in with your team and help your project be a success. We specialise in working to hire iOS app developer models, for a start-up, small, medium, or large company. We set a higher standard for providing value for money with cutting-edge iOS app development solutions. </div>
+                                        <div className="mt-4 text-base md:text-lg leading-7 text-slate-600 empty:hidden text-balance">Hiring our experienced iOS app developers allows you to rapidly fill a skill gap in your development team. If you hire the right iOS developers, you can quickly get ongoing support, a bigger team for a specific project, or help in an emergency. We can promise that our highly skilled remote iOS developers will fit right in with your team and help your project be a success. We specialise in working to hire iOS app developer models, for a start-up, small, medium, or large company. We set a higher standard for providing value for money with cutting-edge iOS app development solutions. </div>
                                         <div>
-                                            <a href="/ios-app-development" class="inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-gray-900 bg-gray-700 xl:hover:ring-gray-700 duration-300 backdrop-blur-md shadow-sm shadow-gray-700/50 text-white">Learn More</a>
+                                            <a href="/ios-app-development" className="inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-gray-900 bg-gray-700 xl:hover:ring-gray-700 duration-300 backdrop-blur-md shadow-sm shadow-gray-700/50 text-white">Learn More</a>
                                         </div>
                                     </div>
-                                    <div class="grow-0 shrink-0 max-sm:w-full max-md:h-52 text-gray-800">
-                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" class="size-full" xmlns="http://www.w3.org/2000/svg"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"></path></svg>
+                                    <div className="grow-0 shrink-0 max-sm:w-full max-md:h-52 text-gray-800">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" className="size-full" xmlns="http://www.w3.org/2000/svg"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"></path></svg>
 
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </li>
-                    <li class="size-full lg:sticky max-lg:relative lg:top-40 z-0 before:bg-gradient-to-br before:from-lime-700 before:via-green-700 before:to-lime-900 before:absolute before:inset-0 before:rounded-xl before:m-auto before:z-0 before:rotate-2">
-                        <div class="bg-gray-50 opacity-100 rounded-3xl rounded-br-none overflow-hidden relative">
-                            <div class="absolute inset-0 [mix-blend-mode:multiply] opacity-100 bg-gray-50"></div>
-                            <div class="blur-[60px] absolute top-[50%] left-[50%] [transform:translate(-50%,_-50%);] -ml-[4rem]">
-                                <div class="[clip-path:polygon(74.1%_44.1%,_100%_61.6%,_97.5%_26.9%,_85.5%_0.1%,_80.7%_2%,_72.5%_32.5%,_60.2%_62.4%,_52.4%_68.1%,_47.5%_58.3%,_45.2%_34.5%,_27.5%_76.7%,_0.1%_64.9%,_17.9%_100%,_27.6%_76.8%,_76.1%_97.7%,_74.1%_44.1%)] opacity-[0.4] bg-gradient-to-tr from-lime-500/30 to-lime-500/30 w-[68.5625rem] [aspect-ratio:1097/845]"></div>
+                    <li className="size-full lg:sticky max-lg:relative lg:top-40 z-0 before:bg-gradient-to-br before:from-lime-700 before:via-green-700 before:to-lime-900 before:absolute before:inset-0 before:rounded-xl before:m-auto before:z-0 before:rotate-2">
+                        <div className="bg-gray-50 opacity-100 rounded-3xl rounded-br-none overflow-hidden relative">
+                            <div className="absolute inset-0 [mix-blend-mode:multiply] opacity-100 bg-gray-50"></div>
+                            <div className="blur-[60px] absolute top-[50%] left-[50%] [transform:translate(-50%,_-50%);] -ml-[4rem]">
+                                <div className="[clip-path:polygon(74.1%_44.1%,_100%_61.6%,_97.5%_26.9%,_85.5%_0.1%,_80.7%_2%,_72.5%_32.5%,_60.2%_62.4%,_52.4%_68.1%,_47.5%_58.3%,_45.2%_34.5%,_27.5%_76.7%,_0.1%_64.9%,_17.9%_100%,_27.6%_76.8%,_76.1%_97.7%,_74.1%_44.1%)] opacity-[0.4] bg-gradient-to-tr from-lime-500/30 to-lime-500/30 w-[68.5625rem] [aspect-ratio:1097/845]"></div>
                             </div>
-                            <div class="flex flex-col p-10 h-full relative z-50">
-                                <div class="w-full flex max-sm:flex-col-reverse relative z-10 items-center max-sm:text-center gap-6 lg:min-h-[385px]">
-                                    <div class="grow max-sm:w-full text-black flex flex-col max-sm:gap-y-4 gap-y-7">
-                                        <p class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black empty:hidden text-balance">
+                            <div className="flex flex-col p-10 h-full relative z-50">
+                                <div className="w-full flex max-sm:flex-col-reverse relative z-10 items-center max-sm:text-center gap-6 lg:min-h-[385px]">
+                                    <div className="grow max-sm:w-full text-black flex flex-col max-sm:gap-y-4 gap-y-7">
+                                        <p className="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black empty:hidden text-balance">
                                             <span>Android App </span>
-                                            <span class="font-bold text-lime-800">Developer</span>
+                                            <span className="font-bold text-lime-800">Developer</span>
                                         </p>
-                                        <div class="mt-4 text-base md:text-lg leading-7 text-slate-600 empty:hidden text-balance">Mobile phones have become indispensable in today's digital society. As a result, businesses that want to contact their customers' mobile apps are valuable assets. If you own a company and want to increase your revenue, now is the time to transform it. Then, it’s time to hire dedicated android developers to generate revenue from this trend. Concerned about finding a competent android app development company on such short notice? No worries. You can hire android developers in a variety of ways from IMG Global Infotech.
+                                        <div className="mt-4 text-base md:text-lg leading-7 text-slate-600 empty:hidden text-balance">Mobile phones have become indispensable in today's digital society. As a result, businesses that want to contact their customers' mobile apps are valuable assets. If you own a company and want to increase your revenue, now is the time to transform it. Then, it’s time to hire dedicated android developers to generate revenue from this trend. Concerned about finding a competent android app development company on such short notice? No worries. You can hire android developers in a variety of ways from Twin Power Software.
                                         </div>
                                         <div>
-                                            <a href="/android-application-development" class="inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-lime-900 bg-lime-700 xl:hover:ring-lime-700 duration-300 backdrop-blur-md shadow-sm shadow-lime-700/50 text-white">Learn More</a>
+                                            <a href="/android-application-development" className="inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-lime-900 bg-lime-700 xl:hover:ring-lime-700 duration-300 backdrop-blur-md shadow-sm shadow-lime-700/50 text-white">Learn More</a>
                                         </div>
                                     </div>
-                                    <div class="grow-0 shrink-0 max-sm:w-full max-md:h-52 text-lime-600 relative">
-                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="size-full" xmlns="http://www.w3.org/2000/svg"><path d="M420.55,301.93a24,24,0,1,1,24-24,24,24,0,0,1-24,24m-265.1,0a24,24,0,1,1,24-24,24,24,0,0,1-24,24m273.7-144.48,47.94-83a10,10,0,1,0-17.27-10h0l-48.54,84.07a301.25,301.25,0,0,0-246.56,0L116.18,64.45a10,10,0,1,0-17.27,10h0l47.94,83C64.53,202.22,8.24,285.55,0,384H576c-8.24-98.45-64.54-181.78-146.85-226.55"></path></svg>
+                                    <div className="grow-0 shrink-0 max-sm:w-full max-md:h-52 text-lime-600 relative">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" className="size-full" xmlns="http://www.w3.org/2000/svg"><path d="M420.55,301.93a24,24,0,1,1,24-24,24,24,0,0,1-24,24m-265.1,0a24,24,0,1,1,24-24,24,24,0,0,1-24,24m273.7-144.48,47.94-83a10,10,0,1,0-17.27-10h0l-48.54,84.07a301.25,301.25,0,0,0-246.56,0L116.18,64.45a10,10,0,1,0-17.27,10h0l47.94,83C64.53,202.22,8.24,285.55,0,384H576c-8.24-98.45-64.54-181.78-146.85-226.55"></path></svg>
 
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </li>
-                    <li class="size-full lg:sticky max-lg:relative lg:top-40 z-0 before:bg-gradient-to-br before:from-sky-700 before:via-sky-700 before:to-sky-900 before:absolute before:inset-0 before:rounded-xl before:m-auto before:z-0 before:rotate-2">
-                        <div class="bg-gray-50 opacity-100 rounded-3xl rounded-br-none overflow-hidden relative">
-                            <div class="absolute inset-0 [mix-blend-mode:multiply] opacity-100 bg-gray-50"></div>
-                            <div class="blur-[60px] absolute top-[50%] left-[50%] [transform:translate(-50%,_-50%);] -ml-[4rem]">
-                                <div class="[clip-path:polygon(74.1%_44.1%,_100%_61.6%,_97.5%_26.9%,_85.5%_0.1%,_80.7%_2%,_72.5%_32.5%,_60.2%_62.4%,_52.4%_68.1%,_47.5%_58.3%,_45.2%_34.5%,_27.5%_76.7%,_0.1%_64.9%,_17.9%_100%,_27.6%_76.8%,_76.1%_97.7%,_74.1%_44.1%)] opacity-[0.4] bg-gradient-to-tr from-sky-500/30 to-blue-500/30 w-[68.5625rem] [aspect-ratio:1097/845]"></div>
+                    <li className="size-full lg:sticky max-lg:relative lg:top-40 z-0 before:bg-gradient-to-br before:from-sky-700 before:via-sky-700 before:to-sky-900 before:absolute before:inset-0 before:rounded-xl before:m-auto before:z-0 before:rotate-2">
+                        <div className="bg-gray-50 opacity-100 rounded-3xl rounded-br-none overflow-hidden relative">
+                            <div className="absolute inset-0 [mix-blend-mode:multiply] opacity-100 bg-gray-50"></div>
+                            <div className="blur-[60px] absolute top-[50%] left-[50%] [transform:translate(-50%,_-50%);] -ml-[4rem]">
+                                <div className="[clip-path:polygon(74.1%_44.1%,_100%_61.6%,_97.5%_26.9%,_85.5%_0.1%,_80.7%_2%,_72.5%_32.5%,_60.2%_62.4%,_52.4%_68.1%,_47.5%_58.3%,_45.2%_34.5%,_27.5%_76.7%,_0.1%_64.9%,_17.9%_100%,_27.6%_76.8%,_76.1%_97.7%,_74.1%_44.1%)] opacity-[0.4] bg-gradient-to-tr from-sky-500/30 to-blue-500/30 w-[68.5625rem] [aspect-ratio:1097/845]"></div>
                             </div>
-                            <div class="flex flex-col p-10 h-full relative z-50">
-                                <div class="w-full flex flex-row-reverse max-sm:flex-col-reverse relative z-10 items-center max-sm:text-center gap-6 lg:min-h-[385px]">
-                                    <div class="grow max-sm:w-full text-black flex flex-col max-sm:gap-y-4 gap-y-7">
-                                        <p class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black empty:hidden text-balance">
+                            <div className="flex flex-col p-10 h-full relative z-50">
+                                <div className="w-full flex flex-row-reverse max-sm:flex-col-reverse relative z-10 items-center max-sm:text-center gap-6 lg:min-h-[385px]">
+                                    <div className="grow max-sm:w-full text-black flex flex-col max-sm:gap-y-4 gap-y-7">
+                                        <p className="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black empty:hidden text-balance">
                                             <span>React Native App </span>
-                                            <span class="font-bold text-sky-800">Developer</span>
+                                            <span className="font-bold text-sky-800">Developer</span>
                                         </p>
-                                        <div class="mt-4 text-base md:text-lg leading-7 text-slate-600 empty:hidden text-balance">We create robust React Native applications for Android and iOS platforms. Hire our React Native app developers to attract consumers by offering top-notch UX and intuitive functionality. We provide exceptional React Native app development services. It is possible with assistance from our expert team of experienced developers, QA experts, UI/UX engineers, and many more. From conception to implementation, we provide everything you need to ensure the success of your development process.
+                                        <div className="mt-4 text-base md:text-lg leading-7 text-slate-600 empty:hidden text-balance">We create robust React Native applications for Android and iOS platforms. Hire our React Native app developers to attract consumers by offering top-notch UX and intuitive functionality. We provide exceptional React Native app development services. It is possible with assistance from our expert team of experienced developers, QA experts, UI/UX engineers, and many more. From conception to implementation, we provide everything you need to ensure the success of your development process.
                                         </div>
                                         <div>
-                                            <a href="/react-native-app-development" class="inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-sky-900 bg-sky-700 xl:hover:ring-sky-700 duration-300 backdrop-blur-md shadow-sm shadow-sky-700/50 text-white">Learn More</a>
+                                            <a href="/react-native-app-development" className="inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-sky-900 bg-sky-700 xl:hover:ring-sky-700 duration-300 backdrop-blur-md shadow-sm shadow-sky-700/50 text-white">Learn More</a>
                                         </div>
                                     </div>
-                                    <div class="grow-0 shrink-0 max-sm:w-full max-md:h-52 text-sky-600 relative">
-                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="size-full" xmlns="http://www.w3.org/2000/svg"><path d="M418.2 177.2c-5.4-1.8-10.8-3.5-16.2-5.1.9-3.7 1.7-7.4 2.5-11.1 12.3-59.6 4.2-107.5-23.1-123.3-26.3-15.1-69.2.6-112.6 38.4-4.3 3.7-8.5 7.6-12.5 11.5-2.7-2.6-5.5-5.2-8.3-7.7-45.5-40.4-91.1-57.4-118.4-41.5-26.2 15.2-34 60.3-23 116.7 1.1 5.6 2.3 11.1 3.7 16.7-6.4 1.8-12.7 3.8-18.6 5.9C38.3 196.2 0 225.4 0 255.6c0 31.2 40.8 62.5 96.3 81.5 4.5 1.5 9 3 13.6 4.3-1.5 6-2.8 11.9-4 18-10.5 55.5-2.3 99.5 23.9 114.6 27 15.6 72.4-.4 116.6-39.1 3.5-3.1 7-6.3 10.5-9.7 4.4 4.3 9 8.4 13.6 12.4 42.8 36.8 85.1 51.7 111.2 36.6 27-15.6 35.8-62.9 24.4-120.5-.9-4.4-1.9-8.9-3-13.5 3.2-.9 6.3-1.9 9.4-2.9 57.7-19.1 99.5-50 99.5-81.7 0-30.3-39.4-59.7-93.8-78.4zM282.9 92.3c37.2-32.4 71.9-45.1 87.7-36 16.9 9.7 23.4 48.9 12.8 100.4-.7 3.4-1.4 6.7-2.3 10-22.2-5-44.7-8.6-67.3-10.6-13-18.6-27.2-36.4-42.6-53.1 3.9-3.7 7.7-7.2 11.7-10.7zM167.2 307.5c5.1 8.7 10.3 17.4 15.8 25.9-15.6-1.7-31.1-4.2-46.4-7.5 4.4-14.4 9.9-29.3 16.3-44.5 4.6 8.8 9.3 17.5 14.3 26.1zm-30.3-120.3c14.4-3.2 29.7-5.8 45.6-7.8-5.3 8.3-10.5 16.8-15.4 25.4-4.9 8.5-9.7 17.2-14.2 26-6.3-14.9-11.6-29.5-16-43.6zm27.4 68.9c6.6-13.8 13.8-27.3 21.4-40.6s15.8-26.2 24.4-38.9c15-1.1 30.3-1.7 45.9-1.7s31 .6 45.9 1.7c8.5 12.6 16.6 25.5 24.3 38.7s14.9 26.7 21.7 40.4c-6.7 13.8-13.9 27.4-21.6 40.8-7.6 13.3-15.7 26.2-24.2 39-14.9 1.1-30.4 1.6-46.1 1.6s-30.9-.5-45.6-1.4c-8.7-12.7-16.9-25.7-24.6-39s-14.8-26.8-21.5-40.6zm180.6 51.2c5.1-8.8 9.9-17.7 14.6-26.7 6.4 14.5 12 29.2 16.9 44.3-15.5 3.5-31.2 6.2-47 8 5.4-8.4 10.5-17 15.5-25.6zm14.4-76.5c-4.7-8.8-9.5-17.6-14.5-26.2-4.9-8.5-10-16.9-15.3-25.2 16.1 2 31.5 4.7 45.9 8-4.6 14.8-10 29.2-16.1 43.4zM256.2 118.3c10.5 11.4 20.4 23.4 29.6 35.8-19.8-.9-39.7-.9-59.5 0 9.8-12.9 19.9-24.9 29.9-35.8zM140.2 57c16.8-9.8 54.1 4.2 93.4 39 2.5 2.2 5 4.6 7.6 7-15.5 16.7-29.8 34.5-42.9 53.1-22.6 2-45 5.5-67.2 10.4-1.3-5.1-2.4-10.3-3.5-15.5-9.4-48.4-3.2-84.9 12.6-94zm-24.5 263.6c-4.2-1.2-8.3-2.5-12.4-3.9-21.3-6.7-45.5-17.3-63-31.2-10.1-7-16.9-17.8-18.8-29.9 0-18.3 31.6-41.7 77.2-57.6 5.7-2 11.5-3.8 17.3-5.5 6.8 21.7 15 43 24.5 63.6-9.6 20.9-17.9 42.5-24.8 64.5zm116.6 98c-16.5 15.1-35.6 27.1-56.4 35.3-11.1 5.3-23.9 5.8-35.3 1.3-15.9-9.2-22.5-44.5-13.5-92 1.1-5.6 2.3-11.2 3.7-16.7 22.4 4.8 45 8.1 67.9 9.8 13.2 18.7 27.7 36.6 43.2 53.4-3.2 3.1-6.4 6.1-9.6 8.9zm24.5-24.3c-10.2-11-20.4-23.2-30.3-36.3 9.6.4 19.5.6 29.5.6 10.3 0 20.4-.2 30.4-.7-9.2 12.7-19.1 24.8-29.6 36.4zm130.7 30c-.9 12.2-6.9 23.6-16.5 31.3-15.9 9.2-49.8-2.8-86.4-34.2-4.2-3.6-8.4-7.5-12.7-11.5 15.3-16.9 29.4-34.8 42.2-53.6 22.9-1.9 45.7-5.4 68.2-10.5 1 4.1 1.9 8.2 2.7 12.2 4.9 21.6 5.7 44.1 2.5 66.3zm18.2-107.5c-2.8.9-5.6 1.8-8.5 2.6-7-21.8-15.6-43.1-25.5-63.8 9.6-20.4 17.7-41.4 24.5-62.9 5.2 1.5 10.2 3.1 15 4.7 46.6 16 79.3 39.8 79.3 58 0 19.6-34.9 44.9-84.8 61.4zm-149.7-15c25.3 0 45.8-20.5 45.8-45.8s-20.5-45.8-45.8-45.8c-25.3 0-45.8 20.5-45.8 45.8s20.5 45.8 45.8 45.8z"></path></svg>
+                                    <div className="grow-0 shrink-0 max-sm:w-full max-md:h-52 text-sky-600 relative">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" className="size-full" xmlns="http://www.w3.org/2000/svg"><path d="M418.2 177.2c-5.4-1.8-10.8-3.5-16.2-5.1.9-3.7 1.7-7.4 2.5-11.1 12.3-59.6 4.2-107.5-23.1-123.3-26.3-15.1-69.2.6-112.6 38.4-4.3 3.7-8.5 7.6-12.5 11.5-2.7-2.6-5.5-5.2-8.3-7.7-45.5-40.4-91.1-57.4-118.4-41.5-26.2 15.2-34 60.3-23 116.7 1.1 5.6 2.3 11.1 3.7 16.7-6.4 1.8-12.7 3.8-18.6 5.9C38.3 196.2 0 225.4 0 255.6c0 31.2 40.8 62.5 96.3 81.5 4.5 1.5 9 3 13.6 4.3-1.5 6-2.8 11.9-4 18-10.5 55.5-2.3 99.5 23.9 114.6 27 15.6 72.4-.4 116.6-39.1 3.5-3.1 7-6.3 10.5-9.7 4.4 4.3 9 8.4 13.6 12.4 42.8 36.8 85.1 51.7 111.2 36.6 27-15.6 35.8-62.9 24.4-120.5-.9-4.4-1.9-8.9-3-13.5 3.2-.9 6.3-1.9 9.4-2.9 57.7-19.1 99.5-50 99.5-81.7 0-30.3-39.4-59.7-93.8-78.4zM282.9 92.3c37.2-32.4 71.9-45.1 87.7-36 16.9 9.7 23.4 48.9 12.8 100.4-.7 3.4-1.4 6.7-2.3 10-22.2-5-44.7-8.6-67.3-10.6-13-18.6-27.2-36.4-42.6-53.1 3.9-3.7 7.7-7.2 11.7-10.7zM167.2 307.5c5.1 8.7 10.3 17.4 15.8 25.9-15.6-1.7-31.1-4.2-46.4-7.5 4.4-14.4 9.9-29.3 16.3-44.5 4.6 8.8 9.3 17.5 14.3 26.1zm-30.3-120.3c14.4-3.2 29.7-5.8 45.6-7.8-5.3 8.3-10.5 16.8-15.4 25.4-4.9 8.5-9.7 17.2-14.2 26-6.3-14.9-11.6-29.5-16-43.6zm27.4 68.9c6.6-13.8 13.8-27.3 21.4-40.6s15.8-26.2 24.4-38.9c15-1.1 30.3-1.7 45.9-1.7s31 .6 45.9 1.7c8.5 12.6 16.6 25.5 24.3 38.7s14.9 26.7 21.7 40.4c-6.7 13.8-13.9 27.4-21.6 40.8-7.6 13.3-15.7 26.2-24.2 39-14.9 1.1-30.4 1.6-46.1 1.6s-30.9-.5-45.6-1.4c-8.7-12.7-16.9-25.7-24.6-39s-14.8-26.8-21.5-40.6zm180.6 51.2c5.1-8.8 9.9-17.7 14.6-26.7 6.4 14.5 12 29.2 16.9 44.3-15.5 3.5-31.2 6.2-47 8 5.4-8.4 10.5-17 15.5-25.6zm14.4-76.5c-4.7-8.8-9.5-17.6-14.5-26.2-4.9-8.5-10-16.9-15.3-25.2 16.1 2 31.5 4.7 45.9 8-4.6 14.8-10 29.2-16.1 43.4zM256.2 118.3c10.5 11.4 20.4 23.4 29.6 35.8-19.8-.9-39.7-.9-59.5 0 9.8-12.9 19.9-24.9 29.9-35.8zM140.2 57c16.8-9.8 54.1 4.2 93.4 39 2.5 2.2 5 4.6 7.6 7-15.5 16.7-29.8 34.5-42.9 53.1-22.6 2-45 5.5-67.2 10.4-1.3-5.1-2.4-10.3-3.5-15.5-9.4-48.4-3.2-84.9 12.6-94zm-24.5 263.6c-4.2-1.2-8.3-2.5-12.4-3.9-21.3-6.7-45.5-17.3-63-31.2-10.1-7-16.9-17.8-18.8-29.9 0-18.3 31.6-41.7 77.2-57.6 5.7-2 11.5-3.8 17.3-5.5 6.8 21.7 15 43 24.5 63.6-9.6 20.9-17.9 42.5-24.8 64.5zm116.6 98c-16.5 15.1-35.6 27.1-56.4 35.3-11.1 5.3-23.9 5.8-35.3 1.3-15.9-9.2-22.5-44.5-13.5-92 1.1-5.6 2.3-11.2 3.7-16.7 22.4 4.8 45 8.1 67.9 9.8 13.2 18.7 27.7 36.6 43.2 53.4-3.2 3.1-6.4 6.1-9.6 8.9zm24.5-24.3c-10.2-11-20.4-23.2-30.3-36.3 9.6.4 19.5.6 29.5.6 10.3 0 20.4-.2 30.4-.7-9.2 12.7-19.1 24.8-29.6 36.4zm130.7 30c-.9 12.2-6.9 23.6-16.5 31.3-15.9 9.2-49.8-2.8-86.4-34.2-4.2-3.6-8.4-7.5-12.7-11.5 15.3-16.9 29.4-34.8 42.2-53.6 22.9-1.9 45.7-5.4 68.2-10.5 1 4.1 1.9 8.2 2.7 12.2 4.9 21.6 5.7 44.1 2.5 66.3zm18.2-107.5c-2.8.9-5.6 1.8-8.5 2.6-7-21.8-15.6-43.1-25.5-63.8 9.6-20.4 17.7-41.4 24.5-62.9 5.2 1.5 10.2 3.1 15 4.7 46.6 16 79.3 39.8 79.3 58 0 19.6-34.9 44.9-84.8 61.4zm-149.7-15c25.3 0 45.8-20.5 45.8-45.8s-20.5-45.8-45.8-45.8c-25.3 0-45.8 20.5-45.8 45.8s20.5 45.8 45.8 45.8z"></path></svg>
 
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </li>
-                    <li class="size-full lg:sticky max-lg:relative lg:top-40 z-0 before:bg-gradient-to-br before:from-cyan-700 before:via-cyan-700 before:to-cyan-900 before:absolute before:inset-0 before:rounded-xl before:m-auto before:z-0 before:rotate-2">
-                        <div class="bg-gray-50 opacity-100 rounded-3xl rounded-br-none overflow-hidden relative">
-                            <div class="absolute inset-0 [mix-blend-mode:multiply] opacity-100 bg-gray-50"></div>
-                            <div class="blur-[60px] absolute top-[50%] left-[50%] [transform:translate(-50%,_-50%);] -ml-[4rem]">
-                                <div class="[clip-path:polygon(74.1%_44.1%,_100%_61.6%,_97.5%_26.9%,_85.5%_0.1%,_80.7%_2%,_72.5%_32.5%,_60.2%_62.4%,_52.4%_68.1%,_47.5%_58.3%,_45.2%_34.5%,_27.5%_76.7%,_0.1%_64.9%,_17.9%_100%,_27.6%_76.8%,_76.1%_97.7%,_74.1%_44.1%)] opacity-[0.4] bg-gradient-to-tr from-cyan-500/30 to-blue-500/30 w-[68.5625rem] [aspect-ratio:1097/845]"></div>
+                    <li className="size-full lg:sticky max-lg:relative lg:top-40 z-0 before:bg-gradient-to-br before:from-cyan-700 before:via-cyan-700 before:to-cyan-900 before:absolute before:inset-0 before:rounded-xl before:m-auto before:z-0 before:rotate-2">
+                        <div className="bg-gray-50 opacity-100 rounded-3xl rounded-br-none overflow-hidden relative">
+                            <div className="absolute inset-0 [mix-blend-mode:multiply] opacity-100 bg-gray-50"></div>
+                            <div className="blur-[60px] absolute top-[50%] left-[50%] [transform:translate(-50%,_-50%);] -ml-[4rem]">
+                                <div className="[clip-path:polygon(74.1%_44.1%,_100%_61.6%,_97.5%_26.9%,_85.5%_0.1%,_80.7%_2%,_72.5%_32.5%,_60.2%_62.4%,_52.4%_68.1%,_47.5%_58.3%,_45.2%_34.5%,_27.5%_76.7%,_0.1%_64.9%,_17.9%_100%,_27.6%_76.8%,_76.1%_97.7%,_74.1%_44.1%)] opacity-[0.4] bg-gradient-to-tr from-cyan-500/30 to-blue-500/30 w-[68.5625rem] [aspect-ratio:1097/845]"></div>
                             </div>
-                            <div class="flex flex-col p-10 h-full relative z-50">
-                                <div class="w-full flex max-sm:flex-col-reverse relative z-10 items-center max-sm:text-center gap-6 lg:min-h-[385px]">
-                                    <div class="grow max-sm:w-full text-black flex flex-col max-sm:gap-y-4 gap-y-7">
-                                        <p class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black empty:hidden text-balance">
+                            <div className="flex flex-col p-10 h-full relative z-50">
+                                <div className="w-full flex max-sm:flex-col-reverse relative z-10 items-center max-sm:text-center gap-6 lg:min-h-[385px]">
+                                    <div className="grow max-sm:w-full text-black flex flex-col max-sm:gap-y-4 gap-y-7">
+                                        <p className="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black empty:hidden text-balance">
                                             <span>Flutter App </span>
-                                            <span class="font-bold text-cyan-800">Developer</span>
+                                            <span className="font-bold text-cyan-800">Developer</span>
                                         </p>
-                                        <div class="mt-4 text-base md:text-lg leading-7 text-slate-600 empty:hidden text-balance">Google's Flutter is a ground-breaking platform that enables the creation of both iOS and Android apps. Flutter provides a top-notch native interface for creating mobile applications that run on various platforms. According to the needs of your project, you can employ Flutter app developers from IMG Global Infotech on a fixed-fee, full-time, or part-time basis. We have a group of top flutter developers supporting us who are skilled at creating cross-platform applications. We are able to focus on all of your business and technological requirements with our Flutter App Development services. All thanks to our prestigious years of experience in the mobile app development sector.
+                                        <div className="mt-4 text-base md:text-lg leading-7 text-slate-600 empty:hidden text-balance">Google's Flutter is a ground-breaking platform that enables the creation of both iOS and Android apps. Flutter provides a top-notch native interface for creating mobile applications that run on various platforms. According to the needs of your project, you can employ Flutter app developers from Twin Power Software on a fixed-fee, full-time, or part-time basis. We have a group of top flutter developers supporting us who are skilled at creating cross-platform applications. We are able to focus on all of your business and technological requirements with our Flutter App Development services. All thanks to our prestigious years of experience in the mobile app development sector.
                                         </div>
                                         <div>
-                                            <a href="/flutter-app-development" class="inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-cyan-900 bg-cyan-700 xl:hover:ring-cyan-700 duration-300 backdrop-blur-md shadow-sm shadow-cyan-700/50 text-white">Learn More</a>
+                                            <a href="/flutter-app-development" className="inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-cyan-900 bg-cyan-700 xl:hover:ring-cyan-700 duration-300 backdrop-blur-md shadow-sm shadow-cyan-700/50 text-white">Learn More</a>
                                         </div>
                                     </div>
-                                    <div class="grow-0 shrink-0 max-sm:w-full max-md:h-52 text-sky-600 relative">
-                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="size-full" xmlns="http://www.w3.org/2000/svg"><path d="M13.5039 2.00098L3.50391 12.001L6.58724 15.0843L19.6673 2.00098H13.5039ZM13.4985 11.1989L8.12328 16.6199L13.4956 21.9998H19.6842L14.2975 16.5999L19.6856 11.1998L13.4985 11.1989Z"></path></svg>
+                                    <div className="grow-0 shrink-0 max-sm:w-full max-md:h-52 text-sky-600 relative">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" className="size-full" xmlns="http://www.w3.org/2000/svg"><path d="M13.5039 2.00098L3.50391 12.001L6.58724 15.0843L19.6673 2.00098H13.5039ZM13.4985 11.1989L8.12328 16.6199L13.4956 21.9998H19.6842L14.2975 16.5999L19.6856 11.1998L13.4985 11.1989Z"></path></svg>
 
                                     </div>
                                 </div>
