@@ -165,7 +165,7 @@ function mediaandentertainmentappdevelopment() {
 
                     first:*:font-normal
 
-                    last:*:font-bold last:*:text-theme1
+                    last:*:font-bold last:*:text-theme2
                 "
                             >
                                 <span className="font-normal">
@@ -221,9 +221,9 @@ function mediaandentertainmentappdevelopment() {
 
                     first:*:font-normal
 
-                    last:*:font-bold last:*:text-theme4
+                    last:*:font-bold last:*:text-theme2
                 ">
-                    <span>We Provide Media &amp;  </span> <span> Entertainment Clone Solutions</span>
+                    <span>We Provide Media &amp;  </span> <span className="text-theme2" > Entertainment Clone Solutions</span>
                     
                 </p>
                 <p className="mt-4 text-sm md:text-base leading-7 text-slate-600 text-center text-balance"> 
@@ -361,7 +361,7 @@ function mediaandentertainmentappdevelopment() {
 
                 first:*:font-normal
 
-                last:*:font-bold last:*:text-theme1
+                last:*:font-bold last:*:text-theme2
             "><span>Why Should Companies Choose  </span> 
                 <span>Media and Entertainment App Development Today?</span></p>
             
@@ -455,7 +455,7 @@ function mediaandentertainmentappdevelopment() {
         <div className="mx-auto px-4 sm:px-6 md:max-w-3xl md:px-4 lg:px-2 relative pb-5">
             <p className="text-gray-800 max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-center">
                 <span className="font-normal">Our Process for Media and</span> 
-                <span className="font-bold text-theme4">Entertainment App Development</span>
+                <span className="font-bold text-theme2 "> Entertainment App Development</span>
             </p>
             <div className="md:text-base text-sm text-black/70 mt-3 text-center">
             We believe that our employees are our greatest asset, and we cannot achieve our goals without their support. That’s why we prioritize our team in all our endeavors.
@@ -804,7 +804,7 @@ function mediaandentertainmentappdevelopment() {
 
                     first:*:font-normal
 
-                    last:*:font-bold last:*:text-theme4
+                    last:*:font-bold last:*:text-theme2
                 ">
                     <span>Benefits of Media and  </span> <span> Entertainment App Development</span>
                     
