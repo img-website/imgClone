@@ -1220,7 +1220,7 @@ const Header = () => {
                   Work
                 </Link>
                 <Link
-                  href=".com/contact-us.php"
+                  href="/contact-us"
                   className={`text-xs font-semibold leading-6 text-gray-50 hover:text-gray-300 duration-200 uppercase `}
                 >
                   Contact Us
@@ -2844,13 +2844,13 @@ const Header = () => {
                     Work
                   </Link>
                   <Link
-                    href=".com/contact-us.php"
+                    href="/contact-us"
                     className="text-sm font-bold text-gray-50"
                   >
                     Contact Us
                   </Link>
                   <Link
-                    href=".com/contact-us.php"
+                    href="/contact-us"
                     className="text-sm font-bold text-gray-50"
                   >
                     Request a Quote

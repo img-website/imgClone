@@ -63,24 +63,48 @@ function Footer() {
                                 <li>
                                     <a href="/alcohol-delivery-app-development" title="" className="text-base opacity-80 text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Alcohol-Delivery-App </a>
                                 </li>
+                                <li>
+                                    <a href="/fuel-delivery-app-development" title="" className="text-base opacity-80 text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Fuel-Delivery-App </a>
+                                </li>
+                                <li>
+                                    <a href="/taxi-app-development-company" title="" className="text-base opacity-80 text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Taxi-App </a>
+                                </li>
+                                <li>
+                                    <a href="/doctor-on-demand-app-development" title="" className="text-base opacity-80 text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Doctor-On-Demand-App </a>
+                                </li>
                             </ul>
                         </div>
 
                         <div>
-                            <p className="text-base text-white font-bold">Extra Links</p>
+                            <p className="text-base text-white font-bold">All others</p>
 
                             <ul className="mt-8 space-y-4">
                                 <li>
-                                    <a href="javascript:;" title="" className="text-base opacity-80 text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Customer Support </a>
+                                    <a href="/media-and-entertainment-app-development" title="" className="text-base opacity-80 text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Media-and-Entertainment-App-Development </a>
                                 </li>
                                 <li>
-                                    <a href="javascript:;" title="" className="text-base opacity-80 text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Delivery Details </a>
+                                    <a href="/logistics-software-development" title="" className="text-base opacity-80 text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Logistics-Software-Development </a>
                                 </li>
                                 <li>
-                                    <a href="javascript:;" title="" className="text-base opacity-80 text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Terms & Conditions </a>
+                                    <a href="/fantasy-cricket-app-development-company-in-india" title="" className="text-base opacity-80 text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Fantasy-Cricket-App-Development-Company-In-India </a>
                                 </li>
                                 <li>
-                                    <a href="javascript:;" title="" className="text-base opacity-80 text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Privacy Policy </a>
+                                    <a href="/web-development-company-in-delhi" title="" className="text-base opacity-80 text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Web-Development-Company-in-Delhi </a>
+                                </li>
+                                <li>
+                                    <a href="/mobile-app-development-company-in-uk" title="" className="text-base opacity-80 text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Mobile-App-Development-Company-in-UK </a>
+                                </li>
+                                <li>
+                                    <a href="/mobile-app-development-company-in-canada" title="" className="text-base opacity-80 text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Mobile-App-Development-Company-in-Canada</a>
+                                </li>
+                                <li>
+                                    <a href="/digital-marketing-services" title="" className="text-base opacity-80 text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Digital-Marketing-Services</a>
+                                </li>
+                                <li>
+                                    <a href="/shopify-ecommerce-development" title="" className="text-base opacity-80 text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Shopify-Ecommerce-Development</a>
+                                </li>
+                                <li>
+                                    <a href="/casino-game-app-development-company-in-india" title="" className="text-base opacity-80 text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Casino-Game-App-Development-Company-in-India</a>
                                 </li>
                             </ul>
                         </div>
