@@ -13,12 +13,12 @@ function taxiAppDevelopmentCompany() {
     const accordionItems = [
         {
             title: 'Which Is The Best Taxi Booking App Development Company?',
-            content: "Twin Power Software distinguishes itself as a premier taxi booking app development company, featuring a team of proficient and dedicated mobile app developers. We excel in creating a variety of mobile apps and websites spanning diverse domains. Feel free to initiate a conversation with our experts to tailor solutions to meet your unique business needs." 
+            content: "Twin Power Software distinguishes itself as a premier taxi booking app development company, featuring a team of proficient and dedicated mobile app developers. We excel in creating a variety of mobile apps and websites spanning diverse domains. Feel free to initiate a conversation with our experts to tailor solutions to meet your unique business needs."
         },
         {
             title:
                 'What Are The Benefits Of On-Demand Taxi Booking App Development?',
-            content: "On-demand taxi app development offers convenience, efficiency, and real-time services. Benefits include improved user experience, reduced waiting times, and increased business opportunities for taxi service providers." 
+            content: "On-demand taxi app development offers convenience, efficiency, and real-time services. Benefits include improved user experience, reduced waiting times, and increased business opportunities for taxi service providers."
         },
         {
             title: 'How Much Does It Cost To Develop A Taxi Booking App?',
@@ -202,7 +202,7 @@ function taxiAppDevelopmentCompany() {
             <Cta />
 
             {/* flow-chart second */}
-            <div className="relative md:py-16 py-12  select-none overflow-hidden">
+            <div className="relative md:py-16 py-12 overflow-hidden">
                 <div className="mx-auto max-w-7xl px-5 z-10">
                     <div className="relative container mx-auto max-w-7xl md:px-6 lg:px-8 z-10">
                         <p className="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black text-center">
@@ -212,8 +212,11 @@ function taxiAppDevelopmentCompany() {
                     </div>
 
                     <div className="flex flex-row flex-wrap w-full mt-5 relative z-40 items-center gap-2">
+                        <div className="md:w-[30%] w-full lg:p-4 md:p-3 p-2">
+                            <Image width={1000} height={1000} quality={90} loading='lazy' className="w-full " src="/img/taxi.webp" alt="image3" />
+                        </div>
                         <div className="md:w-[33%] w-full lg:p-4 md:p-3 p-2">
-                            <div className=" my-5 bg-sky-50 h-auto relative overflow-hidden rounded-xl rounded-br-none  hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl  hover:before:rounded-br-none hover:after:rounded-br-none p-5 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:border-l-4 after:border-t-4 after:border-[#051626c2] after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:border-r-4 before:border-b-4 before:border-[#051626c2] before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
+                            <div className=" my-5 bg-sky-50 h-auto relative overflow-hidden rounded-xl hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl p-5 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
                                 <span className="absolute w-[100px] h-[100px] bg-[#05162659] top-[-27%] opacity-0 group-hover:opacity-100 duration-700 left-[-17%]  rotate-45"></span>
                                 <span className="absolute w-[100px] h-[100px] bg-[#05162659] bottom-[-27%] opacity-0 group-hover:opacity-100 duration-700 -z-0 right-[-17%]  rotate-45"></span>
                                 <div className="flex items-center justify-between pb-3">
@@ -223,11 +226,11 @@ function taxiAppDevelopmentCompany() {
                                         User Registration
                                     </div>
                                 </div>
-                                <div className="text-base">
+                                <div className="text-base text-ellipsis line-clamp-3">
                                     Users download the app, create an account, and provide necessary details, including payment information.
                                 </div>
                             </div>
-                            <div className=" my-5 bg-sky-50 h-auto relative overflow-hidden rounded-xl rounded-br-none  hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl  hover:before:rounded-br-none hover:after:rounded-br-none p-5 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:border-l-4 after:border-t-4 after:border-[#051626c2] after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:border-r-4 before:border-b-4 before:border-[#051626c2] before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
+                            <div className=" my-5 bg-sky-50 h-auto relative overflow-hidden rounded-xl hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl p-5 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
                                 <span className="absolute w-[100px] h-[100px] bg-[#05162659] top-[-27%] opacity-0 group-hover:opacity-100 duration-700 left-[-17%]  rotate-45"></span>
                                 <span className="absolute w-[100px] h-[100px] bg-[#05162659] bottom-[-27%] opacity-0 group-hover:opacity-100 duration-700 -z-0 right-[-17%]  rotate-45"></span>
                                 <div className="flex items-center justify-between pb-3">
@@ -237,11 +240,11 @@ function taxiAppDevelopmentCompany() {
                                         Location Sharing
                                     </div>
                                 </div>
-                                <div className="text-base">
+                                <div className="text-base text-ellipsis line-clamp-3">
                                     Users input their current location or enable GPS for the app to determine their position, facilitating efficient cab allocation.
                                 </div>
                             </div>
-                            <div className=" my-5 bg-sky-50 h-auto relative overflow-hidden rounded-xl rounded-br-none  hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl  hover:before:rounded-br-none hover:after:rounded-br-none p-5 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:border-l-4 after:border-t-4 after:border-[#051626c2] after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:border-r-4 before:border-b-4 before:border-[#051626c2] before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
+                            <div className=" my-5 bg-sky-50 h-auto relative overflow-hidden rounded-xl hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl p-5 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
                                 <span className="absolute w-[100px] h-[100px] bg-[#05162659] top-[-27%] opacity-0 group-hover:opacity-100 duration-700 left-[-17%]  rotate-45"></span>
                                 <span className="absolute w-[100px] h-[100px] bg-[#05162659] bottom-[-27%] opacity-0 group-hover:opacity-100 duration-700 -z-0 right-[-17%]  rotate-45"></span>
                                 <div className="flex items-center justify-between pb-3">
@@ -251,16 +254,14 @@ function taxiAppDevelopmentCompany() {
                                         Cab Selection
                                     </div>
                                 </div>
-                                <div className="text-base">
+                                <div className="text-base text-ellipsis line-clamp-3">
                                     Users choose the type of cab they need based on factors like size, comfort, and price, presented through the app's interface.
                                 </div>
                             </div>
                         </div>
-                        <div className="md:w-[30%] w-full lg:p-4 md:p-3 p-2">
-                            <Image width={1000} height={1000} quality={90} loading='lazy' className="w-full " src="/img/taxi.webp" alt="image3" />
-                        </div>
+
                         <div className="md:w-[33%] w-full lg:p-4 md:p-3 p-2">
-                            <div className=" my-5 bg-sky-50 h-auto relative overflow-hidden rounded-xl rounded-br-none  hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl  hover:before:rounded-br-none hover:after:rounded-br-none p-5 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:border-l-4 after:border-t-4 after:border-[#051626c2] after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:border-r-4 before:border-b-4 before:border-[#051626c2] before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
+                            <div className=" my-5 bg-sky-50 h-auto relative overflow-hidden rounded-xl hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl p-5 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
                                 <span className="absolute w-[100px] h-[100px] bg-[#05162659] top-[-27%] opacity-0 group-hover:opacity-100 duration-700 left-[-17%]  rotate-45"></span>
                                 <span className="absolute w-[100px] h-[100px] bg-[#05162659] bottom-[-27%] opacity-0 group-hover:opacity-100 duration-700 -z-0 right-[-17%]  rotate-45"></span>
                                 <div className="flex items-center justify-between pb-3">
@@ -270,11 +271,11 @@ function taxiAppDevelopmentCompany() {
                                         Ride Confirmation
                                     </div>
                                 </div>
-                                <div className="text-base">
+                                <div className="text-base text-ellipsis line-clamp-3">
                                     After selecting a cab, users confirm the ride, and the app assigns the nearest available driver based on real-time location data.
                                 </div>
                             </div>
-                            <div className=" my-5 bg-sky-50 h-auto relative overflow-hidden rounded-xl rounded-br-none  hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl  hover:before:rounded-br-none hover:after:rounded-br-none p-5 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:border-l-4 after:border-t-4 after:border-[#051626c2] after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:border-r-4 before:border-b-4 before:border-[#051626c2] before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
+                            <div className=" my-5 bg-sky-50 h-auto relative overflow-hidden rounded-xl hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl p-5 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
                                 <span className="absolute w-[100px] h-[100px] bg-[#05162659] top-[-27%] opacity-0 group-hover:opacity-100 duration-700 left-[-17%]  rotate-45"></span>
                                 <span className="absolute w-[100px] h-[100px] bg-[#05162659] bottom-[-27%] opacity-0 group-hover:opacity-100 duration-700 -z-0 right-[-17%]  rotate-45"></span>
                                 <div className="flex items-center justify-between pb-3">
@@ -284,11 +285,11 @@ function taxiAppDevelopmentCompany() {
                                         Real-Time Tracking
                                     </div>
                                 </div>
-                                <div className="text-base">
+                                <div className="text-base text-ellipsis line-clamp-3">
                                     Users can track the cab's movement on a map in real time, estimating its arrival time and ensuring transparency throughout.
                                 </div>
                             </div>
-                            <div className=" my-5 bg-sky-50 h-auto relative overflow-hidden rounded-xl rounded-br-none  hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl  hover:before:rounded-br-none hover:after:rounded-br-none p-5 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:border-l-4 after:border-t-4 after:border-[#051626c2] after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:border-r-4 before:border-b-4 before:border-[#051626c2] before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
+                            <div className=" my-5 bg-sky-50 h-auto relative overflow-hidden rounded-xl hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl p-5 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
                                 <span className="absolute w-[100px] h-[100px] bg-[#05162659] top-[-27%] opacity-0 group-hover:opacity-100 duration-700 left-[-17%]  rotate-45"></span>
                                 <span className="absolute w-[100px] h-[100px] bg-[#05162659] bottom-[-27%] opacity-0 group-hover:opacity-100 duration-700 -z-0 right-[-17%]  rotate-45"></span>
                                 <div className="flex items-center justify-between pb-3">
@@ -298,7 +299,7 @@ function taxiAppDevelopmentCompany() {
                                         Payment and Feedback
                                     </div>
                                 </div>
-                                <div className="text-base">
+                                <div className="text-base text-ellipsis line-clamp-3">
                                     Upon reaching the destination, the app charges the user's linked payment method, and users can provide feedback based on their overall experience.
                                 </div>
                             </div>
@@ -320,7 +321,7 @@ function taxiAppDevelopmentCompany() {
                 <div className="mx-auto max-w-7xl px-5 z-10">
                     <div className="flex flex-row flex-wrap w-full mt-5 relative z-40 items-strentch">
                         <div className="lg:w-1/3 overflow-hidden w-full h-auto relative -z-10 sm:w-1/2 p-3">
-                            <div className="bg-white w-full p-4 h-auto rounded-br-none h-full relative before:absolute before:-z-40 before:h-[80px] before:w-[80px] before:duration-700 before:bg-purple-500 before:top-[-3px] before:left-[-3px] before:hover:w-[100%] before:hover:h-[100%] after:w-[80px] after:h-[80px] after:absolute after:bottom-[-3px] after:right-[-3px] before:rounded-2xl after:rounded-2xl after:rounded-br-none rounded-2xl after:bg-green-500 after:-z-20 after:duration-700 after:hover:w-full after:hover:h-full ">
+                            <div className="bg-white w-full p-4  h-full relative before:absolute before:-z-40 before:h-[80px] before:w-[80px] before:duration-700 before:bg-theme1 before:top-[-3px] before:left-[-3px] before:hover:w-[100%] before:hover:h-[100%] after:w-[80px] after:h-[80px] after:absolute after:bottom-[-3px] after:right-[-3px] before:rounded-2xl after:rounded-2xl after: rounded-2xl after:bg-theme2 after:-z-20 after:duration-700 after:hover:w-full after:hover:h-full ">
                                 <div className="flex justify-between items-center">
                                     <div className="h-[50px] w-[50px] rounded-full roundedrt-3xl bg-blue-100 flex justify-center items-center">
                                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" className="w-[30px] h-[50px] text-gray-800" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M7 5h10v2h2V3c0-1.1-.9-1.99-2-1.99L7 1c-1.1 0-2 .9-2 2v4h2V5zm8.41 11.59L20 12l-4.59-4.59L14 8.83 17.17 12 14 15.17l1.41 1.42zM10 15.17L6.83 12 10 8.83 8.59 7.41 4 12l4.59 4.59L10 15.17zM17 19H7v-2H5v4c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2v-4h-2v2z"></path></svg>
@@ -335,7 +336,7 @@ function taxiAppDevelopmentCompany() {
                             </div>
                         </div>
                         <div className="lg:w-1/3 overflow-hidden w-full h-auto relative -z-10 sm:w-1/2 p-3">
-                            <div className="bg-white w-full p-4 h-auto rounded-br-none h-full relative before:absolute before:-z-40 before:h-[80px] before:w-[80px] before:duration-700 before:bg-purple-500 before:top-[-3px] before:left-[-3px] before:hover:w-[100%] before:hover:h-[100%] after:w-[80px] after:h-[80px] after:absolute after:bottom-[-3px] after:right-[-3px] before:rounded-2xl after:rounded-2xl after:rounded-br-none rounded-2xl after:bg-green-500 after:-z-20 after:duration-700 after:hover:w-full after:hover:h-full ">
+                            <div className="bg-white w-full p-4  h-full relative before:absolute before:-z-40 before:h-[80px] before:w-[80px] before:duration-700 before:bg-theme1 before:top-[-3px] before:left-[-3px] before:hover:w-[100%] before:hover:h-[100%] after:w-[80px] after:h-[80px] after:absolute after:bottom-[-3px] after:right-[-3px] before:rounded-2xl after:rounded-2xl after: rounded-2xl after:bg-theme2 after:-z-20 after:duration-700 after:hover:w-full after:hover:h-full ">
                                 <div className="flex justify-between items-center">
                                     <div className="h-[50px] w-[50px] rounded-full roundedrt-3xl bg-blue-100 flex justify-center items-center">
                                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" className="w-[30px] h-[50px] text-gray-800" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M7 5h10v2h2V3c0-1.1-.9-1.99-2-1.99L7 1c-1.1 0-2 .9-2 2v4h2V5zm8.41 11.59L20 12l-4.59-4.59L14 8.83 17.17 12 14 15.17l1.41 1.42zM10 15.17L6.83 12 10 8.83 8.59 7.41 4 12l4.59 4.59L10 15.17zM17 19H7v-2H5v4c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2v-4h-2v2z"></path></svg>
@@ -350,7 +351,7 @@ function taxiAppDevelopmentCompany() {
                             </div>
                         </div>
                         <div className="lg:w-1/3 overflow-hidden w-full h-auto relative -z-10 sm:w-1/2 p-3">
-                            <div className="bg-white w-full p-4 h-auto rounded-br-none h-full relative before:absolute before:-z-40 before:h-[80px] before:w-[80px] before:duration-700 before:bg-purple-500 before:top-[-3px] before:left-[-3px] before:hover:w-[100%] before:hover:h-[100%] after:w-[80px] after:h-[80px] after:absolute after:bottom-[-3px] after:right-[-3px] before:rounded-2xl after:rounded-2xl after:rounded-br-none rounded-2xl after:bg-green-500 after:-z-20 after:duration-700 after:hover:w-full after:hover:h-full ">
+                            <div className="bg-white w-full p-4  h-full relative before:absolute before:-z-40 before:h-[80px] before:w-[80px] before:duration-700 before:bg-theme1 before:top-[-3px] before:left-[-3px] before:hover:w-[100%] before:hover:h-[100%] after:w-[80px] after:h-[80px] after:absolute after:bottom-[-3px] after:right-[-3px] before:rounded-2xl after:rounded-2xl after: rounded-2xl after:bg-theme2 after:-z-20 after:duration-700 after:hover:w-full after:hover:h-full ">
                                 <div className="flex justify-between items-center">
                                     <div className="h-[50px] w-[50px] rounded-full roundedrt-3xl bg-blue-100 flex justify-center items-center">
                                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" className="w-[30px] h-[50px] text-gray-800" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M7 5h10v2h2V3c0-1.1-.9-1.99-2-1.99L7 1c-1.1 0-2 .9-2 2v4h2V5zm8.41 11.59L20 12l-4.59-4.59L14 8.83 17.17 12 14 15.17l1.41 1.42zM10 15.17L6.83 12 10 8.83 8.59 7.41 4 12l4.59 4.59L10 15.17zM17 19H7v-2H5v4c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2v-4h-2v2z"></path></svg>
