@@ -42,7 +42,7 @@ function Services() {
                                     onClick={() => {
                                         setServices("Mobile App Development");
                                     }}
-                                    href="/"
+                                    href="javascript:;"
                                     className={`text-nowrap text-sm font-semibold md:text-xl max-md:bg-white  md:bg-transprent max-md:text-[#0E508A] md:text-white mx-2 mb-2 md:mb-6 p-4 rounded-xl inline-block ${services === "Mobile App Development"
                                         ? "bg-white !text-[#0E508A]"
                                         : ""
@@ -54,7 +54,7 @@ function Services() {
                                     onClick={() => {
                                         setServices("eCommerce Solution");
                                     }}
-                                    href="/"
+                                    href="javascript:;"
                                     className={`text-nowrap text-sm font-semibold md:text-xl max-md:bg-white  md:bg-transprent max-md:text-[#0E508A] md:text-white mx-2 mb-2 md:mb-6 p-4 rounded-xl inline-block ${services === "eCommerce Solution"
                                         ? "bg-white !text-[#0E508A]"
                                         : ""
@@ -66,7 +66,7 @@ function Services() {
                                     onClick={() => {
                                         setServices("Web Development");
                                     }}
-                                    href="/"
+                                    href="javascript:;"
                                     className={`text-nowrap text-sm font-semibold md:text-xl max-md:bg-white  md:bg-transprent max-md:text-[#0E508A] md:text-white mx-2 mb-2 md:mb-6 p-4 rounded-xl inline-block ${services === "Web Development"
                                         ? "bg-white !text-[#0E508A]"
                                         : ""
@@ -78,7 +78,7 @@ function Services() {
                                     onClick={() => {
                                         setServices("Treanding Solution");
                                     }}
-                                    href="/"
+                                    href="javascript:;"
                                     className={`text-nowrap text-sm font-semibold md:text-xl max-md:bg-white  md:bg-transprent max-md:text-[#0E508A] md:text-white mx-2 mb-2 md:mb-6 p-4 rounded-xl inline-block ${services === "Treanding Solution"
                                         ? "bg-white !text-[#0E508A]"
                                         : ""
@@ -90,7 +90,7 @@ function Services() {
                                     onClick={() => {
                                         setServices("Software Development");
                                     }}
-                                    href="/"
+                                    href="javascript:;"
                                     className={`text-nowrap text-sm font-semibold md:text-xl max-md:bg-white  md:bg-transprent max-md:text-[#0E508A] md:text-white mx-2 mb-2 md:mb-6 p-4 rounded-xl inline-block ${services === "Software Development"
                                         ? "bg-white !text-[#0E508A]"
                                         : ""
@@ -102,7 +102,7 @@ function Services() {
                                     onClick={() => {
                                         setServices("Blockchain Development");
                                     }}
-                                    href="/"
+                                    href="javascript:;"
                                     className={`text-nowrap text-sm font-semibold md:text-xl max-md:bg-white  md:bg-transprent max-md:text-[#0E508A] md:text-white mx-2 mb-2 md:mb-6 p-4 rounded-xl inline-block ${services === "Blockchain Development"
                                         ? "bg-white !text-[#0E508A]"
                                         : ""
@@ -131,32 +131,32 @@ function Services() {
                                         </div>
                                         <div className="py-10   *:flex *:flex-wrap *:gap-3 *:md:font-semibold *:text-[12px] *:md:text-sm *:*:inline-block *:*:backdrop-blur-lg *:*:shadow-sm *:*:p-2 *:*:md:p-3 ">
                                             <div>
-                                                <Link href="https://www.imgglobalinfotech.com/food-delivery-app-development.php">
+                                                <Link href="javascript:;">
                                                     Food Delivery App Development
                                                 </Link>
-                                                <Link href="https://www.imgglobalinfotech.com/grocery-app-development.php">
+                                                <Link href="javascript:;">
                                                     Grocery Delivery
                                                 </Link>
-                                                <Link href="https://www.imgglobalinfotech.com/fantasy-sports-app-development.php">
+                                                <Link href="javascript:;">
                                                     Fantasy sports App
                                                 </Link>
-                                                <Link href="/">Video Streaming App</Link>
-                                                <Link href="/">Social Media App</Link>
-                                                <Link href="/">Event Management App</Link>
-                                                <Link href="https://www.imgglobalinfotech.com/elearning-app-development.php">
+                                                <Link href="javascript:;">Video Streaming App</Link>
+                                                <Link href="javascript:;">Social Media App</Link>
+                                                <Link href="javascript:;">Event Management App</Link>
+                                                <Link href="javascript:;">
                                                     Elearning App
                                                 </Link>
-                                                <Link href="/">Travel App</Link>
-                                                <Link href="https://www.imgglobalinfotech.com/pharmacy-app-development.php">
+                                                <Link href="javascript:;">Travel App</Link>
+                                                <Link href="javascript:;">
                                                     Medicine App
                                                 </Link>
-                                                <Link href="https://www.imgglobalinfotech.com/fashion-ecommerce-development.php">
+                                                <Link href="javascript:;">
                                                     Fashion Development
                                                 </Link>
-                                                <Link href="https://www.imgglobalinfotech.com/doctor-on-demand-app-development.php">
+                                                <Link href="javascript:;">
                                                     Doctor on Demand App
                                                 </Link>
-                                                <Link href="/">Healthacare App</Link>
+                                                <Link href="javascript:;">Healthacare App</Link>
                                             </div>
                                             <div className="sm:text-lg text-base font-bold 0 mt-10">
                                                 Core Tech:
@@ -278,23 +278,23 @@ function Services() {
                                         </div>
                                         <div className="py-10   *:flex *:flex-wrap *:gap-3 *:md:font-semibold *:text-[12px] *:md:text-sm *:*:inline-block *:*:backdrop-blur-lg *:*:shadow-sm *:*:p-2 *:*:md:p-3 ">
                                             <div>
-                                                <Link href="https://www.imgglobalinfotech.com/food-delivery-app-development.php">
+                                                <Link href="/food-delivery-app-development">
                                                     Food Delivery App Development
                                                 </Link>
-                                                <Link href="https://www.imgglobalinfotech.com/grocery-app-development.php">
+                                                <Link href="javascript:;">
                                                     Grocery Delivery
                                                 </Link>
-                                                <Link href="https://www.imgglobalinfotech.com/fantasy-sports-app-development.php">
+                                                <Link href="/fantasy-sports-app-development">
                                                     Fantasy sports App
                                                 </Link>
-                                                <Link href="/">Video Streaming App</Link>
-                                                <Link href="/">Social Media App</Link>
-                                                <Link href="/">Event Management App</Link>
-                                                <Link href="https://www.imgglobalinfotech.com/elearning-app-development.php">
+                                                <Link href="javascript:;">Video Streaming App</Link>
+                                                <Link href="javascript:;">Social Media App</Link>
+                                                <Link href="javascript:;">Event Management App</Link>
+                                                <Link href="javascript:;">
                                                     Elearning App
                                                 </Link>
-                                                <Link href="/">Travel App</Link>
-                                                <Link href="https://www.imgglobalinfotech.com/pharmacy-app-development.php">
+                                                <Link href="javascript:;">Travel App</Link>
+                                                <Link href="/pharmacy-app-development">
                                                     Medicine App
                                                 </Link>
                                             </div>
@@ -382,16 +382,16 @@ function Services() {
                                         </div>
                                         <div className="py-10   *:flex *:flex-wrap *:gap-3 *:md:font-semibold *:text-[12px] *:md:text-sm *:*:inline-block *:*:backdrop-blur-lg *:*:shadow-sm *:*:p-2 *:*:md:p-3 ">
                                             <div>
-                                                <Link href="/">Social Media App</Link>
-                                                <Link href="/">Event Management App</Link>
-                                                <Link href="https://www.imgglobalinfotech.com/elearning-app-development.php">
+                                                <Link href="javascript:;">Social Media App</Link>
+                                                <Link href="javascript:;">Event Management App</Link>
+                                                <Link href="/elearning-app-development">
                                                     Elearning App
                                                 </Link>
-                                                <Link href="/">Travel App</Link>
-                                                <Link href="https://www.imgglobalinfotech.com/pharmacy-app-development.php">
+                                                <Link href="javascript:;">Travel App</Link>
+                                                <Link href="/pharmacy-app-development">
                                                     Medicine App
                                                 </Link>
-                                                <Link href="https://www.imgglobalinfotech.com/fashion-ecommerce-development.php">
+                                                <Link href="/fasFhion-ecommerce-development">
                                                     Fashion Development
                                                 </Link>
                                             </div>
@@ -470,26 +470,26 @@ function Services() {
                                         </div>
                                         <div className="py-10   *:flex *:flex-wrap *:gap-3 *:md:font-semibold *:text-[12px] *:md:text-sm *:*:inline-block *:*:backdrop-blur-lg *:*:shadow-sm *:*:p-2 *:*:md:p-3 ">
                                             <div>
-                                                <Link href="https://www.imgglobalinfotech.com/food-delivery-app-development.php">
+                                                <Link href="/food-delivery-app-development">
                                                     Food Delivery App Development
                                                 </Link>
-                                                <Link href="https://www.imgglobalinfotech.com/grocery-app-development.php">
+                                                <Link href="/grocery-app-development">
                                                     Grocery Delivery
                                                 </Link>
-                                                <Link href="https://www.imgglobalinfotech.com/fantasy-sports-app-development.php">
+                                                <Link href="/fantasy-sports-app-development">
                                                     Fantasy sports App
                                                 </Link>
-                                                <Link href="/">Video Streaming App</Link>
-                                                <Link href="https://www.imgglobalinfotech.com/pharmacy-app-development.php">
+                                                <Link href="javascript:;">Video Streaming App</Link>
+                                                <Link href="/pharmacy-app-development">
                                                     Medicine App
                                                 </Link>
-                                                <Link href="https://www.imgglobalinfotech.com/fashion-ecommerce-development.php">
+                                                <Link href="/fashion-ecommerce-development">
                                                     Fashion Development
                                                 </Link>
-                                                <Link href="https://www.imgglobalinfotech.com/doctor-on-demand-app-development.php">
+                                                <Link href="/doctor-on-demand-app-development">
                                                     Doctor on Demand App
                                                 </Link>
-                                                <Link href="/">Healthacare App</Link>
+                                                <Link href="javascript:;">Healthacare App</Link>
                                             </div>
                                             <div className="sm:text-lg text-base font-bold 0 mt-10">
                                                 Core Tech:
@@ -559,24 +559,24 @@ function Services() {
                                         </div>
                                         <div className="py-10   *:flex *:flex-wrap *:gap-3 *:md:font-semibold *:text-[12px] *:md:text-sm *:*:inline-block *:*:backdrop-blur-lg *:*:shadow-sm *:*:p-2 *:*:md:p-3 ">
                                             <div>
-                                                <Link href="https://www.imgglobalinfotech.com/fashion-ecommerce-development.php">
+                                                <Link href="/fashion-ecommerce-development">
                                                     Fashion Development
                                                 </Link>
-                                                <Link href="https://www.imgglobalinfotech.com/doctor-on-demand-app-development.php">
+                                                <Link href="/doctor-on-demand-app-development">
                                                     Doctor on Demand App
                                                 </Link>
-                                                <Link href="/">Healthacare App</Link>
-                                                <Link href="https://www.imgglobalinfotech.com/food-delivery-app-development.php">
+                                                <Link href="javascript:;">Healthacare App</Link>
+                                                <Link href="/food-delivery-app-development">
                                                     Food Delivery App Development
                                                 </Link>
-                                                <Link href="https://www.imgglobalinfotech.com/grocery-app-development.php">
+                                                <Link href="/grocery-app-development">
                                                     Grocery Delivery
                                                 </Link>
-                                                <Link href="https://www.imgglobalinfotech.com/fantasy-sports-app-development.php">
+                                                <Link href="/fantasy-sports-app-development">
                                                     Fantasy sports App
                                                 </Link>
-                                                <Link href="/">Video Streaming App</Link>
-                                                <Link href="/">Social Media App</Link>
+                                                <Link href="javascript:;">Video Streaming App</Link>
+                                                <Link href="javascript:;">Social Media App</Link>
                                             </div>
                                             <div className="sm:text-lg text-base font-bold 0 mt-10">
                                                 Core Tech:
@@ -653,32 +653,32 @@ function Services() {
                                         </div>
                                         <div className="py-10   *:flex *:flex-wrap *:gap-3 *:md:font-semibold *:text-[12px] *:md:text-sm *:*:inline-block *:*:backdrop-blur-lg *:*:shadow-sm *:*:p-2 *:*:md:p-3 ">
                                             <div>
-                                                <Link href="https://www.imgglobalinfotech.com/food-delivery-app-development.php">
+                                                <Link href="/food-delivery-app-development">
                                                     Food Delivery App Development
                                                 </Link>
-                                                <Link href="https://www.imgglobalinfotech.com/grocery-app-development.php">
+                                                <Link href="/grocery-app-development">
                                                     Grocery Delivery
                                                 </Link>
-                                                <Link href="https://www.imgglobalinfotech.com/fantasy-sports-app-development.php">
+                                                <Link href="/fantasy-sports-app-development">
                                                     Fantasy sports App
                                                 </Link>
-                                                <Link href="/">Video Streaming App</Link>
-                                                <Link href="/">Social Media App</Link>
-                                                <Link href="/">Event Management App</Link>
-                                                <Link href="https://www.imgglobalinfotech.com/elearning-app-development.php">
+                                                <Link href="javascript:;">Video Streaming App</Link>
+                                                <Link href="javascript:;">Social Media App</Link>
+                                                <Link href="javascript:;">Event Management App</Link>
+                                                <Link href="/elearning-app-development">
                                                     Elearning App
                                                 </Link>
-                                                <Link href="/">Travel App</Link>
-                                                <Link href="https://www.imgglobalinfotech.com/pharmacy-app-development.php">
+                                                <Link href="javascript:;">Travel App</Link>
+                                                <Link href="/pharmacy-app-development">
                                                     Medicine App
                                                 </Link>
-                                                <Link href="https://www.imgglobalinfotech.com/fashion-ecommerce-development.php">
+                                                <Link href="/fashion-ecommerce-development">
                                                     Fashion Development
                                                 </Link>
-                                                <Link href="https://www.imgglobalinfotech.com/doctor-on-demand-app-development.php">
+                                                <Link href="/doctor-on-demand-app-development">
                                                     Doctor on Demand App
                                                 </Link>
-                                                <Link href="/">Healthacare App</Link>
+                                                <Link href="javascript:;">Healthacare App</Link>
                                             </div>
                                             <div className="sm:text-lg text-base font-bold 0 mt-10">
                                                 Core Tech:

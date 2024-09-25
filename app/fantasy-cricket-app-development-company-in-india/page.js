@@ -154,7 +154,7 @@ function fantasycricketAppDevelopment() {
                         <div className="md:w-2/5 w-full relative z-10 h-auto">
                             <div className="relative flex-shrink-0 p-4 w-full">
                                 <div className="mx-auto">
-                                    <Image className="lg:h-full lg:w-full mx-auto" width="336" height="487" src="https://www.imgglobalinfotech.com/public/tailwind/img/fantasy-cricket-development-company.webp?id=46d25add466d4f54ee897e804a706bab" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/fantasy-cricket-development-company.webp?id=46d25add466d4f54ee897e804a706bab" alt="Robust And Secure Fantasy Cricket App Development Company" />
+                                    <Image className="lg:h-full lg:w-full mx-auto" width="336" height="487" src="/img/fantasy-cricket-development-company.webp" alt="Robust And Secure Fantasy Cricket App Development Company" />
                                 </div>
                             </div>
                         </div>
