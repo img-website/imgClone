@@ -159,36 +159,36 @@ function ecommerceDevelopment() {
             <span> Your E-Commerce Success </span></p>
         </div>
         <div className="mx-auto max-w-7xl px-6 lg:px-8 text-gray-800 grid md:grid-cols-4 sm:grid-cols-2 overflow-x-auto items-stretch gap-4 pb-8 -mb-8 pt-5">
-          <div className="grow p-4 rounded-xl *:w-full *:text-center shadow-xl shadow-black/20 relative border-2 hover:border-purple-950 before:absolute before:inset-x-0 before:-bottom-2 before:bg-gradient-to-b before:from-gray-300 before:to-gray-200 before:border-b-2 before:border-x-2 hover:before:border-gray-950 before:rounded-b-md before:h-2 before:w-1/2  before:mx-auto md:hover:grayscale duration-200">
-            <div className="bg-gradient-to-b from-gray-300 to-gray-200 rounded-lg aspect-[3/1] p-2 flex items-center justify-center">
-              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" className="size-10 text-gray-800" xmlns="http://www.w3.org/2000/svg"><path d="M445.7 127.9V384l-63.4 36.5V164.7L223.8 73.1 65.2 164.7l.4 255.9L2.3 384V128.1L224.2 0l221.5 127.9zM255.6 420.5L224 438.9l-31.8-18.2v-256l-63.3 36.6.1 255.9 94.9 54.9 95.1-54.9v-256l-63.4-36.6v255.9z"></path></svg>
+          <div className="grow p-4 rounded-xl *:w-full *:text-center shadow-xl shadow-black/20 relative border-2 hover:border-purple-950 before:absolute before:inset-x-0 before:-bottom-2 before:bg-gradient-to-b before:from-theme1 before:to-theme1/90 before:border-b-2 before:border-x-2 hover:before:border-gray-950 before:rounded-b-md before:h-2 before:w-1/2  before:mx-auto md:hover:grayscale duration-200">
+            <div className="bg-theme1 mx-auto rounded-lg aspect-[1/1] p-2 !w-max flex items-center justify-center">
+              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" className="size-10 text-white" xmlns="http://www.w3.org/2000/svg"><path d="M445.7 127.9V384l-63.4 36.5V164.7L223.8 73.1 65.2 164.7l.4 255.9L2.3 384V128.1L224.2 0l221.5 127.9zM255.6 420.5L224 438.9l-31.8-18.2v-256l-63.3 36.6.1 255.9 94.9 54.9 95.1-54.9v-256l-63.4-36.6v255.9z"></path></svg>
             </div>
             <div className="flex flex-col gap-3 py-5">
               <div className="md:text-xl text-lg font-bold text-gray-800">Magento</div>
               <div className="md:text-sm text-xs text-gray-600">Magento leverages open-source technology to power its eCommerce platform.</div>
             </div>
           </div>
-          <div className="grow p-4 rounded-xl *:w-full *:text-center shadow-xl shadow-black/20 relative border-2 hover:border-purple-950 before:absolute before:inset-x-0 before:-bottom-2 before:bg-gradient-to-b before:from-gray-300 before:to-gray-200 before:border-b-2 before:border-x-2 hover:before:border-gray-950 before:rounded-b-md before:h-2 before:w-1/2  before:mx-auto md:hover:grayscale duration-200">
-            <div className="bg-gradient-to-b from-gray-300 to-gray-200 rounded-lg aspect-[3/1] p-2 flex items-center justify-center">
-              <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" className="size-10 text-gray-800" xmlns="http://www.w3.org/2000/svg"><path d="M2.227 4.857A2.228 2.228 0 000 7.094v7.457c0 1.236 1.001 2.237 2.237 2.237h9.253l4.229 2.355-.962-2.355h7.006c1.236 0 2.237-1 2.237-2.237V7.094c0-1.236-1-2.237-2.237-2.237zm8.08 1.311c.194.002.372.071.535.2a.769.769 0 01.304.56.851.851 0 01-.098.47c-.382.707-.696 1.894-.951 3.542-.246 1.6-.334 2.846-.275 3.739.02.245-.02.46-.118.647a.632.632 0 01-.52.353c-.255.02-.52-.098-.775-.362-.913-.933-1.639-2.326-2.169-4.18a184.085 184.085 0 00-1.413 2.825c-.578 1.11-1.069 1.678-1.481 1.708-.265.02-.49-.206-.687-.677-.5-1.286-1.04-3.768-1.619-7.448-.03-.255.02-.48.157-.657.137-.186.344-.284.618-.304.5-.04.785.196.854.706.304 2.051.638 3.788.991 5.21L5.809 8.41c.196-.373.441-.57.736-.589.431-.03.696.245.804.824.246 1.305.56 2.414.932 3.356.255-2.492.687-4.288 1.295-5.397.148-.274.363-.412.648-.431a.866.866 0 01.084-.004zm3.734 1.063c.167 0 .343.02.53.06.687.146 1.216.52 1.57 1.137.314.53.47 1.168.47 1.933 0 1.011-.254 1.933-.765 2.777-.588.981-1.354 1.472-2.305 1.472-.167 0-.344-.02-.53-.059-.697-.147-1.217-.52-1.57-1.138-.314-.54-.471-1.187-.471-1.943 0-1.01.255-1.933.765-2.767.599-.981 1.364-1.472 2.306-1.472zm6.152 0c.167 0 .343.02.53.06.696.146 1.216.52 1.57 1.137.314.53.47 1.168.47 1.933 0 1.011-.254 1.933-.765 2.777-.588.981-1.354 1.472-2.305 1.472-.167 0-.344-.02-.53-.059-.697-.147-1.217-.52-1.57-1.138-.314-.54-.471-1.187-.471-1.943 0-1.01.255-1.933.765-2.767.599-.981 1.364-1.472 2.306-1.472zm-6.107 1.645c-.307-.002-.606.201-.889.622a3.173 3.173 0 00-.52 1.168c-.05.225-.069.47-.069.716 0 .284.06.589.177.893.147.382.343.589.579.638.245.049.51-.06.795-.315.363-.323.608-.804.745-1.452.05-.225.069-.47.069-.726a2.49 2.49 0 00-.176-.893c-.148-.382-.344-.588-.58-.637a.714.714 0 00-.131-.014zm6.152 0c-.307-.002-.606.201-.889.622a3.173 3.173 0 00-.52 1.168c-.049.225-.069.47-.069.716 0 .284.06.589.177.893.147.382.344.589.579.638.245.049.51-.06.795-.315.363-.323.608-.804.745-1.452.04-.225.07-.47.07-.726a2.49 2.49 0 00-.177-.893c-.148-.382-.344-.588-.58-.637a.714.714 0 00-.131-.014Z"></path></svg>
+          <div className="grow p-4 rounded-xl *:w-full *:text-center shadow-xl shadow-black/20 relative border-2 hover:border-purple-950 before:absolute before:inset-x-0 before:-bottom-2 before:bg-gradient-to-b before:from-theme1 before:to-theme1/90 before:border-b-2 before:border-x-2 hover:before:border-gray-950 before:rounded-b-md before:h-2 before:w-1/2  before:mx-auto md:hover:grayscale duration-200">
+            <div className="bg-theme1 mx-auto rounded-lg aspect-[1/1] p-2 !w-max flex items-center justify-center">
+              <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" className="size-10 text-white" xmlns="http://www.w3.org/2000/svg"><path d="M2.227 4.857A2.228 2.228 0 000 7.094v7.457c0 1.236 1.001 2.237 2.237 2.237h9.253l4.229 2.355-.962-2.355h7.006c1.236 0 2.237-1 2.237-2.237V7.094c0-1.236-1-2.237-2.237-2.237zm8.08 1.311c.194.002.372.071.535.2a.769.769 0 01.304.56.851.851 0 01-.098.47c-.382.707-.696 1.894-.951 3.542-.246 1.6-.334 2.846-.275 3.739.02.245-.02.46-.118.647a.632.632 0 01-.52.353c-.255.02-.52-.098-.775-.362-.913-.933-1.639-2.326-2.169-4.18a184.085 184.085 0 00-1.413 2.825c-.578 1.11-1.069 1.678-1.481 1.708-.265.02-.49-.206-.687-.677-.5-1.286-1.04-3.768-1.619-7.448-.03-.255.02-.48.157-.657.137-.186.344-.284.618-.304.5-.04.785.196.854.706.304 2.051.638 3.788.991 5.21L5.809 8.41c.196-.373.441-.57.736-.589.431-.03.696.245.804.824.246 1.305.56 2.414.932 3.356.255-2.492.687-4.288 1.295-5.397.148-.274.363-.412.648-.431a.866.866 0 01.084-.004zm3.734 1.063c.167 0 .343.02.53.06.687.146 1.216.52 1.57 1.137.314.53.47 1.168.47 1.933 0 1.011-.254 1.933-.765 2.777-.588.981-1.354 1.472-2.305 1.472-.167 0-.344-.02-.53-.059-.697-.147-1.217-.52-1.57-1.138-.314-.54-.471-1.187-.471-1.943 0-1.01.255-1.933.765-2.767.599-.981 1.364-1.472 2.306-1.472zm6.152 0c.167 0 .343.02.53.06.696.146 1.216.52 1.57 1.137.314.53.47 1.168.47 1.933 0 1.011-.254 1.933-.765 2.777-.588.981-1.354 1.472-2.305 1.472-.167 0-.344-.02-.53-.059-.697-.147-1.217-.52-1.57-1.138-.314-.54-.471-1.187-.471-1.943 0-1.01.255-1.933.765-2.767.599-.981 1.364-1.472 2.306-1.472zm-6.107 1.645c-.307-.002-.606.201-.889.622a3.173 3.173 0 00-.52 1.168c-.05.225-.069.47-.069.716 0 .284.06.589.177.893.147.382.343.589.579.638.245.049.51-.06.795-.315.363-.323.608-.804.745-1.452.05-.225.069-.47.069-.726a2.49 2.49 0 00-.176-.893c-.148-.382-.344-.588-.58-.637a.714.714 0 00-.131-.014zm6.152 0c-.307-.002-.606.201-.889.622a3.173 3.173 0 00-.52 1.168c-.049.225-.069.47-.069.716 0 .284.06.589.177.893.147.382.344.589.579.638.245.049.51-.06.795-.315.363-.323.608-.804.745-1.452.04-.225.07-.47.07-.726a2.49 2.49 0 00-.177-.893c-.148-.382-.344-.588-.58-.637a.714.714 0 00-.131-.014Z"></path></svg>
             </div>
             <div className="flex flex-col gap-3 py-5">
               <div className="md:text-xl text-lg font-bold text-gray-800">Woo Commerce</div>
               <div className="md:text-sm text-xs text-gray-600">Transform your standard App into a dynamic eCommerce site using WooCommerce.</div>
             </div>
           </div>
-          <div className="grow p-4 rounded-xl *:w-full *:text-center shadow-xl shadow-black/20 relative border-2 hover:border-purple-950 before:absolute before:inset-x-0 before:-bottom-2 before:bg-gradient-to-b before:from-gray-300 before:to-gray-200 before:border-b-2 before:border-x-2 hover:before:border-gray-950 before:rounded-b-md before:h-2 before:w-1/2  before:mx-auto md:hover:grayscale duration-200">
-            <div className="bg-gradient-to-b from-gray-300 to-gray-200 rounded-lg aspect-[3/1] p-2 flex items-center justify-center">
-              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" className="size-10 text-gray-800" xmlns="http://www.w3.org/2000/svg"><path d="M388.32,104.1a4.66,4.66,0,0,0-4.4-4c-2,0-37.23-.8-37.23-.8s-21.61-20.82-29.62-28.83V503.2L442.76,472S388.72,106.5,388.32,104.1ZM288.65,70.47a116.67,116.67,0,0,0-7.21-17.61C271,32.85,255.42,22,237,22a15,15,0,0,0-4,.4c-.4-.8-1.2-1.2-1.6-2C223.4,11.63,213,7.63,200.58,8c-24,.8-48,18-67.25,48.83-13.61,21.62-24,48.84-26.82,70.06-27.62,8.4-46.83,14.41-47.23,14.81-14,4.4-14.41,4.8-16,18-1.2,10-38,291.82-38,291.82L307.86,504V65.67a41.66,41.66,0,0,0-4.4.4S297.86,67.67,288.65,70.47ZM233.41,87.69c-16,4.8-33.63,10.4-50.84,15.61,4.8-18.82,14.41-37.63,25.62-50,4.4-4.4,10.41-9.61,17.21-12.81C232.21,54.86,233.81,74.48,233.41,87.69ZM200.58,24.44A27.49,27.49,0,0,1,215,28c-6.4,3.2-12.81,8.41-18.81,14.41-15.21,16.42-26.82,42-31.62,66.45-14.42,4.41-28.83,8.81-42,12.81C131.33,83.28,163.75,25.24,200.58,24.44ZM154.15,244.61c1.6,25.61,69.25,31.22,73.25,91.66,2.8,47.64-25.22,80.06-65.65,82.47-48.83,3.2-75.65-25.62-75.65-25.62l10.4-44s26.82,20.42,48.44,18.82c14-.8,19.22-12.41,18.81-20.42-2-33.62-57.24-31.62-60.84-86.86-3.2-46.44,27.22-93.27,94.47-97.68,26-1.6,39.23,4.81,39.23,4.81L221.4,225.39s-17.21-8-37.63-6.4C154.15,221,153.75,239.8,154.15,244.61ZM249.42,82.88c0-12-1.6-29.22-7.21-43.63,18.42,3.6,27.22,24,31.23,36.43Q262.63,78.68,249.42,82.88Z"></path></svg>
+          <div className="grow p-4 rounded-xl *:w-full *:text-center shadow-xl shadow-black/20 relative border-2 hover:border-purple-950 before:absolute before:inset-x-0 before:-bottom-2 before:bg-gradient-to-b before:from-theme1 before:to-theme1/90 before:border-b-2 before:border-x-2 hover:before:border-gray-950 before:rounded-b-md before:h-2 before:w-1/2  before:mx-auto md:hover:grayscale duration-200">
+            <div className="bg-theme1 mx-auto rounded-lg aspect-[1/1] p-2 !w-max flex items-center justify-center">
+              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" className="size-10 text-white" xmlns="http://www.w3.org/2000/svg"><path d="M388.32,104.1a4.66,4.66,0,0,0-4.4-4c-2,0-37.23-.8-37.23-.8s-21.61-20.82-29.62-28.83V503.2L442.76,472S388.72,106.5,388.32,104.1ZM288.65,70.47a116.67,116.67,0,0,0-7.21-17.61C271,32.85,255.42,22,237,22a15,15,0,0,0-4,.4c-.4-.8-1.2-1.2-1.6-2C223.4,11.63,213,7.63,200.58,8c-24,.8-48,18-67.25,48.83-13.61,21.62-24,48.84-26.82,70.06-27.62,8.4-46.83,14.41-47.23,14.81-14,4.4-14.41,4.8-16,18-1.2,10-38,291.82-38,291.82L307.86,504V65.67a41.66,41.66,0,0,0-4.4.4S297.86,67.67,288.65,70.47ZM233.41,87.69c-16,4.8-33.63,10.4-50.84,15.61,4.8-18.82,14.41-37.63,25.62-50,4.4-4.4,10.41-9.61,17.21-12.81C232.21,54.86,233.81,74.48,233.41,87.69ZM200.58,24.44A27.49,27.49,0,0,1,215,28c-6.4,3.2-12.81,8.41-18.81,14.41-15.21,16.42-26.82,42-31.62,66.45-14.42,4.41-28.83,8.81-42,12.81C131.33,83.28,163.75,25.24,200.58,24.44ZM154.15,244.61c1.6,25.61,69.25,31.22,73.25,91.66,2.8,47.64-25.22,80.06-65.65,82.47-48.83,3.2-75.65-25.62-75.65-25.62l10.4-44s26.82,20.42,48.44,18.82c14-.8,19.22-12.41,18.81-20.42-2-33.62-57.24-31.62-60.84-86.86-3.2-46.44,27.22-93.27,94.47-97.68,26-1.6,39.23,4.81,39.23,4.81L221.4,225.39s-17.21-8-37.63-6.4C154.15,221,153.75,239.8,154.15,244.61ZM249.42,82.88c0-12-1.6-29.22-7.21-43.63,18.42,3.6,27.22,24,31.23,36.43Q262.63,78.68,249.42,82.88Z"></path></svg>
             </div>
             <div className="flex flex-col gap-3 py-5">
               <div className="md:text-xl text-lg font-bold text-gray-800">Shopify</div>
               <div className="md:text-sm text-xs text-gray-600">For larger businesses, Shopify stands out as one of the premier eCommerce platforms.</div>
             </div>
           </div>
-          <div className="grow p-4 rounded-xl *:w-full *:text-center shadow-xl shadow-black/20 relative border-2 hover:border-purple-950 before:absolute before:inset-x-0 before:-bottom-2 before:bg-gradient-to-b before:from-gray-300 before:to-gray-200 before:border-b-2 before:border-x-2 hover:before:border-gray-950 before:rounded-b-md before:h-2 before:w-1/2  before:mx-auto md:hover:grayscale duration-200">
-            <div className="bg-gradient-to-b from-gray-300 to-gray-200 rounded-lg aspect-[3/1] p-2 flex items-center justify-center">
-              <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" className="size-10 text-gray-800" xmlns="http://www.w3.org/2000/svg"><path d="M12.645 13.663h3.027c.861 0 1.406-.474 1.406-1.235 0-.717-.545-1.234-1.406-1.234h-3.027c-.1 0-.187.086-.187.172v2.125c.015.1.086.172.187.172zm0 4.896h3.128c.961 0 1.535-.488 1.535-1.35 0-.746-.545-1.35-1.535-1.35h-3.128c-.1 0-.187.087-.187.173v2.34c.015.115.086.187.187.187zM23.72.053l-8.953 8.93h1.464c2.281 0 3.63 1.435 3.63 3 0 1.235-.832 2.14-1.722 2.541-.143.058-.143.259.014.316 1.033.402 1.765 1.48 1.765 2.742 0 1.78-1.19 3.202-3.5 3.202h-6.342c-.1 0-.187-.086-.187-.172V13.85L.062 23.64c-.13.13-.043.359.143.359h23.631a.16.16 0 0 0 .158-.158V.182c.043-.158-.158-.244-.273-.13z"></path></svg>
+          <div className="grow p-4 rounded-xl *:w-full *:text-center shadow-xl shadow-black/20 relative border-2 hover:border-purple-950 before:absolute before:inset-x-0 before:-bottom-2 before:bg-gradient-to-b before:from-theme1 before:to-theme1/90 before:border-b-2 before:border-x-2 hover:before:border-gray-950 before:rounded-b-md before:h-2 before:w-1/2  before:mx-auto md:hover:grayscale duration-200">
+            <div className="bg-theme1 mx-auto rounded-lg aspect-[1/1] p-2 !w-max flex items-center justify-center">
+              <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" className="size-10 text-white" xmlns="http://www.w3.org/2000/svg"><path d="M12.645 13.663h3.027c.861 0 1.406-.474 1.406-1.235 0-.717-.545-1.234-1.406-1.234h-3.027c-.1 0-.187.086-.187.172v2.125c.015.1.086.172.187.172zm0 4.896h3.128c.961 0 1.535-.488 1.535-1.35 0-.746-.545-1.35-1.535-1.35h-3.128c-.1 0-.187.087-.187.173v2.34c.015.115.086.187.187.187zM23.72.053l-8.953 8.93h1.464c2.281 0 3.63 1.435 3.63 3 0 1.235-.832 2.14-1.722 2.541-.143.058-.143.259.014.316 1.033.402 1.765 1.48 1.765 2.742 0 1.78-1.19 3.202-3.5 3.202h-6.342c-.1 0-.187-.086-.187-.172V13.85L.062 23.64c-.13.13-.043.359.143.359h23.631a.16.16 0 0 0 .158-.158V.182c.043-.158-.158-.244-.273-.13z"></path></svg>
             </div>
             <div className="flex flex-col gap-3 py-5">
               <div className="md:text-xl text-lg font-bold text-gray-800">Big Commerce</div>
@@ -315,71 +315,7 @@ function ecommerceDevelopment() {
       </div>
       {/* range section Ends */}
 
-      {/* benifit section start */}
-      <div className="relative isolate bg-gray-100 py-6 md:py-8 lg:py-16 max-sm:overflow-hidden">
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <div className="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl pointer-events-none" aria-hidden="true">
-            <div className="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-indigo-200 to-pink-200 opacity-20"></div>
-          </div>
-          <div className="absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu pointer-events-none" aria-hidden="true">
-            <div className="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-indigo-200 to-pink-200 opacity-20"></div>
-          </div>
-        </div>
-        <div className="mx-auto max-w-7xl px-6 lg:px-8 w-full">
-          <div className="mx-auto max-w-container gap-3 px-4 sm:px-6 md:flex lg:px-8 md:flex-col text-center">
-            <p className="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-gray-800 text-balance">
-              <span className="font-normal">How Our Ecommerce Development </span>
-              <span className="font-bold text-theme2">Services Enhance Your Business? </span>
-            </p>
-            <div className="md:text-base text-sm text-gray-800 mt-3 mb-2 text-balance">
-              At Twin Power Software, we dedicate ourselves fully to helping businesses grow from the ground up.
-            </div>
-          </div>
-          <div className="w-full grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 md:gap-5 gap-2">
-            <div className="grow group/ipct transition-all duration-300 md:hover:bg-white/20 max-md:bg-white/20 md:hover:backdrop-blur-3xl max-md:backdrop-blur-3xl md:hover:shadow-2xl max-md:shadow-2xl md:hover:shadow-black/5 max-md:shadow-black/5 pt-2 pb-8 rounded-xl">
-              <div className="w-full xl:px-10 lg:px-4 py-4 relative mx-auto max-lg:size-80 max-sm:size-60">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="-4 -4 40 40" className="size-full -rotate-90 md:group-hover/ipct:scale-110 max-md:scale-110 transition-all duration-300 group-hover/ipct:delay-500">
-                  <circle cx="16" cy="16" r="15.9155" className="fill-none stroke-indigo-900/20 stroke-2 md:group-hover/ipct:stroke-[5] max-md:stroke-[5] transition-all duration-300 group-hover/ipct:delay-500"></circle>
-                  <circle cx="16" cy="16" r="15.9155" className="fill-none stroke-indigo-900 [stroke-dasharray:100_100] [stroke-linecap:round] stroke-2 md:group-hover/ipct:stroke-[3] max-md:stroke-[3] [stroke-dashoffset:37px] transition-all duration-300 group-hover/ipct:delay-500"></circle>
-                </svg>
-                <span className="text-4xl font-bold text-gray-600 absolute inset-0 flex items-center justify-center">70%</span>
-              </div>
-              <div className="w-full text-center font-bold md:text-base text-sm text-gray-900">Increase In Yearly Sales</div>
-            </div>
-            <div className="grow group/ipct transition-all duration-300 md:hover:bg-white/20 max-md:bg-white/20 md:hover:backdrop-blur-3xl max-md:backdrop-blur-3xl md:hover:shadow-2xl max-md:shadow-2xl md:hover:shadow-black/5 max-md:shadow-black/5 pt-2 pb-8 rounded-xl">
-              <div className="w-full xl:px-10 lg:px-4 py-4 relative mx-auto max-lg:size-80 max-sm:size-60">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="-4 -4 40 40" className="size-full -rotate-90 md:group-hover/ipct:scale-110 max-md:scale-110 transition-all duration-300 group-hover/ipct:delay-500">
-                  <circle cx="16" cy="16" r="15.9155" className="fill-none stroke-blue-900/20 stroke-2 md:group-hover/ipct:stroke-[5] max-md:stroke-[5] transition-all duration-300 group-hover/ipct:delay-500"></circle>
-                  <circle cx="16" cy="16" r="15.9155" className="fill-none stroke-blue-900 [stroke-dasharray:100_100] [stroke-linecap:round] stroke-2 md:group-hover/ipct:stroke-[3] max-md:stroke-[3] [stroke-dashoffset:20px] transition-all duration-300 group-hover/ipct:delay-500"></circle>
-                </svg>
-                <span className="text-4xl font-bold text-gray-600 absolute inset-0 flex items-center justify-center">80%</span>
-              </div>
-              <div className="w-full text-center font-bold md:text-base text-sm text-gray-900">Increase in Customer Base</div>
-            </div>
-            <div className="grow group/ipct transition-all duration-300 md:hover:bg-white/20 max-md:bg-white/20 md:hover:backdrop-blur-3xl max-md:backdrop-blur-3xl md:hover:shadow-2xl max-md:shadow-2xl md:hover:shadow-black/5 max-md:shadow-black/5 pt-2 pb-8 rounded-xl">
-              <div className="w-full xl:px-10 lg:px-4 py-4 relative mx-auto max-lg:size-80 max-sm:size-60">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="-4 -4 40 40" className="size-full -rotate-90 md:group-hover/ipct:scale-110 max-md:scale-110 transition-all duration-300 group-hover/ipct:delay-500">
-                  <circle cx="16" cy="16" r="15.9155" className="fill-none stroke-cyan-900/20 stroke-2 md:group-hover/ipct:stroke-[5] max-md:stroke-[5] transition-all duration-300 group-hover/ipct:delay-500"></circle>
-                  <circle cx="16" cy="16" r="15.9155" className="fill-none stroke-cyan-900 [stroke-dasharray:100_100] [stroke-linecap:round] stroke-2 md:group-hover/ipct:stroke-[3] max-md:stroke-[3] [stroke-dashoffset:16px] transition-all duration-300 group-hover/ipct:delay-500"></circle>
-                </svg>
-                <span className="text-4xl font-bold text-gray-600 absolute inset-0 flex items-center justify-center">90%</span>
-              </div>
-              <div className="w-full text-center font-bold md:text-base text-sm text-gray-900">User Session Improved</div>
-            </div>
-            <div className="grow group/ipct transition-all duration-300 md:hover:bg-white/20 max-md:bg-white/20 md:hover:backdrop-blur-3xl max-md:backdrop-blur-3xl md:hover:shadow-2xl max-md:shadow-2xl md:hover:shadow-black/5 max-md:shadow-black/5 pt-2 pb-8 rounded-xl">
-              <div className="w-full xl:px-10 lg:px-4 py-4 relative mx-auto max-lg:size-80 max-sm:size-60">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="-4 -4 40 40" className="size-full -rotate-90 md:group-hover/ipct:scale-110 max-md:scale-110 transition-all duration-300 group-hover/ipct:delay-500">
-                  <circle cx="16" cy="16" r="15.9155" className="fill-none stroke-fuchsia-900/20 stroke-2 md:group-hover/ipct:stroke-[5] max-md:stroke-[5] transition-all duration-300 group-hover/ipct:delay-500"></circle>
-                  <circle cx="16" cy="16" r="15.9155" className="fill-none stroke-fuchsia-900 [stroke-dasharray:100_100] [stroke-linecap:round] stroke-2 md:group-hover/ipct:stroke-[3] max-md:stroke-[3] [stroke-dashoffset:9px] transition-all duration-300 group-hover/ipct:delay-500"></circle>
-                </svg>
-                <span className="text-4xl font-bold text-gray-600 absolute inset-0 flex items-center justify-center">95%</span>
-              </div>
-              <div className="w-full text-center font-bold md:text-base text-sm text-gray-900">Increase In Customer Retention</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* benifit section Ends */}
+     
 
       {/* soluction section start */}
       <div className="relative isolate bg-white py-6 md:py-8 lg:py-16 max-sm:overflow-hidden">
@@ -394,7 +330,7 @@ function ecommerceDevelopment() {
             </div>
           </div>
           <div className="w-full grid grid-cols-1 md:gap-5 gap-2 relative z-[1] mix-blend-darken">
-            <Image className="size-full aspect-[1280/720] object-contain" width="1280" height="720" src="/img/ecommerce-image3.gif" sizes="100vw" alt="How Ecommerce App Development Solutions Work?" />
+            <Image className="size-full aspect-[1280/720] object-contain" width="1280" height="720" src="/img/demo.png" sizes="100vw" alt="How Ecommerce App Development Solutions Work?" />
           </div>
         </div>
       </div>
@@ -423,8 +359,8 @@ function ecommerceDevelopment() {
             </div>
           </div>
           <div className="w-full grid grid-cols-1 md:gap-5 gap-2 relative z-[1] mix-blend-darken">
-            <Image className="size-full aspect-[1281/476] hidden md:block object-contain" width="1281" height="476" src="/img/ecommerce-image.webp" sizes="100vw" alt="Exclusive Ecommerce Development Solutions to Streamline Business Process" />
-            <Image className="size-full aspect-[544/1011] max-md:block hidden object-contain" width="544" height="1011" src="/img/ecommerce-image2.webp" sizes="100vw" alt="Exclusive Ecommerce Development Solutions to Streamline Business Process" />
+            <Image className="size-full aspect-[1281/476] hidden md:block object-contain" width="1281" height="476" src="/img/ecommerce-development-01.jpg" sizes="100vw" alt="Exclusive Ecommerce Development Solutions to Streamline Business Process" />
+            <Image className="size-full  max-md:block hidden object-contain" width="544" height="1011" src="/img/ecommerce-development-01.jpg" sizes="100vw" alt="Exclusive Ecommerce Development Solutions to Streamline Business Process" />
           </div>
         </div>
       </div>
