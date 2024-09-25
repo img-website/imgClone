@@ -175,7 +175,7 @@ function flutterappdevelopment() {
                             <p className="md:text-base text-sm text-black/70 mt-3 text-balance text-center">Next-Gen Android App Development Beside Professional Excellence</p>
                         </div>
 
-                        <div class="grid lg:grid-cols-3 gap-y-8 sm:grid-cols-2 gap-3 mx-auto px-4 sm:px-6 lg:px-8 py-20 relative">
+                        <div class="grid lg:grid-cols-3 gap-y-8 sm:grid-cols-2 gap-3 mx-auto px-4  relative">
                             <div class="h-full md:group md:hover:shadow-2xl md:hover:shadow-sky-300 duration-300 bg-white p-4 pb-0 m-2 rounded-lg shadow-2xl relative before:absolute before:h-12 before:w-4 before:bg-sky-600 before:-left-4 before:top-5 after:absolute after:size-8 after:-z-10 after:rotate-45 after:top-[52px] after:-left-2 after:bg-sky-600">
                                 <div class="flex flex-col justify-center items-center mt-12">
                                     <div class="flex flex-1 flex-col justify-center items-center rounded-xl p-4">
