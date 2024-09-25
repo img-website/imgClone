@@ -186,148 +186,178 @@ function fantasysportsappdevelopment() {
             </div>
 
             <div className="w-full grid md:grid-cols-3 gap-8">
-              <div className="border-2 p-5 group rounded-3xl border-black relative before:absolute before:size-24 before:border-t-[10px] before:border-l-[10px] before:rounded-tl-3xl before:border-sky-500 before:-inset-[5px] md:hover:shadow-xl md:hover:shadow-sky-700/40 duration-300">
-                <div className="bg-white duration-300 p-2 shadow-xl shadow-black/20 md:group-hover:shadow-black/0 rounded-3xl h-full">
-                  <div className="flex p-3 flex-col gap-3">
-                    <div className="lg:text-6xl md:text-4xl text-3xl font-bold text-sky-500 *:size-full">
-                      01
-                    </div>
-                    <div className="md:text-lg sm:text-base text-sm leading-6 font-bold">
-                      Tailored Android App Solutions for Enterprises
-                    </div>
-                    <div className="mt-2 sm:text-base text-sm leading-6">
-                      Looking to build an app similar to Dream11? As a premier fantasy sports app development company, we’re here to assist you.
-                    </div>
-                  </div>
-                </div>
-                <div className="absolute flex justify-center items-end -left-[5px] top-20 w-[10px] h-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:-translate-x-1/2 before:translate-y-1/2 before:bottom-0 before:left-[calc(50%-1px)]"></div>
-                <div className="absolute flex item-center-center justify-end left-20 -top-[5px] h-[10px] w-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:translate-x-1/2 before:-translate-y-1/2 before:top-[calc(50%-1px)] before:right-0"></div>
-              </div>
-              <div className="border-2 p-5 group rounded-3xl border-black relative before:absolute before:size-24 before:border-t-[10px] before:border-l-[10px] before:rounded-tl-3xl before:border-blue-500 before:-inset-[5px] md:hover:shadow-xl md:hover:shadow-blue-700/40 duration-300">
-                <div className="bg-white duration-300 p-2 shadow-xl shadow-black/20 md:group-hover:shadow-black/0 rounded-3xl h-full">
-                  <div className="flex p-3 flex-col gap-3">
-                    <div className="lg:text-6xl md:text-4xl text-3xl font-bold text-blue-500 *:size-full">
-                      02
-                    </div>
-                    <div className="md:text-lg sm:text-base text-sm leading-6 font-bold">
-                      Development of Fantasy Sports Websites
-                    </div>
-                    <div className="mt-2 sm:text-base text-sm leading-6">Reach billions of users with a dedicated fantasy sports website. Our Fantasy Sports Website Development services are available—get in touch with us today</div>
-                  </div>
-                </div>
-                <div className="absolute flex justify-center items-end -left-[5px] top-20 w-[10px] h-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:-translate-x-1/2 before:translate-y-1/2 before:bottom-0 before:left-[calc(50%-1px)]"></div>
-                <div className="absolute flex item-center-center justify-end left-20 -top-[5px] h-[10px] w-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:translate-x-1/2 before:-translate-y-1/2 before:top-[calc(50%-1px)] before:right-0"></div>
-              </div>
-              <div className="border-2 p-5 group rounded-3xl border-black relative before:absolute before:size-24 before:border-t-[10px] before:border-l-[10px] before:rounded-tl-3xl before:border-indigo-500 before:-inset-[5px] md:hover:shadow-xl md:hover:shadow-indigo-700/40 duration-300">
-                <div className="bg-white duration-300 p-2 shadow-xl shadow-black/20 md:group-hover:shadow-black/0 rounded-3xl h-full">
-                  <div className="flex p-3 flex-col gap-3">
-                    <div className="lg:text-6xl md:text-4xl text-3xl font-bold text-indigo-500 *:size-full">
-                      03
-                    </div>
-                    <div className="md:text-lg sm:text-base text-sm leading-6 font-bold">
-                      Ready-made Fantasy Sports App Solutions
-                    </div>
-                    <div className="mt-2 sm:text-base text-sm leading-6">If you need a quick-to-launch fantasy sports app, our White Label Fantasy Sports Software is the perfect solution. Our team will tailor it to fit your specific requirements.</div>
-                  </div>
-                </div>
-                <div className="absolute flex justify-center items-end -left-[5px] top-20 w-[10px] h-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:-translate-x-1/2 before:translate-y-1/2 before:bottom-0 before:left-[calc(50%-1px)]"></div>
-                <div className="absolute flex item-center-center justify-end left-20 -top-[5px] h-[10px] w-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:translate-x-1/2 before:-translate-y-1/2 before:top-[calc(50%-1px)] before:right-0"></div>
-              </div>
-              <div className="border-2 p-5 group rounded-3xl border-black relative before:absolute before:size-24 before:border-t-[10px] before:border-l-[10px] before:rounded-tl-3xl before:border-violet-500 before:-inset-[5px] md:hover:shadow-xl md:hover:shadow-violet-700/40 duration-300">
-                <div className="bg-white duration-300 p-2 shadow-xl shadow-black/20 md:group-hover:shadow-black/0 rounded-3xl h-full">
-                  <div className="flex p-3 flex-col gap-3">
-                    <div className="lg:text-6xl md:text-4xl text-3xl font-bold text-violet-500 *:size-full">
-                      04
-                    </div>
-                    <div className="md:text-lg sm:text-base text-sm leading-6 font-bold">
-                      Fantasy Sports Software Development
-                    </div>
-                    <div className="mt-2 sm:text-base text-sm leading-6">Twin Power Software provides comprehensive fantasy sports software development services, empowering businesses to build industry-leading solutions</div>
-                  </div>
-                </div>
-                <div className="absolute flex justify-center items-end -left-[5px] top-20 w-[10px] h-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:-translate-x-1/2 before:translate-y-1/2 before:bottom-0 before:left-[calc(50%-1px)]"></div>
-                <div className="absolute flex item-center-center justify-end left-20 -top-[5px] h-[10px] w-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:translate-x-1/2 before:-translate-y-1/2 before:top-[calc(50%-1px)] before:right-0"></div>
-              </div>
-              <div className="border-2 p-5 group rounded-3xl border-black relative before:absolute before:size-24 before:border-t-[10px] before:border-l-[10px] before:rounded-tl-3xl before:border-purple-500 before:-inset-[5px] md:hover:shadow-xl md:hover:shadow-purple-700/40 duration-300">
-                <div className="bg-white duration-300 p-2 shadow-xl shadow-black/20 md:group-hover:shadow-black/0 rounded-3xl h-full">
-                  <div className="flex p-3 flex-col gap-3">
-                    <div className="lg:text-6xl md:text-4xl text-3xl font-bold text-purple-500 *:size-full">
-                      05
-                    </div>
-                    <div className="md:text-lg sm:text-base text-sm leading-6 font-bold">
-                      Fantasy Sports Web App Development
-                    </div>
-                    <div className="mt-2 sm:text-base text-sm leading-6">Experience the ultimate combination of performance and profitability with our high-speed fantasy sports web apps. Our expert team is ready to assist you in maximizing your revenue potential.</div>
-                  </div>
-                </div>
-                <div className="absolute flex justify-center items-end -left-[5px] top-20 w-[10px] h-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:-translate-x-1/2 before:translate-y-1/2 before:bottom-0 before:left-[calc(50%-1px)]"></div>
-                <div className="absolute flex item-center-center justify-end left-20 -top-[5px] h-[10px] w-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:translate-x-1/2 before:-translate-y-1/2 before:top-[calc(50%-1px)] before:right-0"></div>
-              </div>
-              <div className="border-2 p-5 group rounded-3xl border-black relative before:absolute before:size-24 before:border-t-[10px] before:border-l-[10px] before:rounded-tl-3xl before:border-fuchsia-500 before:-inset-[5px] md:hover:shadow-xl md:hover:shadow-fuchsia-700/40 duration-300">
-                <div className="bg-white duration-300 p-2 shadow-xl shadow-black/20 md:group-hover:shadow-black/0 rounded-3xl h-full">
-                  <div className="flex p-3 flex-col gap-3">
-                    <div className="lg:text-6xl md:text-4xl text-3xl font-bold text-fuchsia-500 *:size-full">
-                      06
-                    </div>
-                    <div className="md:text-lg sm:text-base text-sm leading-6 font-bold">
-                      Fantasy Scoring System Development
-
-                    </div>
-                    <div className="mt-2 sm:text-base text-sm leading-6">Develop an accurate fantasy scoring system and seamlessly integrate it into your existing platform with the support of our skilled and experienced software developers.
-
-                    </div>
-                  </div>
-                </div>
-                <div className="absolute flex justify-center items-end -left-[5px] top-20 w-[10px] h-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:-translate-x-1/2 before:translate-y-1/2 before:bottom-0 before:left-[calc(50%-1px)]"></div>
-                <div className="absolute flex item-center-center justify-end left-20 -top-[5px] h-[10px] w-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:translate-x-1/2 before:-translate-y-1/2 before:top-[calc(50%-1px)] before:right-0"></div>
-              </div>
-              <div className="border-2 p-5 group rounded-3xl border-black relative before:absolute before:size-24 before:border-t-[10px] before:border-l-[10px] before:rounded-tl-3xl before:border-pink-500 before:-inset-[5px] md:hover:shadow-xl md:hover:shadow-pink-700/40 duration-300">
-                <div className="bg-white duration-300 p-2 shadow-xl shadow-black/20 md:group-hover:shadow-black/0 rounded-3xl h-full">
-                  <div className="flex p-3 flex-col gap-3">
-                    <div className="lg:text-6xl md:text-4xl text-3xl font-bold text-pink-500 *:size-full">
-                      07
-                    </div>
-                    <div className="md:text-lg sm:text-base text-sm leading-6 font-bold">
-                      Social Fantasy Sports App
-                    </div>
-                    <div className="mt-2 sm:text-base text-sm leading-6">
-                      Build a vibrant community of fantasy sports enthusiasts with your own social fantasy sports app. Boost your revenue and enhance user engagement like never before.</div>
-                  </div>
-                </div>
-                <div className="absolute flex justify-center items-end -left-[5px] top-20 w-[10px] h-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:-translate-x-1/2 before:translate-y-1/2 before:bottom-0 before:left-[calc(50%-1px)]"></div>
-                <div className="absolute flex item-center-center justify-end left-20 -top-[5px] h-[10px] w-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:translate-x-1/2 before:-translate-y-1/2 before:top-[calc(50%-1px)] before:right-0"></div>
-              </div>
-              <div className="border-2 p-5 group rounded-3xl border-black relative before:absolute before:size-24 before:border-t-[10px] before:border-l-[10px] before:rounded-tl-3xl before:border-rose-500 before:-inset-[5px] md:hover:shadow-xl md:hover:shadow-rose-700/40 duration-300">
-                <div className="bg-white duration-300 p-2 shadow-xl shadow-black/20 md:group-hover:shadow-black/0 rounded-3xl h-full">
-                  <div className="flex p-3 flex-col gap-3">
-                    <div className="lg:text-6xl md:text-4xl text-3xl font-bold text-rose-500 *:size-full">
-                      08
-                    </div>
-                    <div className="md:text-lg sm:text-base text-sm leading-6 font-bold">
-                      Comprehensive Fantasy Sports Analytics Software
-                    </div>
-                    <div className="mt-2 sm:text-base text-sm leading-6">Create fantasy sports analytics software and gain better insight into the fantasy industry. If this is what you want to create, we are here to help.</div>
-                  </div>
-                </div>
-                <div className="absolute flex justify-center items-end -left-[5px] top-20 w-[10px] h-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:-translate-x-1/2 before:translate-y-1/2 before:bottom-0 before:left-[calc(50%-1px)]"></div>
-                <div className="absolute flex item-center-center justify-end left-20 -top-[5px] h-[10px] w-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:translate-x-1/2 before:-translate-y-1/2 before:top-[calc(50%-1px)] before:right-0"></div>
-              </div>
-              <div className="border-2 p-5 group rounded-3xl border-black relative before:absolute before:size-24 before:border-t-[10px] before:border-l-[10px] before:rounded-tl-3xl before:border-rose-500 before:-inset-[5px] md:hover:shadow-xl md:hover:shadow-rose-700/40 duration-300">
-                <div className="bg-white duration-300 p-2 shadow-xl shadow-black/20 md:group-hover:shadow-black/0 rounded-3xl h-full">
-                  <div className="flex p-3 flex-col gap-3">
-                    <div className="lg:text-6xl md:text-4xl text-3xl font-bold text-rose-500 *:size-full">
-                      09
-                    </div>
-                    <div className="md:text-lg sm:text-base text-sm leading-6 font-bold">
-                      Fantasy Sports AR Solution
-                    </div>
-                    <div className="mt-2 sm:text-base text-sm leading-6">Elevate your fantasy sports experience with augmented reality integration. Harness the power of virtual fantasy gaming to dominate the market and engage users like never before.</div>
-                  </div>
-                </div>
-                <div className="absolute flex justify-center items-end -left-[5px] top-20 w-[10px] h-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:-translate-x-1/2 before:translate-y-1/2 before:bottom-0 before:left-[calc(50%-1px)]"></div>
-                <div className="absolute flex item-center-center justify-end left-20 -top-[5px] h-[10px] w-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:translate-x-1/2 before:-translate-y-1/2 before:top-[calc(50%-1px)] before:right-0"></div>
-              </div>
-
+              
+                         <div class="relative h-full md:group md:hover:shadow-2xl md:hover:shadow-sky-300 duration-300 bg-white p-4 pb-0 m-2 rounded-lg shadow-2xl before:absolute before:h-12 before:w-4 before:bg-sky-600 before:-left-4 before:top-5 after:absolute after:size-8 after:-z-10 after:rotate-45 after:top-[52px] after:-left-2 after:bg-sky-600">
+                                <div class="flex flex-col justify-center items-center mt-12">
+                                    <div class="flex flex-1 flex-col justify-center items-center rounded-xl p-4">
+                                        <div class="w-full md:text-xl mt-4 sm:text-lg text-base font-medium leading-6 text-sky-500 ">
+                                        Tailored Android App Solutions for Enterprises
+                                        </div>
+                                        <p class="mt-2 mb-10 sm:text-base text-sm leading-6 font-normal text-gray-500 line-clamp-6 text-ellipsis w-full">
+                                        Looking to build an app similar to Dream11? As a premier fantasy sports app development company, we’re here to assist you.
+                                        </p>
+                                    </div>
+                                    <div class="flex absolute bottom-0 items-center justify-center">
+                                        <div class="w-28 h-5 bg-sky-500 rounded-full border-t-4 border-sky-600 relative before:absolute before:w-12 before:aspect-[1/1] before:rounded-full before:bg-sky-500 before:-top-8 before:left-1/2 before:-translate-x-1/2 before:text-3xl before:font-bold before:text-white before:flex before:items-center before:justify-center "></div>
+                                    </div>
+                                </div>
+                                <div class="absolute top-5 py-1 left-0 flex flex-col justify-center items-center size-max bg-sky-500 px-5 rounded-r-full">
+                                    <div class="text-4xl font-semibold text-white">01</div>
+                                    {/* <div class="text-base -mt-1 font-semibold text-white">STEP</div> */}
+                                </div>
+                            </div>
+                            <div class="relative h-full md:group md:hover:shadow-2xl md:hover:shadow-amber-300 duration-300 bg-white p-4 pb-0 m-2 rounded-lg shadow-2xl  before:absolute before:h-12 before:w-4 before:bg-amber-600 before:-left-4 before:top-5 after:absolute after:size-8 after:-z-10 after:rotate-45 after:top-[52px] after:-left-2 after:bg-amber-600">
+                                <div class="flex flex-col justify-center items-center mt-12">
+                                    <div class="flex flex-1 flex-col justify-center items-center rounded-xl p-4">
+                                        <div class="w-full md:text-xl mt-4 sm:text-lg text-base font-medium leading-6 text-amber-500 ">
+                                        Development of Fantasy Sports Websites
+                                        </div>
+                                        <p class="mt-2 mb-10 sm:text-base text-sm leading-6 font-normal text-gray-500 line-clamp-6 text-ellipsis w-full">
+                                        Reach billions of users with a dedicated fantasy sports website. Our Fantasy Sports Website Development services are available—get in touch with us today
+                                        </p>
+                                    </div>
+                                    <div class="flex absolute bottom-0 items-center justify-center">
+                                        <div class="w-28 h-5 bg-amber-500 rounded-full border-t-4 border-amber-600 relative before:absolute before:w-12 before:aspect-[1/1] before:rounded-full before:bg-amber-500 before:-top-8 before:left-1/2 before:-translate-x-1/2 before:text-3xl before:font-bold before:text-white before:flex before:items-center before:justify-center "></div>
+                                    </div>
+                                </div>
+                                <div class="absolute top-5 py-1 left-0 flex flex-col justify-center items-center size-max bg-amber-500 px-5 rounded-r-full">
+                                    <div class="text-4xl font-semibold text-white">02</div>
+                                    {/* <div class="text-base -mt-1 font-semibold text-white">STEP</div> */}
+                                </div>
+                            </div>
+                            <div class="relative h-full md:group md:hover:shadow-2xl md:hover:shadow-cyan-300 duration-300 bg-white p-4 pb-0 m-2 rounded-lg shadow-2xl  before:absolute before:h-12 before:w-4 before:bg-cyan-700 before:-left-4 before:top-5 after:absolute after:size-8 after:-z-10 after:rotate-45 after:top-[52px] after:-left-2 after:bg-cyan-700">
+                                <div class="flex flex-col justify-center items-center mt-12">
+                                    <div class="flex flex-1 flex-col justify-center items-center rounded-xl p-4">
+                                        <div class="w-full md:text-xl mt-4 sm:text-lg text-base font-medium leading-6 text-cyan-600 ">
+                                        Ready-made Fantasy Sports App Solutions
+                                        </div>
+                                        <p class="mt-2 mb-10 sm:text-base text-sm leading-6 font-normal text-gray-500 line-clamp-6 text-ellipsis w-full">
+                                        If you need a quick-to-launch fantasy sports app, our White Label Fantasy Sports Software is the perfect solution. Our team will tailor it to fit your specific requirements.
+                                        </p>
+                                    </div>
+                                    <div class="flex absolute bottom-0 items-center justify-center">
+                                        <div class="w-28 h-5 bg-cyan-600 rounded-full border-t-4 border-cyan-700 relative before:absolute before:w-12 before:aspect-[1/1] before:rounded-full before:bg-cyan-600 before:-top-8 before:left-1/2 before:-translate-x-1/2 before:text-3xl before:font-bold before:text-white before:flex before:items-center before:justify-center "></div>
+                                    </div>
+                                </div>
+                                <div class="absolute py-1 top-5 left-0 flex flex-col justify-center items-center size-max bg-cyan-600 px-5 rounded-r-full">
+                                    <div class="text-4xl font-semibold text-white">03</div>
+                                    {/* <div class="text-base -mt-1 font-semibold text-white">STEP</div> */}
+                                </div>
+                            </div>
+                            <div class="relative h-full md:group md:hover:shadow-2xl md:hover:shadow-rose-300 duration-300 bg-white p-4 pb-0 m-2 rounded-lg shadow-2xl  before:absolute before:h-12 before:w-4 before:bg-rose-900 before:-left-4 before:top-5 after:absolute after:size-8 after:-z-10 after:rotate-45 after:top-[52px] after:-left-2 after:bg-rose-900">
+                                <div class="flex flex-col justify-center items-center mt-12">
+                                    <div class="flex flex-1 flex-col justify-center items-center rounded-xl p-4">
+                                        <div class="w-full md:text-xl mt-4 sm:text-lg text-base font-medium leading-6 text-rose-700 ">
+                                        Fantasy Sports Software Development
+                                        </div>
+                                        <p class="mt-2 mb-10 sm:text-base text-sm leading-6 font-normal text-gray-500 line-clamp-6 text-ellipsis w-full">
+                                        Twin Power Software provides comprehensive fantasy sports software development services, empowering businesses to build industry-leading solutions
+                                        </p>
+                                    </div>
+                                    <div class="flex absolute bottom-0 items-center justify-center">
+                                        <div class="w-28 h-5 bg-rose-700 rounded-full border-t-4 border-rose-800 relative before:absolute before:w-12 before:aspect-[1/1] before:rounded-full before:bg-rose-700 before:-top-8 before:left-1/2 before:-translate-x-1/2 before:text-3xl before:font-bold before:text-white before:flex before:items-center before:justify-center "></div>
+                                    </div>
+                                </div>
+                                <div class="absolute top-5 left-0 flex flex-col justify-center items-center size-max bg-rose-700 px-5 py-1 rounded-r-full">
+                                    <div class="text-4xl font-semibold text-white">04</div>
+                                    {/* <div class="text-base -mt-1 font-semibold text-white">STEP</div> */}
+                                </div>
+                            </div>
+                            <div class="relative h-full md:group md:hover:shadow-2xl md:hover:shadow-sky-300 duration-300 bg-white p-4 pb-0 m-2 rounded-lg shadow-2xl before:absolute before:h-12 before:w-4 before:bg-sky-600 before:-left-4 before:top-5 after:absolute after:size-8 after:-z-10 after:rotate-45 after:top-[52px] after:-left-2 after:bg-sky-600">
+                                <div class="flex flex-col justify-center items-center mt-12">
+                                    <div class="flex flex-1 flex-col justify-center items-center rounded-xl p-4">
+                                        <div class="w-full md:text-xl mt-4 sm:text-lg text-base font-medium leading-6 text-sky-500 ">
+                                        Fantasy Sports Web App Development
+                                        </div>
+                                        <p class="mt-2 mb-10 sm:text-base text-sm leading-6 font-normal text-gray-500 line-clamp-6 text-ellipsis w-full">
+                                        Experience the ultimate combination of performance and profitability with our high-speed fantasy sports web apps. Our expert team is ready to assist you in maximizing your revenue potential.
+                                        </p>
+                                    </div>
+                                    <div class="flex absolute bottom-0 items-center justify-center">
+                                        <div class="w-28 h-5 bg-sky-500 rounded-full border-t-4 border-sky-600 relative before:absolute before:w-12 before:aspect-[1/1] before:rounded-full before:bg-sky-500 before:-top-8 before:left-1/2 before:-translate-x-1/2 before:text-3xl before:font-bold before:text-white before:flex before:items-center before:justify-center "></div>
+                                    </div>
+                                </div>
+                                <div class="absolute top-5 py-1 left-0 flex flex-col justify-center items-center size-max bg-sky-500 px-5 rounded-r-full">
+                                    <div class="text-4xl font-semibold text-white">05</div>
+                                    {/* <div class="text-base -mt-1 font-semibold text-white">STEP</div> */}
+                                </div>
+                            </div>
+                            <div class="relative h-full md:group md:hover:shadow-2xl md:hover:shadow-amber-300 duration-300 bg-white p-4 pb-0 m-2 rounded-lg shadow-2xl  before:absolute before:h-12 before:w-4 before:bg-amber-600 before:-left-4 before:top-5 after:absolute after:size-8 after:-z-10 after:rotate-45 after:top-[52px] after:-left-2 after:bg-amber-600">
+                                <div class="flex flex-col justify-center items-center mt-12">
+                                    <div class="flex flex-1 flex-col justify-center items-center rounded-xl p-4">
+                                        <div class="w-full md:text-xl mt-4 sm:text-lg text-base font-medium leading-6 text-amber-500 ">
+                                        Fantasy Scoring System Development
+                                        </div>
+                                        <p class="mt-2 mb-10 sm:text-base text-sm leading-6 font-normal text-gray-500 line-clamp-6 text-ellipsis w-full">
+                                        Develop an accurate fantasy scoring system and seamlessly integrate it into your existing platform with the support of our skilled and experienced software developers.
+                                        </p>
+                                    </div>
+                                    <div class="flex absolute bottom-0 items-center justify-center">
+                                        <div class="w-28 h-5 bg-amber-500 rounded-full border-t-4 border-amber-600 relative before:absolute before:w-12 before:aspect-[1/1] before:rounded-full before:bg-amber-500 before:-top-8 before:left-1/2 before:-translate-x-1/2 before:text-3xl before:font-bold before:text-white before:flex before:items-center before:justify-center "></div>
+                                    </div>
+                                </div>
+                                <div class="absolute top-5 py-1 left-0 flex flex-col justify-center items-center size-max bg-amber-500 px-5 rounded-r-full">
+                                    <div class="text-4xl font-semibold text-white">06</div>
+                                    {/* <div class="text-base -mt-1 font-semibold text-white">STEP</div> */}
+                                </div>
+                            </div>
+                            <div class="relative h-full md:group md:hover:shadow-2xl md:hover:shadow-cyan-300 duration-300 bg-white p-4 pb-0 m-2 rounded-lg shadow-2xl  before:absolute before:h-12 before:w-4 before:bg-cyan-700 before:-left-4 before:top-5 after:absolute after:size-8 after:-z-10 after:rotate-45 after:top-[52px] after:-left-2 after:bg-cyan-700">
+                                <div class="flex flex-col justify-center items-center mt-12">
+                                    <div class="flex flex-1 flex-col justify-center items-center rounded-xl p-4">
+                                        <div class="w-full md:text-xl mt-4 sm:text-lg text-base font-medium leading-6 text-cyan-600 ">
+                                        Social Fantasy Sports App
+                                        </div>
+                                        <p class="mt-2 mb-10 sm:text-base text-sm leading-6 font-normal text-gray-500 line-clamp-6 text-ellipsis w-full">
+                                        Build a vibrant community of fantasy sports enthusiasts with your own social fantasy sports app. Boost your revenue and enhance user engagement like never before.
+                                        </p>
+                                    </div>
+                                    <div class="flex absolute bottom-0 items-center justify-center">
+                                        <div class="w-28 h-5 bg-cyan-600 rounded-full border-t-4 border-cyan-700 relative before:absolute before:w-12 before:aspect-[1/1] before:rounded-full before:bg-cyan-600 before:-top-8 before:left-1/2 before:-translate-x-1/2 before:text-3xl before:font-bold before:text-white before:flex before:items-center before:justify-center "></div>
+                                    </div>
+                                </div>
+                                <div class="absolute py-1 top-5 left-0 flex flex-col justify-center items-center size-max bg-cyan-600 px-5 rounded-r-full">
+                                    <div class="text-4xl font-semibold text-white">07</div>
+                                    {/* <div class="text-base -mt-1 font-semibold text-white">STEP</div> */}
+                                </div>
+                            </div>
+                            <div class="relative h-full md:group md:hover:shadow-2xl md:hover:shadow-rose-300 duration-300 bg-white p-4 pb-0 m-2 rounded-lg shadow-2xl before:absolute before:h-12 before:w-4 before:bg-rose-900 before:-left-4 before:top-5 after:absolute after:size-8 after:-z-10 after:rotate-45 after:top-[52px] after:-left-2 after:bg-rose-900">
+                                <div class="flex flex-col justify-center items-center mt-12">
+                                    <div class="flex flex-1 flex-col justify-center items-center rounded-xl p-4">
+                                        <div class="w-full md:text-xl mt-4 sm:text-lg text-base font-medium leading-6 text-rose-700 ">
+                                        Comprehensive Fantasy Sports Analytics Software
+                                        </div>
+                                        <p class="mt-2 mb-10 sm:text-base text-sm leading-6 font-normal text-gray-500 line-clamp-6 text-ellipsis w-full">
+                                        Create fantasy sports analytics software and gain better insight into the fantasy industry. If this is what you want to create, we are here to help.
+                                        </p>
+                                    </div>
+                                    <div class="flex absolute bottom-0 items-center justify-center">
+                                        <div class="w-28 h-5 bg-rose-700 rounded-full border-t-4 border-rose-800 relative before:absolute before:w-12 before:aspect-[1/1] before:rounded-full before:bg-rose-700 before:-top-8 before:left-1/2 before:-translate-x-1/2 before:text-3xl before:font-bold before:text-white before:flex before:items-center before:justify-center "></div>
+                                    </div>
+                                </div>
+                                <div class="absolute top-5 left-0 flex flex-col justify-center items-center size-max bg-rose-700 px-5 py-1 rounded-r-full">
+                                    <div class="text-4xl font-semibold text-white">08</div>
+                                    {/* <div class="text-base -mt-1 font-semibold text-white">STEP</div> */}
+                                </div>
+                            </div>
+                            <div class="relative h-full md:group md:hover:shadow-2xl md:hover:shadow-sky-300 duration-300 bg-white p-4 pb-0 m-2 rounded-lg shadow-2xl before:absolute before:h-12 before:w-4 before:bg-sky-600 before:-left-4 before:top-5 after:absolute after:size-8 after:-z-10 after:rotate-45 after:top-[52px] after:-left-2 after:bg-sky-600">
+                                <div class="flex flex-col justify-center items-center mt-12">
+                                    <div class="flex flex-1 flex-col justify-center items-center rounded-xl p-4">
+                                        <div class="w-full md:text-xl mt-4 sm:text-lg text-base font-medium leading-6 text-sky-500 ">
+                                        Fantasy Sports AR Solution
+                                        </div>
+                                        <p class="mt-2 mb-10 sm:text-base text-sm leading-6 font-normal text-gray-500 line-clamp-6 text-ellipsis w-full">
+                                        Elevate your fantasy sports experience with augmented reality integration. Harness the power of virtual fantasy gaming to dominate the market and engage users like never before.
+                                        </p>
+                                    </div>
+                                    <div class="flex absolute bottom-0 items-center justify-center">
+                                        <div class="w-28 h-5 bg-sky-500 rounded-full border-t-4 border-sky-600 relative before:absolute before:w-12 before:aspect-[1/1] before:rounded-full before:bg-sky-500 before:-top-8 before:left-1/2 before:-translate-x-1/2 before:text-3xl before:font-bold before:text-white before:flex before:items-center before:justify-center "></div>
+                                    </div>
+                                </div>
+                                <div class="absolute top-5 py-1 left-0 flex flex-col justify-center items-center size-max bg-sky-500 px-5 rounded-r-full">
+                                    <div class="text-4xl font-semibold text-white">09</div>
+                                    {/* <div class="text-base -mt-1 font-semibold text-white">STEP</div> */}
+                                </div>
+                            </div>
             </div>
           </div>
         </div>

@@ -409,9 +409,9 @@ function alcoholDeliveryApp() {
 
             *:lg:w-1/3 *:w-full *:p-3 *:sm:w-1/2
 
-            *:*:bg-white *:*:relative *:*:flex *:*:items-start *:*:justify-center *:*:flex-col *:*:size-full *:*:p-8 hover:*:*:before:size-full *:*:before:duration-300 hover:*:*:after:size-full *:*:after:duration-300 *:*:before:absolute *:*:before:size-[70px] *:*:before:bg-gradient-to-r *:*:before:from-theme1 *:*:before:via-theme1/10 *:*:before:to-theme1 *:*:before:rotate-90deg *:*:before:-top-[3px] *:*:before:-left-[3px] *:*:before:-z-10 *:*:after:absolute *:*:after:size-[70px] *:*:after:bg-gradient-to-r *:*:after:from-theme1 *:*:after:via-theme1/10 *:*:after:to-theme1 *:*:after:rotate-90deg *:*:after:-bottom-[3px] *:*:after:-right-[3px] *:*:after:-z-10 *:*:rounded-xl *:*:rounded-br-none *:*:before:rounded-xl *:*:after:rounded-xl *:*:after:rounded-br-none
+            *:*:bg-white *:*:relative *:*:flex *:*:items-start *:*:justify-center *:*:flex-col *:*:size-full *:*:p-8 hover:*:*:scale-105 *:*:duration-300 *:*:transition-all *:*:ease-in-out
 
-            [&_.icon]:*:*:bg-theme1/10 [&_.icon]:*:*:size-20 [&_.icon]:*:*:flex [&_.icon]:*:*:relative [&_.icon]:*:*:justify-center [&_.icon]:*:*:items-center [&_.icon]:*:*:duration-300 [&_.icon]:*:*:rounded-br-none [&_.icon]:*:*:rounded-full [&_.icon]:*:*:after:absolute [&_.icon]:*:*:after:size-full [&_.icon]:*:*:after:border-2 &_icon:*:*:after:border-theme1/5 [&_.icon]:*:*:after:rounded-full [&_.icon]:*:*:after:rounded-br-none [&_.icon]:*:*:text-theme1
+            [&_.icon]:*:*:bg-theme1/10 [&_.icon]:*:*:size-20 [&_.icon]:*:*:flex [&_.icon]:*:*:relative [&_.icon]:*:*:justify-center [&_.icon]:*:*:items-center [&_.icon]:*:*:duration-300  [&_.icon]:*:*:rounded-full  [&_.icon]:*:*:text-theme1
 
             [&_.icon>svg]:*:*:size-10 [&_.icon>svg]:*:*:duration-300
 
