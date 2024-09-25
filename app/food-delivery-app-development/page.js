@@ -143,7 +143,7 @@ function foodDeliveryAppDevelopment() {
             <div className="py-6 md:py-8 lg:py-16">
                 <div className="mx-auto max-w-7xl px-6 lg:px-8 group">
                     <div className="relative isolate overflow-hidden bg-theme1 px-6 shadow-2xl rounded-2xl sm:rounded-3xl sm:px-16 lg:flex lg:px-24 *:z-10">
-                        <div className="lg:mx-0 lg:flex-auto py-6 md:py-8 lg:py-16 text-center relative z-[1] md:after:absolute md:after:duration-700 md:after:border-l-4 md:after:border-t-4 md:after:border-[#9b9b9b] md:after:h-[50px] md:after:w-[50px] md:after:p-4 md:after:top-[23px] md:after:left-[-43px] md:before:z-[33] md:before:absolute md:before:duration-700 md:before:border-r-4 md:before:border-b-4 md:before:border-[#9b9b9b] md:before:h-[50px] md:before:w-[50px] md:before:p-4 md:before:bottom-[23px] md:before:right-[-43px] group-hover:md:before:w-[80px] group-hover:md:before:h-[80px] group-hover:md:after:w-[80px] group-hover:md:after:h-[80px]">
+                        <div className="lg:mx-0 lg:flex-auto py-6 md:py-8 lg:py-16 text-center relative z-[1]  ">
                             <div className="max-sm:text-xl max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight text-white font-normal empty:hidden max-sm:text-center">
                                 "The revenue in the Online Food Delivery market is forecasted to
                                 reach US$1.22tn in 2024. It is expected to exhibit a compound
@@ -195,7 +195,7 @@ function foodDeliveryAppDevelopment() {
 
                     first:*:font-normal
 
-                    last:*:font-bold last:*:text-theme1
+                    last:*:font-bold last:*:text-theme2
                 "
                             >
                                 <span className="font-normal">
@@ -443,9 +443,9 @@ function foodDeliveryAppDevelopment() {
 
             *:lg:w-1/3 *:w-full *:p-3 *:sm:w-1/2
 
-            *:*:bg-white *:*:relative *:*:flex *:*:items-start *:*:justify-center *:*:flex-col *:*:size-full *:*:p-8 hover:*:*:before:size-full *:*:before:duration-300 hover:*:*:after:size-full *:*:after:duration-300 *:*:before:absolute *:*:before:size-[70px] *:*:before:bg-gradient-to-r *:*:before:from-theme1 *:*:before:via-theme1/10 *:*:before:to-theme1 *:*:before:rotate-90deg *:*:before:-top-[3px] *:*:before:-left-[3px] *:*:before:-z-10 *:*:after:absolute *:*:after:size-[70px] *:*:after:bg-gradient-to-r *:*:after:from-theme1 *:*:after:via-theme1/10 *:*:after:to-theme1 *:*:after:rotate-90deg *:*:after:-bottom-[3px] *:*:after:-right-[3px] *:*:after:-z-10 *:*:rounded-xl *:*:rounded-br-none *:*:before:rounded-xl *:*:after:rounded-xl *:*:after:rounded-br-none
+            *:*:bg-white *:*:relative *:*:flex *:*:items-start *:*:justify-center *:*:flex-col *:*:size-full *:*:p-8 hover:*:*:scale-105 *:*:duration-300 *:*:ease-in-out *:*:transition-all     
 
-            [&_.icon]:*:*:bg-theme1/10 [&_.icon]:*:*:size-20 [&_.icon]:*:*:flex [&_.icon]:*:*:relative [&_.icon]:*:*:justify-center [&_.icon]:*:*:items-center [&_.icon]:*:*:duration-300 [&_.icon]:*:*:rounded-br-none [&_.icon]:*:*:rounded-full [&_.icon]:*:*:after:absolute [&_.icon]:*:*:after:size-full [&_.icon]:*:*:after:border-2 &_icon:*:*:after:border-theme1/5 [&_.icon]:*:*:after:rounded-full [&_.icon]:*:*:after:rounded-br-none [&_.icon]:*:*:text-theme1
+            [&_.icon]:*:*:bg-theme1/10 [&_.icon]:*:*:size-20 [&_.icon]:*:*:flex  [&_.icon]:*:*:justify-center [&_.icon]:*:*:items-center [&_.icon]:*:*:duration-300  [&_.icon]:*:*:rounded-full  [&_.icon]:*:*:text-theme1
 
             [&_.icon>svg]:*:*:size-10 [&_.icon>svg]:*:*:duration-300
 

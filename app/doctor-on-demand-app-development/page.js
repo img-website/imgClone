@@ -442,9 +442,9 @@ function DoctorDemand() {
                     </div>
                 </div>
                 <div className="container pt-5 md:p-5 sm:p-8 p-5 mx-auto max-w-7xl px-6 lg:px-8 relative z-10 flex">
-                    <div className="flex flex-wrap mt-5 sm:mt-8 md:mt-10 items-center justify-center">
+                    <div className="flex flex-wrap mt-5 sm:mt-8 md:mt-10 items-stretch justify-center">
                         <div className="md:pr-10 md:p-10 p-5 lg:w-1/2 md:w-1/2 w-full">
-                            <div className="w-full text-center bg-gray-200 h-full group p-8 cursor-pointer shadow-lg rounded-[70px] flex items-center justify-center flex-col relative before:absolute before:bg-cyan-500 before:-bottom-5 before:rounded-lg before:hover:rotate-90 before:duration-700 before:-z-10 before:-right-5 before:size-40">
+                            <div className="w-full text-center bg-gray-200 h-full group p-8 cursor-pointer shadow-lg rounded-[20px] flex items-center justify-center flex-col relative">
                                 <div className="md:text-2xl text-lg text-cyan-500 line-clamp-2 font-semibold">Search for healthcare providers</div>
                                 <div className="text-center text-sm line-clamp-6">Patients can search for healthcare providers by location, specialty, insurance accepted, availability, and other relevant factors.</div>
                                 <div className="size-20 bg-gray-200 absolute flex justify-center items-center rounded-full -inset-6 shadow-lg text-white">
@@ -455,7 +455,7 @@ function DoctorDemand() {
                             </div>
                         </div>
                         <div className="md:pr-10 md:p-10 p-5 lg:w-1/2 md:w-1/2 w-full">
-                            <div className="w-full text-center bg-gray-200 h-full group p-8 cursor-pointer shadow-lg rounded-[70px] flex items-center justify-center flex-col relative before:absolute before:bg-rose-500 before:-bottom-5 before:rounded-lg before:hover:rotate-90 before:duration-700 before:-z-10 before:-right-5 before:size-40">
+                            <div className="w-full text-center bg-gray-200 h-full group p-8 cursor-pointer shadow-lg rounded-[20px] flex items-center justify-center flex-col relative">
                                 <div className="md:text-2xl text-lg text-rose-500 line-clamp-2 font-semibold">Select a provider and appointment time</div>
                                 <div className="text-center text-sm line-clamp-6">Patients can browse through the list of available providers and choose the one that meets their requirements. They can then select an available appointment time that suits their schedule.</div>
                                 <div className="size-20 bg-gray-200 absolute flex justify-center items-center rounded-full -inset-6 shadow-lg text-white">
@@ -466,7 +466,7 @@ function DoctorDemand() {
                             </div>
                         </div>
                         <div className="md:pr-10 md:p-10 p-5 lg:w-1/2 md:w-1/2 w-full">
-                            <div className="w-full text-center bg-gray-200 h-full group p-8 cursor-pointer shadow-lg rounded-[70px] flex items-center justify-center flex-col relative before:absolute before:bg-green-500 before:-bottom-5 before:rounded-lg before:hover:rotate-90 before:duration-700 before:-z-10 before:-right-5 before:size-40">
+                            <div className="w-full text-center bg-gray-200 h-full group p-8 cursor-pointer shadow-lg rounded-[20px] flex items-center justify-center flex-col relative">
                                 <div className="md:text-2xl text-lg text-green-500 line-clamp-2 font-semibold">Provide patient information</div>
                                 <div className="text-center text-sm line-clamp-6">Patients are required to provide their personal and medical information when booking an appointment, such as name, age, gender, medical history, and reason for the appointment.</div>
                                 <div className="size-20 bg-gray-200 absolute flex justify-center items-center rounded-full -inset-6 shadow-lg text-white">
@@ -477,7 +477,7 @@ function DoctorDemand() {
                             </div>
                         </div>
                         <div className="md:pr-10 md:p-10 p-5 lg:w-1/2 md:w-1/2 w-full">
-                            <div className="w-full text-center bg-gray-200 h-full group p-8 cursor-pointer shadow-lg rounded-[70px] flex items-center justify-center flex-col relative before:absolute before:bg-violet-500 before:-bottom-5 before:rounded-lg before:hover:rotate-90 before:duration-700 before:-z-10 before:-right-5 before:size-40">
+                            <div className="w-full text-center bg-gray-200 h-full group p-8 cursor-pointer shadow-lg rounded-[20px] flex items-center justify-center flex-col relative">
                                 <div className="md:text-2xl text-lg text-violet-500 line-clamp-2 font-semibold">Confirm the appointment</div>
                                 <div className="text-center text-sm line-clamp-6">Once the patient has selected the provider, appointment time, and provided their information, they can confirm the appointment.</div>
                                 <div className="size-20 bg-gray-200 absolute flex justify-center items-center rounded-full -inset-6 shadow-lg text-white">
@@ -488,7 +488,7 @@ function DoctorDemand() {
                             </div>
                         </div>
                         <div className="md:pr-10 md:p-10 p-5 lg:w-1/2 md:w-1/2 w-full">
-                            <div className="w-full text-center bg-gray-200 h-full group p-8 cursor-pointer shadow-lg rounded-[70px] flex items-center justify-center flex-col relative before:absolute before:bg-amber-500 before:-bottom-5 before:rounded-lg before:hover:rotate-90 before:duration-700 before:-z-10 before:-right-5 before:size-40">
+                            <div className="w-full text-center bg-gray-200 h-full group p-8 cursor-pointer shadow-lg rounded-[20px] flex items-center justify-center flex-col relative">
                                 <div className="md:text-2xl text-lg text-amber-500 line-clamp-2 font-semibold">Receive appointment reminders</div>
                                 <div className="text-center text-sm line-clamp-6">Patients receive reminders via the app, email, or text message to ensure that they do not forget their appointment.</div>
                                 <div className="size-20 bg-gray-200 absolute flex justify-center items-center rounded-full -inset-6 shadow-lg text-white">
@@ -499,7 +499,7 @@ function DoctorDemand() {
                             </div>
                         </div>
                         <div className="md:pr-10 md:p-10 p-5 lg:w-1/2 md:w-1/2 w-full">
-                            <div className="w-full text-center bg-gray-200 h-full group p-8 cursor-pointer shadow-lg rounded-[70px] flex items-center justify-center flex-col relative before:absolute before:bg-fuchsia-500 before:-bottom-5 before:rounded-lg before:hover:rotate-90 before:duration-700 before:-z-10 before:-right-5 before:size-40">
+                            <div className="w-full text-center bg-gray-200 h-full group p-8 cursor-pointer shadow-lg rounded-[20px] flex items-center justify-center flex-col relative">
                                 <div className="md:text-2xl text-lg text-fuchsia-500 line-clamp-2 font-semibold">Reschedule or cancel appointments</div>
                                 <div className="text-center text-sm line-clamp-6">If patients need to change their appointment time, they can reschedule or cancel it through the app.</div>
                                 <div className="size-20 bg-gray-200 absolute flex justify-center items-center rounded-full -inset-6 shadow-lg text-white">
@@ -512,7 +512,7 @@ function DoctorDemand() {
                             </div>
                         </div>
                         <div className="md:pr-10 md:p-10 p-5 lg:w-1/2 md:w-1/2 w-full">
-                            <div className="w-full text-center bg-gray-200 h-full group p-8 cursor-pointer shadow-lg rounded-[70px] flex items-center justify-center flex-col relative before:absolute before:bg-teal-500 before:-bottom-5 before:rounded-lg before:hover:rotate-90 before:duration-700 before:-z-10 before:-right-5 before:size-40">
+                            <div className="w-full text-center bg-gray-200 h-full group p-8 cursor-pointer shadow-lg rounded-[20px] flex items-center justify-center flex-col relative">
                                 <div className="md:text-2xl text-lg text-teal-500 line-clamp-2 font-semibold">Check-in for the appointment</div>
                                 <div className="text-center text-sm line-clamp-6">Patients can check-in for their appointment through the app, which helps to reduce waiting times and improve the overall patient experience.</div>
                                 <div className="size-20 bg-gray-200 absolute flex justify-center items-center rounded-full -inset-6 shadow-lg text-white">

@@ -152,7 +152,7 @@ function iosAppDevelopment() {
 
             <Cta />
 
-            <div className="relative bg-gray-100 py-6 md:py-8 lg:py-16">
+            <div className="relative  py-6 md:py-8 lg:py-16">
                 <div className="mx-auto max-w-7xl px-6 lg:px-8 w-full relative">
 
                     <div className="mx-auto max-w-container gap-7 flex flex-col max-lg:gap-4 items-center">
@@ -229,91 +229,102 @@ function iosAppDevelopment() {
                                     {/* <div class="text-base -mt-1 font-semibold text-white">STEP</div> */}
                                 </div>
                             </div>
-                           
-                            <div className="border-2 p-5 group rounded-3xl border-black relative before:absolute before:size-24 before:border-t-[10px] before:border-l-[10px] before:rounded-tl-3xl before:border-violet-500 before:-inset-[5px] md:hover:shadow-xl md:hover:shadow-violet-700/40 duration-300">
-                                <div className="bg-white duration-300 p-2 shadow-xl shadow-black/20 md:group-hover:shadow-black/0 rounded-3xl h-full">
-                                    <div className="flex p-3 flex-col gap-3">
-                                        <div className="lg:text-6xl md:text-4xl text-3xl font-bold text-violet-500 *:size-full">
-                                            04
+                            <div class="relative h-full md:group md:hover:shadow-2xl md:hover:shadow-rose-300 duration-300 bg-white p-4 pb-0 m-2 rounded-lg shadow-2xl  before:absolute before:h-12 before:w-4 before:bg-rose-900 before:-left-4 before:top-5 after:absolute after:size-8 after:-z-10 after:rotate-45 after:top-[52px] after:-left-2 after:bg-rose-900">
+                                <div class="flex flex-col justify-center items-center mt-12">
+                                    <div class="flex flex-1 flex-col justify-center items-center rounded-xl p-4">
+                                        <div class="md:text-xl mt-4 sm:text-lg text-base font-medium leading-6 text-rose-700 ">
+                                        Mobile App Testing Services
                                         </div>
-                                        <div className="md:text-lg sm:text-base text-sm leading-6 font-bold">
-                                            Mobile App Testing Services
-                                        </div>
-                                        <div className="mt-2 sm:text-base text-sm leading-6">Testing and quality assurance: Conducting thorough testing to identify and fix any bugs, glitches, or compatibility issues in the app</div>
+                                        <p class="mt-2 mb-10 sm:text-base text-sm leading-6 font-normal text-gray-500 line-clamp-6 text-ellipsis w-full">
+                                        Testing and quality assurance: Conducting thorough testing to identify and fix any bugs, glitches, or compatibility issues in the app
+                                        </p>
+                                    </div>
+                                    <div class="flex absolute bottom-0 items-center justify-center">
+                                        <div class="w-28 h-5 bg-rose-700 rounded-full border-t-4 border-rose-800 relative before:absolute before:w-12 before:aspect-[1/1] before:rounded-full before:bg-rose-700 before:-top-8 before:left-1/2 before:-translate-x-1/2 before:text-3xl before:font-bold before:text-white before:flex before:items-center before:justify-center "></div>
                                     </div>
                                 </div>
-                                <div className="absolute flex justify-center items-end -left-[5px] top-20 w-[10px] h-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:-translate-x-1/2 before:translate-y-1/2 before:bottom-0 before:left-[calc(50%-1px)]"></div>
-                                <div className="absolute flex item-center-center justify-end left-20 -top-[5px] h-[10px] w-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:translate-x-1/2 before:-translate-y-1/2 before:top-[calc(50%-1px)] before:right-0"></div>
+                                <div class="absolute top-5 left-0 flex flex-col justify-center items-center size-max bg-rose-700 px-5 py-1 rounded-r-full">
+                                    <div class="text-4xl font-semibold text-white">04</div>
+                                    {/* <div class="text-base -mt-1 font-semibold text-white">STEP</div> */}
+                                </div>
                             </div>
-                            <div className="border-2 p-5 group rounded-3xl border-black relative before:absolute before:size-24 before:border-t-[10px] before:border-l-[10px] before:rounded-tl-3xl before:border-purple-500 before:-inset-[5px] md:hover:shadow-xl md:hover:shadow-purple-700/40 duration-300">
-                                <div className="bg-white duration-300 p-2 shadow-xl shadow-black/20 md:group-hover:shadow-black/0 rounded-3xl h-full">
-                                    <div className="flex p-3 flex-col gap-3">
-                                        <div className="lg:text-6xl md:text-4xl text-3xl font-bold text-purple-500 *:size-full">
-                                            05
+                            <div class="relative h-full md:group md:hover:shadow-2xl md:hover:shadow-sky-300 duration-300 bg-white p-4 pb-0 m-2 rounded-lg shadow-2xl before:absolute before:h-12 before:w-4 before:bg-sky-600 before:-left-4 before:top-5 after:absolute after:size-8 after:-z-10 after:rotate-45 after:top-[52px] after:-left-2 after:bg-sky-600">
+                                <div class="flex flex-col justify-center items-center mt-12">
+                                    <div class="flex flex-1 flex-col justify-center items-center rounded-xl p-4">
+                                        <div class="md:text-xl mt-4 sm:text-lg text-base font-medium leading-6 text-sky-500 ">
+                                        iPhone Application Consulting Services
                                         </div>
-                                        <div className="md:text-lg sm:text-base text-sm leading-6 font-bold">
-                                            iPhone Application Consulting Services
-                                        </div>
-                                        <div className="mt-2 sm:text-base text-sm leading-6">
-                                            iPhone app consultation services offer expert guidance and advice throughout the entire app development process.
-                                        </div>
+                                        <p class="mt-2 mb-10 sm:text-base text-sm leading-6 font-normal text-gray-500 line-clamp-6 text-ellipsis w-full">
+                                        iPhone app consultation services offer expert guidance and advice throughout the entire app development process.
+                                        </p>
+                                    </div>
+                                    <div class="flex absolute bottom-0 items-center justify-center">
+                                        <div class="w-28 h-5 bg-sky-500 rounded-full border-t-4 border-sky-600 relative before:absolute before:w-12 before:aspect-[1/1] before:rounded-full before:bg-sky-500 before:-top-8 before:left-1/2 before:-translate-x-1/2 before:text-3xl before:font-bold before:text-white before:flex before:items-center before:justify-center "></div>
                                     </div>
                                 </div>
-                                <div className="absolute flex justify-center items-end -left-[5px] top-20 w-[10px] h-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:-translate-x-1/2 before:translate-y-1/2 before:bottom-0 before:left-[calc(50%-1px)]"></div>
-                                <div className="absolute flex item-center-center justify-end left-20 -top-[5px] h-[10px] w-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:translate-x-1/2 before:-translate-y-1/2 before:top-[calc(50%-1px)] before:right-0"></div>
+                                <div class="absolute top-5 py-1 left-0 flex flex-col justify-center items-center size-max bg-sky-500 px-5 rounded-r-full">
+                                    <div class="text-4xl font-semibold text-white">05</div>
+                                    {/* <div class="text-base -mt-1 font-semibold text-white">STEP</div> */}
+                                </div>
                             </div>
-                            <div className="border-2 p-5 group rounded-3xl border-black relative before:absolute before:size-24 before:border-t-[10px] before:border-l-[10px] before:rounded-tl-3xl before:border-fuchsia-500 before:-inset-[5px] md:hover:shadow-xl md:hover:shadow-fuchsia-700/40 duration-300">
-                                <div className="bg-white duration-300 p-2 shadow-xl shadow-black/20 md:group-hover:shadow-black/0 rounded-3xl h-full">
-                                    <div className="flex p-3 flex-col gap-3">
-                                        <div className="lg:text-6xl md:text-4xl text-3xl font-bold text-fuchsia-500 *:size-full">
-                                            06
+                            <div class="relative h-full md:group md:hover:shadow-2xl md:hover:shadow-amber-300 duration-300 bg-white p-4 pb-0 m-2 rounded-lg shadow-2xl  before:absolute before:h-12 before:w-4 before:bg-amber-600 before:-left-4 before:top-5 after:absolute after:size-8 after:-z-10 after:rotate-45 after:top-[52px] after:-left-2 after:bg-amber-600">
+                                <div class="flex flex-col justify-center items-center mt-12">
+                                    <div class="flex flex-1 flex-col justify-center items-center rounded-xl p-4">
+                                        <div class="md:text-xl mt-4 sm:text-lg text-base font-medium leading-6 text-amber-500 ">
+                                        iPhone Extension Development
                                         </div>
-                                        <div className="md:text-lg sm:text-base text-sm leading-6 font-bold">
-                                            iPhone Extension Development
-
-                                        </div>
-                                        <div className="mt-2 sm:text-base text-sm leading-6">
-                                            iOS widgets and extensions allow apps to provide additional functionality and quick access to specific features within the iOS ecosystem.
-                                        </div>
+                                        <p class="mt-2 mb-10 sm:text-base text-sm leading-6 font-normal text-gray-500 line-clamp-6 text-ellipsis w-full">
+                                        iOS widgets and extensions allow apps to provide additional functionality and quick access to specific features within the iOS ecosystem.
+                                        </p>
+                                    </div>
+                                    <div class="flex absolute bottom-0 items-center justify-center">
+                                        <div class="w-28 h-5 bg-amber-500 rounded-full border-t-4 border-amber-600 relative before:absolute before:w-12 before:aspect-[1/1] before:rounded-full before:bg-amber-500 before:-top-8 before:left-1/2 before:-translate-x-1/2 before:text-3xl before:font-bold before:text-white before:flex before:items-center before:justify-center "></div>
                                     </div>
                                 </div>
-                                <div className="absolute flex justify-center items-end -left-[5px] top-20 w-[10px] h-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:-translate-x-1/2 before:translate-y-1/2 before:bottom-0 before:left-[calc(50%-1px)]"></div>
-                                <div className="absolute flex item-center-center justify-end left-20 -top-[5px] h-[10px] w-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:translate-x-1/2 before:-translate-y-1/2 before:top-[calc(50%-1px)] before:right-0"></div>
+                                <div class="absolute top-5 py-1 left-0 flex flex-col justify-center items-center size-max bg-amber-500 px-5 rounded-r-full">
+                                    <div class="text-4xl font-semibold text-white">06</div>
+                                    {/* <div class="text-base -mt-1 font-semibold text-white">STEP</div> */}
+                                </div>
                             </div>
-                            <div className="border-2 p-5 group rounded-3xl border-black relative before:absolute before:size-24 before:border-t-[10px] before:border-l-[10px] before:rounded-tl-3xl before:border-pink-500 before:-inset-[5px] md:hover:shadow-xl md:hover:shadow-pink-700/40 duration-300">
-                                <div className="bg-white duration-300 p-2 shadow-xl shadow-black/20 md:group-hover:shadow-black/0 rounded-3xl h-full">
-                                    <div className="flex p-3 flex-col gap-3">
-                                        <div className="lg:text-6xl md:text-4xl text-3xl font-bold text-pink-500 *:size-full">
-                                            07
+                            <div class="relative h-full md:group md:hover:shadow-2xl md:hover:shadow-cyan-300 duration-300 bg-white p-4 pb-0 m-2 rounded-lg shadow-2xl  before:absolute before:h-12 before:w-4 before:bg-cyan-700 before:-left-4 before:top-5 after:absolute after:size-8 after:-z-10 after:rotate-45 after:top-[52px] after:-left-2 after:bg-cyan-700">
+                                <div class="flex flex-col justify-center items-center mt-12">
+                                    <div class="flex flex-1 flex-col justify-center items-center rounded-xl p-4">
+                                        <div class="md:text-xl mt-4 sm:text-lg text-base font-medium leading-6 text-cyan-600 ">
+                                            API Integration Services for Android Apps
                                         </div>
-                                        <div className="md:text-lg sm:text-base text-sm leading-6 font-bold">
-                                            iPhone App Integration
-                                        </div>
-                                        <div className="mt-2 sm:text-base text-sm leading-6">
-                                            Integration services involve connecting an iPhone app with external systems, databases, APIs, or third-party services to extend its functionality.
-                                        </div>
+                                        <p class="mt-2 mb-10 sm:text-base text-sm leading-6 font-normal text-gray-500 line-clamp-6 text-ellipsis w-full">
+                                        Integration services involve connecting an iPhone app with external systems, databases, APIs, or third-party services to extend its functionality.
+                                        </p>
+                                    </div>
+                                    <div class="flex absolute bottom-0 items-center justify-center">
+                                        <div class="w-28 h-5 bg-cyan-600 rounded-full border-t-4 border-cyan-700 relative before:absolute before:w-12 before:aspect-[1/1] before:rounded-full before:bg-cyan-600 before:-top-8 before:left-1/2 before:-translate-x-1/2 before:text-3xl before:font-bold before:text-white before:flex before:items-center before:justify-center "></div>
                                     </div>
                                 </div>
-                                <div className="absolute flex justify-center items-end -left-[5px] top-20 w-[10px] h-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:-translate-x-1/2 before:translate-y-1/2 before:bottom-0 before:left-[calc(50%-1px)]"></div>
-                                <div className="absolute flex item-center-center justify-end left-20 -top-[5px] h-[10px] w-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:translate-x-1/2 before:-translate-y-1/2 before:top-[calc(50%-1px)] before:right-0"></div>
+                                <div class="absolute py-1 top-5 left-0 flex flex-col justify-center items-center size-max bg-cyan-600 px-5 rounded-r-full">
+                                    <div class="text-4xl font-semibold text-white">07</div>
+                                    {/* <div class="text-base -mt-1 font-semibold text-white">STEP</div> */}
+                                </div>
                             </div>
-                            <div className="border-2 p-5 group rounded-3xl border-black relative before:absolute before:size-24 before:border-t-[10px] before:border-l-[10px] before:rounded-tl-3xl before:border-rose-500 before:-inset-[5px] md:hover:shadow-xl md:hover:shadow-rose-700/40 duration-300">
-                                <div className="bg-white duration-300 p-2 shadow-xl shadow-black/20 md:group-hover:shadow-black/0 rounded-3xl h-full">
-                                    <div className="flex p-3 flex-col gap-3">
-                                        <div className="lg:text-6xl md:text-4xl text-3xl font-bold text-rose-500 *:size-full">
-                                            08
+                            <div class="relative h-full md:group md:hover:shadow-2xl md:hover:shadow-rose-300 duration-300 bg-white p-4 pb-0 m-2 rounded-lg shadow-2xl before:absolute before:h-12 before:w-4 before:bg-rose-900 before:-left-4 before:top-5 after:absolute after:size-8 after:-z-10 after:rotate-45 after:top-[52px] after:-left-2 after:bg-rose-900">
+                                <div class="flex flex-col justify-center items-center mt-12">
+                                    <div class="flex flex-1 flex-col justify-center items-center rounded-xl p-4">
+                                        <div class="md:text-xl mt-4 sm:text-lg text-base font-medium leading-6 text-rose-700 ">
+                                        iPhone App Prototyping
                                         </div>
-                                        <div className="md:text-lg sm:text-base text-sm leading-6 font-bold">
-                                            iPhone App Prototyping
-                                        </div>
-                                        <div className="mt-2 sm:text-base text-sm leading-6">
-                                            Prototyping services are dedicated to developing interactive mockups or prototypes for iPhone apps.
-                                        </div>
+                                        <p class="mt-2 mb-10 sm:text-base text-sm leading-6 font-normal text-gray-500 line-clamp-6 text-ellipsis w-full">
+                                        Prototyping services are dedicated to developing interactive mockups or prototypes for iPhone apps.
+                                        </p>
+                                    </div>
+                                    <div class="flex absolute bottom-0 items-center justify-center">
+                                        <div class="w-28 h-5 bg-rose-700 rounded-full border-t-4 border-rose-800 relative before:absolute before:w-12 before:aspect-[1/1] before:rounded-full before:bg-rose-700 before:-top-8 before:left-1/2 before:-translate-x-1/2 before:text-3xl before:font-bold before:text-white before:flex before:items-center before:justify-center "></div>
                                     </div>
                                 </div>
-                                <div className="absolute flex justify-center items-end -left-[5px] top-20 w-[10px] h-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:-translate-x-1/2 before:translate-y-1/2 before:bottom-0 before:left-[calc(50%-1px)]"></div>
-                                <div className="absolute flex item-center-center justify-end left-20 -top-[5px] h-[10px] w-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:translate-x-1/2 before:-translate-y-1/2 before:top-[calc(50%-1px)] before:right-0"></div>
+                                <div class="absolute top-5 left-0 flex flex-col justify-center items-center size-max bg-rose-700 px-5 py-1 rounded-r-full">
+                                    <div class="text-4xl font-semibold text-white">08</div>
+                                    {/* <div class="text-base -mt-1 font-semibold text-white">STEP</div> */}
+                                </div>
                             </div>
+                            
                         </div>
                     </div>
                 </div>

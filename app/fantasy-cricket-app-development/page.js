@@ -454,7 +454,7 @@ function fantasycricketAppDevelopment() {
         ">
                         <div className="p-4 h-auto lg:w-1/3">
                             <a href="">
-                                <div className="group rounded-full overflow-hidden lg:h-[350px] lg:w-[350px] h-[250px] w-[250px] bg-white/5 backdrop-blur-sm text-center flex justify-center items-center flex-col border-[1px] border-solid border-[white]/10 group duration-300 sm:hover:scale-95 sm:hover:border-pink-100">
+                                <div className="group rounded-[20px] overflow-hidden lg:h-[350px] lg:w-[350px] h-[250px] w-[250px] bg-white/5 backdrop-blur-sm text-center flex justify-center items-center flex-col border-[1px] border-solid border-[white]/10 group duration-300 sm:hover:scale-95 sm:hover:border-pink-100">
                                     <Image width={800} height={800} loading='lazy' quality={90} src="/img/football.webp" alt="Football" className="img-fluid mx-auto lg:size-40 size-32 group-hover:md:animate-bounce" />
                                     <div className="font-bold text-white md:text-xl text-lg relative mt-3">Football</div>
                                 </div>
@@ -462,7 +462,7 @@ function fantasycricketAppDevelopment() {
                         </div>
                         <div className="p-4 h-auto lg:w-1/3">
                             <a href="">
-                                <div className="group rounded-full overflow-hidden lg:h-[350px] lg:w-[350px] h-[250px] w-[250px] bg-white/5 backdrop-blur-sm text-center flex justify-center items-center flex-col border-[1px] border-solid border-[white]/10 group duration-300 sm:hover:scale-95 sm:hover:border-pink-100">
+                                <div className="group rounded-[20px] overflow-hidden lg:h-[350px] lg:w-[350px] h-[250px] w-[250px] bg-white/5 backdrop-blur-sm text-center flex justify-center items-center flex-col border-[1px] border-solid border-[white]/10 group duration-300 sm:hover:scale-95 sm:hover:border-pink-100">
                                     <Image width={800} height={800} loading='lazy' quality={90} src="/img/Kabaddi.webp" alt="Kabaddi" className="img-fluid mx-auto lg:size-40 size-32 group-hover:md:animate-bounce" />
                                     <div className="font-bold text-white md:text-xl text-lg relative mt-3">Kabaddi</div>
                                 </div>
@@ -470,7 +470,7 @@ function fantasycricketAppDevelopment() {
                         </div>
                         <div className="p-4 h-auto lg:w-1/3">
                             <a href="">
-                                <div className="group rounded-full overflow-hidden lg:h-[350px] lg:w-[350px] h-[250px] w-[250px] bg-white/5 backdrop-blur-sm text-center flex justify-center items-center flex-col border-[1px] border-solid border-[white]/10 group duration-300 sm:hover:scale-95 sm:hover:border-pink-100">
+                                <div className="group rounded-[20px] overflow-hidden lg:h-[350px] lg:w-[350px] h-[250px] w-[250px] bg-white/5 backdrop-blur-sm text-center flex justify-center items-center flex-col border-[1px] border-solid border-[white]/10 group duration-300 sm:hover:scale-95 sm:hover:border-pink-100">
                                     <Image width={800} height={800} loading='lazy' quality={90} src="/img/stock.webp" alt="Stock Market" className="img-fluid mx-auto lg:size-40 size-32 group-hover:md:animate-bounce" />
                                     <div className="font-bold text-white md:text-xl text-lg relative mt-3">Stock Market</div>
                                 </div>
