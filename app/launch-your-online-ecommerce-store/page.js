@@ -19,24 +19,24 @@ import Testimonial from "@/components/testimonial/Testimonial";
 function launchyouronlineecommercestore() {
   const accordionItems = [
       {
-          title: 'What is the Cost of Developing a Logistics App?',
-          content: "The cost to develop a logistics app typically ranges from $12,000 to $35,000. However, it's important to note that this estimate can vary based on several factors, including the app's complexity, size, and specific features."
+          title: 'What is the Cost of Developing a  Ecommerce Marketplace?',
+          content: "The cost of developing an e-commerce marketplace depends on your project’s complexity and requirements. On average, prices start at $10,000 and can increase with more advanced features."
       },
       {
-          title: "What is the Timeline for Developing a Logistics App?",
-          content: "The timeline for developing a logistics app depends on the project's features, complexity, and specific requirements. On average, a logistics app can take between 3 to 9 months to develop, which includes comprehensive testing and quality assurance."
+          title: "What are the best strategies to generate revenue from an e-commerce marketplace?",
+          content: "The best strategies to generate revenue from an e-commerce marketplace include charging transaction fees, subscription plans, and listing fees. You can also monetize through advertising, premium services, and lead generation."
       },
       {
-          title: 'What Technologies Are Utilized in Logistics App Development?',
-          content: 'We utilize a range of technologies for cross-platform compatibility, including Java, Swift, and popular frameworks like React Native. Our technology choices are tailored to meet the specific requirements of each project.'
+          title: 'What advantages does an e-commerce marketplace offer?',
+          content: 'An e-commerce marketplace provides wider reach and access to diverse products for customers while offering sellers a platform to increase sales without heavy infrastructure costs. It also fosters competition, leading to better prices and choices.'
       },
       {
-          title: 'Is Third-Party API Integration for Real-Time Tracking and Other Logistics Functions Possible?',
-          content: "We have extensive expertise in integrating third-party APIs for real-time tracking, route optimization, and various logistics services. Our goal is to provide users of your logistics app with a seamless and feature-rich experience."
+          title: 'Do you sign an NDA?',
+          content: "Absolutely! We prioritize client confidentiality and always sign a Non-Disclosure Agreement (NDA) before starting any project. You can trust that your information will be handled with the utmost care and professionalism."
       },
       {
-          title: 'Do You Provide Post-Launch Support and Maintenance for Logistics Apps?What advantages come with outsourcing media and entertainment app development services?',
-          content: 'Yes, we provide comprehensive post-launch support and maintenance services to ensure that your app remains up-to-date, secure, and compliant with evolving industry standards. Our team is always ready to address any issues and implement necessary updates.'
+          title: 'Do you offer support services after the development is completed?',
+          content: 'Yes, we provide continuous support for our clients. If you encounter any issues, feel free to reach out, and we’ll do our best to resolve them promptly.'
       },
   ];
   return (
@@ -73,7 +73,7 @@ function launchyouronlineecommercestore() {
                     </span>
                   </div>
                   <div className="max-lg:text-sm text-base text-white/80 pt-5 text-pretty w-10/12 max-lg:mx-auto">
-                  Eager to become the next big name in the ecommerce space? Create an impressive ecommerce marketplace and capture the hearts of online shoppers. Choose IMG Global Infotech as your trusted partner!
+                  Eager to become the next big name in the ecommerce space? Create an impressive ecommerce marketplace and capture the hearts of online shoppers. Choose Twin Power as your trusted partner!
                   </div>
                 </div>
                 <div className="xl:w-1/3 lg:w-1/2 max-lg:mx-auto">
@@ -132,8 +132,24 @@ function launchyouronlineecommercestore() {
       </div>
 
 
+           
 
-              <Blog />
+               {/* accordian start */}
+          
+               <div className='py-10'>
+                <div className='mx-auto max-w-7xl px-6 lg:px-8'>
+                    <section className="lg:w-4/5 w-full mx-auto md:mt-16 mt-8">
+                        <div className="max-w-[85rem] px-4 sm:px-6 lg:px-8 mx-auto">
+                            <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
+                                <h2 className="text-2xl font-bold md:text-4xl md:leading-tight">Your questions, answered</h2>
+                                <p className="mt-1 text-gray-600">Answers to the most frequently asked questions.</p>
+                            </div>
+                            <Accordion items={accordionItems} />
+                        </div>
+                    </section>
+                </div>
+            </div>
+            {/* accordian Ends */}
             <Form />
             <Footer />
 
