@@ -136,17 +136,12 @@ export default function Home() {
             </div>
             {/* hero Ends */}
 
-
             <Services/>
-            
 
             {/* About Start */}
             <div className="">
                 <div className="relative bg-slate-50 py-6 md:py-8 lg:py-16 overflow-hidden ">
                     <div className="mx-auto max-w-7xl flex px-6 lg:px-8 w-full">
-                        <div className="absolute order-2 inset-0 size-full pointer-events-none overflow-hidden">
-                            {/* <div className="absolute inset-0 hidden w-full min-w-[1360px] bg-[url('https://www.imgglobalinfotech.com/public/tailwind/css/build/assets/beams1-c3cd2070.webp')] bg-[length:2000px_100%] bg-[position:calc(50%_+_220px)_-50px] bg-no-repeat lg:block pointer-events-none"></div> */}
-                        </div>
                         <div className="
                     mx-auto max-w-container gap-7 flex max-lg:flex-col group-[]/flip:flex-row-reverse group-[]/flip:max-lg:flex-col max-lg:gap-4  order-1
 
@@ -159,21 +154,7 @@ export default function Home() {
                                     <div className="relative flex-shrink-0 sm:p-4 w-full">
                                         <div className="relative z-10 overflow-hidden *:rounded-[20px] [transform:rotateY(180deg)] group-[]/flip:[transform:rotateY(0deg)] [&~*]:[&:has(.mask)]:lg:hidden">
                                             <Image className="object-cover !w-[1216px] !h-auto md:mt-16 lg:mt-0 " width={'384'} height={'384'} src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="image3" />
-
-
                                         </div>
-                                        {/* <div className="z-0">
-                                            <div className="absolute -right-12 left-0 top-0 h-px bg-slate-900/[0.1] [mask-image:linear-gradient(to_right,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
-                                            <div className="absolute -top-8 bottom-0 left-12 w-px bg-slate-900/[0.1] [mask-image:linear-gradient(to_top,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
-                                            <div className="absolute -right-12 bottom-14 left-0 h-px bg-slate-900/[0.1] [mask-image:linear-gradient(to_right,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
-                                            <div className="absolute -bottom-8 -top-2 right-0 w-px bg-slate-900/[0.1] [mask-image:linear-gradient(to_top,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
-                                            <div className="absolute bottom-full right-10 -mb-px flex h-8 items-end overflow-hidden">
-                                                <div className="flex -mb-px h-[2px] w-80 -scale-x-100">
-                                                    <div className="w-full flex-none blur-sm [background-image:linear-gradient(90deg,rgba(56,189,248,0)_0%,#0EA5E9_32.29%,rgba(236,72,153,0.3)_67.19%,rgba(236,72,153,0)_100%)]"></div>
-                                                    <div className="-ml-[100%] w-full flex-none blur-[1px] [background-image:linear-gradient(90deg,rgba(56,189,248,0)_0%,#0EA5E9_32.29%,rgba(236,72,153,0.3)_67.19%,rgba(236,72,153,0)_100%)]"></div>
-                                                </div>
-                                            </div>
-                                        </div> */}
                                     </div>
                                 </div>
                             </div>
@@ -202,23 +183,13 @@ export default function Home() {
                                             <svg className='w-5 h-5' stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M13 7h9v2h-9zM13 15h9v2h-9zM16 11h6v2h-6zM13 12 8 7v4H2v2h6v4z"></path></svg>
                                         </span>
                                     </button>
-                                    {/* <button className="px-4 text-sm text-theme1 inline-flex items-center gap-2 font-semibold py-3 border-theme1 border-2 w-max  before:-z-10 relative before:absolute before:w-full before:h-0 before:left-0 before:top-1/2 before:bg-theme1 before:md:hover:h-full before:duration-300 md:hover:text-white duration-300 before:md:hover:top-0">
-                                        <span>Come for coffee</span>
-                                        <span>
-                                            <svg className='w-5 h-5' stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M7 22h10a1 1 0 0 0 .99-.858L19.867 8H21V6h-1.382l-1.724-3.447A.998.998 0 0 0 17 2H7c-.379 0-.725.214-.895.553L4.382 6H3v2h1.133L6.01 21.142A1 1 0 0 0 7 22zm10.418-11H6.582l-.429-3h11.693l-.428 3zm-9.551 9-.429-3h9.123l-.429 3H7.867zM7.618 4h8.764l1 2H6.618l1-2z"></path></svg>
-                                        </span>
-                                    </button> */}
-
                                 </div>
                             </div>
                         </div>
-                        {/* <div className="pointer-events-none absolute inset-0 shadow-[inset_0_-1px_1px_rgba(0,0,0,0.06)]"></div> */}
                     </div>
                 </div>
             </div>
             {/* About Ends */}
-
-
 
           {/* case study */}
             <section className="container mx-auto py-8 sm:py-16 relative bg-white [critical:this]">
@@ -399,61 +370,12 @@ export default function Home() {
 
             <Gallery/>
 
-
-            {/* <div className="relative bg-gray-900 py-6 md:py-8 lg:py-16 text-white">
-                <div className="w-full">
-                    <div className="flex max-w-7xl mx-auto px-6 lg:px-8 items-center">
-                        <div className="swiper order-2 reviewSwiper  md:w-1/2 w-full pb-7 swiper-initialized swiper-horizontal swiper-backface-hidden" data-swiper="{
-                    slidesPerView: 1,
-                    spaceBetween: 10,
-                    speed: 500,
-                    autoplay: {enabled: true, delay: 2500},
-                    loop: true,
-                    pagination: {
-                        el: .swiper-pagination,
-                        dynamicBullets: true
-                    }
-                }">
-                            <div className="swiper-wrapper" id="swiper-wrapper-6b587e02ae576dc0" aria-live="off">
-                                <div className="swiper-slide p-8 pb-12 swiper-slide-active swiper-slide-next" role="group" aria-label="1 / 1" data-swiper-slide-index="0" style={{ width: '608px', marginRight: '10px' }}>
-                                    <Link href="https://youtu.be/dTdXaPxCbZw?si=9M-Wpivc0aUJCvxA" className="p-1 bg-gray-700 relative w-full  aspect-video glightbox3 block" data-gallery="gallery1">
-                                        <div className="overflow-hidden  ring-2 ring-offset-8 ring-white ring-offset-gray-900">
-                                            <span className="absolute inset-0 z-30 flex items-center justify-center *:size-16 *:rounded-full last:*:bg-white *:text-theme2 last:*:shadow-lg last:*:shadow-theme2 last:*:relative last:*:z-30 first:*:z-20 first:*:absolute first:*:inset-0 first:*:m-auto first:*:animate-ping">
-                                                <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 512 512" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm115.7 272l-176 101c-15.8 8.8-35.7-2.5-35.7-21V152c0-18.4 19.8-29.8 35.7-21l176 107c16.4 9.2 16.4 32.9 0 42z"></path></svg>
-                                                <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 512 512" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm115.7 272l-176 101c-15.8 8.8-35.7-2.5-35.7-21V152c0-18.4 19.8-29.8 35.7-21l176 107c16.4 9.2 16.4 32.9 0 42z"></path></svg>
-                                            </span>
-                                            <Image className="aspect-video object-cover h-auto w-full z-0 duration-[3000ms] " width="256" height="320" src="https://www.imgglobalinfotech.com/public/tailwind/img/reviewLachlanJames-640w.webp?id=5bbafb05dac28bdcb2837a17fefa6f63" alt="Youtube Review" />
-                                        </div>
-                                        <div className="flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-x-1 -bottom-16 top-auto z-[1] before:absolute before:inset-6 before:z-[1] before:bg-gradient-to-t before:backdrop-blur-xl before:rounded-xl py-10 before:from-red-500/70 before:to-red-600/70 before:ring-8 before:ring-gray-900">
-                                            <div className="w-full relative z-[3] text-center">
-                                                <div className="text-base md:text-lg font-bold leading-6 tracking-tight">Lachlan James</div>
-                                                <div className="mt-1 text-sm md:text-sm opacity-80">Founder, Neuronomics (Austrlia)</div>
-                                            </div>
-                                        </div>
-                                    </Link>
-                                </div>
-                            </div>
-                            <div className="swiper-pagination !mb-0 *:!bg-white swiper-pagination-bullets swiper-pagination-horizontal swiper-pagination-bullets-dynamic swiper-pagination-lock" style={{ width: '40px' }}><span className="swiper-pagination-bullet swiper-pagination-bullet-active swiper-pagination-bullet-active-main" aria-current="true" style={{ left: '0px' }}></span></div>
-                            <span className="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
-                        <div className="md:w-1/2 w-full order-1">
-                            <div className="flex flex-col">
-                                <p className="
-                        max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-white text-balance text-center
-            
-                        first:*:font-normal
-            
-                        last:*:font-bold last:*:text-white
-                    "><span>What Our Clients Industries Covered By Us! </span>
-                                    <span> And Elevate Your Expectations!</span></p>
-                                <div className="md:text-base text-sm text-white/70 mt-3 text-balance text-center">Dive into the testimonials that paint a vivid picture of our journey with our potential client so far. Take a glimpse into our exceptional assistance and begin your success story with us today.</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> */}
             <PortfolioSection/>
+
             <Cta/>
+            
             <Form/>
+            
             <Footer/>
         </>
     );
