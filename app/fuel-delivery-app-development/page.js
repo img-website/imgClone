@@ -822,8 +822,8 @@ function FuelDeliveryApp() {
                                             <path d='M217.4 27.43c-27.9.47-53.1 17.11-64.5 42.84l136.5 41.23c6-35.79-15.5-70.49-50.1-81.02-6.2-1.88-12.7-2.91-19.2-3.05h-2.7zm-69.7 60.08c-6.1 35.89 15.4 70.69 50.1 81.19 34.8 10.5 71.9-6.7 86.5-40zm265.5 44.29c-25.3.1-52.2 12.3-72.5 41L215.9 349.7c-33.5 47.4-18.9 97 14.1 120.4 33.1 23.5 84.6 20.8 118.1-26.6l124.7-176.8c33.5-47.5 18.9-97-14.1-120.5-12.4-8.8-27.3-13.9-43-14.4zm-1.8 17.3c1.3 0 2.6 0 3.8.1 12.1.5 23.5 4.8 33.1 11.7 25.7 18.2 38.6 54.5 9.7 95.4l-64.5 91.5c-35.8-9.6-81.8-42.3-102.7-73l64.7-91.6c16.9-23.9 37-33.7 55.9-34.1zM91.25 225.3c-9.62.1-19.11 2.1-27.93 6-33.11 14.5-50.34 51.5-40.24 86.3l130.72-57.1c-13.1-22.1-36.9-35.5-62.55-35.2zm69.65 51.6L30.2 334.1c18.45 31.4 57.3 44 90.6 29.5 33.2-14.6 50.4-51.8 40.1-86.7z'></path>
                                         </svg>
                                     </div>
-                                    <div className='title'>Consumer App-Based Model</div>
-                                    <div className='tagline'>
+                                    <div className='title text-start'>Consumer App-Based Model</div>
+                                    <div className='tagline text-start'>
                                         In this system, users can order fuel through a mobile app by
                                         entering their location and the quantity needed. A truck is
                                         sent to their specified location to refuel their vehicle.
@@ -850,8 +850,8 @@ function FuelDeliveryApp() {
                                             ></path>
                                         </svg>
                                     </div>
-                                    <div className='title'>Subscription-Based Model</div>
-                                    <div className='tagline'>
+                                    <div className='title text-start'>Subscription-Based Model</div>
+                                    <div className='tagline text-start'>
                                         In this approach, subscription plans are provided where
                                         customers pay a monthly or annual fee for fuel delivery to
                                         their chosen location. They can select how often and how
@@ -875,8 +875,8 @@ function FuelDeliveryApp() {
                                             <path d='M20 6h-8l-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm0 12H4V6h5.17l2 2H20v10zm-6.92-3.96L12.39 17 15 15.47 17.61 17l-.69-2.96 2.3-1.99-3.03-.26L15 9l-1.19 2.79-3.03.26z'></path>
                                         </svg>
                                     </div>
-                                    <div className='title'>Corporate/Commercial Model</div>
-                                    <div className='tagline'>
+                                    <div className='title text-start'>Corporate/Commercial Model</div>
+                                    <div className='tagline text-start'>
                                         This model is designed for businesses and organizations managing vehicle fleets. It provides tailored fuel delivery solutions based on specific client requirements, which may include installing on-site fuel storage tanks. Additionally, you can arrange scheduled delivery routes to ensure consistent refueling without interruptions.
                                     </div>
                                 </div>

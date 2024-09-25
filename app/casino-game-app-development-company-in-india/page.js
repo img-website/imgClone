@@ -76,7 +76,7 @@ function casinoGameAppDevelopmentIndia() {
         </div>
       </div>
 
-      <section className="py-24 relative xl:mr-0 lg:mr-5 mr-0">
+      <section className=" lg:py-24 relative xl:mr-0 lg:mr-5 mr-0">
         <div className="w-full max-w-7xl px-6 lg:px-8 mx-auto">
           <div className="w-full justify-start items-center xl:gap-12 gap-10 grid lg:grid-cols-2 grid-cols-1">
             <div className="w-full flex-col justify-center lg:items-start items-center gap-10 inline-flex">
@@ -90,7 +90,7 @@ function casinoGameAppDevelopmentIndia() {
                       <span className="font-bold text-theme2"> Development for Unmatched Excitement</span>
                     </p>
                     <p
-                      className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center">
+                      className="text-start text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center">
                       Online casino gaming captivates and excites users, encouraging them to win real-cash prizes. We can enhance this experience by offering advanced, tech-driven casino app development solutions. Our expert developers craft innovative apps for various casino gaming formats, including slot machines, poker, blackjack, roulette, crypto casino games, and more. In addition to app development, we excel in building comprehensive online casino software, making us one of the most trusted casino game development companies. We are the ideal choice for launching your casino app and taking your business to the next level.
                     </p>
 

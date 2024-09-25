@@ -110,7 +110,7 @@ function webdevelopmentDelhi() {
                         <span className='text-white'>Website Updates  </span>
                         <span className="font-bold text-theme2"> and Migrations</span>
                     </p>
-                    <div className="grid grid-cols-3 gap-y-5">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-y-5 gap-x-3 lg:gap-x-5">
 
                         <div className="max-w-sm hover:shadow-2xl hover:-translate-y-1 duration-500 p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
 

@@ -219,7 +219,7 @@ function taxiAppDevelopmentCompany() {
                             <div className=" my-5 bg-sky-50 h-auto relative overflow-hidden rounded-xl hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl p-5 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
                                 <span className="absolute w-[100px] h-[100px] bg-[#05162659] top-[-27%] opacity-0 group-hover:opacity-100 duration-700 left-[-17%]  rotate-45"></span>
                                 <span className="absolute w-[100px] h-[100px] bg-[#05162659] bottom-[-27%] opacity-0 group-hover:opacity-100 duration-700 -z-0 right-[-17%]  rotate-45"></span>
-                                <div className="flex items-center justify-between pb-3">
+                                <div className="flex items-center gap-x-3 pb-3">
                                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" className="h-[50px] w-[50px] text-gray-300 group-hover:text-[#051626c2] duration-700" xmlns="http://www.w3.org/2000/svg"><title></title>
                                         <path d="M12.004 0c-2.35 2.395-2.365 6.185.133 8.585l3.412 3.413-3.197 3.198a6.501 6.501 0 0 1 1.412 7.04l9.566-9.566a.95.95 0 0 0 0-1.344L12.004 0zm-1.748 1.74L.67 11.327a.95.95 0 0 0 0 1.344C4.45 16.44 8.22 20.244 12 24c2.295-2.298 2.395-6.096-.08-8.533l-3.47-3.469 3.2-3.2c-1.918-1.955-2.363-4.725-1.394-7.057z"></path></svg>
                                     <div className="text-lg text-[#051626c2] font-semibold">
@@ -233,7 +233,7 @@ function taxiAppDevelopmentCompany() {
                             <div className=" my-5 bg-sky-50 h-auto relative overflow-hidden rounded-xl hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl p-5 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
                                 <span className="absolute w-[100px] h-[100px] bg-[#05162659] top-[-27%] opacity-0 group-hover:opacity-100 duration-700 left-[-17%]  rotate-45"></span>
                                 <span className="absolute w-[100px] h-[100px] bg-[#05162659] bottom-[-27%] opacity-0 group-hover:opacity-100 duration-700 -z-0 right-[-17%]  rotate-45"></span>
-                                <div className="flex items-center justify-between pb-3">
+                                <div className="flex items-center gap-x-3 pb-3">
                                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" className="h-[50px] w-[50px] text-gray-300 group-hover:text-[#051626c2] duration-700" xmlns="http://www.w3.org/2000/svg"><title></title>
                                         <path d="M12.004 0c-2.35 2.395-2.365 6.185.133 8.585l3.412 3.413-3.197 3.198a6.501 6.501 0 0 1 1.412 7.04l9.566-9.566a.95.95 0 0 0 0-1.344L12.004 0zm-1.748 1.74L.67 11.327a.95.95 0 0 0 0 1.344C4.45 16.44 8.22 20.244 12 24c2.295-2.298 2.395-6.096-.08-8.533l-3.47-3.469 3.2-3.2c-1.918-1.955-2.363-4.725-1.394-7.057z"></path></svg>
                                     <div className="text-lg text-[#051626c2] font-semibold">
@@ -247,7 +247,7 @@ function taxiAppDevelopmentCompany() {
                             <div className=" my-5 bg-sky-50 h-auto relative overflow-hidden rounded-xl hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl p-5 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
                                 <span className="absolute w-[100px] h-[100px] bg-[#05162659] top-[-27%] opacity-0 group-hover:opacity-100 duration-700 left-[-17%]  rotate-45"></span>
                                 <span className="absolute w-[100px] h-[100px] bg-[#05162659] bottom-[-27%] opacity-0 group-hover:opacity-100 duration-700 -z-0 right-[-17%]  rotate-45"></span>
-                                <div className="flex items-center justify-between pb-3">
+                                <div className="flex items-center gap-x-3 pb-3">
                                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" className="h-[50px] w-[50px] text-gray-300 group-hover:text-[#051626c2] duration-700" xmlns="http://www.w3.org/2000/svg"><title></title>
                                         <path d="M12.004 0c-2.35 2.395-2.365 6.185.133 8.585l3.412 3.413-3.197 3.198a6.501 6.501 0 0 1 1.412 7.04l9.566-9.566a.95.95 0 0 0 0-1.344L12.004 0zm-1.748 1.74L.67 11.327a.95.95 0 0 0 0 1.344C4.45 16.44 8.22 20.244 12 24c2.295-2.298 2.395-6.096-.08-8.533l-3.47-3.469 3.2-3.2c-1.918-1.955-2.363-4.725-1.394-7.057z"></path></svg>
                                     <div className="text-lg text-[#051626c2] font-semibold">
@@ -264,7 +264,7 @@ function taxiAppDevelopmentCompany() {
                             <div className=" my-5 bg-sky-50 h-auto relative overflow-hidden rounded-xl hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl p-5 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
                                 <span className="absolute w-[100px] h-[100px] bg-[#05162659] top-[-27%] opacity-0 group-hover:opacity-100 duration-700 left-[-17%]  rotate-45"></span>
                                 <span className="absolute w-[100px] h-[100px] bg-[#05162659] bottom-[-27%] opacity-0 group-hover:opacity-100 duration-700 -z-0 right-[-17%]  rotate-45"></span>
-                                <div className="flex items-center justify-between pb-3">
+                                <div className="flex items-center gap-x-3 pb-3">
                                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" className="h-[50px] w-[50px] text-gray-300 group-hover:text-[#051626c2] duration-700" xmlns="http://www.w3.org/2000/svg"><title></title>
                                         <path d="M12.004 0c-2.35 2.395-2.365 6.185.133 8.585l3.412 3.413-3.197 3.198a6.501 6.501 0 0 1 1.412 7.04l9.566-9.566a.95.95 0 0 0 0-1.344L12.004 0zm-1.748 1.74L.67 11.327a.95.95 0 0 0 0 1.344C4.45 16.44 8.22 20.244 12 24c2.295-2.298 2.395-6.096-.08-8.533l-3.47-3.469 3.2-3.2c-1.918-1.955-2.363-4.725-1.394-7.057z"></path></svg>
                                     <div className="text-lg text-[#051626c2] font-semibold">
@@ -278,7 +278,7 @@ function taxiAppDevelopmentCompany() {
                             <div className=" my-5 bg-sky-50 h-auto relative overflow-hidden rounded-xl hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl p-5 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
                                 <span className="absolute w-[100px] h-[100px] bg-[#05162659] top-[-27%] opacity-0 group-hover:opacity-100 duration-700 left-[-17%]  rotate-45"></span>
                                 <span className="absolute w-[100px] h-[100px] bg-[#05162659] bottom-[-27%] opacity-0 group-hover:opacity-100 duration-700 -z-0 right-[-17%]  rotate-45"></span>
-                                <div className="flex items-center justify-between pb-3">
+                                <div className="flex items-center gap-x-3 pb-3">
                                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" className="h-[50px] w-[50px] text-gray-300 group-hover:text-[#051626c2] duration-700" xmlns="http://www.w3.org/2000/svg"><title></title>
                                         <path d="M12.004 0c-2.35 2.395-2.365 6.185.133 8.585l3.412 3.413-3.197 3.198a6.501 6.501 0 0 1 1.412 7.04l9.566-9.566a.95.95 0 0 0 0-1.344L12.004 0zm-1.748 1.74L.67 11.327a.95.95 0 0 0 0 1.344C4.45 16.44 8.22 20.244 12 24c2.295-2.298 2.395-6.096-.08-8.533l-3.47-3.469 3.2-3.2c-1.918-1.955-2.363-4.725-1.394-7.057z"></path></svg>
                                     <div className="text-lg text-[#051626c2] font-semibold">
@@ -292,7 +292,7 @@ function taxiAppDevelopmentCompany() {
                             <div className=" my-5 bg-sky-50 h-auto relative overflow-hidden rounded-xl hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl p-5 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
                                 <span className="absolute w-[100px] h-[100px] bg-[#05162659] top-[-27%] opacity-0 group-hover:opacity-100 duration-700 left-[-17%]  rotate-45"></span>
                                 <span className="absolute w-[100px] h-[100px] bg-[#05162659] bottom-[-27%] opacity-0 group-hover:opacity-100 duration-700 -z-0 right-[-17%]  rotate-45"></span>
-                                <div className="flex items-center justify-between pb-3">
+                                <div className="flex items-center gap-x-3 pb-3">
                                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" className="h-[50px] w-[50px] text-gray-300 group-hover:text-[#051626c2] duration-700" xmlns="http://www.w3.org/2000/svg"><title></title>
                                         <path d="M12.004 0c-2.35 2.395-2.365 6.185.133 8.585l3.412 3.413-3.197 3.198a6.501 6.501 0 0 1 1.412 7.04l9.566-9.566a.95.95 0 0 0 0-1.344L12.004 0zm-1.748 1.74L.67 11.327a.95.95 0 0 0 0 1.344C4.45 16.44 8.22 20.244 12 24c2.295-2.298 2.395-6.096-.08-8.533l-3.47-3.469 3.2-3.2c-1.918-1.955-2.363-4.725-1.394-7.057z"></path></svg>
                                     <div className="text-lg text-[#051626c2] font-semibold">
@@ -322,7 +322,7 @@ function taxiAppDevelopmentCompany() {
                     <div className="flex flex-row flex-wrap w-full mt-5 relative z-40 items-strentch">
                         <div className="lg:w-1/3 overflow-hidden w-full h-auto relative -z-10 sm:w-1/2 p-3">
                             <div className="bg-white w-full p-4  h-full relative before:absolute before:-z-40 before:h-[80px] before:w-[80px] before:duration-700 before:bg-theme1 before:top-[-3px] before:left-[-3px] before:hover:w-[100%] before:hover:h-[100%] after:w-[80px] after:h-[80px] after:absolute after:bottom-[-3px] after:right-[-3px] before:rounded-2xl after:rounded-2xl after: rounded-2xl after:bg-theme2 after:-z-20 after:duration-700 after:hover:w-full after:hover:h-full ">
-                                <div className="flex justify-between items-center">
+                                <div className="flex gap-x-3 items-center">
                                     <div className="h-[50px] w-[50px] rounded-full roundedrt-3xl bg-blue-100 flex justify-center items-center">
                                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" className="w-[30px] h-[50px] text-gray-800" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M7 5h10v2h2V3c0-1.1-.9-1.99-2-1.99L7 1c-1.1 0-2 .9-2 2v4h2V5zm8.41 11.59L20 12l-4.59-4.59L14 8.83 17.17 12 14 15.17l1.41 1.42zM10 15.17L6.83 12 10 8.83 8.59 7.41 4 12l4.59 4.59L10 15.17zM17 19H7v-2H5v4c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2v-4h-2v2z"></path></svg>
                                     </div>
@@ -337,7 +337,7 @@ function taxiAppDevelopmentCompany() {
                         </div>
                         <div className="lg:w-1/3 overflow-hidden w-full h-auto relative -z-10 sm:w-1/2 p-3">
                             <div className="bg-white w-full p-4  h-full relative before:absolute before:-z-40 before:h-[80px] before:w-[80px] before:duration-700 before:bg-theme1 before:top-[-3px] before:left-[-3px] before:hover:w-[100%] before:hover:h-[100%] after:w-[80px] after:h-[80px] after:absolute after:bottom-[-3px] after:right-[-3px] before:rounded-2xl after:rounded-2xl after: rounded-2xl after:bg-theme2 after:-z-20 after:duration-700 after:hover:w-full after:hover:h-full ">
-                                <div className="flex justify-between items-center">
+                                <div className="flex gap-x-3 items-center">
                                     <div className="h-[50px] w-[50px] rounded-full roundedrt-3xl bg-blue-100 flex justify-center items-center">
                                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" className="w-[30px] h-[50px] text-gray-800" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M7 5h10v2h2V3c0-1.1-.9-1.99-2-1.99L7 1c-1.1 0-2 .9-2 2v4h2V5zm8.41 11.59L20 12l-4.59-4.59L14 8.83 17.17 12 14 15.17l1.41 1.42zM10 15.17L6.83 12 10 8.83 8.59 7.41 4 12l4.59 4.59L10 15.17zM17 19H7v-2H5v4c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2v-4h-2v2z"></path></svg>
                                     </div>
@@ -352,7 +352,7 @@ function taxiAppDevelopmentCompany() {
                         </div>
                         <div className="lg:w-1/3 overflow-hidden w-full h-auto relative -z-10 sm:w-1/2 p-3">
                             <div className="bg-white w-full p-4  h-full relative before:absolute before:-z-40 before:h-[80px] before:w-[80px] before:duration-700 before:bg-theme1 before:top-[-3px] before:left-[-3px] before:hover:w-[100%] before:hover:h-[100%] after:w-[80px] after:h-[80px] after:absolute after:bottom-[-3px] after:right-[-3px] before:rounded-2xl after:rounded-2xl after: rounded-2xl after:bg-theme2 after:-z-20 after:duration-700 after:hover:w-full after:hover:h-full ">
-                                <div className="flex justify-between items-center">
+                                <div className="flex gap-x-3 items-center">
                                     <div className="h-[50px] w-[50px] rounded-full roundedrt-3xl bg-blue-100 flex justify-center items-center">
                                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" className="w-[30px] h-[50px] text-gray-800" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M7 5h10v2h2V3c0-1.1-.9-1.99-2-1.99L7 1c-1.1 0-2 .9-2 2v4h2V5zm8.41 11.59L20 12l-4.59-4.59L14 8.83 17.17 12 14 15.17l1.41 1.42zM10 15.17L6.83 12 10 8.83 8.59 7.41 4 12l4.59 4.59L10 15.17zM17 19H7v-2H5v4c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2v-4h-2v2z"></path></svg>
                                     </div>

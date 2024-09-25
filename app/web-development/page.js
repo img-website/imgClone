@@ -107,9 +107,9 @@ function webdevelopment() {
                         <span className='text-white'>Website Updates  </span>
                         <span className="font-bold text-theme2"> and Migrations</span>
                     </p>
-              <div className="grid grid-cols-3 gap-y-5">
+              <div className="grid grid-cols-1 sm:grid-cols-2  md:grid-cols-3 gap-y-5 gap-x-3 lg:gap-x-5">
               
-              <div className="max-w-sm hover:shadow-2xl hover:-translate-y-1 duration-500 p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
+              <div className=" hover:shadow-2xl hover:-translate-y-1 duration-500 p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
             
                     <div href="#">
                         <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Driving Meaningful Innovations"</h5>
@@ -117,7 +117,7 @@ function webdevelopment() {
                     <p className="mb-3 font-normal text-gray-500 dark:text-gray-400">"From crafting simple web pages to developing complex solutions, our team specializes in delivering top-notch results. Leveraging the latest tools and technologies, we provide industry-leading custom web and application development services. Become the next market leader—let your business website or application captivate users at first glance."</p>
                    
                 </div>
-                <div className="max-w-sm hover:shadow-2xl hover:-translate-y-1 duration-500 p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <div className=" hover:shadow-2xl hover:-translate-y-1 duration-500 p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                 
                     <div href="#">
                         <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Personalized Web Development Strategies</h5>
@@ -127,7 +127,7 @@ function webdevelopment() {
 </p>
                    
                 </div>
-                <div className="max-w-sm hover:shadow-2xl hover:-translate-y-1 duration-500 p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <div className=" hover:shadow-2xl hover:-translate-y-1 duration-500 p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                 
                     <div href="#">
                         <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Innovative Frontend Development Solutions
@@ -136,7 +136,7 @@ function webdevelopment() {
                     <p className="mb-3 font-normal text-gray-500 dark:text-gray-400">"Our customized frontend web development solutions are designed to be both tailored and easy to maintain. With a team of dedicated frontend developers, we deliver exceptional custom web development services. Start your online journey with one of the leading custom web development companies in the USA."    </p>
                    
                 </div>
-                <div className="max-w-sm hover:shadow-2xl hover:-translate-y-1 duration-500 p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
+                <div className=" hover:shadow-2xl hover:-translate-y-1 duration-500 p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
             
                     <div href="#">
                         <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">"Expert Custom Backend Development"
@@ -148,7 +148,7 @@ function webdevelopment() {
                       "The backend code of a website or application may be invisible, but it powers the entire operation. Our skilled backend developers understand this crucial role and are dedicated to delivering robust and custom backend development. Share your requirements for a business website, and let our experts handle the rest."</p>
                    
                 </div>
-                <div className="max-w-sm hover:shadow-2xl hover:-translate-y-1 duration-500 p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <div className=" hover:shadow-2xl hover:-translate-y-1 duration-500 p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                 
                     <div href="#">
                         <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">UX/UI Designing Services</h5>
@@ -156,7 +156,7 @@ function webdevelopment() {
                     <p className="mb-3 font-normal text-gray-500 dark:text-gray-400">Besides developing a custom website, focusing on the design details is a must to ensure project success. So, we have a team of creative heads who put their 100% effort into creating unique business applications and websites that are enough to steal your customers' hearts. Seek UX/UI designing services for your custom web development solutions.</p>
                    
                 </div>
-                <div className="max-w-sm hover:shadow-2xl hover:-translate-y-1 duration-500 p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <div className=" hover:shadow-2xl hover:-translate-y-1 duration-500 p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                 
                     <div href="#">
                         <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Personalized Website Support & Maintenance</h5>
@@ -164,7 +164,7 @@ function webdevelopment() {
                     <p className="mb-3 font-normal text-gray-500 dark:text-gray-400">Developing a fully customized website is just the beginning for business owners. Timely maintenance of your application or website is essential for smooth operation and to remain competitive. With our custom web support and maintenance services, we ensure your business website stays updated with the latest market trends.   </p>
                    
                 </div>
-                <div className="max-w-sm hover:shadow-2xl hover:-translate-y-1 duration-500 p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
+                <div className=" hover:shadow-2xl hover:-translate-y-1 duration-500 p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
             
                     <div href="#">
                         <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Custom Web Migration & Upgradation</h5>
@@ -172,7 +172,7 @@ function webdevelopment() {
                     <p className="mb-3 font-normal text-gray-500 dark:text-gray-400">Business apps and websites need constant upgradation to reinvigorate digital experiences. With our custom web migration and upgradation services, you can make your existing business solutions result-driven and successful. Upgrade your business website to the newest industry standards and give your customers an amazing web experience.</p>
                    
                 </div>
-                <div className="max-w-sm hover:shadow-2xl hover:-translate-y-1 duration-500 p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <div className=" hover:shadow-2xl hover:-translate-y-1 duration-500 p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                 
                     <div href="#">
                         <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">"Comprehensive API Development Solutions"
