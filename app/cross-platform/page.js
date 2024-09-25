@@ -156,14 +156,6 @@ function crossplatform() {
             <div className="relative isolate   py-6 md:py-8 lg:py-16">
                 <div className="overflow-hidden">
                     <div className="absolute inset-x-0 top-0 h-96 z-0 text-slate-600/5 [mask-image:linear-gradient(to_top,transparent,white)] pointer-events-none">
-                        <svg className="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
-                            <defs>
-                                <pattern id="ED433" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
-                                    <path d="M0 32V.5H32" fill="none" stroke="currentColor"></path>
-                                </pattern>
-                            </defs>
-                            <rect width="100%" height="100%" fill="url(#ED433)"></rect>
-                        </svg>
                     </div>
                     <div className="relative container mx-auto max-w-7xl px-6 lg:px-8 z-10 text-center">
                         <p className=" max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black text-balance
@@ -171,8 +163,8 @@ function crossplatform() {
                     first:*:font-normal
 
                     last:*:font-bold last:*:text-theme2
-                "><span>Lorem ipsum dolor sit amet consectetur   </span>
-                            <span>adipisicing elit. Sit temporibus ipsum  </span></p>
+                "><span>Benefits of Opting for Cross  </span>
+                            <span> Platform App Development</span></p>
                     </div>
                 </div>
                 <div className="container pt-5 md:p-5 sm:p-8 p-5 mx-auto max-w-7xl px-6 lg:px-8 relative z-10 flex">
