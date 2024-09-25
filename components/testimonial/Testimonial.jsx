@@ -108,21 +108,21 @@ function Testimonial() {
 
                     <div className="mt-20 grid gap-6 grid-cols-2 sm:gap-12 lg:grid-cols-3 lg:gap-8 justify-center">
                         <div className='text-center'>
-                            <h4 className="text-lg sm:text-xl font-semibold text-white">Accuracy rate</h4>
-                            <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-blue-500">99.95%</p>
-                            <p className="mt-1 text-gray-400">in fulfilling orders</p>
+                            <h4 className="text-sm sm:text-xl font-semibold text-white">Accuracy rate</h4>
+                            <p className="mt-2 sm:mt-3 text-3xl sm:text-6xl font-bold text-blue-500">99.95%</p>
+                            <p className="mt-1 text-gray-400 max-sm:text-xs">in fulfilling orders</p>
                         </div>
 
                         <div className='text-center'>
-                            <h4 className="text-lg sm:text-xl font-semibold text-white">Startup businesses</h4>
-                            <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-blue-500">2,000+</p>
-                            <p className="mt-1 text-gray-400">partner with Preline</p>
+                            <h4 className="text-sm sm:text-xl font-semibold text-white">Startup businesses</h4>
+                            <p className="mt-2 sm:mt-3 text-3xl sm:text-6xl font-bold text-blue-500">2,000+</p>
+                            <p className="mt-1 text-gray-400 max-sm:text-xs">partner with Preline</p>
                         </div>
 
                         <div className='text-center'>
-                            <h4 className="text-lg sm:text-xl font-semibold text-white">Happy customer</h4>
-                            <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-blue-500">85%</p>
-                            <p className="mt-1 text-gray-400">this year alone</p>
+                            <h4 className="text-sm sm:text-xl font-semibold text-white">Happy customer</h4>
+                            <p className="mt-2 sm:mt-3 text-3xl sm:text-6xl font-bold text-blue-500">85%</p>
+                            <p className="mt-1 text-gray-400 max-sm:text-xs">this year alone</p>
                         </div>
                     </div>
 

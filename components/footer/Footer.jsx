@@ -112,7 +112,7 @@ function Footer() {
 
                     <hr className="mt-16 mb-10 border-gray-800" />
 
-                    <div className="flex flex-wrap items-center justify-between h-16">
+                    <div className="flex flex-wrap items-center justify-between max-sm:justify-center h-16 ">
                         <Image 
                         width="1000"
                         height="1000"
@@ -120,7 +120,7 @@ function Footer() {
                         loading="lazy"
                         className="h-8 md:h-12 w-auto auto md:order-1" src="/img/logo.png" alt="" />
 
-                        <ul className="flex items-center space-x-3 md:order-3">
+                        <ul className="flex items-center space-x-3 md:order-3 max-sm:mt-3 max-sm:w-full max-sm:justify-center" >
                             <li>
                                 <a href="javascript:;" title="" className="flex items-center justify-center opacity-80 text-white transition-all duration-200 bg-transparent border border-gray-700 rounded-full w-7 h-7 focus:bg-theme1 hover:bg-theme1 hover:border-theme1 focus:border-theme1">
                                     <svg className="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
