@@ -45,7 +45,7 @@ function customerRelationshipManagement() {
 
 
             {/* benifits sec start */}
-            <div className="relative bg-gray-100 py-6 md:py-8 lg:py-16">
+            <div className="relative py-6 md:py-8 lg:py-16">
                 <div className="mx-auto max-w-7xl px-6 lg:px-8 w-full relative">
 
                     <div className="mx-auto max-w-container gap-7 flex flex-col max-lg:gap-4 items-center">
@@ -64,56 +64,63 @@ function customerRelationshipManagement() {
 
                         </div>
                         <div className="w-full grid md:grid-cols-3 gap-8">
-                            <div className="border-2 p-5 group rounded-3xl border-black relative before:absolute before:size-24 before:border-t-[10px] before:border-l-[10px] before:rounded-tl-3xl before:border-fuchsia-500 before:-inset-[5px] md:hover:shadow-xl md:hover:shadow-fuchsia-700/40 duration-300">
-                                <div className="bg-white duration-300 p-2 shadow-xl shadow-black/20 md:group-hover:shadow-black/0 rounded-3xl h-full">
-                                    <div className="flex p-3 flex-col gap-3">
-                                        <div className="lg:text-6xl md:text-4xl text-3xl font-bold text-fuchsia-500 *:size-full">
-                                            01
+                          
+                            <div class="relative h-full md:group md:hover:shadow-2xl md:hover:shadow-sky-300 duration-300 bg-white p-4 pb-0 m-2 rounded-lg shadow-2xl before:absolute before:h-12 before:w-4 before:bg-sky-600 before:-left-4 before:top-5 after:absolute after:size-8 after:-z-10 after:rotate-45 after:top-[52px] after:-left-2 after:bg-sky-600">
+                                <div class="flex flex-col justify-center items-center mt-12">
+                                    <div class="flex flex-1 flex-col justify-center items-center rounded-xl p-4">
+                                        <div class="w-full md:text-xl mt-4 sm:text-lg text-base font-medium leading-6 text-sky-500 ">
+                                        EASY TO USE
                                         </div>
-                                        <div className="md:text-lg sm:text-base text-sm leading-6 capitalize font-bold">
-                                            EASY TO USE
-                                        </div>
-                                        <div className="mt-2 sm:text-base text-sm leading-6">
-                                            The time and effort needed to learn this software should be minimal. It is user-friendly and fulfills all the requirements specified by customers.
-                                        </div>
+                                        <p class="mt-2 mb-10 sm:text-base text-sm leading-6 font-normal text-gray-500 line-clamp-6 text-ellipsis w-full">
+                                        The time and effort needed to learn this software should be minimal. It is user-friendly and fulfills all the requirements specified by customers.
+                                        </p>
+                                    </div>
+                                    <div class="flex absolute bottom-0 items-center justify-center">
+                                        <div class="w-28 h-5 bg-sky-500 rounded-full border-t-4 border-sky-600 relative before:absolute before:w-12 before:aspect-[1/1] before:rounded-full before:bg-sky-500 before:-top-8 before:left-1/2 before:-translate-x-1/2 before:text-3xl before:font-bold before:text-white before:flex before:items-center before:justify-center "></div>
                                     </div>
                                 </div>
-                                <div className="absolute flex justify-center items-end -left-[5px] top-20 w-[10px] h-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:-translate-x-1/2 before:translate-y-1/2 before:bottom-0 before:left-[calc(50%-1px)]"></div>
-                                <div className="absolute flex item-center-center justify-end left-20 -top-[5px] h-[10px] w-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:translate-x-1/2 before:-translate-y-1/2 before:top-[calc(50%-1px)] before:right-0"></div>
+                                <div class="absolute top-5 py-1 left-0 flex flex-col justify-center items-center size-max bg-sky-500 px-5 rounded-r-full">
+                                    <div class="text-4xl font-semibold text-white">01</div>
+                                    {/* <div class="text-base -mt-1 font-semibold text-white">STEP</div> */}
+                                </div>
                             </div>
-                            <div className="border-2 p-5 group rounded-3xl border-black relative before:absolute before:size-24 before:border-t-[10px] before:border-l-[10px] before:rounded-tl-3xl before:border-pink-500 before:-inset-[5px] md:hover:shadow-xl md:hover:shadow-pink-700/40 duration-300">
-                                <div className="bg-white duration-300 p-2 shadow-xl shadow-black/20 md:group-hover:shadow-black/0 rounded-3xl h-full">
-                                    <div className="flex p-3 flex-col gap-3">
-                                        <div className="lg:text-6xl md:text-4xl text-3xl font-bold text-pink-500 *:size-full">
-                                            02
+                            <div class="relative h-full md:group md:hover:shadow-2xl md:hover:shadow-amber-300 duration-300 bg-white p-4 pb-0 m-2 rounded-lg shadow-2xl  before:absolute before:h-12 before:w-4 before:bg-amber-600 before:-left-4 before:top-5 after:absolute after:size-8 after:-z-10 after:rotate-45 after:top-[52px] after:-left-2 after:bg-amber-600">
+                                <div class="flex flex-col justify-center items-center mt-12">
+                                    <div class="flex flex-1 flex-col justify-center items-center rounded-xl p-4">
+                                        <div class="w-full md:text-xl mt-4 sm:text-lg text-base font-medium leading-6 text-amber-500 ">
+                                        SECURE ENVIRONMENT
                                         </div>
-                                        <div className="md:text-lg sm:text-base text-sm leading-6 capitalize font-bold">
-                                            SECURE ENVIRONMENT
-                                        </div>
-                                        <div className="mt-2 sm:text-base text-sm leading-6">
-                                            In today’s world, security threats are on the rise. This software does not negatively impact data or hardware. It is essential to implement proper measures to ensure data security.
-                                        </div>
+                                        <p class="mt-2 mb-10 sm:text-base text-sm leading-6 font-normal text-gray-500 line-clamp-6 text-ellipsis w-full">
+                                        In today’s world, security threats are on the rise. This software does not negatively impact data or hardware. It is essential to implement proper measures to ensure data security.
+                                        </p>
+                                    </div>
+                                    <div class="flex absolute bottom-0 items-center justify-center">
+                                        <div class="w-28 h-5 bg-amber-500 rounded-full border-t-4 border-amber-600 relative before:absolute before:w-12 before:aspect-[1/1] before:rounded-full before:bg-amber-500 before:-top-8 before:left-1/2 before:-translate-x-1/2 before:text-3xl before:font-bold before:text-white before:flex before:items-center before:justify-center "></div>
                                     </div>
                                 </div>
-                                <div className="absolute flex justify-center items-end -left-[5px] top-20 w-[10px] h-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:-translate-x-1/2 before:translate-y-1/2 before:bottom-0 before:left-[calc(50%-1px)]"></div>
-                                <div className="absolute flex item-center-center justify-end left-20 -top-[5px] h-[10px] w-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:translate-x-1/2 before:-translate-y-1/2 before:top-[calc(50%-1px)] before:right-0"></div>
+                                <div class="absolute top-5 py-1 left-0 flex flex-col justify-center items-center size-max bg-amber-500 px-5 rounded-r-full">
+                                    <div class="text-4xl font-semibold text-white">02</div>
+                                    {/* <div class="text-base -mt-1 font-semibold text-white">STEP</div> */}
+                                </div>
                             </div>
-                            <div className="border-2 p-5 group rounded-3xl border-black relative before:absolute before:size-24 before:border-t-[10px] before:border-l-[10px] before:rounded-tl-3xl before:border-rose-500 before:-inset-[5px] md:hover:shadow-xl md:hover:shadow-rose-700/40 duration-300">
-                                <div className="bg-white duration-300 p-2 shadow-xl shadow-black/20 md:group-hover:shadow-black/0 rounded-3xl h-full">
-                                    <div className="flex p-3 flex-col gap-3">
-                                        <div className="lg:text-6xl md:text-4xl text-3xl font-bold text-rose-500 *:size-full">
-                                            03
+                            <div class="relative h-full md:group md:hover:shadow-2xl md:hover:shadow-cyan-300 duration-300 bg-white p-4 pb-0 m-2 rounded-lg shadow-2xl  before:absolute before:h-12 before:w-4 before:bg-cyan-700 before:-left-4 before:top-5 after:absolute after:size-8 after:-z-10 after:rotate-45 after:top-[52px] after:-left-2 after:bg-cyan-700">
+                                <div class="flex flex-col justify-center items-center mt-12">
+                                    <div class="flex flex-1 flex-col justify-center items-center rounded-xl p-4">
+                                        <div class="w-full md:text-xl mt-4 sm:text-lg text-base font-medium leading-6 text-cyan-600 ">
+                                        INTEROPERABILITY
                                         </div>
-                                        <div className="md:text-lg sm:text-base text-sm leading-6 capitalize font-bold">
-                                            INTEROPERABILITY
-                                        </div>
-                                        <div className="mt-2 sm:text-base text-sm leading-6">
-                                            The software can easily exchange information with other applications and make use of the information transparently.
-                                        </div>
+                                        <p class="mt-2 mb-10 sm:text-base text-sm leading-6 font-normal text-gray-500 line-clamp-6 text-ellipsis w-full">
+                                        The software can easily exchange information with other applications and make use of the information transparently.
+                                        </p>
+                                    </div>
+                                    <div class="flex absolute bottom-0 items-center justify-center">
+                                        <div class="w-28 h-5 bg-cyan-600 rounded-full border-t-4 border-cyan-700 relative before:absolute before:w-12 before:aspect-[1/1] before:rounded-full before:bg-cyan-600 before:-top-8 before:left-1/2 before:-translate-x-1/2 before:text-3xl before:font-bold before:text-white before:flex before:items-center before:justify-center "></div>
                                     </div>
                                 </div>
-                                <div className="absolute flex justify-center items-end -left-[5px] top-20 w-[10px] h-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:-translate-x-1/2 before:translate-y-1/2 before:bottom-0 before:left-[calc(50%-1px)]"></div>
-                                <div className="absolute flex item-center-center justify-end left-20 -top-[5px] h-[10px] w-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:translate-x-1/2 before:-translate-y-1/2 before:top-[calc(50%-1px)] before:right-0"></div>
+                                <div class="absolute py-1 top-5 left-0 flex flex-col justify-center items-center size-max bg-cyan-600 px-5 rounded-r-full">
+                                    <div class="text-4xl font-semibold text-white">03</div>
+                                    {/* <div class="text-base -mt-1 font-semibold text-white">STEP</div> */}
+                                </div>
                             </div>
                         </div>
                     </div>
