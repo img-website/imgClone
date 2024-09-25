@@ -125,7 +125,7 @@ function androidApplicationDevelopment() {
             <Cta />
 
             {/* card */}
-            <div className="relative bg-gray-100 py-6 md:py-8 lg:py-16">
+            <div className="relative py-6 md:py-8 lg:py-16">
                 <div className="mx-auto max-w-7xl px-6 lg:px-8 w-full relative">
 
                     <div className="mx-auto max-w-container gap-7 flex flex-col max-lg:gap-4 items-center">
@@ -145,7 +145,7 @@ function androidApplicationDevelopment() {
                         </div>
 
                         <div class="grid lg:grid-cols-3 gap-y-8 sm:grid-cols-2 gap-3 mx-auto px-4 sm:px-6 lg:px-8 py-20 relative">
-                            <div class="relative h-full md:group md:hover:shadow-2xl md:hover:shadow-sky-300 duration-300 bg-white p-4 pb-0 m-2 rounded-lg shadow-2xl relative before:absolute before:h-12 before:w-4 before:bg-sky-600 before:-left-4 before:top-5 after:absolute after:size-8 after:-z-10 after:rotate-45 after:top-[52px] after:-left-2 after:bg-sky-600">
+                            <div class="h-full md:group md:hover:shadow-2xl md:hover:shadow-sky-300 duration-300 bg-white p-4 pb-0 m-2 rounded-lg shadow-2xl relative before:absolute before:h-12 before:w-4 before:bg-sky-600 before:-left-4 before:top-5 after:absolute after:size-8 after:-z-10 after:rotate-45 after:top-[52px] after:-left-2 after:bg-sky-600">
                                 <div class="flex flex-col justify-center items-center mt-12">
                                     <div class="flex flex-1 flex-col justify-center items-center rounded-xl p-4">
                                         <div class="md:text-xl mt-4 sm:text-lg text-base font-medium leading-6 text-sky-500 ">
@@ -165,7 +165,7 @@ function androidApplicationDevelopment() {
                                 </div>
                             </div>
 
-                            <div class="relative h-full md:group md:hover:shadow-2xl md:hover:shadow-amber-300 duration-300 bg-white p-4 pb-0 m-2 rounded-lg shadow-2xl relative before:absolute before:h-12 before:w-4 before:bg-amber-600 before:-left-4 before:top-5 after:absolute after:size-8 after:-z-10 after:rotate-45 after:top-[52px] after:-left-2 after:bg-amber-600">
+                            <div class="h-full md:group md:hover:shadow-2xl md:hover:shadow-amber-300 duration-300 bg-white p-4 pb-0 m-2 rounded-lg shadow-2xl relative before:absolute before:h-12 before:w-4 before:bg-amber-600 before:-left-4 before:top-5 after:absolute after:size-8 after:-z-10 after:rotate-45 after:top-[52px] after:-left-2 after:bg-amber-600">
                                 <div class="flex flex-col justify-center items-center mt-12">
                                     <div class="flex flex-1 flex-col justify-center items-center rounded-xl p-4">
                                         <div class="md:text-xl mt-4 sm:text-lg text-base font-medium leading-6 text-amber-500 ">
@@ -185,7 +185,7 @@ function androidApplicationDevelopment() {
                                 </div>
                             </div>
 
-                            <div class="relative h-full md:group md:hover:shadow-2xl md:hover:shadow-cyan-300 duration-300 bg-white p-4 pb-0 m-2 rounded-lg shadow-2xl relative before:absolute before:h-12 before:w-4 before:bg-cyan-700 before:-left-4 before:top-5 after:absolute after:size-8 after:-z-10 after:rotate-45 after:top-[52px] after:-left-2 after:bg-cyan-700">
+                            <div class="h-full md:group md:hover:shadow-2xl md:hover:shadow-cyan-300 duration-300 bg-white p-4 pb-0 m-2 rounded-lg shadow-2xl relative before:absolute before:h-12 before:w-4 before:bg-cyan-700 before:-left-4 before:top-5 after:absolute after:size-8 after:-z-10 after:rotate-45 after:top-[52px] after:-left-2 after:bg-cyan-700">
                                 <div class="flex flex-col justify-center items-center mt-12">
                                     <div class="flex flex-1 flex-col justify-center items-center rounded-xl p-4">
                                         <div class="md:text-xl mt-4 sm:text-lg text-base font-medium leading-6 text-cyan-600 ">
@@ -205,7 +205,7 @@ function androidApplicationDevelopment() {
                                 </div>
                             </div>
 
-                            <div class="relative h-full md:group md:hover:shadow-2xl md:hover:shadow-rose-300 duration-300 bg-white p-4 pb-0 m-2 rounded-lg shadow-2xl relative before:absolute before:h-12 before:w-4 before:bg-rose-900 before:-left-4 before:top-5 after:absolute after:size-8 after:-z-10 after:rotate-45 after:top-[52px] after:-left-2 after:bg-rose-900">
+                            <div class="h-full md:group md:hover:shadow-2xl md:hover:shadow-rose-300 duration-300 bg-white p-4 pb-0 m-2 rounded-lg shadow-2xl relative before:absolute before:h-12 before:w-4 before:bg-rose-900 before:-left-4 before:top-5 after:absolute after:size-8 after:-z-10 after:rotate-45 after:top-[52px] after:-left-2 after:bg-rose-900">
                                 <div class="flex flex-col justify-center items-center mt-12">
                                     <div class="flex flex-1 flex-col justify-center items-center rounded-xl p-4">
                                         <div class="md:text-xl mt-4 sm:text-lg text-base font-medium leading-6 text-rose-700 ">
@@ -225,7 +225,7 @@ function androidApplicationDevelopment() {
                                 </div>
                             </div>
 
-                            <div class="relative h-full md:group md:hover:shadow-2xl md:hover:shadow-sky-300 duration-300 bg-white p-4 pb-0 m-2 rounded-lg shadow-2xl relative before:absolute before:h-12 before:w-4 before:bg-sky-600 before:-left-4 before:top-5 after:absolute after:size-8 after:-z-10 after:rotate-45 after:top-[52px] after:-left-2 after:bg-sky-600">
+                            <div class="h-full md:group md:hover:shadow-2xl md:hover:shadow-sky-300 duration-300 bg-white p-4 pb-0 m-2 rounded-lg shadow-2xl relative before:absolute before:h-12 before:w-4 before:bg-sky-600 before:-left-4 before:top-5 after:absolute after:size-8 after:-z-10 after:rotate-45 after:top-[52px] after:-left-2 after:bg-sky-600">
                                 <div class="flex flex-col justify-center items-center mt-12">
                                     <div class="flex flex-1 flex-col justify-center items-center rounded-xl p-4">
                                         <div class="md:text-xl mt-4 sm:text-lg text-base font-medium leading-6 text-sky-500 ">
@@ -245,7 +245,7 @@ function androidApplicationDevelopment() {
                                 </div>
                             </div>
 
-                            <div class="relative h-full md:group md:hover:shadow-2xl md:hover:shadow-amber-300 duration-300 bg-white p-4 pb-0 m-2 rounded-lg shadow-2xl relative before:absolute before:h-12 before:w-4 before:bg-amber-600 before:-left-4 before:top-5 after:absolute after:size-8 after:-z-10 after:rotate-45 after:top-[52px] after:-left-2 after:bg-amber-600">
+                            <div class="h-full md:group md:hover:shadow-2xl md:hover:shadow-amber-300 duration-300 bg-white p-4 pb-0 m-2 rounded-lg shadow-2xl relative before:absolute before:h-12 before:w-4 before:bg-amber-600 before:-left-4 before:top-5 after:absolute after:size-8 after:-z-10 after:rotate-45 after:top-[52px] after:-left-2 after:bg-amber-600">
                                 <div class="flex flex-col justify-center items-center mt-12">
                                     <div class="flex flex-1 flex-col justify-center items-center rounded-xl p-4">
                                         <div class="md:text-xl mt-4 sm:text-lg text-base font-medium leading-6 text-amber-500 ">
@@ -265,7 +265,7 @@ function androidApplicationDevelopment() {
                                 </div>
                             </div>
 
-                            <div class="relative h-full md:group md:hover:shadow-2xl md:hover:shadow-cyan-300 duration-300 bg-white p-4 pb-0 m-2 rounded-lg shadow-2xl relative before:absolute before:h-12 before:w-4 before:bg-cyan-700 before:-left-4 before:top-5 after:absolute after:size-8 after:-z-10 after:rotate-45 after:top-[52px] after:-left-2 after:bg-cyan-700">
+                            <div class="h-full md:group md:hover:shadow-2xl md:hover:shadow-cyan-300 duration-300 bg-white p-4 pb-0 m-2 rounded-lg shadow-2xl relative before:absolute before:h-12 before:w-4 before:bg-cyan-700 before:-left-4 before:top-5 after:absolute after:size-8 after:-z-10 after:rotate-45 after:top-[52px] after:-left-2 after:bg-cyan-700">
                                 <div class="flex flex-col justify-center items-center mt-12">
                                     <div class="flex flex-1 flex-col justify-center items-center rounded-xl p-4">
                                         <div class="md:text-xl mt-4 sm:text-lg text-base font-medium leading-6 text-cyan-600 ">
@@ -285,7 +285,7 @@ function androidApplicationDevelopment() {
                                 </div>
                             </div>
 
-                            <div class="relative h-full md:group md:hover:shadow-2xl md:hover:shadow-rose-300 duration-300 bg-white p-4 pb-0 m-2 rounded-lg shadow-2xl relative before:absolute before:h-12 before:w-4 before:bg-rose-900 before:-left-4 before:top-5 after:absolute after:size-8 after:-z-10 after:rotate-45 after:top-[52px] after:-left-2 after:bg-rose-900">
+                            <div class="h-full md:group md:hover:shadow-2xl md:hover:shadow-rose-300 duration-300 bg-white p-4 pb-0 m-2 rounded-lg shadow-2xl relative before:absolute before:h-12 before:w-4 before:bg-rose-900 before:-left-4 before:top-5 after:absolute after:size-8 after:-z-10 after:rotate-45 after:top-[52px] after:-left-2 after:bg-rose-900">
                                 <div class="flex flex-col justify-center items-center mt-12">
                                     <div class="flex flex-1 flex-col justify-center items-center rounded-xl p-4">
                                         <div class="md:text-xl mt-4 sm:text-lg text-base font-medium leading-6 text-rose-700 ">
