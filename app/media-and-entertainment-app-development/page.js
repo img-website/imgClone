@@ -231,7 +231,7 @@ function mediaandentertainmentappdevelopment() {
             </div>
             <div className="w-full grid lg:grid-cols-12  place-content-center place-items-center gap-8">
                 <div className="lg:col-span-4 md:col-span-6 col-span-12 overflow-hidden group items-center h-full relative before:absolute before:bottom-0 before:z-[100] before:w-full before:h-16 before:bg-slate-900 before:content drop-shadow-2xl">
-                    <div className="bg-white pb-24 md:group-hover:-translate-y-2 duration-300 px-10 pt-10 rounded-t-[40px]  flex flex-col m-3 items-center overflow-hidden justify-center relative before:absolute before:w-16 before:h-6 before:-skew-x-12 before:m-2 before:border-2 before:border-gray-100 before:-right-5 before:top-8 before:bg-slate-900">
+                    <div className="bg-white pb-24 md:group-hover:-translate-y-2 duration-300 px-10 pt-10 rounded-t-[40px]  flex flex-col m-3 items-center overflow-hidden justify-center relative ">
                        <div className="*:h-14 overflow-hidden ">
                         <Image src="/img/logo-netflix.webp" className=" qaspect-square"  width={56} height={56}  alt=" image"/>
                        </div>
@@ -244,14 +244,10 @@ function mediaandentertainmentappdevelopment() {
                      </div>
                    <div className="size-4 bg-slate-900 absolute bottom-[56px] left-[3px] rotate-45 -z-10"></div>
                    <div className="size-4 bg-slate-900 absolute bottom-[56px] right-[3px] rotate-45 -z-10"></div>
-                    <div className="size-20 p-4 bg-slate-900 absolute z-[1000] rounded-full bottom-6 left-1/2 -translate-x-1/2">
-                      <div className="bg-white flex items-center justify-center size-full text-3xl font-bold rounded-full ">
-                        01
-                      </div>
-                    </div>
+                  
                 </div>
                 <div className="lg:col-span-4 md:col-span-6 col-span-12 overflow-hidden group items-center h-full relative before:absolute before:bottom-0 before:z-[100] before:w-full before:h-16 before:bg-blue-900 before:content drop-shadow-2xl">
-                    <div className="bg-white pb-24 md:group-hover:-translate-y-2 duration-300 px-10 pt-10 rounded-t-[40px]  flex flex-col m-3 items-center overflow-hidden justify-center relative before:absolute before:w-16 before:h-6 before:-skew-x-12 before:m-2 before:border-2 before:border-gray-100 before:-right-5 before:top-8 before:bg-blue-900">
+                    <div className="bg-white pb-24 md:group-hover:-translate-y-2 duration-300 px-10 pt-10 rounded-t-[40px]  flex flex-col m-3 items-center overflow-hidden justify-center relative ">
                         <div className="*:h-14 overflow-hidden ">
                             <Image src="/img/logo-hotstar.webp" className=" aspect-square"  width={56} height={56}  alt=" image"/>
                            </div>
@@ -266,14 +262,9 @@ function mediaandentertainmentappdevelopment() {
                     
                    </div>
                    <div className="size-4 bg-blue-900 absolute bottom-[56px] right-[3px] rotate-45 -z-10"></div>
-                    <div className="size-20 p-4 bg-blue-900 absolute z-[1000] rounded-full bottom-6 left-1/2 -translate-x-1/2">
-                      <div className="bg-white flex items-center justify-center size-full text-3xl font-bold rounded-full ">
-                        02
-                      </div>
-                    </div>
                 </div>
                 <div className="lg:col-span-4 md:col-span-6 col-span-12 overflow-hidden group items-center h-full relative before:absolute before:bottom-0 before:z-[100] before:w-full before:h-16 before:bg-pink-700 before:content drop-shadow-2xl">
-                    <div className="bg-white pb-24 md:group-hover:-translate-y-2 duration-300 px-10 pt-10 rounded-t-[40px]  flex flex-col m-3 items-center overflow-hidden justify-center relative before:absolute before:w-16 before:h-6 before:-skew-x-12 before:m-2 before:border-2 before:border-pink-700 before:-right-5 before:top-8 before:bg-pink-700">
+                    <div className="bg-white pb-24 md:group-hover:-translate-y-2 duration-300 px-10 pt-10 rounded-t-[40px]  flex flex-col m-3 items-center overflow-hidden justify-center relative ">
                         <div className="*:h-14 overflow-hidden ">
                             <Image src="/img/logo-inshot.webp" className=" aspect-square"  width={56} height={56} alt="image"/>
                            </div>
@@ -286,14 +277,9 @@ function mediaandentertainmentappdevelopment() {
                      </div>
                    <div className="size-4 bg-pink-700 absolute bottom-[56px] left-[3px] rotate-45 -z-10"></div>
                    <div className="size-4 bg-pink-700 absolute bottom-[56px] right-[3px] rotate-45 -z-10"></div>
-                    <div className="size-20 p-4 bg-pink-700 absolute z-[1000] rounded-full bottom-6 left-1/2 -translate-x-1/2">
-                      <div className="bg-white flex items-center justify-center size-full text-3xl font-bold rounded-full ">
-                        03
-                      </div>
-                    </div>
                 </div>
                 <div className="lg:col-start-3 lg:col-span-4 md:col-span-6 col-span-12 overflow-hidden group items-center h-full relative before:absolute before:bottom-0 before:z-[100] before:w-full before:h-16 before:bg-red-500 before:content drop-shadow-2xl">
-                    <div className="bg-white pb-24 md:group-hover:-tranred-y-2 duration-300 px-10 pt-10 rounded-t-[40px]  flex flex-col m-3 items-center overflow-hidden justify-center relative before:absolute before:w-16 before:h-6 before:-skew-x-12 before:m-2 before:border-2 before:border-rose-100 before:-right-5 before:top-8 before:bg-red-500">
+                    <div className="bg-white pb-24 md:group-hover:-tranred-y-2 duration-300 px-10 pt-10 rounded-t-[40px]  flex flex-col m-3 items-center overflow-hidden justify-center relative">
                         <div className="*:h-14 overflow-hidden ">
                             <Image src="/img/logo-gaana.webp" className=" aspect-square"  width={56} height={56}  alt=" image"/>
                            </div>
@@ -306,14 +292,9 @@ function mediaandentertainmentappdevelopment() {
                      </div>
                    <div className="size-4 bg-red-600 absolute bottom-[56px] left-[3px] rotate-45 -z-10"></div>
                    <div className="size-4 bg-red-600 absolute bottom-[56px] right-[3px] rotate-45 -z-10"></div>
-                    <div className="size-20 p-4 bg-red-500 absolute z-[1000] rounded-full bottom-6 left-1/2 -translate-x-1/2">
-                      <div className="bg-white flex items-center justify-center size-full text-3xl font-bold rounded-full ">
-                        04
-                      </div>
-                    </div>
                 </div>
                 <div className="lg:col-span-4 md:col-span-6 col-span-12 overflow-hidden group items-center h-full relative before:absolute before:bottom-0 before:z-[100] before:w-full before:h-16 before:bg-sky-500 before:content drop-shadow-2xl">
-                    <div className="bg-white pb-24 md:group-hover:-translate-y-2 duration-300 px-10 pt-10 rounded-t-[40px]  flex flex-col m-3 items-center overflow-hidden justify-center relative before:absolute before:w-16 before:h-6 before:-skew-x-12 before:m-2 before:border-2 before:border-rose-100 before:-right-5 before:top-8 before:bg-sky-500">
+                    <div className="bg-white pb-24 md:group-hover:-translate-y-2 duration-300 px-10 pt-10 rounded-t-[40px]  flex flex-col m-3 items-center overflow-hidden justify-center relative ">
                         <div className="*:h-14 overflow-hidden ">
                             <Image src="/img/logo-vimeo.webp"  className=" aspect-square"  width={56} height={56} alt=" image"/>
                            </div>
@@ -326,11 +307,6 @@ function mediaandentertainmentappdevelopment() {
                      </div>
                    <div className="size-4 bg-sky-600 absolute bottom-[56px] left-[3px] rotate-45 -z-10"></div>
                    <div className="size-4 bg-sky-600 absolute bottom-[56px] right-[3px] rotate-45 -z-10"></div>
-                    <div className="size-20 p-4 bg-sky-500 absolute z-[1000] rounded-full bottom-6 left-1/2 -translate-x-1/2">
-                      <div className="bg-white flex items-center justify-center size-full text-3xl font-bold rounded-full ">
-                        05
-                      </div>
-                    </div>
                 </div>
             </div>
             <div className="mt-8 flex gap-4 justify-center">
@@ -370,7 +346,7 @@ function mediaandentertainmentappdevelopment() {
     <div className="container pt-5 md:p-5 sm:p-8 p-5 mx-auto max-w-7xl px-6 lg:px-8 relative z-10 flex">
          <div className="flex flex-wrap mt-5 sm:mt-8 md:mt-10 items-center justify-center">
             <div className="md:pr-10 md:p-10 p-5 lg:w-1/2 md:w-1/2 w-full">
-                <div className="w-full text-center bg-gray-200 h-full group p-8 cursor-pointer shadow-lg rounded-lg flex items-center justify-center flex-col relative before:absolute before:bg-green-500 before:-bottom-5 before:rounded-lg before:hover:rotate-90 before:duration-700 before:-z-10 before:-right-5 before:size-40">
+                <div className="w-full text-center bg-gray-200 h-full group p-8 cursor-pointer shadow-lg rounded-lg flex items-center justify-center flex-col relative ">
                     <div className="md:text-2xl text-lg text-green-500 line-clamp-2 font-semibold">Enhancing Consumer Engagement and Interaction</div>
                     <div className="text-center text-sm line-clamp-6">
                     Mobile applications in the media and entertainment sector provide businesses with a direct communication channel to their target audience. By incorporating features such as social sharing, interactive experiences, and personalized content recommendations, companies can foster stronger connections with users, ultimately boosting customer retention and brand loyalty.
@@ -383,7 +359,7 @@ function mediaandentertainmentappdevelopment() {
                 </div>
             </div>
             <div className="md:pr-10 md:p-10 p-5 lg:w-1/2 md:w-1/2 w-full">
-                <div className="w-full text-center bg-gray-200 h-full group p-8 cursor-pointer shadow-lg rounded-lg flex items-center justify-center flex-col relative before:absolute before:bg-emerald-500 before:-bottom-5 before:rounded-lg before:hover:rotate-90 before:duration-700 before:-z-10 before:-right-5 before:size-40">
+                <div className="w-full text-center bg-gray-200 h-full group p-8 cursor-pointer shadow-lg rounded-lg flex items-center justify-center flex-col relative ">
                     <div className="md:text-2xl text-lg text-emerald-500 line-clamp-2 font-semibold">
                       Monetization Opportunities
                      </div>
@@ -398,7 +374,7 @@ function mediaandentertainmentappdevelopment() {
                 </div>
             </div>
             <div className="md:pr-10 md:p-10 p-5 lg:w-1/2 md:w-1/2 w-full">
-                <div className="w-full text-center bg-gray-200 h-full group p-8 cursor-pointer shadow-lg rounded-lg flex items-center justify-center flex-col relative before:absolute before:bg-teal-500 before:-bottom-5 before:rounded-lg before:hover:rotate-90 before:duration-700 before:-z-10 before:-right-5 before:size-40">
+                <div className="w-full text-center bg-gray-200 h-full group p-8 cursor-pointer shadow-lg rounded-lg flex items-center justify-center flex-col relative ">
                     <div className="md:text-2xl text-lg text-teal-500 line-clamp-2 font-semibold">Worldwide Reach and Accessibility</div>
                     <div className="text-center text-sm line-clamp-6">
                     With app development, businesses can access a global audience without geographic constraints. This expanded reach not only broadens the potential customer base but also allows companies to tailor their content to the diverse cultural preferences of their audience, facilitating entry into international markets.
@@ -411,7 +387,7 @@ function mediaandentertainmentappdevelopment() {
                 </div>
             </div>
             <div className="md:pr-10 md:p-10 p-5 lg:w-1/2 md:w-1/2 w-full">
-                <div className="w-full text-center bg-gray-200 h-full group p-8 cursor-pointer shadow-lg rounded-lg flex items-center justify-center flex-col relative before:absolute before:bg-cyan-500 before:-bottom-5 before:rounded-lg before:hover:rotate-90 before:duration-700 before:-z-10 before:-right-5 before:size-40">
+                <div className="w-full text-center bg-gray-200 h-full group p-8 cursor-pointer shadow-lg rounded-lg flex items-center justify-center flex-col relative ">
                     <div className="md:text-2xl text-lg text-cyan-500 line-clamp-2 font-semibold">
                     Insights Driven by Data
                       </div>
@@ -426,7 +402,7 @@ function mediaandentertainmentappdevelopment() {
                 </div>
             </div>
             <div className="md:pr-10 md:p-10 p-5 lg:w-1/2 md:w-1/2 w-full">
-                <div className="w-full text-center bg-gray-200 h-full group p-8 cursor-pointer shadow-lg rounded-lg flex items-center justify-center flex-col relative before:absolute before:bg-sky-500 before:-bottom-5 before:rounded-lg before:hover:rotate-90 before:duration-700 before:-z-10 before:-right-5 before:size-40">
+                <div className="w-full text-center bg-gray-200 h-full group p-8 cursor-pointer shadow-lg rounded-lg flex items-center justify-center flex-col relative ">
                     <div className="md:text-2xl text-lg text-sky-500 line-clamp-2 font-semibold">
                     Technological Innovation and Differentiation
                     </div>
@@ -812,107 +788,121 @@ function mediaandentertainmentappdevelopment() {
                 
             </div>
             <div className="w-full grid md:grid-cols-3 gap-8">
-                <div className="border-2 p-5 group rounded-4xl border-black relative before:absolute before:size-24 before:border-t-[10px] before:border-l-[10px] before:rounded-tl-4xl before:border-fuchsia-500 before:-inset-[5px] md:hover:shadow-xl md:hover:shadow-fuchsia-700/40 duration-300">
-                    <div className="bg-white duration-300 p-2 shadow-xl shadow-black/20 md:group-hover:shadow-black/0 rounded-3xl h-full">
-                        <div className="flex p-3 flex-col gap-3">
-                            <div className="lg:text-6xl md:text-4xl md:size-16 size-16 text-3xl font-bold text-fuchsia-500 *:size-full">
-                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M5 7h3V4H5v3Z"></path><path d="M1 2a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-2H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 9H1V8H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6H1V5H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 2H1Zm11 .5a.5.5 0 0 0-1 0v7a.5.5 0 0 0 1 0v-7Zm2 0a.5.5 0 0 0-1 0v7a.5.5 0 0 0 1 0v-7ZM3.5 10a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1h-6Zm0 2a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1h-6ZM4 4h-.5a.5.5 0 0 0 0 1H4v1h-.5a.5.5 0 0 0 0 1H4a1 1 0 0 0 1 1v.5a.5.5 0 0 0 1 0V8h1v.5a.5.5 0 0 0 1 0V8a1 1 0 0 0 1-1h.5a.5.5 0 0 0 0-1H9V5h.5a.5.5 0 0 0 0-1H9a1 1 0 0 0-1-1v-.5a.5.5 0 0 0-1 0V3H6v-.5a.5.5 0 0 0-1 0V3a1 1 0 0 0-1 1Zm7 7.5v1a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-2a.5.5 0 0 0-.5.5Z"></path></svg>
+                 
+                          <div class="relative h-full md:group md:hover:shadow-2xl md:hover:shadow-sky-300 duration-300 bg-white p-4 pb-0 m-2 rounded-lg shadow-2xl before:absolute before:h-12 before:w-4 before:bg-sky-600 before:-left-4 before:top-5 after:absolute after:size-8 after:-z-10 after:rotate-45 after:top-[52px] after:-left-2 after:bg-sky-600">
+                                <div class="flex flex-col justify-center items-center mt-12">
+                                    <div class="flex flex-1 flex-col justify-center items-center rounded-xl p-4">
+                                        <div class="w-full md:text-xl mt-4 sm:text-lg text-base font-medium leading-6 text-sky-500 ">
+                                        Widespread Market Reach
+                                        </div>
+                                        <p class="mt-2 mb-10 sm:text-base text-sm leading-6 font-normal text-gray-500 line-clamp-6 text-ellipsis w-full">
+                                        Media and entertainment app development provides business owners with a means to engage with a global audience. Through these apps, content can be distributed anywhere, granting businesses access to diverse markets and various consumer demographics.
+                                        </p>
+                                    </div>
+                                    <div class="flex absolute bottom-0 items-center justify-center">
+                                        <div class="w-28 h-5 bg-sky-500 rounded-full border-t-4 border-sky-600 relative before:absolute before:w-12 before:aspect-[1/1] before:rounded-full before:bg-sky-500 before:-top-8 before:left-1/2 before:-translate-x-1/2 before:text-3xl before:font-bold before:text-white before:flex before:items-center before:justify-center "></div>
+                                    </div>
+                                </div>
+                                <div class="absolute top-5 py-1 left-0 flex flex-col justify-center items-center size-max bg-sky-500 px-5 rounded-r-full">
+                                    <div class="text-4xl font-semibold text-white">01</div>
+                                    {/* <div class="text-base -mt-1 font-semibold text-white">STEP</div> */}
+                                </div>
                             </div>
-                            <div className="md:text-lg sm:text-base text-sm leading-6 capitalize font-bold">
-                            Widespread Market Reach
+                            <div class="relative h-full md:group md:hover:shadow-2xl md:hover:shadow-amber-300 duration-300 bg-white p-4 pb-0 m-2 rounded-lg shadow-2xl  before:absolute before:h-12 before:w-4 before:bg-amber-600 before:-left-4 before:top-5 after:absolute after:size-8 after:-z-10 after:rotate-45 after:top-[52px] after:-left-2 after:bg-amber-600">
+                                <div class="flex flex-col justify-center items-center mt-12">
+                                    <div class="flex flex-1 flex-col justify-center items-center rounded-xl p-4">
+                                        <div class="w-full md:text-xl mt-4 sm:text-lg text-base font-medium leading-6 text-amber-500 ">
+                                        Monetization Opportunities
+                                        </div>
+                                        <p class="mt-2 mb-10 sm:text-base text-sm leading-6 font-normal text-gray-500 line-clamp-6 text-ellipsis w-full">
+                                        Business owners can generate revenue from their media and entertainment apps through various methods, such as in-app purchases, subscriptions, and advertising. This approach creates multiple revenue streams, improving the overall financial performance of the venture.
+                                        </p>
+                                    </div>
+                                    <div class="flex absolute bottom-0 items-center justify-center">
+                                        <div class="w-28 h-5 bg-amber-500 rounded-full border-t-4 border-amber-600 relative before:absolute before:w-12 before:aspect-[1/1] before:rounded-full before:bg-amber-500 before:-top-8 before:left-1/2 before:-translate-x-1/2 before:text-3xl before:font-bold before:text-white before:flex before:items-center before:justify-center "></div>
+                                    </div>
+                                </div>
+                                <div class="absolute top-5 py-1 left-0 flex flex-col justify-center items-center size-max bg-amber-500 px-5 rounded-r-full">
+                                    <div class="text-4xl font-semibold text-white">02</div>
+                                    {/* <div class="text-base -mt-1 font-semibold text-white">STEP</div> */}
+                                </div>
                             </div>
-                            <div className="mt-2 sm:text-base text-sm leading-6">
-                                   Media and entertainment app development provides business owners with a means to engage with a global audience. Through these apps, content can be distributed anywhere, granting businesses access to diverse markets and various consumer demographics.
-                                     </div>
-                        </div>
-                    </div>
-                    <div className="absolute flex justify-center items-end -left-[5px] top-20 w-[10px] h-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:-translate-x-1/2 before:translate-y-1/2 before:bottom-0 before:left-[calc(50%-1px)]"></div>
-                    <div className="absolute flex item-center-center justify-end left-20 -top-[5px] h-[10px] w-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:translate-x-1/2 before:-translate-y-1/2 before:top-[calc(50%-1px)] before:right-0"></div>
-                </div>
-                <div className="border-2 p-5 group rounded-4xl border-black relative before:absolute before:size-24 before:border-t-[10px] before:border-l-[10px] before:rounded-tl-4xl before:border-pink-500 before:-inset-[5px] md:hover:shadow-xl md:hover:shadow-pink-700/40 duration-300">
-                    <div className="bg-white duration-300 p-2 shadow-xl shadow-black/20 md:group-hover:shadow-black/0 rounded-3xl h-full">
-                        <div className="flex p-3 flex-col gap-3">
-                            <div className="lg:text-6xl md:text-4xl md:size-16 size-16 text-3xl font-bold text-pink-500 *:size-full">
-                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M456 144h-83c-3 0-6.72-1.94-9.62-5l-27.31-42.79C326 80 320 80 302 80h-92c-18 0-23 0-34.07 16.21L148.62 139c-2.22 2.42-5.34 5-8.62 5v-16a8 8 0 0 0-8-8H92a8 8 0 0 0-8 8v16H56a24 24 0 0 0-24 24v240a24 24 0 0 0 24 24h400a24 24 0 0 0 24-24V168a24 24 0 0 0-24-24zM256 368c-47.82 0-87.76-34.23-95-80h-43.63L176 229.37 234.63 288H194a64.07 64.07 0 0 0 102.63 33.49L320 343l-3.68 3.72A96.64 96.64 0 0 1 256 368zm80-53.84L277.11 256H318a64.26 64.26 0 0 0-103-33.36L192 200l3.14-2.45A96.19 96.19 0 0 1 255.76 176c47.85 0 87 34.19 94.24 80h44.92z"></path></svg>
+                            <div class="relative h-full md:group md:hover:shadow-2xl md:hover:shadow-cyan-300 duration-300 bg-white p-4 pb-0 m-2 rounded-lg shadow-2xl  before:absolute before:h-12 before:w-4 before:bg-cyan-700 before:-left-4 before:top-5 after:absolute after:size-8 after:-z-10 after:rotate-45 after:top-[52px] after:-left-2 after:bg-cyan-700">
+                                <div class="flex flex-col justify-center items-center mt-12">
+                                    <div class="flex flex-1 flex-col justify-center items-center rounded-xl p-4">
+                                        <div class="w-full md:text-xl mt-4 sm:text-lg text-base font-medium leading-6 text-cyan-600 ">
+                                        Enhanced User Engagement
+                                        </div>
+                                        <p class="mt-2 mb-10 sm:text-base text-sm leading-6 font-normal text-gray-500 line-clamp-6 text-ellipsis w-full">
+                                        The interactive features and personalized content delivery of media and entertainment apps significantly boost user engagement. By offering tailored experiences, entrepreneurs can cultivate a loyal user base, improving user retention and fostering brand loyalty.
+                                        </p>
+                                    </div>
+                                    <div class="flex absolute bottom-0 items-center justify-center">
+                                        <div class="w-28 h-5 bg-cyan-600 rounded-full border-t-4 border-cyan-700 relative before:absolute before:w-12 before:aspect-[1/1] before:rounded-full before:bg-cyan-600 before:-top-8 before:left-1/2 before:-translate-x-1/2 before:text-3xl before:font-bold before:text-white before:flex before:items-center before:justify-center "></div>
+                                    </div>
+                                </div>
+                                <div class="absolute py-1 top-5 left-0 flex flex-col justify-center items-center size-max bg-cyan-600 px-5 rounded-r-full">
+                                    <div class="text-4xl font-semibold text-white">03</div>
+                                    {/* <div class="text-base -mt-1 font-semibold text-white">STEP</div> */}
+                                </div>
                             </div>
-                            <div className="md:text-lg sm:text-base text-sm leading-6 capitalize font-bold">
-                            Monetization Opportunities
+                            <div class="relative h-full md:group md:hover:shadow-2xl md:hover:shadow-rose-300 duration-300 bg-white p-4 pb-0 m-2 rounded-lg shadow-2xl  before:absolute before:h-12 before:w-4 before:bg-rose-900 before:-left-4 before:top-5 after:absolute after:size-8 after:-z-10 after:rotate-45 after:top-[52px] after:-left-2 after:bg-rose-900">
+                                <div class="flex flex-col justify-center items-center mt-12">
+                                    <div class="flex flex-1 flex-col justify-center items-center rounded-xl p-4">
+                                        <div class="w-full md:text-xl mt-4 sm:text-lg text-base font-medium leading-6 text-rose-700 ">
+                                        Insights Driven by Data
+                                        </div>
+                                        <p class="mt-2 mb-10 sm:text-base text-sm leading-6 font-normal text-gray-500 line-clamp-6 text-ellipsis w-full">
+                                        By leveraging the valuable user data collected from media and entertainment apps, entrepreneurs can gain crucial insights into user preferences, behaviors, and trends. Utilizing analytics allows business owners to refine content strategies, make informed decisions, and continuously improve the performance of their apps.
+                                        </p>
+                                    </div>
+                                    <div class="flex absolute bottom-0 items-center justify-center">
+                                        <div class="w-28 h-5 bg-rose-700 rounded-full border-t-4 border-rose-800 relative before:absolute before:w-12 before:aspect-[1/1] before:rounded-full before:bg-rose-700 before:-top-8 before:left-1/2 before:-translate-x-1/2 before:text-3xl before:font-bold before:text-white before:flex before:items-center before:justify-center "></div>
+                                    </div>
+                                </div>
+                                <div class="absolute top-5 left-0 flex flex-col justify-center items-center size-max bg-rose-700 px-5 py-1 rounded-r-full">
+                                    <div class="text-4xl font-semibold text-white">04</div>
+                                    {/* <div class="text-base -mt-1 font-semibold text-white">STEP</div> */}
+                                </div>
                             </div>
-                            <div className="mt-2 sm:text-base text-sm leading-6">
-                            Business owners can generate revenue from their media and entertainment apps through various methods, such as in-app purchases, subscriptions, and advertising. This approach creates multiple revenue streams, improving the overall financial performance of the venture.</div>
-                        </div>
-                    </div>
-                    <div className="absolute flex justify-center items-end -left-[5px] top-20 w-[10px] h-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:-translate-x-1/2 before:translate-y-1/2 before:bottom-0 before:left-[calc(50%-1px)]"></div>
-                    <div className="absolute flex item-center-center justify-end left-20 -top-[5px] h-[10px] w-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:translate-x-1/2 before:-translate-y-1/2 before:top-[calc(50%-1px)] before:right-0"></div>
-                </div>
-                <div className="border-2 p-5 group rounded-4xl border-black relative before:absolute before:size-24 before:border-t-[10px] before:border-l-[10px] before:rounded-tl-4xl before:border-rose-500 before:-inset-[5px] md:hover:shadow-xl md:hover:shadow-rose-700/40 duration-300">
-                    <div className="bg-white duration-300 p-2 shadow-xl shadow-black/20 md:group-hover:shadow-black/0 rounded-3xl h-full">
-                        <div className="flex p-3 flex-col gap-3">
-                            <div className="lg:text-6xl md:text-4xl md:size-16 size-16 text-3xl font-bold text-rose-500 *:size-full">
-                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 640 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M336 0c-26.5 0-48 21.5-48 48v92.1l71.4 118.4c2.5-1.6 5.4-2.5 8.6-2.5h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16h-3.5l73.8 122.4c12.4 20.6 12.9 46.3 1.2 67.3c-.4 .8-.9 1.6-1.4 2.3H592c26.5 0 48-21.5 48-48V240c0-26.5-21.5-48-48-48H568V120c0-13.3-10.7-24-24-24s-24 10.7-24 24v72H480V48c0-26.5-21.5-48-48-48H336zm32 64h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H368c-8.8 0-16-7.2-16-16V80c0-8.8 7.2-16 16-16zM352 176c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H368c-8.8 0-16-7.2-16-16V176zm160 96c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H528c-8.8 0-16-7.2-16-16V272zm16 80h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H528c-8.8 0-16-7.2-16-16V368c0-8.8 7.2-16 16-16zM224 188.9L283.8 288H223l-48 64-24.6-41.2L224 188.9zm29.4-44.2C247.1 134.3 236 128 224 128s-23.1 6.3-29.4 16.7L5.1 458.9c-6.5 10.8-6.7 24.3-.7 35.3S22 512 34.5 512H413.5c12.5 0 24-6.8 30.1-17.8s5.8-24.5-.7-35.3L253.4 144.7z"></path></svg>
+                            <div class="relative h-full md:group md:hover:shadow-2xl md:hover:shadow-sky-300 duration-300 bg-white p-4 pb-0 m-2 rounded-lg shadow-2xl before:absolute before:h-12 before:w-4 before:bg-sky-600 before:-left-4 before:top-5 after:absolute after:size-8 after:-z-10 after:rotate-45 after:top-[52px] after:-left-2 after:bg-sky-600">
+                                <div class="flex flex-col justify-center items-center mt-12">
+                                    <div class="flex flex-1 flex-col justify-center items-center rounded-xl p-4">
+                                        <div class="w-full md:text-xl mt-4 sm:text-lg text-base font-medium leading-6 text-sky-500 ">
+                                        Increased Brand Visibility and Recognition
+                                        </div>
+                                        <p class="mt-2 mb-10 sm:text-base text-sm leading-6 font-normal text-gray-500 line-clamp-6 text-ellipsis w-full">
+                                        By developing a unique and visually appealing media and entertainment app, businesses can significantly enhance their brand visibility and recognition. Entrepreneurs have the opportunity to establish a distinctive brand identity, differentiate themselves from competitors, and become leaders in their industry.
+                                        </p>
+                                    </div>
+                                    <div class="flex absolute bottom-0 items-center justify-center">
+                                        <div class="w-28 h-5 bg-sky-500 rounded-full border-t-4 border-sky-600 relative before:absolute before:w-12 before:aspect-[1/1] before:rounded-full before:bg-sky-500 before:-top-8 before:left-1/2 before:-translate-x-1/2 before:text-3xl before:font-bold before:text-white before:flex before:items-center before:justify-center "></div>
+                                    </div>
+                                </div>
+                                <div class="absolute top-5 py-1 left-0 flex flex-col justify-center items-center size-max bg-sky-500 px-5 rounded-r-full">
+                                    <div class="text-4xl font-semibold text-white">05</div>
+                                    {/* <div class="text-base -mt-1 font-semibold text-white">STEP</div> */}
+                                </div>
                             </div>
-                            <div className="md:text-lg sm:text-base text-sm leading-6 capitalize font-bold">
-                            Enhanced User Engagement
-                            </div>
-                            <div className="mt-2 sm:text-base text-sm leading-6">
-                            The interactive features and personalized content delivery of media and entertainment apps significantly boost user engagement. By offering tailored experiences, entrepreneurs can cultivate a loyal user base, improving user retention and fostering brand loyalty.
-                            </div>
-                        </div>
-                    </div>
-                    <div className="absolute flex justify-center items-end -left-[5px] top-20 w-[10px] h-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:-translate-x-1/2 before:translate-y-1/2 before:bottom-0 before:left-[calc(50%-1px)]"></div>
-                    <div className="absolute flex item-center-center justify-end left-20 -top-[5px] h-[10px] w-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:translate-x-1/2 before:-translate-y-1/2 before:top-[calc(50%-1px)] before:right-0"></div>
-                </div>   
-                <div className="border-2 p-5 group rounded-4xl border-black relative before:absolute before:size-24 before:border-t-[10px] before:border-l-[10px] before:rounded-tl-4xl before:border-purple-500 before:-inset-[5px] md:hover:shadow-xl md:hover:shadow-purple-700/40 duration-300">
-                    <div className="bg-white duration-300 p-2 shadow-xl shadow-black/20 md:group-hover:shadow-black/0 rounded-3xl h-full">
-                        <div className="flex p-3 flex-col gap-3">
-                            <div className="lg:text-6xl md:text-4xl text-3xl md:size-16 size-16 font-bold text-purple-500 *:size-full">
-                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M448 80v48c0 44.2-100.3 80-224 80S0 172.2 0 128V80C0 35.8 100.3 0 224 0S448 35.8 448 80zM393.2 214.7c20.8-7.4 39.9-16.9 54.8-28.6V288c0 44.2-100.3 80-224 80S0 332.2 0 288V186.1c14.9 11.8 34 21.2 54.8 28.6C99.7 230.7 159.5 240 224 240s124.3-9.3 169.2-25.3zM0 346.1c14.9 11.8 34 21.2 54.8 28.6C99.7 390.7 159.5 400 224 400s124.3-9.3 169.2-25.3c20.8-7.4 39.9-16.9 54.8-28.6V432c0 44.2-100.3 80-224 80S0 476.2 0 432V346.1z"></path></svg>
-                            </div>
-                            <div className="md:text-lg sm:text-base text-sm leading-6 capitalize font-bold">
-                            Insights Driven by Data
-                            </div>
-                            <div className="mt-2 sm:text-base text-sm leading-6">
-                            By leveraging the valuable user data collected from media and entertainment apps, entrepreneurs can gain crucial insights into user preferences, behaviors, and trends. Utilizing analytics allows business owners to refine content strategies, make informed decisions, and continuously improve the performance of their apps.
-                            </div>
-                        </div>
-                    </div>
-                    <div className="absolute flex justify-center items-end -left-[5px] top-20 w-[10px] h-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:-translate-x-1/2 before:translate-y-1/2 before:bottom-0 before:left-[calc(50%-1px)]"></div>
-                    <div className="absolute flex item-center-center justify-end left-20 -top-[5px] h-[10px] w-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:translate-x-1/2 before:-translate-y-1/2 before:top-[calc(50%-1px)] before:right-0"></div>
-                </div> 
-                <div className="border-2 p-5 group rounded-4xl border-black relative before:absolute before:size-24 before:border-t-[10px] before:border-l-[10px] before:rounded-tl-4xl before:border-violet-500 before:-inset-[5px] md:hover:shadow-xl md:hover:shadow-violet-700/40 duration-300">
-                    <div className="bg-white duration-300 p-2 shadow-xl shadow-black/20 md:group-hover:shadow-black/0 rounded-3xl h-full">
-                        <div className="flex p-3 flex-col gap-3">
-                            <div className="lg:text-6xl md:text-4xl md:size-16 size-16 text-3xl font-bold text-violet-500 *:size-full">
-                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M0,23.291h19.601v-2.978H2.98V3.689h16.626v10.911h-1.422l2.908,2.909L24,14.599 h-1.417V0.709H0V23.291z M16.148,13.356c-0.191-0.406-0.432-0.739-0.72-0.997c-0.287-0.258-0.599-0.454-0.933-0.583 c-0.337-0.132-0.641-0.217-0.916-0.254c0.251-0.034,0.496-0.134,0.735-0.296c0.241-0.161,0.455-0.364,0.647-0.609 c0.192-0.247,0.345-0.535,0.458-0.863c0.115-0.33,0.171-0.686,0.171-1.069c0-0.648-0.126-1.186-0.377-1.617 c-0.252-0.432-0.597-0.775-1.033-1.033c-0.436-0.258-0.948-0.44-1.536-0.547c-0.586-0.108-1.21-0.162-1.868-0.162 c-0.754,0-1.382,0.018-1.887,0.054C8.387,5.417,7.944,5.463,7.56,5.525v12.933c0.684,0.083,1.293,0.141,1.834,0.171 c0.539,0.03,1.082,0.044,1.634,0.044c0.718,0,1.404-0.054,2.057-0.162c0.652-0.107,1.227-0.304,1.723-0.592 c0.499-0.288,0.893-0.68,1.187-1.177c0.294-0.498,0.441-1.135,0.441-1.914C16.436,14.253,16.34,13.763,16.148,13.356z M10.165,7.321c0.91-0.111,1.873-0.054,2.301,0.304c0.38,0.317,0.607,0.599,0.607,1.42c0,0.751-0.357,1.195-0.608,1.356 c-0.251,0.161-0.59,0.368-1.403,0.368s-0.897,0-0.897,0V7.321z M13.194,16.001c-0.449,0.39-1.114,0.552-1.816,0.552 c-0.79,0-1.213-0.072-1.213-0.072v-3.737h1.132c0.711,0,1.438,0.126,1.832,0.464c0.509,0.437,0.611,0.895,0.611,1.505 C13.741,15.322,13.528,15.711,13.194,16.001z"></path></svg>
-                            </div>
-                            <div className="md:text-lg sm:text-base text-sm leading-6 capitalize font-bold">
-                            Increased Brand Visibility and Recognition
-                            </div>
-                            <div className="mt-2 sm:text-base text-sm leading-6">
-                            By developing a unique and visually appealing media and entertainment app, businesses can significantly enhance their brand visibility and recognition. Entrepreneurs have the opportunity to establish a distinctive brand identity, differentiate themselves from competitors, and become leaders in their industry.
-                            </div>
-                        </div>
-                    </div>
-                    <div className="absolute flex justify-center items-end -left-[5px] top-20 w-[10px] h-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:-translate-x-1/2 before:translate-y-1/2 before:bottom-0 before:left-[calc(50%-1px)]"></div>
-                    <div className="absolute flex item-center-center justify-end left-20 -top-[5px] h-[10px] w-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:translate-x-1/2 before:-translate-y-1/2 before:top-[calc(50%-1px)] before:right-0"></div>
-                </div> 
-                <div className="border-2 p-5 group rounded-4xl border-black relative before:absolute before:size-24 before:border-t-[10px] before:border-l-[10px] before:rounded-tl-4xl before:border-purple-500 before:-inset-[5px] md:hover:shadow-xl md:hover:shadow-purple-700/40 duration-300">
-                    <div className="bg-white duration-300 p-2 shadow-xl shadow-black/20 md:group-hover:shadow-black/0 rounded-3xl h-full">
-                        <div className="flex p-3 flex-col gap-3">
-                            <div className="lg:text-6xl md:text-4xl md:size-16 size-16 text-3xl font-bold text-purple-500 *:size-full">
-                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M22.363 1.636H1.635C.732 1.636 0 2.37.001 3.273L0 20.727v.003c0 .903.733 1.634 1.635 1.634h20.73c.904 0 1.635-.734 1.635-1.637V3.273c.016-.89-.76-1.64-1.637-1.637zM3.979 2.886c.492-.507 1.279.28.77.772-.491.508-1.278-.279-.77-.771zM1.8 2.89c.507-.509 1.28.265.772.771-.493.502-1.274-.28-.772-.771zm21.7 17.838c.012.611-.524 1.148-1.137 1.136H1.635A1.137 1.137 0 0 1 .5 20.727L.501 4.91H23.5v15.819zM11 16.159l5.946-4.577c.235-.2.576.129.389.372l-.002-.002-3.936 6.35a1.638 1.638 0 0 1-2.448.405c-.785-.668-.811-1.835.05-2.548zm4.763-.75c.09-.168 2.002-3.181 2.06-3.35 2.056 1.813 3.029 4.382 2.898 7.026h-3.819c.073-1.39-.29-2.678-1.139-3.676zm-8.679 3.682H3.278c-.357-7.022 7.148-11.735 13.39-7.92l-3.461 2.618c-3.3-.762-6.364 1.71-6.123 5.302z"></path></svg>
-                            </div>
-                            <div className="md:text-lg sm:text-base text-sm leading-6 capitalize font-bold">
-                            Innovation and Flexibility
-                            </div>
-                            <div className="mt-2 sm:text-base text-sm leading-6">
-                            The media and entertainment industry demands ongoing innovation due to its ever-changing landscape. Through app development, entrepreneurs can remain agile, adapt to market trends, and quickly implement updates and new features. This flexibility ensures that the app remains competitive and relevant in the market.
-                            </div>
-                        </div>
-                    </div>
-                    <div className="absolute flex justify-center items-end -left-[5px] top-20 w-[10px] h-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:-translate-x-1/2 before:translate-y-1/2 before:bottom-0 before:left-[calc(50%-1px)]"></div>
-                    <div className="absolute flex item-center-center justify-end left-20 -top-[5px] h-[10px] w-10 bg-gray-100 before:absolute before:size-2 before:rounded-full before:bg-black before:translate-x-1/2 before:-translate-y-1/2 before:top-[calc(50%-1px)] before:right-0"></div>
-                </div>        
+                            <div class="relative h-full md:group md:hover:shadow-2xl md:hover:shadow-amber-300 duration-300 bg-white p-4 pb-0 m-2 rounded-lg shadow-2xl  before:absolute before:h-12 before:w-4 before:bg-amber-600 before:-left-4 before:top-5 after:absolute after:size-8 after:-z-10 after:rotate-45 after:top-[52px] after:-left-2 after:bg-amber-600">
+                                <div class="flex flex-col justify-center items-center mt-12">
+                                    <div class="flex flex-1 flex-col justify-center items-center rounded-xl p-4">
+                                        <div class="w-full md:text-xl mt-4 sm:text-lg text-base font-medium leading-6 text-amber-500 ">
+                                        Innovation and Flexibility
+                                        </div>
+                                        <p class="mt-2 mb-10 sm:text-base text-sm leading-6 font-normal text-gray-500 line-clamp-6 text-ellipsis w-full">
+                                        The media and entertainment industry demands ongoing innovation due to its ever-changing landscape. Through app development, entrepreneurs can remain agile, adapt to market trends, and quickly implement updates and new features. This flexibility ensures that the app remains competitive and relevant in the market.
+                                        </p>
+                                    </div>
+                                    <div class="flex absolute bottom-0 items-center justify-center">
+                                        <div class="w-28 h-5 bg-amber-500 rounded-full border-t-4 border-amber-600 relative before:absolute before:w-12 before:aspect-[1/1] before:rounded-full before:bg-amber-500 before:-top-8 before:left-1/2 before:-translate-x-1/2 before:text-3xl before:font-bold before:text-white before:flex before:items-center before:justify-center "></div>
+                                    </div>
+                                </div>
+                                <div class="absolute top-5 py-1 left-0 flex flex-col justify-center items-center size-max bg-amber-500 px-5 rounded-r-full">
+                                    <div class="text-4xl font-semibold text-white">06</div>
+                                    {/* <div class="text-base -mt-1 font-semibold text-white">STEP</div> */}
+                                </div>
+                            </div>    
             </div>
         </div>
     </div>
