@@ -7,7 +7,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 const Blog = () => {
   return (
-    <section className="relative py-6 md:py-8 lg:py-16 text-white mt-12">
+    <section className="relative py-6 md:py-8 lg:py-16 text-white sm:mt-12">
       <div className="mx-auto max-w-7xl lg:px-8 px-6">
         <div className="mx-auto px-4 sm:px-6 md:max-w-4xl md:px-4 lg:px-2 relative pb-5">
           <p className="max-md:text-xl/tight max-xl:text-2xl/tight text-3xl/tight tracking-[-0.04em] text-black text-center">
