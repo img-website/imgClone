@@ -67,7 +67,7 @@ function casinoGameAppDevelopmentIndia() {
       <div className="py-6 md:py-8 lg:py-16">
         <div className="mx-auto max-w-7xl px-6 lg:px-8 group">
           <div className="relative isolate overflow-hidden bg-theme1 px-6 shadow-2xl rounded-2xl sm:rounded-3xl sm:px-16 lg:flex lg:px-24 *:z-10">
-            <div className="lg:mx-0 lg:flex-auto py-6 md:py-8 lg:py-16 text-center relative z-[1] md:after:absolute md:after:duration-700 md:after:border-l-4 md:after:border-t-4 md:after:border-[#9b9b9b] md:after:h-[50px] md:after:w-[50px] md:after:p-4 md:after:top-[23px] md:after:left-[-43px] md:before:z-[33] md:before:absolute md:before:duration-700 md:before:border-r-4 md:before:border-b-4 md:before:border-[#9b9b9b] md:before:h-[50px] md:before:w-[50px] md:before:p-4 md:before:bottom-[23px] md:before:right-[-43px] group-hover:md:before:w-[80px] group-hover:md:before:h-[80px] group-hover:md:after:w-[80px] group-hover:md:after:h-[80px]">
+            <div className="lg:mx-0 lg:flex-auto py-6 md:py-8 lg:py-16 text-center">
               <div className="max-sm:text-xl max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight text-white font-normal empty:hidden max-sm:text-center">
                 The total revenue for casino games is projected to reach $14.19 billion by 2027, with the combined market size of casino and online betting standing at $262 billion.
                 <span className="font-bold text-gray-100">If you have a vision, now is the perfect time to launch your casino software." </span></div>
@@ -139,8 +139,8 @@ function casinoGameAppDevelopmentIndia() {
           </div>
           <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 gap-x-[30px] md:gap-y-[74px] gap-y-[55px] container my-10 md:p-5 sm:p-8 p-5 mx-auto max-w-7xl px-6 lg:px-8 relative z-10 ">
             <div className="bg-cyan-500 p-1 group rounded-lg shadow-xl">
-              <div className="bg-white p-5 rounded-md drop-shadow-2xl overflow-hidden shadow-2xl sm:-skew-y-12 -skew-y-6">
-                <div className="sm:skew-y-12 skew-y-6 bg-white">
+              <div className="bg-white p-5 rounded-md drop-shadow-2xl overflow-hidden shadow-2xl">
+                <div className="bg-white">
                   <div className="*:border *:border-cyan-500 *:size-12 *:p-2 *:text-cyan-500 *:ms-auto *:group-hover:bg-cyan-500 *:rounded-3xl *:group-hover:text-white *:duration-300">
                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="m17 4 4 4-4 4V9h-4V7h4V4zm-7 3c-.55 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1zM6 7c-.55 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1zm1 10h4v-2H7v-3l-4 4 4 4v-3zm7 0c.55 0 1-.45 1-1s-.45-1-1-1-1 .45-1 1 .45 1 1 1zm4 0c.55 0 1-.45 1-1s-.45-1-1-1-1 .45-1 1 .45 1 1 1z"></path></svg>
                   </div>
@@ -157,8 +157,8 @@ function casinoGameAppDevelopmentIndia() {
               </div>
             </div>
             <div className="bg-sky-500 p-1 group rounded-lg shadow-xl">
-              <div className="bg-white p-5 rounded-md drop-shadow-2xl overflow-hidden shadow-2xl sm:-skew-y-12 -skew-y-6">
-                <div className="sm:skew-y-12 skew-y-6 bg-white">
+              <div className="bg-white p-5 rounded-md drop-shadow-2xl overflow-hidden shadow-2xl">
+                <div className="bg-white">
                   <div className="*:border *:border-sky-500 *:size-12 *:p-2 *:text-sky-500 *:ms-auto *:group-hover:bg-sky-500 *:rounded-3xl *:group-hover:text-white *:duration-300">
                     <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M15.004 18.401a1.724 1.724 0 0 0 -1.329 1.282c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.079 .262 1.495 1.305 1.248 2.17"></path><path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"></path><path d="M19 16v3"></path><path d="M19 22v.01"></path></svg>
                   </div>
@@ -175,8 +175,8 @@ function casinoGameAppDevelopmentIndia() {
               </div>
             </div>
             <div className="bg-blue-500 p-1 group rounded-lg shadow-xl">
-              <div className="bg-white p-5 rounded-md drop-shadow-2xl overflow-hidden shadow-2xl sm:-skew-y-12 -skew-y-6">
-                <div className="sm:skew-y-12 skew-y-6 bg-white">
+              <div className="bg-white p-5 rounded-md drop-shadow-2xl overflow-hidden shadow-2xl">
+                <div className="bg-white">
                   <div className="*:border *:border-blue-500 *:size-12 *:p-2 *:text-blue-500 *:ms-auto *:group-hover:bg-blue-500 *:rounded-3xl *:group-hover:text-white *:duration-300">
                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M15 2c-2.71 0-5.05 1.54-6.22 3.78a7.062 7.062 0 0 0-3 3A7.014 7.014 0 0 0 2 15c0 3.87 3.13 7 7 7 2.71 0 5.05-1.54 6.22-3.78a7.062 7.062 0 0 0 3-3A7.014 7.014 0 0 0 22 9c0-3.87-3.13-7-7-7zM9 20a5.002 5.002 0 0 1-4-8c0 3.87 3.13 7 7 7-.84.63-1.88 1-3 1zm3-3a5.002 5.002 0 0 1-4-8c0 3.86 3.13 6.99 7 7-.84.63-1.88 1-3 1zm4.7-3.3c-.53.19-1.1.3-1.7.3-2.76 0-5-2.24-5-5 0-.6.11-1.17.3-1.7.53-.19 1.1-.3 1.7-.3 2.76 0 5 2.24 5 5 0 .6-.11 1.17-.3 1.7zM19 12c0-3.86-3.13-6.99-7-7a5.002 5.002 0 0 1 7 7z"></path><path fill="none" d="M0 0h24v24H0zm0 0h24v24H0z"></path></svg>
                   </div>
@@ -193,8 +193,8 @@ function casinoGameAppDevelopmentIndia() {
               </div>
             </div>
             <div className="bg-indigo-500 p-1 group rounded-lg shadow-xl">
-              <div className="bg-white p-5 rounded-md drop-shadow-2xl overflow-hidden shadow-2xl sm:-skew-y-12 -skew-y-6">
-                <div className="sm:skew-y-12 skew-y-6 bg-white">
+              <div className="bg-white p-5 rounded-md drop-shadow-2xl overflow-hidden shadow-2xl">
+                <div className="bg-white">
                   <div className="*:border *:border-indigo-500 *:size-12 *:p-2 *:text-indigo-500 *:ms-auto *:group-hover:bg-indigo-500 *:rounded-3xl *:group-hover:text-white *:duration-500">
                     <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><line x1="6" x2="10" y1="11" y2="11"></line><line x1="8" x2="8" y1="9" y2="13"></line><line x1="15" x2="15.01" y1="12" y2="12"></line><line x1="18" x2="18.01" y1="10" y2="10"></line><path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z"></path></svg>
                   </div>
@@ -211,8 +211,8 @@ function casinoGameAppDevelopmentIndia() {
               </div>
             </div>
             <div className="bg-violet-500 p-1 group rounded-lg shadow-xl">
-              <div className="bg-white p-5 rounded-md drop-shadow-2xl overflow-hidden shadow-2xl sm:-skew-y-12 -skew-y-6">
-                <div className="sm:skew-y-12 skew-y-6 bg-white">
+              <div className="bg-white p-5 rounded-md drop-shadow-2xl overflow-hidden shadow-2xl">
+                <div className="bg-white">
                   <div className="*:border *:border-violet-500 *:size-12 *:p-2 *:text-violet-500 *:ms-auto *:group-hover:bg-violet-500 *:rounded-3xl *:group-hover:text-white *:duration-500">
                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M6.99979 7V3C6.99979 2.44772 7.4475 2 7.99979 2H20.9998C21.5521 2 21.9998 2.44772 21.9998 3V16C21.9998 16.5523 21.5521 17 20.9998 17H17V20.9925C17 21.5489 16.551 22 15.9925 22H3.00728C2.45086 22 2 21.5511 2 20.9925L2.00276 8.00748C2.00288 7.45107 2.4518 7 3.01025 7H6.99979ZM8.99979 7H15.9927C16.549 7 17 7.44892 17 8.00748V15H19.9998V4H8.99979V7ZM4.00255 9L4.00021 20H15V9H4.00255Z"></path></svg>
                   </div>
@@ -229,8 +229,8 @@ function casinoGameAppDevelopmentIndia() {
               </div>
             </div>
             <div className="bg-purple-500 p-1 group rounded-lg shadow-xl">
-              <div className="bg-white p-5 rounded-md drop-shadow-2xl overflow-hidden shadow-2xl sm:-skew-y-12 -skew-y-6">
-                <div className="sm:skew-y-12 skew-y-6 bg-white">
+              <div className="bg-white p-5 rounded-md drop-shadow-2xl overflow-hidden shadow-2xl">
+                <div className="bg-white">
                   <div className="*:border *:border-purple-500 *:size-12 *:p-2 *:text-purple-500 *:ms-auto *:group-hover:bg-purple-500 *:rounded-3xl *:group-hover:text-white *:duration-500">
                     <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M7 9m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v6a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z"></path><path d="M14 14m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path><path d="M17 9v-2a2 2 0 0 0 -2 -2h-10a2 2 0 0 0 -2 2v6a2 2 0 0 0 2 2h2"></path></svg>
                   </div>
@@ -247,8 +247,8 @@ function casinoGameAppDevelopmentIndia() {
               </div>
             </div>
             <div className="bg-fuchsia-500 p-1 group rounded-lg shadow-xl">
-              <div className="bg-white p-5 rounded-md drop-shadow-2xl overflow-hidden shadow-2xl sm:-skew-y-12 -skew-y-6">
-                <div className="sm:skew-y-12 skew-y-6 bg-white">
+              <div className="bg-white p-5 rounded-md drop-shadow-2xl overflow-hidden shadow-2xl">
+                <div className="bg-white">
                   <div className="*:border *:border-fuchsia-500 *:size-12 *:p-2 *:text-fuchsia-500 *:ms-auto *:group-hover:bg-fuchsia-500 *:rounded-3xl *:group-hover:text-white *:duration-500">
                     <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><line x1="6" x2="10" y1="12" y2="12"></line><line x1="8" x2="8" y1="10" y2="14"></line><line x1="15" x2="15.01" y1="13" y2="13"></line><line x1="18" x2="18.01" y1="11" y2="11"></line><rect width="20" height="12" x="2" y="6" rx="2"></rect></svg>
                   </div>
@@ -265,8 +265,8 @@ function casinoGameAppDevelopmentIndia() {
               </div>
             </div>
             <div className="bg-pink-500 p-1 group rounded-lg shadow-xl">
-              <div className="bg-white p-5 rounded-md drop-shadow-2xl overflow-hidden shadow-2xl sm:-skew-y-12 -skew-y-6">
-                <div className="sm:skew-y-12 skew-y-6 bg-white">
+              <div className="bg-white p-5 rounded-md drop-shadow-2xl overflow-hidden shadow-2xl">
+                <div className="bg-white">
                   <div className="*:border *:border-pink-500 *:size-12 *:p-2 *:text-pink-500 *:ms-auto *:group-hover:bg-pink-500 *:rounded-3xl *:group-hover:text-white *:duration-500">
                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z"></path><circle cx="7.5" cy="16.5" r="1.5"></circle><circle cx="7.5" cy="7.5" r="1.5"></circle><circle cx="12" cy="12" r="1.5"></circle><circle cx="16.5" cy="16.5" r="1.5"></circle><circle cx="16.5" cy="7.5" r="1.5"></circle></svg>
                   </div>
@@ -283,8 +283,8 @@ function casinoGameAppDevelopmentIndia() {
               </div>
             </div>
             <div className="bg-rose-500 p-1 group rounded-lg shadow-xl">
-              <div className="bg-white p-5 rounded-md drop-shadow-2xl overflow-hidden shadow-2xl sm:-skew-y-12 -skew-y-6">
-                <div className="sm:skew-y-12 skew-y-6 bg-white">
+              <div className="bg-white p-5 rounded-md drop-shadow-2xl overflow-hidden shadow-2xl">
+                <div className="bg-white">
                   <div className="*:border *:border-rose-500 *:size-12 *:p-2 *:text-rose-500 *:ms-auto *:group-hover:bg-rose-500 *:rounded-3xl *:group-hover:text-white *:duration-500">
                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g id="Settings"><g><path d="M12.6,20.936H11.3a.883.883,0,0,1-.852-.654l-.774-2.833-2.5,1.435a.886.886,0,0,1-1.06-.138l-.925-.919a.884.884,0,0,1-.143-1.066l1.469-2.545L6.509,14.2l-2.787-.747a.882.882,0,0,1-.654-.851V11.3a.882.882,0,0,1,.652-.85l2.839-.777L5.12,7.171a.885.885,0,0,1,.141-1.062l.918-.918A.885.885,0,0,1,7.24,5.049L9.792,6.514l.012,0,.745-2.79a.881.881,0,0,1,.851-.655h1.3a.883.883,0,0,1,.852.655l.762,2.838,2.509-1.441a.885.885,0,0,1,1.059.138l.926.919a.882.882,0,0,1,.141,1.067L17.483,9.777l.008.022,2.786.746a.883.883,0,0,1,.653.851v1.3a.883.883,0,0,1-.654.852l-2.837.774,1.439,2.505a.881.881,0,0,1-.141,1.063l-.917.917a.888.888,0,0,1-1.063.141l-2.539-1.462L14.2,17.5l-.745,2.785A.885.885,0,0,1,12.6,20.936Zm-1.21-1h1.119l.738-2.756a.888.888,0,0,1,.528-.592l.134-.052a.873.873,0,0,1,.76.057l2.51,1.445.789-.789-1.423-2.478a.881.881,0,0,1-.048-.78l.052-.125a.875.875,0,0,1,.584-.51l2.8-.749v-1.12l-2.755-.737a.885.885,0,0,1-.592-.529l-.052-.132a.882.882,0,0,1,.057-.763L18.04,6.818l-.8-.79-2.48,1.425a.878.878,0,0,1-.772.052l-.115-.047a.888.888,0,0,1-.518-.588l-.748-2.806H11.492l-.738,2.762a.883.883,0,0,1-.539.6l-.12.045a.874.874,0,0,1-.751-.058L6.822,5.962l-.789.789L7.455,9.227a.886.886,0,0,1,.046.785l-.051.12a.876.876,0,0,1-.579.5l-2.8.758v1.121l2.757.738a.889.889,0,0,1,.591.525l.048.121a.874.874,0,0,1-.055.77L5.958,17.181l.8.791,2.47-1.419a.878.878,0,0,1,.787-.045l.106.044a.874.874,0,0,1,.526.591ZM9.75,17.482l.008,0ZM9.6,17.421l.007,0ZM6.487,14.147h0Zm.044-4.411h0Zm7.724-3.2Z"></path><path d="M12,15a3,3,0,1,1,3-3A3,3,0,0,1,12,15Zm0-5a2,2,0,1,0,2,2A2,2,0,0,0,12,10Z"></path></g></g></svg>
                   </div>

@@ -156,7 +156,7 @@ export default function Home() {
                 ">
                             <div className="relative z-10 order-2 pointer-events-none h-auto lg:sticky lg:top-24 self-start mx-auto">
                                 <div className="flex [transform:rotateY(180deg)] group-[]/flip:[transform:rotateY(0deg)]">
-                                    <div className="relative flex-shrink-0 p-4 w-full">
+                                    <div className="relative flex-shrink-0 sm:p-4 w-full">
                                         <div className="relative z-10 overflow-hidden *:rounded-[20px] [transform:rotateY(180deg)] group-[]/flip:[transform:rotateY(0deg)] [&~*]:[&:has(.mask)]:lg:hidden">
                                             <Image className="object-cover !w-[1216px] !h-auto md:mt-16 lg:mt-0 " width={'384'} height={'384'} src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="image3" />
 
@@ -238,7 +238,7 @@ export default function Home() {
                             <div className="blur-[100px] absolute top-[50%] left-[50%] [transform:translate(-50%,_-50%);] -ml-[4rem]">
 
                             </div>
-                            <div className="flex flex-col p-10 h-full relative z-50">
+                            <div className="flex flex-col p-4 py-6 md:p-10 h-full relative z-50">
                                 <div className="w-full gap-14 flex max-sm:flex-col-reverse relative z-10 items-center max-sm:text-center">
                                     <div className="grow-0 shrink-0 max-sm:w-full">
                                         <Image className="size-[20rem] lg:w-[35rem] lg:h-[25rem] h-auto max-sm:mx-auto" width="1000" height="1000" src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/kunji-port.png" alt="TractorJunction" />
@@ -266,7 +266,7 @@ export default function Home() {
                             <div className="blur-[100px] absolute top-[50%] left-[50%] [transform:translate(-50%,_-50%);] -ml-[4rem]">
 
                             </div>
-                            <div className="flex flex-col p-10 h-full relative z-50">
+                            <div className="flex flex-col p-4 py-6 md:p-10 h-full relative z-50">
                                 <div className="w-full flex max-sm:flex-col-reverse relative z-10 items-center max-sm:text-center">
                                     <div className="grow max-sm:w-full text-white flex flex-col max-sm:gap-y-4 gap-y-7">
                                         <span className="duration-300 text-base lg:text-lg font-semibold inline-block">The Lien Zone</span>
@@ -291,7 +291,7 @@ export default function Home() {
                             <div className="blur-[100px] absolute top-[50%] left-[50%] [transform:translate(-50%,_-50%);] -ml-[4rem]">
 
                             </div>
-                            <div className="flex flex-col p-10 h-full relative z-50">
+                            <div className="flex flex-col p-4 py-6 md:p-10 h-full relative z-50">
                                 <div className="w-full gap-14 flex max-sm:flex-col-reverse relative z-10 items-center max-sm:text-center">
 
                                     <div className="grow-0 shrink-0 max-sm:w-full">
@@ -317,7 +317,7 @@ export default function Home() {
                             <div className="blur-[100px] absolute top-[50%] left-[50%] [transform:translate(-50%,_-50%);] -ml-[4rem]">
 
                             </div>
-                            <div className="flex flex-col p-10 h-full relative z-50">
+                            <div className="flex flex-col p-4 py-6 md:p-10 h-full relative z-50">
                                 <div className="w-full flex max-sm:flex-col-reverse relative z-10 items-center max-sm:text-center">
                                     <div className="grow max-sm:w-full text-white flex flex-col max-sm:gap-y-4 gap-y-7">
                                         <span className="duration-300 text-lg font-semibold inline-block">About Klassbook</span>
@@ -342,7 +342,7 @@ export default function Home() {
                             <div className="blur-[100px] absolute top-[50%] left-[50%] [transform:translate(-50%,_-50%);] -ml-[4rem]">
 
                             </div>
-                            <div className="flex flex-col p-10 h-full relative z-50">
+                            <div className="flex flex-col p-4 py-6 md:p-10 h-full relative z-50">
                                 <div className="w-full gap-14 flex max-sm:flex-col-reverse relative z-10 items-center max-sm:text-center">
 
                                     <div className="grow-0 shrink-0 max-sm:w-full">
@@ -374,7 +374,7 @@ export default function Home() {
                             <div className="blur-[100px] absolute top-[70%] left-[70%] [transform:translate(-50%,_-50%);] -ml-[4rem]">
                                 <div className="[clip-path:polygon(74.1%_44.1%,_100%_61.6%,_97.5%_26.9%,_85.5%_0.1%,_80.7%_2%,_72.5%_32.5%,_60.2%_62.4%,_52.4%_68.1%,_47.5%_58.3%,_45.2%_34.5%,_27.5%_76.7%,_0.1%_64.9%,_17.9%_100%,_27.6%_76.8%,_76.1%_97.7%,_74.1%_44.1%)] opacity-[0.4] bg-gradient-to-tr from-red-700 to-pink-500 w-[68.5625rem] [aspect-ratio:1097/845]"></div>
                             </div>
-                            <div className="flex flex-col p-10 h-full relative z-50">
+                            <div className="flex flex-col p-4 py-6 md:p-10 h-full relative z-50">
                                 <div className="w-full flex max-sm:flex-col-reverse relative z-10 items-center text-center">
                                     <div className="grow max-sm:w-full text-white flex flex-col max-sm:gap-y-4 gap-y-5">
                                         <span className="duration-300 text-lg md:text-xl font-semibold inline-block">CaseStudy</span>

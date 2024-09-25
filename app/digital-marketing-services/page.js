@@ -5,13 +5,6 @@ import Header from "@/components/header/Header";
 import Image from "next/image";
 import Blog from "@/components/blog/Blog";
 import Form from "@/components/contactForm/Form";
-import Cta from "@/components/cta/Cta";
-import Cta2 from "@/components/cta2/Cta2";
-import PortfolioSection from "@/components/portfolio/portfolio";
-import Reward from "@/components/reward/Reward";
-import Gallery from "@/components/gallery/Gallery";
-import Accordion from '@/components/accordion/Accordion';
-import CaseStudy from "@/components/caseStudy/CaseStudy";
 import Testimonial from "@/components/testimonial/Testimonial";
 
 
@@ -210,11 +203,11 @@ function digitalmarketingservices() {
             At Twin Power, our primary objective is to achieve the results our clients expect. We emphasize dedication, collaboration, and performance in every digital marketing campaign, whether it's a single service or a combination of multiple offerings. OUR TRACK RECORD SPEAKS FOR ITSELF! Our comprehensive range of services is tailored to meet the specific needs of your organization. We're committed to enhancing engagement, driving traffic, generating leads, and increasing downloads.
           </div>
         </div>
-        <div className="grid xl:grid-cols-4 lg:grid-cols-3 gap-5 sm:grid-cols-2 mx-auto px-4 sm:px-6 lg:px-8 py-5 md:py-10 lg:py-14">
-          <div className=" group border-4 m-5 border-cyan-800 rounded-lg bg-white shadow shadow-3xl shadow-cyan-800 p-1 ">
-            <div className="h-full w-full bg-white shadow-2xl overflow-hidden  -translate-x-5 -translate-y-5 rounded-lg shadow-cyan-800">
+        <div className="grid xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 mx-auto px-4 sm:px-6 lg:px-8 py-5 md:py-10 lg:py-14">
+          <div className=" group m-5 rounded-lg bg-white shadow shadow-3xl shadow-theme1">
+            <div className="h-full w-full bg-white shadow-2xl overflow-hidden  -translate-x-5 -translate-y-5 rounded-lg shadow-theme1">
               <div className="h-full flex py-5 mx-5 z-50 relative bg-white px-3 items-center flex-col">
-                <div className="size-10 md:group-hover:bg-cyan-800 text-cyan-800 duration-300 rounded-lg md:group-hover:text-white  p-2">
+                <div className="size-10 md:group-hover:bg-theme1 text-theme1 duration-300 rounded-lg md:group-hover:text-white  p-2">
                   <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" className="size-full" xmlns="http://www.w3.org/2000/svg"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"></path></svg>
                 </div>
                 <div className="text-base text-center py-2 font-semibold">
@@ -225,25 +218,15 @@ function digitalmarketingservices() {
                 </div>
                 <div className="w-10 -z-40 h-[90%] bg-white absolute top-0 -left-7 rounded-bx-2xl"></div>
                 <div className="mt-auto">
-                  <a className="inline-flex rounded-br-none justify-center rounded-lg text-sm font-semibold py-2 md:py-3 px-3 md:px-4 bg-slate-900 text-white hover:bg-slate-700" href="javascript:;">
-                    <span className="">
-                      Read More <span aria-hidden="true" className="">→</span>
-                    </span>
-                  </a>
-                </div>
-                <div className="absolute bg-cyan-100 size-10 -bottom-0 overflow-hidden -left-7 rounded-t-full flex justify-center">
-                  <div className="h-full w-[4px] bg-cyan-800 ms-1"></div>
-                </div>
-                <div className="absolute bg-cyan-50 size-10 -top-2 overflow-hidden -right-7 rounded-l-full flex justify-center items-center">
-                  <div className="h-[4px] w-full bg-cyan-800  mt-1"></div>
+                  <button class="px-4 text-sm text-theme1 inline-flex items-center gap-2 font-semibold rounded-full py-3 border-theme1 overflow-hidden border-2 w-max  before:-z-10 relative before:absolute before:w-full before:h-0 before:left-0 before:top-1/2 before:bg-theme1 before:md:hover:h-full before:duration-300 md:hover:text-white duration-300 before:md:hover:top-0"><span>View More</span><span><svg class="size-5" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M16.01 11H4v2h12.01v3L20 12l-3.99-4z"></path></svg></span></button>
                 </div>
               </div>
             </div>
           </div>
-          <div className=" group border-4 m-5 border-cyan-800 rounded-lg bg-white shadow shadow-3xl shadow-cyan-800 p-1 ">
-            <div className="h-full w-full bg-white shadow-2xl overflow-hidden  -translate-x-5 -translate-y-5 rounded-lg shadow-cyan-800">
+          <div className=" group m-5 rounded-lg bg-white shadow shadow-3xl shadow-theme1">
+            <div className="h-full w-full bg-white shadow-2xl overflow-hidden  -translate-x-5 -translate-y-5 rounded-lg shadow-theme1">
               <div className="h-full flex py-5 mx-5 z-50 relative bg-white px-3 items-center flex-col">
-                <div className="size-10 md:group-hover:bg-cyan-800 text-cyan-800 duration-300 rounded-lg md:group-hover:text-white  p-2">
+                <div className="size-10 md:group-hover:bg-theme1 text-theme1 duration-300 rounded-lg md:group-hover:text-white  p-2">
                   <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" className="size-full" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M4 5c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm4.78 3.58a6.95 6.95 0 0 0-5.56 0A2.01 2.01 0 0 0 2 10.43V11h8v-.57c0-.81-.48-1.53-1.22-1.85zM18 7c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm2.78 1.58a6.95 6.95 0 0 0-5.56 0A2.01 2.01 0 0 0 14 10.43V11h8v-.57c0-.81-.48-1.53-1.22-1.85zm-2.77 4.43-1.41 1.41L18.17 16H5.83l1.58-1.59L6 13l-4 4 3.99 3.99 1.41-1.41L5.83 18h12.34l-1.58 1.58L18 20.99 22 17l-3.99-3.99z"></path></svg>
                 </div>
                 <div className="text-base text-center py-2 font-semibold">
@@ -254,25 +237,15 @@ function digitalmarketingservices() {
                 </div>
                 <div className="w-10 -z-40 h-[90%] bg-white absolute top-0 -left-7 rounded-bx-2xl"></div>
                 <div className="mt-auto">
-                  <a className="inline-flex rounded-br-none justify-center rounded-lg text-sm font-semibold py-2 md:py-3 px-3 md:px-4 bg-slate-900 text-white hover:bg-slate-700" href="javascript:;keting-services.php">
-                    <span className="">
-                      Read More <span aria-hidden="true" className="">→</span>
-                    </span>
-                  </a>
-                </div>
-                <div className="absolute bg-cyan-100 size-10 -bottom-0 overflow-hidden -left-7 rounded-t-full flex justify-center">
-                  <div className="h-full w-[4px] bg-cyan-800 ms-1"></div>
-                </div>
-                <div className="absolute bg-cyan-50 size-10 -top-2 overflow-hidden -right-7 rounded-l-full flex justify-center items-center">
-                  <div className="h-[4px] w-full bg-cyan-800  mt-1"></div>
+                <button class="px-4 text-sm text-theme1 inline-flex items-center gap-2 font-semibold rounded-full py-3 border-theme1 overflow-hidden border-2 w-max  before:-z-10 relative before:absolute before:w-full before:h-0 before:left-0 before:top-1/2 before:bg-theme1 before:md:hover:h-full before:duration-300 md:hover:text-white duration-300 before:md:hover:top-0"><span>View More</span><span><svg class="size-5" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M16.01 11H4v2h12.01v3L20 12l-3.99-4z"></path></svg></span></button>
                 </div>
               </div>
             </div>
           </div>
-          <div className=" group border-4 m-5 border-cyan-800 rounded-lg bg-white shadow shadow-3xl shadow-cyan-800 p-1 ">
-            <div className="h-full w-full bg-white shadow-2xl overflow-hidden  -translate-x-5 -translate-y-5 rounded-lg shadow-cyan-800">
+          <div className=" group m-5 rounded-lg bg-white shadow shadow-3xl shadow-theme1">
+            <div className="h-full w-full bg-white shadow-2xl overflow-hidden  -translate-x-5 -translate-y-5 rounded-lg shadow-theme1">
               <div className="h-full flex py-5 mx-5 z-50 relative bg-white px-3 items-center flex-col">
-                <div className="size-10 md:group-hover:bg-cyan-800 text-cyan-800 duration-300 rounded-lg md:group-hover:text-white  p-2">
+                <div className="size-10 md:group-hover:bg-theme1 text-theme1 duration-300 rounded-lg md:group-hover:text-white  p-2">
                   <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" className="size-full" xmlns="http://www.w3.org/2000/svg"><path d="M956.9 845.1L896.4 632V168c0-17.7-14.3-32-32-32h-704c-17.7 0-32 14.3-32 32v464L67.9 845.1C60.4 866 75.8 888 98 888h828.8c22.2 0 37.6-22 30.1-42.9zM200.4 208h624v395h-624V208zm228.3 608l8.1-37h150.3l8.1 37H428.7zm224 0l-19.1-86.7c-.8-3.7-4.1-6.3-7.8-6.3H398.2c-3.8 0-7 2.6-7.8 6.3L371.3 816H151l42.3-149h638.2l42.3 149H652.7z"></path></svg>
                 </div>
                 <div className="text-base text-center py-2 font-semibold">
@@ -283,25 +256,15 @@ function digitalmarketingservices() {
                 </div>
                 <div className="w-10 -z-40 h-[90%] bg-white absolute top-0 -left-7 rounded-bx-2xl"></div>
                 <div className="mt-auto">
-                  <a className="inline-flex rounded-br-none justify-center rounded-lg text-sm font-semibold py-2 md:py-3 px-3 md:px-4 bg-slate-900 text-white hover:bg-slate-700" href="javascript:;rvices.php">
-                    <span className="">
-                      Read More <span aria-hidden="true" className="">→</span>
-                    </span>
-                  </a>
-                </div>
-                <div className="absolute bg-cyan-100 size-10 -bottom-0 overflow-hidden -left-7 rounded-t-full flex justify-center">
-                  <div className="h-full w-[4px] bg-cyan-800 ms-1"></div>
-                </div>
-                <div className="absolute bg-cyan-50 size-10 -top-2 overflow-hidden -right-7 rounded-l-full flex justify-center items-center">
-                  <div className="h-[4px] w-full bg-cyan-800  mt-1"></div>
+                <button class="px-4 text-sm text-theme1 inline-flex items-center gap-2 font-semibold rounded-full py-3 border-theme1 overflow-hidden border-2 w-max  before:-z-10 relative before:absolute before:w-full before:h-0 before:left-0 before:top-1/2 before:bg-theme1 before:md:hover:h-full before:duration-300 md:hover:text-white duration-300 before:md:hover:top-0"><span>View More</span><span><svg class="size-5" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M16.01 11H4v2h12.01v3L20 12l-3.99-4z"></path></svg></span></button>
                 </div>
               </div>
             </div>
           </div>
-          <div className=" group border-4 m-5 border-cyan-800 rounded-lg bg-white shadow shadow-3xl shadow-cyan-800 p-1 ">
-            <div className="h-full w-full bg-white shadow-2xl overflow-hidden  -translate-x-5 -translate-y-5 rounded-lg shadow-cyan-800">
+          <div className=" group m-5 rounded-lg bg-white shadow shadow-3xl shadow-theme1">
+            <div className="h-full w-full bg-white shadow-2xl overflow-hidden  -translate-x-5 -translate-y-5 rounded-lg shadow-theme1">
               <div className="h-full flex py-5 mx-5 z-50 relative bg-white px-3 items-center flex-col">
-                <div className="size-10 md:group-hover:bg-cyan-800 text-cyan-800 duration-300 rounded-lg md:group-hover:text-white  p-2">
+                <div className="size-10 md:group-hover:bg-theme1 text-theme1 duration-300 rounded-lg md:group-hover:text-white  p-2">
                   <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true" className="size-full" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
                 </div>
                 <div className="text-base text-center py-2 font-semibold">
@@ -312,17 +275,7 @@ function digitalmarketingservices() {
                 </div>
                 <div className="w-10 -z-40 h-[90%] bg-white absolute top-0 -left-7 rounded-bx-2xl"></div>
                 <div className="mt-auto">
-                  <a className="inline-flex rounded-br-none justify-center rounded-lg text-sm font-semibold py-2 md:py-3 px-3 md:px-4 bg-slate-900 text-white hover:bg-slate-700" href="javascript:;zation-services.php">
-                    <span className="">
-                      Read More <span aria-hidden="true" className="">→</span>
-                    </span>
-                  </a>
-                </div>
-                <div className="absolute bg-cyan-100 size-10 -bottom-0 overflow-hidden -left-7 rounded-t-full flex justify-center">
-                  <div className="h-full w-[4px] bg-cyan-800 ms-1"></div>
-                </div>
-                <div className="absolute bg-cyan-50 size-10 -top-2 overflow-hidden -right-7 rounded-l-full flex justify-center items-center">
-                  <div className="h-[4px] w-full bg-cyan-800  mt-1"></div>
+                <button class="px-4 text-sm text-theme1 inline-flex items-center gap-2 font-semibold rounded-full py-3 border-theme1 overflow-hidden border-2 w-max  before:-z-10 relative before:absolute before:w-full before:h-0 before:left-0 before:top-1/2 before:bg-theme1 before:md:hover:h-full before:duration-300 md:hover:text-white duration-300 before:md:hover:top-0"><span>View More</span><span><svg class="size-5" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M16.01 11H4v2h12.01v3L20 12l-3.99-4z"></path></svg></span></button>
                 </div>
               </div>
             </div>
@@ -405,11 +358,10 @@ function digitalmarketingservices() {
       </div>
       {/* why should-choose-end- */}
 
-
-
-
       <Blog />
+
       <Form />
+
       <Footer />
 
     </>

@@ -6,7 +6,7 @@ import Image from "next/image";
 function Footer() {
     return (
         <>
-            <section className="py-10 bg-gray-900 sm:pt-16 lg:pt-24">
+            <section className="pb-20 sm:pb-10 py-10 bg-gray-900 sm:pt-16 lg:pt-24">
                 <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
                     <div className="grid grid-cols-2 gap-x-5 gap-y-12 md:grid-cols-4 md:gap-x-12">
                         <div>
@@ -40,6 +40,18 @@ function Footer() {
                                 </li>
                                 <li>
                                     <a href="/software-development" title="" className="text-base opacity-80 text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Software-development </a>
+                                </li>
+                                <li>
+                                    <a href="/mobile-app-development-company-in-canada" title="" className="text-base opacity-80 text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Mobile-App-Development-Company-in-Canada</a>
+                                </li>
+                                <li>
+                                    <a href="/digital-marketing-services" title="" className="text-base opacity-80 text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Digital-Marketing-Services</a>
+                                </li>
+                                <li>
+                                    <a href="/shopify-ecommerce-development" title="" className="text-base opacity-80 text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Shopify-Ecommerce-Development</a>
+                                </li>
+                                <li>
+                                    <a href="/casino-game-app-development-company-in-india" title="" className="text-base opacity-80 text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Casino-Game-App-Development-Company-in-India</a>
                                 </li>
                             </ul>
                         </div>
@@ -93,30 +105,6 @@ function Footer() {
                                 </li>
                                 <li>
                                     <a href="/mobile-app-development-company-in-uk" title="" className="text-base opacity-80 text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Mobile-App-Development-Company-in-UK </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div>
-                            <p className="text-base text-white font-bold">All others</p>
-
-                            <ul className="mt-8 space-y-4">
-                                <li>
-                                    <a href="/mobile-app-development-company-in-canada" title="" className="text-base opacity-80 text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Mobile-App-Development-Company-in-Canada</a>
-                                </li>
-                                <li>
-                                    <a href="/digital-marketing-services" title="" className="text-base opacity-80 text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Digital-Marketing-Services</a>
-                                </li>
-                                <li>
-                                    <a href="/shopify-ecommerce-development" title="" className="text-base opacity-80 text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Shopify-Ecommerce-Development</a>
-                                </li>
-                                <li>
-                                    <a href="/casino-game-app-development-company-in-india" title="" className="text-base opacity-80 text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Casino-Game-App-Development-Company-in-India</a>
-                                </li>
-                                <li>
-                                    <a href="/launch-your-online-ecommerce-store" title="" className="text-base opacity-80 text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Launch-Your-Online-Ecommerce-Store</a>
-                                </li>
-                                <li>
-                                    <a href="/progressive-web-app-development" title="" className="text-base opacity-80 text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Progressive-Web-App-Development</a>
                                 </li>
                             </ul>
                         </div>
@@ -176,7 +164,7 @@ function Footer() {
                             </li>
                         </ul>
 
-                        <p className="w-full mt-8 text-sm text-center text-gray-100 md:mt-0 md:w-auto md:order-2">© Copyright 2021, All Rights Reserved by TwinPower</p>
+                        <p className="w-full mt-8 text-sm text-center text-gray-100 md:mt-0 md:w-auto md:order-2">© Copyright 2021, All Rights Reserved by Twin Power</p>
                     </div>
                 </div>
             </section>

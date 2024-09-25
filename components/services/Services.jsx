@@ -34,16 +34,16 @@ function Services() {
                         ideas into reality with a single click—innovation begins here.
                     </div>
                 </div>
-                <div className="bg-theme1 py-12 ">
+                <div className="bg-theme1 py-6 md:py-12 ">
                     <div className="max-w-7xl px-6 lg:px-8 mx-auto ">
                         <div className="grid grid-cols-12 ">
-                            <div className="md:col-span-3 max-md:flex max-md:overflow-hidden max-md:overflow-x-auto col-span-12  py-10">
+                            <div className="md:col-span-3 max-md:flex max-md:overflow-hidden max-md:overflow-x-auto col-span-12 pb-5 md:pb-10">
                                 <button
                                     onClick={() => {
                                         setServices("Mobile App Development");
                                     }}
                                     href="/"
-                                    className={`text-nowrap text-sm font-semibold md:text-xl max-md:bg-white  md:bg-transprent max-md:text-[#0E508A] md:text-white mx-2 mb-6 p-4 rounded-xl inline-block ${services === "Mobile App Development"
+                                    className={`text-nowrap text-sm font-semibold md:text-xl max-md:bg-white  md:bg-transprent max-md:text-[#0E508A] md:text-white mx-2 mb-2 md:mb-6 p-4 rounded-xl inline-block ${services === "Mobile App Development"
                                         ? "bg-white !text-[#0E508A]"
                                         : ""
                                         }`}
@@ -55,7 +55,7 @@ function Services() {
                                         setServices("eCommerce Solution");
                                     }}
                                     href="/"
-                                    className={`text-nowrap text-sm font-semibold md:text-xl max-md:bg-white  md:bg-transprent max-md:text-[#0E508A] md:text-white mx-2 mb-6 p-4 rounded-xl inline-block ${services === "eCommerce Solution"
+                                    className={`text-nowrap text-sm font-semibold md:text-xl max-md:bg-white  md:bg-transprent max-md:text-[#0E508A] md:text-white mx-2 mb-2 md:mb-6 p-4 rounded-xl inline-block ${services === "eCommerce Solution"
                                         ? "bg-white !text-[#0E508A]"
                                         : ""
                                         }`}
@@ -67,7 +67,7 @@ function Services() {
                                         setServices("Web Development");
                                     }}
                                     href="/"
-                                    className={`text-nowrap text-sm font-semibold md:text-xl max-md:bg-white  md:bg-transprent max-md:text-[#0E508A] md:text-white mx-2 mb-6 p-4 rounded-xl inline-block ${services === "Web Development"
+                                    className={`text-nowrap text-sm font-semibold md:text-xl max-md:bg-white  md:bg-transprent max-md:text-[#0E508A] md:text-white mx-2 mb-2 md:mb-6 p-4 rounded-xl inline-block ${services === "Web Development"
                                         ? "bg-white !text-[#0E508A]"
                                         : ""
                                         }`}
@@ -79,7 +79,7 @@ function Services() {
                                         setServices("Treanding Solution");
                                     }}
                                     href="/"
-                                    className={`text-nowrap text-sm font-semibold md:text-xl max-md:bg-white  md:bg-transprent max-md:text-[#0E508A] md:text-white mx-2 mb-6 p-4 rounded-xl inline-block ${services === "Treanding Solution"
+                                    className={`text-nowrap text-sm font-semibold md:text-xl max-md:bg-white  md:bg-transprent max-md:text-[#0E508A] md:text-white mx-2 mb-2 md:mb-6 p-4 rounded-xl inline-block ${services === "Treanding Solution"
                                         ? "bg-white !text-[#0E508A]"
                                         : ""
                                         }`}
@@ -91,7 +91,7 @@ function Services() {
                                         setServices("Software Development");
                                     }}
                                     href="/"
-                                    className={`text-nowrap text-sm font-semibold md:text-xl max-md:bg-white  md:bg-transprent max-md:text-[#0E508A] md:text-white mx-2 mb-6 p-4 rounded-xl inline-block ${services === "Software Development"
+                                    className={`text-nowrap text-sm font-semibold md:text-xl max-md:bg-white  md:bg-transprent max-md:text-[#0E508A] md:text-white mx-2 mb-2 md:mb-6 p-4 rounded-xl inline-block ${services === "Software Development"
                                         ? "bg-white !text-[#0E508A]"
                                         : ""
                                         }`}
@@ -103,7 +103,7 @@ function Services() {
                                         setServices("Blockchain Development");
                                     }}
                                     href="/"
-                                    className={`text-nowrap text-sm font-semibold md:text-xl max-md:bg-white  md:bg-transprent max-md:text-[#0E508A] md:text-white mx-2 mb-6 p-4 rounded-xl inline-block ${services === "Blockchain Development"
+                                    className={`text-nowrap text-sm font-semibold md:text-xl max-md:bg-white  md:bg-transprent max-md:text-[#0E508A] md:text-white mx-2 mb-2 md:mb-6 p-4 rounded-xl inline-block ${services === "Blockchain Development"
                                         ? "bg-white !text-[#0E508A]"
                                         : ""
                                         }`}
