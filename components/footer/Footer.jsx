@@ -94,6 +94,12 @@ function Footer() {
                                 <li>
                                     <a href="/mobile-app-development-company-in-uk" title="" className="text-base opacity-80 text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Mobile-App-Development-Company-in-UK </a>
                                 </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p className="text-base text-white font-bold">All others</p>
+
+                            <ul className="mt-8 space-y-4">
                                 <li>
                                     <a href="/mobile-app-development-company-in-canada" title="" className="text-base opacity-80 text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Mobile-App-Development-Company-in-Canada</a>
                                 </li>
