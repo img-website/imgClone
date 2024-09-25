@@ -357,10 +357,10 @@ function DoctorDemand() {
                     </div>
                 </div>
                 <div className="container pt-5 md:p-5 sm:p-8 p-5 mx-auto max-w-7xl px-6 lg:px-8 relative z-10 flex">
-                    <div className="w-full grid md:grid-cols-3 gap-8 mt-5 sm:mt-8 md:mt-10 ">
-                        <div className="multiple-user flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl shadow-xl shadow-gray-300">
-                            <a href="/">
-                                <Image className="w-full aspect-[385/221] rounded-2xl" width="385" height="217" src="/img/hospital-user.webp" alt="Hospitals" />
+                    <div className="w-full grid sm:grid-cols-2 md:grid-cols-3 gap-8 mt-5 sm:mt-8 md:mt-10 ">
+                        <div className="multiple-user flex  flex-col items-start justify-between bg-white rounded-2xl shadow-xl shadow-gray-300">
+                            <a href="javascript:;" className='flex w-full'>
+                                <Image className="size-full aspect-[385/221] object-cover rounded-2xl" width="385" height="217" src="/img/hospital-user.webp" alt="Hospitals" />
                             </a>
                             <div className="w-full p-6 text-center">
                                 <div className="group relative text-center">
@@ -378,9 +378,9 @@ function DoctorDemand() {
                                 </div>
                             </div>
                         </div>
-                        <div className="multiple-user flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl shadow-xl shadow-gray-300">
-                            <a href="/">
-                                <Image className="w-full aspect-[385/221] rounded-2xl" width="385" height="217" src="/img/dactor-user.webp" alt="Doctors" />
+                        <div className="multiple-user flex flex-col items-start justify-between bg-white rounded-2xl shadow-xl shadow-gray-300">
+                            <a href="/" className='flex w-full'>
+                                <Image className="size-full aspect-[385/221] object-cover rounded-2xl" width="385" height="217" src="/img/dactor-user.webp" alt="Doctors" />
                             </a>
                             <div className="w-full p-6 text-center">
                                 <div className="group relative text-center">
@@ -398,9 +398,9 @@ function DoctorDemand() {
                                 </div>
                             </div>
                         </div>
-                        <div className="multiple-user flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl shadow-xl shadow-gray-300">
-                            <a href="/">
-                                <Image className="w-full aspect-[385/221] rounded-2xl" width="385" height="217" src="/img/pharmacy-user.webp" alt="Pharmacy/Labs" />
+                        <div className="multiple-user flex  flex-col items-start justify-between bg-white rounded-2xl shadow-xl shadow-gray-300">
+                            <a href="/" className='flex w-full'>
+                                <Image className="size-full aspect-[385/221] object-cover rounded-2xl" width="385" height="217" src="/img/pharmacy-user.webp" alt="Pharmacy/Labs" />
                             </a>
                             <div className="w-full p-6 text-center">
                                 <div className="group relative text-center">

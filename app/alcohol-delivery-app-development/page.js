@@ -177,8 +177,8 @@ function alcoholDeliveryApp() {
                                 <span className="font-normal">
                                     Aiming to Create a User-Friendly Alcohol
                                 </span>
-                                <span className="font-bold">
-                                    Delivery App Similar to Minibar?
+                                <span className="font-bold ps-1">
+                                     Delivery App Similar to Minibar?
                                 </span>
                             </p>
                             <p className="mt-4 text-sm md:text-base leading-7 text-slate-600">
@@ -423,8 +423,8 @@ function alcoholDeliveryApp() {
                                     <div className="icon group-hover:bg-theme1 group-hover:text-white">
                                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M16 1C16.5523 1 17 1.44772 17 2V3H22V9H19.9813L22.7271 16.5439C22.9033 16.9948 23 17.4856 23 17.999C23 20.2082 21.2091 21.999 19 21.999C17.1365 21.999 15.5707 20.7247 15.1263 19H10.874C10.4299 20.7252 8.86384 22 7 22C5.05551 22 3.43508 20.6125 3.07474 18.7736C2.43596 18.4396 2 17.7707 2 17V7C2 6.44772 2.44772 6 3 6H10C10.5523 6 11 6.44772 11 7V12C11 12.5523 11.4477 13 12 13H14C14.5523 13 15 12.5523 15 12V3H12V1H16ZM7 16C5.89543 16 5 16.8954 5 18C5 19.1046 5.89543 20 7 20C8.10457 20 9 19.1046 9 18C9 16.8954 8.10457 16 7 16ZM19 15.999C17.8954 15.999 17 16.8944 17 17.999C17 19.1036 17.8954 19.999 19 19.999C20.1046 19.999 21 19.1036 21 17.999C21 17.7587 20.9576 17.5282 20.8799 17.3148L20.8635 17.2714C20.5725 16.5266 19.8479 15.999 19 15.999ZM17.853 9H17V12C17 13.6569 15.6569 15 14 15H12C10.3431 15 9 13.6569 9 12H4V15.3542C4.73294 14.5238 5.80531 14 7 14C8.86384 14 10.4299 15.2748 10.874 17H15.1258C15.5695 15.2743 17.1358 13.999 19 13.999C19.2368 13.999 19.4688 14.0196 19.6943 14.0591L17.853 9ZM9 8H4V10H9V8ZM20 5H17V7H20V5Z"></path></svg>
                                     </div>
-                                    <div className="title">On-Demand Delivery Model</div>
-                                    <div className="tagline">
+                                    <div className="title text-start">On-Demand Delivery Model</div>
+                                    <div className="tagline text-start">
                                         With an easy-to-use mobile app or website, clients may order their preferred beverages. Choose our On-Demand Alcohol Delivery model. Convenience is the model's main focus. So, users may enjoy their favorite drinks in the comfort of their own homes.
                                     </div>
                                 </div>
@@ -434,8 +434,8 @@ function alcoholDeliveryApp() {
                                     <div className="icon group-hover:bg-theme1 group-hover:text-white">
                                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M9.68 13.69 12 11.93l2.31 1.76-.88-2.85L15.75 9h-2.84L12 6.19 11.09 9H8.25l2.31 1.84-.88 2.85zM20 10c0-4.42-3.58-8-8-8s-8 3.58-8 8c0 2.03.76 3.87 2 5.28V23l6-2 6 2v-7.72A7.96 7.96 0 0 0 20 10zm-8-6c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6 2.69-6 6-6zm0 15-4 1.02v-3.1c1.18.68 2.54 1.08 4 1.08s2.82-.4 4-1.08v3.1L12 19z"></path></svg>
                                     </div>
-                                    <div className="title">Subscription-Based Delivery Model</div>
-                                    <div className="tagline">
+                                    <div className="title text-start">Subscription-Based Delivery Model</div>
+                                    <div className="tagline text-start">
                                         A selected assortment of beverages comes under the subscription-based delivery model. So, if you are one of those clients who seek a hassle-free booze buying experience, you are at the right place. This model frequently entitles the user to special offers, promotions, or access to limited-edition merchandise.
                                     </div>
                                 </div>
@@ -445,9 +445,9 @@ function alcoholDeliveryApp() {
                                     <div className="icon group-hover:bg-theme1 group-hover:text-white">
                                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M19 5h-2V3H7v2H5c-1.1 0-2 .9-2 2v1c0 2.55 1.92 4.63 4.39 4.94A5.01 5.01 0 0 0 11 15.9V19H7v2h10v-2h-4v-3.1a5.01 5.01 0 0 0 3.61-2.96C19.08 12.63 21 10.55 21 8V7c0-1.1-.9-2-2-2zM5 8V7h2v3.82C5.84 10.4 5 9.3 5 8zm7 6c-1.65 0-3-1.35-3-3V5h6v6c0 1.65-1.35 3-3 3zm7-6c0 1.3-.84 2.4-2 2.82V7h2v1z"></path></svg>
                                     </div>
-                                    <div className="title">Special Occasion and Event Catering Model
+                                    <div className="title text-start">Special Occasion and Event Catering Model
                                     </div>
-                                    <div className="tagline">
+                                    <div className="tagline text-start">
                                         Customers organizing parties, get-togethers, or events are the target market for the special occasion and event catering model. This model offers a complete solution, including more than just a variety of alcohol. Clients can confer with our specialists to develop a customized alcohol delivery app.
                                     </div>
                                 </div>
