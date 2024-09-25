@@ -132,7 +132,7 @@ function ecommerceDevelopment() {
                   <div className="sm:pl-10 w-full sm:w-3/5">
                     <h2 className="text-xl sm:text-2xl md:text-3xl font-bold tracking-tight">{tab.title}</h2>
                     <p className="md:mt-6 mt-3 text-sm md:text-base md:leading-8">{tab.content}</p>
-                    <a href="https://www.imgglobalinfotech.com/contact-us.php" className="mt-4 inline-flex rounded-lg bg-slate-900 text-white py-2 px-4 hover:bg-slate-700">
+                    <a href="Javascript:;" className="mt-4 inline-flex rounded-lg bg-slate-900 text-white py-2 px-4 hover:bg-slate-700">
                       Book A Consultation →
                     </a>
                   </div>

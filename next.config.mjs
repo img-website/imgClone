@@ -23,12 +23,6 @@ const nextConfig = {
         },
         {
             protocol: 'https',
-            hostname: 'www.imgglobalinfotech.com',
-            port: '',
-            pathname: '/**',
-        },
-        {
-            protocol: 'https',
             hostname: 'appicsoftwares.com',
             port: '',
             pathname: '/**',
