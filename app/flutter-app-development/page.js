@@ -364,7 +364,7 @@ function flutterappdevelopment() {
 
                 <div className='mx-auto max-w-7xl px-6 lg:px-8'>
                     <section className="lg:w-4/5 w-full mx-auto md:mt-16 mt-8">
-                        <div className="max-w-[85rem] px-4 sm:px-6 lg:px-8 mx-auto">
+                        <div className="max-w-[85rem] sm:px-6 lg:px-8 mx-auto">
                             <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
                             <p className="
                                 max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black text-balance text-center
