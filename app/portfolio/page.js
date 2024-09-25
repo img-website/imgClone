@@ -75,8 +75,8 @@ function portfolio() {
                                 </div>
                                 <div className="content before:from-green-900/70 before:to-green-900/70">
                                     <div className="contentInner">
-                                        <div className="title">Lorem Ipsum</div>
-                                        <div className="tagline font-semibold uppercase">Android</div>
+                                        <div className="title text-base max-sm:text-sm">Lorem Ipsum</div>
+                                        <div className="tagline font-semibold uppercase text-base max-sm:text-xs">Android</div>
                                     </div>
                                 </div>
                             </div>
@@ -91,8 +91,8 @@ function portfolio() {
                                 </div>
                                 <div className="content before:from-gray-900/70 before:to-gray-900/70">
                                     <div className="contentInner">
-                                        <div className="title">Lorem Ipsum</div>
-                                        <div className="tagline font-semibold uppercase">WEBSITE | Laravel | php | html5 | css3</div>
+                                        <div className="title text-base max-sm:text-sm">Lorem Ipsum</div>
+                                        <div className="tagline font-semibold uppercase text-base max-sm:text-xs">WEBSITE | Laravel | php | html5 | css3</div>
                                     </div>
                                 </div>
                             </div>
@@ -105,8 +105,8 @@ function portfolio() {
                                 </div>
                                 <div className="content before:from-red-900/70 before:to-red-900/70">
                                     <div className="contentInner">
-                                        <div className="title">Lorem Ipsum</div>
-                                        <div className="tagline font-semibold uppercase">WEBSITE | Laravel | php | html5 | css3</div>
+                                        <div className="title text-base max-sm:text-sm">Lorem Ipsum</div>
+                                        <div className="tagline font-semibold uppercase text-base max-sm:text-xs">WEBSITE | Laravel | php | html5 | css3</div>
                                     </div>
                                 </div>
                             </div>
@@ -119,8 +119,8 @@ function portfolio() {
                                 </div>
                                 <div className="content before:from-blue-900/70 before:to-blue-900/70">
                                     <div className="contentInner">
-                                        <div className="title">Lorem Ipsum</div>
-                                        <div className="tagline font-semibold uppercase">WEBSITE | Laravel | php | html5 | css3</div>
+                                        <div className="title text-base max-sm:text-sm">Lorem Ipsum</div>
+                                        <div className="tagline font-semibold uppercase text-base max-sm:text-xs">WEBSITE | Laravel | php | html5 | css3</div>
                                     </div>
                                 </div>
                             </div>
@@ -134,8 +134,8 @@ function portfolio() {
                                 </div>
                                 <div className="content before:from-amber-900/70 before:to-amber-900/70">
                                     <div className="contentInner">
-                                        <div className="title">Lorem Ipsum</div>
-                                        <div className="tagline font-semibold uppercase">WEBSITE | Laravel | php | html5 | css3</div>
+                                        <div className="title text-base max-sm:text-sm">Lorem Ipsum</div>
+                                        <div className="tagline font-semibold uppercase text-base max-sm:text-xs">WEBSITE | Laravel | php | html5 | css3</div>
                                     </div>
                                 </div>
                             </div>
@@ -150,8 +150,8 @@ function portfolio() {
                                 </div>
                                 <div className="content before:from-purple-900/70 before:to-purple-900/70">
                                     <div className="contentInner">
-                                        <div className="title">Lorem Ipsum</div>
-                                        <div className="tagline font-semibold uppercase">WEBSITE | Laravel | php | html5 | css3</div>
+                                        <div className="title text-base max-sm:text-sm">Lorem Ipsum</div>
+                                        <div className="tagline font-semibold uppercase text-base max-sm:text-xs">WEBSITE | Laravel | php | html5 | css3</div>
                                     </div>
                                 </div>
                             </div>
@@ -165,8 +165,8 @@ function portfolio() {
                                 </div>
                                 <div className="content before:from-amber-900/70 before:to-amber-900/70">
                                     <div className="contentInner">
-                                        <div className="title">Lorem Ipsum</div>
-                                        <div className="tagline font-semibold uppercase">WEBSITE | Laravel | php | html5 | css3</div>
+                                        <div className="title text-base max-sm:text-sm">Lorem Ipsum</div>
+                                        <div className="tagline font-semibold uppercase text-base max-sm:text-xs">WEBSITE | Laravel | php | html5 | css3</div>
                                     </div>
                                 </div>
                             </div>
@@ -180,8 +180,8 @@ function portfolio() {
                                 </div>
                                 <div className="content before:from-amber-900/70 before:to-amber-900/70">
                                     <div className="contentInner">
-                                        <div className="title">Lorem Ipsum</div>
-                                        <div className="tagline font-semibold uppercase">WEBSITE | React | html5 | css3</div>
+                                        <div className="title text-base max-sm:text-sm">Lorem Ipsum</div>
+                                        <div className="tagline font-semibold uppercase text-base max-sm:text-xs">WEBSITE | React | html5 | css3</div>
                                     </div>
                                 </div>
                             </div>
@@ -194,8 +194,8 @@ function portfolio() {
                                 </div>
                                 <div className="content before:from-teal-500/70 before:to-teal-500/70">
                                     <div className="contentInner">
-                                        <div className="title">Lorem Ipsum</div>
-                                        <div className="tagline font-semibold uppercase">WEBSITE | Laravel | PHP | Bootstrap</div>
+                                        <div className="title text-base max-sm:text-sm">Lorem Ipsum</div>
+                                        <div className="tagline font-semibold uppercase text-base max-sm:text-xs">WEBSITE | Laravel | PHP | Bootstrap</div>
                                     </div>
                                 </div>
                             </div>
