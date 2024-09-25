@@ -213,9 +213,9 @@ function ecommerceDevelopment() {
               <span> Solutions We Offer</span></p>
           </div>
         </div>
-        <div className="container pt-5 md:p-5 sm:p-8 p-5 mx-auto max-w-7xl px-6 lg:px-8 relative z-10 flex">
+        <div className="container pt-5 md:p-5 sm:p-8 mx-auto max-w-7xl px-6 lg:px-8 relative z-10 flex">
           <ul className="
-            flex flex-wrap md:pt-8 text-center md:text-left gap-y-6 justify-center items-stretch
+            flex flex-wrap md:pt-8 text-center md:text-left gap-y-2 sm:gap-y-6 justify-center items-stretch
         ">
 
             <div className="md:w-1/2 p-3 w-full h-auto lg:w-1/2">

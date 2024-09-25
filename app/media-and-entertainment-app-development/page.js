@@ -427,7 +427,7 @@ function mediaandentertainmentappdevelopment() {
 
            {/* Entertainment App Development----- */}
 
-           <div className="relative py-6 md:py-8 lg:py-16 select-none bg-gray-100">
+           <div className="relative py-6 md:py-8 lg:py-16   bg-gray-100">
         <div className="mx-auto px-4 sm:px-6 md:max-w-3xl md:px-4 lg:px-2 relative pb-5">
             <p className="text-gray-800 max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-center">
                 <span className="font-normal">Our Process for Media and</span> 
@@ -771,7 +771,7 @@ function mediaandentertainmentappdevelopment() {
            {/* benefits-Entertainment App Development----- */}
 
 
-                 <div className="relative bg-gray-100 py-6 md:py-8 lg:py-16 select-none">
+                 <div className="relative bg-gray-100 py-6 md:py-8 lg:py-16  ">
     <div className="mx-auto max-w-7xl px-6 lg:px-8 w-full relative">
         <div className="mx-auto max-w-container gap-7 flex flex-col max-lg:gap-4 items-center">
             <div className="w-full relative z-20 h-auto shrink-1 grow-0">
