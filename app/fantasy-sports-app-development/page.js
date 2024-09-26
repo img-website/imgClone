@@ -156,9 +156,9 @@ function fantasysportsappdevelopment() {
             </div>
             <div className="w-full lg:justify-start justify-center items-start flex">
               <div
-                className="sm:w-[564px] w-full sm:h-[646px] h-full sm:bg-gray-100 rounded-3xl sm:border relative">
+                className="sm:w-[564px] w-full sm:h-[646px] h-full  relative">
                 <Image width={1000} height={10000} loading='lazy' quality={90} className="sm:mt-5 sm:ml-5 w-full h-full rounded-3xl object-cover"
-                  src="https://img.freepik.com/premium-photo/dynamic-collage-athletes-various-sports-fencing-boxing-basketball-football-track-tennis-cycling-white-studio-background-team-individual-sports-concept-complete_880763-30980.jpg" alt="about Us image" />
+                  src="/img/fantasy-2.webp" alt="about Us image" />
               </div>
             </div>
           </div>
@@ -185,7 +185,7 @@ function fantasysportsappdevelopment() {
               <p className="md:text-base text-sm text-black/70 mt-3 text-balance text-center">Whether you're interested in building a mobile fantasy sports app for on-the-go users or want to connect with billions through a comprehensive fantasy sports website, our innovative fantasy sports software development services have you covered.</p>
             </div>
 
-            <div className="w-full grid md:grid-cols-3 gap-8">
+            <div className="w-full grid sm:grid-cols-2  lg:grid-cols-3 gap-8">
               
                          <div class="relative h-full md:group md:hover:shadow-2xl md:hover:shadow-sky-300 duration-300 bg-white p-4 pb-0 m-2 rounded-lg shadow-2xl before:absolute before:h-12 before:w-4 before:bg-sky-600 before:-left-4 before:top-5 after:absolute after:size-8 after:-z-10 after:rotate-45 after:top-[52px] after:-left-2 after:bg-sky-600">
                                 <div class="flex flex-col justify-center items-center mt-12">
@@ -382,9 +382,9 @@ function fantasysportsappdevelopment() {
               Investors, stakeholders, and customers are continually seeking to leverage the growth of the Fantasy Sports Industry. Joining this industry presents countless opportunities for revenue growth, expansion, and development.
             </div>
             <ul className="
-                flex flex-row flex-wrap w-full relative z-40 items-stretch text-gray-800 pt-5 
+                flex flex-row flex-wrap w-full max-lg:justify-center relative z-40 items-stretch text-gray-800 pt-5 
                 
-                *:lg:w-1/3 *:md:w-1/2 *:h-auto *:p-3 *:text-center
+                *:lg:w-1/3 *:sm:w-1/2 *:h-auto *:p-3 *:text-center
                 
                 *:*:size-full *:*:bg-white *:*:rounded-[20px] *:*:p-6 *:*:relative *:*:shadow-lg *:*:duration-500 *:*:transition-all *:*:border-x-4 *:*:border-theme1
                 
@@ -435,36 +435,36 @@ function fantasysportsappdevelopment() {
         </div>
         <ul className="flex relative flex-col gap-y-8 lg:gap-y-64 flex-wrap mx-auto max-w-7xl px-6 lg:px-8">
           <li className="size-full lg:sticky lg:top-36">
-            <div className="bg-theme1 p-4 opacity-100 rounded-[20px] overflow-hidden relative">
+            <div className="bg-theme1 p-4 gap-4 opacity-100 rounded-[20px] overflow-hidden relative">
               <div className="flex flex-col h-full relative z-50">
                 <div className="w-full flex max-sm:flex-col-reverse relative z-10 items-center max-sm:text-center">
-                  <div className="w-1/2 max-sm:w-full text-white flex flex-col max-sm:gap-y-4 gap-y-7">
+                  <div className="w-1/2 order-2  max-sm:w-full text-white flex flex-col max-sm:gap-y-4 gap-y-7">
                     <span className="text-lg md:text-xl lg:text-2xl text-balance">Fantasy Cricket <span className="font-bold">App Development</span></span>
                     <div className="text-sm md:text-base text-balance">Our expert team will assist you in creating a customized fantasy cricket app with features like user registration, team creation, player selection, and more. Turn your vision into a reality with our reliable and innovative solutions. Contact us today for top-notch fantasy cricket app development services.</div>
                     <div className="px-1">
-                      <Link href="javascript:;" className="inline-flex justify-center rounded-lg max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-cyan-900 bg-cyan-900/20 xl:hover:ring-cyan-700 duration-300 backdrop-blur-md shadow-sm shadow-cyan-900/50">View More</Link>
+                      <Link href="javascript:;" className="inline-flex rounded-full justify-center max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-cyan-900 bg-cyan-900/20 xl:hover:ring-cyan-700 duration-300 backdrop-blur-md shadow-sm shadow-cyan-900/50">View More</Link>
                     </div>
                   </div>
-                  <div className="w-1/2 shrink-0 max-sm:w-full relative after:h-16 after:z-10 after:absolute after:bg-gradient-to-t after:from-theme1 after:via-theme1 after:to-transparent after:bottom-0 after:inset-x-0">
-                    <Image width={'1000'} height={'1000'} quality={'90'} loading='lazy' src="/img/cricket-app.webp" alt="" />
+                  <div className="w-1/2 order-1 shrink-0 max-sm:w-full  relative after:h-16 after:z-10 after:absolute after:bg-gradient-to-t after:from-theme1 after:via-theme1 after:to-transparent after:bottom-0 after:inset-x-0 ">
+                    <Image width={'1000'} height={'1000'} quality={'90'} loading='lazy' src="/img/fantasy_combination.png" alt="" />
                   </div>
                 </div>
               </div>
             </div>
           </li>
           <li className="size-full lg:sticky lg:top-36">
-            <div className="bg-theme2  opacity-100 rounded-[20px] overflow-hidden relative">
+            <div className="bg-theme2 opacity-100 rounded-[20px] overflow-hidden relative p-6">
               <div className="flex flex-col h-full relative z-50">
                 <div className="w-full flex max-sm:flex-col-reverse relative z-10 items-center max-sm:text-center">
-                  <div className="w-1/2 max-sm:w-full text-black flex flex-col max-sm:gap-y-4 gap-y-7 px-4">
+                  <div className="w-1/2 max-sm:w-full text-black flex flex-col text-white max-sm:gap-y-4 gap-y-7">
                     <div className="text-lg md:text-xl lg:text-2xl text-balance">Fantasy Football <span className="font-bold">App Development</span></div>
-                    <span className="text-sm md:text-base text-balance">TwinPower Software specializes in fantasy sports app development. With our expertise, we can create a custom fantasy football app that includes features like user registration, team creation, player selection, live scoring, and more. Transform your fantasy football app idea into a reality with our professional services. Contact us now for exceptional fantasy football app development solutions.</span>
+                    <span className="text-sm md:text-base text-balance">At IMG Global Infotech, we specialize in developing custom fantasy sports apps, including fantasy football. With our extensive expertise, we can create a fully customized fantasy football app tailored to your needs, featuring user registration, team creation, player selection, real-time scoring, and more. Bring your fantasy football app vision to life with our professional development services. Get in touch with us today to explore top-tier fantasy football app solutions</span>
                     <div className="px-1">
-                      <Link href="javascript:;" className="inline-flex justify-center rounded-lg max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-cyan-900 bg-cyan-900/20 xl:hover:ring-cyan-700 duration-300 backdrop-blur-md shadow-sm shadow-cyan-900/50">View More</Link>
+                      <Link href="javascript:;" className="inline-flex rounded-full justify-center max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-cyan-900 bg-cyan-900/20 xl:hover:ring-cyan-700 duration-300 backdrop-blur-md shadow-sm shadow-cyan-900/50">View More</Link>
                     </div>
                   </div>
-                  <div className="w-1/2 shrink-0 max-sm:w-full relative after:h-16 after:z-10 after:absolute after:bg-gradient-to-t after:from-theme2  after:via-theme2  after:to-transparent after:bottom-0 after:inset-x-0">
-                    <Image width={'1000'} height={'1000'} quality={'90'} loading='lazy' src="/img/football-app.webp" alt="" />
+                  <div className="w-1/2 shrink-0 max-sm:w-full  relative after:h-16 after:z-10 after:absolute after:bg-gradient-to-t after:from-theme2 after:via-theme2 after:to-transparent after:bottom-0 after:inset-x-0 *:size-[576px] *:object-contain aspect-[1/.8] *:h-full">
+                    <Image width={'1000'} height={'1000'} quality={'90'} loading='lazy' src="/img/fantasy_advance_features.png" alt="" />
                   </div>
                 </div>
               </div>
@@ -478,11 +478,11 @@ function fantasysportsappdevelopment() {
                     <div className="text-lg md:text-xl lg:text-2xl text-balance">Fantasy Kabaddi <span className="font-bold">App Development</span></div>
                     <span className="text-sm md:text-base text-balance">With TwinPower Software, you can bring your fantasy kabaddi app idea to life. Our experienced team will guide you through the entire app development process, from conceptualization to launch. Create engaging features like user registration, team formation, player selection, live scoring, and more. Don't miss the opportunity to captivate kabaddi enthusiasts with your customized fantasy kabaddi app.</span>
                     <div className="px-1">
-                      <Link href="javascript:;" className="inline-flex justify-center rounded-lg max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-cyan-900 bg-cyan-900/20 xl:hover:ring-cyan-700 duration-300 backdrop-blur-md shadow-sm shadow-cyan-900/50">View More</Link>
+                      <Link href="javascript:;" className="inline-flex rounded-full justify-center max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-cyan-900 bg-cyan-900/20 xl:hover:ring-cyan-700 duration-300 backdrop-blur-md shadow-sm shadow-cyan-900/50">View More</Link>
                     </div>
                   </div>
-                  <div className="w-1/2 order-1 shrink-0 max-sm:w-full relative after:h-16 after:z-10 after:absolute after:bg-gradient-to-t after:from-theme1 after:via-theme1 after:to-transparent after:bottom-0 after:inset-x-0">
-                    <Image width={'1000'} height={'1000'} quality={'90'} loading='lazy' src="/img/Kabaddi-app.webp" alt="" />
+                  <div className="w-1/2 order-1  shrink-0 max-sm:w-full relative after:h-16 after:z-10 after:absolute after:bg-gradient-to-t after:from-theme1 after:via-theme1 after:to-transparent after:bottom-0 after:inset-x-0  *:w-[500px]  *:h-full aspect-[1/.7] *:object-contain">
+                    <Image width={'1000'} height={'1000'} quality={'90'} loading='lazy' src="/img/Untitled design - 2024-09-17T124732.892.webp" alt="" />
                   </div>
                 </div>
               </div>
@@ -492,15 +492,15 @@ function fantasysportsappdevelopment() {
             <div className="bg-theme2 opacity-100 rounded-[20px] overflow-hidden relative p-6">
               <div className="flex flex-col h-full relative z-50">
                 <div className="w-full flex max-sm:flex-col-reverse relative z-10 items-center max-sm:text-center">
-                  <div className="w-1/2 max-sm:w-full text-black flex flex-col max-sm:gap-y-4 gap-y-7">
+                  <div className="w-1/2 max-sm:w-full  flex flex-col text-white max-sm:gap-y-4 gap-y-7">
                     <div className="text-lg md:text-xl lg:text-2xl text-balance">Fantasy Stock Market <span className="font-bold">App Development</span></div>
                     <span className="text-sm md:text-base text-balance">Ready to launch your fantasy stock app? TwinPower Software is your go-to partner for fantasy stock app development. Our skilled team will help you create a cutting-edge app with features like user registration, portfolio creation, virtual trading, real-time market data, and more. Step into the world of virtual stock trading with our reliable and innovative solutions.</span>
                     <div className="px-1">
-                      <Link href="javascript:;" className="inline-flex justify-center rounded-lg max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-cyan-900 bg-cyan-900/20 xl:hover:ring-cyan-700 duration-300 backdrop-blur-md shadow-sm shadow-cyan-900/50">View More</Link>
+                      <Link href="javascript:;" className="inline-flex rounded-full justify-center max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-cyan-900 bg-cyan-900/20 xl:hover:ring-cyan-700 duration-300 backdrop-blur-md shadow-sm shadow-cyan-900/50">View More</Link>
                     </div>
                   </div>
-                  <div className="w-1/2 shrink-0 max-sm:w-full relative after:h-16 after:z-10 after:absolute after:bg-gradient-to-t after:from-theme2 after:via-theme2 after:to-transparent after:bottom-0 after:inset-x-0">
-                    <Image width={'1000'} height={'1000'} quality={'90'} loading='lazy' src="/img/fantasy-stock-app.webp" alt="" />
+                  <div className="w-1/2 shrink-0 max-sm:w-full  relative after:h-16 after:z-10 after:absolute after:bg-gradient-to-t after:from-theme2 after:via-theme2 after:to-transparent after:bottom-0 after:inset-x-0 *:w-[576px] *:aspect-[1/.8] *:object-contain ">
+                    <Image width={'1000'} height={'1000'} quality={'90'} loading='lazy' src="/img/app.png" alt="" />
                   </div>
                 </div>
               </div>
@@ -599,7 +599,7 @@ function fantasysportsappdevelopment() {
         </div>
         <div className="flex flex-wrap mt-10 items-center bg-theme2 rounded-[20px]">
           <div className="lg:w-2/6 w-full">
-            <div className="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
+            <div className="mobileImg sm:w-64 w-52 sm:h-auto aspect-auto h-60 *:object-contain mx-auto">
               <Image width={1000} height={1000} loading='lazy' quality={90} src="/img/fantasy-sports-admin-penal.webp" alt="fantasy-sports-admin-penal" className="img-fluid h-full w-full " />
             </div>
           </div>

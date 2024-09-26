@@ -371,7 +371,7 @@ function DoctorDemand() {
                                 </div>
                                 <div className="mt-8 flex gap-4 justify-center">
                                     <a className="inline-flex justify-center rounded-lg text-sm font-semibold py-2 md:py-3 px-3 md:px-4 bg-slate-900 text-white hover:bg-slate-700" href="/contact-us">
-                                        <span className="select-none">
+                                        <span className=" ">
                                             Get In Touch <span aria-hidden="true" className="">→</span>
                                         </span>
                                     </a>
@@ -391,7 +391,7 @@ function DoctorDemand() {
                                 </div>
                                 <div className="mt-8 flex gap-4 justify-center">
                                     <a className="inline-flex justify-center rounded-lg text-sm font-semibold py-2 md:py-3 px-3 md:px-4 bg-slate-900 text-white hover:bg-slate-700" href="/contact-us">
-                                        <span className="select-none">
+                                        <span className=" ">
                                             Get In Touch <span aria-hidden="true" className="">→</span>
                                         </span>
                                     </a>
@@ -411,7 +411,7 @@ function DoctorDemand() {
                                 </div>
                                 <div className="mt-8 flex gap-4 justify-center">
                                     <a className="inline-flex justify-center rounded-lg text-sm font-semibold py-2 md:py-3 px-3 md:px-4 bg-slate-900 text-white hover:bg-slate-700" href="/contact-us">
-                                        <span className="select-none">
+                                        <span className=" ">
                                             Get In Touch <span aria-hidden="true" className="">→</span>
                                         </span>
                                     </a>
