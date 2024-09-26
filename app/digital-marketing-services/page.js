@@ -129,10 +129,10 @@ function digitalmarketingservices() {
                 <div className="relative flex-shrink-0 p-4 w-full">
                   <div className="relative z-10 overflow-hidden *:rounded-xl [transform:rotateY(180deg)] group-[]/flip:[transform:rotateY(0deg)] [&~*]:[&:has(.mask)]:lg:hidden">
                     <Image
-                      className="object-cover w-full h-auto md:w-[336px] content1-img"
-                      width={"384"}
-                      height={"384"}
-                      src="/img/food-delivery-336w.webp"
+                      className="object-contain w-full h-auto md:w-[400px] content1-img aspect-[1/1.2]"
+                      width={"1000"}
+                      height={"1000"}
+                      src="/img/food-delivery-336w.png"
                       alt="image3"
                     />
                   </div>
@@ -348,7 +348,7 @@ function digitalmarketingservices() {
               </div>
               <div className="lg:w-[40%] flex items-center justify-center w-[100%] lg:order-2 order-1">
                 <div className="aspect-[3/2.8] object-cover size-full *:size-full">
-                  <Image src="/img/digital-marketing-services-image.webp" alt="image" width={1000} height={1000} />
+                  <Image src="/img/digital-marketing-services-.png" alt="image" width={1000} height={1000} />
 
                 </div>
               </div>
