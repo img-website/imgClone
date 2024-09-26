@@ -74,30 +74,30 @@ function fantasycricketAppDevelopment() {
                                 <div className="xl:m-10 lg:m-8 md:m-6 overflow-hidden">
                                     <div className="w-full relative z-20 h-auto shrink-1 grow-0">
                                         <p className="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black text-balance">
-                                            <span>We build world-class, </span> <span className="font-bold text-theme2">award-winning fantasy cricket apps</span>
+                                            <span>We create world-class, </span> <span className="font-bold text-theme2">award-winning mobile applications.</span>
                                         </p>
                                         <p className="mt-4 text-sm md:text-base leading-7 text-slate-600 text-balance">
-                                            TwinPower Software is a multi-award-winning technology company based in India since 2014. With three offices across the country and a team of over 100 members, we have successfully completed more than 1,200 projects, boasting a remarkable 98% success rate.
+                                            Since 2014, Twin Power Software has been an internationally award-winning tech company based in Canada, with three offices across India. With a team of over 100 professionals, we've successfully completed 1,200+ projects, achieving a 98% success rate.
                                         </p>
                                     </div>
                                 </div>
 
                                 <div className="xl:m-10 lg:m-8 md:m-6 overflow-hidden rounded-xl md:rounded-2xl !  shadow-xl shadow-indigo-900/10 md:hover:-translate-y-2 duration-300">
                                     <figure className="relative">
-                                        <Image width={1000} height={1000} loading='lazy' quality={90} src="/img/league-app.jpeg" alt="League11" className="block w-full object-contain aspect-[400/350]" />
+                                        <Image width={1000} height={1000} loading='lazy' quality={90} src="/img/dream11.png" alt="League11" className=" block w-full object-contain aspect-[400/350]" />
                                         <figcaption className="w-full block p-10 bg-gradient-to-t from-white via-white to-transparent from-75% relative z-[1] -mt-20">
-                                            <div className="lg:text-2xl md:text-xl text-lg text-indigo-950 text-balance font-semibold">League11</div>
-                                            <p className="mt-4 text-sm md:text-base leading-7 text-slate-600">League11 gives you the smoothest platform with the lowest platform fee 3% ever. Now you can play at your comfort zone in multiple games in 24*7 running matches and win the biggest cash prizes.</p>
+                                            <div className="lg:text-2xl md:text-xl text-lg text-indigo-950 text-balance font-semibold">Dream11</div>
+                                            <p className="mt-4 text-sm md:text-base leading-7 text-slate-600">Dream11 gives you the smoothest platform with the lowest platform fee 3% ever. Now you can play at your comfort zone in multiple games in 24*7 running matches and win the biggest cash prizes.</p>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div className="xl:m-10 lg:m-8 md:m-6 overflow-hidden rounded-xl md:rounded-2xl !  shadow-xl shadow-indigo-900/10 md:hover:-translate-y-2 duration-300">
                                     <figure className="relative">
-                                        <Image width={1000} height={1000} loading='lazy' quality={90} src="/img/batball11-app.jpeg" alt="Batball11" className="block w-full object-contain aspect-[400/300]" />
+                                        <Image width={1000} height={1000} loading='lazy' quality={90} src="/img/players11.png" alt="players-11" className=" block w-full object-contain aspect-[400/300]" />
                                         <figcaption className="w-full block p-10 bg-gradient-to-t from-white via-white to-transparent from-75% relative z-[1] -mt-20">
-                                            <div className="lg:text-2xl md:text-xl text-lg text-indigo-950 text-balance font-semibold">Batball11</div>
-                                            <p className="mt-4 text-sm md:text-base leading-7 text-slate-600 ">BatBall11 is a dreamy ethereal platform for all the sports lovers to experience the most earnest sports and games experience, virtually!</p>
+                                            <div className="lg:text-2xl md:text-xl text-lg text-indigo-950 text-balance font-semibold">players-11</div>
+                                            <p className="mt-4 text-sm md:text-base leading-7 text-slate-600 ">players-11 is a dreamy ethereal platform for all the sports lovers to experience the most earnest sports and games experience, virtually!</p>
                                         </figcaption>
                                     </figure>
                                 </div>
@@ -105,20 +105,20 @@ function fantasycricketAppDevelopment() {
                             <div className="flex flex-col md:w-1/2 w-full max-md:gap-y-8">
                                 <div className="xl:m-10 lg:m-8 md:m-6 overflow-hidden rounded-xl md:rounded-2xl !  shadow-xl shadow-indigo-900/10 md:hover:-translate-y-2 duration-300">
                                     <figure className="relative">
-                                        <Image width={1000} height={1000} loading='lazy' quality={90} src="/img/fab11.jpeg" alt="Myfab11" className="block w-full object-contain aspect-[400/300]" />
+                                        <Image width={1000} height={1000} loading='lazy' quality={90} src="/img/mpl.png" alt="Myfab11" className=" block w-full object-contain aspect-[400/300]" />
                                         <figcaption className="w-full block p-10 bg-gradient-to-t from-white via-white to-transparent from-75% relative z-[1] -mt-20">
-                                            <div className="lg:text-2xl md:text-xl text-lg text-indigo-950 text-balance font-semibold">Myfab11</div>
-                                            <p className="mt-4 text-sm md:text-base leading-7 text-slate-600">MyFab11 offers Sports Game formats for cricket, football games, among others, through the Platform. We have offered Sports Games through the Platform since 2018.</p>
+                                            <div className="lg:text-2xl md:text-xl text-lg text-indigo-950 text-balance font-semibold">MPL </div>
+                                            <p className="mt-4 text-sm md:text-base leading-7 text-slate-600">MPL  offers Sports Game formats for cricket, football games, among others, through the Platform. We have offered Sports Games through the Platform since 2018.</p>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div className="xl:m-10 lg:m-8 md:m-6 overflow-hidden rounded-xl md:rounded-2xl !  shadow-xl shadow-indigo-900/10 md:hover:-translate-y-2 duration-300">
                                     <figure className="relative">
-                                        <Image width={1000} height={1000} loading='lazy' quality={90} src="/img/jeet11-app.jpeg" alt="Jeet11" className="block w-full object-contain aspect-[400/400]" />
+                                        <Image width={1000} height={1000} loading='lazy' quality={90} src="/img/play11.png" alt="play-11" className=" block w-full object-contain aspect-[400/300]" />
                                         <figcaption className="w-full block p-10 bg-gradient-to-t from-white via-white to-transparent from-75% relative z-[1] -mt-20">
-                                            <div className="lg:text-2xl md:text-xl text-lg text-indigo-950 text-balance font-semibold">Jeet11</div>
-                                            <p className="mt-4 text-sm md:text-base leading-7 text-slate-600 ">Jeet11 is India's Fastest growing fantasy platform. Use your gaming knowledge and win big!</p>
+                                            <div className="lg:text-2xl md:text-xl text-lg text-indigo-950 text-balance font-semibold">play-11</div>
+                                            <p className="mt-4 text-sm md:text-base leading-7 text-slate-600 ">play-11 is India's Fastest growing fantasy platform. Use your gaming knowledge and win big!</p>
                                         </figcaption>
                                     </figure>
                                 </div>
@@ -154,7 +154,7 @@ function fantasycricketAppDevelopment() {
                         <div className="md:w-2/5 w-full relative z-10 h-auto">
                             <div className="relative flex-shrink-0 p-4 w-full">
                                 <div className="mx-auto">
-                                    <Image className="lg:h-full lg:w-full mx-auto" width="336" height="487" src="/img/fantasy-cricket-development-company.webp" alt="Robust And Secure Fantasy Cricket App Development Company" />
+                                    <Image className="lg:h-full lg:w-full mx-auto" width="336" height="487" src="/img/fantasy-cricket-development-company.png" alt="Robust And Secure Fantasy Cricket App Development Company" />
                                 </div>
                             </div>
                         </div>

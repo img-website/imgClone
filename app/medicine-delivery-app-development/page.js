@@ -154,10 +154,10 @@ function medicineDeliveryAppDevelopment() {
                                 <div className="relative flex-shrink-0 p-4 w-full">
                                     <div className="relative z-10 overflow-hidden *:rounded-xl [transform:rotateY(180deg)] group-[]/flip:[transform:rotateY(0deg)] [&~*]:[&:has(.mask)]:lg:hidden">
                                         <Image
-                                            className="object-cover w-full h-auto md:w-[336px] content1-img"
-                                            width={"384"}
-                                            height={"384"}
-                                            src="/img/pharmacy-1.webp"
+                                            className="object-contain w-full aspect-[1/1.2] h-auto md:w-[336px] content1-img"
+                                            width={"1000"}
+                                            height={"1000"}
+                                            src="/img/medicine.webp"
                                             alt="image3"
                                         />
                                     </div>
@@ -175,9 +175,9 @@ function medicineDeliveryAppDevelopment() {
                 "
                             >
                                 <span className="font-normal">
-                                    Create a Market-Leading
+                                    Create a Market-Leading 
                                 </span>
-                                <span className="font-bold">
+                                <span className="font-bold ps-1">
                                     App Similar to Medplus
                                 </span>
                             </p>

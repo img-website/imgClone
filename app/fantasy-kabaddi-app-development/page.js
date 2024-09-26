@@ -94,7 +94,7 @@ function fantasyKabaddi() {
 
                                 <div className="xl:m-10 lg:m-8 md:m-6 overflow-hidden rounded-xl md:rounded-2xl !  shadow-xl shadow-indigo-900/10 md:hover:-translate-y-2 duration-300">
                                     <figure className="relative">
-                                        <Image src="/img/myteam11-kabbadi-app.webp" alt="11 Challengers" className="block w-full object-contain aspect-[400/350]" width={400} height={350} />
+                                        <Image src="/img/dream11.png" alt="11 Challengers" className="block w-full object-contain aspect-[1/0.8]" width={400} height={350} />
                                         <figcaption className="w-full block p-10 bg-gradient-to-t from-white via-white to-transparent from-75% relative z-[1] -mt-20">
                                             <div className="lg:text-2xl md:text-xl text-lg text-indigo-950 text-balance font-semibold">MyTeam11</div>
                                             <p className="mt-4 text-sm md:text-base leading-7 text-slate-600">MyTeam11 is an outstanding platform dedicated to providing top-tier services and facilities to its customers, ensuring a superior fantasy sports experience.</p>
@@ -104,7 +104,7 @@ function fantasyKabaddi() {
 
                                 <div className="xl:m-10 lg:m-8 md:m-6 overflow-hidden rounded-xl md:rounded-2xl !  shadow-xl shadow-indigo-900/10 md:hover:-translate-y-2 duration-300">
                                     <figure className="relative">
-                                        <Image src="/img/ballebazzi-app.webp" alt="MPL" className="block w-full object-contain aspect-[400/300]" width={400} height={300} />
+                                        <Image src="/img/play11.png" alt="MPL" className="block w-full object-contain aspect-[1/0.8]" width={400} height={300} />
                                         <figcaption className="w-full block p-10 bg-gradient-to-t from-white via-white to-transparent from-75% relative z-[1] -mt-20">
                                             <div className="lg:text-2xl md:text-xl text-lg text-indigo-950 text-balance font-semibold">BalleBaazi</div>
                                             <p className="mt-4 text-sm md:text-base leading-7 text-slate-600 ">Since its inception in January 2018, BalleBaazi has successfully made a significant impact in the fantasy cricket space. </p>
@@ -115,7 +115,7 @@ function fantasyKabaddi() {
                             <div className="flex flex-col md:w-1/2 w-full max-md:gap-y-8">
                                 <div className="xl:m-10 lg:m-8 md:m-6 overflow-hidden rounded-xl md:rounded-2xl !  shadow-xl shadow-indigo-900/10 md:hover:-translate-y-2 duration-300">
                                     <figure className="relative">
-                                        <Image src="/img/pro-kabaddi-app.webp" alt="My11Circle" className="block w-full object-contain aspect-[400/300]" width={400} height={300} />
+                                        <Image src="/img/mpl.png" alt="My11Circle" className="block w-full object-contain aspect-[1/0.8]" width={400} height={300} />
                                         <figcaption className="w-full block p-10 bg-gradient-to-t from-white via-white to-transparent from-75% relative z-[1] -mt-20">
                                             <div className="lg:text-2xl md:text-xl text-lg text-indigo-950 text-balance font-semibold">Pro Kabaddi League</div>
                                             <p className="mt-4 text-sm md:text-base leading-7 text-slate-600">Pro Kabaddi is a ground-breaking initiative by Mashal Sports Pvt. Ltd and Disney Star. Ever since its inception in 2014.</p>
@@ -125,7 +125,7 @@ function fantasyKabaddi() {
 
                                 <div className="xl:m-10 lg:m-8 md:m-6 overflow-hidden rounded-xl md:rounded-2xl !  shadow-xl shadow-indigo-900/10 md:hover:-translate-y-2 duration-300">
                                     <figure className="relative">
-                                        <Image src="/img/cycircle11-app.webp" alt="MyTeam11" className="block w-full object-contain aspect-[400/400]" width={400} height={400} />
+                                        <Image src="/img/cycircle11-app.webp" alt="MyTeam11" className="block w-full object-contain aspect-[1/0.8]" width={400} height={400} />
                                         <figcaption className="w-full block p-10 bg-gradient-to-t from-white via-white to-transparent from-75% relative z-[1] -mt-20">
                                             <div className="lg:text-2xl md:text-xl text-lg text-indigo-950 text-balance font-semibold">My11Circle</div>
                                             <p className="mt-4 text-sm md:text-base leading-7 text-slate-600 ">My11Circle.com, part of Games24x7, delivers top-notch fantasy games right at your fingertips.</p>

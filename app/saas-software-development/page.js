@@ -102,7 +102,7 @@ function saasSoftwareDevelopment() {
                                         <span>User-Centric <i className="text-theme2 font-bold">User-Focused SaaS Development </i> Company at Your Service </span>
                                     </p>
                                 </div>
-                                <Image className="lg:w-full mx-auto rounded-[20px] [-webkit-mask-size:contain] [-webkit-mask-position:center_center] [-webkit-mask-repeat:no-repeat] mask content1-img" width="336" height="487" src="https://images.unsplash.com/photo-1581093206409-01076de81a1b?cs=tinysrgb&fit=crop&q=80&w=400&h=400" alt="User-Centric SaaS Software Development Company That Serve" />
+                                <Image className="lg:w-full aspect-[1/1.1] object-cover mx-auto rounded-[20px] [-webkit-mask-size:contain] [-webkit-mask-position:center_center] [-webkit-mask-repeat:no-repeat] mask content1-img" width="1000" height="1000" src="/img/sass.webp" />
                             </div>
                             <div className="w-full lg:w-[60%]">
                                 <div className="container mx-auto max-w-7xl px-6 lg:px-8 relative z-10

@@ -94,9 +94,9 @@ function fantasyFootball() {
 
                     <div className="xl:m-10 lg:m-8 md:m-6 overflow-hidden rounded-xl md:rounded-2xl !  shadow-xl shadow-indigo-900/10 md:hover:-translate-y-2 duration-300">
                         <figure className="relative">
-                            <Image src="/img/11challengers-app.webp" alt="11 Challengers" className="block w-full object-contain aspect-[400/350]" width={400} height={350} />
+                            <Image src="/img/dream11.png" alt="11 Challengers" className="block w-full object-contain aspect-[400/350]" width={1000} height={1000} />
                             <figcaption className="w-full block p-10 bg-gradient-to-t from-white via-white to-transparent from-75% relative z-[1] -mt-20">
-                                <div className="lg:text-2xl md:text-xl text-lg text-indigo-950 text-balance font-semibold">11 Challengers</div>
+                                <div className="lg:text-2xl md:text-xl text-lg text-indigo-950 text-balance font-semibold">11 Marvikes</div>
                                 <p className="mt-4 text-sm md:text-base leading-7 text-slate-600">This is where your favorite sports come to life. Choose your dream teams and play daily fantasy sports, right at your fingertips.</p>
                             </figcaption>
                         </figure>
@@ -104,9 +104,9 @@ function fantasyFootball() {
 
                     <div className="xl:m-10 lg:m-8 md:m-6 overflow-hidden rounded-xl md:rounded-2xl !  shadow-xl shadow-indigo-900/10 md:hover:-translate-y-2 duration-300">
                         <figure className="relative">
-                            <Image src="/img/mpl-app.webp" alt="MPL" className="block w-full object-contain aspect-[400/300]" width={400} height={300} />
+                            <Image src="/img/players11.png" alt="MPL" className="block w-full object-contain aspect-[400/300]" width={1000} height={1000} />
                             <figcaption className="w-full block p-10 bg-gradient-to-t from-white via-white to-transparent from-75% relative z-[1] -mt-20">
-                                <div className="lg:text-2xl md:text-xl text-lg text-indigo-950 text-balance font-semibold">Mobile Premier League(MPL)</div>
+                                <div className="lg:text-2xl md:text-xl text-lg text-indigo-950 text-balance font-semibold">Players 11</div>
                                 <p className="mt-4 text-sm md:text-base leading-7 text-slate-600 ">Mobile Premier League (MPL) is one of India's most popular and trusted mobile gaming platforms, featuring over 60 exciting games. </p>
                             </figcaption>
                         </figure>
@@ -115,9 +115,9 @@ function fantasyFootball() {
                 <div className="flex flex-col md:w-1/2 w-full max-md:gap-y-8">
                     <div className="xl:m-10 lg:m-8 md:m-6 overflow-hidden rounded-xl md:rounded-2xl !  shadow-xl shadow-indigo-900/10 md:hover:-translate-y-2 duration-300">
                         <figure className="relative">
-                            <Image src="/img/mycircle11-app.webp" alt="My11Circle" className="block w-full object-contain aspect-[400/300]" width={400} height={300} />
+                            <Image src="/img/mpl.png" alt="My11Circle" className="block w-full object-contain aspect-[400/300]" width={1000} height={1000} />
                             <figcaption className="w-full block p-10 bg-gradient-to-t from-white via-white to-transparent from-75% relative z-[1] -mt-20">
-                                <div className="lg:text-2xl md:text-xl text-lg text-indigo-950 text-balance font-semibold">My11Circle</div>
+                                <div className="lg:text-2xl md:text-xl text-lg text-indigo-950 text-balance font-semibold">Marvel 11</div>
                                 <p className="mt-4 text-sm md:text-base leading-7 text-slate-600">My11Circle.com, a platform by Games24x7, delivers the best fantasy games right to your fingertips.</p>
                             </figcaption>
                         </figure>
@@ -125,9 +125,9 @@ function fantasyFootball() {
 
                     <div className="xl:m-10 lg:m-8 md:m-6 overflow-hidden rounded-xl md:rounded-2xl !  shadow-xl shadow-indigo-900/10 md:hover:-translate-y-2 duration-300">
                         <figure className="relative">
-                            <Image src="/img/myteam11-app.webp" alt="MyTeam11" className="block w-full object-contain aspect-[400/400]" width={400} height={400} />
+                            <Image src="/img/play11.png" alt="MyTeam11" className="block w-full object-contain aspect-[400/400]" width={1000} height={1000} />
                             <figcaption className="w-full block p-10 bg-gradient-to-t from-white via-white to-transparent from-75% relative z-[1] -mt-20">
-                                <div className="lg:text-2xl md:text-xl text-lg text-indigo-950 text-balance font-semibold">MyTeam11</div>
+                                <div className="lg:text-2xl md:text-xl text-lg text-indigo-950 text-balance font-semibold">Dream11</div>
                                 <p className="mt-4 text-sm md:text-base leading-7 text-slate-600 ">MyTeam11 is an excellent platform dedicated to providing top-notch facilities for its users, ensuring a seamless fantasy gaming experience. </p>
                             </figcaption>
                         </figure>

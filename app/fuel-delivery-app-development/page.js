@@ -144,9 +144,9 @@ function FuelDeliveryApp() {
                                 <div className='relative flex-shrink-0 p-4 w-full'>
                                     <div className='relative z-10 overflow-hidden *:rounded-xl [transform:rotateY(180deg)] group-[]/flip:[transform:rotateY(0deg)] [&~*]:[&:has(.mask)]:lg:hidden'>
                                         <Image
-                                            className='object-cover w-full h-auto md:w-[336px] content1-img'
-                                            width={'384'}
-                                            height={'384'}
+                                            className='object-contain aspect-[1/1.2] w-full h-auto md:w-[336px] content1-img'
+                                            width={'1000'}
+                                            height={'1000'}
                                             src='/img/fuel-delivery-app.webp'
                                             alt='image3'
                                         />
@@ -167,7 +167,7 @@ function FuelDeliveryApp() {
                                 <span className='font-normal'>
                                     Looking to Build a High-Demand
                                 </span>
-                                <span className='font-bold'>Fuel Delivery App?</span>
+                                <span className='font-bold ps-1'>Fuel Delivery App?</span>
                             </p>
                             <p className='mt-4 text-sm md:text-base leading-7 text-slate-600'>
                                 If you're motivated by leading platforms like GasBuddy and

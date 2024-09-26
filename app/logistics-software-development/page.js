@@ -150,7 +150,7 @@ function logisticssoftwaredevelopment() {
                             <div className="flex [transform:rotateY(180deg)] group-[]/flip:[transform:rotateY(0deg)]">
                                 <div className="relative flex-shrink-0 p-4 w-full">
                                     <div className="relative z-10 overflow-hidden *:rounded-xl [transform:rotateY(180deg)] group-[]/flip:[transform:rotateY(0deg)] [~*]:[:has(.mask)]:lg:hidden">
-                                        <Image className="object-cover w-full h-auto content1-img" width="336" height="687" src="/img/logistics-app-development-laptop.webp" alt="image" />
+                                        <Image className="object-contain aspect-[1/1.2] w-full h-auto content1-img" width="1000" height="1000" src="/img/logistics-app-development-laptop.png" alt="image" />
 
 
                                     </div>

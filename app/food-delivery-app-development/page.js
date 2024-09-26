@@ -178,10 +178,10 @@ function foodDeliveryAppDevelopment() {
                                 <div className="relative flex-shrink-0 p-4 w-full">
                                     <div className="relative z-10 overflow-hidden *:rounded-xl [transform:rotateY(180deg)] group-[]/flip:[transform:rotateY(0deg)] [&~*]:[&:has(.mask)]:lg:hidden">
                                         <Image
-                                            className="object-cover w-full h-auto md:w-[336px] content1-img"
-                                            width={"384"}
-                                            height={"384"}
-                                            src="/img/food-delivery-336w.webp"
+                                            className="object-contain w-full h-auto md:w-[336px] aspect-[1/1.2] content1-img"
+                                            width={"1000"}
+                                            height={"1000"}
+                                            src="/img/food-delivery-336w.png"
                                             alt="image3"
                                         />
                                     </div>

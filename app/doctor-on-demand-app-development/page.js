@@ -136,10 +136,10 @@ function DoctorDemand() {
                                 <div className='relative flex-shrink-0 p-4 w-full'>
                                     <div className='relative z-10 overflow-hidden *:rounded-xl [transform:rotateY(180deg)] group-[]/flip:[transform:rotateY(0deg)] [&~*]:[&:has(.mask)]:lg:hidden'>
                                         <Image
-                                            className='object-cover w-full h-auto md:w-[336px] content1-img'
-                                            width={'384'}
-                                            height={'384'}
-                                            src='/img/doctor-on-demand-app-development-company.webp'
+                                            className='object-contain aspect-[1/1.2] w-full h-auto md:w-[336px] content1-img'
+                                            width={'1000'}
+                                            height={'1000'}
+                                            src='/img/doctor-on-demand-app-development-company.png'
                                             alt='image3'
                                         />
                                     </div>
@@ -370,7 +370,7 @@ function DoctorDemand() {
                                     <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">The hospitals can use the on-demand doctor app to provide online Telemedicine Services.</p>
                                 </div>
                                 <div className="mt-8 flex gap-4 justify-center">
-                                    <a className="inline-flex justify-center rounded-lg text-sm font-semibold py-2 md:py-3 px-3 md:px-4 bg-slate-900 text-white hover:bg-slate-700" href="/contact-us">
+                                    <a className="inline-flex justify-center rounded-full text-sm font-semibold py-2 md:py-3 px-3 md:px-4 bg-slate-900 text-white hover:bg-slate-700" href="/contact-us">
                                         <span className=" ">
                                             Get In Touch <span aria-hidden="true" className="">→</span>
                                         </span>
@@ -390,7 +390,7 @@ function DoctorDemand() {
                                     <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">Doctors can provide virtual consultations anytime, anywhere, and can manage and schedule their online appointments.</p>
                                 </div>
                                 <div className="mt-8 flex gap-4 justify-center">
-                                    <a className="inline-flex justify-center rounded-lg text-sm font-semibold py-2 md:py-3 px-3 md:px-4 bg-slate-900 text-white hover:bg-slate-700" href="/contact-us">
+                                    <a className="inline-flex justify-center rounded-full text-sm font-semibold py-2 md:py-3 px-3 md:px-4 bg-slate-900 text-white hover:bg-slate-700" href="/contact-us">
                                         <span className=" ">
                                             Get In Touch <span aria-hidden="true" className="">→</span>
                                         </span>
@@ -410,7 +410,7 @@ function DoctorDemand() {
                                     <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">The pharmacy and Laboratories can access the patient-doctor medical reports and other valuable data.</p>
                                 </div>
                                 <div className="mt-8 flex gap-4 justify-center">
-                                    <a className="inline-flex justify-center rounded-lg text-sm font-semibold py-2 md:py-3 px-3 md:px-4 bg-slate-900 text-white hover:bg-slate-700" href="/contact-us">
+                                    <a className="inline-flex justify-center rounded-full text-sm font-semibold py-2 md:py-3 px-3 md:px-4 bg-slate-900 text-white hover:bg-slate-700" href="/contact-us">
                                         <span className=" ">
                                             Get In Touch <span aria-hidden="true" className="">→</span>
                                         </span>
