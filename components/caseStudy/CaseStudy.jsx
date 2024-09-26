@@ -25,7 +25,7 @@ function CaseStudy() {
                             <div className="flex flex-col p-10 h-full relative z-50">
                                 <div className="w-full gap-14 flex max-sm:flex-col-reverse relative z-10 items-center max-sm:text-center">
                                     <div className="grow-0 shrink-0 max-sm:w-full">
-                                        <Image className="size-[20rem] lg:w-[35rem] lg:h-[25rem] h-auto max-sm:mx-auto object-contain" width="1000" height="1000" src="https://www.hyperlinkinfosystem.com/assets/case-study/parkquik/client-requirements.png" alt="TractorJunction" />
+                                        <Image className="filter grayscale size-[20rem] lg:w-[35rem] lg:h-[25rem] h-auto max-sm:mx-auto object-contain" width="1000" height="1000" src="https://www.hyperlinkinfosystem.com/assets/case-study/parkquik/client-requirements.png" alt="TractorJunction" />
                                     </div>
                                     <div className="grow max-sm:w-full text-white flex ms-auto flex-col max-sm:gap-y-4 gap-y-7">
                                         <span className="duration-300 text-base lg:text-lg font-semibold inline-block">Roccabox</span>
@@ -63,7 +63,7 @@ function CaseStudy() {
                                         </div>
                                     </div>
                                     <div className="grow-0 shrink-0 max-sm:w-full">
-                                        <Image className="size-[20rem] lg:size-[25rem] h-auto max-sm:mx-auto" width="640" height="640" src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/coversure-port.png" alt="TractorJunction" />
+                                        <Image className="filter grayscale size-[20rem] lg:size-[25rem] h-auto max-sm:mx-auto" width="640" height="640" src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/coversure-port.png" alt="TractorJunction" />
                                     </div>
                                 </div>
                             </div>
@@ -79,7 +79,7 @@ function CaseStudy() {
                                 <div className="w-full gap-14 flex max-sm:flex-col-reverse relative z-10 items-center max-sm:text-center">
 
                                     <div className="grow-0 shrink-0 max-sm:w-full">
-                                        <Image className="size-[20rem] object-contain lg:size-[25rem] h-auto max-sm:mx-auto" width="640" height="640" src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/getsupp-port.png" />
+                                        <Image className="grayscale size-[20rem] object-contain lg:size-[25rem] h-auto max-sm:mx-auto" width="640" height="640" src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/getsupp-port.png" />
                                     </div>
                                     <div className="grow max-sm:w-full text-white flex flex-col max-sm:gap-y-4 gap-y-7">
                                         <span className="duration-300 text-lg font-semibold inline-block">About Aavas Financiers</span>
@@ -114,7 +114,7 @@ function CaseStudy() {
                                         </div>
                                     </div>
                                     <div className="grow-0 shrink-0 max-sm:w-full">
-                                        <Image className="size-[20rem] lg:size-[25rem] h-auto max-sm:mx-auto" width="640" height="640" src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/biocule-port.png" alt="MyFab11" />
+                                        <Image className="grayscale size-[20rem] lg:size-[25rem] h-auto max-sm:mx-auto" width="640" height="640" src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/biocule-port.png" alt="MyFab11" />
                                     </div>
                                 </div>
                             </div>
@@ -130,7 +130,7 @@ function CaseStudy() {
                                 <div className="w-full gap-14 flex max-sm:flex-col-reverse relative z-10 items-center max-sm:text-center">
 
                                     <div className="grow-0 shrink-0 max-sm:w-full">
-                                        <Image className="size-[20rem] lg:size-[25rem] object-contain h-auto max-sm:mx-auto" width="640" height="640" src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/caratlane-port.png" alt="Fabindia" />
+                                        <Image className="filter grayscale size-[20rem] lg:size-[25rem] object-contain h-auto max-sm:mx-auto" width="640" height="640" src="https://d2e3cmtjkfw2a3.cloudfront.net/static/media/portfolio/caratlane-port.png" alt="Fabindia" />
                                     </div>
                                     <div className="grow max-sm:w-full text-white flex flex-col max-sm:gap-y-4 gap-y-7">
                                         <span className="duration-300 text-lg font-semibold inline-block">About Laiqa</span>
@@ -171,7 +171,7 @@ function CaseStudy() {
                                         </div>
                                     </div>
                                     <div className="grow-0 shrink-0 w-[1px] overflow-hidden opacity-0">
-                                        <div className="size-[20rem] lg:size-[25rem] h-auto max-sm:mx-auto"></div>
+                                        <div className="filter grayscale size-[20rem] lg:size-[25rem] h-auto max-sm:mx-auto"></div>
                                     </div>
                                 </div>
                             </div>
