@@ -453,17 +453,17 @@ function fantasysportsappdevelopment() {
             </div>
           </li>
           <li className="size-full lg:sticky lg:top-36">
-            <div className="bg-theme2  opacity-100 rounded-[20px] overflow-hidden relative">
+            <div className="bg-theme2 opacity-100 rounded-[20px] overflow-hidden relative p-6">
               <div className="flex flex-col h-full relative z-50">
                 <div className="w-full flex max-sm:flex-col-reverse relative z-10 items-center max-sm:text-center">
-                  <div className="w-1/2 max-sm:w-full text-black flex flex-col max-sm:gap-y-4 gap-y-7 px-4">
+                  <div className="w-1/2 max-sm:w-full text-black flex flex-col max-sm:gap-y-4 gap-y-7">
                     <div className="text-lg md:text-xl lg:text-2xl text-balance">Fantasy Football <span className="font-bold">App Development</span></div>
-                    <span className="text-sm md:text-base text-balance">TwinPower Software specializes in fantasy sports app development. With our expertise, we can create a custom fantasy football app that includes features like user registration, team creation, player selection, live scoring, and more. Transform your fantasy football app idea into a reality with our professional services. Contact us now for exceptional fantasy football app development solutions.</span>
+                    <span className="text-sm md:text-base text-balance">At IMG Global Infotech, we specialize in developing custom fantasy sports apps, including fantasy football. With our extensive expertise, we can create a fully customized fantasy football app tailored to your needs, featuring user registration, team creation, player selection, real-time scoring, and more. Bring your fantasy football app vision to life with our professional development services. Get in touch with us today to explore top-tier fantasy football app solutions</span>
                     <div className="px-1">
                       <Link href="javascript:;" className="inline-flex justify-center rounded-lg max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-cyan-900 bg-cyan-900/20 xl:hover:ring-cyan-700 duration-300 backdrop-blur-md shadow-sm shadow-cyan-900/50">View More</Link>
                     </div>
                   </div>
-                  <div className="w-1/2 shrink-0 max-sm:w-full relative after:h-16 after:z-10 after:absolute after:bg-gradient-to-t after:from-theme2  after:via-theme2  after:to-transparent after:bottom-0 after:inset-x-0">
+                  <div className="w-1/2 shrink-0 max-sm:w-full relative after:h-16 after:z-10 after:absolute after:bg-gradient-to-t after:from-theme2 after:via-theme2 after:to-transparent after:bottom-0 after:inset-x-0">
                     <Image width={'1000'} height={'1000'} quality={'90'} loading='lazy' src="/img/football-app.webp" alt="" />
                   </div>
                 </div>
@@ -599,7 +599,7 @@ function fantasysportsappdevelopment() {
         </div>
         <div className="flex flex-wrap mt-10 items-center bg-theme2 rounded-[20px]">
           <div className="lg:w-2/6 w-full">
-            <div className="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
+            <div className="mobileImg sm:w-64 w-52 sm:h-auto aspect-auto h-60 *:object-contain mx-auto">
               <Image width={1000} height={1000} loading='lazy' quality={90} src="/img/fantasy-sports-admin-penal.webp" alt="fantasy-sports-admin-penal" className="img-fluid h-full w-full " />
             </div>
           </div>
