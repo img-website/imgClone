@@ -138,10 +138,10 @@ function androidApplicationDevelopment() {
 
                     last:*:font-bold last:*:text-theme2
                 ">
-                                <span>Android App</span> <span> Development Services</span>
+                                <span className='text-white'>Android App</span> <span> Development Services</span>
 
                             </p>
-                            <p className="md:text-base text-sm text-black/70 mt-3 text-balance text-center">Next-Gen Android App Development Beside Professional Excellence</p>
+                            <p className="md:text-base text-sm text-white mt-3 text-balance text-center">Next-Gen Android App Development Beside Professional Excellence</p>
                         </div>
 
                         <div class="grid lg:grid-cols-3 gap-y-8 sm:grid-cols-2 gap-3 mx-auto px-4 sm:px-6 lg:px-8 py-20 relative">

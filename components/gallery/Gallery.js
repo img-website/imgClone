@@ -6,12 +6,12 @@ function Gallery() {
   return (
     <>
       <p className="max-md:text-2xl/tight max-xl:text-3xl/tight pt-10 text-4xl/tight tracking-[-0.04em] text-black text-balance text-center">
-        <span className="font-normal">Serving Multiple  </span>
+        <span className="font-normal text-white">Serving Multiple  </span>
         <span className="font-bold text-[#C10913]"> Industries Across the Board!
-        </span>
+        </span> 
       </p>
-      <div className="md:text-base text-center text-sm text-black/70 mt-3 text-balance">
-        Discover the endless possibilities with our versatile mobile app and web development solutions. From tech to healthcare, we cater to a diverse array of industries, ensuring innovation and excellence across every sector. Explore the major sector we deal in!
+      <div className="md:text-base text-center text-sm text-white mt-3 text-balance">
+        Discover the endless possibilities  with our versatile mobile app and web development solutions. From tech to healthcare, we cater to a diverse array of industries, ensuring innovation and excellence across every sector. Explore the major sector we deal in!
       </div>
       <section className="text-gray-50 pt-6 max-w-7xl mx-auto px-6 lg:px-8">
         <div className="py-4 mx-auto flex flex-wrap">

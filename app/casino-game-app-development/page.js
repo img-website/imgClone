@@ -84,13 +84,13 @@ function casinoGameAppDevelopment() {
                 <div className="flex-col justify-start lg:items-start items-center gap-4 flex">
                   <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
                     <p className="max-md:text-2xl/tight pt-16 max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black empty:hidden text-balance">
-                      <span>
+                      <span className='text-white'>
                         Next-Generation Casino Game
                       </span>
                       <span className="font-bold text-theme2"> Development for Unmatched Excitement</span>
                     </p>
                     <p
-                      className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center">
+                      className="text-gray-300 text-base font-normal leading-relaxed lg:text-start text-center">
                       Online casino gaming captivates and excites users, encouraging them to win real-cash prizes. We can enhance this experience by offering advanced, tech-driven casino app development solutions. Our expert developers craft innovative apps for various casino gaming formats, including slot machines, poker, blackjack, roulette, crypto casino games, and more. In addition to app development, we excel in building comprehensive online casino software, making us one of the most trusted casino game development companies. We are the ideal choice for launching your casino app and taking your business to the next level.
                     </p>
 
@@ -611,7 +611,7 @@ function casinoGameAppDevelopment() {
             <div className="max-w-[85rem] sm:px-6 lg:px-8 mx-auto">
               <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
                 <h2 className="text-2xl font-bold md:text-4xl md:leading-tight">Your questions, answered</h2>
-                <p className="mt-1 text-gray-600">Answers to the most frequently asked questions.</p>
+                <p className="mt-1 text-gray-300">Answers to the most frequently asked questions.</p>
               </div>
               <Accordion items={accordionItems} />
             </div>

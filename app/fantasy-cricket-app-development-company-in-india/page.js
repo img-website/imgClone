@@ -269,10 +269,10 @@ function fantasycricketAppDevelopment() {
             <div className='container pt-5 md:p-5 sm:p-8 p-5 mx-auto max-w-7xl px-6 lg:px-8 relative z-10'>
                 <div className="relative container mx-auto max-w-7xl md:px-6 lg:px-8 z-10 text-center">
                     <p className="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black text-balance">
-                        <span className="font-normal">Core </span>
+                        <span className="font-normal text-white">Core </span>
                         <span className="font-bold text-theme2">Features List</span>
                     </p>
-                    <div className="md:text-base text-sm text-black/70 mt-3 text-balance">
+                    <div className="md:text-base text-sm text-white mt-3 text-balance">
                         We provide a wide array of features for Fantasy Cricket apps, ranging from basic to advanced options, along with innovative new features. You can select the perfect combination to build the ultimate Fantasy Sports app.
                     </div>
                 </div>
@@ -491,7 +491,7 @@ function fantasycricketAppDevelopment() {
                         <div className="max-w-[85rem] sm:px-6 lg:px-8 mx-auto">
                             <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
                                 <h2 className="text-2xl font-bold md:text-4xl md:leading-tight">Your questions, answered</h2>
-                                <p className="mt-1 text-gray-600">Answers to the most frequently asked questions.</p>
+                                <p className="mt-1 text-gray-300">Answers to the most frequently asked questions.</p>
                             </div>
                             <Accordion items={accordionItems} />
                         </div>

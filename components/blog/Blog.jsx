@@ -11,7 +11,7 @@ const Blog = () => {
       <div className="mx-auto max-w-7xl lg:px-8 px-6">
         <div className="mx-auto px-4 sm:px-6 md:max-w-4xl md:px-4 lg:px-2 relative pb-5">
           <p className="max-md:text-xl/tight max-xl:text-2xl/tight text-3xl/tight tracking-[-0.04em] text-black text-center">
-            <span className="font-normal block pb-3">
+            <span className="font-normal block pb-3 text-white">
               Follow Our Blogs for the Latest Innovations and Industry Trends!
             </span>
             <span className="font-bold text-theme2">

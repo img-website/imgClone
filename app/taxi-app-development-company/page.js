@@ -206,7 +206,7 @@ function taxiAppDevelopmentCompany() {
                 <div className="mx-auto max-w-7xl px-5 z-10">
                     <div className="relative container mx-auto max-w-7xl md:px-6 lg:px-8 z-10">
                         <p className="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black text-center">
-                            <span className="font-normal text-center">How Does Taxi Booking </span>
+                            <span className="font-normal text-center text-white">How Does Taxi Booking </span>
                             <span className="font-bold text-theme2">App Work?</span>
                         </p>
                     </div>
@@ -226,7 +226,7 @@ function taxiAppDevelopmentCompany() {
                                         User Registration
                                     </div>
                                 </div>
-                                <div className="text-base text-ellipsis line-clamp-3">
+                                <div className="text-base text-ellipsis line-clamp-3 text-gray-800">
                                     Users download the app, create an account, and provide necessary details, including payment information.
                                 </div>
                             </div>
@@ -240,7 +240,7 @@ function taxiAppDevelopmentCompany() {
                                         Location Sharing
                                     </div>
                                 </div>
-                                <div className="text-base text-ellipsis line-clamp-3">
+                                <div className="text-base text-ellipsis line-clamp-3 text-gray-800">
                                     Users input their current location or enable GPS for the app to determine their position, facilitating efficient cab allocation.
                                 </div>
                             </div>
@@ -254,7 +254,7 @@ function taxiAppDevelopmentCompany() {
                                         Cab Selection
                                     </div>
                                 </div>
-                                <div className="text-base text-ellipsis line-clamp-3">
+                                <div className="text-base text-ellipsis line-clamp-3 text-gray-800">
                                     Users choose the type of cab they need based on factors like size, comfort, and price, presented through the app's interface.
                                 </div>
                             </div>
@@ -271,7 +271,7 @@ function taxiAppDevelopmentCompany() {
                                         Ride Confirmation
                                     </div>
                                 </div>
-                                <div className="text-base text-ellipsis line-clamp-3">
+                                <div className="text-base text-ellipsis line-clamp-3 text-gray-800">
                                     After selecting a cab, users confirm the ride, and the app assigns the nearest available driver based on real-time location data.
                                 </div>
                             </div>
@@ -285,7 +285,7 @@ function taxiAppDevelopmentCompany() {
                                         Real-Time Tracking
                                     </div>
                                 </div>
-                                <div className="text-base text-ellipsis line-clamp-3">
+                                <div className="text-base text-ellipsis line-clamp-3 text-gray-800">
                                     Users can track the cab's movement on a map in real time, estimating its arrival time and ensuring transparency throughout.
                                 </div>
                             </div>
@@ -299,7 +299,7 @@ function taxiAppDevelopmentCompany() {
                                         Payment and Feedback
                                     </div>
                                 </div>
-                                <div className="text-base text-ellipsis line-clamp-3">
+                                <div className="text-base text-ellipsis line-clamp-3 text-gray-800">
                                     Upon reaching the destination, the app charges the user's linked payment method, and users can provide feedback based on their overall experience.
                                 </div>
                             </div>
@@ -481,7 +481,7 @@ function taxiAppDevelopmentCompany() {
                                 <h2 className='text-2xl font-bold md:text-4xl md:leading-tight'>
                                     Your questions, answered
                                 </h2>
-                                <p className='mt-1 text-gray-600'>
+                                <p className='mt-1 text-gray-300'>
                                     Answers to the most frequently asked questions.
                                 </p>
                             </div>

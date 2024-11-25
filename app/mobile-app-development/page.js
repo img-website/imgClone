@@ -80,7 +80,7 @@ function page() {
                 <div className="relative py-6 md:py-8 lg:py-16">
                     <div className="mx-auto px-4 sm:px-6 md:max-w-3xl md:px-4 lg:px-2 relative pb-5">
                         <p className="text-gray-800 max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-center">
-                            <span className="font-normal">The Mobile
+                            <span className="font-normal text-white">The Mobile
                             </span>
                             <span className="font-bold text-theme2"> App Development Journey</span>
                         </p>

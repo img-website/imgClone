@@ -169,7 +169,7 @@ function flutterappdevelopment() {
 
                     last:*:font-bold last:*:text-theme2
                 ">
-                                <span>Android App</span> <span> Development Services</span>
+                                <span className='text-white'>Android App</span> <span> Development Services</span>
 
                             </p>
                             <p className="md:text-base text-sm text-black/70 mt-3 text-balance text-center">Next-Gen Android App Development Beside Professional Excellence</p>

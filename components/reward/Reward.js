@@ -13,11 +13,11 @@ function Reward() {
                         <div className="flex-col justify-start lg:items-start items-center gap-4 flex">
                             <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
                             <p className="max-md:text-2xl/tight pt-16 text-center max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black empty:hidden text-balance">
-                        <span>Uncover More  </span>
+                        <span className='text-white'>Uncover More  </span>
                         <span className="font-bold text-theme2">  About Us</span>
                     </p>
-                                <p
-                                    className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center">
+                                <p 
+                                    className="text-gray-300 text-base font-normal leading-relaxed lg:text-start text-center">
                                     Our achievement story is a testament to teamwork and perseverance. Together, we've
                                     overcome challenges, celebrated victories, and created a narrative of progress and
                                     success.</p>
@@ -27,30 +27,30 @@ function Reward() {
                             <div className="w-full justify-start items-center gap-8 grid md:grid-cols-2 grid-cols-1">
                                 <div
                                     className="w-full h-full p-3.5 rounded-[20px] border hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
-                                    <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">33+ Years</h4>
-                                    <p className="text-gray-500 text-base font-normal leading-relaxed">Influencing Digital
+                                    <h4 className=" text-2xl font-bold font-manrope leading-9 text-white">33+ Years</h4>
+                                    <p className="text-gray-300 text-base font-normal leading-relaxed">Influencing Digital
                                         Landscapes Together</p>
                                 </div>
                                 <div
                                     className="w-full h-full p-3.5 rounded-[20px] border hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
-                                    <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">125+ Projects
+                                    <h4 className="text-white text-2xl font-bold font-manrope leading-9  ">125+ Projects
                                     </h4>
-                                    <p className="text-gray-500 text-base font-normal leading-relaxed">Excellence Achieved
+                                    <p className="text-gray-300 text-base font-normal leading-relaxed">Excellence Achieved
                                         Through Success</p>
                                 </div>
                             </div>
                             <div className="w-full h-full justify-start items-center gap-8 grid md:grid-cols-2 grid-cols-1">
                                 <div
                                     className="w-full p-3.5 rounded-[20px] border hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
-                                    <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">26+ Awards</h4>
-                                    <p className="text-gray-500 text-base font-normal leading-relaxed">Our Dedication to
+                                    <h4 className="text-white text-2xl font-bold font-manrope leading-9">26+ Awards</h4>
+                                    <p className="text-gray-300 text-base font-normal leading-relaxed">Our Dedication to
                                         Innovation Wins Understanding</p>
                                 </div>
                                 <div
                                     className="w-full h-full p-3.5 rounded-[20px] border hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
-                                    <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">99% Happy
+                                    <h4 className="text-white text-2xl font-bold font-manrope leading-9">99% Happy
                                         Clients</h4>
-                                    <p className="text-gray-500 text-base font-normal leading-relaxed">Mirrors our Focus on
+                                    <p className="text-gray-300 text-base font-normal leading-relaxed">Mirrors our Focus on
                                         Client Satisfaction.</p>
                                 </div>
                             </div>

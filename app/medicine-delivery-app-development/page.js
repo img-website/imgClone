@@ -239,7 +239,7 @@ function medicineDeliveryAppDevelopment() {
                             <div className="cardHeading bg-white pt-2 text-base sm:text-xs py-3 lg:text-lg text-[#3f3f3f] font-bold z-30 relative">
                                 Order Placement
                             </div>
-                            <div className="text-sm sm:text-base opacity-60 font-semibold pt-2 leading-[120%] px-3 text-ellipsis line-clamp-3">
+                            <div className="text-sm sm:text-base opacity-60 font-semibold pt-2 leading-[120%] px-3 text-ellipsis line-clamp-3 text-black">
                                 The customer selects food items from a mobile app.
                             </div>
                         </div>
@@ -260,7 +260,7 @@ function medicineDeliveryAppDevelopment() {
                             <div className="cardHeading bg-white pt-2 text-base sm:text-xs py-3 lg:text-lg text-[#3f3f3f] font-bold">
                                 Order Confirmation
                             </div>
-                            <div className="text-sm sm:text-base opacity-60 font-semibold pt-2 leading-[120%] px-3 text-ellipsis line-clamp-3">
+                            <div className="text-sm sm:text-base opacity-60 font-semibold pt-2 leading-[120%] px-3 text-ellipsis line-clamp-3 text-black">
                                 The system confirms the food delivery order.
                             </div>
                         </div>
@@ -273,7 +273,7 @@ function medicineDeliveryAppDevelopment() {
                             <div className="cardHeading bg-white pt-2 text-base sm:text-xs py-3 lg:text-lg text-[#3f3f3f] font-bold">
                                 Restaurant Accepts Order
                             </div>
-                            <div className="text-sm sm:text-base opacity-60 font-semibold pt-2 leading-[120%] px-3 text-ellipsis line-clamp-3">
+                            <div className="text-sm sm:text-base opacity-60 font-semibold pt-2 leading-[120%] px-3 text-ellipsis line-clamp-3 text-black">
                                 The restaurant receives the order and prepare the food.
                             </div>
                         </div>
@@ -288,7 +288,7 @@ function medicineDeliveryAppDevelopment() {
                             <div className="cardHeading bg-white pt-2 text-base sm:text-xs py-3 lg:text-lg text-[#3f3f3f] font-bold">
                                 Assignment to Delivery Partner
                             </div>
-                            <div className="text-sm sm:text-base opacity-60 font-semibold pt-2 leading-[120%] px-3 text-ellipsis line-clamp-3">
+                            <div className="text-sm sm:text-base opacity-60 font-semibold pt-2 leading-[120%] px-3 text-ellipsis line-clamp-3 text-black">
                                 The system assigns a nearby delivery partner.
                             </div>
                         </div>
@@ -315,7 +315,7 @@ function medicineDeliveryAppDevelopment() {
                             <div className="cardHeading bg-white pt-2 text-base sm:text-xs py-3 lg:text-lg text-[#3f3f3f] font-bold">
                                 Real-time Tracking
                             </div>
-                            <div className="text-sm sm:text-base opacity-60 font-semibold pt-2 leading-[120%] px-3 text-ellipsis line-clamp-3">
+                            <div className="text-sm sm:text-base opacity-60 font-semibold pt-2 leading-[120%] px-3 text-ellipsis line-clamp-3 text-black">
                                 Customers can track the real-time location via app.
                             </div>
                         </div>
@@ -331,7 +331,7 @@ function medicineDeliveryAppDevelopment() {
                             <div className="cardHeading bg-white pt-2 text-base sm:text-xs py-3 lg:text-lg text-[#3f3f3f] font-bold">
                                 Food Pickup
                             </div>
-                            <div className="text-sm sm:text-base opacity-60 font-semibold pt-2 leading-[120%] px-3 text-ellipsis line-clamp-3">
+                            <div className="text-sm sm:text-base opacity-60 font-semibold pt-2 leading-[120%] px-3 text-ellipsis line-clamp-3 text-black">
                                 The delivery partner picks the order from the restaurant.
                             </div>
                         </div>
@@ -347,7 +347,7 @@ function medicineDeliveryAppDevelopment() {
                             <div className="cardHeading bg-white pt-2 text-base sm:text-xs py-3 lg:text-lg text-[#3f3f3f] font-bold">
                                 En route to Customer
                             </div>
-                            <div className="text-sm sm:text-base opacity-60 font-semibold pt-2 leading-[120%] px-3 text-ellipsis line-clamp-3">
+                            <div className="text-sm sm:text-base opacity-60 font-semibold pt-2 leading-[120%] px-3 text-ellipsis line-clamp-3 text-black">
                                 The delivery partner delivers food to the delivery address.
                             </div>
                             <div className="absolute h-[20px] w-[20px] top-[42%] left-[-126px] mt-[1px] lg:mt-[2px] text-zinc-600">
@@ -362,7 +362,7 @@ function medicineDeliveryAppDevelopment() {
                             <div className="cardHeading bg-white pt-2 text-base sm:text-xs py-3 lg:text-lg text-[#3f3f3f] font-bold">
                                 Delivery Confirmation
                             </div>
-                            <div className="text-sm sm:text-base opacity-60 font-semibold pt-2 leading-[120%] px-3 text-ellipsis line-clamp-3">
+                            <div className="text-sm sm:text-base opacity-60 font-semibold pt-2 leading-[120%] px-3 text-ellipsis line-clamp-3 text-black">
                                 The customer receives the order at their doorstep.
                             </div>
                         </div>
@@ -373,7 +373,7 @@ function medicineDeliveryAppDevelopment() {
                             <div className="cardHeading bg-white pt-2 text-base sm:text-xs py-3 lg:text-lg text-[#3f3f3f] font-bold">
                                 Payment and Feedback
                             </div>
-                            <div className="text-sm sm:text-base opacity-60 font-semibold pt-2 leading-[120%] px-3 text-ellipsis line-clamp-3">
+                            <div className="text-sm sm:text-base opacity-60 font-semibold pt-2 leading-[120%] px-3 text-ellipsis line-clamp-3 text-black">
                                 After order delivery, users can give their feedback.
                             </div>
                         </div>
@@ -423,7 +423,7 @@ function medicineDeliveryAppDevelopment() {
                                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M16 1C16.5523 1 17 1.44772 17 2V3H22V9H19.9813L22.7271 16.5439C22.9033 16.9948 23 17.4856 23 17.999C23 20.2082 21.2091 21.999 19 21.999C17.1365 21.999 15.5707 20.7247 15.1263 19H10.874C10.4299 20.7252 8.86384 22 7 22C5.05551 22 3.43508 20.6125 3.07474 18.7736C2.43596 18.4396 2 17.7707 2 17V7C2 6.44772 2.44772 6 3 6H10C10.5523 6 11 6.44772 11 7V12C11 12.5523 11.4477 13 12 13H14C14.5523 13 15 12.5523 15 12V3H12V1H16ZM7 16C5.89543 16 5 16.8954 5 18C5 19.1046 5.89543 20 7 20C8.10457 20 9 19.1046 9 18C9 16.8954 8.10457 16 7 16ZM19 15.999C17.8954 15.999 17 16.8944 17 17.999C17 19.1036 17.8954 19.999 19 19.999C20.1046 19.999 21 19.1036 21 17.999C21 17.7587 20.9576 17.5282 20.8799 17.3148L20.8635 17.2714C20.5725 16.5266 19.8479 15.999 19 15.999ZM17.853 9H17V12C17 13.6569 15.6569 15 14 15H12C10.3431 15 9 13.6569 9 12H4V15.3542C4.73294 14.5238 5.80531 14 7 14C8.86384 14 10.4299 15.2748 10.874 17H15.1258C15.5695 15.2743 17.1358 13.999 19 13.999C19.2368 13.999 19.4688 14.0196 19.6943 14.0591L17.853 9ZM9 8H4V10H9V8ZM20 5H17V7H20V5Z"></path></svg>
                                     </div>
                                     <div className="title">Traditional Retail Medicine Delivery Model</div>
-                                    <div className="tagline">
+                                    <div className="tagline text-gray-800">
                                     The dominant model for retail pharmacies consists of physical locations where customers can purchase both prescription and over-the-counter medications. These brick-and-mortar stores enable patients to visit in person, consult with pharmacists, and conveniently obtain their medications all in one place.
                                     </div>
                                 </div>
@@ -434,7 +434,7 @@ function medicineDeliveryAppDevelopment() {
                                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M9.68 13.69 12 11.93l2.31 1.76-.88-2.85L15.75 9h-2.84L12 6.19 11.09 9H8.25l2.31 1.84-.88 2.85zM20 10c0-4.42-3.58-8-8-8s-8 3.58-8 8c0 2.03.76 3.87 2 5.28V23l6-2 6 2v-7.72A7.96 7.96 0 0 0 20 10zm-8-6c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6 2.69-6 6-6zm0 15-4 1.02v-3.1c1.18.68 2.54 1.08 4 1.08s2.82-.4 4-1.08v3.1L12 19z"></path></svg>
                                     </div>
                                     <div className="title">Online Medicine Delivery Model</div>
-                                    <div className="tagline">
+                                    <div className="tagline text-gray-800">
                                     The growth of digitalization has contributed to the rising popularity of online pharmacies. Customers can now order medications via a website or mobile app, having their products delivered directly to their doorstep. This innovative purchasing model significantly improves convenience, especially for those with mobility issues or those living in remote areas.
                                     </div>
                                 </div>
@@ -446,7 +446,7 @@ function medicineDeliveryAppDevelopment() {
                                     </div>
                                     <div className="title">Specialized Medication Delivery Model
                                     </div>
-                                    <div className="tagline">
+                                    <div className="tagline text-gray-800">
                                     Cater to patients with chronic or complex conditions. This medicine delivery app model focuses on delivering specialized medications. For instance, biologics or specialty drugs come under this model. These deliveries often involve temperature-controlled packaging to maintain medication integrity.
                                     </div>
                                 </div>
@@ -468,7 +468,7 @@ function medicineDeliveryAppDevelopment() {
                                 <h2 className="text-2xl font-bold md:text-4xl md:leading-tight">
                                     Your questions, answered
                                 </h2>
-                                <p className="mt-1 text-gray-600">
+                                <p className="mt-1 text-gray-300">
                                     Answers to the most frequently asked questions.
                                 </p>
                             </div>

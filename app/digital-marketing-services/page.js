@@ -196,10 +196,10 @@ function digitalmarketingservices() {
       <section className="mx-auto max-w-7xl px-6 lg:px-8  py-6 md:py-8 lg:py-16">
         <div className="text-center">
           <p className="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black ">
-            <span className="font-normal">Our Digital Marketing  </span>
+            <span className="font-normal text-white">Our Digital Marketing  </span>
             <span className="font-bold text-theme2">Agency's Service Offerings </span>
           </p>
-          <div className="md:text-base text-sm text-black/70 mt-3 text-balance">
+          <div className="md:text-base text-sm text-white mt-3 text-balance">
             At Twin Power, our primary objective is to achieve the results our clients expect. We emphasize dedication, collaboration, and performance in every digital marketing campaign, whether it's a single service or a combination of multiple offerings. OUR TRACK RECORD SPEAKS FOR ITSELF! Our comprehensive range of services is tailored to meet the specific needs of your organization. We're committed to enhancing engagement, driving traffic, generating leads, and increasing downloads.
           </div>
         </div>
@@ -210,10 +210,10 @@ function digitalmarketingservices() {
                 <div className="size-10 md:group-hover:bg-theme1 text-theme1 duration-300 rounded-lg md:group-hover:text-white  p-2">
                   <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" className="size-full" xmlns="http://www.w3.org/2000/svg"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"></path></svg>
                 </div>
-                <div className="text-base text-center py-2 font-semibold">
+                <div className="text-base text-center py-2 font-semibold text-gray-900">
                   Search Engine Optimization
                 </div>
-                <div className="text-sm text-center mb-10 line-clamp-6">
+                <div className="text-sm text-center mb-10 line-clamp-6 text-gray-600">
                   Use the powerful search engine optimization techniques to increase the number of people visiting your site. At Twin Power, effective SEO strategies are employed to first improve search engine ranking and then ensure you maintain your position! It is one of the most cost-effective ways to increase your user base!
                 </div>
                 <div className="w-10 -z-40 h-[90%] bg-white absolute top-0 -left-7 rounded-bx-2xl"></div>
@@ -229,10 +229,10 @@ function digitalmarketingservices() {
                 <div className="size-10 md:group-hover:bg-theme1 text-theme1 duration-300 rounded-lg md:group-hover:text-white  p-2">
                   <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" className="size-full" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M4 5c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm4.78 3.58a6.95 6.95 0 0 0-5.56 0A2.01 2.01 0 0 0 2 10.43V11h8v-.57c0-.81-.48-1.53-1.22-1.85zM18 7c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm2.78 1.58a6.95 6.95 0 0 0-5.56 0A2.01 2.01 0 0 0 14 10.43V11h8v-.57c0-.81-.48-1.53-1.22-1.85zm-2.77 4.43-1.41 1.41L18.17 16H5.83l1.58-1.59L6 13l-4 4 3.99 3.99 1.41-1.41L5.83 18h12.34l-1.58 1.58L18 20.99 22 17l-3.99-3.99z"></path></svg>
                 </div>
-                <div className="text-base text-center py-2 font-semibold">
+                <div className="text-base text-center py-2 font-semibold text-gray-900">
                   Social Media Optimization
                 </div>
-                <div className="text-sm text-center mb-10 line-clamp-6">
+                <div className="text-sm text-center mb-10 line-clamp-6 text-gray-600">
                   It is not only Facebook! There are multiple channels and platforms that you can use for your social media optimization. What Twin Power’s social media services does is - understand your campaign goals, followed by identifying the platforms to use and then creating strategies. A powerful strategy can increase engagement in the shortest time possible.
                 </div>
                 <div className="w-10 -z-40 h-[90%] bg-white absolute top-0 -left-7 rounded-bx-2xl"></div>
@@ -248,10 +248,10 @@ function digitalmarketingservices() {
                 <div className="size-10 md:group-hover:bg-theme1 text-theme1 duration-300 rounded-lg md:group-hover:text-white  p-2">
                   <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" className="size-full" xmlns="http://www.w3.org/2000/svg"><path d="M956.9 845.1L896.4 632V168c0-17.7-14.3-32-32-32h-704c-17.7 0-32 14.3-32 32v464L67.9 845.1C60.4 866 75.8 888 98 888h828.8c22.2 0 37.6-22 30.1-42.9zM200.4 208h624v395h-624V208zm228.3 608l8.1-37h150.3l8.1 37H428.7zm224 0l-19.1-86.7c-.8-3.7-4.1-6.3-7.8-6.3H398.2c-3.8 0-7 2.6-7.8 6.3L371.3 816H151l42.3-149h638.2l42.3 149H652.7z"></path></svg>
                 </div>
-                <div className="text-base text-center py-2 font-semibold">
+                <div className="text-base text-center py-2 font-semibold text-gray-900">
                   PPC And Google Adwords Service
                 </div>
-                <div className="text-sm text-center mb-10 line-clamp-6">
+                <div className="text-sm text-center mb-10 line-clamp-6 text-gray-600">
                   Pay per click and Google AdWords are online advertising tools. Using targeted keywords, PPC services and AdWords help you reach a specific audience who are more likely to give you business. The Twin Power PPC team works in individually or in tandem with SEO to drive both sales and results.
                 </div>
                 <div className="w-10 -z-40 h-[90%] bg-white absolute top-0 -left-7 rounded-bx-2xl"></div>
@@ -266,11 +266,11 @@ function digitalmarketingservices() {
               <div className="h-full flex py-5 mx-5 z-50 relative bg-white px-3 items-center flex-col">
                 <div className="size-10 md:group-hover:bg-theme1 text-theme1 duration-300 rounded-lg md:group-hover:text-white  p-2">
                   <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true" className="size-full" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
-                </div>
-                <div className="text-base text-center py-2 font-semibold">
+                </div> 
+                <div className="text-base text-center py-2 font-semibold text-gray-900">
                   App Store Optimization
                 </div>
-                <div className="text-sm text-center mb-10 line-clamp-6">
+                <div className="text-sm text-center mb-10 line-clamp-6 text-gray-600">
                   An app is a necessity for some businesses. Getting users to download it is a must for all! We know you want top ranking for your app. But we also know the technical input and creativity required to get you that ranking. Twin Power is the leading online marketing company to help you reach increase app download and engagement.
                 </div>
                 <div className="w-10 -z-40 h-[90%] bg-white absolute top-0 -left-7 rounded-bx-2xl"></div>
@@ -312,9 +312,9 @@ function digitalmarketingservices() {
                     With us leading your campaign, you can anticipate a strong and impactful online presence.
                   </p>
                 </div>
-                <div className="flex flex-wrap gap-2 py-5 text-balance *:relative *:font-semibold *:md:text-sm *:text-xs *:flex *:backdrop-blur-xl *:text-gray-900/80 *:bg-gray-400/10 *:border-2 *:border-gray-400/10 *:hover:border-gray-400/20 *:items-center *:gap-x-2 *:rounded-full *:md:pr-4 *:pr-3 *:pl-3 *:py-1 *:*:size-2 [&amp;_svg]:shrink-0 *:*:lg:size-2.5 *:*:opacity-90">
-                  <a href="javascript:;" className="group/db flex items-center">
-                    <div className="  ">
+                <div className="flex flex-wrap gap-2 py-5 text-balance *:relative *:font-semibold *:md:text-sm *:text-xs *:flex *:backdrop-blur-xl *:text-white/80 *:bg-gray-400/10 *:border-2 *:border-gray-400/10 *:hover:border-gray-400/20 *:items-center *:gap-x-2 *:rounded-full *:md:pr-4 *:pr-3 *:pl-3 *:py-1 *:*:size-2 [&amp;_svg]:shrink-0 *:*:lg:size-2.5 *:*:opacity-90">
+                  <a href="javascript:;" className="group/db flex items-center text-white">
+                    <div className=" text-white ">
                       <svg className="group-hover/db:opacity-80  !rounded-full overflow-hidden !size-3" stroke="currentColor" fill="none" stroke-width="3" viewBox="0 0 24 24" aria-hidden="true" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 0 0-3.7-3.7 48.678 48.678 0 0 0-7.324 0 4.006 4.006 0 0 0-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 0 0 3.7 3.7 48.656 48.656 0 0 0 7.324 0 4.006 4.006 0 0 0 3.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3-3 3"></path></svg></div>
                     Driving growth with strategically crafted campaigns.
                   </a>

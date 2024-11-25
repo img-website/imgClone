@@ -111,17 +111,17 @@ function Services() {
                                     Blockchain Development
                                 </button>
                             </div>
-                            <div className="md:col-span-9 col-span-12 bg-[white] p-2 rounded-xl">
+                            <div className="md:col-span-9 col-span-12 bg-[white]  p-2 rounded-xl">
                                 {services === "Treanding Solution" && (
                                     <div className="p-4">
                                         <p className="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight">
-                                            <span className="font-normal">Trending </span>
+                                            <span className="font-normal text-black">Trending </span>
                                             <span className="font-bold bg-gradient-to-r from-cyan-300 via-cyan-200 to-cyan-400 bg-clip-text text-theme2">
                                                 {" "}
                                                 Solutions
                                             </span>
                                         </p>
-                                        <div className="md:text-base text-sm mt-3 mb-lg-1 md:font-semibold  ">
+                                        <div className="md:text-base text-sm mt-3 mb-lg-1 md:font-semibold text-black ">
                                             {" "}
                                             Explore our trending ready-to-use applications,
                                             meticulously crafted to elevate your business instantly.
@@ -129,7 +129,7 @@ function Services() {
                                             elearning platforms, our trending solutions are designed
                                             to streamline operations.
                                         </div>
-                                        <div className="py-10   *:flex *:flex-wrap *:gap-3 *:md:font-semibold *:text-[12px] *:md:text-sm *:*:inline-block *:*:backdrop-blur-lg *:*:shadow-sm *:*:p-2 *:*:md:p-3 ">
+                                        <div className="py-10   *:flex *:flex-wrap *:gap-3 *:md:font-semibold *:text-[12px] *:md:text-sm *:*:inline-block *:*:backdrop-blur-lg *:*:shadow-sm *:*:p-2 *:*:md:p-3 text-black">
                                             <div>
                                                 <Link href="javascript:;">
                                                     Food Delivery App Development
@@ -262,21 +262,21 @@ function Services() {
                                 {services === "Mobile App Development" && (
                                     <div className="p-4">
                                         <p className="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight">
-                                            <span className="font-normal">Mobile App </span>
+                                            <span className="font-normal text-black">Mobile App </span>
                                             <span className="font-bold bg-gradient-to-r from-cyan-300 via-cyan-200 to-cyan-400 bg-clip-text text-theme2">
                                                 {" "}
                                                 Development
                                             </span>
                                         </p>
-                                        <div className="md:text-base text-sm mt-3 mb-lg-1 md:font-semibold  ">
-                                            {" "}
-                                            Step into the future of digital interaction with our
-                                            top-notch mobile app development services. Your ideas are
+                                        <div className="md:text-base text-sm mt-3 mb-lg-1 md:font-semibold text-black ">
+                                      top-notch mobile app development services. Your ideas are
                                             the fuel, and we are the creators, transforming concepts
                                             into powerful mobile solutions that captivate users and
                                             elevate your digital footprint.
                                         </div>
-                                        <div className="py-10   *:flex *:flex-wrap *:gap-3 *:md:font-semibold *:text-[12px] *:md:text-sm *:*:inline-block *:*:backdrop-blur-lg *:*:shadow-sm *:*:p-2 *:*:md:p-3 ">
+                                        <div      
+                                            Step into the future of digital interaction with our
+                                            className="py-10   *:flex *:flex-wrap *:gap-3 *:md:font-semibold *:text-[12px] *:md:text-sm *:*:inline-block *:*:backdrop-blur-lg *:*:shadow-sm *:*:p-2 *:*:md:p-3 text-black ">
                                             <div>
                                                 <Link href="/food-delivery-app-development">
                                                     Food Delivery App Development
@@ -366,13 +366,13 @@ function Services() {
                                 {services === "Web Development" && (
                                     <div className="p-4">
                                         <p className="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight">
-                                            <span className="font-normal">Web </span>
+                                            <span className="font-normal text-black">Web </span>
                                             <span className="font-bold bg-gradient-to-r from-cyan-300 via-cyan-200 to-cyan-400 bg-clip-text text-theme2">
                                                 {" "}
                                                 Development
                                             </span>
                                         </p>
-                                        <div className="md:text-base text-sm mt-3 mb-lg-1 md:font-semibold  ">
+                                        <div className="md:text-base text-sm mt-3 mb-lg-1 md:font-semibold text-black ">
                                             {" "}
                                             Step into the future of digital interaction with our
                                             top-notch mobile app development services. Your ideas are
@@ -380,7 +380,7 @@ function Services() {
                                             into powerful mobile solutions that captivate users and
                                             elevate your digital footprint.
                                         </div>
-                                        <div className="py-10   *:flex *:flex-wrap *:gap-3 *:md:font-semibold *:text-[12px] *:md:text-sm *:*:inline-block *:*:backdrop-blur-lg *:*:shadow-sm *:*:p-2 *:*:md:p-3 ">
+                                        <div className="py-10   *:flex *:flex-wrap *:gap-3 *:md:font-semibold *:text-[12px] *:md:text-sm *:*:inline-block *:*:backdrop-blur-lg *:*:shadow-sm *:*:p-2 *:*:md:p-3 text-black">
                                             <div>
                                                 <Link href="javascript:;">Social Media App</Link>
                                                 <Link href="javascript:;">Event Management App</Link>
@@ -454,13 +454,13 @@ function Services() {
                                 {services === "eCommerce Solution" && (
                                     <div className="p-4">
                                         <p className="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight">
-                                            <span className="font-normal">eCommerce </span>
+                                            <span className="font-normal text-black">eCommerce </span>
                                             <span className="font-bold bg-gradient-to-r from-cyan-300 via-cyan-200 to-cyan-400 bg-clip-text text-theme2">
                                                 {" "}
                                                 Solutions
                                             </span>
                                         </p>
-                                        <div className="md:text-base text-sm mt-3 mb-lg-1 md:font-semibold  ">
+                                        <div className="md:text-base text-sm mt-3 mb-lg-1 md:font-semibold text-black ">
                                             {" "}
                                             Explore our trending ready-to-use applications,
                                             meticulously crafted to elevate your business instantly.
@@ -468,7 +468,7 @@ function Services() {
                                             elearning platforms, our trending solutions are designed
                                             to streamline operations.
                                         </div>
-                                        <div className="py-10   *:flex *:flex-wrap *:gap-3 *:md:font-semibold *:text-[12px] *:md:text-sm *:*:inline-block *:*:backdrop-blur-lg *:*:shadow-sm *:*:p-2 *:*:md:p-3 ">
+                                        <div className="py-10   *:flex *:flex-wrap *:gap-3 *:md:font-semibold *:text-[12px] *:md:text-sm *:*:inline-block *:*:backdrop-blur-lg *:*:shadow-sm *:*:p-2 *:*:md:p-3 text-black ">
                                             <div>
                                                 <Link href="/food-delivery-app-development">
                                                     Food Delivery App Development
@@ -543,13 +543,13 @@ function Services() {
                                 {services === "Software Development" && (
                                     <div className="p-4">
                                         <p className="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight">
-                                            <span className="font-normal">Software </span>
+                                            <span className="font-normal text-black">Software </span>
                                             <span className="font-bold bg-gradient-to-r from-cyan-300 via-cyan-200 to-cyan-400 bg-clip-text text-theme2">
                                                 {" "}
                                                 Development{" "}
                                             </span>
                                         </p>
-                                        <div className="md:text-base text-sm mt-3 mb-lg-1 md:font-semibold  ">
+                                        <div className="md:text-base text-sm mt-3 mb-lg-1 md:font-semibold text-black ">
                                             {" "}
                                             Explore our trending ready-to-use applications,
                                             meticulously crafted to elevate your business instantly.
@@ -557,7 +557,7 @@ function Services() {
                                             elearning platforms, our trending solutions are designed
                                             to streamline operations.
                                         </div>
-                                        <div className="py-10   *:flex *:flex-wrap *:gap-3 *:md:font-semibold *:text-[12px] *:md:text-sm *:*:inline-block *:*:backdrop-blur-lg *:*:shadow-sm *:*:p-2 *:*:md:p-3 ">
+                                        <div className="py-10   *:flex *:flex-wrap *:gap-3 *:md:font-semibold *:text-[12px] *:md:text-sm *:*:inline-block *:*:backdrop-blur-lg *:*:shadow-sm *:*:p-2 *:*:md:p-3 text-black">
                                             <div>
                                                 <Link href="/fashion-ecommerce-development">
                                                     Fashion Development
@@ -637,13 +637,13 @@ function Services() {
                                 {services === "Blockchain Development" && (
                                     <div className="p-4">
                                         <p className="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight">
-                                            <span className="font-normal">"Blockchain </span>
+                                            <span className="font-normal text-black">"Blockchain </span>
                                             <span className="font-bold bg-gradient-to-r from-cyan-300 via-cyan-200 to-cyan-400 bg-clip-text text-theme2">
                                                 {" "}
                                                 Development
                                             </span>
                                         </p>
-                                        <div className="md:text-base text-sm mt-3 mb-lg-1 md:font-semibold  ">
+                                        <div className="md:text-base text-sm mt-3 mb-lg-1 md:font-semibold text-black ">
                                             {" "}
                                             Explore our trending ready-to-use applications,
                                             meticulously crafted to elevate your business instantly.
@@ -651,7 +651,7 @@ function Services() {
                                             elearning platforms, our trending solutions are designed
                                             to streamline operations.
                                         </div>
-                                        <div className="py-10   *:flex *:flex-wrap *:gap-3 *:md:font-semibold *:text-[12px] *:md:text-sm *:*:inline-block *:*:backdrop-blur-lg *:*:shadow-sm *:*:p-2 *:*:md:p-3 ">
+                                        <div className="py-10   *:flex *:flex-wrap *:gap-3 *:md:font-semibold *:text-[12px] *:md:text-sm *:*:inline-block *:*:backdrop-blur-lg *:*:shadow-sm *:*:p-2 *:*:md:p-3 text-black">
                                             <div>
                                                 <Link href="/food-delivery-app-development">
                                                     Food Delivery App Development

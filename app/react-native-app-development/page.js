@@ -170,7 +170,7 @@ function reactNativeDevelopment() {
 
                     last:*:font-bold last:*:text-theme2
                 ">
-                                <span>Our React Native App </span> <span> Development Services</span>
+                                <span className='text-white'>Our React Native App </span> <span> Development Services</span>
 
                             </p>
                             <p className="md:text-base text-sm text-black/70 mt-3 text-balance text-center">Leveraging Our React Native Expertise for Robust, Scalable Apps with Exceptional User Experiences Across All Platforms</p>
@@ -362,7 +362,7 @@ function reactNativeDevelopment() {
                                     <div className="*:size-16 mx-auto">
                                         <Image width="1000" height="1000" quality='90' loading='lazy' src="/img/two-path.webp" alt="One app for both platforms"/>
                                     </div>
-                                    <div className="md:text-lg sm:text-base text-sm leading-6">
+                                    <div className="md:text-lg sm:text-base text-sm leading-6 text-black">
                                         One app for both platforms
                                     </div>
                                 </div>
@@ -372,7 +372,7 @@ function reactNativeDevelopment() {
                                     <div className="*:size-16 mx-auto">
                                         <Image width="1000" height="1000" quality='90' loading='lazy' src="/img/native-components.webp" alt="Native iOS and Android components"/>
                                     </div>
-                                    <div className="md:text-lg sm:text-base text-sm leading-6">
+                                    <div className="md:text-lg sm:text-base text-sm leading-6 text-black">
                                         Native iOS and Android components
                                     </div>
                                 </div>
@@ -382,7 +382,7 @@ function reactNativeDevelopment() {
                                     <div className="*:size-16 mx-auto">
                                         <Image width="1000" height="1000" quality='90' loading='lazy' src="/img/comunity.webp" alt="Large community"/>
                                     </div>
-                                    <div className="md:text-lg sm:text-base text-sm leading-6">
+                                    <div className="md:text-lg sm:text-base text-sm leading-6 text-black">
                                         Large community
                                     </div>
                                 </div>
@@ -392,7 +392,7 @@ function reactNativeDevelopment() {
                                     <div className="*:size-16 mx-auto">
                                         <Image width="1000" height="1000" quality='90' loading='lazy' src="/img/cusomizble.webp"  alt="Highly customizable"/>
                                     </div>
-                                    <div className="md:text-lg sm:text-base text-sm leading-6">
+                                    <div className="md:text-lg sm:text-base text-sm leading-6 text-black">
                                         Highly customizable
                                     </div>
                                 </div>
@@ -402,7 +402,7 @@ function reactNativeDevelopment() {
                                     <div className="*:size-16 mx-auto">
                                         <Image width="1000" height="1000" quality='90' loading='lazy' src="/img/fast-development.webp" alt="Fast development and testingnder"/>
                                     </div>
-                                    <div className="md:text-lg sm:text-base text-sm leading-6">
+                                    <div className="md:text-lg sm:text-base text-sm leading-6 text-black">
                                         Fast development and testing
                                     </div>
                                 </div>
@@ -412,7 +412,7 @@ function reactNativeDevelopment() {
                                     <div className="*:size-16 mx-auto">
                                         <Image width="1000" height="1000" quality='90' loading='lazy' src="/img/reload.webp" alt="Live reload"/>
                                     </div>
-                                    <div className="md:text-lg sm:text-base text-sm leading-6">
+                                    <div className="md:text-lg sm:text-base text-sm leading-6 text-black">
                                         Live reload
                                     </div>
                                 </div>
@@ -422,7 +422,7 @@ function reactNativeDevelopment() {
                                     <div className="*:size-16 mx-auto">
                                         <Image width="1000" height="1000" quality='90' loading='lazy' src="/img/easy-start.webp" alt="Easy to get started with"/>
                                     </div>
-                                    <div className="md:text-lg sm:text-base text-sm leading-6">
+                                    <div className="md:text-lg sm:text-base text-sm leading-6 text-black">
                                         Easy to get started with
                                     </div>
                                 </div>

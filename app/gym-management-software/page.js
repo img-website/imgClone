@@ -78,10 +78,10 @@ function gymmanagementoftware() {
 
                         last:*:font-bold last:*:text-theme2
                     ">
-                                    <span className="font-normal">Premier Fitness App    </span> <span className="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-theme2"> Development Solutions in India</span>
+                                    <span className="font-normal text-white">Premier Fitness App    </span> <span className="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-theme2"> Development Solutions in India</span>
 
                                 </p>
-                                <p className="mt-4 text-sm md:text-base leading-7 text-slate-600">
+                                <p className="mt-4 text-sm md:text-base leading-7 text-slate-300">
                                 Fitness software is an innovative solution that automates tasks, streamlines operations, and elevates your business to the next level. Catering to small and medium-sized gyms and fitness centers, it offers a comprehensive range of solutions that save gym owners time. This allows them to focus less on managing member records and more on building strong relationships with their gym members
                                 </p>
                                
@@ -113,7 +113,7 @@ function gymmanagementoftware() {
                 first:*:font-normal
 
                 last:*:font-bold last:*:text-theme2
-            "><span>Why Choose a   </span> 
+            "><span className='text-white'>Why Choose a   </span> 
                 <span>  Fitness Centre?</span></p>
            
         </div>

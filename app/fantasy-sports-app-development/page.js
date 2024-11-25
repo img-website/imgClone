@@ -109,12 +109,12 @@ function fantasysportsappdevelopment() {
                 <div className="flex-col justify-start lg:items-start items-center gap-4 flex">
                   <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
                     <p className="max-md:text-2xl/tight pt-16 max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black empty:hidden text-balance">
-                      <span>Expert Fantasy Sports App
+                      <span className='text-white'>Expert Fantasy Sports App
                       </span>
                       <span className="font-bold text-theme2"> Development Services in India</span>
                     </p>
                     <p
-                      className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center">
+                      className="text-gray-400 text-base font-normal leading-relaxed lg:text-start text-center">
                       Fantasy sports app development is an art mastered by our dedicated team of developers, who deliver robust and scalable solutions. You can trust our experts to provide full-time assistance for your fantasy sports app. With extensive experience and top-notch skills, our team is fully committed to bringing your vision to life</p>
 
                   </div>
@@ -123,26 +123,26 @@ function fantasysportsappdevelopment() {
                   <div className="w-full justify-start items-center gap-8 grid md:grid-cols-2 grid-cols-1">
                     <div
                       className="w-full h-full p-3.5 rounded-[20px] border hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
-                      <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">300+ Sports</h4>
-                      <p className="text-gray-500 text-base font-normal leading-relaxed">Apps Developed</p>
+                      <h4 className="text-white text-2xl font-bold font-manrope leading-9">300+ Sports</h4>
+                      <p className="text-gray-300 text-base font-normal leading-relaxed">Apps Developed</p>
                     </div>
                     <div
                       className="w-full h-full p-3.5 rounded-[20px] border hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
-                      <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">11200+ Successful
+                      <h4 className="text-white text-2xl font-bold font-manrope leading-9">11200+ Successful
                       </h4>
-                      <p className="text-gray-500 text-base font-normal leading-relaxed">Projects Delivered</p>
+                      <p className="text-gray-300 text-base font-normal leading-relaxed">Projects Delivered</p>
                     </div>
                   </div>
                   <div className="w-full h-full justify-start items-center gap-8 grid md:grid-cols-2 grid-cols-1">
                     <div
                       className="w-full p-3.5 rounded-[20px] border hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
-                      <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">9 Years</h4>
-                      <p className="text-gray-500 text-base font-normal leading-relaxed">Of Industry Experience</p>
+                      <h4 className="text-white text-2xl font-bold font-manrope leading-9">9 Years</h4>
+                      <p className="text-gray-300 text-base font-normal leading-relaxed">Of Industry Experience</p>
                     </div>
                     <div
                       className="w-full h-full p-3.5 rounded-[20px] border hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
-                      <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">98% Certified</h4>
-                      <p className="text-gray-500 text-base font-normal leading-relaxed">Expert Programmers.</p>
+                      <h4 className="text-white text-2xl font-bold font-manrope leading-9">98% Certified</h4>
+                      <p className="text-gray-300 text-base font-normal leading-relaxed">Expert Programmers.</p>
                     </div>
                   </div>
                 </div>
@@ -179,7 +179,7 @@ function fantasysportsappdevelopment() {
 
                       last:*:font-bold last:*:text-theme2
                   ">
-                <span>Next-Gen Fantasy App and </span> <span> Web Development Services</span>
+                <span className='text-white'>Next-Gen Fantasy App and </span> <span> Web Development Services</span>
 
               </p>
               <p className="md:text-base text-sm text-black/70 mt-3 text-balance text-center">Whether you're interested in building a mobile fantasy sports app for on-the-go users or want to connect with billions through a comprehensive fantasy sports website, our innovative fantasy sports software development services have you covered.</p>
@@ -513,10 +513,10 @@ function fantasysportsappdevelopment() {
       <div className='container pt-5 md:p-5 sm:p-8 p-5 mx-auto max-w-7xl px-6 lg:px-8 relative z-10'>
         <div className="relative container mx-auto max-w-7xl md:px-6 lg:px-8 z-10 text-center">
           <p className="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black text-balance">
-            <span className="font-normal">Core </span>
+            <span className="font-normal text-white">Core </span>
             <span className="font-bold text-theme2">Features List</span>
           </p>
-          <div className="md:text-base text-sm text-black/70 mt-3 text-balance">
+          <div className="md:text-base text-sm text-white mt-3 text-balance">
             We provide a wide array of features for Fantasy Cricket apps, ranging from basic to advanced options, along with innovative new features. You can select the perfect combination to build the ultimate Fantasy Sports app.
           </div>
         </div>
@@ -691,7 +691,7 @@ function fantasysportsappdevelopment() {
             <div className="max-w-[85rem] sm:px-6 lg:px-8 mx-auto">
               <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
                 <h2 className="text-2xl font-bold md:text-4xl md:leading-tight">Your questions, answered</h2>
-                <p className="mt-1 text-gray-600">Answers to the most frequently asked questions.</p>
+                <p className="mt-1 text-gray-300">Answers to the most frequently asked questions.</p>
               </div>
               <Accordion items={accordionItems} />
             </div>

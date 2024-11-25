@@ -486,7 +486,7 @@ function FuelDeliveryApp() {
                             <div className='cardHeading bg-white pt-2 text-base sm:text-xs py-3 lg:text-lg text-[#3f3f3f] font-bold z-30 relative'>
                                 User Registration
                             </div>
-                            <div className='text-sm sm:text-base opacity-60 font-semibold pt-2 leading-[120%] px-3 text-ellipsis line-clamp-3'>
+                            <div className='text-sm sm:text-base opacity-60 font-semibold pt-2 leading-[120%] px-3 text-ellipsis line-clamp-3 text-black'>
                                 Customers download the app, register, and create an account.
                             </div>
                         </div>
@@ -535,7 +535,7 @@ function FuelDeliveryApp() {
                             <div className='cardHeading bg-white pt-2 text-base sm:text-xs py-3 lg:text-lg text-[#3f3f3f] font-bold'>
                                 Location Identification
                             </div>
-                            <div className='text-sm sm:text-base opacity-60 font-semibold pt-2 leading-[120%] px-3 text-ellipsis line-clamp-3'>
+                            <div className='text-sm sm:text-base opacity-60 font-semibold pt-2 leading-[120%] px-3 text-ellipsis line-clamp-3 text-black'>
                                 Users allow access to their location or input their address.
                             </div>
                         </div>
@@ -558,7 +558,7 @@ function FuelDeliveryApp() {
                             <div className='cardHeading bg-white pt-2 text-base sm:text-xs py-3 lg:text-lg text-[#3f3f3f] font-bold'>
                                 Fuel Selection
                             </div>
-                            <div className='text-sm sm:text-base opacity-60 font-semibold pt-2 leading-[120%] px-3 text-ellipsis line-clamp-3'>
+                            <div className='text-sm sm:text-base opacity-60 font-semibold pt-2 leading-[120%] px-3 text-ellipsis line-clamp-3 text-black'>
                                 Users choose the type and quantity of fuel they need.
                             </div>
                         </div>
@@ -581,7 +581,7 @@ function FuelDeliveryApp() {
                             <div className='cardHeading bg-white pt-2 text-base sm:text-xs py-3 lg:text-lg text-[#3f3f3f] font-bold'>
                                 Payment Method
                             </div>
-                            <div className='text-sm sm:text-base opacity-60 font-semibold pt-2 leading-[120%] px-3 text-ellipsis line-clamp-3'>
+                            <div className='text-sm sm:text-base opacity-60 font-semibold pt-2 leading-[120%] px-3 text-ellipsis line-clamp-3 text-black'>
                                 Customers select a payment method and enter necessary details.
                             </div>
                         </div>
@@ -637,7 +637,7 @@ function FuelDeliveryApp() {
                             <div className='cardHeading bg-white pt-2 text-base sm:text-xs py-3 lg:text-lg text-[#3f3f3f] font-bold'>
                                 Order Confirmation
                             </div>
-                            <div className='text-sm sm:text-base opacity-60 font-semibold pt-2 leading-[120%] px-3 text-ellipsis line-clamp-3'>
+                            <div className='text-sm sm:text-base opacity-60 font-semibold pt-2 leading-[120%] px-3 text-ellipsis line-clamp-3 text-black'>
                                 Users review their order and confirm.
                             </div>
                         </div>
@@ -666,7 +666,7 @@ function FuelDeliveryApp() {
                             <div className='cardHeading bg-white pt-2 text-base sm:text-xs py-3 lg:text-lg text-[#3f3f3f] font-bold'>
                                 Dispatch Notification
                             </div>
-                            <div className='text-sm sm:text-base opacity-60 font-semibold pt-2 leading-[120%] px-3 text-ellipsis line-clamp-3'>
+                            <div className='text-sm sm:text-base opacity-60 font-semibold pt-2 leading-[120%] px-3 text-ellipsis line-clamp-3 text-black'>
                                 he app notifies the nearest fuel delivery provider.
                             </div>
                         </div>
@@ -693,7 +693,7 @@ function FuelDeliveryApp() {
                             <div className='cardHeading bg-white pt-2 text-base sm:text-xs py-3 lg:text-lg text-[#3f3f3f] font-bold'>
                                 Delivery Confirmation
                             </div>
-                            <div className='text-sm sm:text-base opacity-60 font-semibold pt-2 leading-[120%] px-3 text-ellipsis line-clamp-3'>
+                            <div className='text-sm sm:text-base opacity-60 font-semibold pt-2 leading-[120%] px-3 text-ellipsis line-clamp-3 text-black'>
                                 Providers confirm the order and ETA with the user.
                             </div>
                             <div className='absolute h-[20px] w-[20px] top-[42%] left-[-126px] mt-[1px] lg:mt-[2px] text-zinc-600'>
@@ -729,7 +729,7 @@ function FuelDeliveryApp() {
                             <div className='cardHeading bg-white pt-2 text-base sm:text-xs py-3 lg:text-lg text-[#3f3f3f] font-bold'>
                                 Fuel Delivery
                             </div>
-                            <div className='text-sm sm:text-base opacity-60 font-semibold pt-2 leading-[120%] px-3 text-ellipsis line-clamp-3'>
+                            <div className='text-sm sm:text-base opacity-60 font-semibold pt-2 leading-[120%] px-3 text-ellipsis line-clamp-3 text-black'>
                                 Providers deliver the fuel to the user's location.
                             </div>
                         </div>
@@ -752,7 +752,7 @@ function FuelDeliveryApp() {
                             <div className='cardHeading bg-white pt-2 text-base sm:text-xs py-3 lg:text-lg text-[#3f3f3f] font-bold'>
                                 Payment Processing
                             </div>
-                            <div className='text-sm sm:text-base opacity-60 font-semibold pt-2 leading-[120%] px-3 text-ellipsis line-clamp-3'>
+                            <div className='text-sm sm:text-base opacity-60 font-semibold pt-2 leading-[120%] px-3 text-ellipsis line-clamp-3 text-black'>
                                 Payment is processed automatically based on the chosen method.
                             </div>
                         </div>
@@ -823,7 +823,7 @@ function FuelDeliveryApp() {
                                         </svg>
                                     </div>
                                     <div className='title text-start'>Consumer App-Based Model</div>
-                                    <div className='tagline text-start'>
+                                    <div className='tagline text-start text-gray-800'>
                                         In this system, users can order fuel through a mobile app by
                                         entering their location and the quantity needed. A truck is
                                         sent to their specified location to refuel their vehicle.
@@ -851,7 +851,7 @@ function FuelDeliveryApp() {
                                         </svg>
                                     </div>
                                     <div className='title text-start'>Subscription-Based Model</div>
-                                    <div className='tagline text-start'>
+                                    <div className='tagline text-start text-gray-800'>
                                         In this approach, subscription plans are provided where
                                         customers pay a monthly or annual fee for fuel delivery to
                                         their chosen location. They can select how often and how
@@ -876,7 +876,7 @@ function FuelDeliveryApp() {
                                         </svg>
                                     </div>
                                     <div className='title text-start'>Corporate/Commercial Model</div>
-                                    <div className='tagline text-start'>
+                                    <div className='tagline text-start text-gray-800'>
                                         This model is designed for businesses and organizations managing vehicle fleets. It provides tailored fuel delivery solutions based on specific client requirements, which may include installing on-site fuel storage tanks. Additionally, you can arrange scheduled delivery routes to ensure consistent refueling without interruptions.
                                     </div>
                                 </div>
@@ -899,7 +899,7 @@ function FuelDeliveryApp() {
                                 <h2 className='text-2xl font-bold md:text-4xl md:leading-tight'>
                                     Your questions, answered
                                 </h2>
-                                <p className='mt-1 text-gray-600'>
+                                <p className='mt-1 text-gray-300'>
                                     Answers to the most frequently asked questions.
                                 </p>
                             </div>

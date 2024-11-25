@@ -113,7 +113,7 @@ function ecommerceDevelopment() {
                 <button
                   key={tab.id}
                   onClick={() => setActiveTab(tab.id)}
-                  className={`py-2 px-4 rounded text-nowrap ${activeTab === tab.id ? 'bg-slate-900 text-white' : 'bg-slate-200'}`}
+                  className={`py-2 px-4 rounded text-nowrap ${activeTab === tab.id ? 'bg-slate-900 text-white' : 'bg-slate-200 text-black'}`}
                 >
                   {tab.title}
                 </button>
@@ -130,8 +130,8 @@ function ecommerceDevelopment() {
 
                   </div>
                   <div className="sm:pl-10 w-full sm:w-3/5">
-                    <h2 className="text-xl sm:text-2xl md:text-3xl font-bold tracking-tight">{tab.title}</h2>
-                    <p className="md:mt-6 mt-3 text-sm md:text-base md:leading-8">{tab.content}</p>
+                    <h2 className="text-xl sm:text-2xl md:text-3xl font-bold tracking-tight text-black">{tab.title}</h2>
+                    <p className="md:mt-6 mt-3 text-sm md:text-base md:leading-8 text-slate-600">{tab.content}</p>
                     <a href="Javascript:;" className="mt-4 inline-flex rounded-lg bg-slate-900 text-white py-2 px-4 hover:bg-slate-700">
                       Book A Consultation →
                     </a>
@@ -473,7 +473,7 @@ function ecommerceDevelopment() {
             <div className="max-w-[85rem] sm:px-6 lg:px-8 mx-auto">
               <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
                 <h2 className="text-2xl font-bold md:text-4xl md:leading-tight">Your questions, answered</h2>
-                <p className="mt-1 text-gray-600">Answers to the most frequently asked questions.</p>
+                <p className="mt-1 text-gray-300">Answers to the most frequently asked questions.</p>
               </div>
               <Accordion items={accordionItems} />
             </div>

@@ -87,20 +87,20 @@ function sportsbettingappdevelopment() {
                 <div className="flex-col justify-start lg:items-start items-center gap-4 flex">
                   <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
                     <p className="max-md:text-2xl/tight pt-16 max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black empty:hidden text-balance">
-                      <span>Cutting-Edge Sports Betting
+                      <span className='text-white'>Cutting-Edge Sports Betting
                       </span>
                       <span className="font-bold text-theme2"> App Development Using the Latest Tech</span>
                     </p>
                     <p
-                      className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center">
+                      className="text-gray-300 text-base font-normal leading-relaxed lg:text-start text-center">
                       Step into the sports betting arena with a cutting-edge app that creates unforgettable experiences for all users.
                     </p>
                     <p
-                      className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center">
+                      className="text-gray-300 text-base font-normal leading-relaxed lg:text-start text-center">
                       If you're looking to develop a distinctive sports betting app, Twin Power Software is your ideal choice. We blend expertise and innovation to deliver high-performing sports betting solutions. Our proficiency with the latest technologies, frameworks, and APIs allows us to tackle complex betting challenges with ease.
                     </p>
                     <p
-                      className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center">
+                      className="text-gray-300 text-base font-normal leading-relaxed lg:text-start text-center">
                       Our team of professional sports betting app developers has extensive experience in creating various software solutions and apps like Bet365, 1xBet, BetMGM, Parimatch, and more. We can also develop specialized apps, such as cricket betting and football betting apps. As a leading sports betting app development company, we are your one-stop shop for tech-driven and innovative sports betting app solutions.
                     </p>
 
@@ -579,7 +579,7 @@ function sportsbettingappdevelopment() {
             <div className="max-w-[85rem] sm:px-6 lg:px-8 mx-auto">
               <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
                 <h2 className="text-2xl font-bold md:text-4xl md:leading-tight">Your questions, answered</h2>
-                <p className="mt-1 text-gray-600">Answers to the most frequently asked questions.</p>
+                <p className="mt-1 text-gray-300">Answers to the most frequently asked questions.</p>
               </div>
               <Accordion items={accordionItems} />
             </div>

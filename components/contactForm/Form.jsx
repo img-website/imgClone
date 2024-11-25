@@ -7,10 +7,10 @@ function Form() {
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
           <div className="max-w-2xl mx-auto text-center">
             <p className="max-md:text-2xl/tight  max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] ">
-              <span className="font-normal">How can we assist </span>
+              <span className="font-normal text-black">How can we assist </span>
               <span className="font-bold text-theme2 ">you today?</span>
             </p>
-            <div className="mt-3 text-sm md:text-base opacity-70 mb-lg-1 ">
+            <div className="mt-3 text-sm md:text-base opacity-70 mb-lg-1 text-black ">
               Our consultants will get back to you in 8 hours or less.
             </div>
           </div>

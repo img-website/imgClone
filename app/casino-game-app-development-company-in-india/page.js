@@ -84,13 +84,13 @@ function casinoGameAppDevelopmentIndia() {
                 <div className="flex-col justify-start lg:items-start items-center gap-4 flex">
                   <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
                     <p className="max-md:text-2xl/tight pt-16 max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black empty:hidden text-balance">
-                      <span>
+                      <span className='text-white'>
                         Next-Generation Casino Game
                       </span>
                       <span className="font-bold text-theme2"> Development for Unmatched Excitement</span>
                     </p>
                     <p
-                      className="text-start text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center">
+                      className="text-start text-gray-300 text-base font-normal leading-relaxed lg:text-start text-center">
                       Online casino gaming captivates and excites users, encouraging them to win real-cash prizes. We can enhance this experience by offering advanced, tech-driven casino app development solutions. Our expert developers craft innovative apps for various casino gaming formats, including slot machines, poker, blackjack, roulette, crypto casino games, and more. In addition to app development, we excel in building comprehensive online casino software, making us one of the most trusted casino game development companies. We are the ideal choice for launching your casino app and taking your business to the next level.
                     </p>
 
@@ -147,7 +147,7 @@ function casinoGameAppDevelopmentIndia() {
                   <div className="text-center md:text-xl sm:text-lg text-base font-medium leading-6 text-cyan-500 ">
                     Multi-language support
                   </div>
-                  <div className="mt-2 sm:text-base text-sm leading-6 text-center font-normal line-clamp-4 text-ellipsis">
+                  <div className="mt-2 sm:text-base text-sm leading-6 text-center font-normal line-clamp-4 text-ellipsis text-gray-800">
                     Using a single app, you can target international customers.
                   </div>
                   <div className="flex flex-col justify-center">
@@ -165,7 +165,7 @@ function casinoGameAppDevelopmentIndia() {
                   <div className="text-center md:text-xl sm:text-lg text-base font-medium leading-6 text-sky-500 ">
                     Anti-Fraud Mechanism
                   </div>
-                  <div className="mt-2 sm:text-base text-sm leading-6 text-center font-normal line-clamp-4 text-ellipsis">
+                  <div className="mt-2 sm:text-base text-sm leading-6 text-center font-normal line-clamp-4 text-ellipsis text-gray-800">
                     All our casino apps use anti-fraud mechanisms for safety.
                   </div>
                   <div className="flex flex-col justify-center">
@@ -183,7 +183,7 @@ function casinoGameAppDevelopmentIndia() {
                   <div className="text-center md:text-xl sm:text-lg text-base font-medium leading-6 text-blue-500 ">
                     3D &amp; Animation
                   </div>
-                  <div className="mt-2 sm:text-base text-sm leading-6 text-center font-normal line-clamp-4 text-ellipsis">
+                  <div className="mt-2 sm:text-base text-sm leading-6 text-center font-normal line-clamp-4 text-ellipsis text-gray-800">
                     We implement 3D games and animations to captivate users' attention.
                   </div>
                   <div className="flex flex-col justify-center">
@@ -201,7 +201,7 @@ function casinoGameAppDevelopmentIndia() {
                   <div className="text-center md:text-xl sm:text-lg text-base font-medium leading-6 text-indigo-500 line-clamp-2">
                     Social gaming
                   </div>
-                  <div className="mt-2 sm:text-base text-sm leading-6 text-center font-normal line-clamp-4 text-ellipsis">
+                  <div className="mt-2 sm:text-base text-sm leading-6 text-center font-normal line-clamp-4 text-ellipsis text-gray-800">
                     Social gaming is trending, and we create the best experience of it.
                   </div>
                   <div className="flex flex-col justify-center">
@@ -219,7 +219,7 @@ function casinoGameAppDevelopmentIndia() {
                   <div className="text-center md:text-xl sm:text-lg text-base font-medium leading-6 text-violet-500 line-clamp-2">
                     Multi-Screen Slots
                   </div>
-                  <div className="mt-2 sm:text-base text-sm leading-6 text-center font-normal line-clamp-4 text-ellipsis">
+                  <div className="mt-2 sm:text-base text-sm leading-6 text-center font-normal line-clamp-4 text-ellipsis text-gray-800">
                     Users can enjoy multiple games on a multi-screen using a single device.
                   </div>
                   <div className="flex flex-col justify-center">
@@ -237,7 +237,7 @@ function casinoGameAppDevelopmentIndia() {
                   <div className="text-center md:text-xl sm:text-lg text-base font-medium leading-6 text-purple-500 line-clamp-2">
                     Multi-Payment Mode
                   </div>
-                  <div className="mt-2 sm:text-base text-sm leading-6 text-center font-normal line-clamp-4 text-ellipsis">
+                  <div className="mt-2 sm:text-base text-sm leading-6 text-center font-normal line-clamp-4 text-ellipsis text-gray-800">
                     Users can pay for the game using desired payment methods.
                   </div>
                   <div className="flex flex-col justify-center">
@@ -255,7 +255,7 @@ function casinoGameAppDevelopmentIndia() {
                   <div className="text-center md:text-xl sm:text-lg text-base font-medium leading-6 text-fuchsia-500 line-clamp-2">
                     Multiplayer Gaming
                   </div>
-                  <div className="mt-2 sm:text-base text-sm leading-6 text-center font-normal line-clamp-4 text-ellipsis">
+                  <div className="mt-2 sm:text-base text-sm leading-6 text-center font-normal line-clamp-4 text-ellipsis text-gray-800">
                     We develop casino apps that seamlessly handle multiplayer gaming.
                   </div>
                   <div className="flex flex-col justify-center">
@@ -273,7 +273,7 @@ function casinoGameAppDevelopmentIndia() {
                   <div className="text-center md:text-xl sm:text-lg text-base font-medium leading-6 text-pink-500 line-clamp-2">
                     Live Dealer Casino
                   </div>
-                  <div className="mt-2 sm:text-base text-sm leading-6 text-center font-normal line-clamp-4 text-ellipsis">
+                  <div className="mt-2 sm:text-base text-sm leading-6 text-center font-normal line-clamp-4 text-ellipsis text-gray-800">
                     Let your users experience the brick-and-mortar casino games virtually.
                   </div>
                   <div className="flex flex-col justify-center">
@@ -291,7 +291,7 @@ function casinoGameAppDevelopmentIndia() {
                   <div className="text-center md:text-xl sm:text-lg text-base font-medium leading-6 text-rose-500 line-clamp-2">
                     RNG System
                   </div>
-                  <div className="mt-2 sm:text-base text-sm leading-6 text-center font-normal line-clamp-4 text-ellipsis">
+                  <div className="mt-2 sm:text-base text-sm leading-6 text-center font-normal line-clamp-4 text-ellipsis text-gray-800">
                     It ensures fair and equal winning chances for everyone.
                   </div>
                   <div className="flex flex-col justify-center">
@@ -611,7 +611,7 @@ function casinoGameAppDevelopmentIndia() {
             <div className="max-w-[85rem] sm:px-6 lg:px-8 mx-auto">
               <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
                 <h2 className="text-2xl font-bold md:text-4xl md:leading-tight">Your questions, answered</h2>
-                <p className="mt-1 text-gray-600">Answers to the most frequently asked questions.</p>
+                <p className="mt-1 text-gray-300">Answers to the most frequently asked questions.</p>
               </div>
               <Accordion items={accordionItems} />
             </div>

@@ -217,10 +217,10 @@ function logisticssoftwaredevelopment() {
                                     <div className="*:h-12 overflow-hidden ">
                                         <Image src="/img/logo-porter.webp" width={48} height={48} alt="image" />
                                     </div>
-                                    <div className="md:text-lg sm:text-base text-sm leading-6 font-bold pt-4">
+                                    <div className="md:text-lg sm:text-base text-sm leading-6 font-bold pt-4 text-gray-900">
                                         App Like Porter
                                     </div>
-                                    <div className="mt-2 sm:text-base text-sm leading-6 text-center text-pretty">
+                                    <div className="mt-2 sm:text-base text-sm leading-6 text-center text-pretty text-gray-600">
                                         Did you know that Porter is India’s largest intra-city trucking platform, serving over 5 million customers? At Twin Power, we can assist you in developing a logistics app similar to Porter, enabling you to reach a broader audience and increase your profits.
                                     </div>
                                 </div>
@@ -233,10 +233,10 @@ function logisticssoftwaredevelopment() {
                                     <div className="*:h-12 overflow-hidden ">
                                         <Image src="/img/logo-truckloads.webp" height={48} width={48} alt="image" />
                                     </div>
-                                    <div className="md:text-lg sm:text-base text-sm leading-6 font-bold pt-4">
+                                    <div className="md:text-lg sm:text-base text-sm leading-6 font-bold pt-4 text-gray-900">
                                         App Like Truckloads
                                     </div>
-                                    <div className="mt-2 sm:text-base text-sm leading-6 text-center text-pretty">
+                                    <div className="mt-2 sm:text-base text-sm leading-6 text-center text-pretty text-gray-600">
                                         Truckloads is the largest trucking marketplace in the United States, connecting over 1 million truckers with 30,000 shippers. If you're interested in building an app like Truckloads, contact our experts today!
                                     </div>
                                 </div>
@@ -249,10 +249,10 @@ function logisticssoftwaredevelopment() {
                                     <div className="*:h-12 overflow-hidden ">
                                         <Image src="/img/logo-rxo.webp" width={48} height={48} alt="image" />
                                     </div>
-                                    <div className="md:text-lg sm:text-base text-sm leading-6 font-bold pt-4">
+                                    <div className="md:text-lg sm:text-base text-sm leading-6 font-bold pt-4 text-gray-900">
                                         App Like RXO Drive
                                     </div>
-                                    <div className="mt-2 sm:text-base text-sm leading-6 text-center text-pretty">
+                                    <div className="mt-2 sm:text-base text-sm leading-6 text-center text-pretty text-gray-600">
                                         RXO Drive has been downloaded and utilized by over 10,000 trucking companies and more than 1 million drivers, making it one of the top logistics apps available. To learn about the cost of developing an app like RXO Drive, consult our experts today!
 
                                     </div>
@@ -311,7 +311,7 @@ function logisticssoftwaredevelopment() {
                         <div className="md:pr-10 md:p-10 p-5 lg:w-1/2 md:w-1/2 w-full">
                             <div className="w-full text-center bg-gray-200 h-full group py-8 px-16 text-balance cursor-pointer shadow-lg rounded-lg flex items-center justify-center flex-col relative ">
                                 <div className="md:text-2xl text-lg text-orange-500 line-clamp-2 font-semibold">Improved Visibility and Real-Time Tracking</div>
-                                <div className="text-center text-sm line-clamp-6">Logistics apps provide businesses with real-time visibility into their supply chain activities. From tracking shipments to monitoring inventory levels, these applications offer a comprehensive overview that allows companies to respond swiftly and decisively. This transparency helps minimize errors, reduce delays, and enhance overall operational efficiency.</div>
+                                <div className="text-center text-sm line-clamp-6 text-gray-700">Logistics apps provide businesses with real-time visibility into their supply chain activities. From tracking shipments to monitoring inventory levels, these applications offer a comprehensive overview that allows companies to respond swiftly and decisively. This transparency helps minimize errors, reduce delays, and enhance overall operational efficiency.</div>
                                 <div className="size-20 bg-gray-200 absolute flex justify-center items-center rounded-full -inset-6 shadow-lg text-white">
                                     <div className="size-14 md:group-hover:bg-orange-500 border border-orange-500 z-50 bg-white text-orange-500 md:group-hover:text-white rounded-full max-w-16 p-3 relative before:absolute before:bg-white before:opacity-0 md:group-hover:before:opacity-100 before:h-5 before:w-2 before:bottom-1 before:right-1 before:duration-300 duration-300 md:group-hover:before:bg-orange-500">
                                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="30px" width="30px" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M12 6a9.77 9.77 0 0 1 8.82 5.5C19.17 14.87 15.79 17 12 17s-7.17-2.13-8.82-5.5A9.77 9.77 0 0 1 12 6m0-2C7 4 2.73 7.11 1 11.5 2.73 15.89 7 19 12 19s9.27-3.11 11-7.5C21.27 7.11 17 4 12 4zm0 5a2.5 2.5 0 0 1 0 5 2.5 2.5 0 0 1 0-5m0-2c-2.48 0-4.5 2.02-4.5 4.5S9.52 16 12 16s4.5-2.02 4.5-4.5S14.48 7 12 7z"></path></svg>
@@ -322,7 +322,7 @@ function logisticssoftwaredevelopment() {
                         <div className="md:pr-10 md:p-10 p-5 lg:w-1/2 md:w-1/2 w-full">
                             <div className="w-full text-center bg-gray-200 h-full group py-8 px-16 text-balance cursor-pointer shadow-lg rounded-lg flex items-center justify-center flex-col relative ">
                                 <div className="md:text-2xl text-lg text-amber-500 line-clamp-2 font-semibold">Cost Efficiency and Route Optimization</div>
-                                <div className="text-center text-sm line-clamp-6">Logistics apps leverage advanced route optimization algorithms to help businesses identify the most efficient and cost-effective shipping routes. By minimizing transit times and fuel consumption, companies can significantly reduce transportation costs, ultimately enhancing their profitability.</div>
+                                <div className="text-center text-sm line-clamp-6  text-gray-700">Logistics apps leverage advanced route optimization algorithms to help businesses identify the most efficient and cost-effective shipping routes. By minimizing transit times and fuel consumption, companies can significantly reduce transportation costs, ultimately enhancing their profitability.</div>
                                 <div className="size-20 bg-gray-200 absolute flex justify-center items-center rounded-full -inset-6 shadow-lg text-white">
                                     <div className="size-14 md:group-hover:bg-amber-500 border border-amber-500 z-50 bg-white text-amber-500 md:group-hover:text-white rounded-full max-w-16 p-3 relative before:absolute before:bg-white before:opacity-0 md:group-hover:before:opacity-100 before:h-5 before:w-2 before:bottom-1 before:right-1 before:duration-300 duration-300 md:group-hover:before:bg-amber-500">
                                         <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="30px" width="30px" xmlns="http://www.w3.org/2000/svg"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M9.5 3h5a1.5 1.5 0 0 1 1.5 1.5a3.5 3.5 0 0 1 -3.5 3.5h-1a3.5 3.5 0 0 1 -3.5 -3.5a1.5 1.5 0 0 1 1.5 -1.5z"></path><path d="M4 17v-1a8 8 0 1 1 16 0v1a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z"></path></svg>
@@ -333,7 +333,7 @@ function logisticssoftwaredevelopment() {
                         <div className="md:pr-10 md:p-10 p-5 lg:w-1/2 md:w-1/2 w-full">
                             <div className="w-full text-center bg-gray-200 h-full group py-8 px-16 text-balance cursor-pointer shadow-lg rounded-lg flex items-center justify-center flex-col relative ">
                                 <div className="md:text-2xl text-lg text-yellow-500 line-clamp-2 font-semibold">Enhanced Customer Experience</div>
-                                <div className="text-center text-sm line-clamp-6">
+                                <div className="text-center text-sm line-clamp-6 text-gray-700">
                                     It facilitates a seamless and satisfying customer experience. By offering features like order tracking, delivery notifications, and real-time communication, you can keep customers informed and satisfied. Meeting customer expectations for timely deliveries enhances loyalty and encourages positive feedback.</div>
                                 <div className="size-20 bg-gray-200 absolute flex justify-center items-center rounded-full -inset-6 shadow-lg text-white">
                                     <div className="size-14 md:group-hover:bg-yellow-500 border border-yellow-500 z-50 bg-white text-yellow-500 md:group-hover:text-white rounded-full max-w-16 p-3 relative ">
@@ -345,7 +345,7 @@ function logisticssoftwaredevelopment() {
                         <div className="md:pr-10 md:p-10 p-5 lg:w-1/2 md:w-1/2 w-full">
                             <div className="w-full text-center bg-gray-200 h-full group py-8 px-16 text-balance cursor-pointer shadow-lg rounded-lg flex items-center justify-center flex-col relative ">
                                 <div className="md:text-2xl text-lg text-lime-500 line-clamp-2 font-semibold">Inventory Control and Warehouse Optimization</div>
-                                <div className="text-center text-sm line-clamp-6">Efficient inventory management and warehouse optimization are critical components of successful logistics. Logistics apps enable businesses to monitor stock levels, reduce excess inventory, and prevent stockouts. These solutions help lower storage costs, improve order fulfillment, and streamline operations.</div>
+                                <div className="text-center text-sm line-clamp-6 text-gray-700">Efficient inventory management and warehouse optimization are critical components of successful logistics. Logistics apps enable businesses to monitor stock levels, reduce excess inventory, and prevent stockouts. These solutions help lower storage costs, improve order fulfillment, and streamline operations.</div>
                                 <div className="size-20 bg-gray-200 absolute flex justify-center items-center rounded-full -inset-6 shadow-lg text-white">
                                     <div className="size-14 md:group-hover:bg-lime-500 border border-lime-500 z-50 bg-white text-lime-500 md:group-hover:text-white rounded-full max-w-16 p-3 relative before:absolute before:bg-white before:opacity-0 md:group-hover:before:opacity-100 before:h-5 before:w-2 before:bottom-1 before:right-1 before:duration-300 duration-300 md:group-hover:before:bg-lime-500">
                                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="30px" width="30px" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-width="2" d="M2,22 L6,22 L6,18 L2,18 L2,22 Z M22,2 L12,12 M22,10 L22,2 L14,2 M22,13 L18,13 L18,22 L22,22 L22,13 Z M10,22 L14,22 L14,16 L10,16 L10,22 Z"></path></svg>
@@ -356,7 +356,7 @@ function logisticssoftwaredevelopment() {
                         <div className="md:pr-10 md:p-10 p-5 lg:w-1/2 md:w-1/2 w-full">
                             <div className="w-full text-center bg-gray-200 h-full group py-8 px-16 text-balance cursor-pointer shadow-lg rounded-lg flex items-center justify-center flex-col relative  ">
                                 <div className="md:text-2xl text-lg text-green-500 line-clamp-2 font-semibold">Data-Driven Decision-Making</div>
-                                <div className="text-center text-sm line-clamp-6">Businesses can leverage the extensive data generated by logistics apps to inform strategic decisions. The analytics features of these applications provide insights into various supply chain aspects, including demand forecasting, supplier performance, and transportation efficiency.</div>
+                                <div className="text-center text-sm line-clamp-6 text-gray-700">Businesses can leverage the extensive data generated by logistics apps to inform strategic decisions. The analytics features of these applications provide insights into various supply chain aspects, including demand forecasting, supplier performance, and transportation efficiency.</div>
                                 <div className="size-20 bg-gray-200 absolute flex justify-center items-center rounded-full -inset-6 shadow-lg text-white">
                                     <div className="size-14 md:group-hover:bg-green-500 border border-green-500 z-50 bg-white text-green-500 md:group-hover:text-white rounded-full max-w-16 p-3 relative before:absolute before:bg-white before:opacity-0 md:group-hover:before:opacity-100 before:h-5 before:w-2 before:bottom-1 before:right-1 before:duration-300 duration-300 md:group-hover:before:bg-green-500">
                                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="30px" width="30px" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M13 2.05v3.03c3.39.49 6 3.39 6 6.92 0 .9-.18 1.75-.48 2.54l2.6 1.53c.56-1.24.88-2.62.88-4.07 0-5.18-3.95-9.45-9-9.95zM12 19c-3.87 0-7-3.13-7-7 0-3.53 2.61-6.43 6-6.92V2.05c-5.06.5-9 4.76-9 9.95 0 5.52 4.47 10 9.99 10 3.31 0 6.24-1.61 8.06-4.09l-2.6-1.53A6.95 6.95 0 0 1 12 19z"></path></svg>
@@ -526,7 +526,7 @@ function logisticssoftwaredevelopment() {
 
                     last:*:font-bold last:*:text-theme2
                 ">
-                                <span>Benefits of Logistics  </span> <span> App Development</span>
+                                <span className="text-white">Benefits of Logistics  </span> <span> App Development</span>
 
                             </p>
 
@@ -677,7 +677,7 @@ function logisticssoftwaredevelopment() {
                         <div className="max-w-[85rem] sm:px-6 lg:px-8 mx-auto">
                             <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
                                 <h2 className="text-2xl font-bold md:text-4xl md:leading-tight">Your questions, answered</h2>
-                                <p className="mt-1 text-gray-600">Answers to the most frequently asked questions.</p>
+                                <p className="mt-1 text-gray-300">Answers to the most frequently asked questions.</p>
                             </div>
                             <Accordion items={accordionItems} />
                         </div>

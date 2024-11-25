@@ -577,7 +577,7 @@ function MobileAppDevelopmentcanada() {
                         <div className="max-w-[85rem] sm:px-6 lg:px-8 mx-auto">
                             <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
                                 <h2 className="text-2xl font-bold md:text-4xl md:leading-tight">Your questions, answered</h2>
-                                <p className="mt-1 text-gray-600">Answers to the most frequently asked questions.</p>
+                                <p className="mt-1 text-gray-300">Answers to the most frequently asked questions.</p>
                             </div>
                             <Accordion items={accordionItems} />
                         </div>

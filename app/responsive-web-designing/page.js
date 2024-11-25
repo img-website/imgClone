@@ -111,7 +111,7 @@ function responsiveWebDesigning() {
                     first:*:font-normal
 
                     last:*:font-bold last:*:text-theme2
-                "><span>Benefits Of A </span>
+                "><span className='text-white'>Benefits Of A </span>
                             <span> Responsive Website Include</span></p>
                         <div className="md:text-base text-sm text-center text-white opacity-70 mt-3 mb-lg-1  ">
                             Responsive Web design has become an essential tool for anyone with a digital presence. With the growth of smartphones, tablets and other mobile computing devices, more people are using smaller-screens to view web pages.

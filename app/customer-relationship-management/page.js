@@ -58,7 +58,7 @@ function customerRelationshipManagement() {
 
                     last:*:font-bold last:*:text-theme2
                 ">
-                                <span>Benefits Customer </span> <span> Relationship Management Software</span>
+                                <span className='text-white'>Benefits Customer </span> <span> Relationship Management Software</span>
 
                             </p>
 

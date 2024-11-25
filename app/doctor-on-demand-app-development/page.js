@@ -349,9 +349,9 @@ function DoctorDemand() {
                 first:*:font-normal
 
                 last:*:font-bold last:*:text-theme2
-            "><span>On Demand Doctor App  </span>
+            "><span className='text-white'>On Demand Doctor App  </span>
                             <span> For Various Users</span></p>
-                        <div className="md:text-base text-sm text-black/70 mt-3 text-balance">
+                        <div className="md:text-base text-sm text-white mt-3 text-balance">
                             We provide comprehensive, tailored Doctor On-Demand app solutions for clinics, doctors, and hospitals, facilitating virtual consultations and appointments.
                         </div>
                     </div>
@@ -364,7 +364,7 @@ function DoctorDemand() {
                             </a>
                             <div className="w-full p-6 text-center">
                                 <div className="group relative text-center">
-                                    <div className="md:text-2xl text-lg line-clamp-2 font-semibold">
+                                    <div className="md:text-2xl text-lg line-clamp-2 font-semibold text-black">
                                         Hospitals
                                     </div>
                                     <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">The hospitals can use the on-demand doctor app to provide online Telemedicine Services.</p>
@@ -384,7 +384,7 @@ function DoctorDemand() {
                             </a>
                             <div className="w-full p-6 text-center">
                                 <div className="group relative text-center">
-                                    <div className="md:text-2xl text-lg line-clamp-2 font-semibold">
+                                    <div className="md:text-2xl text-lg line-clamp-2 font-semibold text-black">
                                         Doctors
                                     </div>
                                     <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">Doctors can provide virtual consultations anytime, anywhere, and can manage and schedule their online appointments.</p>
@@ -404,7 +404,7 @@ function DoctorDemand() {
                             </a>
                             <div className="w-full p-6 text-center">
                                 <div className="group relative text-center">
-                                    <div className="md:text-2xl text-lg line-clamp-2 font-semibold">
+                                    <div className="md:text-2xl text-lg line-clamp-2 font-semibold text-black">
                                         Pharmacy/Labs
                                     </div>
                                     <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">The pharmacy and Laboratories can access the patient-doctor medical reports and other valuable data.</p>
@@ -433,10 +433,10 @@ function DoctorDemand() {
                 first:*:font-normal
 
                 last:*:font-bold last:*:text-theme2
-            "><span>How Does a Doctor Appointment 
+            "><span className='text-white'>How Does a Doctor Appointment 
             </span>
                             <span> Booking Application Function?</span></p>
-                        <div className="md:text-base text-sm text-black/70 mt-3 text-balance">
+                        <div className="md:text-base text-sm text-white mt-3 text-balance">
                         Here’s a brief summary of how your application will operate. When you reach out to our doctor app development team, they will design an interface that ensures your customers can easily access your services at competitive prices.
                         </div>
                     </div>
@@ -446,7 +446,7 @@ function DoctorDemand() {
                         <div className="md:pr-10 md:p-10 p-5 lg:w-1/2 md:w-1/2 w-full">
                             <div className="w-full text-center bg-gray-200 h-full group p-8 cursor-pointer shadow-lg rounded-[20px] flex items-center justify-center flex-col relative">
                                 <div className="md:text-2xl text-lg text-cyan-500 line-clamp-2 font-semibold">Search for healthcare providers</div>
-                                <div className="text-center text-sm line-clamp-6">Patients can search for healthcare providers by location, specialty, insurance accepted, availability, and other relevant factors.</div>
+                                <div className="text-center text-sm line-clamp-6 text-gray-900">Patients can search for healthcare providers by location, specialty, insurance accepted, availability, and other relevant factors.</div>
                                 <div className="size-20 bg-gray-200 absolute flex justify-center items-center rounded-full -inset-6 shadow-lg text-white">
                                     <div className="size-14 md:group-hover:bg-cyan-500 border border-cyan-500 z-50 bg-white text-cyan-500 md:group-hover:text-white rounded-full max-w-16 p-3 relative duration-300">
                                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" className="w-full h-full" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-miterlimit="10" stroke-width="32" d="M221.09 64a157.09 157.09 0 1 0 157.09 157.09A157.1 157.1 0 0 0 221.09 64z"></path><path fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M338.29 338.29 448 448"></path></svg>
@@ -457,7 +457,7 @@ function DoctorDemand() {
                         <div className="md:pr-10 md:p-10 p-5 lg:w-1/2 md:w-1/2 w-full">
                             <div className="w-full text-center bg-gray-200 h-full group p-8 cursor-pointer shadow-lg rounded-[20px] flex items-center justify-center flex-col relative">
                                 <div className="md:text-2xl text-lg text-rose-500 line-clamp-2 font-semibold">Select a provider and appointment time</div>
-                                <div className="text-center text-sm line-clamp-6">Patients can browse through the list of available providers and choose the one that meets their requirements. They can then select an available appointment time that suits their schedule.</div>
+                                <div className="text-center text-sm line-clamp-6 text-gray-900">Patients can browse through the list of available providers and choose the one that meets their requirements. They can then select an available appointment time that suits their schedule.</div>
                                 <div className="size-20 bg-gray-200 absolute flex justify-center items-center rounded-full -inset-6 shadow-lg text-white">
                                     <div className="size-14 md:group-hover:bg-rose-500 border border-rose-500 z-50 bg-white text-rose-500 md:group-hover:text-white rounded-full max-w-16 p-3 relative duration-300">
                                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" className="w-full h-full" xmlns="http://www.w3.org/2000/svg"><path d="M256 456c-110.3 0-200-89.7-200-200 0-54.8 21.7-105.9 61.2-144 6.4-6.2 16.6-6 22.7.4 6.2 6.4 6 16.6-.4 22.7-33.1 32-51.3 74.9-51.3 120.9 0 92.5 75.3 167.8 167.8 167.8S423.8 348.5 423.8 256c0-87.1-66.7-159-151.8-167.1v62.6c0 8.9-7.2 16.1-16.1 16.1s-16.1-7.2-16.1-16.1V72.1c0-8.9 7.2-16.1 16.1-16.1 110.3 0 200 89.7 200 200S366.3 456 256 456z"></path><path d="M175.9 161.9l99.5 71.5c13.5 9.7 16.7 28.5 7 42s-28.5 16.7-42 7c-2.8-2-5.2-4.4-7-7l-71.5-99.5c-3.2-4.5-2.2-10.8 2.3-14 3.6-2.6 8.3-2.4 11.7 0z"></path></svg>
@@ -468,7 +468,7 @@ function DoctorDemand() {
                         <div className="md:pr-10 md:p-10 p-5 lg:w-1/2 md:w-1/2 w-full">
                             <div className="w-full text-center bg-gray-200 h-full group p-8 cursor-pointer shadow-lg rounded-[20px] flex items-center justify-center flex-col relative">
                                 <div className="md:text-2xl text-lg text-green-500 line-clamp-2 font-semibold">Provide patient information</div>
-                                <div className="text-center text-sm line-clamp-6">Patients are required to provide their personal and medical information when booking an appointment, such as name, age, gender, medical history, and reason for the appointment.</div>
+                                <div className="text-center text-sm line-clamp-6 text-gray-900">Patients are required to provide their personal and medical information when booking an appointment, such as name, age, gender, medical history, and reason for the appointment.</div>
                                 <div className="size-20 bg-gray-200 absolute flex justify-center items-center rounded-full -inset-6 shadow-lg text-white">
                                     <div className="size-14 md:group-hover:bg-green-500 border border-green-500 z-50 bg-white text-green-500 md:group-hover:text-white rounded-full max-w-16 p-3 relative duration-300">
                                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" className="w-full h-full" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M20 7h-5V4c0-1.1-.9-2-2-2h-2c-1.1 0-2 .9-2 2v3H4c-1.1 0-2 .9-2 2v11c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2zm-9-3h2v5h-2V4zm9 16H4V9h5c0 1.1.9 2 2 2h2c1.1 0 2-.9 2-2h5v11zm-9-4H9v2H7v-2H5v-2h2v-2h2v2h2v2zm2-1.5V13h6v1.5h-6zm0 3V16h4v1.5h-4z"></path></svg>
@@ -479,7 +479,7 @@ function DoctorDemand() {
                         <div className="md:pr-10 md:p-10 p-5 lg:w-1/2 md:w-1/2 w-full">
                             <div className="w-full text-center bg-gray-200 h-full group p-8 cursor-pointer shadow-lg rounded-[20px] flex items-center justify-center flex-col relative">
                                 <div className="md:text-2xl text-lg text-violet-500 line-clamp-2 font-semibold">Confirm the appointment</div>
-                                <div className="text-center text-sm line-clamp-6">Once the patient has selected the provider, appointment time, and provided their information, they can confirm the appointment.</div>
+                                <div className="text-center text-sm line-clamp-6 text-gray-900">Once the patient has selected the provider, appointment time, and provided their information, they can confirm the appointment.</div>
                                 <div className="size-20 bg-gray-200 absolute flex justify-center items-center rounded-full -inset-6 shadow-lg text-white">
                                     <div className="size-14 md:group-hover:bg-violet-500 border border-violet-500 z-50 bg-white text-violet-500 md:group-hover:text-white rounded-full max-w-16 p-3 relative duration-300">
                                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" className="w-full h-full" xmlns="http://www.w3.org/2000/svg"><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"></path></svg>
@@ -490,7 +490,7 @@ function DoctorDemand() {
                         <div className="md:pr-10 md:p-10 p-5 lg:w-1/2 md:w-1/2 w-full">
                             <div className="w-full text-center bg-gray-200 h-full group p-8 cursor-pointer shadow-lg rounded-[20px] flex items-center justify-center flex-col relative">
                                 <div className="md:text-2xl text-lg text-amber-500 line-clamp-2 font-semibold">Receive appointment reminders</div>
-                                <div className="text-center text-sm line-clamp-6">Patients receive reminders via the app, email, or text message to ensure that they do not forget their appointment.</div>
+                                <div className="text-center text-sm line-clamp-6 text-gray-900">Patients receive reminders via the app, email, or text message to ensure that they do not forget their appointment.</div>
                                 <div className="size-20 bg-gray-200 absolute flex justify-center items-center rounded-full -inset-6 shadow-lg text-white">
                                     <div className="size-14 md:group-hover:bg-amber-500 border border-amber-500 z-50 bg-white text-amber-500 md:group-hover:text-white rounded-full max-w-16 p-3 relative duration-300">
                                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" className="w-full h-full" xmlns="http://www.w3.org/2000/svg"><path d="M928 224H768v-56c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v56H548v-56c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v56H328v-56c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v56H96c-17.7 0-32 14.3-32 32v576c0 17.7 14.3 32 32 32h832c17.7 0 32-14.3 32-32V256c0-17.7-14.3-32-32-32zm-40 568H136V296h120v56c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-56h148v56c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-56h148v56c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-56h120v496zM416 496H232c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8h184c4.4 0 8-3.6 8-8v-48c0-4.4-3.6-8-8-8zm0 136H232c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8h184c4.4 0 8-3.6 8-8v-48c0-4.4-3.6-8-8-8zm308.2-177.4L620.6 598.3l-52.8-73.1c-3-4.2-7.8-6.6-12.9-6.6H500c-6.5 0-10.3 7.4-6.5 12.7l114.1 158.2a15.9 15.9 0 0 0 25.8 0l165-228.7c3.8-5.3 0-12.7-6.5-12.7H737c-5-.1-9.8 2.4-12.8 6.5z"></path></svg>
@@ -501,7 +501,7 @@ function DoctorDemand() {
                         <div className="md:pr-10 md:p-10 p-5 lg:w-1/2 md:w-1/2 w-full">
                             <div className="w-full text-center bg-gray-200 h-full group p-8 cursor-pointer shadow-lg rounded-[20px] flex items-center justify-center flex-col relative">
                                 <div className="md:text-2xl text-lg text-fuchsia-500 line-clamp-2 font-semibold">Reschedule or cancel appointments</div>
-                                <div className="text-center text-sm line-clamp-6">If patients need to change their appointment time, they can reschedule or cancel it through the app.</div>
+                                <div className="text-center text-sm line-clamp-6 text-gray-900">If patients need to change their appointment time, they can reschedule or cancel it through the app.</div>
                                 <div className="size-20 bg-gray-200 absolute flex justify-center items-center rounded-full -inset-6 shadow-lg text-white">
                                     <div className="size-14 md:group-hover:bg-fuchsia-500 border border-fuchsia-500 z-50 bg-white text-fuchsia-500 md:group-hover:text-white rounded-full max-w-16 p-3 relative duration-300">
                                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
@@ -514,7 +514,7 @@ function DoctorDemand() {
                         <div className="md:pr-10 md:p-10 p-5 lg:w-1/2 md:w-1/2 w-full">
                             <div className="w-full text-center bg-gray-200 h-full group p-8 cursor-pointer shadow-lg rounded-[20px] flex items-center justify-center flex-col relative">
                                 <div className="md:text-2xl text-lg text-teal-500 line-clamp-2 font-semibold">Check-in for the appointment</div>
-                                <div className="text-center text-sm line-clamp-6">Patients can check-in for their appointment through the app, which helps to reduce waiting times and improve the overall patient experience.</div>
+                                <div className="text-center text-sm line-clamp-6 text-gray-900">Patients can check-in for their appointment through the app, which helps to reduce waiting times and improve the overall patient experience.</div>
                                 <div className="size-20 bg-gray-200 absolute flex justify-center items-center rounded-full -inset-6 shadow-lg text-white">
                                     <div className="size-14 md:group-hover:bg-teal-500 border border-teal-500 z-50 bg-white text-teal-500 md:group-hover:text-white rounded-full max-w-16 p-3 relative before:absolute before:bg-white before:opacity-0 md:group-hover:before:opacity-100 before:h-5 before:w-2 before:bottom-1 before:right-1 before:duration-300 duration-300 md:group-hover:before:bg-cyan-500">
                                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" className="w-full h-full" xmlns="http://www.w3.org/2000/svg"><path d="M400 64h-48V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H160V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm-6 400H54a6 6 0 0 1-6-6V160h352v298a6 6 0 0 1-6 6zm-52.849-200.65L198.842 404.519c-4.705 4.667-12.303 4.637-16.971-.068l-75.091-75.699c-4.667-4.705-4.637-12.303.068-16.971l22.719-22.536c4.705-4.667 12.303-4.637 16.97.069l44.104 44.461 111.072-110.181c4.705-4.667 12.303-4.637 16.971.068l22.536 22.718c4.667 4.705 4.636 12.303-.069 16.97z"></path></svg>
@@ -539,7 +539,7 @@ function DoctorDemand() {
                                 <h2 className='text-2xl font-bold md:text-4xl md:leading-tight'>
                                     Your questions, answered
                                 </h2>
-                                <p className='mt-1 text-gray-600'>
+                                <p className='mt-1 text-gray-300'>
                                     Answers to the most frequently asked questions.
                                 </p>
                             </div>

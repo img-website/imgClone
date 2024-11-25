@@ -54,7 +54,7 @@ function about() {
             {/* our value */}
 
             <div className='max-w-7xl mx-auto px-6 lg:px-8'>
-                <p className="max-md:text-2xl/tight pt-16 text-center max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black empty:hidden text-balance">
+                <p className="max-md:text-2xl/tight pt-16 text-center max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-white empty:hidden text-balance">
                     <span>Transparency, Dedication,  </span>
                     <span className="font-bold text-theme2"> and Impact</span>
                 </p>

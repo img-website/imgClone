@@ -229,7 +229,7 @@ function shopifyEcommerceDevelopment() {
 
                     last:*:font-bold last:*:text-theme2
                 ">
-                                <span>Shopify Development </span> <span> Services We Provide</span>
+                                <span className="text-white">Shopify Development </span> <span> Services We Provide</span>
 
                             </p>
                             <p className="md:text-base text-sm text-black/70 mt-3 text-balance text-center">
@@ -374,7 +374,7 @@ function shopifyEcommerceDevelopment() {
                     first:*:font-normal
 
                     last:*:font-bold last:*:text-theme2
-                "><span>Reasons to Opt for Shopify</span>
+                "><span className="text-white">Reasons to Opt for Shopify</span>
                             <span> Platform App Development </span></p>
                     </div>
                 </div>
@@ -525,7 +525,7 @@ function shopifyEcommerceDevelopment() {
                                 <h2 className="text-2xl font-bold md:text-4xl md:leading-tight">
                                     Your questions, answered
                                 </h2>
-                                <p className="mt-1 text-gray-600">
+                                <p className="mt-1 text-gray-300">
                                     Answers to the most frequently asked questions.
                                 </p>
                             </div>

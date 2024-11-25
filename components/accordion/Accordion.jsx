@@ -4,7 +4,7 @@ const AccordionItem = ({ title, content, isOpen, onToggle }) => {
     return (
         <div className={`rounded-xl p-6 ${isOpen ? 'bg-gray-100' : ''}`}>
             <button
-                className={`group pb-3 inline-flex items-center justify-between gap-x-3 w-full text-sm md:text-lg font-semibold text-start rounded-lg transition hover:text-gray-500 focus:outline-none focus:text-gray-500 ${isOpen ? 'text-gray-800' : 'text-gray-600'}`}
+                className={`group pb-3 inline-flex items-center justify-between gap-x-3 w-full text-sm md:text-lg font-semibold text-start rounded-lg transition hover:text-gray-500 focus:outline-none focus:text-gray-500 ${isOpen ? 'text-gray-300' : 'text-gray-300'}`}
                 aria-expanded={isOpen}
                 aria-controls={`accordion-content-${title}`}
                 onClick={onToggle}

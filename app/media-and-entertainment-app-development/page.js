@@ -235,10 +235,10 @@ function mediaandentertainmentappdevelopment() {
                        <div className="*:h-14 overflow-hidden ">
                         <Image src="/img/logo-netflix.webp" className=" qaspect-square"  width={56} height={56}  alt=" image"/>
                        </div>
-                      <div className="md:text-lg sm:text-base text-sm leading-6 font-bold pt-4">
+                      <div className="md:text-lg sm:text-base text-sm leading-6 font-bold pt-4 text-gray-900">
                         App Like Netflix
                       </div>
-                        <div className="mt-2 sm:text-base text-sm leading-6 text-center text-pretty">
+                        <div className="mt-2 sm:text-base text-sm leading-6 text-center text-pretty text-gray-600">
                         Did you know that in 2022, Netflix generated $29.7 billion in revenue, marking a 6.5% increase from 2021? If you're looking to create a successful app like Netflix and make your mark in the media and entertainment industry, connect with our expert developers today!
                         </div>
                      </div>
@@ -251,10 +251,10 @@ function mediaandentertainmentappdevelopment() {
                         <div className="*:h-14 overflow-hidden ">
                             <Image src="/img/logo-hotstar.webp" className=" aspect-square"  width={56} height={56}  alt=" image"/>
                            </div>
-                      <div className="md:text-lg sm:text-base text-sm leading-6 font-bold pt-4">
+                      <div className="md:text-lg sm:text-base text-sm leading-6 font-bold pt-4 text-gray-900">
                         App Like Hotstar
                       </div>
-                      <div className="mt-2 sm:text-base text-sm leading-6 text-center text-pretty">
+                      <div className="mt-2 sm:text-base text-sm leading-6 text-center text-pretty text-gray-600">
                       In the fiscal year 2022 (FY22), Hotstar generated INR 32.59 billion ($415 million), making it India's top OTT platform. If you're aiming to create an app like Hotstar and bring your vision to life, hire dedicated developers today!
                       </div>
                      </div>
@@ -268,10 +268,10 @@ function mediaandentertainmentappdevelopment() {
                         <div className="*:h-14 overflow-hidden ">
                             <Image src="/img/logo-inshot.webp" className=" aspect-square"  width={56} height={56} alt="image"/>
                            </div>
-                      <div className="md:text-lg sm:text-base text-sm leading-6 font-bold pt-4">
+                      <div className="md:text-lg sm:text-base text-sm leading-6 font-bold pt-4 text-gray-900">
                         App Like InShot
                       </div>
-                      <div className="mt-2 sm:text-base text-sm leading-6 text-center text-pretty">
+                      <div className="mt-2 sm:text-base text-sm leading-6 text-center text-pretty text-gray-600">
                       Start developing a top-notch video editing app similar to InShot with our expertise. We specialize in creating intuitive interfaces, robust editing tools, and seamless user experiences that guarantee a standout app. Partner with us to build an innovative platform that enables users to unleash their creativity in video editing.
                       </div>
                      </div>
@@ -283,10 +283,10 @@ function mediaandentertainmentappdevelopment() {
                         <div className="*:h-14 overflow-hidden ">
                             <Image src="/img/logo-gaana.webp" className=" aspect-square"  width={56} height={56}  alt=" image"/>
                            </div>
-                      <div className="md:text-lg sm:text-base text-sm leading-6 font-bold pt-4">
+                      <div className="md:text-lg sm:text-base text-sm leading-6 font-bold pt-4 text-gray-900">
                         App Like Gaana
                       </div>
-                      <div className="mt-2 sm:text-base text-sm leading-6 text-center text-pretty">
+                      <div className="mt-2 sm:text-base text-sm leading-6 text-center text-pretty text-gray-600">
                       Dive into the world of music streaming by developing an app similar to Gaana. We excel at designing smooth interfaces, extensive music libraries, personalized playlists, and immersive user experiences. Partner with us to reshape the music streaming landscape, enabling users to discover and enjoy their favorite tracks effortlessly.
                       </div>
                      </div>
@@ -298,10 +298,10 @@ function mediaandentertainmentappdevelopment() {
                         <div className="*:h-14 overflow-hidden ">
                             <Image src="/img/logo-vimeo.webp"  className=" aspect-square"  width={56} height={56} alt=" image"/>
                            </div>
-                      <div className="md:text-lg sm:text-base text-sm leading-6 font-bold pt-4">
+                      <div className="md:text-lg sm:text-base text-sm leading-6 font-bold pt-4 text-gray-900">
                         App Like Vimeo
                       </div>
-                      <div className="mt-2 sm:text-base text-sm leading-6 text-center text-pretty">
+                      <div className="mt-2 sm:text-base text-sm leading-6 text-center text-pretty text-gray-600">
                            Create a video-sharing app like Vimeo with our expertise. Our team specializes in developing sleek interfaces, advanced video hosting capabilities, high-quality video playback, and robust community engagement features to elevate the user experience.
                       </div>
                      </div>
@@ -348,7 +348,7 @@ function mediaandentertainmentappdevelopment() {
             <div className="md:pr-10 md:p-10 p-5 lg:w-1/2 md:w-1/2 w-full">
                 <div className="w-full text-center bg-gray-200 h-full group p-8 cursor-pointer shadow-lg rounded-lg flex items-center justify-center flex-col relative ">
                     <div className="md:text-2xl text-lg text-green-500 line-clamp-2 font-semibold">Enhancing Consumer Engagement and Interaction</div>
-                    <div className="text-center text-sm line-clamp-6">
+                    <div className="text-center text-sm line-clamp-6 text-gray-600">
                     Mobile applications in the media and entertainment sector provide businesses with a direct communication channel to their target audience. By incorporating features such as social sharing, interactive experiences, and personalized content recommendations, companies can foster stronger connections with users, ultimately boosting customer retention and brand loyalty.
                     </div>
                     <div className="size-20 bg-gray-200 absolute flex justify-center items-center rounded-full -inset-6 shadow-lg text-white">
@@ -363,7 +363,7 @@ function mediaandentertainmentappdevelopment() {
                     <div className="md:text-2xl text-lg text-emerald-500 line-clamp-2 font-semibold">
                       Monetization Opportunities
                      </div>
-                    <div className="text-center text-sm line-clamp-6">
+                    <div className="text-center text-sm line-clamp-6 text-gray-600">
                       Media and entertainment apps offer a range of monetization strategies, such as in-app purchases, subscription models, and advertising. By adopting the right approach, businesses can tap into new revenue streams and capitalize on the increasing demand for digital content consumption.
                     </div>
                     <div className="size-20 bg-gray-200 absolute flex justify-center items-center rounded-full -inset-6 shadow-lg text-white">
@@ -376,7 +376,7 @@ function mediaandentertainmentappdevelopment() {
             <div className="md:pr-10 md:p-10 p-5 lg:w-1/2 md:w-1/2 w-full">
                 <div className="w-full text-center bg-gray-200 h-full group p-8 cursor-pointer shadow-lg rounded-lg flex items-center justify-center flex-col relative ">
                     <div className="md:text-2xl text-lg text-teal-500 line-clamp-2 font-semibold">Worldwide Reach and Accessibility</div>
-                    <div className="text-center text-sm line-clamp-6">
+                    <div className="text-center text-sm line-clamp-6 text-gray-600">
                     With app development, businesses can access a global audience without geographic constraints. This expanded reach not only broadens the potential customer base but also allows companies to tailor their content to the diverse cultural preferences of their audience, facilitating entry into international markets.
                     </div>
                     <div className="size-20 bg-gray-200 absolute flex justify-center items-center rounded-full -inset-6 shadow-lg text-white">
@@ -391,7 +391,7 @@ function mediaandentertainmentappdevelopment() {
                     <div className="md:text-2xl text-lg text-cyan-500 line-clamp-2 font-semibold">
                     Insights Driven by Data
                       </div>
-                    <div className="text-center text-sm line-clamp-6">
+                    <div className="text-center text-sm line-clamp-6 text-gray-600">
                     Media and entertainment apps generate valuable user data that can guide strategic decisions. By analyzing user behavior, preferences, and engagement patterns, businesses can gain crucial insights to enhance user experiences, refine content strategies, and optimize marketing efforts.
                     </div>
                     <div className="size-20 bg-gray-200 absolute flex justify-center items-center rounded-full -inset-6 shadow-lg text-white">
@@ -406,7 +406,7 @@ function mediaandentertainmentappdevelopment() {
                     <div className="md:text-2xl text-lg text-sky-500 line-clamp-2 font-semibold">
                     Technological Innovation and Differentiation
                     </div>
-                    <div className="text-center text-sm line-clamp-6">
+                    <div className="text-center text-sm line-clamp-6 text-gray-600">
                     In the digital age, constant innovation is essential for staying competitive. By developing media and entertainment apps, businesses can leverage advanced technologies such as augmented reality, virtual reality, and artificial intelligence to craft immersive and unique experiences for users.
                     </div>
                     <div className="size-20 bg-gray-200 absolute flex justify-center items-center rounded-full -inset-6 shadow-lg text-white">
@@ -921,7 +921,7 @@ function mediaandentertainmentappdevelopment() {
                         <div className="max-w-[85rem] sm:px-6 lg:px-8 mx-auto">
                             <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
                                 <h2 className="text-2xl font-bold md:text-4xl md:leading-tight">Your questions, answered</h2>
-                                <p className="mt-1 text-gray-600">Answers to the most frequently asked questions.</p>
+                                <p className="mt-1 text-gray-300">Answers to the most frequently asked questions.</p>
                             </div>
                             <Accordion items={accordionItems} />
                         </div>

@@ -78,10 +78,10 @@ function inventorymanagementsoftware() {
 
                         last:*:font-bold last:*:text-theme2
                     ">
-                                    <span className="font-normal">Innovative and User-Focused Web Development   </span> <span className="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-theme2">Company Delivering Impactful Results</span>
+                                    <span className="font-normal text-white">Innovative and User-Focused Web Development   </span> <span className="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-theme2">Company Delivering Impactful Results</span>
 
                                 </p>
-                                <p className="mt-4 text-sm md:text-base leading-7 text-slate-600">
+                                <p className="mt-4 text-sm md:text-base leading-7 text-slate-300">
                                 Twin Power Software is a leading custom web development company with a strong presence in India, the USA, and the UK. Our team of experienced developers creates high-quality B2C and B2B websites, catering to businesses of all sizes across various industry verticals, including data analysis, eLearning, adtech, healthcare, eCommerce, and finance.
                                 </p>
                                
@@ -113,7 +113,7 @@ function inventorymanagementsoftware() {
                 first:*:font-normal
 
                 last:*:font-bold last:*:text-theme2
-            "><span>Advantages Of </span> 
+            "><span className='text-white'>Advantages Of </span> 
                 <span> Inventory Software</span></p>
            
         </div>
