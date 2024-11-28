@@ -84,7 +84,7 @@ function page() {
                             </span>
                             <span className="font-bold text-theme2"> App Development Journey</span>
                         </p>
-                        <div className="md:text-base text-sm text-black/70 mt-3 text-center">
+                        <div className="md:text-base text-sm text-white mt-3 text-center">
                             We believe our employees are our greatest strength, and our goals can only be achieved with full team alignment. That’s why we prioritize our team in everything we do.
                         </div>
                     </div>

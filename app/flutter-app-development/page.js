@@ -172,7 +172,7 @@ function flutterappdevelopment() {
                                 <span className='text-white'>Android App</span> <span> Development Services</span>
 
                             </p>
-                            <p className="md:text-base text-sm text-black/70 mt-3 text-balance text-center">Next-Gen Android App Development Beside Professional Excellence</p>
+                            <p className="md:text-base text-sm text-white mt-3 text-balance text-center">Next-Gen Android App Development Beside Professional Excellence</p>
                         </div>
 
                         <div class="grid lg:grid-cols-3 gap-y-8 sm:grid-cols-2 gap-3 mx-auto px-4  relative">
@@ -373,10 +373,10 @@ function flutterappdevelopment() {
 
                                 last:*:font-bold last:*:text-theme2
                             ">
-                             <span>Your Questions, </span> <span> Answered</span>
+                             <span className='text-white'>Your Questions, </span> <span> Answered</span>
 
                             </p>
-                                <p className="mt-1 text-gray-600">Answers to the most frequently asked questions.</p>
+                                <p className="mt-1 text-gray-300">Answers to the most frequently asked questions.</p>
                             </div>
                             <Accordion items={accordionItems} />
                         </div>

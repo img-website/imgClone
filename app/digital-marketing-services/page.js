@@ -304,7 +304,7 @@ function digitalmarketingservices() {
                         first:*:font-normal
 
                         last:*:font-bold last:*:text-theme2
-                    ">            <span>Why Choose Twin Power for </span>
+                    ">            <span className="text-white">Why Choose Twin Power for </span>
                   <span> Your Digital Success?</span>
                 </p>
                 <div className="md:text-base text-sm opacity-70 mt-3 mb-lg-1">      To thrive in today’s competitive landscape, partnering with a reputable digital marketing company is essential. You need an ally like Twin Power, who understands the complexities of the ever-evolving digital landscape. Our expertise ensures that you stay ahead of the curve in this dynamic environment.

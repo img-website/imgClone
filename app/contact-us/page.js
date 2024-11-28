@@ -32,7 +32,7 @@ function page() {
           </div>
         </div></div>
       <Form />
-      <div className="w-full max-w-7xl mx-auto px-6 lg:px-8 relative z-10 rounded-xl shadow-xl bg-gray-100 pb-10 -mt-10 max-lg:text-center flex flex-wrap py-12 my-8 gap-y-10 border-y border-white/20">
+      <div className="w-full max-w-7xl mx-auto px-6 lg:px-8 relative z-10 rounded-xl shadow-xl bg-gray-100 pb-10 -mt-10 max-lg:text-center flex flex-wrap py-12 my-8 gap-y-10 border-y border-white/20 text-black">
         <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/3">
           <div className="flex flex-col w-full px-3 text-sm lg:text-base">
             <div className="w-full font-bold text-base lg:text-lg pb-4">Corporate Office</div>

@@ -232,7 +232,7 @@ function shopifyEcommerceDevelopment() {
                                 <span className="text-white">Shopify Development </span> <span> Services We Provide</span>
 
                             </p>
-                            <p className="md:text-base text-sm text-black/70 mt-3 text-balance text-center">
+                            <p className="md:text-base text-sm text-white mt-3 text-balance text-center">
                                 We provide comprehensive Shopify services that enhance functionality, track performance, optimize sales channels, manage inventory, and much more.
                             </p>
                         </div>

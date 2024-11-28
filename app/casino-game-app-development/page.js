@@ -147,7 +147,7 @@ function casinoGameAppDevelopment() {
                   <div className="text-center md:text-xl sm:text-lg text-base font-medium leading-6 text-cyan-500 ">
                     Multi-language support
                   </div>
-                  <div className="mt-2 sm:text-base text-sm leading-6 text-center font-normal line-clamp-4 text-ellipsis">
+                  <div className="mt-2 sm:text-base text-sm leading-6 text-center font-normal text-gray-800 line-clamp-4 text-ellipsis">
                     Using a single app, you can target international customers.
                   </div>
                   <div className="flex flex-col justify-center">
@@ -165,7 +165,7 @@ function casinoGameAppDevelopment() {
                   <div className="text-center md:text-xl sm:text-lg text-base font-medium leading-6 text-sky-500 ">
                     Anti-Fraud Mechanism
                   </div>
-                  <div className="mt-2 sm:text-base text-sm leading-6 text-center font-normal line-clamp-4 text-ellipsis">
+                  <div className="mt-2 sm:text-base text-sm leading-6 text-center font-normal line-clamp-4 text-ellipsis text-gray-800">
                     All our casino apps use anti-fraud mechanisms for safety.
                   </div>
                   <div className="flex flex-col justify-center">
@@ -183,7 +183,7 @@ function casinoGameAppDevelopment() {
                   <div className="text-center md:text-xl sm:text-lg text-base font-medium leading-6 text-blue-500 ">
                     3D &amp; Animation
                   </div>
-                  <div className="mt-2 sm:text-base text-sm leading-6 text-center font-normal line-clamp-4 text-ellipsis">
+                  <div className="mt-2 sm:text-base text-sm leading-6 text-center font-normal line-clamp-4 text-ellipsis text-gray-800">
                     We implement 3D games and animations to captivate users' attention.
                   </div>
                   <div className="flex flex-col justify-center">
@@ -201,7 +201,7 @@ function casinoGameAppDevelopment() {
                   <div className="text-center md:text-xl sm:text-lg text-base font-medium leading-6 text-indigo-500 line-clamp-2">
                     Social gaming
                   </div>
-                  <div className="mt-2 sm:text-base text-sm leading-6 text-center font-normal line-clamp-4 text-ellipsis">
+                  <div className="mt-2 sm:text-base text-sm leading-6 text-center font-normal line-clamp-4 text-ellipsis text-gray-800">
                     Social gaming is trending, and we create the best experience of it.
                   </div>
                   <div className="flex flex-col justify-center">
@@ -219,7 +219,7 @@ function casinoGameAppDevelopment() {
                   <div className="text-center md:text-xl sm:text-lg text-base font-medium leading-6 text-violet-500 line-clamp-2">
                     Multi-Screen Slots
                   </div>
-                  <div className="mt-2 sm:text-base text-sm leading-6 text-center font-normal line-clamp-4 text-ellipsis">
+                  <div className="mt-2 sm:text-base text-sm leading-6 text-center font-normal line-clamp-4 text-ellipsis text-gray-800">
                     Users can enjoy multiple games on a multi-screen using a single device.
                   </div>
                   <div className="flex flex-col justify-center">
@@ -237,7 +237,7 @@ function casinoGameAppDevelopment() {
                   <div className="text-center md:text-xl sm:text-lg text-base font-medium leading-6 text-purple-500 line-clamp-2">
                     Multi-Payment Mode
                   </div>
-                  <div className="mt-2 sm:text-base text-sm leading-6 text-center font-normal line-clamp-4 text-ellipsis">
+                  <div className="mt-2 sm:text-base text-sm leading-6 text-center font-normal line-clamp-4 text-ellipsis text-gray-800">
                     Users can pay for the game using desired payment methods.
                   </div>
                   <div className="flex flex-col justify-center">
@@ -255,7 +255,7 @@ function casinoGameAppDevelopment() {
                   <div className="text-center md:text-xl sm:text-lg text-base font-medium leading-6 text-fuchsia-500 line-clamp-2">
                     Multiplayer Gaming
                   </div>
-                  <div className="mt-2 sm:text-base text-sm leading-6 text-center font-normal line-clamp-4 text-ellipsis">
+                  <div className="mt-2 sm:text-base text-sm leading-6 text-center font-normal line-clamp-4 text-ellipsis text-gray-800">
                     We develop casino apps that seamlessly handle multiplayer gaming.
                   </div>
                   <div className="flex flex-col justify-center">
@@ -273,7 +273,7 @@ function casinoGameAppDevelopment() {
                   <div className="text-center md:text-xl sm:text-lg text-base font-medium leading-6 text-pink-500 line-clamp-2">
                     Live Dealer Casino
                   </div>
-                  <div className="mt-2 sm:text-base text-sm leading-6 text-center font-normal line-clamp-4 text-ellipsis">
+                  <div className="mt-2 sm:text-base text-sm leading-6 text-center font-normal line-clamp-4 text-ellipsis text-gray-800">
                     Let your users experience the brick-and-mortar casino games virtually.
                   </div>
                   <div className="flex flex-col justify-center">
@@ -291,7 +291,7 @@ function casinoGameAppDevelopment() {
                   <div className="text-center md:text-xl sm:text-lg text-base font-medium leading-6 text-rose-500 line-clamp-2">
                     RNG System
                   </div>
-                  <div className="mt-2 sm:text-base text-sm leading-6 text-center font-normal line-clamp-4 text-ellipsis">
+                  <div className="mt-2 sm:text-base text-sm leading-6 text-center font-normal line-clamp-4 text-ellipsis text-gray-800">
                     It ensures fair and equal winning chances for everyone.
                   </div>
                   <div className="flex flex-col justify-center">

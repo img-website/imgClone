@@ -503,7 +503,7 @@ function foodDeliveryAppDevelopment() {
 
                 last:*:font-bold last:*:text-theme2
             ">
-                            <span>What Are the Advantages of Custom Food Delivery App </span>
+                            <span className="text-white">What Are the Advantages of Custom Food Delivery App </span>
                             <span> Development Compared to Off-the-Shelf Solutions?</span>
 
                         </p>

@@ -110,7 +110,7 @@ function websiteRedesigning() {
                     first:*:font-normal
 
                     last:*:font-bold last:*:text-theme2
-                "><span>Benefits Of A  </span>
+                "><span className='text-white'>Benefits Of A  </span>
                             <span> Website Redesigning Include</span></p>
                         <div className="md:text-base text-sm text-center text-white opacity-70 mt-3 mb-lg-1">
                             When we redesign your website, our primary goal is to improve your bottom line. Your new site will get you more traffic, drive more leads, and ultimately increase your revenue.

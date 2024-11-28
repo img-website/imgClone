@@ -182,7 +182,7 @@ function fantasysportsappdevelopment() {
                 <span className='text-white'>Next-Gen Fantasy App and </span> <span> Web Development Services</span>
 
               </p>
-              <p className="md:text-base text-sm text-black/70 mt-3 text-balance text-center">Whether you're interested in building a mobile fantasy sports app for on-the-go users or want to connect with billions through a comprehensive fantasy sports website, our innovative fantasy sports software development services have you covered.</p>
+              <p className="md:text-base text-sm text-white mt-3 text-balance text-center">Whether you're interested in building a mobile fantasy sports app for on-the-go users or want to connect with billions through a comprehensive fantasy sports website, our innovative fantasy sports software development services have you covered.</p>
             </div>
 
             <div className="w-full grid sm:grid-cols-2  lg:grid-cols-3 gap-8">
